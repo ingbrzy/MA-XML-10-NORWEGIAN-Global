@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d minutter siden</item>
+        <item quantity="one">%1$d minutt siden</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d timer siden</item>
+        <item quantity="one">%1$d time siden</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d dager siden</item>
+        <item quantity="one">%1$d dag siden</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="one">Lastet ned av %1$d personer</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="one">Lastet ned av %1$d personer</item>
+    </plurals>
+    <plurals name="million">
+        <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="one">Lastet ned av %1$d personer</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$s views</item>
+        <item quantity="one">%1$s visninger</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">%d grupper</item>
+        <item quantity="one">%d gruppe</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_confirm">
+        <item quantity="other">Slette %d bilder?</item>
+        <item quantity="one">Slette %d bilde?</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_from_all_devices_confirm">
+        <item quantity="other">Slette %1$s bilder fra alle enheter?</item>
+        <item quantity="one">Slette %1$s bilde fra alle enheter?</item>
+    </plurals>
+    <plurals name="deepclean_cache_summary">
+        <item quantity="other">Du kan tømme uviktige data for %d apper</item>
+        <item quantity="one">Du kan tømme uviktige data for %d apper</item>
+    </plurals>
+    <plurals name="deepclean_app_summary">
+        <item quantity="other">%d apper installert, du kan slette disse</item>
+        <item quantity="one">%d app installert, du kan slette denne</item>
+    </plurals>
+    <plurals name="deepclean_large_summary">
+        <item quantity="other">Fant %d store filer, du kan slette disse</item>
+        <item quantity="one">Fant %d stor fil, du kan slette denne</item>
+    </plurals>
+    <plurals name="deepclean_similar_summary">
+        <item quantity="other">Fant %d bilder, du kan slette duplikater og overflødige bilder</item>
+        <item quantity="one">Fant %d bilde, du kan slette duplikater og overflødige bilder</item>
+    </plurals>
+    <plurals name="deepclean_apk_summary">
+        <item quantity="other">Fant %d APKer, du kan slette disse.</item>
+        <item quantity="one">Fant %d APK, du kan slette denne.</item>
+    </plurals>
+    <plurals name="deepclean_video_summary">
+        <item quantity="other">Fant %d videoer, du kan slette disse</item>
+        <item quantity="one">Fant %d video, du kan slette denne.</item>
+    </plurals>
+    <plurals name="deepclean_install_info_desc1">
+        <item quantity="other">%d apper installert</item>
+        <item quantity="one">%d app installert</item>
+    </plurals>
+    <plurals name="wechat_copy_video_failed_dialog_msg">
+        <item quantity="other">Kunne ikke eksportere %d videoer. Frigjør lagringsplass og prøv igjen.</item>
+        <item quantity="one">Kunne ikke eksportere %d video. Frigjør lagringsplass og prøv igjen.</item>
+    </plurals>
+    <plurals name="wechat_empty_files">
+        <item quantity="other">(%1$d empty files)</item>
+        <item quantity="one">(%1$d tommer filer)</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">Ikke brukt på %d dager</item>
+        <item quantity="one">Ikke brukt på %d dag</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">Ikke brukt på %d måneder</item>
+        <item quantity="one">Ikke brukt på %d måneder</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">Ikke brukt på %d år</item>
+        <item quantity="one">Ikke brukt på %d år</item>
+    </plurals>
+    <plurals name="resutl_function_install_app_summary">
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> apper har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> app har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
+    </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"Cleaning %1$d files,%2$d finished 
+"</item>
+        <item quantity="one">"Cleaning %1$d file,%2$d finished 
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d%% items/second remained time:%2$s</item>
+        <item quantity="one">%1$d%% items/second remained time:%2$s</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d timer</item>
+        <item quantity="one">%1$d time</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d minutter</item>
+        <item quantity="one">%1$d minutt</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+</resources>

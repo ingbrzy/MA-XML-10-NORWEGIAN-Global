@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">%1$d+ ulest</item>
+        <item quantity="one">%1$d+ ulest</item>
+    </plurals>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">%1$d ulest</item>
+        <item quantity="one">%1$d ulest</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Arkivere disse %1$d samtalene?</item>
+        <item quantity="one">Arkivere denne samtalen?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Slette disse %1$d samtalene?</item>
+        <item quantity="one">Slette denne samtalen?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation_with_sub">
+        <item quantity="other">Disse samtalene inneholder sammenslåtte elementer. Slette dem uansett?</item>
+        <item quantity="one">Denne samtalen inneholder sammenslåtte elementer. Slette det uansett?</item>
+    </plurals>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">Slette %1$d utkast?</item>
+        <item quantity="one">Slette %1$d utkast?</item>
+    </plurals>
+    <plurals name="contact_num_selected">
+        <item quantity="other">%d valgt</item>
+        <item quantity="one">%d valgt</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> arkivert.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> arkivert.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> slettet.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> slettet.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Endrede mapper.</item>
+        <item quantity="one">Endret mappe.</item>
+    </plurals>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d andre personer</item>
+        <item quantity="one">+%1$d annen person</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> dempet</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> dempet.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b>" meldinger som er fjernet fra 'viktig'-mappe"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" fjernet fra 'viktig'-mappe"</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b>" fjernet fra 'søppelpost'-mappe"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" fjernet fra 'søppelpost'-mappe"</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&lt;b>%1$d&lt;/b> meldinger rapportert som søppelpost</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> melding rapportert som søppelpost</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> merket som søppelpost</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> merket som søppelpost</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="day_after">
+        <item quantity="other">Om %d dager</item>
+        <item quantity="one">Om %d dag</item>
+    </plurals>
+    <plurals name="day_before">
+        <item quantity="other">%d dager siden</item>
+        <item quantity="one">%d dag siden</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Utkast</item>
+        <item quantity="one">Utkast</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d meldingenene vil slettes permanent.</item>
+        <item quantity="one">%1$d meldingen vil slettes permanent.</item>
+    </plurals>
+    <plurals name="hide_atts_remaining">
+        <item quantity="other">Hide %1$d vedlegg</item>
+        <item quantity="one">Hide %1$d vedlegg</item>
+    </plurals>
+    <plurals name="local_search_result">
+        <item quantity="other">%s resultater i synkroniserte meldinger</item>
+        <item quantity="one">%s resultat i synkroniserte meldinger</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">%d måneder</item>
+        <item quantity="one">%d måned</item>
+    </plurals>
+    <plurals name="more_atts_remaining">
+        <item quantity="other">%1$d gjenstående vedlegg</item>
+        <item quantity="one">%1$d gjenstående vedlegg</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Flytt %1$d samtaler</item>
+        <item quantity="one">Flytt samtale</item>
+    </plurals>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">Vis %1$d nye meldinger.</item>
+        <item quantity="one">Vis %1$d ny melding.</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nye meldinger</item>
+        <item quantity="one">%1$d ny melding</item>
+    </plurals>
+    <plurals name="num_selected">
+        <item quantity="other">%d valgt</item>
+        <item quantity="one">%d valgt</item>
+    </plurals>
+    <plurals name="quick_reply_hint">
+        <item quantity="other">Svar til %1$d personer</item>
+        <item quantity="one">Svar til %1$d person</item>
+    </plurals>
+    <plurals name="remote_search_result">
+        <item quantity="other">%s resultater i alle kontoer</item>
+        <item quantity="one">%s resultat i alle kontoer</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d eldre meldinger</item>
+        <item quantity="one">%1$d gammel melding</item>
+    </plurals>
+    <plurals name="unsent_messages_in_outbox">
+        <item quantity="other">%1$s usendte meldinger i %2$s</item>
+        <item quantity="one">%1$s usendt melding i %2$s</item>
+    </plurals>
+</resources>

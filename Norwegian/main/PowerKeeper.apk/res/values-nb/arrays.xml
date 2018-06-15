@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hmode_app_groups">
+        <item>Tilpasset</item>
+        <item>Batterisparer</item>
+    </string-array>
+    <string-array name="thermal_entries">
+        <item>Standard temperatur kontrollmodus</item>
+        <item>Ytelsesmodus</item>
+    </string-array>
+    <string-array name="thermal_summaries">
+        <item>Gjeldende temperaturkontrollmodus</item>
+        <item>Gjeldende ytelsesmodus</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Ytelse</item>
+        <item>Balansert</item>
+    </string-array>
+</resources>

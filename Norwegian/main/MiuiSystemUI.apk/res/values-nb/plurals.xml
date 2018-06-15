@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">Åpnet Nylige, tilgjengelige apper: %d.</item>
+        <item quantity="one">Åpnet Nylige, tilgjengelige app: %d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">Åpnet Nylige, tilgjengelige app: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
+        <item quantity="one">Åpnet Nylige, tilgjengelige apper: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">Hiding notifications from %1$s &amp; %2$d apps.</item>
+        <item quantity="one">Skjule varsler fra %1$s &amp; %2$d apper.</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">Skjule %d varsler fra app?</item>
+        <item quantity="one">Skjule denne appens varslinger?</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d viktige varsler</item>
+        <item quantity="one">%d viktig varsel</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
+        <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
+        <item quantity="one">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Enheten har ikke blitt låst opp de siste %d timene. Bekreft passordet.</item>
+        <item quantity="one">Enheten har ikke blitt låst opp på %d time. Bekreft passordet.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Enheten har ikke blitt låst opp de siste %d timene. Bekreft mønsteret.</item>
+        <item quantity="one">Enheten har ikke blitt låst opp på %d time. Bekreft mønsteret.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Enheten har ikke blitt låst opp de siste %d timene. Bekreft PIN-koden.</item>
+        <item quantity="one">Enheten har ikke blitt låst opp på %d time. Bekreft PIN-koden.</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="other">%1$s, %2$s, and %3$d andre</item>
+        <item quantity="one">%1$s, %2$s, and %3$d annen</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s til varsler inni.</item>
+        <item quantity="one">%s flere varsler inni.</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="other">1 av %d varslingskategorier fra denne appen</item>
+        <item quantity="one">1 av %d varslingskategorier fra denne appen</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d skifteknapper over denne linjen er aktive</item>
+        <item quantity="one">%1$d skifteknapp over denne linjen er aktiv</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skjermer i Oversikt</item>
+        <item quantity="one">1 skjermer i Oversikt</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Klart</item>
+        <item quantity="one">Klart</item>
+    </plurals>
+</resources>
