@@ -387,15 +387,15 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="second_space_desktop_tips_dialog_title">Viktig oppdatering</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Skjønner</string>
     <string name="second_space_desktop_tips_dialog_message">Etter denne oppdateringen vil ikonene for flytting av data og administrering av Andre område ikke lenger vises på startskjermen. Du vil kunne få tilgang til de tilhørende funksjonene i Innstillingene.</string>
-    <string name="green_guard">Parental controls</string>
-    <string name="bind_device">Add devices</string>
+    <string name="green_guard">Foreldrekontroll</string>
+    <string name="bind_device">Legg til enheter</string>
     <string name="green_guard_des1">Legg til enheter for å fjernadministrere dem</string>
     <string name="green_guard_title2">Se plasseringsinformasjon</string>
     <string name="green_guard_des2">Vit nøyaktig hvor alle de administrerte enhetene befinner seg</string>
     <string name="green_guard_title3">Behandle apper</string>
     <string name="green_guard_des3">Kontroller de installerte appene og begrens bruken</string>
     <string name="experience_more_features">Legg til en enhet for å se alle funksjonene</string>
-    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="can_not_switch_when_green_kid_active">Bytting til Andre område er begrenset av foreldrekontroll</string>
     <string name="need_network_when_bind">Koble til nettverket før du legger til enheter</string>
-    <string name="this_function_can_not_use_in_second_space">This feature can only be used in First space</string>
+    <string name="this_function_can_not_use_in_second_space">Denne funksjonen kan bli brukt i Første område</string>
 </resources>

@@ -3,7 +3,7 @@
     <string name="camera_setting">Kamera</string>
     <string name="path_settings">System-apper/Kamera/Innstillinger</string>
     <string name="search_settings">Kamerainnstillinger;Kvalitet;Bildekvalitet;Bildeplassering;Bildeplassering;Ansiktsgjenkjenning;Kameralyd</string>
-    <string name="hibernate_hint">Tap the screen to wake Camera</string>
+    <string name="hibernate_hint">Trykk på skjermen for å vekke kameraet</string>
     <string name="camera_error_title">Kamerafeil</string>
     <string name="cannot_connect_camera_once">Kan ikke koble til kameraet</string>
     <string name="cannot_connect_camera_twice">Kan fremdeles ikke koble til kameraet. Prøv å starte enheten din på nytt.</string>
@@ -32,13 +32,15 @@
     <string name="pref_front_mirror_title">Speil frontkamera</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_hfr_title">Video HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
-    <string name="pref_video_encoder_title">Video encoder</string>
-    <string name="pref_video_encoder_entry_h264">H.264 High compatibility</string>
-    <string name="pref_video_encoder_entry_h265">H.265 High performance</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_video_encoder_title">Video-omkoder</string>
+    <string name="pref_video_encoder_entry_h264">H.264 High kompatibilitet</string>
+    <string name="pref_video_encoder_entry_h265">H.265 Høy ytelse</string>
     <string name="pref_video_time_lapse_frame_interval_title">Intervallopptak</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0,06-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (0,12-sekunders intervall)</string>
@@ -409,7 +411,7 @@
     <string name="dual_camera_lens_covered_toast">Linsen er dekket.</string>
     <string name="dual_camera_use_hint">Pass på at objektet er mindre enn 2 meter fra deg.</string>
     <string name="bokeh_use_hint">Dybdeeffekt</string>
-    <string name="back_bokeh_use_hint">"Make sure the object isn't further than 1.5 meters."</string>
+    <string name="back_bokeh_use_hint">Pass på at objektet er mindre enn 1,5 meter fra deg.</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">LINSE</string>
@@ -427,6 +429,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Skru av kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -441,6 +444,7 @@ og bringer frem mennesker som er foran."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
@@ -484,21 +488,21 @@ og så opprette et bilde som har minimalt med støy."</string>
     <string name="config_name_super_resolution">Super oppløsning</string>
     <string name="beauty_fragment_tab_name_beauty">Skjønnhet</string>
     <string name="beauty_fragment_tab_name_makeup">Avansert</string>
-    <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
-    <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">Skjønnhet</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">Modernisering</string>
     <string name="edit_skin_white">Hudfarge</string>
     <string name="edit_skin_smooth">Glatt</string>
     <string name="edit_eye_large">Store øyne</string>
     <string name="edit_face_slender">Slank</string>
     <string name="edit_face_ruddy">Rødmusset</string>
-    <string name="edit_nose">Nose</string>
-    <string name="edit_risorius">Risorius</string>
-    <string name="edit_lips">Lips</string>
-    <string name="edit_chin">Chin</string>
-    <string name="edit_neck">Neck</string>
-    <string name="edit_smile">Smile</string>
-    <string name="edit_slim_nose">Nose</string>
-    <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
+    <string name="edit_nose">Nese</string>
+    <string name="edit_risorius">Lattermuskel</string>
+    <string name="edit_lips">Lepper</string>
+    <string name="edit_chin">Kinn</string>
+    <string name="edit_neck">Hals</string>
+    <string name="edit_smile">Smil</string>
+    <string name="edit_slim_nose">Nese</string>
+    <string name="popup_tip_3d_beauty_intro_text">3D-skjønnhet</string>
     <string name="sticker_tab1">Søt</string>
     <string name="sticker_tab2">Morsom</string>
     <string name="user_agreement2">Vilkår for bruk</string>
@@ -528,11 +532,11 @@ hvis du roterer telefonen din"</string>
 aog optimerer bildene dine basert på denne informasjonen"</string>
     <string name="pref_camera_asd_popup_title">Varsle når blits er nødvendig</string>
     <string name="pref_video_captrue_ability_title">Bildefanger under opptak</string>
-    <string name="face_analyze_info">Age: %2$s (%1$s)</string>
+    <string name="face_analyze_info">Alder: %2$s (%1$s)</string>
     <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
-    <string name="pref_camera_picturesize_entry_fullscreen">Full screen 16:9</string>
-    <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
-    <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
-    <string name="lens_dirty_detected_content">"It is detected that your camera lens is dirty,
-please clean your camera lens for better picture."</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Full skjerm 16:9</string>
+    <string name="lens_dirty_detected_title_back">Kameralinsen bak er skitten</string>
+    <string name="lens_dirty_detected_title_front">Kameralinsen foran er skitten</string>
+    <string name="lens_dirty_detected_content">"Det ser ut til at kameralinsen er skitten.
+Rengjør linsen for bedre effekt."</string>
 </resources>

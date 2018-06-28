@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="delete_confirm_multiple_files">
+        <item quantity="other">Slette %d valgte filer?</item>
+        <item quantity="one">Slette %d valgte fil?</item>
+    </plurals>
     <plurals name="notif_receive_cancel">
-        <item quantity="other">Canceled transfer from %1$s</item>
-        <item quantity="one">Canceled transfer from %1$s</item>
+        <item quantity="other">Avbrøt overføring fra %1$s</item>
+        <item quantity="one">Avbrøt overføring fra %1$s</item>
     </plurals>
     <plurals name="notif_receive_progress">
-        <item quantity="other">Receiving %1$s files…</item>
-        <item quantity="one">Receiving %1$s file…</item>
+        <item quantity="other">Mottar %1$s fierl…</item>
+        <item quantity="one">Mottar %1$s fil…</item>
     </plurals>
     <plurals name="notif_receive_success">
-        <item quantity="other">Received files from %1$s successfully</item>
-        <item quantity="one">Received file from %1$s successfully</item>
+        <item quantity="other">Mottok filer fra %1$s</item>
+        <item quantity="one">Mottok fil fra %1$s</item>
     </plurals>
     <plurals name="receiver_file_num">
-        <item quantity="other">%2$d files from %1$s</item>
-        <item quantity="one">%2$d file from %1$s</item>
+        <item quantity="other">%2$d filer fra %1$s</item>
+        <item quantity="one">%2$d fil fra %1$s</item>
+    </plurals>
+    <plurals name="selected_file_num">
+        <item quantity="other">Selected %d items</item>
+        <item quantity="one">Selected %d item</item>
     </plurals>
     <plurals name="sender_file_num">
-        <item quantity="other">%1$d items</item>
-        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="transfer_list_received_header">
+        <item quantity="other">Motta %1$d filer (%2$s)</item>
+        <item quantity="one">Motta %1$d fil (%2$s)</item>
+    </plurals>
+    <plurals name="transfer_list_sent_header">
+        <item quantity="other">Send %1$d filer (%2$s)</item>
+        <item quantity="one">Send %1$d fil (%2$s)</item>
     </plurals>
 </resources>

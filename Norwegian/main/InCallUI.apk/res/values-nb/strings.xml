@@ -142,7 +142,7 @@
     <string name="call_recording_notification_message_sd_unmounted">SD-kortet har blitt fjernet.</string>
     <string name="call_recording_deny_permission_msg">Du avviste opptaktillatelse, kan ikke ta opp.</string>
     <string name="call_contacts_deny_permission_msg">Du avviste lese kontakter-tillatelse, kan ikke vise kontaktinformasjon.</string>
-    <string name="conference_call_recorder_title">Conference call</string>
+    <string name="conference_call_recorder_title">Konferanseanrop</string>
     <string name="antispam_marked_count">Rapportert av %1$d MIUI-brukere</string>
     <string name="antispam_local_marked">Markert lokalt</string>
     <string name="antispam_provider">Identifisert av %s</string>

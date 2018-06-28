@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Legg til i arbeidsplass</string>
     <string name="activity_not_found">Appen er ikke installert på din enhet</string>
     <string name="add_screen">Legg til skjerm</string>
@@ -92,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">More apps</string>
     <string name="default_folder_title_security">System</string>
+    <string name="default_folder_title_services">Tjenester</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Verktøyer</string>
     <string name="default_screen_preview_title">Trykk for å sette standard skjerm</string>
@@ -235,6 +237,7 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå av</string>
     <string name="open_personal_assistant_dialog_desc">Du vil ikke kunne bruke App-hvelv og motta oppdateringer. Slå av nå?</string>
+    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
     <string name="open_personal_assistant_dialog_title">Slå av App-hvelv</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ikke mer ledig plass på Startskjermen</string>
@@ -342,6 +345,4 @@
     <string name="widget_gadget_player">Musikk</string>
     <string name="widget_global_search">Søk</string>
     <string name="widget_quick_function">Hurtigfunksjoner</string>
-    <string name="default_folder_title_services">Tjenester</string>
-    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
 </resources>

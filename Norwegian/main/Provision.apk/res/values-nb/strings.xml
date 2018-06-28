@@ -71,7 +71,7 @@ Du må samtykke til våre vilkår for bruk og personvernerklæring før du kan b
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Bruk fingeravtrykket ditt til å låse opp enheten din eller for å logge inn på apper og tjenester.</string>
     <string name="content_description_start">Start</string>
-    <string name="start_up_slogan">Designed for full screen experience</string>
+    <string name="start_up_slogan">Designet for full skjerm-opplevelse</string>
     <string name="content_description_miui_version">MIUI 9</string>
     <string name="content_description_complete">Fullført</string>
     <string name="language_picker_other_languages_title">Flere språk</string>

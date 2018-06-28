@@ -141,11 +141,11 @@
         <item>Kontrollér alltid</item>
     </string-array>
     <string-array name="miui_volume_timer_segments_title">
-        <item>Off</item>
-        <item>Half hour</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>8 Hours</item>
+        <item>Av</item>
+        <item>30 minutter</item>
+        <item>1 time</item>
+        <item>2 timer</item>
+        <item>8 timer</item>
     </string-array>
     <string-array name="nav_bar_buttons">
         <item>Utklippstavle</item>

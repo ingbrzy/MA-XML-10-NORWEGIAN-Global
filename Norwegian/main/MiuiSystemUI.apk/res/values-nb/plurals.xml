@@ -48,6 +48,10 @@
         <item quantity="other">%s til varsler inni.</item>
         <item quantity="one">%s flere varsler inni.</item>
     </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d varslingskategorier</item>
+        <item quantity="one">%d varslingskategori</item>
+    </plurals>
     <plurals name="notification_num_channels_desc">
         <item quantity="other">1 av %d varslingskategorier fra denne appen</item>
         <item quantity="one">1 av %d varslingskategorier fra denne appen</item>

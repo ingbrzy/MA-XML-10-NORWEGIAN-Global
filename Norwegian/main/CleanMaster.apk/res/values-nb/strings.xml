@@ -91,6 +91,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerte apper: %d</string>
     <string name="toast_resolve_apk_error">Løs apk-feil</string>
@@ -167,7 +168,7 @@
     <string name="hints_quick_scanning">Skanner…</string>
     <string name="hints_quick_cleanuping">Optimalisering…</string>
     <string name="hints_deepclean_scanning">Skanner %s</string>
-    <string name="cache_title_system_cache">Data cache</string>
+    <string name="cache_title_system_cache">Hurtigbuffer</string>
     <string name="hints_storage_free">Gratis</string>
     <string name="hints_storage_free_size">Totalt %1$s, %2$s tilgjengelig</string>
     <string name="apps_sort_type_title">Sorter</string>
@@ -298,6 +299,7 @@
     <string name="downloading">Laster ned</string>
     <string name="installing">Installering</string>
     <string name="start_install">Installer nå</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>
     <string name="connecting">Kobler til…</string>
@@ -525,7 +527,7 @@
     <string name="tips_low_storage_dialog_ok_storage">Frigjør plass</string>
     <string name="tips_low_storage_dialog_ok">Tøm</string>
     <string name="tips_low_storage_dialog_cancel">Avbryt</string>
-    <string name="wechat_msg_time_long">yyyy-MM-dd</string>
-    <string name="wechat_msg_time_short">MM-dd</string>
+    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
+    <string name="wechat_msg_time_short">dd-MM</string>
     <string name="wechat_video_time">%1$s:%2$s</string>
 </resources>

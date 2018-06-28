@@ -17,6 +17,16 @@
         <item>Adresse</item>
         <item>Notat</item>
     </string-array>
+    <string-array name="first_guide_contents">
+        <item>Welcome to Notes!</item>
+        <item>Take notes</item>
+        <item>You can use text, images, and voice recordings in your notes. A rich library of styles and fonts will make your simple scribbles look stunning.</item>
+        <item>Checklists and reminders come to help when you need basic and effective tools for planning your next trip or putting together a grocery list.</item>
+        <item>Share notes</item>
+        <item>You can generate scrolling screenshots in Notes automatically, and them share them with your friends.</item>
+        <item>Create &amp; switch between folders</item>
+        <item>Press the arrow below to create a new folder or switch between existing ones.</item>
+    </string-array>
     <string-array name="folder_operations">
         <item>Gi nytt navn</item>
         <item>Slett</item>
@@ -31,47 +41,8 @@
         <item>Etter opprettelsesdato</item>
         <item>Etter endringsdato</item>
     </string-array>
-    <string-array name="welcome_notes_content">
-        <item>"Velkommen til Notes
-"</item>
-        <item>"Opprette et notat
-Trykk på pluss for å opprette et notat."</item>
-        <item>"Velg maler
-Bruk maler til å endre bakgrunn og stil på notatene dine.
-Trykk på den høyre knappen nederst på notatet for å velge mal."</item>
-        <item>"Opprett mapper
-Organiser notatene dine i mapper.
-Det er 2 måter å opprette en mapper:
-1. Trykk på mappeikonet i øvre høyre hjørne, og trykk så på pluss.
-2. Hold et notat inntil en pop up-meny viser seg. Velg \"Flytt til\" - \"Ny mapper\"."</item>
-        <item>"Skjul notater
-Beskytt private notater med et passordd.
-Det er 2 måter å skjule et notat:
-1. Trykk på \"Mer\"-knappen i øvre høyre hjørne på et notat og velg \"Skjul\".
-2. Hold et notat inntil en pop up-meny viser seg, og velg \"Skjul\"."</item>
-        <item>"Og flere flotte funksjoner!
-  - Bilder, sjekklister, påminnelser.
-
-Legg til bilder
-Trykk på bildeikonet nederst på et notat for å legge til et bilde.
-Du kan ta et bilde eller velge et fra Galleri.
-Når et notat inneholder et bilde, vil bildet blir brukt som notatets miniatyr i rutevisning.
-
-Opprett sjekklistervkryssingsboks er et essensielt element i en sjekkliste.
-Trykk på avkryssingsboks-ikonet nederst på et notat for å legge en avkryssingsboks til et avsnitt med tekst.
-Kryss av i boksen når ting er gjort.
-
-Still inn påminnelser 
-Still inn påminnelser direkte fra notater.
-Trykk på \"Mer\"-knappen i øvre, høyre hjørne på et notat, velg \"Påminnelser\" og still inn tiden.
-"</item>
-    </string-array>
-    <string-array name="welcome_notes_image">
-        <item>guide_1</item>
-        <item></item>
-        <item>guide_3_1</item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="second_guide_contents">
+        <item>Voice notes</item>
+        <item>Create notes using our built-in speech-to-text engine attaching the original recordings of your voice to the notes.</item>
     </string-array>
 </resources>

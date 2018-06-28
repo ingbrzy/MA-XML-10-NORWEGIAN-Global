@@ -414,7 +414,7 @@ Samplefrekvens"</string>
     <string name="daltonizer_mode_protanomaly">Protanomali (rød-grønn)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomali (blå-gul)</string>
     <string name="daltonizer_type_overridden">Overstyres av %1$s</string>
-    <string name="data_connection_no_internet">No internet</string>
+    <string name="data_connection_no_internet">Ikke tilkoblet internett</string>
     <string name="data_saver">Datalagring</string>
     <string name="data_usage_disabled_dialog">"Datagrensen du satte er nådd. Du bruker ike mobildata lenger.
 
@@ -483,9 +483,6 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="drag_to_add_tiles">Dra for å legge til i liste</string>
     <string name="drag_to_remove_tiles">Dra her for å fjerne</string>
     <string name="drive_mode_tip">Bilmodus er på</string>
-    <string name="drive_mode_tip_idle">Trykk for å gå ut av Bilmodus</string>
-    <string name="drive_mode_tip_idle_notch">Avslutt Bilmodus</string>
-    <string name="drive_mode_tip_notch">Bilmodus på</string>
     <string name="empty_shade_text">Ingen varsler</string>
     <string name="enable_adb">USB-feilsøking</string>
     <string name="enable_adb_summary">Feilsøkingsmodus når USB kobles til</string>
@@ -927,12 +924,13 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="notification_all_categories">Alle kategorier</string>
     <string name="notification_app_settings">Tilpass: %1$s</string>
     <string name="notification_channel_alerts">Varsler</string>
+    <string name="notification_channel_battery">Batteri</string>
     <string name="notification_channel_controls_closed_accessibility">Varslingskontroller for %1$s lukket</string>
     <string name="notification_channel_controls_opened_accessibility">Varslingskontroller for %1$s åpnet</string>
     <string name="notification_channel_disabled">Du vil ikke få disse varslingene lenger.</string>
     <string name="notification_channel_general">Generelle meldinger</string>
     <string name="notification_channel_location">Plassering</string>
-    <string name="notification_channel_screenbutton">ScreenButton</string>
+    <string name="notification_channel_screenbutton">Knapper</string>
     <string name="notification_channel_screenshot">Skjermbilder</string>
     <string name="notification_channel_storage">Lagring</string>
     <string name="notification_channel_switch_accessibility">Tillat varslinger fra denne kanalen</string>
@@ -942,7 +940,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="notification_group_collapse_button_text">Brett</string>
     <string name="notification_header_default_channel">Varslinger</string>
     <string name="notification_header_title">Varsler</string>
-    <string name="notification_hidden_by_policy_text">Contents hidden by policy</string>
+    <string name="notification_hidden_by_policy_text">Innholdet er skjult</string>
     <string name="notification_hidden_text">Du har en ny melding</string>
     <string name="notification_info_channel_disabled_text">Du vil ikke motta %2$s varslinger fra %1$s.</string>
     <string name="notification_info_channel_enabled_text">Du vil motta %2$s varslinger fra %1$s.</string>
@@ -1038,7 +1036,12 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="power_remaining_charging_duration_only">%1$s til det er fulladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s gjenstår</string>
     <string name="power_remaining_duration_only_short">%1$s gjenstår</string>
+    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="profile_owned_footer">Profil kan være overvåket</string>
+    <string name="prompt_danger">Fare</string>
+    <string name="prompt_detecting">Oppdager</string>
+    <string name="prompt_safe">Trygg</string>
+    <string name="prompt_unknown">Ukjent</string>
     <string name="qs_customize_title">Rediger</string>
     <string name="qs_dnd_keep">Behold</string>
     <string name="qs_dnd_prompt_app">DND ble skrudd på grunnet en automatisk regel (%s).</string>
@@ -1091,6 +1094,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="quick_settings_dnd_priority_label">Kun prioritet</string>
     <string name="quick_settings_done">Ferdig</string>
     <string name="quick_settings_drivemode_label">Bilmodus</string>
+    <string name="quick_settings_dual_location_label">Dobbel GPS</string>
     <string name="quick_settings_edit_label">Rediger</string>
     <string name="quick_settings_flashlight_label">Lommelykt</string>
     <string name="quick_settings_ime_label">Inndatametoder</string>
@@ -1103,6 +1107,9 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="quick_settings_nfc_off">NFC er deaktivert</string>
     <string name="quick_settings_nfc_on">NFC er akitivert</string>
     <string name="quick_settings_night_display_label">Nattlys</string>
+    <string name="quick_settings_night_secondary_label_on_at">På klokken %s</string>
+    <string name="quick_settings_night_secondary_label_on_at_sunset">På ved solnedgang</string>
+    <string name="quick_settings_night_secondary_label_until_sunrise">Frem til soloppgang</string>
     <string name="quick_settings_notifications_label">Varslinger</string>
     <string name="quick_settings_papermode_label">Lesemodus</string>
     <string name="quick_settings_powermode_label">Ytelsesmodus</string>
@@ -1118,6 +1125,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="quick_settings_screenbutton_label">Knapper</string>
     <string name="quick_settings_screenlock_label">Låseskjerm</string>
     <string name="quick_settings_screenshot_label">Skjermbilde</string>
+    <string name="quick_settings_secondary_label_until">Frem til %s</string>
     <string name="quick_settings_settings_label">Innstillinger</string>
     <string name="quick_settings_sync_label">Synkroniser</string>
     <string name="quick_settings_time_label">Tid</string>
@@ -1286,6 +1294,10 @@ d. MMMM"</string>
     <string name="status_bar_recent_remove_item_title">Fjern fra liste</string>
     <string name="status_bar_recording_back">Gå tilbake til opptaker</string>
     <string name="status_bar_recording_pause">Opptaker på pause</string>
+    <string name="status_bar_safepay_risk">Betalingsrisiko oppdaget</string>
+    <string name="status_bar_safepay_safe">Ingen betalingsrisikoer er oppdaget</string>
+    <string name="status_bar_safepay_scanning">Kontrollerer betalingsomgivelsene…</string>
+    <string name="status_bar_safepay_unknown">Kunne ikke kontrollere betalingsomgivelsen</string>
     <string name="status_bar_settings_airplane">Flymodus</string>
     <string name="status_bar_settings_auto_rotation">Autoroter skjerm</string>
     <string name="status_bar_settings_notifications">Varslinger</string>
@@ -1486,5 +1498,5 @@ Enhver bruker kan oppdatere apper for alle andre brukere."</string>
     <string name="zen_priority_introduction">Du vil ikke forstyrres av lyder og vibrasjoner, unntatt fra alarmer, påminnelser, hendelser, og innringere som du spesifiserer. Du vil fortsatt høre alt du velger å spille av, inkludert musikk, video og spill.</string>
     <string name="zen_silence_introduction">Dette blokkerer ALL lyd og vibrasjoner, inkludert fra alarmer, musikk, videoer og spill.</string>
     <string name="zen_silence_introduction_voice">Dette blokkerer ALL lyd og vibrasjoner, inkludert fra alarmer, musikk, videoer og spill. Du vil fortsatt kunne foreta telefonsamtaler.</string>
-    <string name="notification_num_channels">%d varslingskategorier</string>
+    <string name="notification_num_channels">%d varselkategorier</string>
 </resources>

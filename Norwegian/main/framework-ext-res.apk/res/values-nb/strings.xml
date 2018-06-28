@@ -113,10 +113,6 @@
     <string name="maml_component_customization_title">Innstillinger</string>
     <string name="default_name">Standard</string>
     <string name="resource_select">Velg</string>
-    <string name="group_name_contacts">Kontakter</string>
-    <string name="group_name_friends">Venner</string>
-    <string name="group_name_family">Familie</string>
-    <string name="group_name_coworkers">Kolleger</string>
     <string name="fp_nav_center_action_choose_dlg_title">Trykk på hurtigtrykk</string>
     <string name="fp_nav_center_action_choose_dlg_msg">Du kan gå tilbake til startskjermen ved å trykke på startknappen. Du kan slå denne funksjonen av og på i Innstillinger, Ytterligere innstillinger, Knapper. Trykk på startskjermknappen for å gå tilbake til startskjermen.</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Slå på</string>
@@ -175,5 +171,5 @@
     <string name="super_resolution_maintain_tips">Super oppløsning er ikke tilgjengelig enda.</string>
     <string name="wifi_assistant_wifi_no_internet">Wi-Fi-nettverk har ikke tilgang til internettet</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Trykk for å se detaljer</string>
-    <string name="resolver_app_recommend_flag">Recommend</string>
+    <string name="resolver_app_recommend_flag">Anbefal</string>
 </resources>
