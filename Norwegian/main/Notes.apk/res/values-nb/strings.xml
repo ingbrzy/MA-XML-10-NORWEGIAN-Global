@@ -107,7 +107,6 @@
     <string name="menu_title_select_folder">Velg mappe</string>
     <string name="menu_unhide">Vis</string>
     <string name="menu_unstick">Løsne</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nå</string>
     <string name="note_alert_expired">Utløpt</string>
     <string name="note_description_content">Notat-appen er et flott verktøy for å registrere tankene dine. Den har innebygde påminnelser og synkroniserer elementene dine til Mi Cloud, slik at du kan få tilgang til dem hvor som helst, når som helst. Vær sikker på at du klarer deg uten disse funksjonene før du sletter appen.</string>

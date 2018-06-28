@@ -1036,7 +1036,6 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="power_remaining_charging_duration_only">%1$s til det er fulladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s gjenstår</string>
     <string name="power_remaining_duration_only_short">%1$s gjenstår</string>
-    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="profile_owned_footer">Profil kan være overvåket</string>
     <string name="prompt_danger">Fare</string>
     <string name="prompt_detecting">Oppdager</string>
