@@ -2734,7 +2734,6 @@ Velg ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">Skjønner</string>
     <string name="nfc_how_it_works_title">Betaling ved terminaler</string>
     <string name="nfc_more_title">Mr</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp for betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angitt</string>
     <string name="nfc_payment_favor_default">Bruk alltid standard-appen</string>
@@ -2937,7 +2936,6 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="overlay_display_devices_title">Simuler sekundære skjermer</string>
     <string name="overlay_settings">Vis over andre apper</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Android.</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskjermsignatur</string>
     <string name="owner_space">Første område</string>
@@ -4056,7 +4054,6 @@ Muligens feil personlig kode."</string>
     <string name="sim_reenter_new">Skriv inn ny PIN-kode på nytt</string>
     <string name="sim_select_card">Velg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du må velge en SIM-innstilling</string>
-    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">Tomt SIM-kort</string>
@@ -4350,7 +4347,6 @@ Vurder å bruke raskere ^1 for bedre ytelse."</string>
     <string name="suggestion_remove">Fjern</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Velg en nettverksoperatør</string>
-    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="super_resolution_access_title">Tilgjengelige apper</string>
     <string name="super_resolution_desc">Gjør bildene skarpere ved å bruke AI-algoritme</string>
