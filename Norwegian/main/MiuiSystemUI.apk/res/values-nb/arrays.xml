@@ -2,20 +2,20 @@
 <resources>
     <string-array name="animator_duration_scale_entries">
         <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5 x</item>
-        <item>Animasjonsskala 1 x</item>
-        <item>Animasjonsskala 1,5 x</item>
-        <item>Animasjonsskala 2 x</item>
-        <item>Animasjonsskala 5 x</item>
-        <item>Animasjonsskala 10 x</item>
+        <item>Animasjonsskala ,5x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5x</item>
+        <item>Animasjonsskala 2x</item>
+        <item>Animasjonsskala 5x</item>
+        <item>Animasjonsskala 10x</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Standard grense</item>
+        <item>Standardgrense</item>
         <item>Ingen bakgrunnsprosesser</item>
-        <item>Maksimalt 1 prosess</item>
-        <item>Maksimalt 2 prosesser</item>
-        <item>Maksimalt 3 prosesser</item>
-        <item>Maksimalt 4 prosesser</item>
+        <item>Én prosess på det meste</item>
+        <item>To prosesser på det meste</item>
+        <item>Tre prosesser på det meste</item>
+        <item>Fire prosesser på det meste</item>
     </string-array>
     <string-array name="battery_labels">
         <item>0 %</item>
@@ -28,75 +28,75 @@
         <item>Ikke vis dette ikonet</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Bruk systemvalg (standard)</item>
-        <item>16 bits/sample</item>
-        <item>24 bits/sample</item>
-        <item>32 bits/sample</item>
+        <item>Bruk systemvalg (Standard)</item>
+        <item>16 bit/prøve</item>
+        <item>24 bit/prøve</item>
+        <item>32 bit/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Bruk systemvalg (standard)</item>
-        <item>16 bits/sample</item>
-        <item>24 bits/sample</item>
-        <item>32 bits/sample</item>
+        <item>Bruk systemvalg (Standard)</item>
+        <item>16 bit/prøve</item>
+        <item>24 bit/prøve</item>
+        <item>32 bit/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
         <item>Optimalisert for lydkvalitet</item>
-        <item>Balansert lyd- og tilkoblingskvalitet</item>
+        <item>Balansert kvalitet på lyd og tilkobling</item>
         <item>Optimalisert for tilkoblingskvalitet</item>
-        <item>Beste forsøk (tilpasset bithastighet)</item>
+        <item>Best effekt (Tilpasset bitfrekvens)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimalisert for lydkvalitet (990 kbps / 909 kbps)</item>
-        <item>Balansert lyd- og tilkoblingskvalitet (660 kbps/606kbps)</item>
-        <item>Optimalisert for tilkoblingskvalitet (330 kbps / 303 kbps)</item>
-        <item>Beste forsøk (tilpasset bithastighet)</item>
+        <item>Optimalisert for lydkvalitet (990 kbps/909 kbps)</item>
+        <item>Balansert kvalitet på lyd og tilkobling (660 kbps/606 kbps)</item>
+        <item>Optimalisert for tilkoblingskvalitet (330 kbps/303 kbps)</item>
+        <item>Best effekt (Tilpasset bitfrekvens)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Slå på valgfrie kodeker</item>
-        <item>Slå av valgfrie kodeker</item>
+        <item>Aktiver valgfrie kodeker</item>
+        <item>Deaktiver valgfrie kodeker</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Slå på valgfrie kodeker</item>
-        <item>Slå av valgfrie kodeker</item>
+        <item>Aktiver valgfrie kodeker</item>
+        <item>Deaktiver valgfrie kodeker</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (standard)</item>
+        <item>AVRCP 1.4 (Standard)</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
@@ -107,38 +107,38 @@
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Forbedrede farger</item>
-        <item>Naturlige farger – som øyet ser dem</item>
-        <item>Farger som er optimalisert for digitalt innhold</item>
+        <item>Naturlige farger som øyet ser dem</item>
+        <item>Farger optimalisert for digitalt innhold</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Krystallklar (standard)</item>
+        <item>Levende (standard)</item>
         <item>Naturlig</item>
         <item>Standard</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Av</item>
         <item>Vis overtrekksområder</item>
-        <item>Vis områder for deuteranomali</item>
+        <item>Vis områder for grønnblindhet</item>
     </string-array>
     <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (standard)</item>
+        <item>OpenGL (Standard)</item>
         <item>OpenGL (Skia)</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ingen</item>
         <item>Logcat</item>
         <item>Systrace (grafikk)</item>
-        <item>Anropsliste for glGetError</item>
+        <item>Kallstakk på glGetError</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Bruk aldri HDCP-kontroll</item>
-        <item>Bruk HDCP-kontroll kun for DRM-innhold</item>
-        <item>Bruk alltid HDCP-kontroll</item>
+        <item>Aldri bruk HDCP-sjekk</item>
+        <item>Bruk bare HDCP når det sjekkes etter DRM-innhold</item>
+        <item>Bruk alltid HDCP-sjekk</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Kontrollér aldri</item>
-        <item>Kontrollér kun DRM-innhold</item>
-        <item>Kontrollér alltid</item>
+        <item>Aldri sjekk</item>
+        <item>Se kun etter DRM-innhold</item>
+        <item>Sjekk alltid</item>
     </string-array>
     <string-array name="miui_volume_timer_segments_title">
         <item>Av</item>
@@ -198,40 +198,40 @@
     <string-array name="select_logpersist_summaries">
         <item>Av</item>
         <item>Alle loggbuffere</item>
-        <item>Alle unntatt radiologgbuffere</item>
-        <item>bare kjerneloggbuffer</item>
+        <item>Alle unntatt radiologg-buffere</item>
+        <item>Kun kjernelogg-buffere</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Av</item>
         <item>Alle</item>
-        <item>Unntatt radio</item>
-        <item>bare kjerne</item>
+        <item>Alle unntatt radio</item>
+        <item>Kun kjerne</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Av</item>
-        <item>Merk urektangulært klippefelt blått</item>
-        <item>Fremhev testede tegnekommandoer i grønt</item>
+        <item>Tegn ikke-rektangulært klippeområde i blått</item>
+        <item>Fremhev testede tegningskommandoer i grønt</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Av</item>
-        <item>På skjermen som stolper</item>
+        <item>På skjermen som linjer</item>
         <item>I adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5 x</item>
-        <item>Animasjonsskala 1 x</item>
-        <item>Animasjonsskala 1,5 x</item>
-        <item>Animasjonsskala 2 x</item>
-        <item>Animasjonsskala 5 x</item>
-        <item>Animasjonsskala 10 x</item>
+        <item>Animasjonsskala ,5x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5x</item>
+        <item>Animasjonsskala 2x</item>
+        <item>Animasjonsskala 5x</item>
+        <item>Animasjonsskala 10x</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Veldig langsom</item>
-        <item>Langsom</item>
-        <item>Vanlig</item>
+        <item>Veldig sakte</item>
+        <item>Sakte</item>
+        <item>Normal</item>
         <item>Rask</item>
-        <item>Litt raskere</item>
+        <item>Raskere</item>
         <item>Veldig rask</item>
         <item>Hurtig</item>
         <item>Veldig hurtig</item>
@@ -239,9 +239,9 @@
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Lader</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
+        <item>MTP (Medieoverføringsprotokoll)</item>
+        <item>PTP (Bildeoverføringsprotokoll)</item>
+        <item>RNDIS (USB-Ethernet)</item>
         <item>Lydkilde</item>
         <item>MIDI</item>
     </string-array>
@@ -276,39 +276,39 @@
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Skanner ...</item>
-        <item>Kobler til …</item>
-        <item>Autentiserer ...</item>
-        <item>Henter IP-adresse …</item>
+        <item>Skanner…</item>
+        <item>Kobler til…</item>
+        <item>Autentiserer…</item>
+        <item>Henter IP-adresse…</item>
         <item>Tilkoblet</item>
-        <item>Avsluttet</item>
-        <item>Kobler fra ...</item>
+        <item>Suspendert</item>
+        <item>Kobler fra…</item>
         <item>Frakoblet</item>
-        <item>Mislyktes</item>
+        <item>Mislykket</item>
         <item>Blokkert</item>
-        <item>Unngår dårlig tilkobling midlertidig</item>
+        <item>Unngår midlertidig en dårlig forbindelse</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Skanner ...</item>
-        <item>Kobler til %1$s …</item>
-        <item>Autentiserer med %1$s …</item>
-        <item>Henter IP-adresse fra %1$s …</item>
+        <item>Skanner…</item>
+        <item>Kobler til %1$s…</item>
+        <item>Autentiserer med %1$s…</item>
+        <item>Henter IP-adresse fra %1$s…</item>
         <item>Koblet til %1$s</item>
-        <item>Avsluttet</item>
-        <item>Kobler fra %1$s …</item>
+        <item>Suspendert</item>
+        <item>Kobler fra %1$s…</item>
         <item>Frakoblet</item>
-        <item>Mislyktes</item>
+        <item>Mislykket</item>
         <item>Blokkert</item>
-        <item>Unngår dårlig tilkobling midlertidig</item>
+        <item>Unngår midlertidig en dårlig forbindelse</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5 x</item>
-        <item>Animasjonsskala 1 x</item>
-        <item>Animasjonsskala 1,5 x</item>
-        <item>Animasjonsskala 2 x</item>
-        <item>Animasjonsskala 5 x</item>
-        <item>Animasjonsskala 10 x</item>
+        <item>Animasjonsskala ,5x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5x</item>
+        <item>Animasjonsskala 2x</item>
+        <item>Animasjonsskala 5x</item>
+        <item>Animasjonsskala 10x</item>
     </string-array>
 </resources>

@@ -15,6 +15,7 @@
     <string name="hide_touch_assistant_intro">Skjul Quick ball i valgte apper</string>
     <string name="hide_when_fullscreen">Flytt til siden ved fullskjerm</string>
     <string name="hide_when_fullscreen_intro">Flytt til siden ved fullskjermmodus.</string>
+    <string name="mi_wallet_summary">Transport card/Mi Pay/Key card</string>
     <string name="motion_behavior">Foretrukket bevegelse</string>
     <string name="name_alipay_payment_code">Alipay-betaling</string>
     <string name="name_alipay_scan">Alipay-skanner</string>
@@ -22,6 +23,7 @@
     <string name="name_handy_mode">Énhåndsmodus</string>
     <string name="name_long_press_power_key">Hold inne på-knappen</string>
     <string name="name_memory_clean">Tøm hurtigbuffer</string>
+    <string name="name_mi_wallet">Mi Wallet</string>
     <string name="name_music_next_song">Neste sang</string>
     <string name="name_music_prev_song">Forrige sang</string>
     <string name="name_music_toggle">Spill/Sett sang på pause</string>
@@ -53,6 +55,4 @@
     <string name="show_on_keyguard">Vis på låst skjerm</string>
     <string name="theme_manager_not_supported">Temabehandler støttes ikke.</string>
     <string name="three_seconds_auto_hide">Fest til kanten etter 3 sekunder med inaktivitet</string>
-    <string name="mi_wallet_summary">Transport card/Mi Pay/Key card</string>
-    <string name="name_mi_wallet">Mi Wallet</string>
 </resources>

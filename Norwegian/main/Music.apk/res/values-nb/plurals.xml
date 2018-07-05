@@ -16,10 +16,6 @@
         <item quantity="other">Spiller stopper om %d minutter</item>
         <item quantity="one">Spiller stopper om %d minutt</item>
     </plurals>
-    <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Du har valgt å ikke finne albumcover og tekster for lokale sanger automatisk. Slett info for %d sanger?</item>
-        <item quantity="one">Du har valgt å ikke finne albumcover og tekster for lokale sanger automatisk. Slett info for %d sang?</item>
-    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">"Opprettet %1$s 
 total %2$d sanger"</item>
@@ -27,8 +23,8 @@ total %2$d sanger"</item>
 total %2$d sang"</item>
     </plurals>
     <plurals name="Nstop_backup_songs_message">
-        <item quantity="other">"%d songs haven't been backed up to Mi Cloud. Stop now?"</item>
-        <item quantity="one">"%d song hasn't been backed up to Mi Cloud. Stop now?"</item>
+        <item quantity="other">%d sanger har ikke blitt sikkerhetskopiert til Mi Cloud. Stoppe nå?</item>
+        <item quantity="one">%d sang har ikke blitt sikkerhetskopiert til Mi Cloud. Stoppe nå?</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">%d sanger lagt til spilleliste</item>
@@ -63,10 +59,10 @@ total %2$d sang"</item>
         <item quantity="one">Slett %d element?</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message_with_file">
-        <item quantity="other">"Delete %d items?
-Note: Files will be deleted from this device as well."</item>
-        <item quantity="one">"Delete %d item?
-Note: File will be deleted from this device as well."</item>
+        <item quantity="other">"Slette %d elementer?
+Merk: Filene vil også slettes fra denne enheten."</item>
+        <item quantity="one">"Slette %d element?
+Merk: Filen vil også slettes fra denne enheten."</item>
     </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">Slett %d songs?</item>
@@ -115,5 +111,9 @@ Note: File will be deleted from this device as well."</item>
     <plurals name="songs_count">
         <item quantity="other">%d sanger</item>
         <item quantity="one">%d sang</item>
+    </plurals>
+    <plurals name="video_play_count">
+        <item quantity="other">%1$s views</item>
+        <item quantity="one">%1$s view</item>
     </plurals>
 </resources>

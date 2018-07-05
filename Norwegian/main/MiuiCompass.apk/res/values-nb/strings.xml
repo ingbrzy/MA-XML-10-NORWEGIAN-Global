@@ -57,8 +57,8 @@
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="app_description_title">Om kompasset</string>
     <string name="app_description_content">Kompasset brukes for navigering og orientering, og viser deg retningen. Sørg for at du klarer deg uten disse funksjonene før du avinstallerer appen.</string>
-    <string name="open_perm_msg">Compass needs access to location info and camera. This is necessary to determine coordinates and provide live previews. Allow?</string>
-    <string name="open_perm_title">Permissions required</string>
-    <string name="cancel">Cancel</string>
-    <string name="allow">Allow</string>
+    <string name="open_perm_msg">Kompasset trenger tilgang til plasseringsinfo og kamera. Dette er nødvendig for å finne koordinater og tilby forhåndsvisning. Tillat?</string>
+    <string name="open_perm_title">Tillatelser kreves</string>
+    <string name="cancel">Annuller</string>
+    <string name="allow">Tillat</string>
 </resources>

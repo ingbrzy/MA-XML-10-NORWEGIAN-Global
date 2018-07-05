@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="attachment_chooser">
-        <item>Kamera</item>
-        <item>Galleri</item>
+        <item>Camera</item>
+        <item>Gallery</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Navn</item>
@@ -28,8 +28,8 @@
         <item>Press the arrow below to create a new folder or switch between existing ones.</item>
     </string-array>
     <string-array name="folder_operations">
-        <item>Gi nytt navn</item>
-        <item>Slett</item>
+        <item>Rename</item>
+        <item>Delete</item>
     </string-array>
     <string-array name="font_size_names">
         <item>Liten</item>
@@ -38,8 +38,8 @@
         <item>Diger</item>
     </string-array>
     <string-array name="note_sort_way">
-        <item>Etter opprettelsesdato</item>
-        <item>Etter endringsdato</item>
+        <item>By creation date</item>
+        <item>By modification date</item>
     </string-array>
     <string-array name="second_guide_contents">
         <item>Voice notes</item>

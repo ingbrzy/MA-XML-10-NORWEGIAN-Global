@@ -20,6 +20,14 @@
         <item quantity="other">%d resultater</item>
         <item quantity="one">%d resultater</item>
     </plurals>
+    <plurals name="mw_last_num_days">
+        <item quantity="other">Last %d days</item>
+        <item quantity="one">Last %d days</item>
+    </plurals>
+    <plurals name="mw_matches_found">
+        <item quantity="other">%1$d of %2$d</item>
+        <item quantity="one">1 match</item>
+    </plurals>
     <plurals name="nav_screen_incognito_time">
         <item quantity="other">Etter %d sekunder vil den automatisk opprette en ny side</item>
         <item quantity="one">Etter %d sekund vil den automatisk opprette en ny side</item>
@@ -79,5 +87,13 @@
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>
         <item quantity="one">Klart</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Siste %d dager</item>
+        <item quantity="one">Siste %d dag</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d av %2$d</item>
+        <item quantity="one">1 match</item>
     </plurals>
 </resources>

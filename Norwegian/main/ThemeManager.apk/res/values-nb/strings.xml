@@ -433,6 +433,7 @@
     <string name="theme_is_external_priority_storage">Lagre til SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Themes-appen omstarter umiddelbart etter denne innstillingen godkjennes.</string>
     <string name="theme_multiple_button_title_customize">Tilpass</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nei</string>
     <string name="theme_precast_create_notification_content">Trykk for å finne nye temaer.</string>
     <string name="theme_precast_create_notification_title">Oppdater til MIUI 7</string>

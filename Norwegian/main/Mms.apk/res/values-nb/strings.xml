@@ -192,6 +192,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_prefix">"VS: "</string>
@@ -396,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">Vis blokkert SMS i samtaleliste</string>
     <string name="pref_show_list_avatar_summary">Vis profilbilder og kontaktinfo i listevisning</string>
     <string name="pref_show_photo_word_summary">Tildel automatisk et bilde til kontakter som ikke har det</string>
-    <string name="pref_show_sms_template_entry_summary">Oppdag engangspassord i SMS</string>
+    <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
     <string name="pref_show_sms_template_in_summary">Oppdag engangspassord automatisk i SMS-meldinger</string>
     <string name="pref_show_sms_template_summary">Slå på for å bruke de smarte funksjonene til Mi Message, som f.eks. kopiering av koder, sjekke saldo, osv.</string>
     <string name="pref_smart_messages_settings">Smartmeldinger</string>
@@ -543,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>
@@ -625,7 +627,7 @@
     <string name="title_show_blocked_messages">Vis blokkert SMS</string>
     <string name="title_show_list_avatar">Vis profilbilder</string>
     <string name="title_show_photo_word">Tildel kontaktbilder</string>
-    <string name="title_show_sms_template">Sjekk SMS for verifiseringskoder</string>
+    <string name="title_show_sms_template">Smart Messaging</string>
     <string name="title_show_sms_template_in">Sjekk SMS for OTP</string>
     <string name="title_timed_message_dialog">Sett tidsberegnet melding</string>
     <string name="title_use_gsm_alphabet">Bruk GSM-alfabet</string>
