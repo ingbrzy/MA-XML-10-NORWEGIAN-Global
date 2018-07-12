@@ -101,7 +101,6 @@
     <string name="incompatible_dialog_ok">Skjønner</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbakeringstone</string>
     <string name="item_resource_audio_optional_notification_ring">Varsler</string>
@@ -294,7 +293,6 @@
     <string name="resource_pack_price_info">Opprinnelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerde kjøpt %1$d-komponenter i dette temaet. Det er billigere hvis du kjøper de resterende komponentene hver for seg.</string>
     <string name="resource_present">Gave</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi-kreditter</string>
     <string name="resource_purchase_common_error">Det oppsto en feil. Prøv igjen</string>
