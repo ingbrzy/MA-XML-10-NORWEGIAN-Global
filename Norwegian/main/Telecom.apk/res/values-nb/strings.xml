@@ -68,6 +68,7 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi-signal med to stolper.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi-signal med tre stolper.</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi-signalet er ved full styrke.</string>
+    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="data_usage_uninstalled_apps">Fjernede apper</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apper og brukere</string>
     <string name="tether_settings_title_usb">USB-internettdeling</string>
@@ -406,7 +407,7 @@ Avspillingskvalitet"</string>
     <string name="can_not_dial_vt_while_voice_prompt">Kan ikke gjøre videoanrop mens taleanrop pågår</string>
     <string name="voice_dial_out">Taleanrop</string>
     <string name="notification_AllMissedCallTitle">Alle tapte anrop</string>
-    <string name="close">Lukk</string>
+    <string name="close">Turn off</string>
     <string name="callFailed_simError">SIM-kortfeil</string>
     <string name="incall_error_supp_service_unknown">Denne tjenesten støttes ikke.</string>
     <string name="incall_error_power_off">Slå av flymodus for å ringe.</string>

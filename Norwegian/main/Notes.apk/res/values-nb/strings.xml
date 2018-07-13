@@ -110,6 +110,7 @@
     <string name="menu_title_select_folder">Velg mappe</string>
     <string name="menu_unhide">Unhide</string>
     <string name="menu_unstick">Løsne</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nå</string>
     <string name="note_description_content">The Notes app is a great tool for recording your ideas. It has built-in reminders and syncs your items to Mi Cloud so you can access them anywhere, anytime. Make sure you can do without these features before you delete the app.</string>
     <string name="note_description_title">About Notes</string>

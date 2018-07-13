@@ -236,7 +236,6 @@
     <string name="adb_warning_title">Tillate USB-feilsøking?</string>
     <string name="add_tile">Legg til tittel</string>
     <string name="adjust_button_width">Juster knappens bredde</string>
-    <string name="airplane_mode">Flymodus</string>
     <string name="alarm_template">kl. %1$s</string>
     <string name="alarm_template_far">kl. %1$s</string>
     <string name="allow_mock_location">Tillat falske plasseringer</string>
@@ -246,7 +245,6 @@
     <string name="animator_duration_scale_title">Varighetsskala for animator</string>
     <string name="apn_settings_not_available">Access Point Name-innstillinger er ikke tilgjengelig for denne brukeren</string>
     <string name="app_info">App-info</string>
-    <string name="app_name">Tastaturlås</string>
     <string name="app_process_limit_title">Bakgrunnsprosessgrense</string>
     <string name="as_important">Viktig</string>
     <string name="as_unimportant">Ubetydelig</string>
@@ -472,8 +470,6 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="dlg_confirm_kill_storage_users_title">Slå på USB-lagring</string>
     <string name="dlg_error_title">USB-operasjon mislyktes</string>
     <string name="dnd_is_off">DND er av</string>
-    <string name="do_disclosure_generic">Denne enheten administrers av din organisering</string>
-    <string name="do_disclosure_with_name">Denne enheten administreres av %s</string>
     <string name="do_not_silence">Ikke sett på lydløs</string>
     <string name="do_not_silence_block">Ikke sett på lydløs eller blokker</string>
     <string name="dock_forced_resizable">Appen fungerer kanskje ikke med delt skjerm.</string>
@@ -524,7 +520,6 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="external_source_trusted">Tillatt</string>
     <string name="external_source_untrusted">Ikke tillatt</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åpne innstillinger for %1$s</string>
-    <string name="fingerprint_not_recognized">Ikke gjenkjent</string>
     <string name="float_incall_ignore">Ignorer</string>
     <string name="float_incall_message">Melding</string>
     <string name="force_allow_on_external">Tving tiillatelse for apper å skrive på ekstern lagringsplass</string>
@@ -652,96 +647,11 @@ Bruk kun laderen som følger med."</string>
     <string name="keyboard_shortcut_group_system_recents">Nylige</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Snarveistaster</string>
     <string name="keyboard_shortcut_group_system_switch_input">Bytt inntastingsmåte</string>
-    <string name="keyboardview_keycode_delete">Slett</string>
-    <string name="keyguard_accessibility_next_alarm">Neste alarm er stilt inn for %1$s</string>
-    <string name="keyguard_accessibility_pin_area">PIN-området</string>
-    <string name="keyguard_accessibility_sim_pin_area">PIN-området for SIM-kortet</string>
-    <string name="keyguard_accessibility_sim_puk_area">PUK-området for SIM-kortet</string>
-    <string name="keyguard_carrier_default">Ingen tilkobling.</string>
-    <string name="keyguard_charged">Oppladet</string>
     <string name="keyguard_indication_charging_time">Lader (%s til den er full)</string>
     <string name="keyguard_indication_charging_time_fast">Lader hurtig(%s til den er full)</string>
     <string name="keyguard_indication_charging_time_slowly">Lader sakte (%s til den er full)</string>
     <string name="keyguard_indication_trust_disabled">Enhet vil forbli låst til du låser den opp manuelt</string>
-    <string name="keyguard_instructions_when_pattern_disabled">Trykk på menyknappen for å låse opp.</string>
-    <string name="keyguard_low_battery">Koble til en batterilader.</string>
-    <string name="keyguard_missing_sim_instructions">Sett inn et SIM-kort.</string>
-    <string name="keyguard_missing_sim_instructions_long">SIM-kort mangler eller er uleselig. Sett inn et SIM-kort.</string>
-    <string name="keyguard_missing_sim_message">Telefonen mangler SIM-kort.</string>
-    <string name="keyguard_missing_sim_message_short">SIM-kort mangler</string>
-    <string name="keyguard_network_locked_message">Nettverket er låst</string>
-    <string name="keyguard_password_enter_password_code">Skriv inn passordet for å låse opp</string>
-    <string name="keyguard_password_enter_pin_code">Skriv inn PIN-koden</string>
-    <string name="keyguard_password_enter_pin_password_code">Skriv inn PIN-koden for å låse opp</string>
-    <string name="keyguard_password_enter_pin_prompt">Ny PIN-kode for SIM-kortet</string>
-    <string name="keyguard_password_enter_puk_code">Skriv inn PUK-koden for SIM-kortet og en ny PIN-kode</string>
-    <string name="keyguard_password_enter_puk_prompt">PUK-koden for SIM-kortet</string>
-    <string name="keyguard_password_entry_touch_hint"><font size="17">Trykk for å skrive inn passord</font></string>
-    <string name="keyguard_password_wrong_pin_code">Feil PIN-kode.</string>
-    <string name="keyguard_permanent_disabled_sim_instructions">"SIM-kortet er deaktivert permanent.
-Ta kontakt med leverandøren av trådløstjenesten for å få et nytt SIM-kort."</string>
-    <string name="keyguard_permanent_disabled_sim_message_short">Ubrukelig SIM-kort.</string>
-    <string name="keyguard_plugged_in">Lader</string>
-    <string name="keyguard_plugged_in_charging_fast">Lader raskt</string>
-    <string name="keyguard_plugged_in_charging_slowly">Lader sakte</string>
-    <string name="keyguard_sim_locked_message">SIM-kortet er låst.</string>
-    <string name="keyguard_sim_puk_locked_message">SIM-kortet er PUK-låst.</string>
-    <string name="keyguard_sim_unlock_progress_dialog_message">Låser opp SIM-kortet …</string>
     <string name="keyguard_unlock">Sveip for å låse opp</string>
-    <string name="kg_enter_confirm_pin_hint">Bekreft ønsket PIN-kode</string>
-    <string name="kg_failed_attempts_almost_at_erase_profile">Du har gjort feil i forsøket på å låse opp telefonen %1$d ganger. Jobbprofilen fjernes etter %2$d nye mislykkede forsøk, noe som sletter alle profildataene.</string>
-    <string name="kg_failed_attempts_almost_at_erase_user">Du har gjort feil i forsøket på å låse opp telefonen %1$d ganger. Brukeren fjernes etter %2$d nye mislykkede forsøk, noe som sletter alle brukerdataene.</string>
-    <string name="kg_failed_attempts_almost_at_login">"Du har tegnet opplåsingsmønsteret feil %1$d ganger. Etter ytterligere %2$d feil forsøk blir du bedt om å låse opp telefonen via en e-postkonto.
-
- Prøv på nytt om %3$d sekunder."</string>
-    <string name="kg_failed_attempts_almost_at_wipe">Du har gjort feil i forsøket på å låse opp telefonen %1$d ganger. Telefonen tilbakestilles etter %2$d nye mislykkede forsøk, noe som sletter alle dataene på telefonen.</string>
-    <string name="kg_failed_attempts_now_erasing_profile">Du har gjort feil i forsøket på å låse opp telefonen %d ganger. Jobbprofilen blir fjernet, og alle profildataene blir slettet.</string>
-    <string name="kg_failed_attempts_now_erasing_user">Du har gjort feil i forsøket på å låse opp telefonen %d ganger. Denne brukeren blir fjernet, og alle brukerdataene blir slettet.</string>
-    <string name="kg_failed_attempts_now_wiping">Du har gjort feil i forsøket på å låse opp telefonen %d ganger. Denne telefonen blir tilbakestilt, og alle dataene blir slettet.</string>
-    <string name="kg_forgot_pattern_button_text">Har du glemt mønsteret?</string>
-    <string name="kg_invalid_confirm_pin_hint">PIN-kodene stemmer ikke overens</string>
-    <string name="kg_invalid_puk">Skriv inn den riktige PUK-koden på nytt. Gjentatte forsøk deaktiverer SIM-kortet permanent.</string>
-    <string name="kg_invalid_sim_pin_hint">Skriv inn en PIN-kode på fire til åtte sifre.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK-koden skal være på åtte eller flere sifre.</string>
-    <string name="kg_login_too_many_attempts">For mange forsøk på tegning av mønster</string>
-    <string name="kg_password_instructions">Skriv inn passordet</string>
-    <string name="kg_password_pin_failed">PIN-koden for SIM-kortet ble avvist.</string>
-    <string name="kg_password_puk_failed">PUK-koden for SIM-kortet ble avvist.</string>
-    <string name="kg_password_wrong_pin_code_pukked">Feil PIN-kode for SIM-kortet. Du må nå kontakte operatøren din for å låse opp enheten.</string>
-    <string name="kg_password_wrong_puk_code_dead">SIM-kortet er ubrukelig. Ta kontakt med operatøren din.</string>
-    <string name="kg_pattern_instructions">Tegn mønsteret ditt</string>
-    <string name="kg_pin_accepted">Koden er godkjent.</string>
-    <string name="kg_pin_instructions">Skriv inn PIN-koden</string>
-    <string name="kg_prompt_reason_device_admin">Enheten er låst av administratoren</string>
-    <string name="kg_prompt_reason_restart_password">Du må skrive inn passordet etter at enheten har startet på nytt</string>
-    <string name="kg_prompt_reason_restart_pattern">Du må tegne mønsteret etter at enheten har startet på nytt</string>
-    <string name="kg_prompt_reason_restart_pin">Du må skrive inn PIN-koden etter at enheten har startet på nytt</string>
-    <string name="kg_prompt_reason_switch_profiles_password">Du må skrive inn passordet når du bytter profil</string>
-    <string name="kg_prompt_reason_switch_profiles_pattern">Du må tegne mønsteret når du bytter profil</string>
-    <string name="kg_prompt_reason_switch_profiles_pin">Du må skrive inn PIN-koden når du bytter profil</string>
-    <string name="kg_prompt_reason_timeout_password">Du må skrive inn passordet for ekstra sikkerhet</string>
-    <string name="kg_prompt_reason_timeout_pattern">Du må tegne mønsteret for ekstra sikkerhet</string>
-    <string name="kg_prompt_reason_timeout_pin">Du må skrive inn PIN-koden for ekstra sikkerhet</string>
-    <string name="kg_prompt_reason_user_request">Enheten ble låst manuelt</string>
-    <string name="kg_puk_enter_pin_hint">Tast inn ønsket PIN-kode</string>
-    <string name="kg_puk_enter_puk_hint">SIM-kortet er nå deaktivert. Skriv inn PUK-koden for å fortsette. Ta kontakt med operatøren for mer informasjon.</string>
-    <string name="kg_puk_enter_puk_hint_multi">SIM-kortet «%1$s» er nå deaktivert. Skriv inn PUK-koden for å fortsette. Ta kontakt med operatøren for mer informasjon.</string>
-    <string name="kg_sim_pin_instructions">Skriv inn PIN-koden for SIM-kortet</string>
-    <string name="kg_sim_pin_instructions_multi">Skriv inn PIN-koden for SIM-kortet «%1$s»</string>
-    <string name="kg_sim_unlock_progress_dialog_message">Låser opp SIM-kortet …</string>
-    <string name="kg_too_many_failed_attempts_countdown">Prøv på nytt om %d sekunder.</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har tastet inn passordet ditt feil %1$d ganger. 
-
-Prøv på nytt om %2$d sekunder."</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">"Du har tegnet opplåsningsmønsteret ditt feil %1$d ganger. 
-
-Prøv på nytt om %2$d sekunder."</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">"Du har oppgitt feil PIN-kode %1$d ganger. 
-
-Prøv på nytt om %2$d sekunder."</string>
-    <string name="kg_wrong_password">Feil passord</string>
-    <string name="kg_wrong_pattern">Feil mønster</string>
-    <string name="kg_wrong_pin">Feil PIN-kode</string>
     <string name="label_view">Vis</string>
     <string name="launch_defaults_none">Ingen standardinnstillinger er angitt</string>
     <string name="launch_defaults_some">Noen standardinnstillinger er angitt</string>
@@ -791,6 +701,8 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="local_backup_password_toast_confirmation_mismatch">Passordene er ikke’like</string>
     <string name="local_backup_password_toast_success">Nytt sikkerhetskopipassord er angitt</string>
     <string name="local_backup_password_toast_validation_failure">Kan ikke angi sikkerhetskopipassord</string>
+    <string name="lock_screen_date">EEEE, d. MMMM</string>
+    <string name="lock_screen_date_12">EEEE, d. MMMM</string>
     <string name="lockscreen_carrier_default">Ingen tjeneste</string>
     <string name="lockscreen_none">Ingen</string>
     <string name="lockscreen_shortcut_left">Venstre snarvei</string>

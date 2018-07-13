@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="add_alarm">Legg til alarm</string>
+    <string name="add_clock">Add Clock</string>
     <string name="add_timezone_title">Legg til tidssone</string>
     <string name="alarm_alert_alert_silenced">Alarm dempes etter %d minutter.</string>
     <string name="alarm_alert_snooze_set">Utsett i %d minutter.</string>
@@ -36,6 +37,7 @@
     <string name="close_alarm">Skru av</string>
     <string name="common_settings">Innstillinger</string>
     <string name="confirm_abort">Forkast</string>
+    <string name="content_desc_keep_screen">\"Keep screen on\" button</string>
     <string name="control_set_alarm">Still inn alarm</string>
     <string name="control_set_alarm_with_existing">Alarmen er satt på: %s</string>
     <string name="day">1 dag</string>
@@ -54,6 +56,7 @@
     <string name="dialog_message_agree">Agree</string>
     <string name="dialog_message_for_contact_permission">In order to make birthday alarms available, Clock needs to access your contacts. Agree?</string>
     <string name="dialog_message_negative">"Don't agree"</string>
+    <string name="dialog_message_not_remind">"Don't show again"</string>
     <string name="done">Ferdig</string>
     <string name="dynamic_alarm_speech">Smart alarm</string>
     <string name="edit_alarm">Edit alarm</string>
@@ -109,14 +112,14 @@
     <string name="menu_item_sort_by_name">Sorter etter navn</string>
     <string name="minute">1 minutt</string>
     <string name="minutes">%d minutter</string>
-    <string name="module_download_cancel">Not now</string>
-    <string name="module_download_data_msg">"In order to make smart alarms, nature sounds, and birthday alarms available, Clock needs to connect to the internet and access your contacts. You'll also have to download additional audio. Use mobile data to download additional audio?"</string>
-    <string name="module_download_data_msg_golbal">In order to make smart alarms and nature sounds available, Clock needs to download additional audio. Use mobile data to download additional audio?</string>
+    <string name="module_download_cancel">No thanks</string>
+    <string name="module_download_data_msg">"Clock needs to connect to the internet in order to download audio files (20MB) for ambient noises and smart alarms. You're using mobile data now. Allow?"</string>
+    <string name="module_download_data_msg_golbal">"Clock needs to download audio files (20MB) for ambient noises and smart alarms. You're using mobile data now. Allow?"</string>
     <string name="module_download_fail">Kunne ikke laste ned ekstra lyd</string>
-    <string name="module_download_msg">"In order to make smart alarms, nature sounds, and birthday alarms available, Clock needs to connect to the internet and access your contacts. You'll also have to download additional audio. Agree?"</string>
-    <string name="module_download_msg_golbal">In order to make smart alarms and nature sounds available, Clock needs to download additional audio. Agree?</string>
+    <string name="module_download_msg">Clock needs to connect to the internet in order to download audio files for ambient noises and smart alarms. Allow?</string>
+    <string name="module_download_msg_golbal">Clock needs to download audio files for ambient noises and smart alarms. Allow?</string>
     <string name="module_download_no_network">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
-    <string name="module_download_ok">Agree &amp; download</string>
+    <string name="module_download_ok">Allow</string>
     <string name="module_download_success">Lastet ned ekstra lyd</string>
     <string name="module_download_title">Ekstra lyd kreves</string>
     <string name="module_downloading">Laster ned ekstra lyd…</string>
@@ -145,6 +148,7 @@
     <string name="shutdown_alarm_enable_summary">Alarm vil gå av etter at enheten er skrudd av</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
@@ -153,6 +157,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">%1$s°</string>
@@ -183,10 +188,8 @@
     <string name="timer_item_picker_second">L</string>
     <string name="timer_new_item">Legg til tidsur</string>
     <string name="timer_notify_text">Utsett eller skru av tidsuret.</string>
-    <string name="timer_pause_hint">Pause</string>
     <string name="timer_pause_timer">Pause tidtaker</string>
     <string name="timer_running">Tidtaker kjører</string>
-    <string name="timer_running_hint">Fortsett</string>
     <string name="timer_start_alarm">Tiden er ute!</string>
     <string name="timer_start_timer">Start tidtaker</string>
     <string name="timer_title">Tidtaker</string>
@@ -211,4 +214,6 @@
     <string name="worldcolock_timezone_date">MMM dd</string>
     <string name="worldcolock_timezone_gap">Time</string>
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>
+    <string name="timer_pause_hint">Pause</string>
+    <string name="timer_running_hint">Fortsett</string>
 </resources>

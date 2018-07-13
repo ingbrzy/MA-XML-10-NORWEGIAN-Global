@@ -20,26 +20,6 @@
         <item quantity="other">%d viktige varsler</item>
         <item quantity="one">%d viktig varsel</item>
     </plurals>
-    <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
-        <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
-    </plurals>
-    <plurals name="kg_password_wrong_puk_code">
-        <item quantity="other">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
-        <item quantity="one">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">Enheten har ikke blitt låst opp de siste %d timene. Bekreft passordet.</item>
-        <item quantity="one">Enheten har ikke blitt låst opp på %d time. Bekreft passordet.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">Enheten har ikke blitt låst opp de siste %d timene. Bekreft mønsteret.</item>
-        <item quantity="one">Enheten har ikke blitt låst opp på %d time. Bekreft mønsteret.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">Enheten har ikke blitt låst opp de siste %d timene. Bekreft PIN-koden.</item>
-        <item quantity="one">Enheten har ikke blitt låst opp på %d time. Bekreft PIN-koden.</item>
-    </plurals>
     <plurals name="notification_channels_list_desc_2_and_others">
         <item quantity="other">%1$s, %2$s, and %3$d andre</item>
         <item quantity="one">%1$s, %2$s, and %3$d annen</item>

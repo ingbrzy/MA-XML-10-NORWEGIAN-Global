@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="mortgage_repayment">
+        <item>Like avdrag</item>
+        <item>Avtakende avdrag</item>
+    </string-array>
     <string-array name="operatorDescs">
         <item>Venstreparentes</item>
         <item>Høyreparentes</item>
@@ -18,10 +22,6 @@
         <item>cosinus</item>
         <item>pi</item>
         <item>er lik</item>
-    </string-array>
-    <string-array name="mortgage_repayment">
-        <item>Like avdrag</item>
-        <item>Avtakende avdrag</item>
     </string-array>
     <string-array name="unit_data_order_currency_">
         <item>USD</item>
