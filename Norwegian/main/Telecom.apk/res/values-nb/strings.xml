@@ -68,7 +68,6 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi-signal med to stolper.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi-signal med tre stolper.</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi-signalet er ved full styrke.</string>
-    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="data_usage_uninstalled_apps">Fjernede apper</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apper og brukere</string>
     <string name="tether_settings_title_usb">USB-internettdeling</string>
