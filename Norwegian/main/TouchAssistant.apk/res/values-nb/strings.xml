@@ -15,7 +15,7 @@
     <string name="hide_touch_assistant_intro">Skjul Quick ball i valgte apper</string>
     <string name="hide_when_fullscreen">Flytt til siden ved fullskjerm</string>
     <string name="hide_when_fullscreen_intro">Flytt til siden ved fullskjermmodus.</string>
-    <string name="mi_wallet_summary">Transport card/Mi Pay/Key card</string>
+    <string name="mi_wallet_summary">Transporter kort/Mi Pay/Nøkkelkort</string>
     <string name="motion_behavior">Foretrukket bevegelse</string>
     <string name="name_alipay_payment_code">Alipay-betaling</string>
     <string name="name_alipay_scan">Alipay-skanner</string>

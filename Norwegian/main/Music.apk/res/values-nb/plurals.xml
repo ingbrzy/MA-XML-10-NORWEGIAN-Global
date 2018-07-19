@@ -113,7 +113,7 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="one">%d sang</item>
     </plurals>
     <plurals name="video_play_count">
-        <item quantity="other">%1$s views</item>
-        <item quantity="one">%1$s view</item>
+        <item quantity="other">%1$s vis</item>
+        <item quantity="one">%1$s vis</item>
     </plurals>
 </resources>

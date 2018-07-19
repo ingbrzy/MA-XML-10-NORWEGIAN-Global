@@ -49,8 +49,8 @@
         <item>Nettbrett</item>
     </string-array>
     <string-array name="pref_navscreen_layoutstate_choices">
-        <item>Vertical view</item>
-        <item>Horizontal view</item>
+        <item>Vertikal visning</item>
+        <item>Horisontal visning</item>
     </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>Veldig liten</item>

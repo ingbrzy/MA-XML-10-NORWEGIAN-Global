@@ -61,8 +61,6 @@
     <string name="asset_sync_power_alert_message">Koble til lader for å sikkerhetskopiere sanger.</string>
     <string name="asset_sync_power_alert_title">Lav batterikapasitet</string>
     <string name="audio_picker_title">Velg en sang</string>
-    <string name="auto_payment">Automatisk fornyelse</string>
-    <string name="auto_payment_date">Neste betaling: %s</string>
     <string name="available_playlist_name_format">Ny spilleliste %d</string>
     <string name="avoid_to_use_traffic_summary">Ikke bruk mobilnettverk til å strømme musikk</string>
     <string name="avoid_to_use_traffic_title">Varsle når mobildata brukes til å spille sanger</string>
@@ -71,8 +69,6 @@
     <string name="backup_empty_button">Ingen sanger er valgt</string>
     <string name="backup_immediate">Sikkerhetslagre</string>
     <string name="backup_song_title">Velg sanger å sikkerhetslagre</string>
-    <string name="being_disable_auto_payment">Skrur av…</string>
-    <string name="being_enable_auto_payment">Skrur på…</string>
     <string name="bluetooth_device">Bluetooth lydenhet</string>
     <string name="buffering">Bufrer…</string>
     <string name="button_cancel_download">Avbryt</string>
@@ -125,10 +121,11 @@
     <string name="common_signin_button_text_long">Logg på med Google</string>
     <string name="confirm">OK</string>
     <string name="confirm_exit">Lagre endringer?</string>
-    <string name="connect_now">Connect</string>
+    <string name="connect_now">Koble til</string>
     <string name="connecting_apk">Kobler til…</string>
     <string name="continue_backup">Fortsett</string>
     <string name="cp_info_first">Online strømmetjeneste for musikk blir hovedsakelig levert av Ultimate Inc.</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Kunne ikke opprette ordren. Prøv igjen.</string>
     <string name="create_playlist">Opprett spilleliste</string>
     <string name="create_playlist_failure">Kunne ikke opprette spilleliste</string>
@@ -182,13 +179,9 @@
     <string name="dialog_title_not_available">Kunne ikke laste ned</string>
     <string name="dialog_title_queued_body">Filen ikke tilgjengelig ennå</string>
     <string name="dialog_title_remove_tracks">Fjern</string>
-    <string name="disable_auto_payment_fail">Kunne ikke skru av.</string>
-    <string name="disable_auto_payment_fail_message">Kunne ikke skru av automatisk fornyelse.</string>
-    <string name="disable_auto_payment_success">Skrudd av</string>
-    <string name="disable_auto_payment_success_message">Automatisk fornyelse er skrudd av. Etter at ditt nåværende abonnement utløper, må du igjen abonnere for å kunne laste ned sanger.</string>
     <string name="disallow_add_to_fm">Kan ikke legge sanger til FM-radio</string>
     <string name="disallow_add_to_personal_radio">Kan ikke legge sanger til personlig radio</string>
-    <string name="do_not_remind_this_version">"Don't remind me about this version"</string>
+    <string name="do_not_remind_this_version">Ikke gi påminnelse om denne versjonen</string>
     <string name="download">Last ned</string>
     <string name="download_added_to_list">Lagt til nedlastingsliste</string>
     <string name="download_apk_desktop_installing">Installering</string>
@@ -211,8 +204,8 @@
     <string name="download_completed">Nedlastet</string>
     <string name="download_confirm_button_text">Installer</string>
     <string name="download_confirm_text">Mi Music vil laste ned og installere \"%s\"</string>
-    <string name="download_connect_wifi_dialog_message">You need Wi-Fi to download this song. Connect now?</string>
-    <string name="download_connect_wifi_dialog_title">Connect to Wi-Fi</string>
+    <string name="download_connect_wifi_dialog_message">Du må være koblet til Wi-Fi for å laste ned denne sangen. Koble til nå?</string>
+    <string name="download_connect_wifi_dialog_title">Koble til Wi-Fi</string>
     <string name="download_done_btn">Nedlastet</string>
     <string name="download_error">Mislyktes</string>
     <string name="download_error_insufficient_space">Ikke nok plass</string>
@@ -225,6 +218,7 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
@@ -263,10 +257,6 @@
     <string name="edit_playlist_info">Rediger spillelisteinformasjon</string>
     <string name="empty_page_no_album">Ingen album.</string>
     <string name="empty_page_no_artist">Ingen artister.</string>
-    <string name="enable_auto_payment_fail">Kunne ikke skru på</string>
-    <string name="enable_auto_payment_fail_message">Kunne ikke skru på automatisk fornyelse</string>
-    <string name="enable_auto_payment_success">Forny automatisk</string>
-    <string name="enable_auto_payment_success_message">Automatisk fornyelse er skrudd på. Neste betaling forfaller %s.</string>
     <string name="enabled">Aktivert</string>
     <string name="enter_garbage_clean">Rens intern lagringsplass</string>
     <string name="eq_auto">Tilpasset</string>
@@ -384,15 +374,15 @@
     <string name="global_search_title_prenatal">Prenatal-musikk</string>
     <string name="global_search_title_radar">Musikkgjenkjennelse</string>
     <string name="handle_later">Ikke nå</string>
-    <string name="headset_and_audio_effect_category">Headphones &amp; audio effects</string>
-    <string name="headset_and_audio_effect_summary">Headphones &amp; equalizer</string>
-    <string name="headset_and_audio_effect_title">Headphones &amp; audio effects</string>
+    <string name="headset_and_audio_effect_category">Høretelefoner og lydeffekter</string>
+    <string name="headset_and_audio_effect_summary">Høretelefoner &amp; lydeffekter</string>
+    <string name="headset_and_audio_effect_title">Høretelefoner &amp; lydeffekter</string>
     <string name="hide_album">Skjul albumcover</string>
     <string name="hide_lyric">Skjul tekster</string>
     <string name="higher_quality_music">Høykvalitets lyd</string>
     <string name="higher_quality_music_summary">Strøm og last ned filer med høyere bitrate</string>
     <string name="home_tab_local">Min musikk</string>
-    <string name="home_tab_online">Online music</string>
+    <string name="home_tab_online">Online musikk</string>
     <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_subscribe_message">Kjøp PRO medlemskap for å laste ned musikk i høy kvalitet.</string>
     <string name="hungama_subscribe_positive_button">Kjøp PRO medlemskap</string>
@@ -484,8 +474,9 @@
     <string name="modify_song_info_success">Sanginfo er oppdatert</string>
     <string name="more">Mer</string>
     <string name="more_add_song_list">Legg sanger til køen</string>
+    <string name="more_milink">MI Link</string>
     <string name="more_settings">Avanserte innstillinger</string>
-    <string name="more_settings_summary">Last ned innstillinger, soveinnstillinger, mobildataadministrasjon, filfiltre etc.</string>
+    <string name="more_settings_summary">Sleep timer, filters for files, etc.</string>
     <string name="more_share">Del</string>
     <string name="music_browser_label">Musikk</string>
     <string name="music_filter">Filtrer lydfiler</string>
@@ -574,8 +565,8 @@
     <string name="play_mode_play_all">Spill alle</string>
     <string name="play_mode_shuffle_all">Stokk</string>
     <string name="play_next">Spill neste</string>
-    <string name="play_video_with_traffic">CONTINUE</string>
-    <string name="play_video_with_traffic_toast">"You're using mobile data now."</string>
+    <string name="play_video_with_traffic">FORTSETT</string>
+    <string name="play_video_with_traffic_toast">Du bruker mobildata nå.</string>
     <string name="playlist_empty">Ingen spillelister funnet</string>
     <string name="playlist_title">Navn på spillelisten</string>
     <string name="playlist_title_is_empty">Navnet på spillelisten kan ikke stå tomt</string>
@@ -593,6 +584,7 @@
     <string name="priority_storage">Bruk eksternt SD-kort</string>
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
     <string name="pulluprefreshrecyclerview_loading_error">Kunne ikke laste</string>
@@ -619,7 +611,7 @@
     <string name="request_share_info">Et øyeblikk…</string>
     <string name="request_subscription_status">Et øyeblikk…</string>
     <string name="restart_immediate">Start på nytt</string>
-    <string name="retry">Try again</string>
+    <string name="retry">Prøv igjen</string>
     <string name="retry_after_network_available">Kan ikke koble til nettverket. Kontroller tilkoblingen og prøv igjen.</string>
     <string name="retry_download">Prøv igjen</string>
     <string name="ringtone_not_support">Dette sangformatet støttes ikke</string>
@@ -684,7 +676,7 @@
     <string name="shuffle_off_notif">Stokking er av.</string>
     <string name="shuffle_on_notif">Stokking er på.</string>
     <string name="similar_songs">Lignende sanger</string>
-    <string name="similar_videos">Similar videos</string>
+    <string name="similar_videos">Lignende videoer</string>
     <string name="sleep_mode">Innsovningsinnstilling</string>
     <string name="sleep_mode_canceled">Sovemodus er slått av</string>
     <string name="sleep_mode_summary">Stopp spilleren etter en gitt tid</string>
@@ -702,6 +694,7 @@
     <string name="start_to_check_new_version">Ser etter oppdateringer…</string>
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop">Stopp</string>
     <string name="stop_backup">Stopp</string>
     <string name="storage_internal">Intern lagring</string>
@@ -740,7 +733,7 @@
     <string name="terms_of_service">Vilkår for bruk</string>
     <string name="ticket_summary">Kjøp billetter til shows, konserter, forestillinger og andre arrangementer</string>
     <string name="ticket_title">Vis billetter</string>
-    <string name="time_to_upgrade">An update is available</string>
+    <string name="time_to_upgrade">En oppdatering er tilgjengelig</string>
     <string name="title_online_fm_recommend">Utvalgt FM</string>
     <string name="title_online_recommend">Utvalgte spillelister</string>
     <string name="title_search_history">Søkelogg</string>
@@ -758,16 +751,17 @@
     <string name="ultra_high_quality">Høyest</string>
     <string name="unknown_album_name">Ukjent album</string>
     <string name="unknown_artist_name">Ukjent artist</string>
-    <string name="update_now">UPDATE NOW</string>
+    <string name="update_now">OPPDATER NÅ</string>
     <string name="upgrade_music">Oppdater Music</string>
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Versjon</string>
-    <string name="video_play_cellular">"Your device isn't connected to Wi-Fi. Use mobile data?"</string>
-    <string name="video_replay_btn">Play again</string>
-    <string name="video_retry_btn">Try again</string>
-    <string name="view_album">View album</string>
+    <string name="video_play_cellular">Din enhet er ikke koblet til Wi-Fi. Bruke mobildata?</string>
+    <string name="video_replay_btn">Spill av igjen</string>
+    <string name="video_retry_btn">Prøv igjen</string>
+    <string name="view_album">Vis album</string>
     <string name="vip_after_tomorrow_auto_renew_message">Ditt Music-abonnement vil bli automatisk fornyet i overimorgen kveld. Pass på at du har nok Mi-kreditt på kontoen din for å gjennomføre betalingen.</string>
     <string name="vip_after_tomorrow_renew_message">Du vil ikke kunne strømme høykvalitets lyd, men enkelte sanger vil være tilgjengelig i standardkvalitet.</string>
     <string name="vip_auto_renew_message">Ditt Music-abonnement vil bli automatisk fornyet i kveld. Pass på at du har nok Mi-kreditt på kontoen din for å gjennomføre betalingen.</string>

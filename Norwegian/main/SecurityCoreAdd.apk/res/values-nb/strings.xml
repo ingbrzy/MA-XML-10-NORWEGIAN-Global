@@ -298,7 +298,7 @@ for å gå inn i Andre område fra Låseskjermen"</string>
     <string name="xspace_default_setting_label">Standardapp</string>
     <string name="xspace_default_app_title">Standardapp</string>
     <string name="xspace_default_app_summary">Angi standardapp for betalinger, deling, favoritter og mer.</string>
-    <string name="xspace_default_setting_dialog_title">Standard</string>
+    <string name="xspace_default_setting_dialog_title"> default</string>
     <string name="xspace_default_guide_notification_content">Trykk for å endre</string>
     <string name="xspace_default_guide_notification_main_title">Bruker standard-app</string>
     <string name="xspace_default_guide_notification_xspace_title">Bruker dual-app</string>

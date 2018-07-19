@@ -419,7 +419,7 @@ svarer"</string>
     <string name="root">Rottilgang</string>
     <string name="app_detail">Detaljer</string>
     <string name="app_version">Versjon:</string>
-    <string name="app_mobile">Mobil</string>
+    <string name="app_mobile">Mobile data</string>
     <string name="app_wifi">Wi-Fi</string>
     <string name="traffic_none">Ingen</string>
     <string name="sorted_dialog_title">Sorter etter</string>
@@ -433,6 +433,7 @@ svarer"</string>
     <string name="managed_user_title">Alle arbeidsapplikasjoner</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -896,7 +897,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="tether_over_limit_dialog_message">Du har nådd datagrensen for den bærbare sonen.</string>
     <string name="tether_over_limit_dialog_cancle_btn">Tilbakestill sone</string>
     <string name="network_traffic_warning_title">Data usage for system apps</string>
-    <string name="network_traffic_warning_text">"MIUI can't calculate data usage stats for individual system apps here.You will be able to see the data usage related info in the app details in case this app is using mobile data actively."</string>
+    <string name="network_traffic_warning_text">"MIUI can't calculate data usage stats for individual system apps here. You will be able to see the data usage related info in the app details in case this app is using mobile data actively."</string>
     <string name="optimize_manage_title">Øk fart</string>
     <string name="cpu_usage_android_system">Android-system</string>
     <string name="cpu_usage_process_run_time_little_time">Mindre enn 1 minutt</string>
@@ -958,6 +959,7 @@ Dette reduserer batterilevetiden."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denne appen kan forsinke
 enheten din"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallere %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstaller denne appen for å fikse problemer med batteribruk.</string>
     <string name="om_ill_proc_type_wakelock_title">Appen blokkerer hvilemodus og tømmer batteri</string>
@@ -974,7 +976,7 @@ enheten din"</string>
     <string name="om_ill_proc_type_radio_detail">Fiks problemer med nettverksforbindelsen</string>
     <string name="om_ill_proc_activity_title">Problemer</string>
     <string name="power_center_title">Batteribruk</string>
-    <string name="power_center_back">Tilbake til Batteribruk</string>
+    <string name="power_center_back">Back</string>
     <string name="power_center_auto_shutdown">Strømstyringsplan</string>
     <string name="power_center_ontime_boot">Slå på</string>
     <string name="power_center_time_to_boot">Slå på</string>
@@ -1016,6 +1018,7 @@ enheten din"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1362,11 +1365,13 @@ enheten din"</string>
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_summary_networkassistants">Manage your data plan</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Went over the limit</string>
     <string name="menu_summary_networkassistants_3">Enough data remaining</string>
     <string name="menu_summary_networkassistants_4">Running out of data</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1379,12 +1384,14 @@ enheten din"</string>
     <string name="menu_summary_garbage_cleanup">No trash found</string>
     <string name="menu_summary_garbage_cleanup_2">Trash size</string>
     <string name="menu_summary_garbage_cleanup_3">Clear trash now</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteribruk</string>
     <string name="menu_summary_power_manager">Battery saver gives you more time between charges</string>
     <string name="menu_summary_power_manager_1">Battery is fully charged</string>
     <string name="menu_summary_power_manager_2">%s remaining</string>
     <string name="menu_summary_power_manager_3">Connect charger</string>
     <string name="menu_summary_power_manager_4">%s until full</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="examination_score_100">Alt ser bra ut!</string>
     <string name="examination_score_80_100">Et par enheter kan optimaliseres</string>
@@ -1750,6 +1757,7 @@ enheten din"</string>
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1903,7 +1911,7 @@ enheten din"</string>
     <string name="applock_not_login_account">Du er ik logget inn</string>
     <string name="applock_bind_account_title">Glemt passord</string>
     <string name="applock_close_dialog_title">Skru av App lock?</string>
-    <string name="applock_close_dialog_summary">Apper vil ikke lenger være beskyttet og passordet ditt blir slettet etter at du skrur av App lock.</string>
+    <string name="applock_close_dialog_summary">Apps will no longer be protected and your password will be deleted after you turn off App lock.</string>
     <string name="applock_header_text_less_than_half">For lite. Trekk litt lenger.</string>
     <string name="quite_all_string">Avbryt</string>
     <string name="delete_input">Slett</string>
@@ -2284,8 +2292,8 @@ enheten din"</string>
     <string name="gamebox_type_gesture">Sveip for å vise</string>
     <string name="gb_first_window_title">Game speed booster</string>
     <string name="gb_first_window_summary">Boost speed and performance on a system level</string>
-    <string name="gb_first_window_gamebox_summary_four">Clear cache, make screen recordings and screenshots</string>
-    <string name="gb_first_window_gamebox_summary_six">Use quick replies, make screen recordings and screenshots</string>
+    <string name="gb_first_window_gamebox_summary_four">Use quick replies, make screen recordings and screenshots</string>
+    <string name="gb_first_window_gamebox_summary_six">Clear cache, make screen recordings and screenshots</string>
     <string name="gb_first_window_handsfree_title">Hands-free calls</string>
     <string name="gb_first_window_handsfree_summary">Turn on speaker automatically</string>
     <string name="gb_first_window_antimsg_title">Convenient notifications</string>
