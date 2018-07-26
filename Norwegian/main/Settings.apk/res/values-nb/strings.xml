@@ -913,7 +913,6 @@ Samplingsfrekvens"</string>
     <string name="bootloader_status_unlocked">Låst opp</string>
     <string name="bootloader_status_unlocked_info">Denne enheten er låst opp</string>
     <string name="bootloader_summary">Flash enheten din via USB</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Lysfarge</string>
     <string name="breathing_light_color_summary">Lysfarge ved nytt mottatt varsel</string>
     <string name="breathing_light_freq_summary">Blink når du har nye varsler</string>
@@ -1550,7 +1549,6 @@ Siden databruken måles av telefonen, og operatøren din kan beregne bruken anne
     <string name="dndm_auto_button_title">Gjenta «Ikke forstyrr»-tid</string>
     <string name="dndm_auto_setting_group">Planlagt</string>
     <string name="dndm_auto_time_setting">Angi tid</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Til</string>
     <string name="dndm_auto_time_turn_off_title">Skru av «Ikke forstyrr» automatisk</string>
     <string name="dndm_auto_time_turn_on">Fra</string>
@@ -2000,7 +1998,6 @@ Når du slår på automatisk sikkerhetskopiering, lagres app- og enhetsdata auto
     <string name="gadget_picker_title">Velg gadget</string>
     <string name="gadget_state_off">av</string>
     <string name="gadget_state_on">på</string>
-    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_turning_off">slår av</string>
     <string name="gadget_state_turning_on">slår på</string>
     <string name="gadget_sync">Synkronisering</string>
@@ -2308,7 +2305,6 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="lift_to_wake_title">Aktiver enheten med løftebevegelser</string>
     <string name="line_breaking_summary">Optimaliser linjeskift for avsnitt</string>
     <string name="line_breaking_title">Optimaliser tekst</string>
-    <string name="link_speed">%1$d Mbps</string>
     <string name="list_bg_header_text">Hvis du begrenser bakgrunnstilkoblingen, vil nye apper ikke være i stand til å koble til internett i bakgrunnen etter du har installert dem. De vil muligens ikke være i stand til å motta meldinger eller laste ned innhold etter dette.</string>
     <string name="list_empty_text">Tøm</string>
     <string name="loading_notification_apps">Laster inn apper …</string>
@@ -2664,7 +2660,6 @@ Det er andre brukere tilstede på denne enheten.
     <string name="memory_title">Tilgjengelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Minnebruk</string>
     <string name="memory_usage_apps">Minne brukt av apper</string>
-    <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s gjennomsnittlig minne brukt i løpet av de siste tre timene</string>
     <string name="menu_cancel">Forkast</string>
     <string name="menu_check">Opplevelse</string>
@@ -2911,7 +2906,6 @@ Velg ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">Skjønner</string>
     <string name="nfc_how_it_works_title">Betaling ved terminaler</string>
     <string name="nfc_more_title">Mr</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp for betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angitt</string>
     <string name="nfc_payment_favor_default">Bruk alltid standard-appen</string>
@@ -3123,7 +3117,6 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="overlay_display_devices_title">Simuler sekundære skjermer</string>
     <string name="overlay_settings">Vis over andre apper</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Android.</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskjermsignatur</string>
     <string name="owner_space">Første område</string>
@@ -3435,8 +3428,6 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="private_sms_recording_intro_header">Tegn et opplåsingsmønster:</string>
     <string name="private_sms_reset_by_account">For å tilbakestille passordet ditt, logg inn på din Mi Account</string>
     <string name="process_dex2oat_label">Appoptimalisering</string>
-    <string name="process_format">%1$s (%2$d)</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Medietjener</string>
     <string name="process_provider_in_use_description">Leverandøren %1$s er i bruk.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i bruk.</string>
@@ -4057,7 +4048,6 @@ Sånn bruker du én-appsmodus:
     <string name="security_encryption_attention_3">Du må angi et nytt låseskjermpassord.</string>
     <string name="security_encryption_attention_4">Forsikre deg om at du husker låseskjermpassordet. Hvis ikke må du gjennomføre en full tilbakestilling og slette alle data på enheten.</string>
     <string name="security_encryption_attention_info">Du kan kryptere kontoer, innstillinger, nedlastede apper og deres data, medier og andre filer.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Viktig</string>
     <string name="security_encryption_close_dialog_info">Om du velger å ikke kryptere enheten med låseskjermpassord, kan enkelte Google-tjenester bli utilgjengelige.</string>
     <string name="security_encryption_close_dialog_title">Gå tilbake til standard passordbeskyttelse</string>
@@ -4308,7 +4298,6 @@ Muligens feil personlig kode."</string>
     <string name="sim_reenter_new">Skriv inn ny PIN-kode på nytt</string>
     <string name="sim_select_card">Velg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du må velge en SIM-innstilling</string>
-    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4322,7 +4311,6 @@ Muligens feil personlig kode."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
-    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Hopp over likevel</string>
     <string name="skip_label">Hopp over</string>
@@ -4400,7 +4388,6 @@ Pålitelig legitimasjon, som er installert på enheten din, gjør dette mulig."<
     <string name="status_bar_settings_all_app_display_loading">Et øyeblikk…</string>
     <string name="status_bar_settings_app_notification_preferences">Appinnstillinger</string>
     <string name="status_bar_settings_basic_settings">Grunninnstillinger</string>
-    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Rediger leverandørnavn</string>
     <string name="status_bar_settings_custom_wifi_name">Rediger Wi-Fi navn</string>
     <string name="status_bar_settings_enable_notification">Vis varsler</string>
@@ -4632,7 +4619,6 @@ Vurder å bruke raskere ^1 for bedre ytelse."</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Velg en nettverksoperatør</string>
     <string name="summary_divider_text">", "</string>
-    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="super_resolution_access_title">Tilgjengelige apper</string>
     <string name="super_resolution_desc">Gjør bildene skarpere ved å bruke AI-algoritme</string>
@@ -5622,11 +5608,9 @@ Vil du tillate dette for alle apper som prøver å skanne?"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
-    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
-    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

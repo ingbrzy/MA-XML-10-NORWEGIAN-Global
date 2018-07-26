@@ -192,7 +192,6 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
-    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_prefix">"VS: "</string>
@@ -542,7 +541,6 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
-    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>
