@@ -11,7 +11,7 @@
     <string name="permdesc_downloadManagerAdvanced">Lar appen få tilgang til de avanserte funksjonene til Nedlastinger. Ondsinnede apper kan bruke dette til å forstyrre nedlastinger og få tilgang til privat informasjon.</string>
     <string name="permlab_downloadCompletedIntent">Send nedlastingsvarsler.</string>
     <string name="permdesc_downloadCompletedIntent">Lar appen sende varsler om fullførte nedlastinger. Ondsinnede apper kan bruke dette til å forvirre andre apper som laster ned filer.</string>
-    <string name="permlab_seeAllExternal">Se alle nedlastinger til USB-lagring</string>
+    <string name="permlab_seeAllExternal">Se alle nedlastinger til SD-kort</string>
     <string name="permdesc_seeAllExternal">Lar appen se alle nedlastingene til SD-kortet, uansett hvilken app som lastet dem ned.</string>
     <string name="permlab_downloadCacheNonPurgeable">Reserver plass i nedlastingsbufferen</string>
     <string name="permdesc_downloadCacheNonPurgeable">Tillater appen å laste ned filer til nedlastingsbufferen, som ikke kan slettes automatisk når nedlastingsbehandleren trenger mer plass.</string>

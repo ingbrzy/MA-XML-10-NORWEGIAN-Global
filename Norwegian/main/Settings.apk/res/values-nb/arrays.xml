@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
+    </string-array>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="agps_network_entries">
         <item>Hjemmenettverk</item>
         <item>Alle nettverk</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="agps_reset_type_entries">
         <item>SVÆRT VARM</item>
         <item>VARM</item>
         <item>KALD</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Hver dag</item>
@@ -39,6 +60,11 @@
         <item>PAP</item>
         <item>CHAP</item>
         <item>PAP eller CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="app_install_location_entries">
         <item>Intern lagringsenhet</item>
@@ -294,6 +320,11 @@
         <item>LDAC</item>
         <item>Aktiver valgfrie kodeker</item>
         <item>Deaktiver valgfrie kodeker</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
         <item>AVRCP 1.4 (Standard)</item>
@@ -661,6 +692,31 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
         <item>Forbedrede farger</item>
         <item>Naturlige farger som øyet ser dem</item>
@@ -691,6 +747,10 @@
         <item>Kompabilitet</item>
         <item>Høy hastighet</item>
     </string-array>
+    <string-array name="connect_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="data_usage_data_range">
         <item>De siste 30 dagene</item>
         <item>Angi brukssyklus</item>
@@ -713,6 +773,12 @@
         <item>5 minutter</item>
         <item>10 minutter</item>
         <item>30 minutter</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ingen</item>
@@ -743,6 +809,11 @@
         <item>4,0 tommer</item>
         <item>3,5 tommer</item>
     </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
+    </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Av</item>
         <item>Lett</item>
@@ -758,6 +829,15 @@
         <item>Aldri sjekk</item>
         <item>Se kun etter DRM-innhold</item>
         <item>Sjekk alltid</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
     </string-array>
     <string-array name="led_color_entries">
         <item>Blå</item>
@@ -797,6 +877,43 @@
         <item>Etter 5 minutter</item>
         <item>Aldri</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom02</item>
+        <item>@drawable/longpressbottom03</item>
+        <item>@drawable/longpressbottom04</item>
+        <item>@drawable/longpressbottom05</item>
+        <item>@drawable/longpressbottom06</item>
+        <item>@drawable/longpressbottom07</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom09</item>
+        <item>@drawable/longpressbottom10</item>
+        <item>@drawable/longpressbottom11</item>
+        <item>@drawable/longpressbottom04</item>
+        <item>@drawable/longpressbottom03</item>
+        <item>@drawable/longpressbottom02</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Kort</item>
         <item>Middels</item>
@@ -830,6 +947,14 @@
         <item>Fiolett</item>
         <item>Lilla</item>
     </string-array>
+    <string-array name="miui_entries_font_size">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+    </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP og eldre</item>
         <item>Windows Vista og nyere</item>
@@ -857,6 +982,14 @@
         <item>"Avinnstaller enhet: fusermount -u /media/mtp
 Note: Kun for Ubuntu 8.04!"</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
         <item>Reinstaller MiPhoneManager.</item>
@@ -872,6 +1005,10 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Nettverket er tregt på grunn av for mye trafikk</item>
         <item>Nettverket er tregt på grunn av svak signalstyrke</item>
         <item>Flytting…</item>
+    </string-array>
+    <string-array name="notch_battery_indicator_style_entries">
+        <item>Graphical</item>
+        <item>Percentage</item>
     </string-array>
     <string-array name="organized_locales">
         <item>dz</item>
@@ -944,6 +1081,62 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Enkelt mikrofon støydemping</item>
         <item>Dobbel mikrofon støydemping</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>Ytelse</item>
         <item>Balansert</item>
@@ -1031,6 +1224,16 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Økt kontrast</item>
         <item>Standard</item>
     </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080P</item>
+        <item>720P</item>
+    </string-array>
     <string-array name="screen_saturation_title">
         <item>Briljant</item>
         <item>Standard</item>
@@ -1088,6 +1291,10 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Tegn ikke-rektangulært klippeområde i blått</item>
         <item>Fremhev testede tegningskommandoer i grønt</item>
     </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
+    </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Alltid</item>
         <item>30 minutter</item>
@@ -1095,10 +1302,46 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>2 timer</item>
         <item>8 timer</item>
     </string-array>
+    <string-array name="silent_mode_duration_value">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>480</item>
+    </string-array>
+    <string-array name="silent_values">
+        <item>4</item>
+        <item>1</item>
+    </string-array>
     <string-array name="startup_hips_action">
         <item>Tillat</item>
         <item>Avslå</item>
     </string-array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
         <item>Europa</item>
@@ -1117,6 +1360,11 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Av</item>
         <item>Vanlig</item>
         <item>Ekstrem</item>
+    </string-array>
+    <string-array name="traffic_balance_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animasjon av</item>
@@ -1137,6 +1385,24 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Hurtig</item>
         <item>Veldig hurtig</item>
         <item>Raskest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="tts_rate_xunfei_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Brukstid</item>
@@ -1161,6 +1427,12 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Kun fra kontakter</item>
         <item>Kun fra stjernemerkede kontakter</item>
         <item>Ingen</item>
+    </string-array>
+    <string-array name="vip_mode_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="vpn_states">
         <item>Frakoblet</item>
@@ -1192,6 +1464,12 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Middels</item>
         <item>Høy</item>
     </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="wifi_calling_mode_choices">
         <item>Wi-Fi er foretrukket</item>
         <item>Først-på-mobil</item>
@@ -1209,6 +1487,15 @@ Note: Kun for Ubuntu 8.04!"</item>
     <string-array name="wifi_calling_mode_choices_without_wifi_only">
         <item>Wi-Fi er foretrukket</item>
         <item>Først-på-mobil</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>Automatisk tilkobling</item>

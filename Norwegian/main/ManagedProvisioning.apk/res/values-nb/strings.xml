@@ -11,9 +11,9 @@
     <string name="the_following_is_your_mdm">Denne appen trenger tilgang til denne profilen:</string>
     <string name="the_following_is_your_mdm_for_device">Denne appen kommer til å administrere enheten din:</string>
     <string name="next">Neste</string>
-    <string name="setting_up_workspace">Konfigurerer arbeidsprofilen din …</string>
+    <string name="setting_up_workspace">Konfigurerer jobbprofilen …</string>
     <string name="admin_has_ability_to_monitor_profile">Administratoren din kan overvåke og administrere innstillinger, bedriftstilgang, apper, tillatelser og data som er tilknyttet denne profilen, inkludert nettverksaktivitet og enhetens posisjonsinformasjon, anropslogg og søkelogg for kontakter.&lt;br>&lt;br>Hvis du vil ha mer informasjon, inkludert organisasjonens personvernregler, kan du kontakte administratoren din.</string>
-    <string name="admin_has_ability_to_monitor_device">Administratoren din kan overvåke og administrere innstillinger, bedriftstilgang, apper, tillatelser og data som er tilknyttet denne enheten, inkludert nettverksaktivitet og enhetens posisjonsinformasjon, anropslogg og søkelogg for kontakter.&lt;br>&lt;br>Hvis du vil ha mer informasjon, inkludert organisasjonens personvernregler, kan du kontakte administratoren din.</string>
+    <string name="admin_has_ability_to_monitor_device">Administratoren din kan overvåke og administrere innstillinger, bedriftstilgang, apper, tillatelser og data som er tilknyttet denne enheten, inkludert nettverksaktivitet og enhetens posisjonsinformasjon, anropslogg og søkelogg for kontakter.&lt;br>&lt;br>Kontakt administratoren din for mer informasjon, inkludert organisasjonens personvernregler.</string>
     <string name="theft_protection_disabled_warning">For å bruke funksjoner for tyveribeskyttelse må du ha en passordbeskyttet skjermlås på enheten din.</string>
     <string name="contact_your_admin_for_more_info">Hvis du vil ha mer informasjon, inkludert organisasjonens personvernregler, kan du kontakte administratoren din.</string>
     <string name="learn_more_link">Finn ut mer</string>
@@ -27,7 +27,7 @@
     <string name="default_managed_profile_name">Arbeidsprofil</string>
     <string name="default_first_meat_user_name">Hovedbruker</string>
     <string name="delete_profile_title">Vil du slette den eksisterende profilen?</string>
-    <string name="opening_paragraph_delete_profile">Du har allerede en jobbprofil som administreres av følgende app:</string>
+    <string name="opening_paragraph_delete_profile">Du har allerede en jobbprofil. Den administreres med følgende app:</string>
     <string name="read_more_delete_profile"><a href="#read_this_link">Les dette</a> før du fortsetter.</string>
     <string name="sure_you_want_to_delete_profile">Hvis du fortsetter, blir alle appene og dataene i denne profilen slettet.</string>
     <string name="delete_profile">Slett</string>
@@ -40,17 +40,15 @@
     <string name="continue_provisioning_notify_text">Trykk for å fortsette konfigureringen av jobbprofilen din</string>
     <string name="managed_provisioning_error_text">Kunne ikke konfigurere arbeidsprofilen din. Ta kontakt med IT-avdelingen og prøv på nytt senere.</string>
     <string name="cant_add_work_profile">Kan ikke legge til jobbprofilen</string>
-    <string name="user_cant_have_work_profile_contact_admin">Denne brukeren kan ikke ha jobbprofiler. Ta kontakt med administratoren din for å få hjelp.</string>
-    <string name="user_cannot_have_work_profiles_contact_admin">Denne brukeren kan ikke ha jobbprofiler. Ta kontakt med administratoren din.</string>
-    <string name="device_owner_exists">Arbeidsprofiler kan ikke konfigureres på administrerte enheter</string>
-    <string name="too_many_users_on_device_remove_user_try_again">Det er muligens for mange brukere på denne enheten. Fjern en bruker, og prøv på nytt.</string>
+    <string name="cant_replace_or_remove_work_profile">Kan ikke erstatte eller fjerne jobbprofilen</string>
+    <string name="work_profile_cant_be_added_contact_admin">Jobbprofiler kan ikke legges til på denne enheten. Hvis du har spørsmål, kan du kontakte administratoren din.</string>
     <string name="change_device_launcher">Bytt appoversikt på enheten</string>
     <string name="launcher_app_cant_be_used_by_work_profile">Denne appoversikt-appen kan ikke brukes av jobbprofilen din</string>
     <string name="cancel_provisioning">Avbryt</string>
     <string name="pick_launcher">OK</string>
     <string name="user_setup_incomplete">Brukerkonfigureringen er ikke fullført</string>
     <string name="default_owned_device_username">Bruker av arbeidsenhet</string>
-    <string name="setup_work_device">Konfigurer jobbenhet</string>
+    <string name="setup_work_device">Konfigurerer jobbenheten …</string>
     <string name="progress_data_process">Behandler konfigureringsdata …</string>
     <string name="progress_connect_to_wifi">Kobler til Wi-Fi …</string>
     <string name="progress_download">Laster ned admin-appen …</string>

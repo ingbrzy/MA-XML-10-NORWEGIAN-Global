@@ -12,9 +12,9 @@
     <string name="video_camera_label">Videokamera</string>
     <string name="wait">Et øyeblikk…</string>
     <string name="no_storage">Sett inn SD-kortet før du bruker kameraet</string>
-    <string name="not_enough_space">Den interne lagringen er full</string>
-    <string name="preparing_sd">Sjekker intern lagring…</string>
-    <string name="access_sd_fail">Kunne ikke få tilgang til USB-lagring.</string>
+    <string name="not_enough_space">SD-kortet er full</string>
+    <string name="preparing_sd">Sjekker SD-kort…</string>
+    <string name="access_sd_fail">Kunne ikke få tilgang til SD-kort.</string>
     <string name="confirm_restore_title">Gjenopprett standardinnstillinger</string>
     <string name="confirm_restore_message">Gjenopprette kameraets standardinnstillinger?</string>
     <string name="confirm_location_title">Huske bildeplasseringer?</string>
@@ -431,6 +431,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Skru av kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -445,6 +446,7 @@ og bringer frem mennesker som er foran."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>

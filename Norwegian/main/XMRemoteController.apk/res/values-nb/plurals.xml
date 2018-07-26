@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apk_file_list_view_header">
+        <item quantity="other">%d APK-er</item>
+        <item quantity="one">%d APK</item>
+    </plurals>
+    <plurals name="app_install_count">
+        <item quantity="other">%1$s nedlastinger</item>
+        <item quantity="one">%1$s nedlasting</item>
+    </plurals>
+    <plurals name="app_user_used">
+        <item quantity="other">%1$s brukere</item>
+        <item quantity="one">%1$s bruker</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d dager siden</item>
+        <item quantity="one">%1$d dag siden</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d timer siden</item>
+        <item quantity="one">%1$d time siden</item>
+    </plurals>
+    <plurals name="match_brand_selection_des">
+        <item quantity="other">%d merker tilgjengelige</item>
+        <item quantity="one">Ett merke tilgjengelig</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d minutter siden</item>
+        <item quantity="one">%1$d minutt siden</item>
+    </plurals>
+    <plurals name="mitv_show_update_full">
+        <item quantity="other">%d episoder</item>
+        <item quantity="one">%d episode</item>
+    </plurals>
+    <plurals name="video_count_info">
+        <item quantity="other">%d videoer</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="video_play_series_num">
+        <item quantity="other">Spill av episode %d</item>
+        <item quantity="one">Spill av episode %d</item>
+    </plurals>
+    <plurals name="video_search_title">
+        <item quantity="other">Fant %d videoer</item>
+        <item quantity="one">Fant %d video</item>
+    </plurals>
+</resources>

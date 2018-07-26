@@ -26,8 +26,8 @@
     <string name="cert_too_large_error">Kunne ikke installere fordi sertifikatet er for stort.</string>
     <string name="cert_missing_error">Kunne ikke installere fordi sertifikatfilen ikke ble funnet.</string>
     <string name="cert_read_error">Kunne ikke installere fordi sertifikatfilen ikke kunne leses.</string>
-    <string name="no_cert_file_found">Finner ingen sertifikatfil på USB-lagringsenheten.</string>
-    <string name="sdcard_not_present">USB-lagring ikke tilgjengelig.</string>
+    <string name="no_cert_file_found">Fant ingen sertifikatfil på minnekortet.</string>
+    <string name="sdcard_not_present">Finner ikke SD-kort.</string>
     <string name="only_primary_user_allowed">Bare eieren av denne enheten kan installere sertifikater.</string>
     <string name="credential_usage_label">Bruk av legitimasjon:</string>
     <string name="wifi_title">Wi-Fi-profil</string>

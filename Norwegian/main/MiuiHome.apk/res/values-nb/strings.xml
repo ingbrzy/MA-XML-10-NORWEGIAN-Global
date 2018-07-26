@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Legg til i arbeidsplass</string>
     <string name="activity_not_found">Appen er ikke installert på din enhet</string>
     <string name="add_screen">Legg til skjerm</string>
@@ -236,7 +237,7 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå av</string>
     <string name="open_personal_assistant_dialog_desc">Du vil ikke kunne bruke App-hvelv og motta oppdateringer. Slå av nå?</string>
-    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
+    <string name="open_personal_assistant_dialog_desc_international">Du vil ikke kunne bruke App valut cards (Aksjer, Snarveier, osv.) eller motta oppdateringer etter at du har slått av denne funksjonen.</string>
     <string name="open_personal_assistant_dialog_title">Slå av App-hvelv</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ikke mer ledig plass på Startskjermen</string>
@@ -280,11 +281,11 @@
     <string name="recommend_apps_tips">"This feature needs to connect to the internet to work normally. To turn this feature off, tap this folder's name."</string>
     <string name="recommend_loading">Laster</string>
     <string name="refresh">Oppdater</string>
-    <string name="reset_description_first_time">You can restore the layout from %1$s within 2 hours</string>
-    <string name="reset_description_others">You can restore the layout from %1$s</string>
-    <string name="reset_fail">"Couldn't restore"</string>
+    <string name="reset_description_first_time">Du kan gjenopprette oppsettet fra %1$s innen 2 timer</string>
+    <string name="reset_description_others">Du kan gjenopprette oppsettet fra %1$s</string>
+    <string name="reset_fail">Kunne ikke gjenopprette</string>
     <string name="reset_scene_prompt">Skjerm vil bli gjenopprettet som standard layout.</string>
-    <string name="reset_title">Restore</string>
+    <string name="reset_title">Gjenopprett</string>
     <string name="screen_cells_config_title">Startskjem-layout</string>
     <string name="screen_locked_toast">Home screen layout is locked.</string>
     <string name="screen_number">%d skjerm</string>

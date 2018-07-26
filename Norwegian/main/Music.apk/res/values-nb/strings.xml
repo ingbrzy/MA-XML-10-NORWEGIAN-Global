@@ -125,6 +125,7 @@
     <string name="connecting_apk">Kobler til…</string>
     <string name="continue_backup">Fortsett</string>
     <string name="cp_info_first">Online strømmetjeneste for musikk blir hovedsakelig levert av Ultimate Inc.</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Kunne ikke opprette ordren. Prøv igjen.</string>
     <string name="create_playlist">Opprett spilleliste</string>
     <string name="create_playlist_failure">Kunne ikke opprette spilleliste</string>
@@ -217,6 +218,7 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
@@ -582,6 +584,7 @@
     <string name="priority_storage">Bruk eksternt SD-kort</string>
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
     <string name="pulluprefreshrecyclerview_loading_error">Kunne ikke laste</string>
@@ -691,6 +694,7 @@
     <string name="start_to_check_new_version">Ser etter oppdateringer…</string>
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop">Stopp</string>
     <string name="stop_backup">Stopp</string>
     <string name="storage_internal">Intern lagring</string>
@@ -752,6 +756,7 @@
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Versjon</string>
     <string name="video_play_cellular">Din enhet er ikke koblet til Wi-Fi. Bruke mobildata?</string>
     <string name="video_replay_btn">Spill av igjen</string>

@@ -5,6 +5,7 @@
     <string name="ack_record">Ack-oppføring</string>
     <string name="airplane_error_msg">Du kan ikke bruke Bluetooth i flymodus.</string>
     <string name="airplane_error_title">Flymodus</string>
+    <string name="app_name">Bluetooth</string>
     <string name="auth_notif_message">Skriv inn øktsnøkkel for %1$s</string>
     <string name="auth_notif_ticker">Autentiseringsforespørsel fra Obex</string>
     <string name="auth_notif_title">Øktsnøkkel</string>
@@ -21,11 +22,16 @@
     <string name="bluetooth_sap_notif_disconnecting">Venter på at klienten skal koble fra</string>
     <string name="bluetooth_sap_notif_force_disconnect_button">Tving frakobling</string>
     <string name="bluetooth_sap_notif_message">Vil du be klienten om å koble fra?</string>
+    <string name="bluetooth_sap_notif_ticker">Bluetooth SIM Access</string>
+    <string name="bluetooth_sap_notif_title">Bluetooth SIM access</string>
     <string name="bt_enable_cancel">Avbryt</string>
     <string name="bt_enable_line1">Du må slå på Bluetooth for å bruke Bluetooth-tjenestene.</string>
     <string name="bt_enable_line2">Vil du slå på Bluetooth nå?</string>
     <string name="bt_enable_ok">Slå på</string>
-    <string name="bt_sm_2_1">Det er ikke nok plass på USB-lagringen til å lagre filen fra «%1$s»</string>
+    <string name="bt_enable_title" />
+    <string name="bt_error_btn_ok">OK</string>
+    <string name="bt_share_picker_label">Bluetooth</string>
+    <string name="bt_sm_2_1">Det er ikke nok plass på SD-kortet til å lagre filen fra «%1$s»</string>
     <string name="bt_sm_2_2">Nødvendig plass: %1$s</string>
     <string name="bt_toast_1">Filen vil bli mottatt. Du kan se fremdriften i varselpanelet.</string>
     <string name="bt_toast_2">Filen kan ikke mottas.</string>
@@ -35,15 +41,18 @@
     <string name="bt_toast_6">Stoppet sendingen av fil til «%1$s»</string>
     <string name="btopp_live_folder">Bluetooth mottatt</string>
     <string name="defaultname">Bilsett</string>
+    <string name="defaultnumber">000000</string>
     <string name="deleteAll_record">Slett hele oppføringen</string>
     <string name="delete_record">Slett oppføring</string>
     <string name="download_cancel">Stopp</string>
     <string name="download_fail_line1">Filen ble ikke mottatt</string>
     <string name="download_fail_line2">Fil: %1$s</string>
     <string name="download_fail_line3">Årsak: %1$s</string>
+    <string name="download_fail_ok">OK</string>
     <string name="download_line1">Fra: «%1$s»</string>
     <string name="download_line2">Fil: %1$s</string>
     <string name="download_line3">Filstørrelse: %1$s</string>
+    <string name="download_line4" />
     <string name="download_line5">Mottar fil ...</string>
     <string name="download_ok">Skjul</string>
     <string name="download_succ_line5">Fil mottatt</string>
@@ -60,6 +69,7 @@
     <string name="incoming_file_confirm_content">Vil du godta den innkommende filen?</string>
     <string name="incoming_file_confirm_ok">Godta</string>
     <string name="incoming_file_confirm_timeout_content">Det oppstod et tidsavbrudd under mottak av fil fra «%1$s»</string>
+    <string name="incoming_file_confirm_timeout_ok">OK</string>
     <string name="incoming_file_confirm_title">Filoverføring</string>
     <string name="incoming_line1">Fra</string>
     <string name="incoming_line2">Filnavn</string>
@@ -81,10 +91,13 @@
     <string name="notification_sent_complete">100 % fullført</string>
     <string name="notification_sent_fail">Bluetooth-deling: Filen %1$s ble ikke sendt</string>
     <string name="notify_server">Varsle TCP-tjener</string>
+    <string name="ok_button">OK</string>
     <string name="opp_notification_group">Bluetooth-deling</string>
     <string name="outbound_history_title">Utgående overføringer</string>
     <string name="outbound_noti_title">Bluetooth-deling: Filer sendt</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Det·tok·for·lang·tid·å·godta·forbindelsen·med·«%1$s»</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Det·tok·for·lang·tid·å·legge·inn·øktsnøkkel·med·%1$s</string>
     <string name="pbap_notification_group">Bluetooth Contact-deling</string>
     <string name="pbap_session_key_dialog_header">Bluetooth-øktsnøkkel kreves</string>
@@ -98,7 +111,7 @@
     <string name="status_connection_error">Tilkobling mislyktes.</string>
     <string name="status_file_error">Problem med lagring.</string>
     <string name="status_forbidden">Overføring nektes av mottakerenheten.</string>
-    <string name="status_no_sd_card">Ingen USB-lagring.</string>
+    <string name="status_no_sd_card">Mangler minnekort. Sett inn et minnekort for å lagre overførte filer.</string>
     <string name="status_not_accept">Innholdet støttes ikke.</string>
     <string name="status_pending">Filoverføringen har ikke startet ennå.</string>
     <string name="status_protocol_error">Kan ikke behandle forespørsel på riktig måte.</string>
@@ -125,5 +138,6 @@
     <string name="upload_line3">Filtype: %1$s (%2$s)</string>
     <string name="upload_line5">Sender filen ...</string>
     <string name="upload_succ_line5">Fil sendt</string>
+    <string name="upload_succ_ok">OK</string>
     <string name="upload_success">%1$s sendt.</string>
 </resources>

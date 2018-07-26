@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="attachment_chooser">
-        <item>Camera</item>
-        <item>Gallery</item>
+        <item>Kamera</item>
+        <item>Galleri</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Navn</item>
@@ -18,18 +18,18 @@
         <item>Notat</item>
     </string-array>
     <string-array name="first_guide_contents">
-        <item>Welcome to Notes!</item>
-        <item>Take notes</item>
-        <item>You can use text, images, and voice recordings in your notes. A rich library of styles and fonts will make your simple scribbles look stunning.</item>
-        <item>Checklists and reminders come to help when you need basic and effective tools for planning your next trip or putting together a grocery list.</item>
-        <item>Share notes</item>
-        <item>You can generate scrolling screenshots in Notes automatically, and them share them with your friends.</item>
-        <item>Create &amp; switch between folders</item>
-        <item>Press the arrow below to create a new folder or switch between existing ones.</item>
+        <item>Velkommen til Notes!</item>
+        <item>Ta notater</item>
+        <item>Du kan bruke tekst, bilder og stemmeopptak i notatene dine. Et rikt bibliotek av stiler og fonter som vil gjøre det enkelt å få skribleriene dine å se nydelige ut.</item>
+        <item>Sjekklister og påminnelser kommer til nytte når du trenger enkle og effektive verktøy for å planlegge neste tur eller å sette sammen en handleliste.</item>
+        <item>Del notater</item>
+        <item>Du kan generere rullende skjermbilder i Notes automatisk og så dele dem med vennene dine.</item>
+        <item>Opprett og bytt mellom mapper</item>
+        <item>Trykk på pilen nedenfor for å opprette en ny mappe eller bytte mellom eksisterende.</item>
     </string-array>
     <string-array name="folder_operations">
-        <item>Rename</item>
-        <item>Delete</item>
+        <item>Gi nytt navn</item>
+        <item>Slett</item>
     </string-array>
     <string-array name="font_size_names">
         <item>Liten</item>
@@ -38,11 +38,11 @@
         <item>Diger</item>
     </string-array>
     <string-array name="note_sort_way">
-        <item>By creation date</item>
-        <item>By modification date</item>
+        <item>Etter opprettelsesdato</item>
+        <item>Etter endringsdato</item>
     </string-array>
     <string-array name="second_guide_contents">
-        <item>Voice notes</item>
-        <item>Create notes using our built-in speech-to-text engine attaching the original recordings of your voice to the notes.</item>
+        <item>Stemme-notater</item>
+        <item>Opprette notater ved hjelp av vår innebygde tale-til-tekst søkemotor, fest de originale innspillingene av talemeldinger til notatene.</item>
     </string-array>
 </resources>
