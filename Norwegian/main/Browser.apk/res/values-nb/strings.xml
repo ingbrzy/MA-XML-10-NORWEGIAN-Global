@@ -732,8 +732,6 @@ Er du sikker på at du ønsker å forlate denne siden?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Få tilpasset innhold</string>
     <string name="mw_snippets_disabled_signed_out_instructions">For å få personlig innhold foreslått av Google, Logg inn på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
-    <string name="mw_time_picker_dialog_hour_minute_separator" />
-    <string name="mw_time_picker_dialog_minute_second_separator" />
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator" />
     <string name="mw_time_picker_dialog_title">Velg tid</string>
