@@ -22,6 +22,6 @@ gå til %s på en annen tilkoblet enhet."</string>
     <string name="ime_privacy_policy">Velg tastatur</string>
     <string name="ad_service">Annonse-tjeneste</string>
     <string name="settings_ad_loading">Et øyeblikk…</string>
-    <string name="settings_ad_loading_unavailable">Kunne ikke laste inn info.</string>
+    <string name="settings_ad_loading_unavailable">Kunne ikke laste inn informasjon.</string>
     <string name="autoconnect">Automatisk tilkobling</string>
 </resources>

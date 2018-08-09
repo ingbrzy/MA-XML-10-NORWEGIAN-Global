@@ -172,9 +172,12 @@
     <string name="wifi_assistant_wifi_no_internet">Wi-Fi-nettverk har ikke tilgang til internettet</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Trykk for å se detaljer</string>
     <string name="resolver_app_recommend_flag">Anbefal</string>
-    <string name="voice_button_action_up">Press to talk</string>
-    <string name="voice_button_action_down">Release to search</string>
-    <string name="voice_begin">What are you looking for?</string>
-    <string name="voice_input_error_network">"Couldn't connect to the network. Check your network settings and try again."</string>
-    <string name="voice_input_error_other">An error occurred. Wait a minute or two and try again.</string>
+    <string name="voice_button_action_up">Trykk for å snakke</string>
+    <string name="voice_button_action_down">Slipp for å søke</string>
+    <string name="voice_begin">Hva ser du etter?</string>
+    <string name="voice_input_error_network">Kunne ikke koble til nettverket. Sjekk nettverkstilkoblingene dine og prøv igjen.</string>
+    <string name="voice_input_error_other">En feil oppstod. Vent et minutt eller to og prøv igjen.</string>
+    <string name="miui_warning_button_ok">OK</string>
+    <string name="miui_warning_button_cancel">Cancel</string>
+    <string name="miui_warning_tip_info">An error occurred in %1$s. Close this app now?</string>
 </resources>

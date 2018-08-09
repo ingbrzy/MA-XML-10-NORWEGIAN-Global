@@ -13,20 +13,20 @@
         <item quantity="one">%1$d dag siden</item>
     </plurals>
     <plurals name="people">
-        <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="other">Lastet ned av %1$d personer</item>
         <item quantity="one">Lastet ned av %1$d personer</item>
     </plurals>
     <plurals name="people_million">
-        <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="other">Lastet ned av %1$d personer</item>
         <item quantity="one">Lastet ned av %1$d personer</item>
     </plurals>
     <plurals name="million">
-        <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="other">Lastet ned av %1$d personer</item>
         <item quantity="one">Lastet ned av %1$d personer</item>
     </plurals>
     <plurals name="view_num">
-        <item quantity="other">%1$s views</item>
-        <item quantity="one">%1$s visninger</item>
+        <item quantity="other">%1$s visninger</item>
+        <item quantity="one">%1$s visning</item>
     </plurals>
     <plurals name="hint_similar_image_header_left">
         <item quantity="other">%d grupper</item>
@@ -73,8 +73,8 @@
         <item quantity="one">Kunne ikke eksportere %d video. Frigjør lagringsplass og prøv igjen.</item>
     </plurals>
     <plurals name="wechat_empty_files">
-        <item quantity="other">(%1$d empty files)</item>
-        <item quantity="one">(%1$d tommer filer)</item>
+        <item quantity="other">(%1$d tommer filer)</item>
+        <item quantity="one">(%1$d tommer fil)</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Ikke brukt på %d dager</item>
@@ -123,7 +123,7 @@
         <item quantity="one">%1$s</item>
     </plurals>
     <plurals name="whatsapp_delete_files">
-        <item quantity="other">Delete %1$d items?</item>
-        <item quantity="one">Delete %1$d item?</item>
+        <item quantity="other">Slette %1$d elementer?</item>
+        <item quantity="one">Slette %1$d element?</item>
     </plurals>
 </resources>

@@ -128,6 +128,8 @@
     <string name="select_sim_hint">Kan ikke bruke SIM %2$d, mens SIM %1$d er i bruk.</string>
     <string name="select_one_sim_title">Kan bare bruke SIM %1$d</string>
     <string name="can_not_use">Kan ikke bruke</string>
+    <string name="sim1_description">SIM1</string>
+    <string name="sim2_description">SIM2</string>
     <string name="call_description_recording">Tar opp…</string>
     <string name="call_recording_error_privacy">Kan ikke spille inn mens du er i gjestemodus</string>
     <string name="call_recording_error_sd_access">Får ikke tilgang til SD-kort</string>
@@ -171,7 +173,7 @@
     <string name="close_camera_requesting">Slår av kamera…</string>
     <string name="close_camera_failed">Kunne ikke slå av kamera…</string>
     <string name="change_to_voice_tips_when_background">Den andre parten har skifet til taleanrop</string>
-    <string name="video_crbt_title">%s video tilbakeringingstone</string>
+    <string name="video_crbt_title">Videosummetonen til den andre parten spilles av</string>
     <string name="crbt_second_hold_prompt">%s er på vent…</string>
     <string name="crbt_second_hold_prompt_no_name">Tidligere samtale er på vent…</string>
     <string name="crbt_second_hold_prompt_conference">Konferansesamtale er på vent…</string>

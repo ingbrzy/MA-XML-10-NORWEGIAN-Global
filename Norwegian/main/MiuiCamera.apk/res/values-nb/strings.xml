@@ -377,11 +377,11 @@
     <string name="pref_camera_delay_capture_entry_5s">5 s forsinkelse</string>
     <string name="pref_camera_delay_capture_entry_10s">10 s forsinkelse</string>
     <string name="pref_ai_detect">AI-gjenkjenning</string>
-    <string name="pref_google_lens">Google lens</string>
+    <string name="pref_google_lens">Google Lens</string>
     <string name="pref_camera_beauty">Forskjønn</string>
     <string name="pref_camera_beauty_deep">Forskjønning Pro</string>
     <string name="pref_camera_asd_night_title">Forbedre automatisk bilder i lavt lys</string>
-    <string name="pref_camera_super_resolution_title">Turn on SR</string>
+    <string name="pref_camera_super_resolution_title">Slå på superoppløsning (SR)</string>
     <string name="simple_mode_button_text_scene">Skru av scene-modus</string>
     <string name="pref_camera_peak_title">Markering av overeksponert område</string>
     <string name="pref_camera_peak_entry_off">Av</string>
@@ -427,10 +427,11 @@
     <string name="pref_camera_portrait_mode_entry_on">Portrettmodus er på</string>
     <string name="portrait_mode_lowlight_hint">Det er for mørkt nå</string>
     <string name="portrait_mode_too_close_hint">Flytt deg lenger fra objektet</string>
-    <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
+    <string name="portrait_mode_too_far_hint">Plasser objektet innenfor 2 meter</string>
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Skru av kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -445,6 +446,7 @@ og bringer frem mennesker som er foran."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
@@ -490,6 +492,7 @@ og så opprette et bilde som har minimalt med støy."</string>
     <string name="beauty_fragment_tab_name_makeup">Avansert</string>
     <string name="beauty_fragment_tab_name_3d_beauty">Skjønnhet</string>
     <string name="beauty_fragment_tab_name_3d_remodeling">Modernisering</string>
+    <string name="beauty_fragment_tab_name_3d_makeup">Sminke</string>
     <string name="edit_skin_white">Hudfarge</string>
     <string name="edit_skin_smooth">Glatt</string>
     <string name="edit_eye_large">Store øyne</string>
@@ -503,6 +506,10 @@ og så opprette et bilde som har minimalt med støy."</string>
     <string name="edit_smile">Smil</string>
     <string name="edit_slim_nose">Nese</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-skjønnhet</string>
+    <string name="edit_eyebrow_dye">Øyenbryn</string>
+    <string name="edit_pupil_line">Eyeliner</string>
+    <string name="edit_jelly_lips">Lipgloss</string>
+    <string name="edit_blusher">Rouge</string>
     <string name="sticker_tab1">Søt</string>
     <string name="sticker_tab2">Morsom</string>
     <string name="user_agreement2">Vilkår for bruk</string>
@@ -539,17 +546,17 @@ aog optimerer bildene dine basert på denne informasjonen"</string>
     <string name="lens_dirty_detected_title_front">Kameralinsen foran er skitten</string>
     <string name="lens_dirty_detected_content">"Det ser ut til at kameralinsen er skitten.
 Rengjør linsen for bedre effekt."</string>
-    <string name="lighting_hint_title">Studio lighting</string>
-    <string name="lighting_hint_usage">"You can use studio lighting effects
-in Portrait mode"</string>
-    <string name="lighting_hint_needed">Place your object in the spotlight</string>
-    <string name="lighting_hint_too_far">Bring the camera closer</string>
-    <string name="lighting_hint_too_close">Move the camera further away</string>
-    <string name="lighting_pattern_nature">Natural</string>
-    <string name="lighting_pattern_stage">Stage</string>
-    <string name="lighting_pattern_movie">Movie</string>
-    <string name="lighting_pattern_rainbow">Rainbow</string>
-    <string name="lighting_pattern_leaf">Leaves</string>
-    <string name="lighting_pattern_dot">Dots</string>
-    <string name="lighting_pattern_shutter">Blinds</string>
+    <string name="lighting_hint_title">Studio-lys</string>
+    <string name="lighting_hint_usage">"Du kan bruke studiolyseffekter 
+i portrettmodus"</string>
+    <string name="lighting_hint_needed">Plasser objektet ditt i lyskasteren</string>
+    <string name="lighting_hint_too_far">Bring kameraet nærmere</string>
+    <string name="lighting_hint_too_close">Flytt kameraet lenger unna</string>
+    <string name="lighting_pattern_nature">Naturlig</string>
+    <string name="lighting_pattern_stage">Scene</string>
+    <string name="lighting_pattern_movie">Film</string>
+    <string name="lighting_pattern_rainbow">Regnbue</string>
+    <string name="lighting_pattern_leaf">Blader</string>
+    <string name="lighting_pattern_dot">Prikker</string>
+    <string name="lighting_pattern_shutter">Persienner</string>
 </resources>

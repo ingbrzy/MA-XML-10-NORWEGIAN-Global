@@ -45,19 +45,30 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="ime_privacy_policy">Personverninnstillinger for valgt tastatur</string>
     <string name="ime_privacy_policy_no_network">Ingen nettverksforbindelse. Se personverninnstillinger for dette tastaturet på %s.</string>
     <string name="terms_of_use">Vilkår og betingelser</string>
-    <string name="terms_of_use_label">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk og personvernerklæring for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg.
+    <string name="terms_of_use_label">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk av tjenesten og personvernerklæringen for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg.
 
-Du må samtykke til våre vilkår for bruk og personvernerklæringen vår før du kan bruke MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn enhet, Startskjerm, Game Center, MAB, Miui Daemon og MSA-systemkomponenter, Oversettelsestjenester, Quick apps, App vault, statistikk, smartkort, Mi Link og Mi Konto-komponenter vil kobles til internett og hente plasseringen din."</string>
-    <string name="terms_of_use_label_gms">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk og personvernerklæring for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg.
+Du må samtykke i våre vilkår for bruk av tjenesten og personvernerklæringen før du kan bruke MIUI. %s og Mi Account-komponentene vil kobles til internett og hente plasseringen din."</string>
+    <string name="terms_of_use_lable_apps">Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn min enhet, Hjemskjerm, Game center, MAB, MIUI Daemon og MSA-systemkomponenter, oversettingstjenester, Quick apps, App vault, statistikk, Mi Link</string>
+    <string name="terms_of_use_lable_gms">, Google Play-tjenester</string>
+    <string name="terms_of_use_label_systemhelper">, selvregistrert tjeneste</string>
+    <string name="terms_of_use_lable_smart_cards">, smartkort</string>
+    <string name="terms_of_use_lable_default_input_method_facemoji">"
 
-Du må samtykke til våre vilkår for bruk og personvernerklæring før du kan bruke MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn enhet, Startskjerm, Game Center, MAB, Miui Daemon og MSA-systemkomponenter, Oversettelsestjenester, Quick apps, App vault, statistikk, smartkort, Mi Link, Mi Konto og Google Play services-komponenter vil kobles til internett og hente din plassering."</string>
+Du må samtykke i vår Facemoji-personvernpolicy før du bruker denne funksjonen."</string>
+    <string name="terms_of_use_lable_default_input_method_kika">"
+
+Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</string>
     <string name="user_agreement">Vilkår for bruk</string>
     <string name="privacy_policy">Personvernerklæring</string>
+    <string name="terms_privacy_policy_input_method_kika">Kika-personvernpolicy</string>
+    <string name="terms_privacy_policy_input_method_facemoji">Facemoji-personvernpolicy</string>
     <string name="application_permissions">Apptillatelser</string>
     <string name="agree">Enig</string>
     <string name="disagree">Avbryt</string>
     <string name="setting_locale">Innstilling av region…</string>
     <string name="agree_terms">Jeg har lest og akseptert vilkår for bruk og personvernerklæring.</string>
+    <string name="agree_terms_input_method_facemoji">Jeg har lest og samtykket i Facemoji-personvernpolicyen.</string>
+    <string name="agree_terms_input_method_kika">Jeg har lest og samtykket i Kika-personvernpolicyen.</string>
     <string name="miui_terms_no_network">Du er ikke koblet til internett. Se vilkår for bruk på %s.</string>
     <string name="miui_privacy_policy_no_network">Du er ikke koblet til internett. Se personvernerklæringen på %s.</string>
     <string name="locale_picker_title">Velg din region</string>
@@ -72,7 +83,7 @@ Du må samtykke til våre vilkår for bruk og personvernerklæring før du kan b
     <string name="desc_international_fingerprint">Bruk fingeravtrykket ditt til å låse opp enheten din eller for å logge inn på apper og tjenester.</string>
     <string name="content_description_start">Start</string>
     <string name="start_up_slogan">Designet for full skjerm-opplevelse</string>
-    <string name="content_description_miui_version">MIUI 9</string>
+    <string name="content_description_miui_version">MIUI 10</string>
     <string name="content_description_complete">Fullført</string>
     <string name="language_picker_other_languages_title">Flere språk</string>
     <string name="language_settings">Velg språk</string>
@@ -89,4 +100,5 @@ Du må samtykke til våre vilkår for bruk og personvernerklæring før du kan b
     <string name="continue_to_enable_accessibility">Hold to fingre nede for å tillate tilgjengelighet.</string>
     <string name="voice_assist_title">Vekk med stemme</string>
     <string name="voice_assist_desp">Si \"Mi AI\" til telefonen. Mi AI vil gjenkjenne stemmen din og vil kunne styre enheten.</string>
+    <string name="voice_assist_desp_screen_light">Si «Mi AI» til telefonen etter skjermen lyser opp. Mi AI vil gjenkjenne stemmen din og kunne kontrollere enheten din.</string>
 </resources>

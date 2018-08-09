@@ -86,4 +86,7 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="sleepmode_privacy_link">Lær mer om personvern og sikkerhet</string>
     <string name="sleepmode_disclaimer_cancel">Avbryt</string>
     <string name="sleepmode_disclaimer_agree">Enig</string>
+    <string name="appconfig_active_app_dialog_title">Administrer aktive apper</string>
+    <string name="config_classify">Sorter etter appinnstillinger</string>
+    <string name="active_classify">Sorter etter aktivitetsstatus</string>
 </resources>

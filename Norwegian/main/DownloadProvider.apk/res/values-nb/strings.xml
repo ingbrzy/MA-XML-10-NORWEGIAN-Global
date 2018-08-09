@@ -42,5 +42,4 @@ Trykk %s for å starte denne nedlastingen neste gang du er tilkoblet et trådlø
     <string name="download_running">Laster ned</string>
     <string name="download_error">Kunne ikke laste ned</string>
     <string name="download_running_percent">Laster ned %s</string>
-    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
 </resources>

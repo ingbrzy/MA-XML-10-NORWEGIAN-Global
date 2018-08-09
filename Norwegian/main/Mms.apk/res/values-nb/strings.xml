@@ -192,6 +192,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_prefix">"VS: "</string>
@@ -360,9 +361,18 @@
     <string name="no_subject_view">(Emne mangler)</string>
     <string name="non_english_subject_limit">13-tegns grense</string>
     <string name="nosend_message">Ikke send</string>
+    <string name="notification_channel_msg_description">Notifications about messages</string>
+    <string name="notification_channel_msg_name">Messages</string>
+    <string name="notification_channel_other_description">Other notifications</string>
+    <string name="notification_channel_other_name">Other</string>
+    <string name="notification_channel_sim1_description">Notifications about SIM 1 messages</string>
+    <string name="notification_channel_sim1_name">SIM 1 messages</string>
+    <string name="notification_channel_sim2_description">Notifications about SIM 2 messages</string>
+    <string name="notification_channel_sim2_name">SIM 2 messages</string>
     <string name="notification_copy">Kopier OTP</string>
     <string name="notification_failed_multiple">%s meldinger kunne ikke sendes</string>
     <string name="notification_failed_multiple_title">Meldinger ikke sendt</string>
+    <string name="notification_group_name">Messaging</string>
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Nye meldinger</string>
     <string name="number_add_hint">Skriv inn telefonnummer</string>
@@ -397,7 +407,7 @@
     <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
     <string name="pref_show_sms_template_in_summary">Oppdag engangspassord automatisk i SMS-meldinger</string>
     <string name="pref_show_sms_template_summary">Slå på for å bruke de smarte funksjonene til Mi Message, som f.eks. kopiering av koder, sjekke saldo, osv.</string>
-    <string name="pref_smart_messages_settings">Smartmeldinger</string>
+    <string name="pref_smart_messages_settings">Smart Messaging</string>
     <string name="pref_sms_storage_title">Lagring</string>
     <string name="pref_sms_theme_title">Visning</string>
     <string name="pref_summary_allow_si_sl_push">Tillat meldinger å laste innhold fra andre nettsteder</string>
@@ -541,6 +551,7 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>
@@ -652,6 +663,7 @@ Forsøk gjort: %s."</string>
     <string name="unstick">Løsne</string>
     <string name="unstick_conversation">Løsne gjeldende samtale</string>
     <string name="unsticked_conversation">Samtale er allerede løsnet</string>
+    <string name="unsubscribe">Unsubscribe</string>
     <string name="unsupported_media_format">Ikke støttet %1$s format.</string>
     <string name="url_fraud_dangerous_alert">"Nettstedet du prøver å besøke, kan være farlig. Det kan muligens skade enheten og dataene dine. Besøk likevel? 
 %s"</string>
@@ -672,6 +684,4 @@ Forsøk gjort: %s."</string>
     <string name="wild_msg_title">Velg telefonnumre som skal synkroniseres</string>
     <string name="yes">OK</string>
     <string name="yesterday">I går</string>
-    <string name="notification_channel_description">Varsler fra Meldinger</string>
-    <string name="notification_channel_name">Meldinger</string>
 </resources>
