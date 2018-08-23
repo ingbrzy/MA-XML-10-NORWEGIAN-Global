@@ -897,8 +897,8 @@ Samplingsfrekvens"</string>
     <string name="bootloader_locked_answer_2">"1. SIkre at du allerede har satt inn et SIM-kort i enheten din.
 2. Trykk \"Legg til konto\" nedenfor for å assosiere din Mi Account med denne enheten.
 3. Last ned opplåsningsverktøyet fra vår nettside. Merk den at du bør låse opp enheten ved å bruke en datamaskin. Last ned her:"</string>
-    <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
-2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+    <string name="bootloader_locked_answer_2_no_sim">"1. Trykk «Legg til konto» nedenfor for å knytte Mi-kontoen til denne enheten.
+2. Last ned opplåsingsverktøyet fra nettstedet vårt. Merk at du burde låse opp enheter ved hjelp av en datamaskin. Last ned her:"</string>
     <string name="bootloader_locked_check_status">Legg til konto og enhet</string>
     <string name="bootloader_locked_question_1">Hvorfor bør enheter låses?</string>
     <string name="bootloader_locked_question_2">Jeg forstår risikoene, men ønsker likevel å låse opp enheten.</string>
@@ -915,6 +915,7 @@ Samplingsfrekvens"</string>
     <string name="bootloader_status_unlocked">Låst opp</string>
     <string name="bootloader_status_unlocked_info">Denne enheten er låst opp</string>
     <string name="bootloader_summary">Flash enheten din via USB</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Lysfarge</string>
     <string name="breathing_light_color_summary">Lysfarge ved nytt mottatt varsel</string>
     <string name="breathing_light_freq_summary">Blink når du har nye varsler</string>
@@ -1407,6 +1408,7 @@ Siden databruken måles av telefonen, og operatøren din kan beregne bruken anne
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Slette dette fingeravtrykk?</string>
     <string name="delete_rule">Fjern regler</string>
     <string name="delete_saved_network">Slett lagrede nettverk</string>
+    <string name="delete_sound_effect">Slettelyd</string>
     <string name="deleted_apps">Slettede apper</string>
     <string name="deletion_helper_automatic_title">Automatisk</string>
     <string name="deletion_helper_manual_title">Manuelle innstillinger</string>
@@ -1551,6 +1553,7 @@ Siden databruken måles av telefonen, og operatøren din kan beregne bruken anne
     <string name="dndm_auto_button_title">Gjenta «Ikke forstyrr»-tid</string>
     <string name="dndm_auto_setting_group">Planlagt</string>
     <string name="dndm_auto_time_setting">Angi tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Til</string>
     <string name="dndm_auto_time_turn_off_title">Skru av «Ikke forstyrr» automatisk</string>
     <string name="dndm_auto_time_turn_on">Fra</string>
@@ -1709,6 +1712,7 @@ Dette bidrar til å beskytte data på mistede eller stjålne enheter. Vil du kre
     <string name="enter_password">Skriv inn passordet ditt for å starte Android</string>
     <string name="enter_pattern">Tegn mønsteret ditt for å starte Android</string>
     <string name="enter_pin">Skriv inn PIN-koden din for å starte Android</string>
+    <string name="enterprise_mode">Organisasjonsmodus</string>
     <string name="enterprise_privacy_always_on_vpn_device">Alltid-på VPN-er slått på</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Alltid-på-VPN er slått på i den personlige profilen din</string>
     <string name="enterprise_privacy_always_on_vpn_work">Alltid-på-VPN er slått på i jobbprofilen din</string>
@@ -1952,12 +1956,12 @@ Det var ingen hester eller andre dyr å se i byen – mennene bar ting i små, g
     <string name="foreground_traffic">Forgrunn %s</string>
     <string name="forget">Glem</string>
     <string name="forget_password_button_text"><u>Glemt passord</u></string>
-    <string name="forget_password_dialog_button_text">Back</string>
-    <string name="forget_password_dialog_content_four"><Data>2. Select &lt;font color=#e6e6e6>[Wipe data]&lt;/font>, and wait until your device reboots.</Data></string>
-    <string name="forget_password_dialog_content_one"><Data>"If you forget your password, you won't be able to restore it. However, you can reset your password after you &lt;font color=#ec2700>erase all data on your device&lt;/font> (including photos, contacts, etc.). Back up all important data before this."</Data></string>
-    <string name="forget_password_dialog_content_three"><Data>"1. Turn off your device. Press the &lt;font color=#e6e6e6>[Power]&lt;/font> button and the &lt;font color=#e6e6e6>[Volume+]&lt;/font> button simultaneously, and hold them until you see the &lt;img src=''> icon."</Data></string>
-    <string name="forget_password_dialog_content_two">Follow these steps to erase data:</string>
-    <string name="forget_password_dialog_title">Reset your password</string>
+    <string name="forget_password_dialog_button_text">Tilbake</string>
+    <string name="forget_password_dialog_content_four"><Data>2. Velg &lt;font color=#e6e6e6>[Wipe data]&lt;/font>, og vent til enheten starter på nytt.</Data></string>
+    <string name="forget_password_dialog_content_one"><Data>Hvis du glemmer passordet ditt vil du ikke kunne tilbakestille det. Du kan imidlertid tilbakestille passordet etter at du har &lt;font color=#ec2700>slettet alle data på enheten&lt;/font> (inkludert bilder, kontakter osv). Sikkerhetskopier alle viktige data før dette.</Data></string>
+    <string name="forget_password_dialog_content_three"><Data>"1. Slå av enheten. Trykk på &lt;font color=#e6e6e6>[Power]&lt;/font> knappen og &lt;font color=#e6e6e6>[Volume+]&lt;/font> knappen samtidig, og hold dem inne til du ser &lt;img src=''> icon."</Data></string>
+    <string name="forget_password_dialog_content_two">Følg disse trinnene for å slette data:</string>
+    <string name="forget_password_dialog_title">Tilbakestill passordet ditt</string>
     <string name="forget_pattern"><u>Glemt mønsteret?</u></string>
     <string name="forget_privacy_password_setting">Legg til Mi-konto</string>
     <string name="forget_privacy_password_summary">Bruk Mi-konto for å tilbakestille passordet ditt</string>
@@ -2006,6 +2010,7 @@ Når du slår på automatisk sikkerhetskopiering, lagres app- og enhetsdata auto
     <string name="gadget_picker_title">Velg gadget</string>
     <string name="gadget_state_off">av</string>
     <string name="gadget_state_on">på</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_turning_off">slår av</string>
     <string name="gadget_state_turning_on">slår på</string>
     <string name="gadget_sync">Synkronisering</string>
@@ -2207,6 +2212,8 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="keyboard_shortcuts_helper">Hurtigtasthjelp</string>
     <string name="keyboard_shortcuts_helper_summary">Vis tilgjengelige hurtigtaster</string>
     <string name="keyguard_advance_setting_title">Avanserte innstillinger</string>
+    <string name="keyguard_security_setting_others">Annet</string>
+    <string name="keyguard_security_setting_privacy_policy">Personvernerklæring</string>
     <string name="keywords_accounts">konto</string>
     <string name="keywords_airplane">Fly;Flymodus;Fly;Flymodus;Flytur;Flymodus</string>
     <string name="keywords_all_apps">apper, last ned, apper, system</string>
@@ -2313,6 +2320,7 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="lift_to_wake_title">Aktiver enheten med løftebevegelser</string>
     <string name="line_breaking_summary">Optimaliser linjeskift for avsnitt</string>
     <string name="line_breaking_title">Optimaliser tekst</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="list_bg_header_text">Hvis du begrenser bakgrunnstilkoblingen, vil nye apper ikke være i stand til å koble til internett i bakgrunnen etter du har installert dem. De vil muligens ikke være i stand til å motta meldinger eller laste ned innhold etter dette.</string>
     <string name="list_empty_text">Tøm</string>
     <string name="loading_notification_apps">Laster inn apper …</string>
@@ -2668,6 +2676,7 @@ Det er andre brukere tilstede på denne enheten.
     <string name="memory_title">Tilgjengelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Minnebruk</string>
     <string name="memory_usage_apps">Minne brukt av apper</string>
+    <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s gjennomsnittlig minne brukt i løpet av de siste tre timene</string>
     <string name="menu_cancel">Forkast</string>
     <string name="menu_check">Opplevelse</string>
@@ -2915,6 +2924,7 @@ Velg ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">Skjønner</string>
     <string name="nfc_how_it_works_title">Betaling ved terminaler</string>
     <string name="nfc_more_title">Mr</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp for betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angitt</string>
     <string name="nfc_payment_favor_default">Bruk alltid standard-appen</string>
@@ -3126,6 +3136,7 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="overlay_display_devices_title">Simuler sekundære skjermer</string>
     <string name="overlay_settings">Vis over andre apper</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskjermsignatur</string>
     <string name="owner_space">Første område</string>
@@ -3438,6 +3449,8 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="private_sms_recording_intro_header">Tegn et opplåsingsmønster:</string>
     <string name="private_sms_reset_by_account">For å tilbakestille passordet ditt, logg inn på din Mi Account</string>
     <string name="process_dex2oat_label">Appoptimalisering</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Medietjener</string>
     <string name="process_provider_in_use_description">Leverandøren %1$s er i bruk.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i bruk.</string>
@@ -3697,6 +3710,7 @@ Denne innstillingen påvirker alle brukerne på denne telefonen."</string>
     <string name="saved_network">Lagret av %1$s</string>
     <string name="saved_wifi">Administrer lagrede nettverk</string>
     <string name="saved_wifi_delete">Slett</string>
+    <string name="sccret_code_error">The code you entered is incorrect.</string>
     <string name="screen">Skjerm</string>
     <string name="screen_button">Skjermknapper</string>
     <string name="screen_button_tips">Sveip ned for å skjule skjermknapper</string>
@@ -4058,6 +4072,7 @@ Sånn bruker du én-appsmodus:
     <string name="security_encryption_attention_3">Du må angi et nytt låseskjermpassord.</string>
     <string name="security_encryption_attention_4">Forsikre deg om at du husker låseskjermpassordet. Hvis ikke må du gjennomføre en full tilbakestilling og slette alle data på enheten.</string>
     <string name="security_encryption_attention_info">Du kan kryptere kontoer, innstillinger, nedlastede apper og deres data, medier og andre filer.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Viktig</string>
     <string name="security_encryption_close_dialog_info">Om du velger å ikke kryptere enheten med låseskjermpassord, kan enkelte Google-tjenester bli utilgjengelige.</string>
     <string name="security_encryption_close_dialog_title">Gå tilbake til standard passordbeskyttelse</string>
@@ -4067,8 +4082,8 @@ Sånn bruker du én-appsmodus:
     <string name="security_encryption_progress_dialog_open">Krypterer…</string>
     <string name="security_encryption_rejected_via_home_manager">Demoversjonen har ikke støtte for denne funksjonen.</string>
     <string name="security_encryption_title">Krypter enheten ved å bruke låseskjermpassord</string>
-    <string name="security_input">Security input</string>
-    <string name="security_input_hint">Using security keyboard enter password</string>
+    <string name="security_input">Sikkerhetsinndata</string>
+    <string name="security_input_hint">Bruk sikkerhetstastaturet til å skrive inn passord</string>
     <string name="security_keyguard_category_name">Låseskjerm</string>
     <string name="security_password_category_name">Skjermlås</string>
     <string name="security_passwords_title">Personvern</string>
@@ -4310,6 +4325,7 @@ Muligens feil personlig kode."</string>
     <string name="sim_reenter_new">Skriv inn ny PIN-kode på nytt</string>
     <string name="sim_select_card">Velg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du må velge en SIM-innstilling</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4323,6 +4339,7 @@ Muligens feil personlig kode."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Hopp over likevel</string>
     <string name="skip_label">Hopp over</string>
@@ -4400,6 +4417,7 @@ Pålitelig legitimasjon, som er installert på enheten din, gjør dette mulig."<
     <string name="status_bar_settings_all_app_display_loading">Et øyeblikk…</string>
     <string name="status_bar_settings_app_notification_preferences">Appinnstillinger</string>
     <string name="status_bar_settings_basic_settings">Grunninnstillinger</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Rediger leverandørnavn</string>
     <string name="status_bar_settings_custom_wifi_name">Rediger Wi-Fi navn</string>
     <string name="status_bar_settings_enable_notification">Vis varsler</string>
@@ -4461,6 +4479,9 @@ Pålitelig legitimasjon, som er installert på enheten din, gjør dette mulig."<
     <string name="status_wimax_mac_address">4G MAC-adresse</string>
     <string name="status_write_success">Fullført!</string>
     <string name="statusbar_permission_desc">Følgende tillatelser er bare gyldige for viktige varsler.</string>
+    <string name="stop_upload_audio_log">Finish getting audio log</string>
+    <string name="stop_upload_gps_log">Finish getting GPS log</string>
+    <string name="stop_upload_modem_log">Finish getting modem log</string>
     <string name="storage_detail_apps">Apper</string>
     <string name="storage_detail_audio">Lyd</string>
     <string name="storage_detail_cached">Bufrede data</string>
@@ -4631,6 +4652,7 @@ Vurder å bruke raskere ^1 for bedre ytelse."</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Velg en nettverksoperatør</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="super_resolution_access_title">Tilgjengelige apper</string>
     <string name="super_resolution_desc">Gjør bildene skarpere ved å bruke AI-algoritme</string>
@@ -4965,8 +4987,11 @@ De lagrede fingeravtrykkene dine fjernes også fra denne profilen, og du kommer 
     <string name="untitled_apn">Uten tittel</string>
     <string name="update_new_version">Oppdatering er tilgjengelig</string>
     <string name="update_progress_for_updates">Oppdaterer (%s)</string>
+    <string name="upload_audio_log">Start getting audio log</string>
     <string name="upload_debug_log_summary">Bruksstatistikk som hjelper oss med å finne og løse problemer kan inneholde dine personlige opplysninger</string>
     <string name="upload_debug_log_title">Send diagnosedata automatisk</string>
+    <string name="upload_gps_log">Start getting GPS log</string>
+    <string name="upload_modem_log">Start getting modem log</string>
     <string name="usage">Bruk</string>
     <string name="usage_access">Brukstilgang</string>
     <string name="usage_access_description">Med brukstilgang kan apper spore hvilke andre apper du bruker og hvor ofte du bruker dem. Også operatør, språkinnstillinger og annen informasjon kan spores med brukstilgang.</string>
@@ -5621,9 +5646,11 @@ Vil du tillate dette for alle apper som prøver å skanne?"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

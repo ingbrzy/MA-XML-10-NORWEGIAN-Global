@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">Detaljer for anropshistorikk</string>
     <string name="accessibility_contact_detail">Kontaktdetaljer</string>
     <string name="account_container_title">Importert fra</string>
@@ -99,6 +100,7 @@
     <string name="call_sim_menu_title_suffix">(Primær)</string>
     <string name="call_telex">Ring teleks</string>
     <string name="call_tty_tdd">Ring TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Ring jobb</string>
     <string name="call_work_mobile">Ring jobbmobil</string>
@@ -363,7 +365,6 @@ Kontaktkort er skrudd av"</string>
     <string name="device_import_progress_begin_message">Importerer…</string>
     <string name="device_import_progress_end_message">Importert</string>
     <string name="device_import_progress_message">Importerer…</string>
-    <string name="device_import_progress_toast">%1$d importerte kontakter</string>
     <string name="device_import_title">Importer</string>
     <string name="device_list_title">Velg enhet</string>
     <string name="device_other_guide">Støtter annen enhet bluetooth?</string>
@@ -487,6 +488,7 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="force_touch_new_contact">Ny kontakt</string>
     <string name="foundTooManyContacts">More than %d funnet.</string>
     <string name="frequentList">Hyppig</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Hold kontaktene dine trygge selv om du mister telefonen din: Synkroniser med en nettjeneste.</string>
@@ -565,6 +567,7 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="keep_local">Ikke synkroniser</string>
     <string name="keep_local_btn">Bruk enhetens internminne</string>
     <string name="label_custom_type">Tilpasset</string>
+    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Ingen duplikater funnet</string>
     <string name="label_notes">Notater</string>
     <string name="label_sip_address">Internettsamtale</string>
@@ -668,6 +671,7 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="miprofile_contact_header">Kontakter med kontaktkort</string>
     <string name="miprofile_contact_meaasge">Lokale kontakter</string>
     <string name="miprofile_contact_verifying">Verifiserer</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Endre profil</string>
     <string name="miprofile_error_accept_self">Kan ikke akseptere ditt eget kontaktkort</string>
     <string name="miprofile_error_no_miaccount">Logg inn på din Mi Account</string>
@@ -812,7 +816,10 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="path_wipe_data">System-apper/Kontakter/Organiser kontakter/Fjern data</string>
     <string name="payphone">Telefonkiosk</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummeret er for langt</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Ingen bilder er tilgjengelige på enheten.</string>
@@ -882,6 +889,7 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="preference_others">Annet</string>
     <string name="preference_phone">Enhet</string>
     <string name="preference_phone_more_title">Anropsinnstillinger</string>
+    <string name="preference_privacy_policy_title">Personvernerklæring</string>
     <string name="preference_remove_duplicate">Sammenslå duplikatkontakter</string>
     <string name="preference_show_firewall_calllog">Vis blokkerte samtaler i samtaleloggen</string>
     <string name="preference_show_yellowpage_tab_description">Gule sider fungerer kanskje ikke skikkelig når denne funksjonen er slått av.</string>
@@ -927,6 +935,7 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="quickcontact_missing_app">Ingen app ble funnet til å håndtere denne handlingen</string>
     <string name="quit_dialog_confirm_message">Du har ikke sammenslått noen kontakter</string>
     <string name="quit_dialog_confirm_title">Avbryt sammenslåing av kontakter</string>
+    <string name="rcs_app_name">Mini app</string>
     <string name="readOnlyContactDeleteConfirmation">Denne kontakten inneholder informasjon fra flere kontoer. Informasjon fra skrivebeskyttede kontoer vil ikke slettes, men skjules i kontaktlisten.</string>
     <string name="readOnlyContactWarning">Du kan ikke slette kontakter fra skrivebeskyttede kontoer, men du kan skjule dem i kontaktlistene.</string>
     <string name="readingSimContacts">Avleser SIM-kort…</string>
@@ -1059,6 +1068,7 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="sim_unloaded">SIM-kort er ikke installert</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Selskaper</string>
     <string name="smart_group_company_unavailable">Ingen selskapsinformasjon</string>
     <string name="smart_group_frequency_1">I løpet av den siste måneden</string>
@@ -1121,8 +1131,8 @@ For å unngå hyppige forespørsler, oppdaterer vi saldoen én gang om dagen."</
     <string name="title_other_devices">Andre tilgjengelige enheter</string>
     <string name="title_paired_devices">Parkoblede enheter</string>
     <string name="toast_call_detail_error">Kunne ikke lese detaljene for den forespurte samtalen</string>
-    <string name="toast_call_no_SoundRecorder">Recorder app ikke tilgjengelig</string>
-    <string name="toast_call_no_notes">Notes app ikke tilgjengelig</string>
+    <string name="toast_call_no_SoundRecorder">Opptakeren er ikke tilgjengelig</string>
+    <string name="toast_call_no_notes">Notes appen er ikke tilgjengelig</string>
     <string name="toast_copy_done">Ferdig</string>
     <string name="toast_copying">Kopierer…</string>
     <string name="toast_displaying_all_contacts">Viser alle kontakter</string>
@@ -1193,6 +1203,7 @@ Velg én av de følgende valgene:"</string>
     <string name="voip_audio_description">VoIP-samtale</string>
     <string name="voip_video_description">VoIP-videosamtale</string>
     <string name="websiteLabelsGroup">Nettsted</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Slett data</string>
     <string name="yellowPageNavigationIconLabel">Gule sider</string>
     <string name="yellowPageNavigationLabel">Gule sider</string>

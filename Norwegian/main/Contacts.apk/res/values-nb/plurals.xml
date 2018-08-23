@@ -36,6 +36,10 @@
         <item quantity="other">%1$d importerte kontakter</item>
         <item quantity="one">%1$d importerte kontakt</item>
     </plurals>
+    <plurals name="device_import_progress_toast_plurals">
+        <item quantity="other">Importerte %1$d kontakter</item>
+        <item quantity="one">Importerte %1$d kontakt</item>
+    </plurals>
     <plurals name="dlg_add_blacklist">
         <item quantity="other">Blokkere %1$d telefonnumre?</item>
         <item quantity="one">Blokkere %1$d telefonnummer?</item>

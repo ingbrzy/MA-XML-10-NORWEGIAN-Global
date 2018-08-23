@@ -12,6 +12,10 @@
         <item>Aktive apper</item>
         <item>Apper i dvale</item>
     </string-array>
+    <string-array name="emode_app_groups">
+        <item>Systemapper</item>
+        <item>Andre apper</item>
+    </string-array>
     <string-array name="thermal_entries">
         <item>Standard temperatur kontrollmodus</item>
         <item>Ytelsesmodus</item>

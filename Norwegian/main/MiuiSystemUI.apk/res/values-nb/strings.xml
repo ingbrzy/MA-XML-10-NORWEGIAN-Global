@@ -52,6 +52,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Nettverksleverandør endres.</string>
     <string name="accessibility_cast_name">Koblet til %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Skjermtildeling stoppet.</string>
     <string name="accessibility_cell_data">Mobile Data</string>
     <string name="accessibility_cell_data_off">Mobildata av</string>
@@ -98,6 +99,9 @@
     <string name="accessibility_enter_lock_wallpaper">Trykk for å åpne bakgrunnskarusell</string>
     <string name="accessibility_ethernet_connected">Ethernet tilkoblet.</string>
     <string name="accessibility_ethernet_disconnected">Ethernet er koblet fra.</string>
+    <string name="accessibility_fingerprint_dialog_app_icon">Applikasjonsikon</string>
+    <string name="accessibility_fingerprint_dialog_fingerprint_icon">Fingeravtrykksikon</string>
+    <string name="accessibility_fingerprint_dialog_help_area">Hjelpemeldingsområde</string>
     <string name="accessibility_gps_acquiring">GPS-anskaffelse.</string>
     <string name="accessibility_gps_enabled">GPS-aktivert.</string>
     <string name="accessibility_home">Hjem</string>
@@ -288,6 +292,7 @@
     <string name="available_via_passpoint">Tilgjengelig via %1$s</string>
     <string name="back">Tilbake</string>
     <string name="battery">Batteri</string>
+    <string name="battery_can_use_time">Omtrent %s gjenstår</string>
     <string name="battery_detail_charging_summary">Batterisparer er ikke tilgjengelig under lading</string>
     <string name="battery_detail_switch_summary">Reduserer ytelse og bakgrunnsdata</string>
     <string name="battery_detail_switch_title">Batterisparer</string>
@@ -514,10 +519,17 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="divider_menu_close">Lukk</string>
     <string name="divider_menu_select_apps">Velg</string>
     <string name="divider_menu_swap_task">Skift</string>
+    <string name="dlg_cancel">Avbryt</string>
+    <string name="dlg_confirm">Slå på</string>
     <string name="dlg_confirm_kill_storage_users_text">Hvis du slår på USB-lagring, stopper enkelte programmer du bruker og vil kanskje ikke være tilgjengelige før du slår av USB-lagring.</string>
     <string name="dlg_confirm_kill_storage_users_title">Slå på USB-lagring</string>
     <string name="dlg_error_title">USB-operasjon mislyktes</string>
     <string name="dlg_ok">OK</string>
+    <string name="dlg_summary_close_app">Begrens bakgrunnsaktivitet og varsler</string>
+    <string name="dlg_summary_close_theme">Begrens animerte temaer</string>
+    <string name="dlg_summary_close_wifi">Slå av Wi-Fi, Bluetooth og trådløssone</string>
+    <string name="dlg_summary_nfc">Slå av NFC</string>
+    <string name="dlg_summary_title">Ekstrem batterisparer stopper all bakgrunnsaktivitet etter at du lukker en app og går tilbake til startskjermen. Hvis du ønsker at en app skal kjøre i bakgrunnen kan du legge den til i bakgrunnsunntak.</string>
     <string name="dnd_is_off">DND er av</string>
     <string name="do_disclosure_generic">Denne enheten administreres av organisasjonen din</string>
     <string name="do_disclosure_with_name">Denne enheten administreres av %s</string>
@@ -541,6 +553,7 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="enable_bluetooth_message">For å koble til tastatur på ditt nettbrett, skru på Bluetooth først.</string>
     <string name="enable_bluetooth_title">Skru på Bluetooth?</string>
     <string name="enable_demo_mode">Aktiver demo-modus</string>
+    <string name="enable_extreme_power_save_mode">Ekstrem batterisparer</string>
     <string name="enable_freeform_support">Aktiver friform-vinduer</string>
     <string name="enable_freeform_support_summary">Aktiver støtte for eksperimentelle friform-vinduer.</string>
     <string name="enable_opengl_traces_title">Aktiver OpenGL-sporing</string>
@@ -627,6 +640,7 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="fingerprint_add_text">Fingeravtrykkgrensesnittet ble oppdatert. Legg til fingeravtrykket ditt på ny.</string>
     <string name="fingerprint_add_title">Legg til fingeravtrykk</string>
     <string name="fingerprint_again_identified_msg">Ditt fingeravtrykk er aktivt nå. Bruk det til å låse opp enheten, eller skriv inn passordet.</string>
+    <string name="fingerprint_dialog_touch_sensor">Berør fingeravtrykksensoren</string>
     <string name="fingerprint_enter_second_psw_msg">Skriv inn passordet for den sekundære lagringsplassen etter at du har startet enheten din på ny, for å kunne bruke fingeravtrykk-gjenkjennelse</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Kan ikke gå inn på sekundær lagringsplass mens man er i Lite-modus</string>
     <string name="fingerprint_enter_second_psw_title">Skriv inn passord for sekundært lagringssted</string>
@@ -714,7 +728,7 @@ Med en gang telefonen har kjølt seg ned, vil den kjøre som normalt."</string>
     <string name="incorrect_pukcode">Feil PUK-kode</string>
     <string name="input_password_after_boot_msg">For å låse opp enheten, skriv inn passordet ditt</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Kan ikke bytte sted under en telefonsamtale</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when FamilyGuard are on"</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke bytte mellom områder mens FamilyGuard er på</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Du må gå inn på det Første lagringsstedet etter at enheten er omstartet</string>
     <string name="input_password_handle_sdcard_fs">Kan ikke gå inn på det sekundære lagringstedet fra låseskjermen. Gå inn via Første sted.</string>
     <string name="input_password_hint_text">Tast inn passord</string>
@@ -796,6 +810,10 @@ Bruk kun laderen som følger med."</string>
     <string name="keyguard_charged">Ladet</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
     <string name="keyguard_charging_info_click_to_detail">Se detaljer</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Brukt</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
@@ -819,6 +837,7 @@ Bruk kun laderen som følger med."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke leses. Sett inn et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Ingen SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Ingen SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nettverket er låst</string>
     <string name="keyguard_password_enter_password_code">Tast inn passordet for å låse opp</string>
     <string name="keyguard_password_enter_pin_code">Skriv inn PIN-kode</string>
@@ -902,6 +921,7 @@ Prøv igjen om %2$d sekunder."</string>
     <string name="left_keycode">Venstre nøkkelkode</string>
     <string name="left_nav_bar_button_type">Ekstra type venstreknapp</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Trykk for å endre eller fjerne passordet for fullstendige sikkerhetskopieringer av hjemskjermen</string>
     <string name="local_backup_password_summary_none">Fullstendige sikkerhetskopier av hjemskjermen er ikke’ beskyttet for øyeblikket</string>
     <string name="local_backup_password_title">Passord for sikkerhetskopi av hjemskjem</string>
@@ -963,6 +983,7 @@ Prøv igjen om %2$d sekunder."</string>
     <string name="miui_guide_dialog_message">Medialyder (musikk, videoer, osv.) vil spilles av i stillemodus. Du kan endre dette i Innstillinger.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst opp av Bluetooth-enhet</string>
     <string name="miui_ringer_count_down">Nedtelling</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Stille</string>
     <string name="miui_ringer_standard_description">Demp ringelyder for innkommende anrop og varsler</string>
     <string name="miui_ringer_total">Ikke forstyrr</string>
@@ -989,12 +1010,14 @@ Du er også koblet til %3$s, som kan overvåke din personlige nettverksaktivtet.
 
 For mer informasjon, kontakt din admin."</string>
     <string name="monitoring_description_ca_cert_settings">Åpne pålitelige legitimasjonsbeskrivelser</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Et autorisasjonsbevis er installert på enheten. Trafikken på det sikre nettverket kan overvåkes eller modifiseres.</string>
     <string name="monitoring_description_do_body">Din admin kan overvåke og administrere innstillinger, firmatilgang, apper, data knyttet til enheten din og enhetens lokasjonsopplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du er koblet til %1$s, som kan overvåke din nettverksaktivitet, inkludert e-poster, apper og nettsteder.</string>
     <string name="monitoring_description_do_header_generic">Din enhet administreres av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruker %2$s for å administrere din enhet.</string>
     <string name="monitoring_description_do_learn_more">Lær mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisasjonen din har installert et autorisasjonsbevis i arbeidsprofilen din. Trafikken på det sikre nettverket kan være overvåket eller modifisert.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Arbeidsprofilen din er knyttet til %1$s, som kan overvåke nettverksaktiviteten, inkludert e-post, apper og nettsteder.</string>
     <string name="monitoring_description_management">"Enheten administreres av organisasjonen du jobber for.
@@ -1026,6 +1049,7 @@ For mer informasjon, kontakt din admin.
 
 Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string>
     <string name="monitoring_description_vpn_settings">Åpne VPN-innstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-bevis</string>
     <string name="monitoring_subtitle_network_logging">Nettverkslogging</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1040,6 +1064,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="nav_guide_message">Bruk bevegelser for å skjule/vise myke knapper.</string>
     <string name="nav_guide_ok">Sett opp</string>
     <string name="nav_guide_title">Skjul myke knapper</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ingenting</string>
     <string name="no_multi_window_app">Ingen apper som støtter delt skjerm</string>
     <string name="no_notification_tips">Ingen varsler</string>
@@ -1109,6 +1134,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="oldman_airplane_mode_text">Flymodus</string>
     <string name="oldman_incall_text">Tilbake til anrop</string>
     <string name="open_camera_hint_text">Sveip til venstre for å åpne kamera</string>
+    <string name="open_extreme_power_save_mode_title">Slå på Ekstrem batterisparer</string>
     <string name="open_remote_center_hint_text">Sveip til høyre for å åpne Mi Remote</string>
     <string name="other">Annet</string>
     <string name="overlay_display_devices_title">Simuler sekundære skjermer</string>
@@ -1176,6 +1202,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="power_remaining_charging_duration_only">%1$s igjen til den er fulladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s igjen</string>
     <string name="power_remaining_duration_only_short">%1$s gjenstår</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Profil kan være overvåket</string>
     <string name="prompt_danger">Fare</string>
     <string name="prompt_detecting">Oppdager</string>
@@ -1238,7 +1265,8 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="quick_settings_done">Ferdig</string>
     <string name="quick_settings_drivemode_label">Bilmodus</string>
     <string name="quick_settings_dual_location_label">Dobbel GPS</string>
-    <string name="quick_settings_edit_label">Rediger</string>
+    <string name="quick_settings_edit_label">Mer</string>
+    <string name="quick_settings_extreme_batterysaver_label">Ekstrem batterisparer</string>
     <string name="quick_settings_flashlight_label">Lommelykt</string>
     <string name="quick_settings_gps_label">GPS</string>
     <string name="quick_settings_hotspot_label">Hotspot</string>
@@ -1701,6 +1729,7 @@ Enhver bruker kan oppdatere apper for alle andre brukere."</string>
     <string name="wait_for_debugger">Vent på feilsøker</string>
     <string name="wait_for_debugger_summary">Feilsøkt applikasjon venter på at feilsøkeren festes før utføring</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Slipp for å se detaljer</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Oppdatert %1$s</string>
     <string name="wifi_aggressive_handover">Aggressiv Wi‑Fi til mobiloverføring</string>
     <string name="wifi_aggressive_handover_summary">Når dette alternativet er aktivert, bytter tilkoblingen mer aktivt til mobildata når Wi-Fi-signalet er lavt.</string>
@@ -1725,9 +1754,11 @@ Enhver bruker kan oppdatere apper for alle andre brukere."</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

@@ -12,6 +12,7 @@
     <string name="menu_save_station_presets">Legg til forhåndsinnstillinger</string>
     <string name="menu_speaker">Bytt til høyttaler</string>
     <string name="menu_headset">Bytt til hodetelefoner</string>
+    <string name="menu_privacy">Personvernerklæring</string>
     <string name="menu_exit">Avslutt</string>
     <string name="dialog_sleep_title">Still inn innsovningstimer</string>
     <string name="search_dialog_title">Skann stasjoner</string>

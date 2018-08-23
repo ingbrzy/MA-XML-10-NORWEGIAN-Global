@@ -299,6 +299,7 @@
     <string name="title_schema_title">Uthev navn</string>
     <string name="toast_function_add_not_allowed">Du kan legge til opptil 8 snarveier</string>
     <string name="toast_function_remove_not_allowed">Du bør legge til minst én snarvei</string>
+    <string name="today_apps">Recommended</string>
     <string name="today_apps_bref">Discover cool new apps</string>
     <string name="today_apps_detail">Here you can find fresh apps that are becoming popular right now.</string>
     <string name="today_apps_loading">Just a sec…</string>

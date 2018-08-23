@@ -148,6 +148,7 @@
     <string name="shutdown_alarm_enable_summary">Alarm vil gå av etter at enheten er skrudd av</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
@@ -156,6 +157,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">%1$s°</string>
@@ -174,6 +176,7 @@
     <string name="timer_alert_type_rain">Yr</string>
     <string name="timer_alert_type_stove_fire">Fyr i ovnen</string>
     <string name="timer_alert_type_summer_night">Sommernatt</string>
+    <string name="timer_can_continue_in_timer">Åpne tidtaker for å gjenoppta</string>
     <string name="timer_cancel_hint">Stopp</string>
     <string name="timer_cancel_timer">Avbryt tidtaker</string>
     <string name="timer_clock_alert_text">Still inn tidsuret</string>
@@ -183,6 +186,7 @@
     <string name="timer_end_time_format">HH:mm dd. MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">OK</string>
+    <string name="timer_is_paused">Tidtaker er satt på pause</string>
     <string name="timer_item_duration_display">%1$d min %2$d sek</string>
     <string name="timer_item_label_hint">Navn på tidsur</string>
     <string name="timer_item_picker_hour">T</string>

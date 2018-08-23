@@ -202,7 +202,7 @@
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
         <item quantity="other">Kunne ikke laste ned %1$d bilder (%2$d MB). Prøve igjen?</item>
-        <item quantity="one">Kunne ikke laste ned %1$d bilder (%2$d MB). Prøve igjen?</item>
+        <item quantity="one">Kunne ikke laste ned bilde (%2$d MB). Prøve igjen?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Hoppet over %d bilder som ikke er på enheten.</item>

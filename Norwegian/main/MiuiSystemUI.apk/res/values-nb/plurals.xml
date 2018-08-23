@@ -9,8 +9,8 @@
         <item quantity="one">Åpnet Nylige, tilgjengelige apper: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Hiding notifications from %1$s &amp; %2$d apps.</item>
-        <item quantity="one">Skjule varsler fra %1$s &amp; %2$d apper.</item>
+        <item quantity="other">Skjuler varsler fra %1$s &amp; %2$d apper.</item>
+        <item quantity="one">Skjuler varsler fra %1$s &amp; %2$d app.</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">Skjule %d varsler fra app?</item>
@@ -37,8 +37,8 @@
         <item quantity="one">Omtrent%d minutt igjen</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">About %1$d h %2$d m left</item>
-        <item quantity="one">Omtrent %1$d t %2$d m igjen</item>
+        <item quantity="other">Omtrent %1$d h %2$d m igjen</item>
+        <item quantity="one">Omtrent %1$d h %2$d m igjen</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%d timer</item>

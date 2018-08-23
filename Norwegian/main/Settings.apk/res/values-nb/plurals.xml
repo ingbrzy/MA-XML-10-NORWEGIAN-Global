@@ -220,20 +220,32 @@
         <item quantity="other">%1$d toggles will appear in the Notification shade</item>
         <item quantity="one">%1$d vekslinger vises i meldingsskyggen</item>
     </plurals>
+    <plurals name="show_audio_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get audio log</item>
+        <item quantity="one">%1$d step left before you can get audio log</item>
+    </plurals>
     <plurals name="show_cit_countdown">
-        <item quantity="other">"You're %1$d steps away from entering CIT."</item>
-        <item quantity="one">Du er %1$d steg unna fra å gå inn i CIT.</item>
+        <item quantity="other">Du er %1$d steg unna fra å angi CIT.</item>
+        <item quantity="one">Du er %1$d steg unna fra å angi CIT.</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Nå er du %1$d steg fra å bli utvikler.</item>
         <item quantity="one">Nå er du %1$d steg fra å bli utvikler.</item>
     </plurals>
+    <plurals name="show_gps_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get GPS log</item>
+        <item quantity="one">%1$d step left before you can get GPS log</item>
+    </plurals>
+    <plurals name="show_modem_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get modem log</item>
+        <item quantity="one">%1$d step left before you can get modem log</item>
+    </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">"You're %1$d steps away from entering phone info."</item>
-        <item quantity="one">Du er %1$d steg unna fra å gå inn i telefoninfo.</item>
+        <item quantity="other">Du er %1$d steg unna fra å angi telefoninfo.</item>
+        <item quantity="one">Du er %1$d steg unna fra å angi telefoninfo.</item>
     </plurals>
     <plurals name="show_rep_countdown">
-        <item quantity="other">"You're %1$d steps away from reporting bug."</item>
+        <item quantity="other">Du er %1$d steg unna fra å rapportere feil.</item>
         <item quantity="one">Du er %1$d steg unna fra å rapportere feil.</item>
     </plurals>
     <plurals name="show_reset_countdown">

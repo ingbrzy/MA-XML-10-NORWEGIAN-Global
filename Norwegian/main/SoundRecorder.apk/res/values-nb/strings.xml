@@ -95,6 +95,7 @@
     <string name="error_sdcard_unmounted">Sett inn SD-kort nå</string>
     <string name="record_back_pressed_hint">For å stoppe opptak, trykk på Tilbake</string>
     <string name="record_mark_point">Marker %s</string>
+    <string name="record_format_preference_title">Opptaksformat</string>
     <string name="record_quliaty_preference_title">Opptakskvalitet</string>
     <string name="cloud_record_tip">Sykroniser opptak med Mi Cloud.</string>
     <string name="cloud_record_open">Synkroniser opptak</string>
@@ -152,4 +153,5 @@
     <string name="head_set_tip_dialog_ok">Skjønner</string>
     <string name="rename_fail_tip">Kunne ikke gi nytt navn. Enheten med dette navnet eksisterer allerede.</string>
     <string name="dialog_privacy_revoke_tips">Etter at du har tilbakekalt autorisasjonen, vil appen slutte å samle inn data, og alle relaterte data vil bli slettet fra serverne. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel? Logg inn på i.mi.com før du tilbakekaller autorisasjon for Mi Cloud-tjenestene slik at du sikrer sikkerheten til kontoen din.</string>
+    <string name="privacy_policy_title">Personvernerklæring</string>
 </resources>
