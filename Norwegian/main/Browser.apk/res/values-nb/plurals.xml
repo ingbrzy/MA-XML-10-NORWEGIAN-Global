@@ -9,8 +9,8 @@
         <item quantity="one">%d item blocked</item>
     </plurals>
     <plurals name="articles_updated_amount">
-        <item quantity="other">%1$d artikler oppdatert for deg</item>
-        <item quantity="one">%1$d artikkel oppdatert for deg</item>
+        <item quantity="other">Sjekk ut %1$d nye artikler</item>
+        <item quantity="one">Sjekk ut %1$d ny artikkel</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Slett %d oppgaver?</item>
@@ -81,8 +81,8 @@
         <item quantity="one">%d minutt gjenstår</item>
     </plurals>
     <plurals name="videos_updated_amount">
-        <item quantity="other">%1$d videoer oppdatert for deg</item>
-        <item quantity="one">%1$d video oppdatert for deg</item>
+        <item quantity="other">Sjekk ut %1$d nye videoer</item>
+        <item quantity="one">Sjekk ut %1$d ny video</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>

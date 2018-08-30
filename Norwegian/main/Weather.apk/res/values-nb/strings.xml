@@ -38,7 +38,9 @@
     <string name="aqi_quality_ambient_air_quality">Luftkvalitet i nærheten</string>
     <string name="aqi_quality_co_desc">Karbonmonoksid</string>
     <string name="aqi_quality_detail_15_days">15-dagers værvarsel</string>
+    <string name="aqi_quality_detail_24_hours">24-timers værvarsel</string>
     <string name="aqi_quality_detail_48_hours">48-timers værvarsel</string>
+    <string name="aqi_quality_detail_5_days">5-dagers værvarsel</string>
     <string name="aqi_quality_major_pollutants">Betydelige forurensninger</string>
     <string name="aqi_quality_map_title">Luftkvalitetskart</string>
     <string name="aqi_quality_no2_desc">Nitrogendioksid</string>
@@ -62,7 +64,7 @@
     <string name="button_sure_abandon">Forkast endringer?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Sjekk nettverksforbindelsen og prøv igjen</string>
-    <string name="china_version_first_start_network_msg">Ved å bruke dette produktet, samtykker du til Xiaomis %1$s og %2$s. Denne appen krever internettforbindelse og tilgang til beliggenheten din for å fungere normalt.</string>
+    <string name="china_version_first_start_network_msg">Ved å bruke dette produktet, samtykker du i Xiaomis %1$s og %2$s. For å hjelpe deg med å få mer nøyaktig værinformasjon, vil været hente beliggenheten din, og den trenger å koble til nettverket for dette. Samtykker du?</string>
     <string name="city_exceeded_warning">Du kan legge til opptil 10 byer</string>
     <string name="common_loading_text">Et øyeblikk…</string>
     <string name="connect_fail">Kunne ikke koble til nettverket. Prøv igjen</string>
@@ -81,11 +83,13 @@
     <string name="daily_forecast_add_city_message">Følg været i %1$s for en mer detaljert prognose.</string>
     <string name="daily_forecast_add_city_title">Følg været i %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente værinfo
 Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="data_provided_by">Data levert av</string>
     <string name="edit_city">Administrer by</string>
-    <string name="eu_region_version_first_start_network_msg">Ved å bruke dette produktet, godtar du at Xiaomi kommer til å samle inn, behandle og bruke din personlige informasjon, inkludert koordinatene til byene du søker, og andre typer data som er angitt i vår personvernerklæring. Les vår personvernerklæring for å lære mer om hvordan vi samler inn og behandler informasjon. Ved å trykke på \"Godta\", godtar du Xiaomis %1$s og %2$s.</string>
+    <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">Ved å bruke dette produktet, godtar du at dette produktet vil koble til nettverket, samle inn, behandle og bruke din personlige informasjon, inkludert koordinatene til byene du søker, og andre typer data som er angitt i vår personvernerklæring. Les vår personvernerklæring for å lære mer om hvordan vi samler inn og behandler informasjon. Ved å trykke på \"Godta\", godtar du Xiaomis %1$s og %2$s.</string>
     <string name="feedback_heavy_rain">Mye regn</string>
     <string name="feedback_heavy_snow">Snø</string>
     <string name="feedback_light_rain">Litt regn</string>
@@ -97,6 +101,8 @@ Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="first_start_network_title">Internettilkobling og tilgang til stedstjeneste</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nå</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timers værvarsel</string>
     <string name="hourly_forecast_title_hourly_desc">Timesvarsel</string>
@@ -110,10 +116,12 @@ Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="indices_title_feel">Føles som</string>
     <string name="indices_title_pressure">Trykk</string>
     <string name="install">Installer</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">TRYKK</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til å regne</string>
     <string name="locate_fail_detail_err">"Finner ikke enheten
@@ -158,6 +166,7 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="privacy_grant_failed">Kunne ikke gi autorisasjon. Vent et minutt eller to og prøv igjen.</string>
     <string name="privacy_grant_or_revoke_settings">Tildeler &amp; tilbakekalling av autorisasjon</string>
     <string name="privacy_grant_success">Autorisasjon gitt</string>
+    <string name="privacy_policy">Personvernerklæring</string>
     <string name="privacy_revoke_failed">Kunne ikke tilbakekalle autorisasjon. Vent et minutt eller to og prøv igjen.</string>
     <string name="privacy_revoke_success">Tilbakekalte autorisasjon</string>
     <string name="privacy_settings">Personvernerklæring</string>
@@ -185,6 +194,7 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI-værr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke ta skjermbilde</string>
     <string name="some_where_on_earth">Et sted på jorden</string>
@@ -220,6 +230,7 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="update_setting_title_text">Oppdater værmelding</string>
     <string name="updated_a_moment_ago">Oppdatert for et øyeblikk siden</string>
     <string name="updating">Oppdaterer…</string>
+    <string name="user_agreement">Vilkår for bruk</string>
     <string name="video_dialog_no_play" />
     <string name="video_dialog_play" />
     <string name="video_dialog_subtitle" />

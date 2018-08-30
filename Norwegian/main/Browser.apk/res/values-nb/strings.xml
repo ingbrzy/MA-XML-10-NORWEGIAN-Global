@@ -25,6 +25,7 @@
     <string name="s5">Opprett kalenderaktivitet</string>
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
     <string name="s7">Testannonse</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Gå til startsiden</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Mer</string>
@@ -86,7 +87,6 @@
     <string name="add_to_quicklink">Startside</string>
     <string name="added_to_bookmarks">Lagt til i bokmerker</string>
     <string name="adjust_text_zoom_toast">Ved å endre tekst zoom kan det føre til at noen nettsteder vises feil</string>
-    <string name="adx_loading_str">Et øyeblikk…</string>
     <string name="agree">Enig</string>
     <string name="agree_permissions_request">Tillat</string>
     <string name="alert_tips">Denne siden kan være en sikkerhetsrisiko</string>
@@ -102,7 +102,6 @@
     <string name="aqi_quality_index_moderate">Moderat</string>
     <string name="aqi_quality_index_pure">Utmerket</string>
     <string name="aqi_quality_index_unhealthy">Usunt</string>
-    <string name="articles_updated">Oppdaterte %1$d artikler</string>
     <string name="autoSwithcingSearchEngineTips">Byttet til den hyppige søkemotoren</string>
     <string name="autologin_bar_error">Kunne ikke logge inn</string>
     <string name="autologin_bar_hide_text">Skjul</string>
@@ -347,6 +346,7 @@ Sider du besøker vil ikke vises i historikken."</string>
     <string name="ignore_add_pwa_dialog_today">Ikke vis i dag</string>
     <string name="in_incognito">Du er inkognito! Nettsider som du ser i denne fanen vil ikke vises i nettleserhistorikken din.</string>
     <string name="in_secureaccess">Nettleser slo om til Sikkerhetsmodus</string>
+    <string name="into_info_flow_guide">Vis flere artikler</string>
     <string name="isReplacePage">Fil eksisterer allerede, bytte ut?</string>
     <string name="is_first_history_item">Dette er den første siden i Søkehistorikken</string>
     <string name="is_first_tab">Dette er den første fanen</string>
@@ -470,9 +470,9 @@ Sider du besøker vil ikke vises i historikken."</string>
     <string name="mw_color_picker_value">Verdi</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
     <string name="mw_copy_to_clipboard_failure_message">Kunne ikke kopiere til utklippstavlen.</string>
-    <string name="mw_data_traffic_prompt_change">Bruk av mobildataforbindelsen til å se videoer øker databruken din. Hvis du går over abonnementsgrensen for databruk, kan operatøren belaste deg tilleggsutgifter.</string>
+    <string name="mw_data_traffic_prompt_change">Bruk av mobildataforbindelsen til å se på videoer øker databruken din. Hvis du går over abonnementsgrensen for databruk, kan operatøren belaste deg tilleggsutgifter.</string>
     <string name="mw_data_traffic_prompt_message">Bruk av mobildataforbindelsen til å bla gjennom videoer øker databruken din. Hvis du går over abonnementsgrensen for databruk, kan operatøren belaste deg tilleggsutgifter.</string>
-    <string name="mw_data_traffic_prompt_message_short">Ved å bruke mobildata til å streame videoer kan det føre til at du overskrider abonnementsgrensen for databruk.</string>
+    <string name="mw_data_traffic_prompt_message_short">Å bruke mobildata til å strømme videoer kan føre til at du overskrider abonnementsgrensen for databruk.</string>
     <string name="mw_data_traffic_prompt_title">Advarsel om databruk</string>
     <string name="mw_date_picker_dialog_clear">Fjern</string>
     <string name="mw_date_picker_dialog_other_button_label">Andre</string>
@@ -486,8 +486,8 @@ Sider du besøker vil ikke vises i historikken."</string>
     <string name="mw_http_post_warning_resend">Fortsett</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Er du sikker på at du ønsker å forlate denne siden?"</string>
-    <string name="mw_js_dialog_before_unload_negative_button">Fortsett på denne siden</string>
+Navigere vekk fra denne siden?"</string>
+    <string name="mw_js_dialog_before_unload_negative_button">Forbli på denne siden</string>
     <string name="mw_js_dialog_before_unload_positive_button">Forlat denne siden</string>
     <string name="mw_js_dialog_before_unload_title">Bekreft navigering</string>
     <string name="mw_js_dialog_title">Siden på \"%s\" sier:</string>
@@ -500,8 +500,8 @@ Er du sikker på at du ønsker å forlate denne siden?"</string>
     <string name="mw_login_dialog_username_field">Brukernavn</string>
     <string name="mw_low_memory_error">Kunne ikke fullføre forrige operasjon pga. lite minne.</string>
     <string name="mw_media_player_error_button">OK</string>
-    <string name="mw_media_player_error_text_invalid_progressive_playback">Beklager, denne videoen er ikke tilgjengelig for å streames på denne enheten.</string>
-    <string name="mw_media_player_error_text_unknown">Beklager, denne videoen kan ikke spilles av.</string>
+    <string name="mw_media_player_error_text_invalid_progressive_playback">Denne videoen kan ikke strømmes på denne enheten.</string>
+    <string name="mw_media_player_error_text_unknown">Denne videoen kan ikke spilles av.</string>
     <string name="mw_media_player_error_title">Kan ikke spille av video</string>
     <string name="mw_media_player_loading_video">Laster video</string>
     <string name="mw_miui_content_copy">Kopier</string>
@@ -612,7 +612,7 @@ Er du sikker på at du ønsker å forlate denne siden?"</string>
     <string name="mw_notification_category_group_general">Generellt</string>
     <string name="mw_notification_category_incognito">Inkognito</string>
     <string name="mw_notification_category_media">Media</string>
-    <string name="mw_notification_category_screen_capture">Skjermbilder</string>
+    <string name="mw_notification_category_screen_capture">Skjermbilde</string>
     <string name="mw_notification_category_sites">Nettsteder</string>
     <string name="mw_notification_hidden_text">Innholdet er skjult</string>
     <string name="mw_ntp_title_no_suggestions">Det er alt for nå</string>
@@ -700,7 +700,7 @@ Er du sikker på at du ønsker å forlate denne siden?"</string>
     <string name="mw_payments_unsupported_shipping_address">Kan ikke levere til denne adressen. Velg en annen adresse.</string>
     <string name="mw_payments_unsupported_shipping_option">Denne leveringsmetoden er ikke tilgjengelig. Prøv en annen metode.</string>
     <string name="mw_payments_updated_label">Oppdatert</string>
-    <string name="mw_permission_alert_window">For å bruke egenskapen, åpne systemvalg Diplay pop-up window.</string>
+    <string name="mw_permission_alert_window">For å bruke funksjonen, kan du åpne Vis popup-vinduet.</string>
     <string name="mw_permission_unknown">Ukjent valg</string>
     <string name="mw_photo_picker_browse">Nettleser</string>
     <string name="mw_photo_picker_camera">Kamera</string>
@@ -724,13 +724,15 @@ Er du sikker på at du ønsker å forlate denne siden?"</string>
     <string name="mw_sad_tab_send_feedback_label">Send tilbakemelding</string>
     <string name="mw_sad_tab_title">Aw, Snap!</string>
     <string name="mw_sad_tab_uma_optin">Send oss brukerstatistikk og krasj-rapporter automatisk til Google</string>
-    <string name="mw_save_password_message">Ønsker du at nettleseren husker dette passordet?</string>
+    <string name="mw_save_password_message">Huske dette passordet?</string>
     <string name="mw_save_password_never">Aldri</string>
     <string name="mw_save_password_notnow">Ikke nå</string>
     <string name="mw_save_password_remember">Husk</string>
     <string name="mw_snippets_disabled_generic_prompt">Få tilpasset innhold</string>
     <string name="mw_snippets_disabled_signed_out_instructions">For å få personlig innhold foreslått av Google, Logg inn på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator" />
+    <string name="mw_time_picker_dialog_minute_second_separator" />
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator" />
     <string name="mw_time_picker_dialog_title">Velg tid</string>
@@ -748,9 +750,8 @@ Er du sikker på at du ønsker å forlate denne siden?"</string>
     <string name="nav_bottom_bar_new_tab">Ny fane</string>
     <string name="nav_screen_container_tab_incognito">Inkognitofane</string>
     <string name="nav_screen_container_tab_normal">Vanlig fane</string>
-    <string name="nav_screen_incognito_message">"Din nettleser- og søkehistorikk vil ikke lagres i Ikognitiomodus.
-Husk at filene du laster ned og bokmerkene du legger til fortsatt vil lagres."</string>
-    <string name="nav_screen_incognito_title">Inkognitomodus</string>
+    <string name="nav_screen_incognito_message">Nettleser- og søkehistorikk vil ikke lagres i inkognitomodus. Husk at filene du laster ned, og bokmerkene du legger til, fortsatt vil lagres.</string>
+    <string name="nav_screen_incognito_title"> Inkognitomodus</string>
     <string name="navigation_delete_all">Sveip til venstre eller høyre for å lukke alle fanene</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Avbryt</string>
     <string name="navigationbar_rightbutton_actiontext_go">Gå</string>
@@ -803,11 +804,12 @@ Husk at filene du laster ned og bokmerkene du legger til fortsatt vil lagres."</
     <string name="pref_accessibility_url_shortcut_enter_summary">Vanlige tegnkombinasjoner kan skrives inn ved et trykk i adressefeltet</string>
     <string name="pref_accessibility_url_shortcut_enter_title">Rask adresse innsetting</string>
     <string name="pref_adblock_title">Annonseblokkering</string>
+    <string name="pref_auto_update">Oppdater automatisk</string>
     <string name="pref_auto_update_under_wifi">Oppdater med Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Bytt til den hyppigste søkemotoren</string>
     <string name="pref_card_setting">Rekkefølge på toppsider</string>
     <string name="pref_category_hint">Kategori</string>
-    <string name="pref_check_recommendation_app_quicklink">Foreslått for deg</string>
+    <string name="pref_check_recommendation_app_quicklink">Anbefalt for deg</string>
     <string name="pref_check_security_url_summary">"Send nettadressen til Mi's servere for å sjekke om den er sikker"</string>
     <string name="pref_check_security_url_summary_international">Tillat nettleser å få tilgang til nettadressen til den nettsiden du besøkte da du mottok relevante anbefalinger.</string>
     <string name="pref_check_security_url_title">Sjekk nettadressens sikkerhet</string>
@@ -952,6 +954,7 @@ Husk at filene du laster ned og bokmerkene du legger til fortsatt vil lagres."</
     <string name="readmodelist_bookmarks_to_show">Leseliste</string>
     <string name="refresh">Oppdater</string>
     <string name="refresh_fail">Kunne ikke laste inn info</string>
+    <string name="refresh_guide">Tilbake til toppen</string>
     <string name="refreshing">Oppdaterer …</string>
     <string name="refuse_permissions_request">Begrense</string>
     <string name="release_to_refresh">Slipp for å oppdatere</string>
@@ -1114,6 +1117,7 @@ Husk at filene du laster ned og bokmerkene du legger til fortsatt vil lagres."</
     <string name="version_check_button_resume_download">Gjenoppta nedlasting</string>
     <string name="version_check_button_update">Oppdater</string>
     <string name="version_check_failed">Kunne ikke se etter oppdateringer</string>
+    <string name="version_dialog_4G_checkbox">Du kan oppdatere systemapper ved å bruke mobildata. Dette kan generere ytterligere kostnader.</string>
     <string name="version_dialog_buttion_ok">OK</string>
     <string name="version_dialog_buttion_update">Oppdater</string>
     <string name="version_update_file_download_toast">Laster ned</string>
@@ -1216,6 +1220,7 @@ Husk at filene du laster ned og bokmerkene du legger til fortsatt vil lagres."</
     <string name="date_picker_dialog_set">Angi</string>
     <string name="date_picker_dialog_title">Angi dato</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
+    <string name="external_app_restricted_access_error">Mi Nettleser har ikke tilgang til forespurt ressurs.</string>
     <string name="find_next">Finn neste</string>
     <string name="find_previous">Finn forrige</string>
     <string name="js_dialog_before_unload">"%s

@@ -19,7 +19,7 @@
         <item>Tilpasset</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Én gang</item>
+        <item>En gang</item>
         <item>Daglig</item>
         <item>Man til fre</item>
         <item>Tilpasset</item>
