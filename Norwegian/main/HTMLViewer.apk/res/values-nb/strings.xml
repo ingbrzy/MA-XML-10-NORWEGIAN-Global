@@ -11,7 +11,7 @@
 gå til %s på en annen tilkoblet enhet."</string>
     <string name="permdesc_accessDrm">Tillat appen å få tilgang til DRM-beskyttet innhold.</string>
     <string name="open_wifi_connect_title">Koblet til %1$s</string>
-    <string name="open_wifi_connect_and_use_data_summary">fortsett med å bruke trafikk, trykk for å bytte wifi og bekreft.</string>
+    <string name="open_wifi_connect_and_use_data_summary">Using mobile data. Tap to switch to Wi-Fi.</string>
     <string name="open_wifi_connect_summary">Trykk for å se detaljer.</string>
     <string name="settings_license_activity_title">Open source-lisenser</string>
     <string name="settings_license_activity_loading">Et øyeblikk…</string>

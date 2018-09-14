@@ -300,6 +300,7 @@ For å aktivere kontoen må du følge
     <string name="user_avatar_uploading">Et øyeblikk…</string>
     <string name="user_avatar_update_title">Endre profilbilde</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
+    <string name="account_invalid_user_avatar">This photo is invalid. Try a different one.</string>
     <string name="account_none_binded_info">Ingen</string>
     <string name="account_bind_secure_phone_title">Legg til telefonnummer</string>
     <string name="account_bind_secure_email_title">Legg til e-post</string>

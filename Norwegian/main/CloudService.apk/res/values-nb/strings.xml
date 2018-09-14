@@ -35,6 +35,8 @@
     <string name="mx_sub_dspt_provision_with_voip">Internettanrop</string>
     <string name="phone_number_required_dspt_provision">Denne tjenesten krever telefonnummeret ditt.</string>
     <string name="sync_dspt_provision">Synkroniser bildene, kontaktene, notatene og mer på tvers av enhetene dine, eller få tilgang til dem på</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst skru denne funksjonen på eller av i Innstillingene.
 "</string>
     <string name="sync_dspt_entrance_provision">"Mi Cloud hjelper deg med å synkronisere bilder, kontakter og andre elementer på tvers av enheter. Du kan få tilgang til synkroniserte enheter fra hvor som helst på %s. "</string>
@@ -45,6 +47,8 @@
     <string name="sync_dspt_entrance_provision_skip">Hopp over dette trinnet</string>
     <string name="sync_dspt_entrance_provision_network">Denne appen må kobles til internett for å fungere normalt. Synkronisering av data kan kreve mobildatatilgang og aktivering av Wi-Fi.</string>
     <string name="find_device_dspt_provision">Hvis du mister enheten din, kan du gå til %s for å finne, låse eller tilbakestille. Du kan når som helst skru denne funksjonen på eller av i Innstillingene.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_send_sms_alert">Hvis du bytter SIM-kort, vil enda en SMS automatisk sendes for å aktivere denne funksjonen på nytt.</string>
     <string name="mx_dspt_provision">"Mi Message lar deg sende meldinger til andre MIUI-enheter uten å pådra deg kostnader når du er koblet til Wi-Fi.
 
@@ -169,8 +173,8 @@ Bruk en annen konto."</string>
     <string name="micloud_main_simple_synced">Synkronisert</string>
     <string name="micloud_main_simple_syncing">Synkroniserer</string>
     <string name="micloud_main_simple_pending">Avventer</string>
-    <string name="micloud_main_simple_off">Synkronisering av</string>
-    <string name="micloud_main_simple_last_sync_time">Sist synkroniseringstidspunkt: %s</string>
+    <string name="micloud_main_simple_off">Sync is off</string>
+    <string name="micloud_main_simple_last_sync_time">Last synced: %s</string>
     <string name="micloud_detail_syncing">Synkroniserer</string>
     <string name="micloud_detail_pending">Venter</string>
     <string name="micloud_detail_success">Synkronisert</string>
@@ -286,6 +290,7 @@ til din Mi Account for å aktivere Mi Cloud på nytt."</string>
     <string name="micloud_find_device_opened">Finn enhet på</string>
     <string name="micloud_find_device_open_fail">Kunne ikke skru på Finn enhet</string>
     <string name="micloud_find_device_opened_content">Finn enheten din på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_close_fail">Kunne ikke skru av Finn enhet</string>
     <string name="micloud_find_device_finish">Ferdig</string>
@@ -352,6 +357,8 @@ til din Mi Account for å aktivere Mi Cloud på nytt."</string>
     <string name="micloud_main_head_menu_state_close">Av</string>
     <string name="micloud_main_head_menu_state_unavailable">Støttes ikke</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Finn enhet er utilgjengelig i Andre område. Du kan bruke det i Første område.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Betaling med fingeravtrykk</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

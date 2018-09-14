@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerte apper: %d</string>
     <string name="toast_resolve_apk_error">Løs apk-feil</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laster ned</string>
     <string name="installing">Installering</string>
     <string name="start_install">Installer nå</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>
     <string name="connecting">Kobler til…</string>
@@ -555,14 +557,16 @@
     <string name="whatsapp_title">WhatsApp cleaner</string>
     <string name="whatsapp_function_title">WhatsApp cleaner</string>
     <string name="whatsapp_function_summery">Tøm WhatsApp-vedlegg</string>
-    <string name="clean_summary">Fjernet %1$s filer</string>
+    <string name="clean_summary">Cleared %1$s</string>
     <string name="onekeyclean_boosting_title">Øker fart</string>
     <string name="onekeyclean_boosted_title">Fjernet</string>
-    <string name="onekeyclean_boost_cleaned">%s tømt</string>
+    <string name="onekeyclean_boost_cleaned">Fjernet %s</string>
     <string name="onekeyclean_boost_available">%s tilgjengelig</string>
     <string name="onekeyclean_card_summery">Tøm søppel for å frigjøre plass</string>
     <string name="onekeyclean_card_btn">Fjern nå</string>
     <string name="memory_clean_icon_text">Tøm minne</string>
     <string name="pref_title_create_onekeyclean_shortcut">Vis startskjermsnarvei</string>
     <string name="memory_clean_no_trash_tip">Alt ser bra ut</string>
+    <string name="toast_updater_open_4g_text">Apper blir oppdatert ved bruk av mobildata (4G)</string>
+    <string name="toast_updater_close_4g_text">Apper blir ikke oppdatert ved bruk av mobildata (4G)</string>
 </resources>

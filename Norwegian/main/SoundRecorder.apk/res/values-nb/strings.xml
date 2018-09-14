@@ -17,7 +17,7 @@
     <string name="recording">Tar opp</string>
     <string name="recording_stopped">Stoppet</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="error_sdcard_access">Får ikke tilgang til lagringsplass</string>
+    <string name="error_sdcard_access">Får ikke tilgang til SD-kort</string>
     <string name="error_app_internal">Sjekk om en annen app er tilgjengelig for opptak.</string>
     <string name="error_app_internal_title">Lydopptak-feil</string>
     <string name="error_file_access">Filen eksisterer ikke eller er ødelagt</string>
@@ -99,8 +99,8 @@
     <string name="record_quliaty_preference_title">Opptakskvalitet</string>
     <string name="cloud_record_tip">Sykroniser opptak med Mi Cloud.</string>
     <string name="cloud_record_open">Synkroniser opptak</string>
-    <string name="cloud_service_state_open_reminder">Skru på synkronisering med Mi Cloud for å synkronisere opptaksfiler.</string>
-    <string name="cloud_status_full_dialog_title">Mi Cloud-lagringsplass full</string>
+    <string name="cloud_service_state_open_reminder">Slå på synkronisering med Mi Cloud for å synkronisere opptak.</string>
+    <string name="cloud_status_full_dialog_title">Mi Cloud-lagringsplassen er full</string>
     <string name="cloud_status_full_dialog_msg">Lagringsplassen din er full. Kan ikke synkronisere opptakene. Oppgrader kontoen din for å få mer lagringsplass.</string>
     <string name="cloud_status_full_dialog_cancel">Ikke nå</string>
     <string name="cloud_status_full_dialog_ok">Oppgrader</string>

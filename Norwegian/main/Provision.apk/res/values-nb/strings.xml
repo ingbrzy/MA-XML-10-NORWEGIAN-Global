@@ -67,6 +67,7 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="disagree">Avbryt</string>
     <string name="setting_locale">Innstilling av region…</string>
     <string name="agree_terms">Jeg har lest og akseptert vilkår for bruk og personvernerklæring.</string>
+    <string name="poco_agree_terms_other">(Including POCO Launcher Privacy Policy and User Agreement)</string>
     <string name="agree_terms_input_method_facemoji">Jeg har lest og samtykket i Facemoji-personvernpolicyen.</string>
     <string name="agree_terms_input_method_kika">Jeg har lest og samtykket i Kika-personvernpolicyen.</string>
     <string name="miui_terms_no_network">Du er ikke koblet til internett. Se vilkår for bruk på %s.</string>
@@ -100,5 +101,16 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="continue_to_enable_accessibility">Hold to fingre nede for å tillate tilgjengelighet.</string>
     <string name="voice_assist_title">Vekk med stemme</string>
     <string name="voice_assist_desp">Si \"Mi AI\" til telefonen. Mi AI vil gjenkjenne stemmen din og vil kunne styre enheten.</string>
-    <string name="voice_assist_desp_screen_light">Si «Mi AI» til telefonen etter skjermen lyser opp. Mi AI vil gjenkjenne stemmen din og kunne kontrollere enheten din.</string>
+    <string name="voice_assist_condition">"Du vil kunne bruke Mi AI i disse tilfellene: 
+1. Når skjermen er på. 
+2. Når du lytter til musikk med skjermen av."</string>
+    <string name="voice_assist_advice">Mi AI tillater deg å bruke talekontroller, men bruker mer strøm (+1 % hver time).</string>
+    <string name="ai_button_title">Om AI-knappen</string>
+    <string name="ai_button_desc">Bruk denne knappen til å utløse Mi AI og fullføre oppgaver på telefonen din ved å kun bruke stemmen din</string>
+    <string name="ai_button_long_press">Trykk og hold inne</string>
+    <string name="ai_button_long_press_desc">Gi kommandoen din og slipp knappen</string>
+    <string name="ai_button_single_press">Trykk</string>
+    <string name="ai_button_single_press_desc">Utløs Mi AI</string>
+    <string name="ai_button_double_press">Dobbelttrykk</string>
+    <string name="ai_button_double_press_desc">Sett opp Mi AI-funksjoner</string>
 </resources>

@@ -57,6 +57,7 @@
     <string name="save_pic_success">Lagret bilde til %s</string>
     <string name="save_pic_fail">Kunne ikke lagre bildet. Kontroller SD-kortet ditt</string>
     <string name="pic_not_exist">Dette bildet finnes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Velg et produkt</string>
     <string name="michat_skillset_business_type_title">Velg tjeneste</string>
     <string name="michat_close_text">Chatten er avsluttet</string>
@@ -161,13 +162,16 @@
     <string name="cta_cancel">Avbryt</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Send rapport</string>
-    <string name="submit_dialog_content">Tilbakemeldingen din, i tillegg til vedlegg og logger, vil bli sendt til MIUIs servere. De kan inneholde personlig informasjon og posisjonsdata.</string>
-    <string name="submit_dialog_content_global">Tilbakemeldingen din, sammen med eventuelle vedlegg og logger (du kan fravelge de tilhørende boksene for elementene som du ikke ønsker å laste opp), vil sendes til MIUIs servere og til et begrenset område av MIUI-forumet som er ment for utviklere. Informasjonen om forumaktiviten og innleggene dine vil også samles inn for analyse og videre kommunikasjon. Logger kan inneholde personlig informasjon og steddataene dine.</string>
+    <string name="submit_dialog_content"><Data>Tilbakemeldingen din, sammen med vedlegg og logger, vil bli sendt til MIUIs servere. Den kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Tilbakemeldingen din, sammen med vedlegg (dersom det er noen) og logger (du kan fjerne merking i de korresponderende boksene for elementene du ikke ønsker å laste opp) vil bli sendt til MIUIs servere og til en begrenset del av MIUI Forum for utviklere. Informasjon om trådene dine og forumaktivitet vil også bli samlet inn for analyse og ytterligere kommunikasjon. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.</Data></string>
     <string name="submit_dialog_cancel">Ikke enig</string>
     <string name="submit_dialog_confirm">Enig</string>
+    <string name="tab_title_preferences">Innstillinger</string>
+    <string name="privacy_policy_title">Personvernerklæring</string>
+    <string name="privacy_category_title">Personvern</string>
     <string name="mobile_data_note_dialog_title">Advarsel databruk</string>
-    <string name="mobile_data_note_dialog_content">Å bruke mobildata til å laste opp logger kan generere ytterligere kostnader.</string>
-    <string name="mobile_data_note_dialog_content_with_file_size">Opplasting av logger ved bruk av mobildata vil kreve %s MB med data.</string>
+    <string name="mobile_data_note_dialog_content">Det ser ut som du er koblet til et betalt nettverk. Opplasting av logger kan generere ytterligere kostnader.</string>
+    <string name="mobile_data_note_dialog_content_with_file_size">Det ser ut som du er koblet til et betalt nettverk. Opplasting av logger krever %sMB mobildata.</string>
     <string name="mobile_data_note_dialog_cancel">Vent på Wi-Fi</string>
     <string name="mobile_data_note_dialog_confirm">Last opp</string>
     <string name="modem_tool_log_dumping_title">Fanger modem-logger</string>
@@ -177,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Modem-logg er fanget</string>
     <string name="modem_tool_log_finish_desc">Loggen er lagret som %s</string>
     <string name="bugreport_dialog_not_show_again">Ikke vis igjen</string>
-    <string name="bugreport_dialog_submit_content">Du lagrer nå programvarelogger på denne enheten. Logger kan inneholde personlig informasjon og steddataene dine. Ikke del logger med noen andre hvis du ikke ønsker at disse blir utsatt.</string>
+    <string name="bugreport_dialog_submit_content"><Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.</Data></string>
     <string name="bugreport_dump_start_notification_title">Oppretter feilrapport…</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan ta flere minutter.</string>
     <string name="bugreport_dump_complete_notification_title">Feilrapport er opprettet</string>
@@ -242,6 +246,7 @@
     <string name="feedback_third_packagename_hint">Hvilken tredjeparts app skaper problemer?</string>
     <string name="toast_third_packagename_required">Fyll inn navn på appen</string>
     <string name="feedback_contact_info_hint">Telefonnummer/E-post</string>
+    <string name="toast_loading_app_id">Henter informasjon…</string>
     <string name="feedback_status_commit_succ_title">Sendt</string>
     <string name="feedback_status_commit_uploading_title">Sender…</string>
     <string name="feedback_status_commit_failed_title">Kunne ikke sende rapport</string>
@@ -255,10 +260,10 @@
     <string name="feedback_status_forum_reply">Svar</string>
     <string name="feedback_status_submit_attachment">Vellykket innsending av vedlegg</string>
     <string name="feedback_status_collect_log_failed">Kunne ikke hente logger</string>
-    <string name="feedback_status_submit_feedback_failed">Kunne ikke sende tilbakemelding</string>
-    <string name="feedback_status_save_log_info_failed">Kunne ikke endre vedlegg-URL</string>
-    <string name="feedback_status_submit_bbs_failed">Kunne ikke sende tilbakemeldingsinnhold</string>
-    <string name="feedback_status_get_and_save_bbs_info_failed">Kunne ikke hente vedlegg-URL</string>
+    <string name="feedback_status_submit_feedback_failed">Kunne ikke sende inn tilbakemelding</string>
+    <string name="feedback_status_save_log_info_failed">Kunne ikke endre URL for vedlagt fil</string>
+    <string name="feedback_status_submit_bbs_failed">Kunne ikke sende inn tilbakemeldingsinnhold</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Kunne hente URL for vedlagt fil</string>
     <string name="feedback_status_upload_log_failed">Kunne ikke laste opp vedlegg</string>
     <string name="feedback_status_change_notification_title">Progresjonen til rapporten din ble oppdatert</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
@@ -285,6 +290,8 @@
     <string name="warning_field_invalid">Velg en gyldig %1$s</string>
     <string name="min_error">Din %1$s bør være lenger.</string>
     <string name="max_error">Din %1$s bør være kortere.</string>
+    <string name="reply_option_log_hint">可选</string>
+    <string name="reply_select_log_hint">选择日志文件</string>
     <string name="title_mi_family">Mi Hjem i nærheten</string>
     <string name="hint_feedback_main">Forklar problemet</string>
     <string name="goon_feedback_main">Fortsett</string>
@@ -320,7 +327,6 @@
     <string name="toast_pic_not_exists">Hurtigbufferbildet ble slettet</string>
     <string name="toast_screenshot_too_large">Kan ikke laste opp filer på over 10 MB.</string>
     <string name="toast_log_too_large">Kan ikke laste opp. Filen er for stor.</string>
-    <string name="title_bbs_feedback_main">Lær mer om Mi phones</string>
     <string name="title_customer_service">Kundeservice</string>
     <string name="customer_service_apply">Be om kundeservice</string>
     <string name="customer_service_complain">Rapporter kundeservice</string>

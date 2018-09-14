@@ -62,7 +62,7 @@
     <string name="edit_alarm">Endre alarm</string>
     <string name="edit_systemtime">Rediger systemtid</string>
     <string name="every_day">Daglig</string>
-    <string name="expired_timers_dismissed">Tidtaker avvist</string>
+    <string name="expired_timers_dismissed">Timer fjernet</string>
     <string name="force_touch_add_alarm">Legg til alarm</string>
     <string name="force_touch_enter_stopwatch">Stoppeklokke</string>
     <string name="force_touch_enter_timer">Tidtaker</string>
@@ -73,7 +73,7 @@
     <string name="install_weather_app_error">Kunne ikke laste inn app</string>
     <string name="install_weather_app_loading">Et øyeblikk…</string>
     <string name="invalid_time">Ugyldig tid: %3$s %1$d: %2$d</string>
-    <string name="invalid_timer_length">Ugyldig tidslengde på tidtaker</string>
+    <string name="invalid_timer_length">Tidtakerens varighet er ugyldig</string>
     <string name="keep_screen_on">Hold skjermen på</string>
     <string name="label">Angi etikett</string>
     <string name="label_pref_summary">Etikett</string>
@@ -152,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Alarm vil gå av etter at enheten er skrudd av</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">%1$s°</string>
@@ -184,7 +186,7 @@
     <string name="timer_clock_alert_text">Still inn tidsuret</string>
     <string name="timer_continue">Fortsett</string>
     <string name="timer_continue_timer">Gjenoppta tidtaker</string>
-    <string name="timer_created">Tidtaker opprettet</string>
+    <string name="timer_created">Timer lagt til</string>
     <string name="timer_end_time">Timer vil stoppe på %s</string>
     <string name="timer_end_time_format">HH:mm dd. MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>

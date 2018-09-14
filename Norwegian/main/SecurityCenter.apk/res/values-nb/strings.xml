@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -463,6 +465,7 @@ svarer"</string>
     <string name="managed_user_title">Alle arbeidsapplikasjoner</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -472,7 +475,7 @@ svarer"</string>
     <string name="pref_title_declaration">Viktig ansvarsfraskrivelse</string>
     <string name="pref_new_installed_preconfig_title">Standardinnstillinger for nye apper</string>
     <string name="pref_bg_network_title">Bakgrunnstilkobling</string>
-    <string name="pref_mi_sim_settings">%spakkeinnstillinger</string>
+    <string name="pref_mi_sim_settings">%s pakkeinnstillinger</string>
     <string name="pref_title_upload_data_usage">Rapporter databruksinformasjon</string>
     <string name="pref_summary_upload_data_usage">Rapporter databruksinformasjonen din for å hjelpe oss med å forbedre MIUI-tjenestene. Rapporteringsprosessen utføres i samsvar med personvernerklæringen vår.</string>
     <string name="pref_manual_adjust">Still inn databrukstatistikk manuelt</string>
@@ -989,6 +992,7 @@ Dette reduserer batterilevetiden."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denne appen kan forsinke
 enheten din"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallere %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstaller denne appen for å fikse problemer med batteribruk.</string>
     <string name="om_ill_proc_type_wakelock_title">Appen blokkerer hvilemodus og tømmer batteri</string>
@@ -1047,6 +1051,7 @@ enheten din"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1125,6 +1130,7 @@ enheten din"</string>
     <string name="btn_text_goto_setup">Gå til innstillinger</string>
     <string name="power_save_title_text">Batterisparer</string>
     <string name="power_save_summary_text">Slå på batterispareren for å redusere appers bakgrunnsaktivitet, stanse synkronisering og minimere systemanimasjoner.</string>
+    <string name="power_save_started_summary_text">"Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
     <string name="hide_mode_summary_text">Administrer appers bakgrunnsaktivitet for å spare batteri</string>
     <string name="hide_mode_app_background_setting_text">App-batterisparer</string>
     <string name="battery_estimate_usage_time_title">Brukstid</string>
@@ -1241,7 +1247,7 @@ enheten din"</string>
     <string name="power_center_main_percent_formatted">%s%%</string>
     <string name="auto_task_manage_new_task">Ny automatisert oppgave</string>
     <string name="extreme_power_save_mode_title">Ekstrem batterisparer</string>
-    <string name="extreme_power_save_mode_summary">Extreme battery saver restricts background activity, and stops sync.</string>
+    <string name="extreme_power_save_mode_summary">Ekstrem batterisparer begrenser bakgrunnsaktivitet og stopper synkronisering.</string>
     <string name="extreme_power_save_description"><li>Ekstrem batterisparer stopper all bakgrunnsaktiviteten til en app etter at du lukker den og går tilbake til startskjermen. Denne appen vil ikke sende deg varsler eller motta oppdateringer.</li>"
 "<li>Hvis du ønsker at en app skal kjøre i bakgrunnen kan du låse den i Nylige, eller legge den til i bakgrunnsunntak nedenfor. Opptil 4 apper kan kjøre i bakgrunnen når Ekstrem batterisparer er på.</li>"
 "<li>Ekstrem batterisparer slår av NFC som standard. Du kan endre dette under Innstillinger.</li>"
@@ -1251,6 +1257,36 @@ enheten din"</string>
     <string name="notification_open_extreme_mode_text">Ekstrem batterisparer slått på</string>
     <string name="notification_exit_extreme_mode_title">Ekstrem batterisparer slått av</string>
     <string name="notification_exit_extreme_mode_text">Batteriet er mer enn %s oppladet</string>
+    <string name="handle_title_app">Apper</string>
+    <string name="handle_title_abnormal">Tapper batteri</string>
+    <string name="handle_title_system">Systembatteribruk</string>
+    <string name="handle_title_details">Detaljer om batteribruk</string>
+    <string name="power_center_scan_result_safe">Ingen batteriproblemer funnet</string>
+    <string name="power_center_scan_item_title_clean_memory">Tøm minne</string>
+    <string name="power_center_scan_item_title_brightness">Juster skjermens lysstyrke</string>
+    <string name="power_center_scan_item_title_hide">Administrer batteribruk</string>
+    <string name="power_center_scan_item_title_power_saver">Slå på batterisparer</string>
+    <string name="power_center_scan_item_title_GPS">Juster GPS-nøyaktighet</string>
+    <string name="power_center_scan_item_title_abnormal">Batteriproblemer</string>
+    <string name="power_center_scan_item_title_abnormal_apps">Apps that drain battery</string>
+    <string name="power_center_scan_item_title_auto_start">Autostart</string>
+    <string name="power_center_scan_item_title_auto_invoke">Kjedestart</string>
+    <string name="power_center_scan_item_title_battery_details">Detaljer om batteribruk</string>
+    <string name="power_center_hints_scan_danger_result">Du kan løse batteriproblemer nå</string>
+    <string name="power_center_scan_item_title_running_app">Apper som kjører i bakgrunnen</string>
+    <string name="power_center_list_item_close_bluetooth">Slå av Bluetooth</string>
+    <string name="power_center_list_item_set_lockscreen_time">Slå av skjerm etter 30 sekunder med inaktivitet</string>
+    <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
+    <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
+    <string name="power_center_list_item_battery_status_time">t</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_stop_scan_title">Stopp skanning</string>
+    <string name="hide_mode_result_summary_text">Tilpass batterisparerinnstillinger for individuelle apper</string>
+    <string name="auto_task_result_summary_text">Sett automatiserte oppgaver for batterisparer</string>
+    <string name="pc_settings_title">Detaljer om batteribruk</string>
+    <string name="pc_main_activity_back">Tilbake</string>
+    <string name="extreme_power_save_mode_card_summary">Slå på Ekstrem modus for å spare strøm når det er lite batteri igjen.</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Sjekk meldingsapp</string>
     <string name="apps_list_header_title_sms_access">Begrens tilgang til bekreftelseskoder</string>
@@ -1404,11 +1440,13 @@ enheten din"</string>
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_summary_networkassistants">Administrer dataplanen din</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Grensen er overskredet</string>
     <string name="menu_summary_networkassistants_3">Tilstrekkelig med data gjenstår</string>
     <string name="menu_summary_networkassistants_4">I ferd med å gå tom for data</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1421,12 +1459,14 @@ enheten din"</string>
     <string name="menu_summary_garbage_cleanup">Ingen papirkurv funnet</string>
     <string name="menu_summary_garbage_cleanup_2">Størrelse på papirkurven</string>
     <string name="menu_summary_garbage_cleanup_3">Fjern søppel</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteribruk</string>
     <string name="menu_summary_power_manager">Batterispareren gir deg mer tid mellom oppladingene</string>
     <string name="menu_summary_power_manager_1">Batteriet er fulladet</string>
     <string name="menu_summary_power_manager_2">%s gjenstår</string>
     <string name="menu_summary_power_manager_3">Koble til lader</string>
     <string name="menu_summary_power_manager_4">%s til fulladet</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="examination_score_100">Alt ser bra ut!</string>
     <string name="examination_score_80_100">Et par enheter kan optimaliseres</string>
@@ -1800,6 +1840,7 @@ enheten din"</string>
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1969,7 +2010,7 @@ enheten din"</string>
     <string name="set_numeric_password_name">Velg PIN-kode</string>
     <string name="set_mixed_password_name">Skriv inn passord</string>
     <string name="reset_data_title">Kan ikke gjenopprette passord</string>
-    <string name="reset_data_dialog_message">Denne enheten er ikke tilknyttet Mi-kontoen din. Kan ikke gjenopprette eller tilbakestille passordet. Sikkerhetskopier alle viktige elementer og utfør en tilbakestilling til fabrikkinnstillinger. Alle data vil bli permanent slettet og SD-kortet vil bli formatert under tilbakestillingen til fabrikkinnstillinger.</string>
+    <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a factory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
     <string name="reset_data_dialog_ok">Tilbakestill til fabrikkinstillinger</string>
     <string name="wakepath_confirm_start_activity">Tillate %1$s å åpne %2$s?</string>
     <string name="unlike">Nei takk</string>
@@ -2348,11 +2389,12 @@ enheten din"</string>
     <string name="gb_create_icon_summary">Lag snarvei til Hjem-skjerm</string>
     <string name="title_reply">Kommenter</string>
     <string name="title_like">Lik</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort pause.</string>
     <string name="video_repeat">Spill igjen</string>
     <string name="game_video_network_eror">Kunne ikke koble til nettverket. Sjekk nettverksinnstillingene og prøv igjen.</string>
-    <string name="see_more_content">Update game center to see more highlights</string>
+    <string name="see_more_content">Oppdater Games for å se flere høydepunkter</string>
     <string name="notify_channel_name_security">Systemsikkerhet</string>
     <string name="privacy_apps_category_title">Skjulte apper</string>
     <string name="privacy_apps">Skjulte apper</string>
@@ -2364,7 +2406,7 @@ Denne funksjonen er ikke støttet for systemapper."</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Spre to fingre på skjermen. Du vil se en melding som ber deg om å skrive inn applåspassordet.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Etter at du har skrevet inn passordet, vil mappen med de skjulte appene vise seg.</string>
     <string name="privacy_apps_manage_dialog_title">Om skjulte apper</string>
-    <string name="privacy_apps_manager_dialog_message">Skjuling av apper krever at du setter en appskjermlås. Varsler fra skjulte apper vil slås av. Skjul denne appen?</string>
+    <string name="privacy_apps_manager_dialog_message">Denne appens ikon vil ikke vises på startskjermen etter at du har skjult den. Skjul appen nå?</string>
     <string name="privacy_apps_checkbox_remind_choice">Ikke vis igjen</string>
     <string name="privacy_apps_go_to_use">Start</string>
     <string name="privacy_apps_close">Lukk</string>
@@ -2385,15 +2427,10 @@ Denne funksjonen er ikke støttet for systemapper."</string>
     <string name="first_aid_card_consume_power_button1">Begrens</string>
     <string name="first_aid_card_consume_power_summary2">Slå av portabel sone for å spare batteri</string>
     <string name="first_aid_card_consume_power_button2">Slå av</string>
-    <string name="first_aid_card_consume_power_summary3">Slå av Bluetooth for å spare batteri</string>
-    <string name="first_aid_card_consume_power_button3">Slå av</string>
-    <string name="first_aid_card_consume_power_summary4">Slå av GPS for å spare batteri</string>
-    <string name="first_aid_card_consume_power_button4">Slå av</string>
     <string name="first_aid_card_system_root_title">Du tillot rottilgang</string>
     <string name="first_aid_card_system_root_summary">Begrens rottilgang for å forhindre sikkerhetsrisikoer</string>
     <string name="first_aid_card_system_root_button">Begrens</string>
     <string name="first_aid_card_float_window_title">Du tillot flytende varsler</string>
-    <string name="first_aid_card_float_window_summary">%s kan vises feil. Begrens flytende varsler.</string>
     <string name="first_aid_card_float_window_button">Begrens</string>
     <string name="first_aid_card_wifi_or_flow_title">Kan ikke koble til internett</string>
     <string name="first_aid_card_wifi_or_flow_summary">Slå på Wi-Fi eller mobildata for å koble til</string>
@@ -2420,4 +2457,13 @@ Denne funksjonen er ikke støttet for systemapper."</string>
     <string name="first_aid_card_kadun_button3">Slå av</string>
     <string name="first_aid_dialog_title_stop_scan">Stopp skanning</string>
     <string name="first_aid_dialog_msg_stop_scan">Stoppe skanning nå?</string>
+    <string name="device_manager_apply_step_1">Activate device administrator for this app?</string>
+    <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
+All data on your device might be erased and your Lock screen password might be reset."</string>
+    <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
+    <string name="first_aid_card_consume_power_summary3">Slå av Bluetooth for å spare batteri</string>
+    <string name="first_aid_card_consume_power_button3">Slå av</string>
+    <string name="first_aid_card_consume_power_summary4">Slå av GPS for å spare batteri</string>
+    <string name="first_aid_card_consume_power_button4">Slå av</string>
+    <string name="first_aid_card_float_window_summary">%s kan vises feil. Begrens flytende varsler.</string>
 </resources>

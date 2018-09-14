@@ -120,6 +120,14 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">Funnet %d batteriproblem, fiks dem</item>
         <item quantity="one">Funnet %d batteriproblem, fiks dem</item>
     </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">elementer</item>
+        <item quantity="one">element</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">Legg til %d minutter</item>
+        <item quantity="one">Legg til %d minutt</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">Lastet ned av %1$d personer</item>
         <item quantity="one">Lastet ned av %1$d personer</item>
@@ -281,8 +289,8 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">%d app funnet</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
-        <item quantity="other">Tilbakestill til fabrikkinnstillinger(%ds)</item>
-        <item quantity="one">Tilbakestill til fabrikkinnstillinger(%ds)</item>
+        <item quantity="other">Factory reset (%ds)</item>
+        <item quantity="one">Factory reset (%ds)</item>
     </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d låste apper venter på å bli tømt</item>

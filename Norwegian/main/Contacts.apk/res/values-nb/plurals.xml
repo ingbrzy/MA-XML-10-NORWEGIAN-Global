@@ -52,6 +52,10 @@
         <item quantity="other">SIM-kortet kan lagre %1$d kontakter.</item>
         <item quantity="one">SIM-kortet kan lagre %1$d kontakt.</item>
     </plurals>
+    <plurals name="foundTooManyContacts_plurals">
+        <item quantity="other">Fant mer enn %d kontakter.</item>
+        <item quantity="one">Fant mer enn %d kontakt.</item>
+    </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">%1$d kontakter er lagt til</item>
         <item quantity="one">%1$d kontakt er lagt til</item>
@@ -80,6 +84,10 @@
         <item quantity="other">%1$d numre</item>
         <item quantity="one">%1$d nummer</item>
     </plurals>
+    <plurals name="label_duplicate_count_plurals">
+        <item quantity="other">(%1$d)</item>
+        <item quantity="one">(%1$d)</item>
+    </plurals>
     <plurals name="listFoundAllContacts">
         <item quantity="other">%d funnet</item>
         <item quantity="one">1 funnet</item>
@@ -91,6 +99,10 @@
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">%d kontakter med telefonnumre</item>
         <item quantity="one">1 kontakt med telefonnumre</item>
+    </plurals>
+    <plurals name="merge_contact_message_plurals">
+        <item quantity="other">%1$d kontakter med delvis identisk informasjon</item>
+        <item quantity="one">%1$d kontakter med delvis identisk informasjon</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">slått sammen fra %0$d kilder</item>
@@ -139,6 +151,14 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d funnet</item>
         <item quantity="one">1 funnet</item>
+    </plurals>
+    <plurals name="select_all_exceed_plurals">
+        <item quantity="other">Ikke velg mer enn %1$d. Alle kan ikke velges</item>
+        <item quantity="one">Ikke velg mer enn %1$d. Alle kan ikke velges</item>
+    </plurals>
+    <plurals name="select_exceed_plurals">
+        <item quantity="other">Ikke velg mer enn %1$d</item>
+        <item quantity="one">Ikke velg mer enn %1$d</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d personer</item>

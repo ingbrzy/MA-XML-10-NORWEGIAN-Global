@@ -28,7 +28,7 @@
     </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Alltid</item>
-        <item>Kun når stille</item>
+        <item>Bare i stillemodus</item>
         <item>Aldri</item>
     </string-array>
     <string-array name="resent_via_entries_mms">

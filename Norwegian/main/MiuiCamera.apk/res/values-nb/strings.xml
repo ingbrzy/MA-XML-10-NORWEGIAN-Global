@@ -38,6 +38,9 @@
     <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
     <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
     <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
+    <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
+    <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
     <string name="pref_video_encoder_title">Video-omkoder</string>
     <string name="pref_video_encoder_entry_h264">H.264 High kompatibilitet</string>
     <string name="pref_video_encoder_entry_h265">H.265 Høy ytelse</string>
@@ -414,7 +417,7 @@
     <string name="dual_camera_lens_covered_toast">Linsen er dekket.</string>
     <string name="dual_camera_use_hint">Pass på at objektet er mindre enn 2 meter fra deg.</string>
     <string name="bokeh_use_hint">Dybdeeffekt</string>
-    <string name="back_bokeh_use_hint">Pass på at objektet er mindre enn 1,5 meter fra deg.</string>
+    <string name="back_bokeh_use_hint">Hold motivet innen 1,5 meter for best effekt</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">LINSE</string>
@@ -432,6 +435,9 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
+    <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrettmodus.
+Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Skru av kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -446,6 +452,7 @@ og bringer frem mennesker som er foran."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
@@ -470,6 +477,7 @@ og så opprette et bilde som har minimalt med støy."</string>
     <string name="hint_ae_af_lock">Autofokus / automatisk eksponering er låst</string>
     <string name="hint_device_water_mark">Vannmerket vil automatisk legges til bildet.</string>
     <string name="module_name_fun">Kort video</string>
+    <string name="module_name_new_slow_motion">Slow motion</string>
     <string name="module_name_video">Video</string>
     <string name="module_name_capture">Bilde</string>
     <string name="module_name_beauty">Skjønnhet</string>
@@ -559,4 +567,5 @@ i portrettmodus"</string>
     <string name="lighting_pattern_dot">Prikker</string>
     <string name="lighting_pattern_shutter">Persienner</string>
     <string name="view_privacy_policy">Se personvernerklæring</string>
+    <string name="fps960_toast">Slow-motion capture will start when the timer reaches the white dot</string>
 </resources>

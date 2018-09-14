@@ -52,6 +52,18 @@
         <item quantity="other">%1$d t %2$d m</item>
         <item quantity="one">%1$d t %2$d m</item>
     </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="other">Gjenstår %d timer</item>
+        <item quantity="one">Gjenstår %d time</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="other">Gjenstår %d minutter</item>
+        <item quantity="one">Gjenstår %d minutt</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="other">Gjenstår %1$d h %2$d m</item>
+        <item quantity="one">Gjenstår %1$d t %2$d m</item>
+    </plurals>
     <plurals name="kg_password_default_pin_message">
         <item quantity="other">Tast inn SIM-PIN-koden. Du har %d gjenstående forsøk før du må kontakte operatøren din for å låse opp enheten.</item>
         <item quantity="one">Tast inn SIM-PIN-koden. Du har %d gjenstående forsøk før du må kontakte operatøren din for å låse opp enheten.</item>
