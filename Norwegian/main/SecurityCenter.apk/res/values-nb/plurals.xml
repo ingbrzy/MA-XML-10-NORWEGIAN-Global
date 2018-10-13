@@ -241,12 +241,12 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">%d dag siden siste sjekk</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d farer,</item>
-        <item quantity="one">%d fare,</item>
+        <item quantity="other">%d risks,</item>
+        <item quantity="one">%d risk,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojanere,</item>
-        <item quantity="one">%d trojan,</item>
+        <item quantity="other">%d trojans</item>
+        <item quantity="one">%d trojan</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Farlige apper: %d</item>
@@ -289,8 +289,8 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">%d app funnet</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
-        <item quantity="other">Factory reset (%ds)</item>
-        <item quantity="one">Factory reset (%ds)</item>
+        <item quantity="other">Tilbakestill til fabrikkinnstillinger (%ds)</item>
+        <item quantity="one">Tilbakestill til fabrikkinnstillinger (%ds)</item>
     </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d låste apper venter på å bli tømt</item>
@@ -359,6 +359,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d apper er skjulte</item>
         <item quantity="one">%d app er skjult</item>
+    </plurals>
+    <plurals name="first_aid_card_float_window_summary">
+        <item quantity="other">%d apper kan vises feil. Begrens flytende varsler.</item>
+        <item quantity="one">%d app kan vises feil. Begrens flytende varsler.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer krever optimalisering</item>

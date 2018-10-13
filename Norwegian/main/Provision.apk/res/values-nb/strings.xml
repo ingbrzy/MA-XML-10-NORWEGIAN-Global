@@ -67,7 +67,7 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="disagree">Avbryt</string>
     <string name="setting_locale">Innstilling av region…</string>
     <string name="agree_terms">Jeg har lest og akseptert vilkår for bruk og personvernerklæring.</string>
-    <string name="poco_agree_terms_other">(Including POCO Launcher Privacy Policy and User Agreement)</string>
+    <string name="poco_agree_terms_other">(Inkludert POCO Launchers personvernerklæring og brukeravtale)</string>
     <string name="agree_terms_input_method_facemoji">Jeg har lest og samtykket i Facemoji-personvernpolicyen.</string>
     <string name="agree_terms_input_method_kika">Jeg har lest og samtykket i Kika-personvernpolicyen.</string>
     <string name="miui_terms_no_network">Du er ikke koblet til internett. Se vilkår for bruk på %s.</string>

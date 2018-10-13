@@ -34,13 +34,13 @@
     <string name="pref_video_hfr_title">Video HFR</string>
     <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
     <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
-    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
-    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
-    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
-    <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, 60fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720p, 30fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480p, 30fps</string>
+    <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
+    <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
+    <string name="pref_new_slow_motion_video_quality_240_720only">Du kan bare ta opp 720p-videoer med 240fps</string>
     <string name="pref_video_encoder_title">Video-omkoder</string>
     <string name="pref_video_encoder_entry_h264">H.264 High kompatibilitet</string>
     <string name="pref_video_encoder_entry_h265">H.265 Høy ytelse</string>
@@ -435,6 +435,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrettmodus.
 Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
@@ -451,6 +452,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
@@ -475,7 +477,7 @@ og så opprette et bilde som har minimalt med støy."</string>
     <string name="hint_ae_af_lock">Autofokus / automatisk eksponering er låst</string>
     <string name="hint_device_water_mark">Vannmerket vil automatisk legges til bildet.</string>
     <string name="module_name_fun">Kort video</string>
-    <string name="module_name_new_slow_motion">Slow motion</string>
+    <string name="module_name_new_slow_motion">Saktegående</string>
     <string name="module_name_video">Video</string>
     <string name="module_name_capture">Bilde</string>
     <string name="module_name_beauty">Skjønnhet</string>
@@ -565,5 +567,5 @@ i portrettmodus"</string>
     <string name="lighting_pattern_dot">Prikker</string>
     <string name="lighting_pattern_shutter">Persienner</string>
     <string name="view_privacy_policy">Se personvernerklæring</string>
-    <string name="fps960_toast">Slow-motion capture will start when the timer reaches the white dot</string>
+    <string name="fps960_toast">Opptak i sakte tempo vi begynne når nedtelleren når den hvite prikken</string>
 </resources>

@@ -5,7 +5,7 @@
     <string name="power_config_select_apps_title">Apper</string>
     <string name="power_config_event_delete">Slett</string>
     <string name="hide_mode_desc"><font color="#000000">Når en app kjører i bakgrunnen vil dens aktiviteter bli overvåket for å redusere batteribruk. Denne funksjonen vil motta og bruke brukerdata i henhold til %s</font></string>
-    <string name="privacy">Privacy Policy</string>
+    <string name="privacy">Personvernerklæring</string>
     <string name="power_hide_mode_title">Batteri &amp; ytelse</string>
     <string name="power_config_apps">Batterisparer</string>
     <string name="app_list_title">Velg apper</string>
@@ -13,7 +13,7 @@
     <string name="about_hide_mode">Om Batterisparer</string>
     <string name="show_system_app">Vis systemapper</string>
     <string name="hide_system_app">Skjul systemapper</string>
-    <string name="about_extreme_mode">Extreme mode</string>
+    <string name="about_extreme_mode">Ekstrem-modus</string>
     <string name="scenario_policies_title">Smarte scener</string>
     <string name="config_scenario_policies_title">Scener</string>
     <string name="scenario_policies_summary">Legg til annen batterisparingstrategier for forskjellige scener.</string>
@@ -38,7 +38,7 @@
     <string name="vip_feedback_enable">Skru på VIP-tilbakemelding</string>
     <string name="extreme_power_config_mode_category">Ekstrem-modus</string>
     <string name="extreme_power_config_mode_title">Ekstrem-modus</string>
-    <string name="extreme_power_config_mode_desc">Switch to Extreme mode to turn off sync, Bluetooth, GPS, NFC, double tapping, button lights, waking Lock screen for notifications, as well as notification lights. MIUI will focus on saving battery.</string>
+    <string name="extreme_power_config_mode_desc">Bytt til Ekstrem-modus for å skru av synkronisering, Bluetooth, GPS, NFC, dobbelttrykk, knappelys, vekk skjermlås for varsler, i tillegg til som varsellys. MIUI vil fokusere på batterisparing.</string>
     <string name="empty_title_apps_container_list">Ingen apper</string>
     <string name="hints_loading_text">Et øyeblikk…</string>
     <string name="config_mode_title">Bakgrunnsinnstillinger</string>
@@ -91,6 +91,8 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="appconfig_active_app_dialog_title">Administrer aktive apper</string>
     <string name="config_classify">Sorter etter appinnstillinger</string>
     <string name="active_classify">Sorter etter aktivitetsstatus</string>
-    <string name="extreme_mode_max_item_alert">You can select up to 4 apps to run in the background in Extreme mode</string>
-    <string name="message_i_know">Got it</string>
+    <string name="extreme_mode_max_item_alert">Du kan velge å kjøre opptil 4 apper i bakgrunnen i Ekstrem-modus</string>
+    <string name="message_i_know">Skjønner</string>
+    <string name="high_temp_state">Høy temperatur</string>
+    <string name="high_temp_state_message">Beskyttelse mot høy temperatur, data, wifiap, gps, kamera osv. vil være begrenset</string>
 </resources>

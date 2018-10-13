@@ -9,7 +9,7 @@
     <string name="passport_login">Logg inn</string>
     <string name="passport_relogin">Logg inn igjen</string>
     <string name="passport_skip_login">Hopp over</string>
-    <string name="passport_skip_setup_account_title">Hopp over konfigurering</string>
+    <string name="passport_skip_setup_account_title">Ikke bruke Mi Cloud?</string>
     <string name="passport_skip_setup_account_msg">Du kan konfigurere en Mi-konto senere i Innstillinger</string>
     <string name="passport_confirm_login">Fortsett</string>
     <string name="passport_find_password_on_web_msg">Gå til account.mi.com for å tilbakestille passordet.</string>
@@ -300,7 +300,7 @@ For å aktivere kontoen må du følge
     <string name="user_avatar_uploading">Et øyeblikk…</string>
     <string name="user_avatar_update_title">Endre profilbilde</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
-    <string name="account_invalid_user_avatar">This photo is invalid. Try a different one.</string>
+    <string name="account_invalid_user_avatar">Dette bildet er ugyldig. Prøv med et annet.</string>
     <string name="account_none_binded_info">Ingen</string>
     <string name="account_bind_secure_phone_title">Legg til telefonnummer</string>
     <string name="account_bind_secure_email_title">Legg til e-post</string>

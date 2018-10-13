@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="resource_comment_score_count">
+        <item quantity="other">%d kommentarer</item>
+        <item quantity="one">%d kommentar</item>
+    </plurals>
     <plurals name="theme_batch_has_update_text">
         <item quantity="other">Updates available for %1$d themes.</item>
         <item quantity="one">Oppdateringer tilgjengelig for %1$d tema.</item>

@@ -8,7 +8,6 @@
     <string name="close_panel">Skru av Quick ball</string>
     <string name="customize_entries">Velg snarveier</string>
     <string name="enable_touch_assistant">Skru på Quick ball</string>
-    <string name="enabled_for_pad_hint">Jobb når \"Blokker navigeringsknapper i landskap\" er slått på</string>
     <string name="function_settings">Snarveisinnstillinger</string>
     <string name="handy_mode_default_to_close_whether_open">Énhåndsmodus er slått av som standard. Skru énhåndsmodus på?</string>
     <string name="hide_touch_assistant">Skjul automatisk</string>

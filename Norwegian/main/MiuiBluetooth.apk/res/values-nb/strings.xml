@@ -43,6 +43,20 @@
     <string name="unbind_device_alert_content">Mistet forbindelsen til %1$s. Du kan spare batteri ved å avslutte paring med denne enheten nå.</string>
     <string name="unbind_device_alert_ok">Avslutt kobling</string>
     <string name="unbind_device_alert_cancel">Avbryt</string>
+    <string name="fast_connect_device_title_find_headset">Finn hodetelefon %1$s</string>
+    <string name="fast_connect_device_title_find_headset_others">Finn hodetelefon %1$s andre</string>
+    <string name="fast_connect_device_title_connecting">Kobler til…</string>
+    <string name="fast_connect_device_title_connect_fail">Kunne ikke koble til %1$s</string>
+    <string name="fast_connect_device_connect_setup">Innstillinger</string>
+    <string name="fast_connect_device_connect_success">Ferdig</string>
+    <string name="fast_connect_device_connect_retry">Prøv igjen</string>
+    <string name="fast_connect_device_connect_ok">Koble til</string>
+    <string name="fast_connect_device_connect_cancel">Avbryt</string>
+    <string name="fast_connect_device_headset_l">Venstre</string>
+    <string name="fast_connect_device_headset_r">Høyre</string>
+    <string name="fast_connect_device_headset_reset">Hold knappen på boksen nede</string>
+    <string name="fast_connect_device_box_name">%1$s Boks</string>
+    <string name="fast_connect_device_box">Boks</string>
     <string name="ok_button">OK</string>
     <string name="bluetooth_device_context_unpair">Avslutt kobling</string>
 </resources>

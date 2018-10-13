@@ -31,11 +31,11 @@
     <string name="cloud_back_up_share_activity_discription">Få mer lagringsplass, daglige sikkerhetskopier m.m.</string>
     <string name="cloud_back_up_share_activity_confirm">Oppgrader</string>
     <string name="cloud_back_up_detail_discription">"Disse elementene sikkerhetskopieres i Mi-skyen når enheten er koblet til Wi-Fi: 
-*\u0009\u0009\u0009\u0009Apper, startskjermens layout og skrivebordsbakgrunner 
-*\u0009\u0009\u0009\u0009Alarmer, klokke og tidsinnstillinger 
-*\u0009\u0009\u0009\u0009Meldingsinnstillinger 
-*\u0009\u0009\u0009\u0009MIUI og systeminnstillinger 
-\"Merk: Data for apper som du har installert blir ikke sikkerhetskopiert i Mi-skyen."</string>
+*  Apper, startskjermens oppsett og bakgrunner 
+*  Alarm, klokke og tidsinnstillinger 
+*  Varslingsinnstillinger 
+*  MIUI og systeminnstillinger 
+\"Merk: Data for apper som du har installert blir ikke sikkerhetskopiert i Mi-skyen.\""</string>
     <string name="cloud_app_no_data">Ingen sikkerhetskopier</string>
     <string name="cloud_app_restore_error">Kunne ikke gjenopprette</string>
     <string name="cloud_app_restore_success">Apper gjenopprettet</string>
@@ -45,10 +45,13 @@
     <string name="button_delete">Slett</string>
     <string name="customization"><u>Tilpass</u></string>
     <string name="home_hint_global_launcher">Poco Startskjerm</string>
-    <string name="self_phone">Denne telefonen</string>
-    <string name="self_phone_home">Denne telefonen: %s</string>
+    <string name="home_hint_other_launcher">Annen startskjerm</string>
+    <string name="self_device">"Denne telefonens "</string>
+    <string name="main_space">Hovedområde</string>
+    <string name="second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s%3$s: %4$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s%3$s)</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
-    <string name="device_xiaomi">Mi Phone</string>
     <string name="size_unknown">Ukjent størrelse</string>
     <string name="recovering">Gjenoppretter %s</string>
     <string name="start_recover">Gjenopprett %s</string>
@@ -76,7 +79,6 @@
     <string name="open_wifi">Slå på Wi-Fi nå</string>
     <string name="open_wifi_description">Koble til et Wi-Fi-nettverk for å gjenopprette appen</string>
     <string name="open_wifi_setting">Wi-Fi-innstillinger</string>
-    <string name="name_model">%1$ss %2$s</string>
     <string name="download_settings">Laster ned innstillinger for startskjerm %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd/MM/yyyy</string>
     <string name="recover_home_settings">Gjenopprett innstillinger for startskjerm</string>
@@ -129,12 +131,18 @@
     <string name="restore_data_title">Gjenopprett data</string>
     <string name="provision_error_connect_msg">Test nettverket og prøv igjen. Sikkerhetskopier er ikke tilgjengelige når enheten er offline.</string>
     <string name="provision_error_connect_title">Kan ikke koble til</string>
+    <string name="loading_user_backup">Laster brukersikkerhetskopier…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunne ikke verifisere konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhetskopier i Mi-skyen.</string>
     <string name="download_meta_failed">Kunne ikke laste inn data.</string>
     <string name="home_restore_error">Kunne ikke gjenopprette startskjermen</string>
     <string name="get_device_id_error">Kunne ikke hente enhetens ID</string>
+    <string name="unsupported_home">Oppdater til nyeste OS.</string>
+    <string name="error_retry_later">Mislyktes, prøv på nytt senere.</string>
+    <string name="try_continue">Trykk for å fortsette</string>
     <string name="download_home_data">Laster ned layout for startskjerm…</string>
     <string name="restore_home_failed">Kunne ikke gjenopprette startskjermen.</string>
     <string name="arrange_restore_order">Omorganiserer apper…</string>
@@ -145,6 +153,7 @@
     <string name="download_meta_again">Kunne ikke laste inn sikkerhetskopi, prøv igjen.</string>
     <string name="cancel_restore_home">Kansellerer…</string>
     <string name="cancel_backup">Avbryter sikkerhetskopiering…</string>
+    <string name="load_backup_failed">Innlasting av sikkerhetskopier mislyktes</string>
     <string name="dialog_title_require_wlan">Koble til Wi-Fi</string>
     <string name="dialog_msg_restore_require_wlan">Gjenoppretting av sikkerhetskopier krever en Wi-Fi-forbindelse.</string>
     <string name="dialog_btn_next">Neste</string>

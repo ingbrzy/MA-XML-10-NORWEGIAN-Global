@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
 Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet ditt.</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke starte nedlastingen. Sørg for at Nedlastingsadministratoren fungerer som normalt.</string>
     <string name="app_name">Sikkerhetskopi</string>
     <string name="local_app_name">Sikkerhetskopi</string>
@@ -225,6 +228,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="restore_backup">Gjenopprett</string>
     <string name="enable_encrypt_description">Krypter</string>
     <string name="disable_encrypt_description">Ikke krypter</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Et øyeblikk…</string>
     <string name="state_mounting">Får tilgang til ruterlagring…</string>
     <string name="abort_backup_confirm">Sikkerhetskopieringen er ikke ferdig. Stoppe allikevel?</string>
@@ -465,6 +469,13 @@ for å laste ned og installere Mi Mover."</string>
     <string name="trans_success_dialog_market_comment_title">"Din nye enhet føles som hjemme nå.
 Likte du Mi Mover?"</string>
     <string name="trans_success_dialog_button_market_favourable_comment">Ranger Mi Mover</string>
+    <string name="trans_success_dialog_market_comment_and_survey_title">Du er klar til å rocke! Fortell oss hva du synes om Mi Mover.</string>
+    <string name="trans_success_dialog_button_market_comment">Kommentar</string>
+    <string name="trans_success_dialog_button_survey">Spørreundersøkelse</string>
+    <string name="trans_success_dialog_survey_title">Vi setter pris på tilbakemeldingen din</string>
+    <string name="trans_success_survey_hint">Fyll inn alle feltene først.</string>
+    <string name="trans_cancel_dialog_survey_title">Hvorfor avbrøt du overføringen?</string>
+    <string name="trans_dialog_survey_finish">Send</string>
     <string name="trans_failed_details_page_title">Mislykkede overføringer</string>
     <string name="close_twice_auth_tutor">Skru av Apple ID to-faktor-autentisering</string>
     <string name="close_twice_auth_steps">Følg disse trinnene for å skru av to-faktor-autentiseringen til Apple ID:</string>
@@ -533,6 +544,7 @@ https://appleid.apple.com/#!&amp;page=signin å lukke"</string>
 bør du først opprette en sikkerhetskopi av iCloud."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">Grunnet kompatibilitetsproblemer, kan du kun overføre delvise data fra iOS-enheter. Sørg for at du lager en sikkerhetskopiering av iCloud før du overfører.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Velg elementer å importere</string>
     <string name="select_item_summary_wait">Venter…</string>

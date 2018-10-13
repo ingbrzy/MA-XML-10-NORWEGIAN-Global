@@ -197,7 +197,11 @@
     <string name="toast_only_wifi_download">Koble til Wi-Fi for å laste ned dette elementet</string>
     <string name="total_speedup">Hastighetsøkning (total)</string>
     <string name="version">Versjon %s</string>
+    <string name="check_new_downloaded_action">Vis</string>
+    <string name="check_new_downloaded_file">En ny fil er funnet</string>
     <string name="get_data_failed">Kunne ikke hente informasjon. Vent et minutt eller to og prøv igjen.</string>
+    <string name="info_download_details">Detaljer</string>
+    <string name="info_download_progress">Vis nedlastingsfremdrift</string>
     <string name="load_finish_hint">Det var alt for nå.</string>
     <string name="loading">Et øyeblikk…</string>
     <string name="net_error">Koble til nettverket og prøv igjen</string>

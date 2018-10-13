@@ -11,7 +11,7 @@
 gå til %s på en annen tilkoblet enhet."</string>
     <string name="permdesc_accessDrm">Tillat appen å få tilgang til DRM-beskyttet innhold.</string>
     <string name="open_wifi_connect_title">Koblet til %1$s</string>
-    <string name="open_wifi_connect_and_use_data_summary">Using mobile data. Tap to switch to Wi-Fi.</string>
+    <string name="open_wifi_connect_and_use_data_summary">Bruker mobildata. Trykk for å bytte til Wi-Fi.</string>
     <string name="open_wifi_connect_summary">Trykk for å se detaljer.</string>
     <string name="settings_license_activity_title">Open source-lisenser</string>
     <string name="settings_license_activity_loading">Et øyeblikk…</string>
@@ -25,4 +25,5 @@ gå til %s på en annen tilkoblet enhet."</string>
     <string name="settings_ad_loading">Et øyeblikk…</string>
     <string name="settings_ad_loading_unavailable">Kunne ikke laste inn informasjon.</string>
     <string name="autoconnect">Automatisk tilkobling</string>
+    <string name="poco_privacy_policy">Personvernpolicyen og brukeravtalen til POCO-oppstarteren</string>
 </resources>

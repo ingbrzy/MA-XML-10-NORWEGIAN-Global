@@ -287,6 +287,8 @@ for å gå inn i Andre område fra Låseskjermen"</string>
     <string name="xpsace_guide_button">Opprett</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Kunne ikke finne noen apper</string>
+    <string name="confirm_close_password_title">Skrur av passordet</string>
+    <string name="confirm_close_password_desc">Du vil ikke kunne gå inn i det andre område fra den låste skjermen etter at du slår av passordet. Skru av allikevel?</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Logg inn og del</string>
@@ -419,11 +421,11 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="ent_activation">Aktiver</string>
     <string name="ent_activating">Aktiverer…</string>
     <string name="ent_installing">Installerer…</string>
-    <string name="ent_network_error">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="ent_network_error">Kunne ikke koble til nettverket. Sjekk nettverksinnstillingene og prøv igjen.</string>
     <string name="ent_invalid_qr">Ugyldig QR-kode.</string>
     <string name="ent_invalid_agency">Bedriftskoden er ugyldig.</string>
     <string name="ent_privacy_policy_notice">* Personlige data i denne modusen blir samlet inn i henhold til policyene som er etablert av selskapet ditt. Xiaomi samler ikke inn personlige data i denne modusen.</string>
-    <string name="ent_confirm_dialog_content">"You won't be able to go back to the present state of your system after you activate Enterprise mode. However, all your data will still be stored on this device. You'll have to reboot your device to activate Enterprise mode. Activate now?"</string>
+    <string name="ent_confirm_dialog_content">Du vil ikke kunne gå tilbake til nåværende systemtilstand etter at du har aktivert Organisasjonsmodus. Alle dataene dine vil imidlertid fortsatt være lagret på enheten. Du må starte enheten på nytt for å aktivere Organisasjonsmodus. Aktivere nå?</string>
     <string name="ent_error_dialog_content">Minst én av kodene du skrev inn var feil. Sjekk bedrifts- og lisenskoden, og skriv dem inn på ny.</string>
     <string name="ent_download_install_dialog_content">Du må installere firmaapper for å aktivere Organisasjonsmodus. Installer nå?</string>
     <string name="ent_download_install_dialog_title">Last ned firmaapper</string>

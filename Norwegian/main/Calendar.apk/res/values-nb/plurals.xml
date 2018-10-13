@@ -76,6 +76,10 @@
         <item quantity="other">Du kan fylle inn opptil %1$d dager</item>
         <item quantity="one">Du kan fylle inn opptil %1$d dag</item>
     </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">Kan sette opp opptil %d påminnelser</item>
+        <item quantity="one">Kan sette opp opptil %d påminnelse</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>
