@@ -120,6 +120,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">Funnet %d batteriproblem, fiks dem</item>
         <item quantity="one">Funnet %d batteriproblem, fiks dem</item>
     </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">Tappet %2$d%% av batteriet i løpet av de siste %1$d minuttene</item>
+        <item quantity="one">Tappet %2$d%% av batteriet i løpet av det siste %1$d minuttet</item>
+    </plurals>
     <plurals name="power_center_menu_text">
         <item quantity="other">elementer</item>
         <item quantity="one">element</item>
@@ -241,11 +245,11 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">%d dag siden siste sjekk</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d risks,</item>
-        <item quantity="one">%d risk,</item>
+        <item quantity="other">%d farer,</item>
+        <item quantity="one">%d fare,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojans</item>
+        <item quantity="other">%d trojanere</item>
         <item quantity="one">%d trojan</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
@@ -367,5 +371,13 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer krever optimalisering</item>
         <item quantity="one">%1$d problem krever optimalisering</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
     </plurals>
 </resources>

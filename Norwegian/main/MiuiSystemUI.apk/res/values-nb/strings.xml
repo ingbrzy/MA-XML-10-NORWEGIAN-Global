@@ -52,6 +52,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Nettverksleverandør endres.</string>
     <string name="accessibility_cast_name">Koblet til %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Skjermtildeling stoppet.</string>
     <string name="accessibility_cell_data">Mobile Data</string>
     <string name="accessibility_cell_data_off">Mobildata av</string>
@@ -548,6 +549,8 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="empty_shade_text">Ingen varsler</string>
     <string name="enable_adb">USB-feilsøking</string>
     <string name="enable_adb_summary">Feilsøkingsmodus når USB er tilkoblet</string>
+    <string name="enable_atrace">Slå på ATrace</string>
+    <string name="enable_atrace_summary">Fang kjernehendelser ved å bruke ATrace</string>
     <string name="enable_bluetooth_confirmation_ok">Slå på</string>
     <string name="enable_bluetooth_message">For å koble til tastatur på ditt nettbrett, skru på Bluetooth først.</string>
     <string name="enable_bluetooth_title">Skru på Bluetooth?</string>
@@ -811,6 +814,10 @@ Bruk kun laderen som følger med."</string>
     <string name="keyguard_charging_back_to_lockscreen">Tilbake til låst skjerm</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
     <string name="keyguard_charging_info_click_to_detail">Se detaljer</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Brukt</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
@@ -835,6 +842,7 @@ Bruk kun laderen som følger med."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke leses. Sett inn et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Ingen SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Ingen SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nettverket er låst</string>
     <string name="keyguard_password_enter_password_code">Tast inn passordet for å låse opp</string>
     <string name="keyguard_password_enter_pin_code">Skriv inn PIN-kode</string>
@@ -918,6 +926,7 @@ Prøv igjen om %2$d sekunder."</string>
     <string name="left_keycode">Venstre nøkkelkode</string>
     <string name="left_nav_bar_button_type">Ekstra type venstreknapp</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Trykk for å endre eller fjerne passordet for fullstendige sikkerhetskopieringer av hjemskjermen</string>
     <string name="local_backup_password_summary_none">Fullstendige sikkerhetskopier av hjemskjermen er ikke’ beskyttet for øyeblikket</string>
     <string name="local_backup_password_title">Passord for sikkerhetskopi av hjemskjem</string>
@@ -981,6 +990,7 @@ Prøv igjen om %2$d sekunder."</string>
     <string name="miui_guide_dialog_message">Medialyder (musikk, videoer, osv.) vil spilles av i stillemodus. Du kan endre dette i Innstillinger.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst opp av Bluetooth-enhet</string>
     <string name="miui_ringer_count_down">Nedtelling</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Stille</string>
     <string name="miui_ringer_standard_description">Demp ringelyder for innkommende anrop og varsler</string>
     <string name="miui_ringer_total">Ikke forstyrr</string>
@@ -1008,12 +1018,14 @@ Du er også koblet til %3$s, som kan overvåke din personlige nettverksaktivtet.
 
 For mer informasjon, kontakt din admin."</string>
     <string name="monitoring_description_ca_cert_settings">Åpne pålitelige legitimasjonsbeskrivelser</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Et autorisasjonsbevis er installert på enheten. Trafikken på det sikre nettverket kan overvåkes eller modifiseres.</string>
     <string name="monitoring_description_do_body">Din admin kan overvåke og administrere innstillinger, firmatilgang, apper, data knyttet til enheten din og enhetens lokasjonsopplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du er koblet til %1$s, som kan overvåke din nettverksaktivitet, inkludert e-poster, apper og nettsteder.</string>
     <string name="monitoring_description_do_header_generic">Din enhet administreres av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruker %2$s for å administrere din enhet.</string>
     <string name="monitoring_description_do_learn_more">Lær mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisasjonen din har installert et autorisasjonsbevis i arbeidsprofilen din. Trafikken på det sikre nettverket kan være overvåket eller modifisert.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Arbeidsprofilen din er knyttet til %1$s, som kan overvåke nettverksaktiviteten, inkludert e-post, apper og nettsteder.</string>
     <string name="monitoring_description_management">"Enheten administreres av organisasjonen du jobber for.
@@ -1045,6 +1057,7 @@ For mer informasjon, kontakt din admin.
 
 Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string>
     <string name="monitoring_description_vpn_settings">Åpne VPN-innstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-bevis</string>
     <string name="monitoring_subtitle_network_logging">Nettverkslogging</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1059,6 +1072,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="nav_guide_message">Bruk bevegelser for å skjule/vise myke knapper.</string>
     <string name="nav_guide_ok">Sett opp</string>
     <string name="nav_guide_title">Skjul myke knapper</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ingenting</string>
     <string name="no_multi_window_app">Ingen apper som støtter delt skjerm</string>
     <string name="no_notification_tips">Ingen varsler</string>
@@ -1197,6 +1211,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="power_remaining_charging_duration_only">%1$s igjen til den er fulladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s igjen</string>
     <string name="power_remaining_duration_only_short">%1$s gjenstår</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Profil kan være overvåket</string>
     <string name="prompt_danger">Fare</string>
     <string name="prompt_detecting">Oppdager</string>
@@ -1441,7 +1456,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="snooze_option_30_min">30 minutter</string>
     <string name="snooze_undo">ANGRE</string>
     <string name="snoozed_for_time">Snoozed for %1$s</string>
-    <string name="sos_status_bar_summary">click to exit</string>
+    <string name="sos_status_bar_summary">trykk for å avslutte</string>
     <string name="sos_status_bar_title">SOS</string>
     <string name="speed_bump_explanation">Mindre viktige varsler nedenfor</string>
     <string name="ssl_ca_cert_warning">Nettverket kan være overvåket</string>
@@ -1451,14 +1466,14 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="status_bar_airplane">Flymodus</string>
     <string name="status_bar_alarm">Alarm</string>
     <string name="status_bar_clear_all_button">Fjern</string>
-    <string name="status_bar_clock_date_format">EEEE, d. MMMM</string>
-    <string name="status_bar_clock_date_format_12">EEEE, d. MMMM</string>
-    <string name="status_bar_clock_date_time_format">H:mm d MMMM</string>
-    <string name="status_bar_clock_date_time_format_12">d. MMMM h:mm</string>
-    <string name="status_bar_date_format">"EEEE
-d. MMMM"</string>
-    <string name="status_bar_date_format_12">"EEEE
-d. MMMM"</string>
+    <string name="status_bar_clock_date_format">E, MMM d</string>
+    <string name="status_bar_clock_date_format_12">E, MMM d</string>
+    <string name="status_bar_clock_date_time_format">H:mm MMM d</string>
+    <string name="status_bar_clock_date_time_format_12">h:mm aa,MMM d</string>
+    <string name="status_bar_date_format">"E
+MMM d"</string>
+    <string name="status_bar_date_format_12">"E
+MMM d"</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_input_method_settings_configure_input_methods">Velg inndatametoder</string>
     <string name="status_bar_latest_events_title">Varsler</string>
@@ -1541,8 +1556,8 @@ d. MMMM"</string>
     <string name="structure_face_delete_data_dialog_msg_retry">Prøv igjen</string>
     <string name="structure_face_delete_data_dialog_title">Kunne ikke starte kameraet</string>
     <string name="structure_face_hardware_abnormal_btn">Skjønner</string>
-    <string name="structure_face_hardware_abnormal_msg">Kunne ikke ta opp ansiktsdata grunnet en laserfeil. Kontakt kundeservice for å få hjelp.</string>
-    <string name="structure_face_hardware_abnormal_title">Laserfeil</string>
+    <string name="structure_face_hardware_abnormal_msg">"A hardware error occurred. Reboot your device. If this doesn't help, call 400–100–5678 to get help."</string>
+    <string name="structure_face_hardware_abnormal_title">Hardware error</string>
     <string name="structure_face_modules_abnormal_btn">Omstart</string>
     <string name="structure_face_modules_abnormal_msg">Kunne ikke ta opp ansiktsdata grunnet en optisk modulfeil. Start enheten din på nytt og prøv igjen.</string>
     <string name="structure_face_modules_abnormal_title">Optisk modulfeil</string>
@@ -1560,6 +1575,7 @@ d. MMMM"</string>
     <string name="structure_face_unlock_model_other_title">Ansiktsgjenkjenning</string>
     <string name="structure_face_unlock_not_same_person">Du må fullføre alle trinnene på egenhånd. Ikke bytt plass med en annen.</string>
     <string name="structure_face_unlock_really_person">Det ser ut som du har byttet ut ansiktet ditt med et objekt.</string>
+    <string name="structure_face_unlock_tof_covered">"Couldn't add face data. Move farther away from the screen."</string>
     <string name="switch_bar_off">Av</string>
     <string name="switch_bar_on">På</string>
     <string name="switch_system_user">Åpne First space</string>
@@ -1729,6 +1745,7 @@ Enhver bruker kan oppdatere apper for alle andre brukere."</string>
     <string name="wait_for_debugger">Vent på feilsøker</string>
     <string name="wait_for_debugger_summary">Feilsøkt applikasjon venter på at feilsøkeren festes før utføring</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Slipp for å se detaljer</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Oppdatert %1$s</string>
     <string name="wifi_aggressive_handover">Aggressiv Wi‑Fi til mobiloverføring</string>
     <string name="wifi_aggressive_handover_summary">Når dette alternativet er aktivert, bytter tilkoblingen mer aktivt til mobildata når Wi-Fi-signalet er lavt.</string>
@@ -1753,9 +1770,11 @@ Enhver bruker kan oppdatere apper for alle andre brukere."</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

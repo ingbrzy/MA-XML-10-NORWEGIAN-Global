@@ -20,6 +20,10 @@
         <item quantity="other">%d valgt</item>
         <item quantity="one">%d valgt</item>
     </plurals>
+    <plurals name="delivery_toast_body_more_plurals">
+        <item quantity="other">Meldingen er mottatt av %1$s og %2$d andre personer</item>
+        <item quantity="one">Meldingen er mottatt av %1$s og %2$d annen person</item>
+    </plurals>
     <plurals name="group_message_failed_title">
         <item quantity="other">Kunne ikke sende til %d kontakter</item>
         <item quantity="one">Kunne ikke sende til %d kontakt</item>

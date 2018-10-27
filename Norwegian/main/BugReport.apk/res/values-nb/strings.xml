@@ -57,6 +57,7 @@
     <string name="save_pic_success">Lagret bilde til %s</string>
     <string name="save_pic_fail">Kunne ikke lagre bildet. Kontroller SD-kortet ditt</string>
     <string name="pic_not_exist">Dette bildet finnes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Velg et produkt</string>
     <string name="michat_skillset_business_type_title">Velg tjeneste</string>
     <string name="michat_close_text">Chatten er avsluttet</string>
@@ -289,8 +290,8 @@
     <string name="warning_field_invalid">Velg en gyldig %1$s</string>
     <string name="min_error">Din %1$s bør være lenger.</string>
     <string name="max_error">Din %1$s bør være kortere.</string>
-    <string name="reply_option_log_hint">可选</string>
-    <string name="reply_select_log_hint">选择日志文件</string>
+    <string name="reply_option_log_hint">Optional</string>
+    <string name="reply_select_log_hint">Select log</string>
     <string name="title_mi_family">Mi Hjem i nærheten</string>
     <string name="hint_feedback_main">Forklar problemet</string>
     <string name="goon_feedback_main">Fortsett</string>
@@ -330,5 +331,34 @@
     <string name="customer_service_apply">Be om kundeservice</string>
     <string name="customer_service_complain">Rapporter kundeservice</string>
     <string name="customer_service_station">Servicesteder</string>
+    <string name="title_catch_full_log">Logger</string>
+    <string name="toast_catch_full_log_catching">Du kan bare generere én logg om gangen.</string>
+    <string name="catch_full_log_item_title_signal">Telefon, signal og mobile nettverk</string>
+    <string name="catch_full_log_item_title_wifi">Wi-Fi og Mi Drop</string>
+    <string name="catch_full_log_item_title_gps">Stedtjenester</string>
+    <string name="catch_full_log_item_title_audio">Lyd, lydopptak og anropslyd</string>
+    <string name="catch_full_log_item_title_sensor">Sensorer</string>
+    <string name="catch_full_log_item_title_bt">Bluetooth</string>
+    <string name="catch_full_log_item_title_dump_heap">Henger etter</string>
+    <string name="catch_full_log_item_content_need_open">"Trinn:
+1. Trykk på \"Generer logg\".
+2. Gå tilbake til funksjonen du vil rapportere og produser den på nytt.
+3. Kom tilbake til denne siden og trykk på \"Fullfør og last opp\"."</string>
+    <string name="catch_full_log_item_content_catch_direct">"Trinn:
+1. Gå tilbake til funksjonen du vil rapportere og produser den på nytt.
+2. Kom tilbake til denne siden og trykk på \"Fullfør og last opp\"."</string>
+    <string name="catch_full_log_action_start">Generer logg</string>
+    <string name="catch_full_log_action_complete">Fullfør og last opp</string>
+    <string name="catch_full_log_action_cancel">Avbryt</string>
+    <string name="catch_full_log_dialog_content">MIUI genererer en logg. Dette kan påvirke ytelsen til enheten din. Hvis du ikke kan reprodusere problemet du vil rapportere, kan du gå tilbake til logger og trykke på \"Avbryt\".</string>
+    <string name="catch_full_log_dialog_confirm_text">Gå til startskjerm</string>
+    <string name="catch_full_log_notification_title">Genererer logg…</string>
+    <string name="catch_full_log_notification_content">Trykk for å gå tilbake til logger</string>
+    <string name="catch_full_log_start_dump_hprof">Genererer logg som henger etter</string>
+    <string name="catch_full_log_dump_hprof_failed">Kunne ikke generere logg som henger etter</string>
+    <string name="catch_full_log_add_original_photo">Legg til bilde</string>
+    <string name="catch_full_log_add_photo_dialog_content">Hvis problemet du rapporterer er knyttet til kameraets bildekvalitet, kan du legge til et opprinnelig prøvebilde (ubeskåret) for å hjelpe oss med å lokalisere problemet. Legge til et bilde nå?</string>
+    <string name="catch_full_log_submit_directly">Send inn</string>
+    <string name="catch_full_log_add_photo">Legg til bilde</string>
     <string name="select_system_app_tag">Velg et problem</string>
 </resources>

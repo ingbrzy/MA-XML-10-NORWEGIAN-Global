@@ -36,7 +36,7 @@
     <string name="no_file">Tøm</string>
     <string name="alert_message_delete_record_title">Slette opptak?</string>
     <string name="alert_message_delete_record">Sletting av opptaket på enheten din, sletter også opptaket fra Mi Cloud. Slette nå?</string>
-    <string name="alert_message_delete_local_record">Delete this recording?</string>
+    <string name="alert_message_delete_local_record">Slette dette opptaket?</string>
     <string name="share">Del</string>
     <string name="rename">Gi nytt navn</string>
     <string name="delete">Slett</string>
@@ -152,7 +152,7 @@
     <string name="head_set_tip_dialog_title">Bruk intern mikrofon</string>
     <string name="head_set_tip_dialog_msg">Koble fra øretelefonene dine for å ta opp lyd med spesiell forhåndsinnstilling (f.eks. musikk, stemme).</string>
     <string name="head_set_tip_dialog_ok">Skjønner</string>
-    <string name="rename_fail_tip">"Couldn't rename. Item with this name already exists."</string>
+    <string name="rename_fail_tip">Kunne ikke gi nytt navn. Element med dette navnet eksisterer allerede.</string>
     <string name="dialog_privacy_revoke_tips">Etter at du har tilbakekalt autorisasjonen, vil appen slutte å samle inn data, og alle relaterte data vil bli slettet fra serverne. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel? Logg inn på i.mi.com før du tilbakekaller autorisasjon for Mi Cloud-tjenestene slik at du sikrer sikkerheten til kontoen din.</string>
     <string name="privacy_policy_title">Personvernerklæring</string>
 </resources>

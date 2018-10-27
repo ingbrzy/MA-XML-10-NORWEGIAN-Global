@@ -4,6 +4,11 @@
         <item>Gutt</item>
         <item>Jente</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flytt</item>
+        <item>Kopier</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="owner_relation">
         <item>Far</item>
         <item>Mor</item>

@@ -132,6 +132,7 @@
     <string name="security_permission_validate_warning">Takk for at du bidrar til å gjøre MIUI bedre!</string>
     <string name="security_permission_wifi_and_data_opened_text">Wi-Fi og mobildata er slått på</string>
     <string name="security_permission_network_failed_text">Kunne ikke koble til nettverket. Sjekk nettverksinnstillingene og prøv igjen.</string>
+    <string name="security_permission_open_wifi_settings">Åpne Wi-Fi-innstillinger</string>
     <string name="xspace_resolver_activity_title">Valgt app</string>
     <string name="user_switching_dialog_text">Veksler…</string>
     <string name="activity_package_delete_confirm_title">Vær oppmerksom</string>

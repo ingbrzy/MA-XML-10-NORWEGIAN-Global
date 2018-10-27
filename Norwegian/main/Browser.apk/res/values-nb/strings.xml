@@ -18,6 +18,17 @@
     <string name="common_open_on_phone">Åpne på telefonen</string>
     <string name="common_signin_button_text">Logg på</string>
     <string name="common_signin_button_text_long">Logg på med Google</string>
+    <string name="exo_controls_fastforward_description">Fremoverspoling</string>
+    <string name="exo_controls_next_description">Neste spor</string>
+    <string name="exo_controls_pause_description">Sett på pause</string>
+    <string name="exo_controls_play_description">Spill av</string>
+    <string name="exo_controls_previous_description">Forrige spor</string>
+    <string name="exo_controls_repeat_all_description">Gjenta alle</string>
+    <string name="exo_controls_repeat_off_description">Ikke gjenta noen</string>
+    <string name="exo_controls_repeat_one_description">Gjenta én</string>
+    <string name="exo_controls_rewind_description">Tilbakespoling</string>
+    <string name="exo_controls_shuffle_description">Spill av i tilfeldig rekkefølge</string>
+    <string name="exo_controls_stop_description">Stopp</string>
     <string name="s1">Lagre bilde</string>
     <string name="s2">Vil du la annonsen lagre bildet i bildegalleriet?</string>
     <string name="s3">Godta</string>
@@ -25,8 +36,9 @@
     <string name="s5">Opprett kalenderaktivitet</string>
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
     <string name="s7">Testannonse</string>
-    <string name="abc_action_bar_home_description">Gå til startsiden</string>
-    <string name="abc_action_bar_up_description">Gå opp</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Naviger opp</string>
     <string name="abc_action_menu_overflow_description">Mer</string>
     <string name="abc_action_mode_done">Ferdig</string>
     <string name="abc_action_mode_select_all">Velg alle</string>
@@ -147,6 +159,7 @@
     <string name="cannot_download">Kan kun laste ned URL-er fra \"http\" eller \"https\"</string>
     <string name="card_setting_close_recommend">Motta anbefalinger</string>
     <string name="cast_video">Cast video</string>
+    <string name="change_news_language">Endre nyhetsspråket?</string>
     <string name="channels_edit">Rediger</string>
     <string name="channels_finish">Fullfør</string>
     <string name="choosertitle_sharevia">Del via</string>
@@ -240,6 +253,7 @@ Sider du besøker vil ikke vises i historikken."</string>
     <string name="document_open_other">Andre apper</string>
     <string name="document_open_title">Åpne med</string>
     <string name="dont_remind_again">Husk dette valget</string>
+    <string name="download_btn">Download</string>
     <string name="download_btn_select_all">Velg alle</string>
     <string name="download_btn_select_none">Fjern alle valg</string>
     <string name="download_complete">Nedlastingen er vellykket</string>
@@ -330,6 +344,7 @@ Sider du besøker vil ikke vises i historikken."</string>
     <string name="go_supermarket_title">Flere apper, større hastighet, og mindre databruk i App Store</string>
     <string name="gold_medals">Gullmedaljer</string>
     <string name="google_bookmarks">Google</string>
+    <string name="hash_tag">\# %1$s</string>
     <string name="have_sent_bookmark_to_home_screen">Plasser på startskjermen</string>
     <string name="hint">Hint</string>
     <string name="history">Historikk</string>
@@ -731,6 +746,8 @@ Forlat denne siden nå?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Få tilpasset innhold</string>
     <string name="mw_snippets_disabled_signed_out_instructions">For å få personlig innhold foreslått av Google, Logg inn på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator" />
+    <string name="mw_time_picker_dialog_minute_second_separator" />
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator" />
     <string name="mw_time_picker_dialog_title">Velg tid</string>
@@ -964,6 +981,7 @@ Forlat denne siden nå?"</string>
     <string name="remove_snapshot">Slett lagret nettside</string>
     <string name="removed_from_bookmarks">Fjernet fra bokmerker</string>
     <string name="replace">Erstatt</string>
+    <string name="replay">Play again</string>
     <string name="reply_comment_title">Re: %s</string>
     <string name="resume_download">Start</string>
     <string name="retry_after_network_available">Kan ikke koble til nettverket</string>
@@ -1027,6 +1045,7 @@ Forlat denne siden nå?"</string>
     <string name="sendstartpage">Startside</string>
     <string name="share_image_text">Se hva jeg delte! @MIUI</string>
     <string name="share_page_text">Se hva jeg delte: %1$s @MIUI| %2$s</string>
+    <string name="share_slide_video_text">Look what I shared: %1$s</string>
     <string name="share_video">Del video</string>
     <string name="sign_in_to" formatted="false">Logg inn på %s1 %s2\"</string>
     <string name="site_sort_des">Omorganiser elementer</string>
@@ -1163,6 +1182,9 @@ Forlat denne siden nå?"</string>
     <string name="video_unknown_duration">Ukjent varighet</string>
     <string name="view_certificate">Se sertifikat</string>
     <string name="view_document_downloaded_files">Se nedlastede filer i Nedlastinger</string>
+    <string name="view_source">View source</string>
+    <string name="vmate_download_content">Enjoy all prank, comedy, music, dance videos</string>
+    <string name="vmate_download_title">India’s most Entertaining App</string>
     <string name="voice_check_network">Sjekk nettverksinnstillingene dine og prøv igjen.</string>
     <string name="voice_connect_network">Kunne ikke koble til nettverket.</string>
     <string name="voice_description">Stemmesøk</string>

@@ -274,6 +274,7 @@
     <string name="collage_poster_global_summer_flower_text">SOMMER</string>
     <string name="collage_poster_global_tea_text">TEPAUSE</string>
     <string name="collage_rotate">Roter</string>
+    <string name="collage_select_image_range">Kollasjer kan inneholde 1-4 bilder</string>
     <string name="collage_title_layout">Utforming</string>
     <string name="collage_title_poster">Plakat</string>
     <string name="collaps_people">Skjul</string>
@@ -466,6 +467,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_to_pick_email">Ugyldig e-postadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Sjekk din datatilkobling og prøv igjen.</string>
@@ -476,6 +478,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="feature_guidance_photo_effects">"Ny fotoeffekt
 er tilgjengelig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgjengelig</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -537,6 +540,7 @@ er tilgjengelig"</string>
     <string name="finish_fill_baby">Opprett</string>
     <string name="flash_off">Ingen blitz</string>
     <string name="flash_on">Blitz ble brukt</string>
+    <string name="frame_not_support_image_ratio">Dette sideforholdet støttes ikke</string>
     <string name="free_view_desc">3D view</string>
     <string name="gallery_setting">Innstillinger</string>
     <string name="gallery_sync_disable_toast">Synkronisering er av for Bildegalleriet</string>
@@ -544,6 +548,7 @@ er tilgjengelig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Sett</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri trenger tilgang til 
 %s
  for å fungere som normalt, trykk \"Sett\" for å gå til Tillatelser."</string>
@@ -709,6 +714,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="operation_in_process">Behandler…</string>
     <string name="operation_move_to_other_albums">Flytt til andre album</string>
     <string name="operation_not_show_in_photos_tab">Ikke vis i bilder</string>
+    <string name="operation_produce">Kreativitet</string>
     <string name="operation_projection">Strøm</string>
     <string name="operation_remove_face">Fjern</string>
     <string name="operation_remove_from_face_album">Fjern fra album</string>
@@ -741,6 +747,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="people_mark_mode_title_no_mark_name">Velg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Uten navn</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Bilder av kjæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Bilder</string>
@@ -751,10 +758,12 @@ for å tilpasse Bildegalleriet"</string>
     <string name="photo_editor_beauty_compare">Opprinnelig</string>
     <string name="photo_editor_crop_and_rotate">Beskjær</string>
     <string name="photo_editor_crop_auto">Auto</string>
+    <string name="photo_editor_crop_auto_tips">Beskåret automatisk</string>
     <string name="photo_editor_crop_reset">Tilbakestill</string>
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Drodling</string>
     <string name="photo_editor_filter">Filter</string>
+    <string name="photo_editor_frame">Ramme</string>
     <string name="photo_editor_label">Rediger</string>
     <string name="photo_editor_long_crop">Beskjær</string>
     <string name="photo_editor_miui_beauty">Forskjønne</string>
@@ -809,6 +818,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="photo_editor_talkback_redo">Gjenta</string>
     <string name="photo_editor_talkback_undo">Angre</string>
     <string name="photo_editor_text">Tekst</string>
+    <string name="photo_movie_select_image_range">Klipp kan inneholde 3-6 bilder</string>
     <string name="photo_page_save_uri_image_fail">Kunne ikke lagre til Bildegalleriet</string>
     <string name="photo_page_save_uri_image_ok">Bildet lagret til Bildegalleriet</string>
     <string name="photo_print_menu_loading">Laster plug-in…</string>
@@ -998,6 +1008,9 @@ for å tilpasse Bildegalleriet"</string>
     <string name="search_title_recommend">Anbefalt</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leter etter projektor …</string>
     <string name="secret_album_card_description">Den beste plassen for alle dine små hemmeligheter</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1017,6 +1030,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="secret_reason_unknow_reasons">Ukjent feil</string>
     <string name="secret_reason_video_not_support">Kan ikke legge til videoer fra skjult album</string>
     <string name="see_ignore_faces">Se personer du har ignorert</string>
+    <string name="select_image_operation">Legger til bilder</string>
     <string name="select_item_face">"Er dette '%s'?"</string>
     <string name="select_origin_tip">Opprinnelig fil (%s)</string>
     <string name="send_file_beautify_failed">Kunne ikke dele</string>
@@ -1157,6 +1171,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="unpublish_failed">Kunne ikke fjerne publisering</string>
     <string name="unpublish_succeeded">Album ikke publisert</string>
     <string name="unpublishing">Kansellerer…</string>
+    <string name="unsupport_video">%s fungerer ikke med videoer</string>
     <string name="user_agree">Samtykke</string>
     <string name="user_agreement2">Vilkår for bruk</string>
     <string name="user_agreement4">Personvernerklæring</string>
@@ -1274,6 +1289,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Vis flere personer</string>
     <string name="voice_assistant">Taleinndata</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>
@@ -1281,10 +1297,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">I går</string>
     <string name="you_are">Du er babyens</string>
-    <string name="collage_select_image_range">Collages can contain 1-4 photos</string>
-    <string name="operation_produce">Creativity</string>
-    <string name="photo_editor_crop_auto_tips">Cropped automatically</string>
-    <string name="photo_movie_select_image_range">Clips can contain 3-6 photos</string>
+    <string name="operation_set_slide_wallpaper">Angi som lysbildefremvisningsbakgrunn</string>
     <string name="refocus_discard_confirm_message">Save changes?</string>
     <string name="refocus_discard_negative_btn">Discard</string>
     <string name="refocus_discard_positive_btn">Save</string>
@@ -1297,6 +1310,6 @@ for å tilpasse Bildegalleriet"</string>
     <string name="refocus_title">Blur</string>
     <string name="refocus_type_static">Blur level</string>
     <string name="refocus_type_video">Light trails</string>
-    <string name="select_image_operation">Adding photos</string>
-    <string name="unsupport_video">"%s doesn't work with videos"</string>
+    <string name="set_as_slide_wallpaper_description">Dette bildet er et miniatyrbilde. Laste ned det opprinnelige?</string>
+    <string name="set_as_slide_wallpaper_title">Angi som lysbildefremvisningsbakgrunn</string>
 </resources>

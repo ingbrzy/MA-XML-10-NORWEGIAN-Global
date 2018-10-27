@@ -84,6 +84,10 @@
         <item quantity="other">Sjekk ut %1$d nye videoer</item>
         <item quantity="one">Sjekk ut %1$d ny video</item>
     </plurals>
+    <plurals name="view_count">
+        <item quantity="other">%1$d views</item>
+        <item quantity="one">%1$d view</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>
         <item quantity="one">Klart</item>

@@ -31,6 +31,11 @@
         <item>Bare i stillemodus</item>
         <item>Aldri</item>
     </string-array>
+    <string-array name="recv_type">
+        <item>接收并通知</item>
+        <item>只接收</item>
+        <item>拒收</item>
+    </string-array>
     <string-array name="resent_via_entries_mms">
         <item>SMS</item>
         <item>Mi Message</item>

@@ -25,6 +25,7 @@
     <string name="common_google_play_services_install_button">Installer</string>
     <string name="common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din.</string>
     <string name="common_google_play_services_install_title">Installer Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Tjenester-tilgjengelighet</string>
     <string name="common_google_play_services_notification_ticker">Google Play Tjenester-feil</string>
     <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="common_google_play_services_unsupported_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din.</string>
@@ -55,7 +56,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -72,7 +75,9 @@
     <string name="s4">Avslå</string>
     <string name="s5">Opprett kalenderaktivitet</string>
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
+    <string name="s7">Testannonse</string>
     <string name="search_menu_title">Søk</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibiliy_description_content_account">Profil</string>
     <string name="accessibiliy_description_content_ad">Annonse</string>
     <string name="accessibiliy_description_content_add_resource">Legg til elementer</string>
@@ -120,6 +125,7 @@
     <string name="component_category_finest_title">GENERELL</string>
     <string name="component_category_more_title">AVANSERT</string>
     <string name="component_title_ringtone">Ringetoner</string>
+    <string name="component_title_settings_video_wallpaper">Bakgrunnsbilder med spesialeffekter</string>
     <string name="component_title_video_wallpaper">Wallpaper-filmer</string>
     <string name="component_title_wallpaper">Bakgrunner</string>
     <string name="current_using_desktop_wallpaper_text">Startskjerm</string>
@@ -194,6 +200,7 @@
     <string name="incompatible_dialog_ok">Skjønner</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbakeringstone</string>
     <string name="item_resource_audio_optional_notification_ring">Varsler</string>
@@ -415,6 +422,7 @@
     <string name="resource_pack_price_info">Opprinnelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerde kjøpt %1$d-komponenter i dette temaet. Det er billigere hvis du kjøper de resterende komponentene hver for seg.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi-kreditter</string>
     <string name="resource_purchase_common_error">Det oppsto en feil. Prøv igjen</string>
@@ -426,6 +434,10 @@
     <string name="resource_ranking">Populær</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betalt</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringetoner</string>
     <string name="resource_ringtone_playing_error">Feil</string>
     <string name="resource_ringtone_volume_mute">Ringer er satt på stille</string>
@@ -543,6 +555,9 @@
     <string name="theme_current_using_has_update">Temaoppdatering er tilgjengelig</string>
     <string name="theme_description_title_customized">Tilpasset</string>
     <string name="theme_description_title_default">Standard</string>
+    <string name="theme_detail_tab_comment">Kommentarer</string>
+    <string name="theme_detail_tab_recommend">Anbefalt</string>
+    <string name="theme_detail_tab_theme">Temaer</string>
     <string name="theme_empty_redirect">Tilbake til Themes</string>
     <string name="theme_favorite_add_fail">Kunne ikke legges til favoritter</string>
     <string name="theme_favorite_add_success">Lagt til i favoritter</string>
@@ -557,6 +572,7 @@
     <string name="theme_is_external_priority_storage">Lagre til SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Themes-appen omstarter umiddelbart etter denne innstillingen godkjennes.</string>
     <string name="theme_multiple_button_title_customize">Tilpass</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nei</string>
     <string name="theme_purchased_list_empty">Du har ikke kjøpt noen temaer.</string>
     <string name="theme_purchased_non_local">På nett</string>
@@ -579,7 +595,7 @@
     <string name="title_component">Tilpass tema</string>
     <string name="title_my_audio_resource">Mine ringetoner</string>
     <string name="title_my_miwallpaper_resource">Mine live-wallpapers</string>
-    <string name="title_my_miwallpaper_video_file_resource">Mine videobakgrunner</string>
+    <string name="title_my_miwallpaper_video_file_resource">Mine bakgrunnsbilde-filmer</string>
     <string name="title_my_wallpaper_resource">Mine wallpapers</string>
     <string name="title_system_audio_notification_resource">Systemvarsler</string>
     <string name="title_system_audio_resource">System-ringetoner</string>

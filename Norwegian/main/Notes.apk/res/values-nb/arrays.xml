@@ -45,4 +45,8 @@
         <item>Stemme-notater</item>
         <item>Opprette notater ved hjelp av vår innebygde tale-til-tekst søkemotor, fest de originale innspillingene av talemeldinger til notatene.</item>
     </string-array>
+    <string-array name="second_guide_contents_pad_or_inter">
+        <item>Talenotater</item>
+        <item>Du kan opprette talenotater nå. Bare trykk på ikonet, spille inn stemmen din og lagre lydfilen i notatet.</item>
+    </string-array>
 </resources>

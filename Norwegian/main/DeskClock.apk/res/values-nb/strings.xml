@@ -152,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Alarm vil gå av etter at enheten er skrudd av</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">%1$s°</string>
@@ -172,6 +174,10 @@
     <string name="timer_alarm_cancel_pad">Trykk på skjermen for å stoppe ringelyden</string>
     <string name="timer_alarm_dot_matrix_label">TIDTAKER</string>
     <string name="timer_alert_alert_silenced">Tidtaker dempes etter %d minutter.</string>
+    <string name="timer_alert_mute_off">Alarmen vil lage en lyd når nedtelleren stopper</string>
+    <string name="timer_alert_mute_on">Alarmen vil ikke lage en lyd når nedtelleren stopper</string>
+    <string name="timer_alert_mute_remind">Trykk for å dempe alarmen</string>
+    <string name="timer_alert_mute_switch">Bytt til dempede nedtellingsalarmer</string>
     <string name="timer_alert_type_beach">Strand</string>
     <string name="timer_alert_type_forest">Skog</string>
     <string name="timer_alert_type_mute">Standard</string>
@@ -215,7 +221,7 @@
     <string name="volume_button_setting_title">Volumknapper</string>
     <string name="workday_alarm_clock">Jobbalarm</string>
     <string name="worldclock_empty_text">Ingen klokker</string>
-    <string name="worldclock_input_hint_text">Angi byen</string>
+    <string name="worldclock_input_hint_text">Søk etter et land eller by</string>
     <string name="worldclock_search_city">Velg en by</string>
     <string name="worldclock_title">Klokke</string>
     <string name="worldclock_world_time">Tidssone</string>
