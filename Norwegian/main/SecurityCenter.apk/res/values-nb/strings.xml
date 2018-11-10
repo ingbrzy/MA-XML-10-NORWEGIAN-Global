@@ -19,9 +19,7 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -457,7 +455,6 @@ svarer"</string>
     <string name="managed_user_title">Alle arbeidsapplikasjoner</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -945,7 +942,6 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="om_settings_memory_occupy_notify_never">Aldri</string>
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Låst opp</string>
-    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Hastighetsøkning er nødvendig</string>
     <string name="om_running_locked_apps">Låste apper som er i gang</string>
     <string name="om_running_system_apps">Kjører system-apper</string>
@@ -995,7 +991,6 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1212,17 +1207,12 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
     <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
     <string name="power_center_list_item_battery_status_time">t</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
-    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Stopp skanning</string>
     <string name="hide_mode_result_summary_text">Tilpass batterisparerinnstillinger for individuelle apper</string>
     <string name="auto_task_result_summary_text">Sett automatiserte oppgaver for batterisparer</string>
     <string name="pc_settings_title">Detaljer om batteribruk</string>
     <string name="pc_main_activity_back">Tilbake</string>
     <string name="extreme_power_save_mode_card_summary">Slå på Ekstrem modus for å spare strøm når det er lite batteri igjen.</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Sjekk meldingsapp</string>
     <string name="apps_list_header_title_sms_access">Begrens tilgang til bekreftelseskoder</string>
@@ -1376,13 +1366,11 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_summary_networkassistants">Administrer dataplanen din</string>
-    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Grensen er overskredet</string>
     <string name="menu_summary_networkassistants_3">Tilstrekkelig med data gjenstår</string>
     <string name="menu_summary_networkassistants_4">I ferd med å gå tom for data</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1395,14 +1383,12 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="menu_summary_garbage_cleanup">Ingen papirkurv funnet</string>
     <string name="menu_summary_garbage_cleanup_2">Størrelse på papirkurven</string>
     <string name="menu_summary_garbage_cleanup_3">Fjern søppel</string>
-    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteribruk</string>
     <string name="menu_summary_power_manager">Batterispareren gir deg mer tid mellom oppladingene</string>
     <string name="menu_summary_power_manager_1">Batteriet er fulladet</string>
     <string name="menu_summary_power_manager_2">%s gjenstår</string>
     <string name="menu_summary_power_manager_3">Koble til lader</string>
     <string name="menu_summary_power_manager_4">%s til fulladet</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="examination_score_100">Alt ser bra ut!</string>
     <string name="examination_score_80_100">Et par enheter kan optimaliseres</string>
@@ -1778,7 +1764,6 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2331,7 +2316,6 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="gb_create_icon_summary">Lag snarvei til Hjem-skjerm</string>
     <string name="title_reply">Kommenter</string>
     <string name="title_like">Lik</string>
-    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort pause.</string>
     <string name="video_repeat">Spill igjen</string>
