@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="inCallLabel">InCallUI</string>
+    <string name="inCallLabel">Telefon</string>
     <string name="unknown">Ukjent</string>
     <string name="private_num">Privat nummer</string>
     <string name="payphone">Telefonautomat</string>

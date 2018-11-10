@@ -95,4 +95,7 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="message_i_know">Skjønner</string>
     <string name="high_temp_state">Høy temperatur</string>
     <string name="high_temp_state_message">Beskyttelse mot høy temperatur, data, wifiap, gps, kamera osv. vil være begrenset</string>
+    <string name="atrace_start">Tar opp atrace-logg…</string>
+    <string name="atrace_saving">Lagrer atrace-logg…</string>
+    <string name="atrace_saved">Lagringen er vellykket</string>
 </resources>

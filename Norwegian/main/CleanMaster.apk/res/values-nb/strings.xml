@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerte apper: %d</string>
     <string name="toast_resolve_apk_error">Løs apk-feil</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laster ned</string>
     <string name="installing">Installering</string>
     <string name="start_install">Installer nå</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>
     <string name="connecting">Kobler til…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Fil ikke funnet</string>
     <string name="app_usage_never">Ikke brukt nylig</string>
     <string name="app_usage_recently">Brukt nylig</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> ytterligere filer kan tømmes. Frigjør mer lagringsplass.</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat-hurtigminne. Frigjør mer lagringsplass.</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data>Du kan tømme &lt;font color=#ff0000 >%1$s&lt;/font> hurtigminne generert av QQ</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> ytterligere filer kan tømmes. Frigjør mer lagringsplass. </Data>" "</string>
+    <string name="resutl_function_wechat_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> WeChat-hurtigminne. Frigjør mer lagringsplass. </Data>" "</string>
+    <string name="resutl_function_qq_clean_summary">" "<Data> Du kan tømme &lt;font color=#ff0000 >%1$s&lt;/font> hurtigminne generert av QQ </Data>" "</string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">Om Cleaner</string>
@@ -498,19 +500,6 @@
     <string name="auto_clean_time_three_day">Hver 3. dag</string>
     <string name="auto_clean_time_seven_day">Hver 7. dag</string>
     <string name="auto_clean_time_fifteen_day">Hver 15. dag</string>
-    <string name="pref_category_title_auto_clean_config_settings">Automatiske oppryddinger</string>
-    <string name="pref_title_auto_clean">Rydd opp automatisk</string>
-    <string name="pref_title_auto_clean_operation">Oppryddingsmetode</string>
-    <string name="pref_title_auto_clean_trigger">Rydd opp i lagringsplassen</string>
-    <string name="auto_clean_operation_dialog_title">Oppryddingsmetode</string>
-    <string name="auto_clean_operation_clean_and_alert">Påminn og rydd opp</string>
-    <string name="auto_clean_operation_just_clean">Bare rydd opp</string>
-    <string name="auto_clean_trigger_dialog_title">Rydd opp i lagringsplassen</string>
-    <string name="auto_clean_trigger_percent_ninety">Når 90 % er fylt opp</string>
-    <string name="auto_clean_trigger_percent_eighty">Når 80 % er fylt opp</string>
-    <string name="auto_clean_trigger_percent_sixty">Når 60 % er fylt opp</string>
-    <string name="auto_clean_notification_title">Minn på å rengjøre</string>
-    <string name="auto_clean_notification_content">%s søppel er rengjort</string>
     <string name="guide_secure_dialog_title">Optimaliser ytelsen</string>
     <string name="guide_secure_dialog_message">Optimaliseringspoengsummen til enheten din er lavere enn 80 poeng. Optimalisere nå?</string>
     <string name="guide_secure_dialog_positive">Optimaliser</string>
@@ -538,10 +527,6 @@
     <string name="whatsapp_group_gif">GIF-er</string>
     <string name="whatsapp_group_document">Dokumenter</string>
     <string name="whatsapp_btn_quick_cleanup">Slett valgte elementer (%s)</string>
-    <string name="whatsapp_type_image_send">Sendte bilder</string>
-    <string name="whatsapp_type_image_recv">Mottatte bilder</string>
-    <string name="whatsapp_type_document_send">Sendte filer</string>
-    <string name="whatsapp_type_document_recv">Mottatte filer</string>
     <string name="whatsapp_file_show_order">I dag</string>
     <string name="whatsapp_clean_exit_confirm_title">Stanse skanning?</string>
     <string name="whatsapp_clean_exit_confirm_msg">WhatsApp er ikke ferdig skannet enda. Stoppe skanning nå?</string>
@@ -567,4 +552,17 @@
     <string name="memory_clean_no_trash_tip">Alt ser bra ut</string>
     <string name="toast_updater_open_4g_text">Apper blir oppdatert ved bruk av mobildata (4G)</string>
     <string name="toast_updater_close_4g_text">Apper blir ikke oppdatert ved bruk av mobildata (4G)</string>
+    <string name="facebook_cleaner">Facebook Cleaner</string>
+    <string name="facebook_group_image">Bilder</string>
+    <string name="facebook_group_video">Videoer</string>
+    <string name="facebook_group_gif">GIF-er</string>
+    <string name="facebook_group_cache">Hurtigbufferfiler</string>
+    <string name="app_clean_group_image_send">Sendte bilder</string>
+    <string name="app_clean_group_image_recv">Mottatte bilder</string>
+    <string name="app_clean_group_document_send">Sendte filer</string>
+    <string name="app_clean_group_document_recv">Mottatte filer</string>
+    <string name="facebook_clean_exit_confirm_title">Stanse skanning?</string>
+    <string name="facebook_clean_exit_confirm_msg">Facebook er ikke ferdig skannet enda. Stoppe skanning nå?</string>
+    <string name="facebook_clean_exit_confirm_cancel">Fortsett skanningen</string>
+    <string name="facebook_clean_exit_confirm_ok">Stopp</string>
 </resources>

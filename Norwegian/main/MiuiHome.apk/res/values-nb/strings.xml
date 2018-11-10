@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Legg til i arbeidsplass</string>
     <string name="activity_not_found">Appen er ikke installert på din enhet</string>
     <string name="add_screen">Legg til skjerm</string>
@@ -279,7 +280,6 @@
     <string name="recommend_apps_switch_title">Forfremmede apper</string>
     <string name="recommend_apps_tips">"This feature needs to connect to the internet to work normally. To turn this feature off, tap this folder's name."</string>
     <string name="recommend_loading">Laster</string>
-    <string name="refresh">Oppdater</string>
     <string name="reset_description_first_time">Du kan gjenopprette oppsettet fra %1$s innen 2 timer</string>
     <string name="reset_description_others">Du kan gjenopprette oppsettet fra %1$s</string>
     <string name="reset_fail">Kunne ikke gjenopprette</string>
@@ -344,4 +344,10 @@
     <string name="widget_gadget_player">Musikk</string>
     <string name="widget_global_search">Søk</string>
     <string name="widget_quick_function">Hurtigfunksjoner</string>
+    <string name="announce_for_app_move_in_folder">Flyttet til posisjon %1$d i mappen</string>
+    <string name="announce_for_create_folder_with_app">Opprettet en mappe med %1$s</string>
+    <string name="announce_for_widget_span">Bredde %1$d, høyde %2$d</string>
+    <string name="recommend_apps_no_data_toast">Ingen anbefalinger for øyeblikket.</string>
+    <string name="recommend_refresh">Oppdater</string>
+    <string name="recommend_xout">Ikke vis</string>
 </resources>

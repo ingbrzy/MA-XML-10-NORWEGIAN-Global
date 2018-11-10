@@ -30,6 +30,7 @@
     <string name="passport_register">Opprett en konto</string>
     <string name="passport_new_user_register">Opprett en konto</string>
     <string name="passport_vcode_sms_send_prompt">Send bekreftelseskode til %s</string>
+    <string name="passport_input_phone_password">Vennligst skriv inn passordet for mobilnummeret %s</string>
     <string name="passport_get_verify_code">Få kode</string>
     <string name="passport_re_get_verify_code">Få ny kode</string>
     <string name="passport_getting_verify_code">Henter</string>
@@ -59,6 +60,7 @@
     <string name="passport_forget_password_no_underline">Glemt passord</string>
     <string name="passport_reg_type_email">E-postadresse</string>
     <string name="passport_register_by_email"><u>Opprett en konto med en e-postadresse</u></string>
+    <string name="passport_international_register_by_email">Opprett en konto med en e-postadresse</string>
     <string name="passport_account_not_actived">Kontoen er ikke aktivert</string>
     <string name="passport_active_email_visit">Sjekk innboksen din på %s</string>
     <string name="passport_click_email_to_valid">"
@@ -177,6 +179,7 @@ For å aktivere kontoen må du følge
     <string name="passport_quick_register_notice"><u>Har du ikke Mi-konto? Opprett en.</u></string>
     <string name="passport_password_phone_login">Logg på med Mi-konto</string>
     <string name="passport_sms_verification_code_login">Logg på med SMS</string>
+    <string name="passport_sms_verification_code_login_or_register">Logg på eller registrer via SMS</string>
     <string name="passport_login_other_account">En annen konto</string>
     <string name="passport_reg_new_account">Opprett konto</string>
     <string name="passport_select_the_login_account">Velg kontoen du vil logge på med</string>

@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -345,7 +347,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="cta_dialog_title">Internettforbindelse</string>
     <string name="cta_dialog_msg">Sikkerhet krever internettforbindelse for å få oppdateringer, samt tilgang til plassering for å fungere normalt.</string>
     <string name="cta_settings">Tillat internettforbindelse</string>
-    <string name="gdpr_msg"><Data>For å kunne bruke de grunnleggende funksjonene i Sikkerhet, må du godta at Xiaomi kommer til å samle inn, behandle og bruke dine personlige data, inkludert informasjon om måtene du bruker Sikkerhets funksjoner (f.eks. statistikk for mobildatabruk, informasjon om skadelig programvare, samt grunnleggende informasjon om enheten din) og annen informasjon som er spesifisert i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a>.</Data></string>
+    <string name="gdpr_msg">" "<Data> For å kunne bruke de grunnleggende funksjonene i Sikkerhet, må du godta at Xiaomi kommer til å samle inn, behandle og bruke dine personlige data, inkludert informasjon om måtene du bruker Sikkerhets funksjoner (f.eks. statistikk for mobildatabruk, informasjon om skadelig programvare, samt grunnleggende informasjon om enheten din) og annen informasjon som er spesifisert i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a>. </Data>" "</string>
     <string name="app_name_na">Databruk</string>
     <string name="list_empty_text">Tøm</string>
     <string name="dialog_title_attention">Merk</string>
@@ -455,6 +457,7 @@ svarer"</string>
     <string name="managed_user_title">Alle arbeidsapplikasjoner</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -895,10 +898,20 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="status_bar_network_flow_purchase">"   Kjøp >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Sett opp dataplan >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Telefonsaldo:%1$s "</string>
-    <string name="status_bar_network_flow_exceed_content">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Plan overskredet: &lt;font color=%2$s>%3$s&lt;/font></string>
-    <string name="status_bar_network_flow_content">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Igjen: %2$s</string>
-    <string name="status_bar_network_flow_content_not_setting">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denne måneden: %2$s</string>
-    <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
+    <string name="status_bar_network_flow_exceed_content">"I dag: %1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;Plan overskredet: &lt;font color=%2$s>%3$s&lt;/font>
+        "</string>
+    <string name="status_bar_network_flow_content">"I dag: %1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Igjen: %2$s"</string>
+    <string name="status_bar_network_flow_content_not_setting">"I dag: %1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Denne måneden: %2$s"</string>
+    <string name="status_bar_network_flow_content_virtual_card">"%1$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        %2$s
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+        "</string>
     <string name="pref_key_tethering_setting">Éngangsdatagrense</string>
     <string name="pref_key_tethering_title">Engangsdatagrense</string>
     <string name="tether_limit_value_custom">Tilpasset</string>
@@ -915,25 +928,8 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="cpu_usage_android_system">Android-system</string>
     <string name="cpu_usage_process_run_time_little_time">Mindre enn 1 minutt</string>
     <string name="cpu_usage_view_action_btn_text">Trykk for å se</string>
-    <string name="cpu_usage_app_bg_restrict_title">Bakgrunnsinnstillinger</string>
-    <string name="cpu_usage_app_bg_restrict_default">Auto (anbefalt)</string>
-    <string name="cpu_usage_app_bg_restrict_no_limit">Ikke begrens</string>
-    <string name="cpu_usage_app_bg_restrict_partly">Etter %s</string>
-    <string name="cpu_usage_app_bg_restrict_full">Begrens bakgrunnsaktivitet</string>
-    <string name="cpu_usage_app_bg_restrict_partly_short">Etter %s</string>
-    <string name="cpu_usage_app_bg_restrict_default_short">Auto</string>
-    <string name="cpu_usage_app_tip_can_not_restrict_system_app">Kan ikke begrense systemtjenester</string>
-    <string name="cpu_usage_app_uninstalled_toast">Applikasjonen er avinstallert</string>
     <string name="memory_clean_memory_size_tip">Buffer</string>
-    <string name="memory_clean_click_tip">Øk fart</string>
-    <string name="memory_clean_running_process_title">Overvåker apper (%d)</string>
-    <string name="memory_clean_cleaning_title">Tømmer buffer</string>
     <string name="memory_clean_no_need_clean">Alt ser bra ut</string>
-    <string name="memory_cleaned_memory_up">Fartsboost</string>
-    <string name="memory_cleaned_memory_info">Tilgjengelig minne</string>
-    <string name="memory_clean_no_running_process">Ingen oppgaver å tømme</string>
-    <string name="memory_clean_btn_click_text">Øk fart</string>
-    <string name="optimize_result_header_view_summary">Fartsboost</string>
     <string name="optimize_result_available_memory_info">Tilgjengelig minne</string>
     <string name="optimize_result_title_uninstall_apps">Apper</string>
     <string name="om_settings_title">Innstillinger</string>
@@ -949,44 +945,13 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="om_settings_memory_occupy_notify_never">Aldri</string>
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Låst opp</string>
-    <string name="om_lock_app_locked_app_occupy_memory">Låsing av for mange apper reduserer telefonens ytelse</string>
-    <string name="om_lock_app_tip_msg">Trykk for å låse</string>
-    <string name="om_notify_cpu_load_too_high_title">CPU-bruk på %s er for høy</string>
-    <string name="om_notify_cpu_load_too_high_summary">Begrens bakgrunnsaktivitet for å øke hastigheten</string>
-    <string name="om_notify_need_clean_memory_title">Cache-størrelse har nådd %s</string>
-    <string name="om_notify_need_clean_memory_summary">Tøm cache for å øke fart</string>
-    <string name="om_cpu_overload_activity_title">Apper med høy CPU-bruk</string>
-    <string name="om_cpu_overload_app_name">Apper med høy CPU-bruk</string>
-    <string name="om_cpu_overload_detail">Brukt %1$s av CPU med kapasitet på %2$s</string>
-    <string name="om_btn_text_quick_fix">Optimaliser</string>
-    <string name="om_cpu_overload_proc_activity_title">Problemer</string>
-    <string name="om_cpu_overload_proc_title">Problemer</string>
-    <string name="om_media_scan_timeout_proc_name">Mediaserver</string>
-    <string name="om_media_scan_timeout_proc_detail">Mediaserveren arbeider i bakgrunnen. Du kan begrense aktiviteten dens.</string>
-    <string name="om_media_scan_time_warn_title">"Mediaserveren arbeider i bakgrunnen.
-Dette reduserer batterilevetiden."</string>
-    <string name="om_other_processes">Andre oppgaver</string>
-    <string name="om_other_processes_cpu_usage_summary">Gjennomsnittlig CPU-bruk er lavere enn %s%%</string>
-    <string name="om_cpu_overload_app_fixed">Alle problemer ble fikset</string>
-    <string name="om_memory_clean_cleaning_text">Øker fart…</string>
-    <string name="om_formatted_percent_string">%s%%</string>
-    <string name="om_cpu_usage_warn_title_text">"Denne appen kan forsinke
-enheten din"</string>
-    <string name="om_ill_proc_handle_unstaill_title">Avinstallere %s?</string>
-    <string name="om_ill_proc_handle_uninstall_prompt">Avinstaller denne appen for å fikse problemer med batteribruk.</string>
-    <string name="om_ill_proc_type_wakelock_title">Appen blokkerer hvilemodus og tømmer batteri</string>
-    <string name="om_ill_proc_type_wakelock_detail">Løs søvnmodusproblemer</string>
-    <string name="om_ill_proc_type_wifiscan_title">Appen søker ofte etter Wi-Fi og tømmer batteri</string>
-    <string name="om_ill_proc_type_wifiscan_detail">Fiks Wi-Fi-skanningsproblemer</string>
-    <string name="om_ill_proc_type_cpu_title">Appen tar opp CPU og tømmer batteri</string>
-    <string name="om_ill_proc_type_cpu_detail">Fiks CPU-belastningsproblemer</string>
-    <string name="om_ill_proc_type_gps_title">Appen bruker ofte GPS og tømmer batteri</string>
-    <string name="om_ill_proc_type_gps_detail">Fiks GPS-problemer</string>
-    <string name="om_ill_proc_type_alarm_title">Appen vekker enheten ofte og tømmer batteri</string>
-    <string name="om_ill_proc_type_alarm_detail">Fiks problemer med bakgrunnsaktivitet</string>
-    <string name="om_ill_proc_type_radio_title">Appen kobler ofte til nettverket og tømmer batteri</string>
-    <string name="om_ill_proc_type_radio_detail">Fiks problemer med nettverksforbindelsen</string>
-    <string name="om_ill_proc_activity_title">Problemer</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
+    <string name="om_not_finish_speedboost">Hastighetsøkning er nødvendig</string>
+    <string name="om_running_locked_apps">Låste apper som er i gang</string>
+    <string name="om_running_system_apps">Kjører system-apper</string>
+    <string name="om_running_third_apps">Kjører tredjeparts apper</string>
+    <string name="om_locked_apps_summary">Låste apper vil ignoreres av hastighetsøkningen.</string>
+    <string name="om_promotion">Annonse</string>
     <string name="power_center_title">Batteribruk</string>
     <string name="power_center_back">Tilbake</string>
     <string name="power_center_auto_shutdown">Strømstyringsplan</string>
@@ -1030,6 +995,7 @@ enheten din"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1224,16 +1190,6 @@ enheten din"</string>
     <string name="power_center_main_percent_formatted">%s%%</string>
     <string name="auto_task_manage_new_task">Ny automatisert oppgave</string>
     <string name="extreme_power_save_mode_title">Ekstrem batterisparer</string>
-    <string name="extreme_power_save_mode_summary">Ekstrem batterisparer begrenser bakgrunnsaktivitet og stopper synkronisering.</string>
-    <string name="extreme_power_save_description"><li>Ekstrem batterisparer stopper all bakgrunnsaktiviteten til en app etter at du lukker den og går tilbake til startskjermen. Denne appen vil ikke sende deg varsler eller motta oppdateringer.</li>"
-"<li>Hvis du ønsker at en app skal kjøre i bakgrunnen kan du låse den i Nylige, eller legge den til i bakgrunnsunntak nedenfor. Opptil 4 apper kan kjøre i bakgrunnen når Ekstrem batterisparer er på.</li>"
-"<li>Ekstrem batterisparer slår av NFC som standard. Du kan endre dette under Innstillinger.</li>"
-"<li>For å være sikker på at du kan bruke alle funksjonene på enheten som normalt, vil Ekstrem batterisparer slås av automatisk når batteriet er 30 % oppladet.</li></string>
-    <string name="extreme_add_white_list_title">Bakgrunnsunntak</string>
-    <string name="extreme_add_white_list_summary">Legg til opptil 4 apper</string>
-    <string name="notification_open_extreme_mode_text">Ekstrem batterisparer slått på</string>
-    <string name="notification_exit_extreme_mode_title">Ekstrem batterisparer slått av</string>
-    <string name="notification_exit_extreme_mode_text">Batteriet er mer enn %s oppladet</string>
     <string name="handle_title_app">Apper</string>
     <string name="handle_title_abnormal">Tapper batteri</string>
     <string name="handle_title_system">Systembatteribruk</string>
@@ -1256,12 +1212,17 @@ enheten din"</string>
     <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
     <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
     <string name="power_center_list_item_battery_status_time">t</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Stopp skanning</string>
     <string name="hide_mode_result_summary_text">Tilpass batterisparerinnstillinger for individuelle apper</string>
     <string name="auto_task_result_summary_text">Sett automatiserte oppgaver for batterisparer</string>
     <string name="pc_settings_title">Detaljer om batteribruk</string>
     <string name="pc_main_activity_back">Tilbake</string>
     <string name="extreme_power_save_mode_card_summary">Slå på Ekstrem modus for å spare strøm når det er lite batteri igjen.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Sjekk meldingsapp</string>
     <string name="apps_list_header_title_sms_access">Begrens tilgang til bekreftelseskoder</string>
@@ -1415,11 +1376,13 @@ enheten din"</string>
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_summary_networkassistants">Administrer dataplanen din</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Grensen er overskredet</string>
     <string name="menu_summary_networkassistants_3">Tilstrekkelig med data gjenstår</string>
     <string name="menu_summary_networkassistants_4">I ferd med å gå tom for data</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1432,12 +1395,14 @@ enheten din"</string>
     <string name="menu_summary_garbage_cleanup">Ingen papirkurv funnet</string>
     <string name="menu_summary_garbage_cleanup_2">Størrelse på papirkurven</string>
     <string name="menu_summary_garbage_cleanup_3">Fjern søppel</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteribruk</string>
     <string name="menu_summary_power_manager">Batterispareren gir deg mer tid mellom oppladingene</string>
     <string name="menu_summary_power_manager_1">Batteriet er fulladet</string>
     <string name="menu_summary_power_manager_2">%s gjenstår</string>
     <string name="menu_summary_power_manager_3">Koble til lader</string>
     <string name="menu_summary_power_manager_4">%s til fulladet</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="examination_score_100">Alt ser bra ut!</string>
     <string name="examination_score_80_100">Et par enheter kan optimaliseres</string>
@@ -1813,6 +1778,7 @@ enheten din"</string>
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2195,6 +2161,7 @@ enheten din"</string>
     <string name="gs_call_handsfree_mute">Stillemodus</string>
     <string name="gs_gamebox">Snarveier i spillet</string>
     <string name="gs_gamebox_detail">Vis panel for snarvei i spillet</string>
+    <string name="gs_slip_gamebox_detail">Bruk glideren for å få snarveipanelet til å dukke opp. Valg for hurtigsvar og skjermopptak er tilgjengelig.</string>
     <string name="gs_gamebox_slip">Trykk skjermen nedover for å åpne</string>
     <string name="gs_forbid_autosync">Begrens bakgrunnssykronisering</string>
     <string name="gs_app_back_self_start">Batterisparer</string>
@@ -2300,7 +2267,7 @@ enheten din"</string>
     <string name="thermal_tips_title">Oppmerksomhet</string>
     <string name="thermal_tips_message">Å spille i Ytelses-modus kan føre til problemer med overoppheting</string>
     <string name="forbid_autobright_title">Fiks skjermens lysstyrke</string>
-    <string name="forbid_autobright_summary">Lysstyrken på skjermen holder seg lik når du spiller spill</string>
+    <string name="forbid_autobright_summary">Automatisk lysstyrke vil slås av mens du spiller og vil gjenopprettes etter du er ferdig</string>
     <string name="gamebooster_lowbattery_notification_title">Batteriet er under 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">Lad enheten din før den skrur seg av</string>
     <string name="game_ad_recommendation">Alle spiller</string>
@@ -2364,6 +2331,7 @@ enheten din"</string>
     <string name="gb_create_icon_summary">Lag snarvei til Hjem-skjerm</string>
     <string name="title_reply">Kommenter</string>
     <string name="title_like">Lik</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort pause.</string>
     <string name="video_repeat">Spill igjen</string>

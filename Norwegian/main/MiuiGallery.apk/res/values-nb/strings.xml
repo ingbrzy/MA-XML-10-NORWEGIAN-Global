@@ -98,7 +98,6 @@
     <string name="app_name">Galleri</string>
     <string name="app_name_view_picture">Se bilder</string>
     <string name="app_name_view_video">Se videoer</string>
-    <string name="apply">Bruk</string>
     <string name="associate_face_album">Velg et album</string>
     <string name="auto_backup_introduce">Sikkerhetslagre bilder og videoer automatisk (Mi Account er påkrevd)</string>
     <string name="auto_download_media_title">Last ned bilder fra Mi Cloud automatisk</string>
@@ -123,10 +122,6 @@
     <string name="baby_album_sharers_page_title">Del med familie</string>
     <string name="baby_birthday">Fødselsdag</string>
     <string name="baby_face_desc">Babyalbum</string>
-    <string name="baby_lock_wallpaper">Låseskjermens bakgrunn</string>
-    <string name="baby_lock_wallpaper_cancelled">Byttet til standard bakgrunn på låst skjerm</string>
-    <string name="baby_lock_wallpaper_save_settings_msg">Anvende nåværende innstillinger?</string>
-    <string name="baby_lock_wallpaper_title">Bruke babybilder som bakgrunn på låst skjerm?</string>
     <string name="baby_name_cannot_empty">Fyll inn navn</string>
     <string name="baby_name_cannot_start_with">"Navnet kan ikke begynne på '%s'"</string>
     <string name="baby_name_contain_invalidate_char">"Navnet kan ikke inneholde '%s'"</string>
@@ -196,7 +191,6 @@
     <string name="byteShort">B</string>
     <string name="camera_needs_auto_backup_tip">Kameraalbum må sikkerhetskopieres</string>
     <string name="cancel">Avbryt</string>
-    <string name="cancel_baby_lock_wallpaper_confirm_msg">Bytte til standard bakgrunn på låst skjerm?</string>
     <string name="cancel_download_btn_text">Stopp</string>
     <string name="cancel_hint">Operasjon avbrutt</string>
     <string name="cannot_remove_creator">Kan ikke fjerne skaper</string>
@@ -347,6 +341,11 @@
     <string name="disable_auto_upload_tip">Skru av synkronisering med Mi Cloud for dette albumet?</string>
     <string name="disable_auto_upload_title">Skru av synkronisering med Mi Cloud</string>
     <string name="do_not_remind_me">Ikke vis igjen</string>
+    <string name="document_provider_guide_step_1">1. Trykk på «Mer»-knappen.</string>
+    <string name="document_provider_guide_step_2">2. Trykk på \"Vis intern lagring\".</string>
+    <string name="document_provider_guide_step_3">3. Trykk på sidemeny-knappen.</string>
+    <string name="document_provider_guide_step_4">4. Velg «SD-kort».</string>
+    <string name="document_provider_guide_step_5">5. Trykk «Velg».</string>
     <string name="double_tap_to_higher_definition">Trykk to ganger for forhåndsvisningen i HD</string>
     <string name="download_canceled">Nedlasting avbrutt</string>
     <string name="download_error_format">Kunne ikke laste ned %s</string>
@@ -450,6 +449,18 @@
     <string name="exit_video_play">Avslutt</string>
     <string name="expand_desc">Mer</string>
     <string name="expand_people">Vis flere personer</string>
+    <string name="ext_sdcard_first_entrance_request_failed_text">Galleri lagrer elementer til intern lagring i stedet. Du kan endre dette i Innstillinger > Lagring > Lagringsinnstillinger.</string>
+    <string name="ext_sdcard_first_entrance_request_failed_title">Kan ikke gi tilganger.</string>
+    <string name="ext_sdcard_guide_first_page_button_text">Neste</string>
+    <string name="ext_sdcard_guide_last_page_button_text">Gi tilganger</string>
+    <string name="ext_sdcard_guide_text">Galleri trenger tillatelsen din for tilgang til SD-kortet. Her er hva du kan gjøre:</string>
+    <string name="ext_sdcard_operation_failed_text">Galleri trenger tillatelsen din for tilgang til SD-kortet.</string>
+    <string name="ext_sdcard_operation_failed_title">Kunne ikke fullføre handlingen</string>
+    <string name="ext_sdcard_permission_request_button_text">Skjønner</string>
+    <string name="ext_sdcard_permission_request_reason">Galleri trenger tillatelsen din for tilgang til SD-kort. Det tillater deg å slette og redigere bilder og videoer som er lagret på SD-kortet.</string>
+    <string name="ext_sdcard_permission_request_title">Tillat Galleri tilgang til SD-kort</string>
+    <string name="ext_sdcard_request_failed_button_text">OK</string>
+    <string name="ext_sdcard_request_succeed_toast_text">Du er klar!</string>
     <string name="face_album_empty">"Ikke nok bilder til å gjenkjenne personer.
 Ta flere bilder av vennene dine!"</string>
     <string name="face_album_empty_syncing">Synkroniserer data, kom tilbake om en liten stund</string>
@@ -467,6 +478,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_to_pick_email">Ugyldig e-postadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Sjekk din datatilkobling og prøv igjen.</string>
@@ -477,6 +489,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="feature_guidance_photo_effects">"Ny fotoeffekt
 er tilgjengelig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgjengelig</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -546,6 +559,7 @@ er tilgjengelig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Sett</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri trenger tilgang til 
 %s
  for å fungere som normalt, trykk \"Sett\" for å gå til Tillatelser."</string>
@@ -721,6 +735,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="operation_save">Lagre</string>
     <string name="operation_send">Send</string>
     <string name="operation_set_contact_photo">Sett som kontaktbilde</string>
+    <string name="operation_set_slide_wallpaper">Angi som lysbildefremvisningsbakgrunn</string>
     <string name="operation_set_wallpaper">Sett som bakgrunn</string>
     <string name="operation_share">Del</string>
     <string name="operation_show_in_photos_tab">Vis i bilder</string>
@@ -744,6 +759,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="people_mark_mode_title_no_mark_name">Velg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Uten navn</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Bilder av kjæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Bilder</string>
@@ -867,6 +883,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="picker_image_will_download">%d av de valgte bildene er ikke på enheten. De vil lastes ned.</string>
     <string name="picker_no_network_message">Koble til nettverket for å laste ned</string>
     <string name="picker_origin_need_download">%1$d av de valgte bildene (%2$d MB) er ikke på enheten. Laste dem ned ved bruk av mobildata?</string>
+    <string name="picker_origin_request_progress_fail">Kunne ikke laste ned det opprinnelige bildet grunnet en nettverksfeil.</string>
     <string name="picker_origin_request_progress_message">Klargjør originalfilene (%1$d/%2$d)…</string>
     <string name="picker_title_format">Velg %1$d til %2$d bilder</string>
     <string name="picker_title_selection_format">Valgte bilder: %d</string>
@@ -1004,6 +1021,9 @@ for å tilpasse Bildegalleriet"</string>
     <string name="search_title_recommend">Anbefalt</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leter etter projektor …</string>
     <string name="secret_album_card_description">Den beste plassen for alle dine små hemmeligheter</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1032,7 +1052,8 @@ for å tilpasse Bildegalleriet"</string>
     <string name="send_secret_file_failed">Kunne ikke dele</string>
     <string name="send_secret_file_space_low">Ikke nok lagringsplass</string>
     <string name="send_too_many_files_error">Kan bruke opptil %d elementer samtidig</string>
-    <string name="set_as_baby_lock_wallpaper">Angi som bakgrunn på låst skjerm</string>
+    <string name="set_as_slide_wallpaper_description">Dette bildet er et miniatyrbilde. Laste ned det opprinnelige?</string>
+    <string name="set_as_slide_wallpaper_title">Angi som lysbildefremvisningsbakgrunn</string>
     <string name="set_as_wallpaper_description">Dette bildet er et miniatyrbilde. Laste ned det opprinnelige?</string>
     <string name="set_as_wallpaper_title">Sett som bakgrunn</string>
     <string name="set_face_group_toast_msg_new_user">Hold inne en person for å slå sammen eller ignorere dem</string>
@@ -1282,6 +1303,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Vis flere personer</string>
     <string name="voice_assistant">Taleinndata</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>
@@ -1289,7 +1311,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">I går</string>
     <string name="you_are">Du er babyens</string>
-    <string name="operation_set_slide_wallpaper">Angi som lysbildefremvisningsbakgrunn</string>
+    <string name="photo_editor_talkback_crop_screen">Sideforhold til fullskjerm</string>
     <string name="refocus_discard_confirm_message">Save changes?</string>
     <string name="refocus_discard_negative_btn">Discard</string>
     <string name="refocus_discard_positive_btn">Save</string>
@@ -1302,6 +1324,4 @@ for å tilpasse Bildegalleriet"</string>
     <string name="refocus_title">Blur</string>
     <string name="refocus_type_static">Blur level</string>
     <string name="refocus_type_video">Light trails</string>
-    <string name="set_as_slide_wallpaper_description">Dette bildet er et miniatyrbilde. Laste ned det opprinnelige?</string>
-    <string name="set_as_slide_wallpaper_title">Angi som lysbildefremvisningsbakgrunn</string>
 </resources>

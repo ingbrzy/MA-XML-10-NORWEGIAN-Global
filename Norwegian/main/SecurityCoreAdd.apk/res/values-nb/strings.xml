@@ -67,10 +67,11 @@
     <string name="xspace_label">Doble apper</string>
     <string name="xspace_setting_label">Innstillinger for dobbeltapp</string>
     <string name="xspace_account">Kontoer for dobbeltapp</string>
+    <string name="xspace_remove">Slett dobbeltappkontoer</string>
     <string name="declare_dialog_title">Om dobbeltapper</string>
     <string name="menu_item_about_privacy_title">Personvernerklæring</string>
     <string name="stop_xspace_alert_title">Sletter dobbeltappkontoer</string>
-    <string name="stop_xspace_alert_content">Du har slettet alle dobbeltapper. Vil du også slette dobbeltappkontoer og appdata? Etter dette må du opprette dobbeltapper på nytt når du trenger dem.</string>
+    <string name="stop_xspace_alert_content">Alle dobbeltapper og de tilknyttede dataene vil slettes permanent. Du vil trenge å starte enheten din på nytt for å ta i bruk endringen. Slette kontoer nå?</string>
     <string name="xspace_loading_msg">Laster apper…</string>
     <string name="xspace_header">Doblbeltapper</string>
     <string name="xspace_introduce">Anbefalt</string>

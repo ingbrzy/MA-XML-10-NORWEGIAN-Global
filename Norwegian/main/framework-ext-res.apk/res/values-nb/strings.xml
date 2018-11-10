@@ -135,6 +135,7 @@
     <string name="security_permission_open_wifi_settings">Åpne Wi-Fi-innstillinger</string>
     <string name="xspace_resolver_activity_title">Valgt app</string>
     <string name="user_switching_dialog_text">Veksler…</string>
+    <string name="xspace_head">Dobbeltapp</string>
     <string name="activity_package_delete_confirm_title">Vær oppmerksom</string>
     <string name="button_text_cancel">Avbryt</string>
     <string name="button_text_delete">Avinstaller</string>
