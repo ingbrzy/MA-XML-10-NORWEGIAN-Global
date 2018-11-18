@@ -93,8 +93,8 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="active_classify">Sorter etter aktivitetsstatus</string>
     <string name="extreme_mode_max_item_alert">Du kan velge å kjøre opptil 4 apper i bakgrunnen i Ekstrem-modus</string>
     <string name="message_i_know">Skjønner</string>
-    <string name="high_temp_state">Høy temperatur</string>
-    <string name="high_temp_state_message">Beskyttelse mot høy temperatur, data, wifiap, gps, kamera osv. vil være begrenset</string>
+    <string name="high_temp_state">Overoppheting</string>
+    <string name="high_temp_state_message">Enheten er overopphetet. Mobildata, Wi-Fi-soner, GPS og kamera vil være begrenset.</string>
     <string name="atrace_start">Tar opp atrace-logg…</string>
     <string name="atrace_saving">Lagrer atrace-logg…</string>
     <string name="atrace_saved">Lagringen er vellykket</string>

@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -345,7 +347,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="cta_dialog_title">Internettforbindelse</string>
     <string name="cta_dialog_msg">Sikkerhet krever internettforbindelse for å få oppdateringer, samt tilgang til plassering for å fungere normalt.</string>
     <string name="cta_settings">Tillat internettforbindelse</string>
-    <string name="gdpr_msg">" "<Data> For å kunne bruke de grunnleggende funksjonene i Sikkerhet, må du godta at Xiaomi kommer til å samle inn, behandle og bruke dine personlige data, inkludert informasjon om måtene du bruker Sikkerhets funksjoner (f.eks. statistikk for mobildatabruk, informasjon om skadelig programvare, samt grunnleggende informasjon om enheten din) og annen informasjon som er spesifisert i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a>. </Data>" "</string>
+    <string name="gdpr_msg"><Data>For å kunne bruke de grunnleggende funksjonene i Sikkerhet, må du godta at Xiaomi kommer til å samle inn, behandle og bruke dine personlige data, inkludert informasjon om måtene du bruker Sikkerhets funksjoner (f.eks. statistikk for mobildatabruk, informasjon om skadelig programvare, samt grunnleggende informasjon om enheten din) og annen informasjon som er spesifisert i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a>.</Data></string>
     <string name="app_name_na">Databruk</string>
     <string name="list_empty_text">Tøm</string>
     <string name="dialog_title_attention">Merk</string>
@@ -357,6 +359,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="byteShort">B</string>
     <string name="yuan">CNY</string>
     <string name="percent_text_formatted">%s%%</string>
+    <string name="main_traffic_detail">Databruk</string>
     <string name="main_toolbar_firewall">Begrens databruk</string>
     <string name="main_toolbar_statistic">Databrukstatistikk</string>
     <string name="main_toolbar_purchase">Fyll på</string>
@@ -406,6 +409,9 @@ svarer"</string>
     <string name="tc_parse_error">Kunne ikke dele opp SMS</string>
     <string name="tc_get_cmd_error">Kunne ikke hente mal</string>
     <string name="tc_web_correct_error">Kunne ikke kalibrere</string>
+    <string name="main_daily_card_guide_dialog_title">Angi datamengde</string>
+    <string name="main_daily_card_guide_dialog_summary">Du kan velge mellom daglig, månedlig og ubegrenset datamengde. Angi datamengde nå?</string>
+    <string name="main_daily_card_guide_dialog_ok">Angi</string>
     <string name="firewall_activity_lable">Begrens databruk på app</string>
     <string name="firewall_applist">Apper</string>
     <string name="firewall_mobile">Mobildata</string>
@@ -453,8 +459,10 @@ svarer"</string>
     <string name="background_traffic">Bakgrunn %s</string>
     <string name="detail_app_button">App-info</string>
     <string name="managed_user_title">Alle arbeidsapplikasjoner</string>
+    <string name="not_limited_brand">Ubegrenset</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -490,12 +498,19 @@ svarer"</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Oppdatert for over en måned siden</string>
     <string name="left_precent">60%</string>
     <string name="right_precent">100%</string>
+    <string name="pref_category_package_type_title">Datamengdetype</string>
+    <string name="pref_title_traffic_package_type">Datamengdetype</string>
+    <string name="pref_traffic_package_type_summary">Månedlig/daglig/ubegrenset</string>
+    <string name="pref_traffic_daily_package">Daglig datamengde</string>
+    <string name="pref_traffic_monthly_package">Månedlig datamengde</string>
+    <string name="pref_traffic_unlimited_package">Ubegrenset datamengde</string>
+    <string name="pref_traffic_daily_package_brand">Leverandør av daglig datamengde</string>
     <string name="pref_avaible_traffic">Dataplan</string>
     <string name="pref_daily_traffic">Høyeste datagrense</string>
     <string name="pref_special_package_setting">Tilpasset dataplan</string>
     <string name="pref_data_usage_not_set">Ukjent dataplan</string>
     <string name="pref_operator_not_set">Leverandøren er ikke valgt</string>
-    <string name="pref_special_package_setting_summary">Administrer laveste datanivå, påfyllingspakker, daglige dataplaner, og utpekt data</string>
+    <string name="pref_special_package_setting_summary">Administrer laveste datanivå, påfyllingspakker, og utpekt data</string>
     <string name="pref_warning_values">Advarsel om databruknivå</string>
     <string name="pref_pkg_begin_date">Tilbakestillingsdato på bruk</string>
     <string name="pref_more_settings">Tilleggsinnstillinger</string>
@@ -508,6 +523,8 @@ svarer"</string>
     <string name="daily_pkg_traffic">Høyeste datagrense</string>
     <string name="input_aviable_traffic">Angi grense for databruk</string>
     <string name="pkg_traffic">Angi grense for databruk</string>
+    <string name="dialog_change_package_type_title">Endrer datamengdetype</string>
+    <string name="dialog_change_package_type_summary">Endring av datamengdetype tilbakestiller alle innstillinger for databruk (f.eks. datagrenser) til standardverdier. Endre datamengdetype nå?</string>
     <string name="free_traffic_settings">Innstillinger for laveste databruk</string>
     <string name="free_time_traffic">Laveste datagrense</string>
     <string name="power_save_on_time_start_time_summary_na">Fra</string>
@@ -549,6 +566,21 @@ svarer"</string>
     <string name="traffic_setting_fragment_send_num_tips">Skriv inn telefonnummer</string>
     <string name="traffic_setting_fragment_sms_content_tips">Skriv meldingen din her</string>
     <string name="traffic_setting_fragment_loacation_alert_nomore">Ikke vis igjen</string>
+    <string name="traffic_setting_fragment_packege_type">Innstillinger for datamengde</string>
+    <string name="traffic_setting_fragment_month_title">Månedlig datamengde</string>
+    <string name="traffic_setting_fragment_month_summary">Mobildata og ringeminutter oppdateres månedlig</string>
+    <string name="traffic_setting_fragment_daily_title">Daglig datamengde</string>
+    <string name="traffic_setting_fragment_daily_summary">Mobildata oppdateres daglig</string>
+    <string name="traffic_setting_fragment_not_limited_title">Ubegrenset datamengde</string>
+    <string name="traffic_setting_fragment_not_limited_summary">Ubegrensede mobildatamuligheter</string>
+    <string name="traffic_setting_fragment_next">Neste</string>
+    <string name="daily_card_setting_fragment_daily_card_setting">Innstillinger for daglig datamengde</string>
+    <string name="daily_card_setting_fragment_daily_card_brand">Operatør</string>
+    <string name="daily_card_setting_fragment_daily_card_brand_value">Velg operatør</string>
+    <string name="daily_card_setting_fragment_daily_card_summary">MIUI fastsetter datagrenser og apper med ubegrenset data i henhold til operatøren du velger. Hvis operatøren din ikke er på listen, velg «Annen» og sett opp din daglige datamengde manuelt.</string>
+    <string name="daily_card_setting_fragment_daily_package">Daglig datagrense</string>
+    <string name="daily_card_setting_fragment_month_package">Månedlig datapakke</string>
+    <string name="daily_card_setting_fragment_package_summary">Hvis daglig datamengde inneholder en månedlig datapakke, brukes den før den daglige pakken.</string>
     <string name="data_usage_warning_body">Trykk for å se detaljer om bruk.</string>
     <string name="data_usage_mobile_limit_title">Mobildatagrense er nådd</string>
     <string name="data_usage_limit_body">Trykk for å skru på mobildata.</string>
@@ -895,20 +927,10 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="status_bar_network_flow_purchase">"   Kjøp >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Sett opp dataplan >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Telefonsaldo:%1$s "</string>
-    <string name="status_bar_network_flow_exceed_content">"I dag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;Plan overskredet: &lt;font color=%2$s>%3$s&lt;/font>
-        "</string>
-    <string name="status_bar_network_flow_content">"I dag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        Igjen: %2$s"</string>
-    <string name="status_bar_network_flow_content_not_setting">"I dag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        Denne måneden: %2$s"</string>
-    <string name="status_bar_network_flow_content_virtual_card">"%1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        %2$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        "</string>
+    <string name="status_bar_network_flow_exceed_content">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Plan overskredet: &lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_content">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Igjen: %2$s</string>
+    <string name="status_bar_network_flow_content_not_setting">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denne måneden: %2$s</string>
+    <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
     <string name="pref_key_tethering_setting">Éngangsdatagrense</string>
     <string name="pref_key_tethering_title">Engangsdatagrense</string>
     <string name="tether_limit_value_custom">Tilpasset</string>
@@ -942,6 +964,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="om_settings_memory_occupy_notify_never">Aldri</string>
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Låst opp</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Hastighetsøkning er nødvendig</string>
     <string name="om_running_locked_apps">Låste apper som er i gang</string>
     <string name="om_running_system_apps">Kjører system-apper</string>
@@ -991,6 +1014,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1207,12 +1231,17 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
     <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
     <string name="power_center_list_item_battery_status_time">t</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Stopp skanning</string>
     <string name="hide_mode_result_summary_text">Tilpass batterisparerinnstillinger for individuelle apper</string>
     <string name="auto_task_result_summary_text">Sett automatiserte oppgaver for batterisparer</string>
     <string name="pc_settings_title">Detaljer om batteribruk</string>
     <string name="pc_main_activity_back">Tilbake</string>
     <string name="extreme_power_save_mode_card_summary">Slå på Ekstrem modus for å spare strøm når det er lite batteri igjen.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Sjekk meldingsapp</string>
     <string name="apps_list_header_title_sms_access">Begrens tilgang til bekreftelseskoder</string>
@@ -1366,11 +1395,13 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_summary_networkassistants">Administrer dataplanen din</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Grensen er overskredet</string>
     <string name="menu_summary_networkassistants_3">Tilstrekkelig med data gjenstår</string>
     <string name="menu_summary_networkassistants_4">I ferd med å gå tom for data</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1383,12 +1414,14 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="menu_summary_garbage_cleanup">Ingen papirkurv funnet</string>
     <string name="menu_summary_garbage_cleanup_2">Størrelse på papirkurven</string>
     <string name="menu_summary_garbage_cleanup_3">Fjern søppel</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteribruk</string>
     <string name="menu_summary_power_manager">Batterispareren gir deg mer tid mellom oppladingene</string>
     <string name="menu_summary_power_manager_1">Batteriet er fulladet</string>
     <string name="menu_summary_power_manager_2">%s gjenstår</string>
     <string name="menu_summary_power_manager_3">Koble til lader</string>
     <string name="menu_summary_power_manager_4">%s til fulladet</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="examination_score_100">Alt ser bra ut!</string>
     <string name="examination_score_80_100">Et par enheter kan optimaliseres</string>
@@ -1764,6 +1797,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2080,13 +2114,14 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="app_manager_clear_cache">Tøm cache</string>
     <string name="app_manager_reset_app_preferences">Tilbakestill app-preferanser</string>
     <string name="app_manager_reset_app_preferences_title">Tilbakestille app-preferanser?</string>
-    <string name="app_manager_reset_app_preferences_desc">"Dette vil tilbakestille alle preferansene for:
+    <string name="app_manager_reset_app_preferences_desc">"Dette tilbakestiller alle preferansene for:
 
- "<li>Deaktiverte apper</li>"
- "<li>Varslinger om dekativerte apper</li>"
- "<li>Standard-apper</li>"
- "<li>Begrensinger på bakgrunnsdata for apper</li>"
-\\n Du vil ikke miste noe app-data."</string>
+"<li>Deaktiverte apper</li>"
+"<li>Deaktiverte appvarsler</li>"
+"<li>Standardapper</li>"
+"<li>Begrensninger på bakgrunnsdata for apper</li>"
+
+Du mister ikke noe appdata."</string>
     <string name="app_manager_reset_app_preferences_button">Tilbakestill apper</string>
     <string name="app_manager_disable_text">Deaktiver</string>
     <string name="app_manager_enable_text">Aktiver</string>
@@ -2316,6 +2351,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="gb_create_icon_summary">Lag snarvei til Hjem-skjerm</string>
     <string name="title_reply">Kommenter</string>
     <string name="title_like">Lik</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort pause.</string>
     <string name="video_repeat">Spill igjen</string>

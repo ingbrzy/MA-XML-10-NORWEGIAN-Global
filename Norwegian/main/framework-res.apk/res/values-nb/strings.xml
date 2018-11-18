@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Merk</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne videoen er ikke gyldig for direkteavspilling på enheten.</string>
     <string name="selectTextMode">Marker tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeravtrykk</string>
     <string name="paste_as_plain_text">Lim inn som ren tekst</string>
     <string name="autofill">Autofyll</string>
@@ -370,6 +371,7 @@ Ta kontakt med administratoren for organisasjonen din hvis du har spørsmål."</
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"</string>
     <string name="fcComplete">Funksjonskode utført.</string>
     <string name="fcError">Tilkoblingsproblem eller ugyldig funksjonskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Finn</string>
     <string name="find_next">Finn neste</string>
     <string name="find_on_page">Finn på side</string>
@@ -555,6 +557,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Skriv inn PIN-koden for SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser opp SIM-kortet ...</string>
+    <string name="kg_text_message_separator">" — "</string>
     <string name="kg_too_many_failed_attempts_countdown">Prøv på nytt om %1$d sekunder.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har tastet inn passordet ditt feil %1$d ganger. 
 
@@ -822,6 +825,7 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-anrop</string>
     <string name="notification_hidden_text">Nytt varsel</string>
     <string name="notification_listener_binding_label">Varsellytteren</string>
+    <string name="notification_messaging_title_template">%1$s%2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste for rangering av varsler</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Påloggingsfeil for %1$s</string>
@@ -1495,5 +1499,6 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">«Ikke forstyrr»</string>
     <string name="zen_mode_forever">Inntil du slår av Ikke forstyrr</string>
     <string name="zen_mode_forever_dnd">Inntil du slår av Ikke forstyrr</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Til %1$s</string>
 </resources>

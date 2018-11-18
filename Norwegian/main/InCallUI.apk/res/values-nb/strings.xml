@@ -51,14 +51,12 @@
     <string name="onscreen_note_calls_text">Notat</string>
     <string name="call_record_wait_label">Venter</string>
     <string name="contacts_icon_label">Kontakter</string>
-    <string name="conference_call_number">%s personer</string>
     <string name="conference_call_description" formatted="false">%s,%s etc. totalt %s</string>
     <string name="conference_call_single_description" formatted="false">%s etc. totalt %s</string>
     <string name="separate_from_conference">Skill samtaler</string>
     <string name="caller_manage_header">Konferansesamtale %s</string>
     <string name="incall_call_type_label_sip">Internettsamtale</string>
     <string name="incoming_call_forwarded_title">Videresend innkommende anrop</string>
-    <string name="call_title_redialing_with_times">Ringt på nytt %d ganger</string>
     <string name="card_title_dialing">Ringer</string>
     <string name="card_title_conf_call">Konferansesanrop</string>
     <string name="card_title_video_conf_call">Videokonferanseanrop</string>
@@ -146,7 +144,6 @@
     <string name="call_recording_deny_permission_msg">Du avviste opptaktillatelse, kan ikke ta opp.</string>
     <string name="call_contacts_deny_permission_msg">Du avviste lese kontakter-tillatelse, kan ikke vise kontaktinformasjon.</string>
     <string name="conference_call_recorder_title">Konferanseanrop</string>
-    <string name="antispam_marked_count">Rapportert av %1$d MIUI-brukere</string>
     <string name="antispam_local_marked">Markert lokalt</string>
     <string name="antispam_provider">Identifisert av %s</string>
     <string name="antispam_notification_title">Ukjent nummer</string>
