@@ -56,7 +56,6 @@
     <string name="save_pic_success">Lagret bilde til %s</string>
     <string name="save_pic_fail">Kunne ikke lagre bildet. Kontroller SD-kortet ditt</string>
     <string name="pic_not_exist">Dette bildet finnes ikke</string>
-    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Velg et produkt</string>
     <string name="michat_skillset_business_type_title">Velg tjeneste</string>
     <string name="michat_close_text">Chatten er avsluttet</string>
