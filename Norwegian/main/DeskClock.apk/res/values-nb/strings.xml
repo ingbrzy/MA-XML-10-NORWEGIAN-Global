@@ -149,9 +149,10 @@
     <string name="settings">Innstillinger</string>
     <string name="shut_down_keep_screen">Skjermen vil ikke holdes på</string>
     <string name="shutdown_alarm_disable_summary">Alarm vil ikke gå av etter at enheten er skrudd av</string>
-    <string name="shutdown_alarm_enable_summary">Alarm vil gå av etter at enheten er skrudd av</string>
+    <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 5 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">%1$s°</string>

@@ -198,4 +198,5 @@
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Kan ikke utføre anrop. Forsikre at enheten din er koblet til 4G-nettverket med VoLTE support</string>
     <string name="volume_boost_text">Volum forsterket</string>
+    <string name="supp_service_notification_call_waiting">Nummeret du slo er opptatt. Vennligst vent…</string>
 </resources>

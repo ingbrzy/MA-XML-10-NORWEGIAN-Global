@@ -435,4 +435,26 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="install_error">Kunne ikke installere. Prøv igjen.</string>
     <string name="ent_install_dialog_content">Installere apper og starte enheten på nytt nå?</string>
     <string name="ent_disallow_running">Appen er forbudt å kjøre</string>
+    <string name="greenguard_child_des_title">Jeg trenger hjelp fra venner og familie</string>
+    <string name="greenguard_child_des">Bruk appen vår for å forbli tilkoblet</string>
+    <string name="greenguard_parent_des_title">Jeg trenger å hjelpe venner og familie</string>
+    <string name="greenguard_parent_des">Last ned appen vår og legg til andre personers enheter</string>
+    <string name="cta_declaration_title">Vilkår og betingelser</string>
+    <string name="cta_declaration_message_format" formatted="false">Du må lese og samtykke i vår &lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font> før du kan bruke Enterprise-modus. Enheten din må kobles til internett for å aktivere Enterprise. Enig?</string>
+    <string name="cta_declaration_agree_and_continue">Enig</string>
+    <string name="undo_activated_dialog_message">Å tilbakekalle autorisasjonen vil deaktivere Enterprise-modus og gjennomføre en tilbakestilling til fabrikkinnstillinger på enheten din. Alle tilknyttede funksjonene vil ikke lenger være tilgjengelige. Bortsett fra dette vil Xiaomi slutte å samle inn informasjon som er nødvendig for Enterprise-modus (IMEI, Enhets-ID, systemversjon, region, osv.). Vi minner deg om at Xiaomi ikke behandler dataene de samler inn for Enterprise-modus. Vi gjør vårt beste for å varsle alle berørte parter, men anbefaler at du kontakter de overordnede i selskapet ditt om å godkjenne tilbakekallingen. Tilbakekalle autorisasjonen og gjennomføre en tilbakestilling til fabrikkinnstillinger?</string>
+    <string name="undo_activated_dialog_ok">Tilbakekall</string>
+    <string name="undo_grant_dialog_message">Xiaomi vil slutte å samle inn den nødvendige informasjon for denne funksjonen (IMEI, Enhets-ID, systemversjon, region, osv.) etter du tilbakekaller autorisasjonen. Tilbakekalle nå?</string>
+    <string name="undo_privacy_menu">Tilbakekalle autorisasjon</string>
+    <string name="more_settings">Mer</string>
+    <string name="undo_success">Tilbakekalt</string>
+    <string name="master_clear_apply_title">Merk</string>
+    <string name="master_clear_apply_step_1">Å tilbakekalle autorisasjonen krever at du gjennomfører en tilbakestilling til fabrikkinnstillinger på enheten din. Dette vil permanent slette alle filene og dataene, inkludert kontoer, kontakter, bilder og apper. Sikkerhetskopier alle viktige elementer til dataen din før du tilbakekaller autorisasjonen.</string>
+    <string name="master_clear_apply_step_2">Sørg for at du har sikkerhetskopiert alle viktige elementene på datamaskinen din. Etter du trykker «OK» vil det utføres en tilbakestilling til fabrikkinnstillinger på enheten din, noe som permanent sletter alle filene og dataene dine, inkludert kontoer, kontakter, bilder og apper.</string>
+    <string name="button_text_next_step">Neste</string>
+    <string name="button_text_next_step_timer">Neste steg (%d)</string>
+    <string name="dialog_tip_need_network">Enheten din må kobles til internett for å tilbakekalle autorisasjonen.</string>
+    <string name="dialog_undo_negative">Ikke tilbakekall</string>
+    <string name="dialog_title_service_error">Serverfeil</string>
+    <string name="dialog_message_service_error">Kunne ikke tilbakekalle autorisasjon og utføre en tilbakestilling til fabrikkinnstillinger. Prøv igjen.​</string>
 </resources>

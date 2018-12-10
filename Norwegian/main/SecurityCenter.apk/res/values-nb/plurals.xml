@@ -264,6 +264,18 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">"Vent i %d sekunder og prøv igjen. "</item>
         <item quantity="one">Vent i %d sekunder og prøv igjen.</item>
     </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Forbind minst %d prikker</item>
+        <item quantity="one">Forbind minst %d prikk</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">Skriv inn minst %d sifre</item>
+        <item quantity="one">Skriv inn minst %d siffer</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">Skriv inn minst %d tegn</item>
+        <item quantity="one">Skriv inn minst %d tegn</item>
+    </plurals>
     <plurals name="number_masked">
         <item quantity="other">%d apper</item>
         <item quantity="one">%d app</item>

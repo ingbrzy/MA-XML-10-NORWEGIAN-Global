@@ -46,9 +46,12 @@
     <string name="customization"><u>Tilpass</u></string>
     <string name="home_hint_global_launcher">POCO-starter</string>
     <string name="home_hint_other_launcher">Annen starter</string>
-    <string name="self_device">"Denne telefonens "</string>
-    <string name="main_space">Første område</string>
-    <string name="second_space">Andre område</string>
+    <string name="self_device_main_space">Denne telefonens første område</string>
+    <string name="self_device_second_space">Denne telefonens andre område</string>
+    <string name="other_device_main_space">Første område</string>
+    <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
     <string name="size_unknown">Ukjent størrelse</string>
     <string name="recovering">Gjenoppretter %s</string>
@@ -130,6 +133,8 @@
     <string name="provision_error_connect_msg">Test nettverket og prøv igjen. Sikkerhetskopier er ikke tilgjengelige når enheten er offline.</string>
     <string name="provision_error_connect_title">Kan ikke koble til</string>
     <string name="loading_user_backup">Laster brukersikkerhetskopier…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunne ikke verifisere konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhetskopier i Mi-skyen.</string>
@@ -137,7 +142,7 @@
     <string name="home_restore_error">Kunne ikke gjenopprette startskjermen</string>
     <string name="get_device_id_error">Kunne ikke hente enhetens ID</string>
     <string name="unsupported_home">Oppdater til siste versjon av MIUI.</string>
-    <string name="error_retry_later">Kunne ikke fullføre handling. Vent et minutt eller to og prøv igjen..</string>
+    <string name="error_retry_later">Kunne ikke fullføre handling. Vent et minutt eller to og prøv igjen…</string>
     <string name="try_continue">Trykk for å fortsette</string>
     <string name="download_home_data">Laster ned layout for startskjerm…</string>
     <string name="restore_home_failed">Kunne ikke gjenopprette startskjermen.</string>
@@ -154,6 +159,9 @@
     <string name="dialog_msg_restore_require_wlan">Gjenoppretting av sikkerhetskopier krever en Wi-Fi-forbindelse.</string>
     <string name="dialog_btn_next">Neste</string>
     <string name="dialog_btn_restore_skip">Gjenopprett senere</string>
+    <string name="dialog_btn_cancel_backup">Avbryt</string>
+    <string name="dialog_btn_overwrite_backup">Overskriv</string>
+    <string name="dialog_msg_overwrite_backup">Lokal sikkerhetskopi er forskjellig fra den i Mi Cloud. Hvis du fortsetter vil den nåværende sikkerhetskopien overskrive den forrige.</string>
     <string name="cloud_backup">Mi Cloud sikkerhetskopier</string>
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
     <string name="restore_cloud_backup_to_phone">Gjenopprett elementer fra Mi-skyen</string>
@@ -176,4 +184,6 @@
     <string name="msg_alert_restore_error">Kunne ikke gjenopprette elementer fra Mi Cloud. Prøv igjen.</string>
     <string name="btn_restore_retry">Prøv igjen</string>
     <string name="btn_restore_abort">Avbryt</string>
+    <string name="backup_stopped_title">Sikkerhetskopieringen ble satt på pause</string>
+    <string name="backup_stopped_msg">Den nåværende sikkerhetskopien vil overskrive den forrige. Trykk for å se.</string>
 </resources>

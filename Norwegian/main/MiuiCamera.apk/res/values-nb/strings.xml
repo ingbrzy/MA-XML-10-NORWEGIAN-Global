@@ -203,7 +203,7 @@
     <string name="tap_to_exposure">Trykk for å tilpasse eksponeringen manuelt</string>
     <string name="accessibility_shutter_button">Utløserknapp</string>
     <string name="accessibility_intent_done_apply">Ferdig</string>
-    <string name="accessibility_intent_done_retry">Ta på nytt</string>
+    <string name="accessibility_intent_done_retry">Prøv igjen</string>
     <string name="accessibility_review_thumbnail">Siste bilde</string>
     <string name="accessibility_camera_picker">Bytting mellom front- og bakkamera</string>
     <string name="accessibility_stereo_button">Justering av fokus</string>
@@ -261,13 +261,12 @@
     <string name="pref_camera_referenceline_title">Vis rutenett</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volum</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Lukker</string>
+    <string name="pref_camera_volumekey_function_entry_timer">Utløsernedteller</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
-    <string name="pref_camera_volumekey_function_entry_exposure">Eksponering</string>
     <string name="pref_camera_volumekey_function_title">Volumknappfunksjoner</string>
     <string name="error_fail_to_start_audio_capture">Kunne ikke starte lydopptak</string>
     <string name="toast_start_audio_capture">Lag en lyd for å ta et bilde</string>
     <string name="record_back_pressed_hint">Berør igjen for å stoppe opptak</string>
-    <string name="toast_burst_snap_finished_summary">Et burst shot er ferdig. %1$s bilder er tatt</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Kan ikke utføre et burst shot mens lydopptak er på</string>
     <string name="time_lapse_error">Kan ikke bruke denne videostørrelsen for tidsforløpsopptak</string>
     <string name="pref_camera_movie_solid_title">Bildestabilisator</string>
@@ -435,6 +434,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrettmodus.
 Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
@@ -451,6 +451,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>

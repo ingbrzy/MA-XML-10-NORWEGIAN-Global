@@ -105,6 +105,7 @@
     <string name="accessibility_wifi_signal_full">Wi-Fi-signalet er ved full styrke.</string>
     <string name="accessibility_wifi_security_type_none">Åpent nettverk</string>
     <string name="accessibility_wifi_security_type_secured">Sikkert nettverk</string>
+    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="data_usage_uninstalled_apps">Fjernede apper</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apper og brukere</string>
     <string name="tether_settings_title_usb">USB-internettdeling</string>
@@ -433,7 +434,7 @@ Avspillingskvalitet"</string>
     <string name="answer_incoming_call">Svar</string>
     <string name="decline_incoming_call">Avvis</string>
     <string name="cant_call_due_to_ongoing_call">Kan ikke utføre et anrop. %1$s annet anrop pågår.</string>
-    <string name="cant_call_due_to_ongoing_calls">Kan ikke utføre et anrop. %1$s andre anrop pågår.</string>
+    <string name="cant_call_due_to_ongoing_calls">Kan ikke foreta et anrop. Avslutt %1$s samtalen din først.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Kan ikke utføre et anrop på grunn av et anrop i annen app.</string>
     <string name="notification_channel_incoming_call">Innkommende anrop</string>
     <string name="notification_channel_missed_call">Ubesvarte anrop</string>

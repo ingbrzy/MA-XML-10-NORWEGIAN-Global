@@ -82,6 +82,16 @@
     <string name="cloud_state_sync_finished">Synkronisert med Mi Cloud</string>
     <string name="cloud_state_syncing">Synkroniserer med Mi Cloud…</string>
     <string name="cmcc_privacy">China Mobile Carrier personvernavtale</string>
+    <string name="complain_input_number">Skriv inn telefonnummeret ditt</string>
+    <string name="complain_jump">Hopp over</string>
+    <string name="complain_message_title">Klage</string>
+    <string name="complain_ok">OK</string>
+    <string name="complain_phone_number">telefonnummer</string>
+    <string name="complain_reason">Hvorfor rapporterer du denne meldingen?</string>
+    <string name="complain_success">Takk for tilbakemeldingen din. Det hjelper oss å gjøre Messaging bedre!</string>
+    <string name="complain_tips">"Innholdet i den nyeste meldingen du rapporterer vil lastes opp til serverne våre sammen med telefonnummeret du oppgir. Tjenesteneleverandørene våre vil gjennomgå den innrapporterte meldingen.
+"</string>
+    <string name="complain_upload">Klagen har blitt sendt inn</string>
     <string name="compressing">Bilde er for stort. Komprimerer…</string>
     <string name="confirm">OK</string>
     <string name="confirm_add_blacklist_dialog_dspt">Legge til dette nummeret i blokkeringslisten?</string>
@@ -144,7 +154,6 @@
     <string name="dialog_message_mx">Mi Message lar deg sende meldinger til andre MIUI-brukere over Internett uten å påføre deg kostnader. En utgående SMS-melding kan bli nødvendig for å aktivere MI Message. Operatøren din vil belaste deg for denne meldingen. Du må samtykke i \"%1$s\" og \"%2$s\" vår før du bruker Mi Message.</string>
     <string name="dialog_message_networking">Messaging må bruke gule sider for å kunne gi avsender-ID gjenkjennelse. Messaging og gule sider må koble til Internett og få tilgang til posisjonen din for å fungere normalt. Tillat?</string>
     <string name="dialog_message_rcs">China Mobile Messaging lar deg sende meldinger til andre China Mobile-brukere i fastlands-Kina uten å pådra deg kostnader. Du må samtykke i \"%1$s\" og \"\" vår før du kan bruke China Mobile Messaging.</string>
-    <string name="dialog_message_sms_report">Søppelmeldinger og avsenderinfo vil bli lastet opp til MIUI når du rapporterer dem. De vil kun bli brukt til å forbedre MIUI sine søppelfilter.</string>
     <string name="dialog_title_fake_cell_detect_error">Correction</string>
     <string name="dialog_title_mx_rcs">Mi Message</string>
     <string name="dialog_title_networking">Vilkår og betingelser</string>
@@ -179,7 +188,6 @@
     <string name="error_timed_msg">Ugyldig tid</string>
     <string name="ex_type_mx">Mi Message</string>
     <string name="ex_type_sms">SMS/MMS</string>
-    <string name="exceed_length_limit">超出最大长度界限</string>
     <string name="exceed_message_size_limitation">Størrelsesbegrensning for melding nådd.</string>
     <string name="exceed_message_size_limitation_add_slide">Meldingsstørrelse er ikke nok for å legge til lysbilde</string>
     <string name="exceed_message_text_limitation">Lengdebegrensning for melding nådd.</string>
@@ -202,6 +210,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_message_select_title">Videresend melding</string>
@@ -214,15 +223,15 @@
     <string name="found_wild_messages_title">Synkroniser meldinger fra Mi Cloud</string>
     <string name="from_label">"Fra: "</string>
     <string name="from_pkg_name">Fra app-en:</string>
-    <string name="group_already_kicked_hint">你不在这个群里，无法发送消息</string>
+    <string name="group_already_kicked_hint">Kan ikke sende meldinger. Du er ikke medlem av denne gruppesamtalen.</string>
     <string name="group_message">Gruppemelding</string>
-    <string name="group_message_title">群聊消息</string>
-    <string name="group_not_exist_hint">群已经被解散了，无法发送消息</string>
-    <string name="group_notify_message_title">群通知消息</string>
-    <string name="group_rejoin_failed">群操作失败</string>
+    <string name="group_message_title">Gruppesamtaler</string>
+    <string name="group_not_exist_hint">Kan ikke sende meldinger. Denne gruppesamtalen ble slettet.</string>
+    <string name="group_notify_message_title">Varsler for gruppesamtale</string>
+    <string name="group_rejoin_failed">Kunne ikke bli med i gruppesamtalen</string>
     <string name="group_resend_message">Send på nytt (%d)</string>
-    <string name="group_view_settings_disolved">群已经被解散，无法查看群资料</string>
-    <string name="group_view_settings_not_memeber">不在这个群里，无法查看群资料</string>
+    <string name="group_view_settings_disolved">Kan ikke vise elementer. Denne gruppesamtalen ble slettet.</string>
+    <string name="group_view_settings_not_memeber">Kan ikke vise elementer. Du er ikke medlem av denne gruppesamtalen.</string>
     <string name="guild_add_attachments">Trykk for å legge til uttrykksikon og andre elementer</string>
     <string name="guild_add_recipients">Trykk for å legge til mottakere fra kontakter</string>
     <string name="guild_msim_switcher">Trykk for å bytte SIM-kort</string>
@@ -300,7 +309,7 @@
     <string name="mms">MMS</string>
     <string name="move_down">Flytt ned</string>
     <string name="move_up">Flytt opp</string>
-    <string name="msg_no_member_selected">请至少选择一个联系人.</string>
+    <string name="msg_no_member_selected">Velg minst én kontakt</string>
     <string name="msg_type_hint_mms">Multimediemelding (MMS)</string>
     <string name="msg_type_hint_mms_omit">MMS</string>
     <string name="msg_type_hint_mx">Mi Message</string>
@@ -434,7 +443,6 @@
     <string name="pref_sms_storage_title">Lagring</string>
     <string name="pref_sms_theme_title">Visning</string>
     <string name="pref_summary_allow_si_sl_push">Tillat meldinger å laste innhold fra andre nettsteder</string>
-    <string name="pref_summary_allow_upload_message_info">Søppelmeldinger og avsenderinformasjon vil bli lastet opp til MIUI når du rapporterer dem.</string>
     <string name="pref_summary_auto_delete">Slett gamle meldinger når grenser blir nådd</string>
     <string name="pref_summary_delete_limit">%1$s meldinger per samtale</string>
     <string name="pref_summary_delivery_reports">Vis leveringsstatus for sendte meldinger</string>
@@ -451,7 +459,6 @@
     <string name="pref_switch_sdk_setting">Bytt smart SMS-tjenestetilbyder</string>
     <string name="pref_system_title">System</string>
     <string name="pref_title_allow_si_sl_push">Tillat WAP-push-meldinger (SI/SL)</string>
-    <string name="pref_title_allow_upload_message_info">Last opp søppelmeldinger</string>
     <string name="pref_title_auto_delete">Slett gamle meldinger</string>
     <string name="pref_title_card_format">Kortdelingsformat</string>
     <string name="pref_title_delivery_reports">Leveringsstatus</string>
@@ -505,19 +512,19 @@
     <string name="rcs_auto_resend_sms">Konverter til SMS</string>
     <string name="rcs_auto_resume">Gjenoppta avbrutte opplastinger automatisk</string>
     <string name="rcs_auto_resume_only_by_wifi">Gjenoppta opplastinger kun når koblet til Wi-Fi</string>
-    <string name="rcs_create_new_group">新建群聊</string>
+    <string name="rcs_create_new_group">Opprett en gruppesamtale</string>
     <string name="rcs_dspt">Send og motta meldinger med Wi-Fi eller China Mobile-nettverket</string>
     <string name="rcs_dspt_unavailable">Kan ikke bruke denne funksjonen nå. China Mobile SIM-kort er ikke standard kort.</string>
     <string name="rcs_forward_faild">Kan ikke videresende</string>
     <string name="rcs_forward_successful">Videresendt</string>
-    <string name="rcs_group_notification_invitation">群邀请</string>
+    <string name="rcs_group_notification_invitation">Invitasjon til gruppesamtale</string>
     <string name="rcs_message">China Mobile Messaging</string>
     <string name="rcs_message_disable">Kan ikke vise denne meldingen i det sekundære området</string>
     <string name="rcs_msg">China Mobile Messaging</string>
     <string name="rcs_not_online">Kan ikke bruke China Mobile Messaging. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="rcs_offline_hint">China Mobile Messaging er frakoblet. Kan ikke videresende meldingen.</string>
     <string name="rcs_recipient_type_contact">Videresend til kontakt</string>
-    <string name="rcs_recipient_type_group">转发到群</string>
+    <string name="rcs_recipient_type_group">Videresend til gruppesamtale</string>
     <string name="rcs_recipient_type_pc">Videresend til datamaskin</string>
     <string name="rcs_resend_not_online">Kan ikke bruke China Mobile Messaging</string>
     <string name="rcs_resend_sim_card_not_insert">Det ser ut som at SIM-kortet ikke er installert</string>
@@ -634,6 +641,7 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>
@@ -665,7 +673,6 @@
     <string name="sms_full_title">Tekstmeldingsminne fullt</string>
     <string name="sms_rejected_body">En innkommende tekstmelding ble avvist.</string>
     <string name="sms_rejected_title">Tekstmelding avvist</string>
-    <string name="sms_report">Rapporter søppelmeldinger</string>
     <string name="sms_report_dialog_content">Kunne ikke sende rapport, prøv igjen.</string>
     <string name="sms_report_dialog_retry">Prøv igjen</string>
     <string name="sms_report_dialog_title">Prøv igjen</string>

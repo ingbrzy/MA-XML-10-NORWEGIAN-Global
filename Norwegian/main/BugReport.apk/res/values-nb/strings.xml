@@ -46,7 +46,6 @@
     <string name="michat_cant_join_artificial">Kunne ikke koble til grunnet en nettverksfeil</string>
     <string name="michat_lose_artificial">En nettverksfeil oppstod, og du har forlatt chatten</string>
     <string name="michat_transfer_message">Leter etter en person som kan hjelpe deg ...</string>
-    <string name="michat_queue_pos_update">Det er %1$d personer foran deg i kø. Vent et øyeblikk ...</string>
     <string name="michat_in_artificial_customer_state">Kan ikke gjøre dette mens en person får hjelp</string>
     <string name="michat_pull_to_refresh_pull_label">Dra ned for å se historikk</string>
     <string name="michat_pull_to_refresh_release_label">Slipp for å se historikk</string>
@@ -57,6 +56,7 @@
     <string name="save_pic_success">Lagret bilde til %s</string>
     <string name="save_pic_fail">Kunne ikke lagre bildet. Kontroller SD-kortet ditt</string>
     <string name="pic_not_exist">Dette bildet finnes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Velg et produkt</string>
     <string name="michat_skillset_business_type_title">Velg tjeneste</string>
     <string name="michat_close_text">Chatten er avsluttet</string>
@@ -132,7 +132,6 @@
     <string name="toast_report_sent_failed">Kan ikke sende rapport</string>
     <string name="toast_report_copied_to_clipboard">Rapport er kopiert til utklippstavlen</string>
     <string name="toast_description_required">Du må skrive en beskrivelse</string>
-    <string name="toast_feedbackservice_in_submit">Behandler tidligere tilbakemelding…</string>
     <string name="toast_pending_log_collection">Henter fremdeles logger…</string>
     <string name="toast_feedback_submitted">Rapport har blitt sendt</string>
     <string name="toast_feedback_submitting">Sender…</string>
@@ -161,7 +160,7 @@
     <string name="cta_cancel">Avbryt</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Send rapport</string>
-    <string name="submit_dialog_content"><Data>Tilbakemeldingen din, sammen med vedlegg og logger, vil bli sendt til MIUIs servere. Den kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.</Data></string>
+    <string name="submit_dialog_content"><Data>"Du må samtykke i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Personvernerklæring&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Brukeravtale&lt;/a> for å kunne bruke Tilbakemelding. Problemene du rapporterer med elementene du vedlegger (kan inneholde personlige opplysninger, i tillegg til opplysninger om enheten og nettverket ditt) vil lastes opp til MIUI's servere. Dette vil hjelpe deg med å lokalisere og løse problemene du rapporterer."</Data></string>
     <string name="submit_dialog_content_global"><Data>Tilbakemeldingen din, sammen med vedlegg (dersom det er noen) og logger (du kan fjerne merking i de korresponderende boksene for elementene du ikke ønsker å laste opp) vil bli sendt til MIUIs servere og til en begrenset del av MIUI Forum for utviklere. Informasjon om trådene dine og forumaktivitet vil også bli samlet inn for analyse og ytterligere kommunikasjon. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.</Data></string>
     <string name="submit_dialog_cancel">Ikke enig</string>
     <string name="submit_dialog_confirm">Enig</string>
@@ -247,6 +246,7 @@
     <string name="feedback_contact_info_hint">Telefonnummer/E-post</string>
     <string name="toast_loading_app_id">Henter informasjon…</string>
     <string name="feedback_status_commit_succ_title">Sendt</string>
+    <string name="feedback_status_commit_in_queue_title">Venter…</string>
     <string name="feedback_status_commit_uploading_title">Sender…</string>
     <string name="feedback_status_commit_failed_title">Kunne ikke sende rapport</string>
     <string name="feedback_status_processing">Behandler…</string>
@@ -333,6 +333,7 @@
     <string name="customer_service_station">Servicesteder</string>
     <string name="title_catch_full_log">Logger</string>
     <string name="toast_catch_full_log_catching">Du kan bare generere én logg om gangen.</string>
+    <string name="toast_catch_full_log_open_failed">Kunne ikke starte opptaksloggfil.</string>
     <string name="catch_full_log_item_title_signal">Telefon, signal og mobile nettverk</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi og Mi Drop</string>
     <string name="catch_full_log_item_title_gps">Stedtjenester</string>

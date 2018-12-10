@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerte apper: %d</string>
     <string name="toast_resolve_apk_error">Løs apk-feil</string>
@@ -195,7 +196,7 @@
     <string name="deepclean_normal_title">Rengjør automatisk</string>
     <string name="deepclean_normal_item_desc1">Søppelfiler</string>
     <string name="deepclean_normal_item_desc2">Cleaners aktivitet påvirker ikke systemytelsen</string>
-    <string name="deepclean_1_k_clean">Slett minne</string>
+    <string name="deepclean_1_k_clean">Tøm minne</string>
     <string name="similar_image_title">Bilder</string>
     <string name="similar_image_desc">Slett lignende bilder</string>
     <string name="similar_image_scaning">Sjekker…</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Laster ned</string>
     <string name="installing">Installering</string>
     <string name="start_install">Installer nå</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>
     <string name="connecting">Kobler til…</string>

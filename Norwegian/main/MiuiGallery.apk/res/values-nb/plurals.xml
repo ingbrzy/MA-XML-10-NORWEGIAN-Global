@@ -264,4 +264,12 @@
         <item quantity="other">%d elementer</item>
         <item quantity="one">%d element</item>
     </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d elementer er for store til å sikkerhetskopieres</item>
+        <item quantity="one">%d element er for stort til å bli sikkerhetskopiert</item>
+    </plurals>
+    <plurals name="sync_oversized_count">
+        <item quantity="other">%d elementer er for store til å sikkerhetskopieres</item>
+        <item quantity="one">%d element er for stort til å bli sikkerhetskopiert</item>
+    </plurals>
 </resources>

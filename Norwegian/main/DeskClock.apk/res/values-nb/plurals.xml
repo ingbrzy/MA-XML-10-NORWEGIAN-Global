@@ -6,10 +6,10 @@
     </plurals>
     <plurals name="delete_alarm_confirm">
         <item quantity="other">Slette de valgte alarmene?</item>
-        <item quantity="one">Delete this alarm?</item>
+        <item quantity="one">Slette den valgte alarmen?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
-        <item quantity="other">Delete the selected timezones?</item>
+        <item quantity="other">Slette de valgte tidssonene?</item>
         <item quantity="one">Slette den valgte tidssonen?</item>
     </plurals>
     <plurals name="second">

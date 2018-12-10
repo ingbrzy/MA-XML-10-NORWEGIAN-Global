@@ -4,6 +4,7 @@
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laster ned %1$s</string>
     <string name="download_filesize_unknown">Ukjent</string>
+    <string name="notification_dld_msg">Administrer apper som lastes ned</string>
     <string name="app_label">Nedlastinger</string>
     <string name="permlab_downloadManager">Tilgang til Nedlastinger.</string>
     <string name="permdesc_downloadManager">Lar appen få tilgang til Nedlastinger og bruke den til å laste ned filer. Ondsinnede apper kan bruke dette til å forstyrre nedlastinger og få tilgang til privat informasjon.</string>
