@@ -82,6 +82,14 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">%d enheter valgt</item>
         <item quantity="one">%d enhet valgt</item>
     </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Laster ned %1$d filer</item>
+        <item quantity="one">Laster ned %1$d fil</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">Kunne ikke laste ned %1$d elementer</item>
+        <item quantity="one">Kunne ikke laste ned %1$d element</item>
+    </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d følgere</item>
         <item quantity="one">%d følger</item>

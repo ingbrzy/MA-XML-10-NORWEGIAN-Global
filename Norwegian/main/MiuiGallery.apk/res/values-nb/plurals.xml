@@ -56,6 +56,10 @@
         <item quantity="other">Fortsett sikkerhetkopiering om %d timer</item>
         <item quantity="one">Fortsett sikkerhetkopiering om %d time</item>
     </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d elementer er for store til å sikkerhetskopieres</item>
+        <item quantity="one">%d element er for stort til å bli sikkerhetskopiert</item>
+    </plurals>
     <plurals name="backup_pause_desc">
         <item quantity="other">%d bilder og videoer | Satt på pause</item>
         <item quantity="one">%d bilde og video | Satt på pause</item>
@@ -260,16 +264,12 @@
         <item quantity="other">Har ikke sikkerhetskopiert %d bilder og videoer</item>
         <item quantity="one">Har ikke sikkerhetskopiert %d bilde og video</item>
     </plurals>
-    <plurals name="sync_total_count">
-        <item quantity="other">%d elementer</item>
-        <item quantity="one">%d element</item>
-    </plurals>
-    <plurals name="backup_file_over_size_title">
-        <item quantity="other">%d elementer er for store til å sikkerhetskopieres</item>
-        <item quantity="one">%d element er for stort til å bli sikkerhetskopiert</item>
-    </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d elementer er for store til å sikkerhetskopieres</item>
         <item quantity="one">%d element er for stort til å bli sikkerhetskopiert</item>
+    </plurals>
+    <plurals name="sync_total_count">
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
     </plurals>
 </resources>

@@ -341,7 +341,7 @@ for å gå inn i Andre område fra Låseskjermen"</string>
     <string name="gpg_message">Oppretting av dobbeltapper for spill forutsetter at du bruker Google Play Games. Opprette en dobbeltapp for Google Play Games?</string>
     <string name="gpg_title">Dobbeltapp for Google Play Games</string>
     <string name="gms_message">Oppretting av dobbeltapper for spill forutsetter at du bruker Google Play Games. Opprette en dobbeltapp for Google-tjenester?</string>
-    <string name="gms_title">Slå på Google-tjenester</string>
+    <string name="gms_title">Dobbeltapp for Google-tjenester</string>
     <string name="gms_open_button">Slå på</string>
     <string name="create_second_space">Opprettet</string>
     <string name="set_space_password">Opprett passord</string>
@@ -440,7 +440,7 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="greenguard_parent_des_title">Jeg trenger å hjelpe venner og familie</string>
     <string name="greenguard_parent_des">Last ned appen vår og legg til andre personers enheter</string>
     <string name="cta_declaration_title">Vilkår og betingelser</string>
-    <string name="cta_declaration_message_format" formatted="false">Du må lese og samtykke i vår &lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font> før du kan bruke Enterprise-modus. Enheten din må kobles til internett for å aktivere Enterprise. Enig?</string>
+    <string name="cta_declaration_message_format" formatted="false">You must read and agree to our &lt;font color=%s>&lt;a href=%s>%s&lt;/a>&lt;/font> before using Enterprise mode. Your device needs to connect to the internet to activate Enterprise mode. Agree?</string>
     <string name="cta_declaration_agree_and_continue">Enig</string>
     <string name="undo_activated_dialog_message">Å tilbakekalle autorisasjonen vil deaktivere Enterprise-modus og gjennomføre en tilbakestilling til fabrikkinnstillinger på enheten din. Alle tilknyttede funksjonene vil ikke lenger være tilgjengelige. Bortsett fra dette vil Xiaomi slutte å samle inn informasjon som er nødvendig for Enterprise-modus (IMEI, Enhets-ID, systemversjon, region, osv.). Vi minner deg om at Xiaomi ikke behandler dataene de samler inn for Enterprise-modus. Vi gjør vårt beste for å varsle alle berørte parter, men anbefaler at du kontakter de overordnede i selskapet ditt om å godkjenne tilbakekallingen. Tilbakekalle autorisasjonen og gjennomføre en tilbakestilling til fabrikkinnstillinger?</string>
     <string name="undo_activated_dialog_ok">Tilbakekall</string>
@@ -457,4 +457,8 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="dialog_undo_negative">Ikke tilbakekall</string>
     <string name="dialog_title_service_error">Serverfeil</string>
     <string name="dialog_message_service_error">Kunne ikke tilbakekalle autorisasjon og utføre en tilbakestilling til fabrikkinnstillinger. Prøv igjen.​</string>
+    <string name="dialog_verify">Verifiser fingeravtrykket ditt</string>
+    <string name="dialog_verify_fingerprint_retry">Kunne ikke verifisere fingeravtrykk, prøv igjen.</string>
+    <string name="button_touch">Sett fingeren på sensoren</string>
+    <string name="button_input_password">Skriv inn passord</string>
 </resources>

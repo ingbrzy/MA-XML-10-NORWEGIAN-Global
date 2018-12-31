@@ -69,7 +69,7 @@
     <string name="got_it">Skjønner</string>
     <string name="gps">Naviger</string>
     <string name="import_contact">Importer kontakt</string>
-    <string name="impunity_declaration_content">Skanneren krever tillatelser for å få tilgang til kameraet og ta bilder. Skanneren må også kobles til internett for å fungere normalt. Det er antatt at du har lest og godtatt vår %1$sPersonvernerklæring%2$s når du trykker «Godta» nedenfor.</string>
+    <string name="impunity_declaration_content">Skanneren krever tillatelser for å få tilgang til kameraet og ta bilder. Skanneren må også kobles til internett for å fungere normalt. Det er antatt at du har lest og samtykket i vår %1$sPersonvernerklæring%2$s når du trykker på «Godta» nedenfor.</string>
     <string name="impunity_declaration_negative_text">Avslutt</string>
     <string name="impunity_declaration_title">Personvernerklæring</string>
     <string name="label_choose_picture">Velg bilde</string>
@@ -92,6 +92,7 @@
     <string name="module_title_business_card">Visittkort</string>
     <string name="module_title_code">QR-kode</string>
     <string name="module_title_document">Dokument</string>
+    <string name="module_title_plant">Plante</string>
     <string name="module_title_shopping">Shopping</string>
     <string name="module_title_translation">Oversett</string>
     <string name="name">Navn:</string>
@@ -106,6 +107,11 @@
     <string name="payment_text">Åpne med %s</string>
     <string name="phone">Telefon:</string>
     <string name="place_barcode_into_rectangle">Sett koden på innsiden av rammen</string>
+    <string name="plant_fail">Gjenkjenner ikke</string>
+    <string name="plant_loading">Identifiserer…</string>
+    <string name="plant_reg_fail_2">Gjenkjenner ikke dette objektet. Skanneren kan kun identifisere planter.</string>
+    <string name="plant_support">" (Teknisk støtte)"</string>
+    <string name="plant_title">Skann planten du vil identifisere</string>
     <string name="preparing_sd">Klargjør intern lagring…</string>
     <string name="previous">Tilbake</string>
     <string name="qr_code_details">QR-kodeopplysninger:</string>

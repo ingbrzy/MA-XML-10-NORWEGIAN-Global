@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Når MIUI oppdager at du sover, vil den lukke bakgrunnsapper, begrense Bluetooth, GPS, mobildata og Wi-Fi bruk, skjermen vil ikke lyse opp ved varsler.</string>
     <string name="nonui_mode_config_title">Ikke-interaktivt modus</string>
     <string name="nonui_mode_config_description">Skjermen lyses ikke opp ved varsler, skru av LED-lys, fingeravtrykksensor, og berøringskontroller for å spare batteri når MIUI oppdager at du ikke bruker enheten din.</string>
-    <string name="power_center">Strøm</string>
+    <string name="power_center">Batteribruk</string>
     <string name="power_usage">Strømforbruk</string>
     <string name="power_mode">Strøminnstillinger</string>
     <string name="performance_category">Ytelse</string>
@@ -98,4 +98,13 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="atrace_start">Tar opp atrace-logg…</string>
     <string name="atrace_saving">Lagrer atrace-logg…</string>
     <string name="atrace_saved">Lagringen er vellykket</string>
+    <string name="notification_open_extreme_mode_text">Turned on Extreme battery saver</string>
+    <string name="extreme_power_settings_title">settings</string>
+    <string name="notification_exit_extreme_mode_title">Turned off Extreme battery saver</string>
+    <string name="notification_exit_extreme_mode_text">Battery is more than %s charged</string>
+    <string name="extreme_power_config_mode_summary">Extreme battery saver restricts background activity, and stops sync.</string>
+    <string name="extreme_add_white_list_title">Background exceptions</string>
+    <string name="extreme_add_white_list_summary">Add up to 4 apps</string>
+    <string name="adaptive_battery_title">Use Adaptive Battery</string>
+    <string name="adaptive_battery_summary">"Limit battery for apps that you don't use often"</string>
 </resources>

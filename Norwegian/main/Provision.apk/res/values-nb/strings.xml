@@ -30,9 +30,6 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="other_settings_auto_update_summary">MIUI vil velge beste tidspunkt for å installere oppdateringer</string>
     <string name="other_settings_ad_enable">Tilpasset annonseanbefaling</string>
     <string name="other_settings_ad_enable_summary">Motta personlig tilpassede annonser basert på atferdsdataene dine</string>
-    <string name="other_settings_enhanced_lockscreen">Bakgrunnskarusell</string>
-    <string name="other_settings_enhanced_lockscreen_summary">Få kuraterte bilder og historier levert på din låste skjerm hver dag. Betingelser og vilkår gjelder.</string>
-    <string name="other_settings_enhanced_lockscreen_summary_index">Vilkår og betingelser</string>
     <string name="back">Tilbake</string>
     <string name="next">Neste</string>
     <string name="skip_underline">Hopp over dette trinnet</string>
@@ -116,5 +113,5 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="ai_button_single_press_desc">Utløs Mi AI</string>
     <string name="ai_button_double_press">Dobbelttrykk</string>
     <string name="ai_button_double_press_desc">Sett opp Mi AI-funksjoner</string>
-    <string name="zone_picker_title">Velg tidssone</string>
+    <string name="zone_picker_title">Choose time zone</string>
 </resources>

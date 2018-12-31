@@ -179,7 +179,7 @@ For å aktivere kontoen må du følge
     <string name="passport_quick_register_notice"><u>Har du ikke Mi-konto? Opprett en.</u></string>
     <string name="passport_password_phone_login">Logg på med Mi-konto</string>
     <string name="passport_sms_verification_code_login">Logg på med SMS</string>
-    <string name="passport_sms_verification_code_login_or_register">Logg på eller opprett en konto via SMS</string>
+    <string name="passport_sms_verification_code_login_or_register">Sign in or create account using SMS</string>
     <string name="passport_login_other_account">En annen konto</string>
     <string name="passport_reg_new_account">Opprett konto</string>
     <string name="passport_select_the_login_account">Velg kontoen du vil logge på med</string>

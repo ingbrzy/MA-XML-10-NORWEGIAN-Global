@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Legg til i arbeidsplass</string>
     <string name="activity_not_found">Appen er ikke installert på din enhet</string>
     <string name="add_screen">Legg til skjerm</string>
@@ -152,6 +153,7 @@
     <string name="gadget_clock_24_label">Klokke 4x2</string>
     <string name="gadget_clock_34_label">Klokke 4x3</string>
     <string name="gadget_clock_label">Klokke</string>
+    <string name="gadget_dual_clock_label">Dobbelklokke</string>
     <string name="gadget_error_text">Kunne ikke laste widget</string>
     <string name="gadget_google_search_label">Google søk</string>
     <string name="gadget_load_error">Laster…</string>
@@ -277,11 +279,14 @@
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">Tøm</string>
     <string name="recommend_apps_no_data">Ingen data</string>
+    <string name="recommend_apps_no_data_toast">Ingen anbefalinger for øyeblikket.</string>
     <string name="recommend_apps_notice">Forfremmede apper</string>
     <string name="recommend_apps_notice_nodata">Forfremmede apper (Ingen data)</string>
     <string name="recommend_apps_switch_title">Forfremmede apper</string>
     <string name="recommend_apps_tips">"This feature needs to connect to the internet to work normally. To turn this feature off, tap this folder's name."</string>
     <string name="recommend_loading">Laster</string>
+    <string name="recommend_refresh">Oppdater</string>
+    <string name="recommend_xout">Ikke vis</string>
     <string name="reset_description_first_time">Du kan gjenopprette oppsettet fra %1$s innen 2 timer</string>
     <string name="reset_description_others">Du kan gjenopprette oppsettet fra %1$s</string>
     <string name="reset_fail">Kunne ikke gjenopprette</string>
@@ -347,7 +352,4 @@
     <string name="widget_gadget_player">Musikk</string>
     <string name="widget_global_search">Søk</string>
     <string name="widget_quick_function">Hurtigfunksjoner</string>
-    <string name="recommend_apps_no_data_toast">Ingen anbefalinger for øyeblikket.</string>
-    <string name="recommend_refresh">Oppdater</string>
-    <string name="recommend_xout">Ikke vis</string>
 </resources>

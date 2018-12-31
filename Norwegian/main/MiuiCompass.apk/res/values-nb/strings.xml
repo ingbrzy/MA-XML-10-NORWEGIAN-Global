@@ -22,9 +22,10 @@
     <string name="calibrate_title">Kalibrer kompass</string>
     <string name="cancel">Avbryt</string>
     <string name="cannot_get_location">--</string>
-    <string name="dialog_body_no_network">Kan ikke koble til nettverket</string>
+    <string name="compass_settings">Innstillinger</string>
+    <string name="dialog_body_no_network">Koble til Wi-Fi eller slå på mobildata.</string>
     <string name="dialog_calibrat_altitude">Kalibrerer…</string>
-    <string name="dialog_title_no_network">Skru på nettverk</string>
+    <string name="dialog_title_no_network">Kunne ikke koble til nettverket</string>
     <string name="direction_east">Ø</string>
     <string name="direction_north">N</string>
     <string name="direction_north_east">NØ</string>
@@ -38,7 +39,7 @@
     <string name="error_camera_unavailable_title">Kameraet er utilgjengelig</string>
     <string name="first_using_dialog_message">Kompasset trenger enhetens nettverkstilkobling, kamera og stedtjenester for å fungere normalt.</string>
     <string name="first_using_dialog_title">Tilgangstillatelse</string>
-    <string name="guide_toast">Beveg telefonen i bevegelsen som vist under for å kalibrere.</string>
+    <string name="guide_toast">Beveg enheten din som vist under for å kalibrere.</string>
     <string name="latitude">BRE</string>
     <string name="location_east">ØL</string>
     <string name="location_enable">Tillat</string>

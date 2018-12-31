@@ -674,16 +674,4 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="weather_tips_value">
-        <item>Reduser utendørsaktiviteter.</item>
-        <item>Veiene er glatte i dag.</item>
-        <item>Det stormer ute, så vær forsiktig.</item>
-        <item>Det er tåkete i dag. Kjør forsiktig.</item>
-        <item>Luften er forurenset, så ta på en maske.</item>
-        <item>Ta med deg en paraply når du går ut.</item>
-        <item>Vær forsiktig på veien.</item>
-        <item>Det hagler i dag, vær forsiktig.</item>
-        <item>En sandstorm er i vente, så ta på en maske.</item>
-        <item>Ha en fin dag!</item>
-    </string-array>
 </resources>

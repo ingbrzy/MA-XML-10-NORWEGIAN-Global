@@ -87,6 +87,7 @@
     <string name="account_setup_exchange_certificate_title">Klientsertifikat</string>
     <string name="account_setup_exchange_device_id_label">ID til mobilenhet</string>
     <string name="account_setup_exchange_no_certificate">Ingen</string>
+    <string name="account_setup_failed_auth_required">"This authentication method isn't supported by the server."</string>
     <string name="account_setup_failed_certificate_inaccessible">Sertifikatet er ugyldig eller utilgjengelig.</string>
     <string name="account_setup_failed_certificate_required">Et klientsertifikat er nødvendig. Vil du koble til serveren med et klientsertifikat?</string>
     <string name="account_setup_failed_check_credentials_message">Serveren svarte med en feil. Kontroller brukernavnet og passordet ditt og forsøk igjen.</string>
@@ -225,6 +226,7 @@
     <string name="battery_saver">Batterisparer</string>
     <string name="battery_saver_keywords">batterisparer;-e-postbatteri</string>
     <string name="bcc">Blindkopi</string>
+    <string name="bcc_heading">"Blindkopi: "</string>
     <string name="bill_center_setting">Fakturainnstillinger</string>
     <string name="bill_center_setting_head">Importer informasjon fra disse kontoene</string>
     <string name="bill_cycle_text">Faktureringssyklus</string>
@@ -245,6 +247,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan ikke avbryte pågående nedlastinger for vedlegg i POP3-kontoer</string>
     <string name="cant_move_or_change_labels">Kan ikke flytte elementer fra flere kontoer.</string>
     <string name="cc">Kopi</string>
+    <string name="cc_attribution">Kopi: %1$s&lt;br></string>
     <string name="cc_bcc">Kopi/Blindkopi</string>
     <string name="cc_heading">"Kopi: "</string>
     <string name="change_folders_selection_dialog_title">Endre mapper</string>
@@ -262,6 +265,7 @@
     <string name="click_download_all_content">[ Trykk for å laste inn innhold ]</string>
     <string name="click_to_reload">Trykk på skjermen og prøv igjen</string>
     <string name="collapse_recipient_details">Kollaps mottakerdetaljer</string>
+    <string name="colon">:</string>
     <string name="compose">Skriv ny</string>
     <string name="compose_attachment_number_limit">Kan ikke legge til mer enn 10 vedlegg</string>
     <string name="compose_paste_address_oob">For mange tegn</string>
@@ -476,6 +480,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Logg inn på Gmail</string>
     <string name="header_category_account">Kontoer</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Tilbakemelding</string>
     <string name="header_label_general_preferences">Generelt</string>
     <string name="help_and_info">Hjelp</string>
@@ -497,6 +502,7 @@
     <string name="invalid_recipient">Adressen %s er ugyldig.</string>
     <string name="invalid_recipient_title">Mottakerfeil</string>
     <string name="kilobytes">%s  KB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Søk etter postkasse på serveren</string>
     <string name="load_more">Last inn mer</string>
     <string name="loading_conversation">Laster…</string>
@@ -508,6 +514,7 @@
     <string name="login139">Logg inn med China Mobile</string>
     <string name="login_failed_ticker">%s innlogging var mislykket.</string>
     <string name="login_failed_title">Kan ikke logge inn</string>
+    <string name="login_mail">Sign in</string>
     <string name="login_support_tip_text">Støtter alle de større e-postkontoene</string>
     <string name="long_press_to_select_tip">Berør &amp; hold inne for å velge en samtale, og berør deretter for å se mer.</string>
     <string name="mail">Mail</string>
@@ -623,6 +630,7 @@
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="mute">Demp</string>
     <string name="navigation_menu">Navigeringsmeny</string>
+    <string name="need_get_qq_mail">Requires QQ Mail</string>
     <string name="network_error">Ingen forbindelse</string>
     <string name="network_invaild">Kan ikke koble til nettverket</string>
     <string name="network_not_available">Kan ikke koble til nettverket</string>
@@ -655,6 +663,8 @@ Prøv en annen innboks."</string>
     <string name="notification_action_undo_delete">Slettet</string>
     <string name="notification_action_undo_remove_label">Etikett fjernet</string>
     <string name="notification_exchange_calendar_added">Exchange-kalender er lagt til</string>
+    <string name="notify_channel_new_mail">Notify about new messages</string>
+    <string name="notify_channel_send_fail">Notify about failed delivery</string>
     <string name="oauth_error_description">Kunne ikke autentisere</string>
     <string name="oauth_gmail_login_notify">Fyll inn brukernavnet og passordet på Google-kontoen din på den følgende innloggingssiden.</string>
     <string name="oauth_login_continue">Fortsett</string>
@@ -669,6 +679,10 @@ Prøv en annen innboks."</string>
     <string name="open_external_storage_and_calendar_permission">Tillat at Mail får tilgang til lagring og kalenderinformasjon under Innstillinger</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Tillat at Mail får tilgang til lagring, kontakter og kalenderinformasjon under Innstillinger</string>
     <string name="open_external_storage_and_contacts_permission">Tillat at Mail får tilgang til lagring og kontakter under Innstillinger</string>
+    <string name="open_notification_kingagent">Turn on burial point notifications</string>
+    <string name="optimization_suggestion">Optimization suggestions</string>
+    <string name="others_mail">Other</string>
+    <string name="others_mail_des">(Compatible with 600K mail services)</string>
     <string name="outbox_alert_button_no_resend">Ikke send</string>
     <string name="outbox_alert_button_resend">Send på nytt</string>
     <string name="outbox_alert_certificate_error">Kontakt systemadministratoren knyttet til e-posten din, og oppdater sertifikatet.</string>
@@ -773,6 +787,7 @@ Prøv en annen innboks."</string>
     <string name="preview_attachment">Forhåndsvisning</string>
     <string name="previous_action">Tilbake</string>
     <string name="print">Skriv ut</string>
+    <string name="privacy_policy">Privacy Policy</string>
     <string name="prompt_title">Omgående</string>
     <string name="protocol_setting_toast">Trykk øverst i høyre hjørne for å gå til innstillinger etter du har samtykket</string>
     <string name="pull_to_refresh">Trekk ned for å oppdatere</string>
@@ -786,6 +801,9 @@ Prøv en annen innboks."</string>
     <string name="push_wps_confirm_message">Prøv å bruke WPS Office for å åpne dette vedlegget.</string>
     <string name="push_wps_confirm_title">Prøv WPS Office</string>
     <string name="push_wps_no_response_app">Ingen app ble funnet for å håndtere denne handlingen</string>
+    <string name="qq_authorization_help_get">Get code</string>
+    <string name="qq_authorization_know">About the code</string>
+    <string name="qq_authorization_tips">"Don't show again"</string>
     <string name="qq_auto_login_failed_cpy_pass_success">Kopieringen var vellykket. Gå tilbake til innloggingssiden og lim koden inn i passordboksen.</string>
     <string name="qq_auto_login_failed_dialog_message">Kopier bekreftelseskoden, trykk på \"Fyll inn brukernavn og passord for å logge inn\" på innloggingssiden, og lim koden inn i passordboksen.</string>
     <string name="qq_auto_login_failed_dialog_positive_label">Kopier kode</string>
@@ -799,6 +817,7 @@ Prøv en annen innboks."</string>
     <string name="qq_login_webview">Trykk på innlogging med passord når du logger inn på QQ-webklienten.</string>
     <string name="qq_next_generation_auth_toast">Skru på passordbeskyttelse i nettleseren din</string>
     <string name="qq_uthentication_failed">Kunne ikke verifisere kontoen, logg inn på nytt</string>
+    <string name="qq_verify_code">(Requires verification code from QQ)</string>
     <string name="qq_webview_loading">Et øyeblikk…</string>
     <string name="questionnair_body_invisibility">Meldinger vises ikke</string>
     <string name="questionnair_confirm_delete">Fjerne konto?</string>
@@ -941,6 +960,7 @@ Prøv en annen innboks."</string>
     <string name="silent_ringtone">Stille</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Passordet for den utgående e-postserveren er feil</string>
     <string name="sort_attachment">Sorter etter</string>
     <string name="storage">Lagring</string>
@@ -971,6 +991,7 @@ Prøv en annen innboks."</string>
     <string name="tap_to_configure">Berør for oppsett.</string>
     <string name="tap_to_enable_sync">Berør for å skru på.</string>
     <string name="three_day">3 dager</string>
+    <string name="title_activity_about">About</string>
     <string name="to">Til</string>
     <string name="to_heading">"Til: "</string>
     <string name="toast_bar_fail_synchronization">Kan ikke koble til nettverket</string>
@@ -1014,7 +1035,7 @@ Fjerne konto?"</string>
     <string name="unzip_file_failed">Kunne ikke pakke ut filen</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
     <string name="updated_at">Oppdatert på %1$s</string>
-    <string name="upload_log">Last opp logger</string>
+    <string name="upload_log">Send</string>
     <string name="upload_log_failed">Kunne ikke sende logger</string>
     <string name="upload_log_no">Avbryt</string>
     <string name="upload_log_success">Det er sendt. Vi vil snart komme tilbake til deg.</string>
@@ -1028,6 +1049,8 @@ Fjerne konto?"</string>
     <string name="veiled_alternate_text" />
     <string name="veiled_alternate_text_unknown_person" />
     <string name="veiled_summary_unknown_person" />
+    <string name="verify_code">Verification code</string>
+    <string name="version_string">Version: %s</string>
     <string name="via_domain">via %1$s</string>
     <string name="view_more_conversations">Se flere samtaler</string>
     <string name="wait_for_manual_sync_body">"Denne kontoen er ikke satt opp til å synkronisere automatisk.
@@ -1044,12 +1067,10 @@ Berør "<b>Synkroniser nå</b> for å synkronisere e-post én gang, eller <b>end
     <string name="widget_other_views">Annet</string>
     <string name="wipe_account_fail_description">Tillat</string>
     <string name="wipe_account_fail_title">Kunne ikke slette personlig informasjon</string>
+    <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Passordet du tastet inn er feil</string>
     <string name="yes">Ja</string>
     <string name="you_are_in_mobile_network">Bruke mobildata til å laste opp logger?</string>
     <string name="youfuli">Kampanje</string>
     <string name="zip_viewer_no_file">Ingen filer.</string>
-    <string name="account_settings_preference_add_account">Legg til e-postkonto</string>
-    <string name="mailbox_name_display_add_account">Legg til e-postkonto</string>
-    <string name="update_to_wps_mail">Nyt flere funksjoner med WPS Mail</string>
 </resources>
