@@ -35,7 +35,6 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
     <string name="cast_notification_connecting_message">Kobler til %1$s</string>
@@ -113,7 +112,6 @@
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
     <string name="s7">Testannonse</string>
     <string name="search_menu_title">Søk</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="agree">Enig</string>
     <string name="ai_animation_music_text">AI-lydspor</string>
     <string name="ai_music_save_cancel">Avbryt</string>
