@@ -50,8 +50,6 @@
     <string name="self_device_second_space">Denne telefonens andre område</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
     <string name="size_unknown">Ukjent størrelse</string>
     <string name="recovering">Gjenoppretter %s</string>
@@ -136,7 +134,6 @@
     <string name="provision_error_connect_msg">Test nettverket og prøv igjen. Sikkerhetskopier er ikke tilgjengelige når enheten er offline.</string>
     <string name="provision_error_connect_title">Kan ikke koble til</string>
     <string name="loading_user_backup">Laster brukersikkerhetskopier…</string>
-    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunne ikke verifisere konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
