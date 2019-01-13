@@ -205,6 +205,9 @@
     <string name="change_to_face_mode">Vis kun ansikt</string>
     <string name="change_to_photo_mode">Vis fulle forhåndsvisninger</string>
     <string name="change_to_visible">Gjenopprette denne personen?</string>
+    <string name="channel_default_name">Nye funksjoner</string>
+    <string name="channel_low_name">Nye meldinger</string>
+    <string name="channel_min_name">Appvarsler</string>
     <string name="checked">Valgt</string>
     <string name="checked_something">Valgt %s</string>
     <string name="choose_baby_sexy">Kjønn</string>
@@ -484,6 +487,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_to_pick_email">Ugyldig e-postadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Sjekk din datatilkobling og prøv igjen.</string>
@@ -494,17 +498,19 @@ Ta flere bilder av vennene dine!"</string>
     <string name="feature_guidance_photo_effects">"Ny fotoeffekt
 er tilgjengelig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgjengelig</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
+    <string name="filter_bi_bw">Svart og hvitt</string>
+    <string name="filter_bi_dusk">Skumring</string>
+    <string name="filter_bi_lilt">Munter sang</string>
     <string name="filter_bi_memory">Minne</string>
-    <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
-    <string name="filter_bi_portrait">Portrett</string>
     <string name="filter_bi_retro">Retro</string>
     <string name="filter_bi_romantic">Romantisk</string>
+    <string name="filter_bi_sepia">Sepia</string>
     <string name="filter_bi_strong">Sterk</string>
     <string name="filter_bi_sunny">Solfylt</string>
-    <string name="filter_bi_sweet">Søt</string>
+    <string name="filter_bi_tea">Te</string>
     <string name="filter_bi_warm">Varm</string>
-    <string name="filter_bi_young">Ung</string>
     <string name="filter_category_film">Film</string>
     <string name="filter_category_food">Mat</string>
     <string name="filter_category_master">Mester</string>
@@ -564,6 +570,7 @@ er tilgjengelig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Sett</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri trenger tilgang til 
 %s
  for å fungere som normalt, trykk \"Sett\" for å gå til Tillatelser."</string>
@@ -676,6 +683,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="more_album_hint">, osv.</string>
     <string name="more_face">Flere personer som likner på hverandre</string>
     <string name="more_face_album_name">Flere personer</string>
+    <string name="motion_photo_play">Play</string>
     <string name="move_to_other_albums_tip">Flytte dette albumet til Andre album?</string>
     <string name="movie_add_disable">Du kan velge opptil 20 bilder</string>
     <string name="movie_audio_custom">Lokal</string>
@@ -688,6 +696,10 @@ for å tilpasse Bildegalleriet"</string>
     <string name="movie_audio_sport">Tekno</string>
     <string name="movie_cancel_download">Avbryt</string>
     <string name="movie_change_to_long_video">Du har valgt mer enn 5 bilder. Byttet til en lenger video.</string>
+    <string name="movie_content_describe_add">Legg til bilder</string>
+    <string name="movie_content_describe_delete">Slett bilder</string>
+    <string name="movie_content_describe_pause">Pause</string>
+    <string name="movie_content_describe_play">Spill av</string>
     <string name="movie_delete_disable">Du trenger minst 3 bilder for å lage et klipp.</string>
     <string name="movie_download">Last ned</string>
     <string name="movie_download_failed">Kunne ikke laste ned</string>
@@ -806,6 +818,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="people_mark_mode_title_no_mark_name">Velg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Uten navn</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Bilder av kjæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Bilder</string>
@@ -877,6 +890,8 @@ for å tilpasse Bildegalleriet"</string>
     <string name="photo_editor_talkback_redo">Gjenta</string>
     <string name="photo_editor_talkback_undo">Angre</string>
     <string name="photo_editor_text">Tekst</string>
+    <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
+    <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_movie_module_finish">Vellykket innlasting av klipp</string>
     <string name="photo_movie_module_loading">Laster inn klipp…</string>
     <string name="photo_movie_select_image_range">Klipp kan inneholde 3-20 bilder</string>
@@ -1036,6 +1051,9 @@ for å tilpasse Bildegalleriet"</string>
     <string name="search_title_recommend">Anbefalt</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leter etter projektor …</string>
     <string name="secret_album_card_description">Den beste plassen for alle dine små hemmeligheter</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1322,6 +1340,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Vis flere personer</string>
     <string name="voice_assistant">Taleinndata</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>
@@ -1329,9 +1348,9 @@ for å tilpasse Bildegalleriet"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">I går</string>
     <string name="you_are">Du er babyens</string>
-    <string name="channel_default_name">Nye funksjoner</string>
-    <string name="channel_low_name">Nye meldinger</string>
-    <string name="channel_min_name">Appvarsler</string>
+    <string name="month_view_tip_button_text">Skjønner</string>
+    <string name="month_view_tip_sub_title">Knip skjermen for å bytte til månedsvisning</string>
+    <string name="month_view_tip_title">Månedsvisning</string>
     <string name="photomovie_audio_custom">Lokale</string>
     <string name="photomovie_audio_default">Minne</string>
     <string name="photomovie_audio_kawaii">Romantisk</string>
@@ -1378,4 +1397,6 @@ for å tilpasse Bildegalleriet"</string>
     <string name="refocus_title">Blur</string>
     <string name="refocus_type_static">Blur level</string>
     <string name="refocus_type_video">Light trails</string>
+    <string name="text_tab_bubble">Bubbles</string>
+    <string name="text_tab_watermark">Watermarks</string>
 </resources>

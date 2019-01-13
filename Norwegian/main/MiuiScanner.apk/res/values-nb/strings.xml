@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_title">Om</string>
     <string name="access_sd_fail">Kunne ikke få tilgang til SD-kort</string>
     <string name="accessibility_shutter_button">Lukker</string>
+    <string name="action_search">Search</string>
     <string name="address">Adresse:</string>
     <string name="agree_btn">Godta</string>
     <string name="amazon_assistant_shopping_title">Søk i Amazon</string>
@@ -14,6 +16,7 @@
     <string name="birthday">Fødselsdag:</string>
     <string name="blog">Weibo</string>
     <string name="business_card">Visittkort</string>
+    <string name="business_card_result_title">Visittkort</string>
     <string name="business_card_title">Sett visittkortet inn i rammen</string>
     <string name="business_copy">Kopier</string>
     <string name="business_new_contacts">Opprett kontakt</string>
@@ -22,8 +25,10 @@
     <string name="call_anyone">Ring</string>
     <string name="camera_error_title">Kamerafeil</string>
     <string name="cancel">Avbryt</string>
+    <string name="choose_pay_title">Velg betalingsmetode</string>
     <string name="choose_picture">Velg QR-kodebilde</string>
     <string name="common_retake_picture">Ta på nytt</string>
+    <string name="common_retry">Try again</string>
     <string name="common_save">Lagre</string>
     <string name="company">Bedrift:</string>
     <string name="confirm">OK</string>
@@ -35,6 +40,7 @@
     <string name="copy_text_success">Tekst er kopiet</string>
     <string name="crop_cancel_description">Avbryt</string>
     <string name="crop_done_description">Ferdig</string>
+    <string name="crop_title_study">Crop the photo</string>
     <string name="crop_title_translation">Velg tekst som skal oversettes</string>
     <string name="document_color_picture">Farge</string>
     <string name="document_color_picture_tip">Konverterer til farge…</string>
@@ -59,9 +65,11 @@
     <string name="email">E-post:</string>
     <string name="error_camera_disabled">Tilgang til kamera er nektet av sikkerhetsmessige årsaker</string>
     <string name="error_cannot_connect_camera">Kan ikke koble til kamera</string>
+    <string name="error_empty_result">"Couldn't find results"</string>
     <string name="error_get_image">Kunne ikke hente bilde</string>
     <string name="error_media_storage_failure">Kunne ikke lagre bilde</string>
     <string name="error_permissions">Skanneren har ikke tillatelsene som kreves for at den skal fungere normalt. Gå til Innstillinger og kontroller tillatelser for å fortsette.</string>
+    <string name="error_server_error">Server error</string>
     <string name="fax">Faks</string>
     <string name="feed_search_fail">Ingen resultat, prøv på nytt</string>
     <string name="feedback_description_camera_access">Skanneren kan ikke koble til kameraet</string>
@@ -94,12 +102,14 @@
     <string name="module_title_document">Dokument</string>
     <string name="module_title_plant">Plante</string>
     <string name="module_title_shopping">Shopping</string>
+    <string name="module_title_study">Study</string>
     <string name="module_title_translation">Oversett</string>
     <string name="name">Navn:</string>
     <string name="new_schedule">Opprett hendelse</string>
     <string name="nickname">Kallenavn:</string>
     <string name="no_network">kan ikke koble til nettverket</string>
     <string name="no_storage">Ingen intern lagring</string>
+    <string name="no_support_to_translate_type">Dette språket støttes ikke</string>
     <string name="not_insert_contact">Kan ikke legge til kontakt</string>
     <string name="not_recommend_access_web_url">Gå likevel</string>
     <string name="note">Merknad:</string>
@@ -118,18 +128,32 @@
     <string name="recognize">Skann</string>
     <string name="recognize_fail">Kunne ikke lese koden</string>
     <string name="scan_result">Resultat</string>
+    <string name="scan_support_type">WeChat, Alipay, QR-koder, strekkoder</string>
     <string name="sdk_not_ready">Forbereder SDK. Prøv igjen senere.</string>
     <string name="secure_access_web_url">Gå til nettsted</string>
     <string name="see_app_details">Se appopplysninger</string>
     <string name="select_dialog_confirm">OK</string>
     <string name="send_mail">Send e-post</string>
+    <string name="setting_alipay">Alipay</string>
+    <string name="setting_choose_every_time">Spør hver gang</string>
+    <string name="setting_default_function">Standardfunksjon</string>
+    <string name="setting_preference_pay">Foretrukket betalingsmetode</string>
+    <string name="setting_title">Innstillinger</string>
+    <string name="setting_use_last_choose">Husk det forrige valget</string>
+    <string name="setting_wechat">WeChat</string>
     <string name="shopping_searching">Søker…</string>
     <string name="shopping_title">Ta et bilde av produktet</string>
     <string name="shopping_vendor_info">Drevet av Taobao</string>
     <string name="spaceIsLow_content">Ikke nok plass på intern lagring. Frigjør plass.</string>
+    <string name="study_rotate_picture">Processing the photo</string>
+    <string name="study_scan_result">Result</string>
+    <string name="study_searching">Searching for result</string>
+    <string name="study_title">Take a photo of the problem</string>
+    <string name="study_vendor_info">Powered by 作业帮</string>
     <string name="switch_open">Slå på</string>
     <string name="tel">Telefon</string>
     <string name="title">Tittel:</string>
+    <string name="to_pay">Fullfør betalingen</string>
     <string name="translate_auto_lock">Lås oversettelsen</string>
     <string name="translate_auto_unlock">Lås opp oversettelsen</string>
     <string name="translate_copy_success">Kopiert</string>

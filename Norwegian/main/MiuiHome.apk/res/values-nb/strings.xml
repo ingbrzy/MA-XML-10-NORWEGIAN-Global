@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Legg til i arbeidsplass</string>
     <string name="activity_not_found">Appen er ikke installert på din enhet</string>
     <string name="add_screen">Legg til skjerm</string>
@@ -351,4 +352,5 @@
     <string name="widget_gadget_player">Musikk</string>
     <string name="widget_global_search">Søk</string>
     <string name="widget_quick_function">Hurtigfunksjoner</string>
+    <string name="dual_app">Dual-apper</string>
 </resources>
