@@ -97,6 +97,7 @@
     <string name="card_title_change">Mer</string>
     <string name="change_response_title">Endre respons</string>
     <string name="click_to_share">Trykk for å dele</string>
+    <string name="close_alarm">Slå av</string>
     <string name="countdown_event_title">Nedtelling: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedtelling: %1$s om 3 dager</string>
     <string name="countdown_notify_title">Nedtelling: %1$s</string>
@@ -291,6 +292,8 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="no_visiable_calendar_select_account">Legg til konto</string>
     <string name="no_visiable_calendar_title">Legg til konto</string>
     <string name="not_synced">ikke synkronisert</string>
+    <string name="notification_channel_description" />
+    <string name="notification_channel_name">Kalenderpåminnelser</string>
     <string name="panchang_amanta">Amanta</string>
     <string name="panchang_amanta_month">Amanta-måned:</string>
     <string name="panchang_ayana">Ayana</string>

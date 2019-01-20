@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Når MIUI oppdager at du sover, vil den lukke bakgrunnsapper, begrense Bluetooth, GPS, mobildata og Wi-Fi bruk, skjermen vil ikke lyse opp ved varsler.</string>
     <string name="nonui_mode_config_title">Ikke-interaktivt modus</string>
     <string name="nonui_mode_config_description">Skjermen lyses ikke opp ved varsler, skru av LED-lys, fingeravtrykksensor, og berøringskontroller for å spare batteri når MIUI oppdager at du ikke bruker enheten din.</string>
-    <string name="power_center">Batteribruk</string>
+    <string name="power_center">Batterisparer</string>
     <string name="power_usage">Strømforbruk</string>
     <string name="power_mode">Strøminnstillinger</string>
     <string name="performance_category">Ytelse</string>
@@ -110,4 +110,8 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="extreme_add_white_list_summary">Legg til opptil 4 apper</string>
     <string name="adaptive_battery_title">Bruk adaptivt batteri</string>
     <string name="adaptive_battery_summary">Begrens batteribruk for apper du ikke bruker ofte</string>
+    <string name="dark_mode">Mørk modus</string>
+    <string name="dark_mode_summary">Bytt til en mørk fargepalett for å spare strøm</string>
+    <string name="open_dark_mode">Bytt til mørk modus</string>
+    <string name="open_dark_mode_tip">Visningskvaliteten på enkelte funksjoner kan avta i Mørk modus. Den vil gjenopprettes til normalt når du går ut av Mørk modus. Bytte til Mørk modus nå?</string>
 </resources>
