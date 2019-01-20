@@ -296,7 +296,6 @@
     <string name="sms_happened">Ferdig</string>
     <string name="stock_card_add">Legg til selskaper</string>
     <string name="stock_card_title">Aksjer</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Fargeoppsett</string>
     <string name="stock_list_empty_text">Du følger ikke noen selskaper</string>
     <string name="stock_provider">Aksjekursene er levert av Webull</string>

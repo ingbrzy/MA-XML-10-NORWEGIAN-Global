@@ -487,7 +487,6 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_to_pick_email">Ugyldig e-postadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Sjekk din datatilkobling og prøv igjen.</string>
@@ -498,7 +497,6 @@ Ta flere bilder av vennene dine!"</string>
     <string name="feature_guidance_photo_effects">"Ny fotoeffekt
 er tilgjengelig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgjengelig</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Svart og hvitt</string>
     <string name="filter_bi_dusk">Skumring</string>
     <string name="filter_bi_lilt">Munter sang</string>
@@ -570,7 +568,6 @@ er tilgjengelig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Sett</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri trenger tilgang til 
 %s
  for å fungere som normalt, trykk \"Sett\" for å gå til Tillatelser."</string>
@@ -818,7 +815,6 @@ for å tilpasse Bildegalleriet"</string>
     <string name="people_mark_mode_title_no_mark_name">Velg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Uten navn</string>
-    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Bilder av kjæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Bilder</string>
@@ -890,8 +886,6 @@ for å tilpasse Bildegalleriet"</string>
     <string name="photo_editor_talkback_redo">Gjenta</string>
     <string name="photo_editor_talkback_undo">Angre</string>
     <string name="photo_editor_text">Tekst</string>
-    <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
-    <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_movie_module_finish">Vellykket innlasting av klipp</string>
     <string name="photo_movie_module_loading">Laster inn klipp…</string>
     <string name="photo_movie_select_image_range">Klipp kan inneholde 3-20 bilder</string>
@@ -1051,9 +1045,6 @@ for å tilpasse Bildegalleriet"</string>
     <string name="search_title_recommend">Anbefalt</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
-    <string name="search_transition_element_icon">search_icon</string>
-    <string name="search_transition_element_input">search_input</string>
-    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leter etter projektor …</string>
     <string name="secret_album_card_description">Den beste plassen for alle dine små hemmeligheter</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1340,7 +1331,6 @@ for å tilpasse Bildegalleriet"</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Vis flere personer</string>
     <string name="voice_assistant">Taleinndata</string>
-    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>
