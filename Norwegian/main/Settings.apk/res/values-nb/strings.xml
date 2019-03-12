@@ -245,15 +245,25 @@ Administratoren din kan overvåke og administrere innstillinger, tilgang, apper 
     <string name="animator_duration_scale_title">Varighetsskala for animator</string>
     <string name="another_migration_already_in_progress">En annen overføring pågår allerede.</string>
     <string name="anti_spam">Blokkeringsliste</string>
-    <string name="aod_close_color_inversion">Denne funksjonen kan ikke kombineres med fargeinvertering. Slå av fargeinvertering først.</string>
+    <string name="aod_close_color_inversion">Denne funksjonen kan ikke kombineres med fargeinvertering. Deaktiver fargeinvertering først.</string>
     <string name="aod_got_it">Skjønner</string>
-    <string name="aod_mode_summary">Vis alltid tid, dato og meldinger når skjerm er av</string>
-    <string name="aod_mode_time_summary">Planlegg når enheten skal bytte til Alltid-modus</string>
+    <string name="aod_lock_screen_date">EEEE, d. MMMM</string>
+    <string name="aod_lock_screen_date_12">EEEE, d. MMMM</string>
+    <string name="aod_mode_bg">Bakgrunn</string>
+    <string name="aod_mode_clock">Klokke</string>
+    <string name="aod_mode_style">Klokkestil og bakgrunn</string>
+    <string name="aod_mode_summary">Vis tid, dato og meldinger når skjermen er av</string>
+    <string name="aod_mode_time_summary">Planlegg tid for å aktivere og deaktivere Alltid på-modus</string>
     <string name="aod_mode_time_title">Planlegg</string>
     <string name="aod_mode_title">Alltid på-modus</string>
     <string name="aod_mode_turn_off">Av</string>
     <string name="aod_mode_turn_on">På</string>
-    <string name="aod_to_close">Slå av</string>
+    <string name="aod_sample_date">Tirsdag 10. mai</string>
+    <string name="aod_sample_hour">2</string>
+    <string name="aod_sample_hour_vertical">02</string>
+    <string name="aod_sample_minute">38</string>
+    <string name="aod_sample_time">2:38</string>
+    <string name="aod_to_close">Deaktiver</string>
     <string name="apn_apn">APN-navn</string>
     <string name="apn_auth_type">Autentiseringstype</string>
     <string name="apn_auth_type_chap">CHAP</string>
@@ -818,6 +828,9 @@ Sist kjørt %2$s"</string>
     <string name="bluetooth_scan_for_devices">Søk etter enheter</string>
     <string name="bluetooth_search_for_devices">Last inn på nytt</string>
     <string name="bluetooth_searching_for_devices">Søker …</string>
+    <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode">Bluetooth Audio aptX – tilpasset modus</string>
+    <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode_dialog_title">"Utløs Bluetooth Audio
+aptX-Adaptive: Kodek-modus"</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth lydbits per sampling</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Velg Bluetooth lydkodek:\u000bits per sampling</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode">Bluetooth lydkanalmodus</string>
@@ -926,6 +939,7 @@ Samplingsfrekvens"</string>
     <string name="bootloader_summary">Flash enheten din via USB</string>
     <string name="bootloader_tips">Etter du legger til din Mi Account må du ikke logge ut av den, utføre en tilbakestilling til fabrikkinnstillinger, eller tømme systemapp-dataene. Hvis du gjør noe av disse, må du legge til kontoen din på nytt eller så vil du ikke kunne låse opp enheten din.</string>
     <string name="bootloader_tips_ok">Skjønner</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Lysfarge</string>
     <string name="breathing_light_color_summary">Lysfarge ved nytt mottatt varsel</string>
     <string name="breathing_light_freq_summary">Blink når du har nye varsler</string>
@@ -981,12 +995,6 @@ Denne funksjonen kan skrus av under [Innstillinger]"</string>
     <string name="call_manager_enable_summary">Tillat denne tjenesten å styre hvilken anropsmåte som brukes.</string>
     <string name="call_manager_enable_title">Aktiver anropsbehandling</string>
     <string name="call_manager_title">Anropsbehandling</string>
-    <string name="call_records_name_1">Debbie Smith</string>
-    <string name="call_records_name_2">Jason Lee</string>
-    <string name="call_records_name_3">Tom Fowles</string>
-    <string name="call_records_summary_1">09:35 | 26 sekunder | China Unicom</string>
-    <string name="call_records_summary_2">16. august | 1m 16s | China Mobile</string>
-    <string name="call_records_summary_3">16. august | 2m 24s | China Unicom</string>
     <string name="call_settings_primary_user_only">Endre samtaleinnstillinger på Første område</string>
     <string name="call_settings_summary">Telefonsvarer, viderekobling, samtale venter, nummervisning</string>
     <string name="call_settings_title">Samtaleinnstillinger</string>
@@ -1270,7 +1278,7 @@ For å fortsette å bruke telefonen, må du gjennomføre en tilbakestilling til 
     <string name="daltonizer_type">Korrigeringsmodus</string>
     <string name="daltonizer_type_overridden">Overstyrt av %1$s</string>
     <string name="dangerous_option">Høyrisiko-utvikleralternativer</string>
-    <string name="dangerous_option_hint">%1$s er aktivert. Trykk for å endre innstillinger.</string>
+    <string name="dangerous_option_hint">\"%1$s er aktivert. Trykk for å endre innstillinger.</string>
     <string name="dangerous_option_hint_title">Høyrisiko-funksjon aktivert</string>
     <string name="dangerous_option_switch_title">Varsle om tillegg som innehar en høy risiko</string>
     <string name="dashboard_title">Innstillinger</string>
@@ -1450,6 +1458,7 @@ Siden databruken måles av telefonen, og operatøren din kan beregne bruken anne
     <string name="details_subtitle">Bruksdetaljer</string>
     <string name="dev_logpersist_clear_warning_message">Når vi ikke lenger overvåker ved bruk av den vedvarende loggeren, er vi nødt til å slette logger-dataene på enheten din.</string>
     <string name="dev_logpersist_clear_warning_title">Fjerne vedvarende logger-lagring?</string>
+    <string name="dev_settings_disabled_warning">Aktiver utvikleralternativer først</string>
     <string name="dev_settings_warning_message">Disse innstillingene er kun ment for utviklere. Aktivering av disse funksjonene kan føre til at enheten din og applikasjonene på den ikke oppfører seg som de skal eller forårsaker feil.</string>
     <string name="dev_settings_warning_title">Tillat utviklerinnstillinger?</string>
     <string name="developer_build">Beta</string>
@@ -1525,6 +1534,7 @@ Siden databruken måles av telefonen, og operatøren din kan beregne bruken anne
     <string name="dialog_title_hdmi_color_calibration">Forhåndsinnstilling fargekorrigering</string>
     <string name="dialog_title_login">Logg inn på din Mi Account</string>
     <string name="dialog_yes">Ja</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Merk: Etter en omstart kan ikke denne appen startes opp før du låser opp telefonen din</string>
     <string name="disable_overlays">Deaktiver HW-overlegg</string>
     <string name="disable_overlays_summary">Bruk alltid GPU til skjermgjengivelse</string>
@@ -1585,6 +1595,7 @@ Siden databruken måles av telefonen, og operatøren din kan beregne bruken anne
     <string name="dndm_auto_button_title">Gjenta «Ikke forstyrr»-tid</string>
     <string name="dndm_auto_setting_group">Planlagt</string>
     <string name="dndm_auto_time_setting">Angi tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Til</string>
     <string name="dndm_auto_time_turn_off_title">Skru av «Ikke forstyrr» automatisk</string>
     <string name="dndm_auto_time_turn_on">Fra</string>
@@ -2000,9 +2011,9 @@ Det var ingen hester eller andre dyr å se i byen – mennene bar ting i små, g
     <string name="forget">Glem</string>
     <string name="forget_password_button_text"><u>Glemt passord</u></string>
     <string name="forget_password_dialog_button_text">Tilbake</string>
-    <string name="forget_password_dialog_content_four"><Data>2. Velg &lt;font color=#e6e6e6>[Wipe data]&lt;/font>, og vent til enheten starter på nytt.</Data></string>
-    <string name="forget_password_dialog_content_one"><Data>Hvis du glemmer passordet ditt vil du ikke kunne tilbakestille det. Du kan imidlertid tilbakestille passordet etter at du har &lt;font color=#ec2700>slettet alle data på enheten&lt;/font> (inkludert bilder, kontakter osv). Sikkerhetskopier alle viktige data før dette.</Data></string>
-    <string name="forget_password_dialog_content_three"><Data>"1. Slå av enheten. Trykk på &lt;font color=#e6e6e6>[Power]&lt;/font> knappen og &lt;font color=#e6e6e6>[Volume+]&lt;/font> knappen samtidig, og hold dem inne til du ser &lt;img src=''> icon."</Data></string>
+    <string name="forget_password_dialog_content_four">&lt;Data>2. Velg &lt;font color=#e6e6e6>[Wipe data]&lt;/font>, og vent til enheten starter på nytt.&lt;/Data></string>
+    <string name="forget_password_dialog_content_one">&lt;Data>Hvis du glemmer passordet ditt vil du ikke kunne tilbakestille det. Du kan imidlertid tilbakestille passordet etter at du har &lt;font color=#ec2700>slettet alle data på enheten&lt;/font> (inkludert bilder, kontakter osv). Sikkerhetskopier alle viktige data før dette.&lt;/Data></string>
+    <string name="forget_password_dialog_content_three">"&lt;Data>1. Slå av enheten. Trykk på &lt;font color=#e6e6e6>[Power]&lt;/font> knappen og &lt;font color=#e6e6e6>[Volume+]&lt;/font> knappen samtidig, og hold dem inne til du ser &lt;img src=''> icon.&lt;/Data>"</string>
     <string name="forget_password_dialog_content_two">Følg disse trinnene for å slette data:</string>
     <string name="forget_password_dialog_title">Tilbakestill passordet ditt</string>
     <string name="forget_pattern"><u>Glemt mønsteret?</u></string>
@@ -2053,6 +2064,7 @@ Når du slår på automatisk sikkerhetskopiering, lagres app- og enhetsdata auto
     <string name="gadget_picker_title">Velg gadget</string>
     <string name="gadget_state_off">av</string>
     <string name="gadget_state_on">på</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_turning_off">slår av</string>
     <string name="gadget_state_turning_on">slår på</string>
     <string name="gadget_sync">Synkronisering</string>
@@ -2178,6 +2190,7 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="inactive_app_active_summary">Aktiv. Trykk for å veksle.</string>
     <string name="inactive_app_inactive_summary">Inaktiv. Trykk for å veksle.</string>
     <string name="inactive_apps_title">Inaktive apper</string>
+    <string name="incall_show">Profilvideo for utgående anrop</string>
     <string name="include_app_data_title">Inkluder appdata</string>
     <string name="incoming_call_breathing_light_color_title">Innkommende anrops lysfarge</string>
     <string name="incoming_call_breathing_light_freq_title">Samtaler blinkfrekvens</string>
@@ -2347,7 +2360,6 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="launch_google_search">Start Google Assistant</string>
     <string name="launch_recents">Start nylig brukte</string>
     <string name="launch_voice_assistant">Start taleassistent</string>
-    <string name="launcher_icon">Ikoner</string>
     <string name="launcher_title">Startskjerm &amp; Nylige</string>
     <string name="launching_cit">Starter CIT</string>
     <string name="launching_pho">Starter telefoninfo…</string>
@@ -2377,6 +2389,7 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="lift_to_wake_title">Aktiver enheten med løftebevegelser</string>
     <string name="line_breaking_summary">Optimaliser linjeskift for avsnitt</string>
     <string name="line_breaking_title">Optimaliser tekst</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="list_bg_header_text">Hvis du begrenser bakgrunnstilkoblingen, vil nye apper ikke være i stand til å koble til internett i bakgrunnen etter du har installert dem. De vil muligens ikke være i stand til å motta meldinger eller laste ned innhold etter dette.</string>
     <string name="list_empty_text">Tøm</string>
     <string name="loading_notification_apps">Laster inn apper …</string>
@@ -2515,7 +2528,7 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="lockpassword_confirm_your_lock_password_header">Bekreft passordet ditt</string>
     <string name="lockpassword_confirm_your_lock_pattern_header">Bekreft mønsteret ditt</string>
     <string name="lockpassword_confirm_your_password_generic">Skriv inn passordet for enheten for å fortsette.</string>
-    <string name="lockpassword_confirm_your_password_generic_profile">Skriv inn jobbpassordet ditt for å fortsette</string>
+    <string name="lockpassword_confirm_your_password_generic_profile">Tast inn arbeidspassordet ditt for å fortsette</string>
     <string name="lockpassword_confirm_your_password_header">Bekreft passordet ditt</string>
     <string name="lockpassword_confirm_your_pattern_generic">Bruk enhetsmønsteret for å fortsette.</string>
     <string name="lockpassword_confirm_your_pattern_generic_profile">Bruk jobbmønsteret ditt for å fortsette</string>
@@ -2733,6 +2746,7 @@ Det er andre brukere tilstede på denne enheten.
     <string name="memory_title">Tilgjengelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Minnebruk</string>
     <string name="memory_usage_apps">Minne brukt av apper</string>
+    <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s gjennomsnittlig minne brukt i løpet av de siste tre timene</string>
     <string name="menu_cancel">Forkast</string>
     <string name="menu_check">Opplevelse</string>
@@ -2862,10 +2876,11 @@ Det er andre brukere tilstede på denne enheten.
     <string name="mode_disable">Av</string>
     <string name="mode_enable">På</string>
     <string name="model_info">Modell</string>
-    <string name="model_name">Modellnavn</string>
-    <string name="model_number">Modellnummer</string>
+    <string name="model_name">Modell</string>
+    <string name="model_number">Enhetsmodell</string>
     <string name="modify_instruction_password_settings">Skriv inn passord</string>
     <string name="modify_privacy_password">Endre passord</string>
+    <string name="more_dangerous_option_hint">Høyrisikofunksjoner, inkludert \"%1$s\", er aktiverte. Trykk for å endre innstillinger.</string>
     <string name="move_app">Flytt</string>
     <string name="move_app_failed_dlg_text">Kan ikke flytte appen. %1$s</string>
     <string name="move_app_failed_dlg_title" />
@@ -3040,6 +3055,7 @@ Velg ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">Skjønner</string>
     <string name="nfc_how_it_works_title">Betaling ved terminaler</string>
     <string name="nfc_more_title">Mr</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp for betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angitt</string>
     <string name="nfc_payment_favor_default">Bruk alltid standard-appen</string>
@@ -3252,6 +3268,7 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="overlay_display_devices_title">Simuler sekundære skjermer</string>
     <string name="overlay_settings">Vis over andre apper</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskjermsignatur</string>
     <string name="owner_space">Første område</string>
@@ -3279,8 +3296,6 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="page_layout_31">Jack Tang</string>
     <string name="page_layout_32">Play Butikk</string>
     <string name="page_layout_33">Google</string>
-    <string name="page_layout_34">Telefon</string>
-    <string name="page_layout_35">Notater</string>
     <string name="page_layout_4">Musikk</string>
     <string name="page_layout_5">Video</string>
     <string name="page_layout_6">Apper</string>
@@ -3288,11 +3303,7 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="page_layout_8">Mi Life</string>
     <string name="page_layout_9">Temaer</string>
     <string name="page_layout_confirm_message">Enheten din må startes på nytt for at endringene skal tre i kraft. Dette tar omtrent ett minutt.</string>
-    <string name="page_layout_confirm_message_enlarge">Tekst, bilder og ikoner vil forstørres. Enkelte ikoner kan endre plassering.</string>
-    <string name="page_layout_confirm_message_narrow">Tekst, bilder og ikoner vil forminskes. Enkelte ikoner kan endre plassering.</string>
     <string name="page_layout_confirm_title">Endre skjermsinnstillinger</string>
-    <string name="page_layout_confirm_title_enlarge">Større elementer</string>
-    <string name="page_layout_confirm_title_narrow">Mindre elementer</string>
     <string name="page_layout_godzilla_title">XXL</string>
     <string name="page_layout_huge_title">XL</string>
     <string name="page_layout_large_title">L</string>
@@ -3385,7 +3396,7 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="power_bluetooth">Bluetooth</string>
     <string name="power_camera">Kamera</string>
     <string name="power_cell">Mobilnettverk i ventemodus</string>
-    <string name="power_center">Strøm</string>
+    <string name="power_center">Batterioptimalisering</string>
     <string name="power_charge_remaining">Batteriet er fulladet om %1$s</string>
     <string name="power_checker">Strømsjekker</string>
     <string name="power_flashlight">Lommelykt</string>
@@ -3401,7 +3412,7 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="power_key_start_enjoy">Finn ut mer om Google Assistant</string>
     <string name="power_key_start_guide">Starter Google Assistant ved å bruke av/på-knappen på fullskjermsenheter</string>
     <string name="power_last_full_charge_summary">for ^1 siden</string>
-    <string name="power_mgr">Batteri</string>
+    <string name="power_mgr">Batterioptimalisering</string>
     <string name="power_mode">Strøminnstillinger</string>
     <string name="power_mode_balanced_title">Balansere strøm</string>
     <string name="power_optimize">Batterisparer</string>
@@ -3504,7 +3515,7 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="privacy_authorize_cloud_msg">For å sikre kontoens sikkerhet, logg inn på i.mi.com hvis du ønsker å tilbakekalle autorisasjon for Mi Cloud-tjenester (inkludert synkronisering og sikkerhetskopier).</string>
     <string name="privacy_authorize_dialog_agree">Godta</string>
     <string name="privacy_authorize_dialog_exit">Avslutt</string>
-    <string name="privacy_authorize_dialog_message"><Data>For å bruke de grunnleggende funksjonene til denne tjenesten, må du godta at Xiaomi vil samle inn, behandle og bruke dine personlige data. Les personvernerklæringen for å lære mer om hvordan vi samler inn og behandler personlige data. Å velge \"Godta\" betyr at du har lest og godtatt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtale&lt;/a>.​</Data></string>
+    <string name="privacy_authorize_dialog_message">&lt;Data>For å bruke de grunnleggende funksjonene til denne tjenesten, må du godta at Xiaomi vil samle inn, behandle og bruke dine personlige data. Les personvernerklæringen for å lære mer om hvordan vi samler inn og behandler personlige data. Å velge \"Godta\" betyr at du har lest og godtatt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtale&lt;/a>.​&lt;/Data></string>
     <string name="privacy_authorize_network_error">Koble til nettverket og prøv igjen.</string>
     <string name="privacy_authorize_privacy_policy">Personvernerklæring</string>
     <string name="privacy_authorize_revoke">Tilbakekall</string>
@@ -3579,6 +3590,8 @@ Dette gir også appen muligheten til å slå Ikke forstyrr av eller på samt end
     <string name="private_sms_recording_intro_header">Tegn et opplåsingsmønster:</string>
     <string name="private_sms_reset_by_account">For å tilbakestille passordet ditt, logg inn på din Mi Account</string>
     <string name="process_dex2oat_label">Appoptimalisering</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Medietjener</string>
     <string name="process_provider_in_use_description">Leverandøren %1$s er i bruk.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i bruk.</string>
@@ -4205,6 +4218,7 @@ Sånn bruker du én-appsmodus:
     <string name="security_encryption_attention_3">Du må angi et nytt låseskjermpassord.</string>
     <string name="security_encryption_attention_4">Forsikre deg om at du husker låseskjermpassordet. Hvis ikke må du gjennomføre en full tilbakestilling og slette alle data på enheten.</string>
     <string name="security_encryption_attention_info">Du kan kryptere kontoer, innstillinger, nedlastede apper og deres data, medier og andre filer.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Viktig</string>
     <string name="security_encryption_close_dialog_info">Om du velger å ikke kryptere enheten med låseskjermpassord, kan enkelte Google-tjenester bli utilgjengelige.</string>
     <string name="security_encryption_close_dialog_title">Gå tilbake til standard passordbeskyttelse</string>
@@ -4321,6 +4335,7 @@ Merk: Du kan ikke bruke fingeravtrykket ditt til å låse opp denne enheten. For
     <string name="settings_manual_activity_title">Brukerveiledning</string>
     <string name="settings_manual_activity_unavailable">Det oppsto et problem ved innlasting av brukerveiledningen.</string>
     <string name="settings_notify_need_backup">Sikkerhetskopier innstillingene dine til Mi Cloud for å få tilgang til dem etter at du har byttet telefon.</string>
+    <string name="settings_notify_new_version">En oppdatering er tilgjengelig. Trykk for å se detaljer.</string>
     <string name="settings_notify_phone_recycled">Telefonnummeret ditt har blitt resirkulert. Dobbelttrykk for å legge til et annet telefonnummer.</string>
     <string name="settings_safetylegal_activity_loading">Laster inn …</string>
     <string name="settings_safetylegal_activity_title">Sikkerhetsinformasjon</string>
@@ -4459,6 +4474,7 @@ Muligens feil personlig kode."</string>
     <string name="sim_reenter_new">Skriv inn ny PIN-kode på nytt</string>
     <string name="sim_select_card">Velg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du må velge en SIM-innstilling</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4472,6 +4488,7 @@ Muligens feil personlig kode."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Hopp over likevel</string>
     <string name="skip_label">Hopp over</string>
@@ -4556,6 +4573,7 @@ Pålitelig legitimasjon, som er installert på enheten din, gjør dette mulig."<
     <string name="status_bar_settings_all_app_display_loading">Et øyeblikk…</string>
     <string name="status_bar_settings_app_notification_preferences">Appinnstillinger</string>
     <string name="status_bar_settings_basic_settings">Grunninnstillinger</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Rediger leverandørnavn</string>
     <string name="status_bar_settings_custom_wifi_name">Rediger Wi-Fi navn</string>
     <string name="status_bar_settings_customer_feedback">Tilbakemelding</string>
@@ -4800,7 +4818,7 @@ Vurder å bruke raskere ^1 for bedre ytelse."</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Velg en nettverksoperatør</string>
     <string name="summary_divider_text">", "</string>
-    <string name="summary_font_size_v2">Juster størrelsen for tekst, bilder og ikoner</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="super_resolution_access_title">Tilgjengelige apper</string>
     <string name="super_resolution_desc">Gjør bildene skarpere ved å bruke AI-algoritme</string>
@@ -4946,12 +4964,10 @@ Synkroniser på Google-måten, slik at du har tilgang til kontaktene dine, avtal
     <string name="title_font_current">Systemskrift</string>
     <string name="title_font_current2">Systemskrift</string>
     <string name="title_font_size">Skriftstørrelse</string>
-    <string name="title_font_v2">Tekst &amp; grensesnittelementer</string>
     <string name="title_hdmi_color_calibration">Forhåndsinnstilling fargekorrigering</string>
     <string name="title_jeejen">Jeejen startskjerm</string>
     <string name="title_layout_current">Tekststørrelse</string>
     <string name="title_layout_current2">Tekststørrelse</string>
-    <string name="title_layout_v2">Tekststørrelse &amp; skalering</string>
     <string name="to_close">Slå av</string>
     <string name="toast_lockscreen_glogin_empty_password">Tast inn passord</string>
     <string name="toast_need_login">Logg inn på din Mi Account</string>
@@ -5803,9 +5819,11 @@ Vil du tillate dette for alle apper som prøver å skanne?"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
@@ -5981,7 +5999,6 @@ Trykk"<b> Tilbake</b> for å koble til et annet nettverk.</string>
     <string name="wizard_back">Tilbake</string>
     <string name="wizard_finish">Fullfør</string>
     <string name="wizard_next">Neste</string>
-    <string name="words_title">Tekst</string>
     <string name="work_alarm_ringtone_title">Standard alarmlyd for jobb</string>
     <string name="work_mode_label">Jobbmodus</string>
     <string name="work_mode_summary">Slå på jobbprofilen, inkludert apper, synkronisering i bakgrunnen og relaterte funksjoner</string>

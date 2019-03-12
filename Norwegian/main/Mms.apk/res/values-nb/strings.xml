@@ -45,6 +45,10 @@
     <string name="audio_message_mx_offline">Kunne ikke laste ned lyd. Mi Message er frakoblet eller ikke tilgjengelig.</string>
     <string name="audio_playing_seconds">%d\"</string>
     <string name="audio_sim_card_mismatching">Ingen nettverkstilkobling eller feil SIM-kort installert. Installer SIM-kortet som meldingen ble sendt fra og koble til nettverket.</string>
+    <string name="auto_identify_btn_text_only_smart_messaging">Aktiver Smart Messaging</string>
+    <string name="auto_identify_btn_text_when_all_disabled">Identifiser avsender-ID automatisk</string>
+    <string name="auto_identify_btn_title">Denne meldingen er sendt fra et ukjent nummer.</string>
+    <string name="auto_identify_confirmation">Det kan ta flere minutter å aktivere denne funksjonen.</string>
     <string name="back_to_message_list">Tilbake til meldingsliste</string>
     <string name="batch_adding_progress_message">Legger til…</string>
     <string name="batch_deleting_message_progress_message">Sletter…</string>
@@ -186,7 +190,7 @@
     <string name="duration_zero">Varighet må være større enn 0 sekunder</string>
     <string name="earlier">Tidligere</string>
     <string name="edit">Rediger</string>
-    <string name="edit_phrase">Rediger raske svar</string>
+    <string name="edit_phrase">Rediger hurtigsvar</string>
     <string name="edit_slide_activity">Rediger lysbilde</string>
     <string name="edit_slideshow_activity">Rediger lysbildeserie</string>
     <string name="enabled">På</string>
@@ -220,6 +224,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_message_select_title">Videresend melding</string>
@@ -290,6 +295,7 @@
     <string name="menu_pick_from_contact">Velg fra kontakter</string>
     <string name="menu_preferences">Innstillinger</string>
     <string name="menu_send_as_common">Send som SMS</string>
+    <string name="menu_traffic_destination">Destinasjon</string>
     <string name="menu_unlock">Fjern fra favoritter</string>
     <string name="menu_view_contact">Vis kontakt</string>
     <string name="message_class_label">"Meldingsklasse: "</string>
@@ -388,6 +394,7 @@
     <string name="mx_stranger_recommend_msg">Trykk for å blokkere Mi-meldinger fra ukjente nummer</string>
     <string name="mx_type_guide">Send meldinger til andre MIUI-enheter uten å påføre deg kostnader</string>
     <string name="need_download">Synkroniserer…</string>
+    <string name="net_sms_subscribed">Abonnert</string>
     <string name="net_sms_unsubscribe">Abonnementet er avsluttet</string>
     <string name="network_error_description">En nettverksfeil oppstod. Vent et minutt eller to og prøv igjen.</string>
     <string name="networking_allow_continue">Tillat</string>
@@ -396,8 +403,8 @@
     <string name="networking_allow_title">Oppmerksomhet</string>
     <string name="new_message">Skriv ny</string>
     <string name="new_message_arrived">Du har en ny melding</string>
-    <string name="new_phrase">Legg til svar</string>
-    <string name="new_phrase_hint">Skriv inn nytt svar</string>
+    <string name="new_phrase">Legg til et svar</string>
+    <string name="new_phrase_hint">Skriv inn et nytt svar</string>
     <string name="no">Avbryt</string>
     <string name="no_block_button_msg">Fjern blokkering</string>
     <string name="no_conversations">Ingen samtaler</string>
@@ -422,6 +429,7 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Nye meldinger</string>
     <string name="number_add_hint">Skriv inn telefonnummer</string>
+    <string name="number_recognition_partner">Tilbydere av tjenester for avsender-ID-gjenkjennelse</string>
     <string name="open_audio_record_panel">Åpne panelet for lydopptak</string>
     <string name="open_edit_sms_panel">Åpne panelet for redigering av meldinger</string>
     <string name="open_url_with_web">Åpne denne URL-en i nettleseren?</string>
@@ -431,7 +439,7 @@
     <string name="phrase_confirm_delete_message">Dette svaret vil bli slettet.</string>
     <string name="phrase_empty">Ingen svar</string>
     <string name="phrase_from">Fra %1s</string>
-    <string name="phrase_list_title">Raske svar</string>
+    <string name="phrase_list_title">Hurtigsvar</string>
     <string name="pick_too_many_recipients">For mange mottakere</string>
     <string name="play">Spill</string>
     <string name="playing_failed">Kan ikke spille av</string>
@@ -661,6 +669,7 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>
@@ -732,7 +741,7 @@
     <string name="storage_unavailable">Ingen plass tilgjengelig</string>
     <string name="subject_hint">Emne</string>
     <string name="subject_label">"Emne: "</string>
-    <string name="subscribe">Subscribe</string>
+    <string name="subscribe">Abonner</string>
     <string name="summary_pref_cm_smart_sms">Kortmaler, SMS-servicenummer og mer.</string>
     <string name="switch_to_editor">Redigeringsmodus</string>
     <string name="switch_to_menu">Menymodus</string>
@@ -759,6 +768,7 @@
     <string name="too_many_attachments">Kan ikke overskride %1$s vedlegg. Kun det første %2$s vil bli lagt til.</string>
     <string name="too_many_recipients">Melding har for mange mottakere (%1$s). Du kan ikke ha flere enn %2$s mottakere.</string>
     <string name="too_many_unsent_mms">Kan ikke sende melding for øyeblikket. For mange usendte multimediemeldinger.</string>
+    <string name="train_edit_destination">Legg til</string>
     <string name="try_to_send">Prøv å sende</string>
     <string name="type_attachment">vedlegg</string>
     <string name="type_audio">lyd</string>

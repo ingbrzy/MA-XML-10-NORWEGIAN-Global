@@ -64,6 +64,12 @@
     <string name="keywords_search_call_record">Spill inn anrop;Ta opp anrop;Anropsopptak;Spille inn anrop</string>
     <string name="keywords_search_record">Nytt opptak;Legg til opptak;Opptak;Spill inn;Transkripsjon;Transkribere;Opptaker;Taleopptaker;Lydopptakerr;Opptaker app;Opptak app;Hvordan spille inn;Hvordan spille inn lyd;Hvor er opptakeren;MIUI opptaker</string>
     <string name="keywords_search_record_list">Opptaker;Transkripsjon;Transkripsjoner;Opptak;Dele opptak;Del opptak;Spill inn;Innspilling</string>
+    <string name="korea_permission_phone">Telefon</string>
+    <string name="korea_permission_phone_resc">For å få tilgang til enhetsstatus og håndtere opptak under samtaler</string>
+    <string name="korea_permission_record">Mikrofon</string>
+    <string name="korea_permission_record_resc">For lydinnspilling</string>
+    <string name="korea_permission_storage">Lagring</string>
+    <string name="korea_permission_storage_desc">For lagring av opptak</string>
     <string name="loading_order_list">Et øyeblikk…</string>
     <string name="loading_order_list_empty">Ingen ordre her.</string>
     <string name="low_battery_error">Mindre enn 5% batteri igjen. Stopp og lagre opptaket for å sikre at det ikke går tapt.</string>

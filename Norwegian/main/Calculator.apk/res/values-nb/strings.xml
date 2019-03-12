@@ -249,6 +249,11 @@
     <string name="tax_credit_mortgage">Boliglån</string>
     <string name="tax_credit_personal_income_tax">Personlig inntektsskatt</string>
     <string name="tax_credit_pretax_income">Inntekt før skatt (CNY)</string>
+    <string name="tax_detail">Skatteopplysninger</string>
+    <string name="tax_detail_amount">Momsbeløp</string>
+    <string name="tax_detail_rate">Momsprosent</string>
+    <string name="tax_detail_take_off">Fradrag</string>
+    <string name="tax_detail_tax_payed">Beløp som betales</string>
     <string name="tax_edittext_hint" />
     <string name="tax_endowment">Pensjonsfond</string>
     <string name="tax_fixed_salary_hint">Fyll inn inntekten din før skatt</string>
@@ -263,11 +268,13 @@
     <string name="tax_individual_income_tax_result">Resultater</string>
     <string name="tax_injury">Skade</string>
     <string name="tax_insurance_and_fund">Forsikring</string>
+    <string name="tax_insurance_and_fund_detail">Forsikringsopplysninger</string>
     <string name="tax_last_salary_hint">Fyll inn inntekten din</string>
     <string name="tax_last_salary_number">Inntekt</string>
     <string name="tax_location">Posisjon</string>
     <string name="tax_medical">Medisinsk</string>
     <string name="tax_param_error">Fyll inn riktige forsikringssatser</string>
+    <string name="tax_payment_period">Antall betalinger</string>
     <string name="tax_rate_provider">Beregnet i henhold til de nye skattereglene. Data er levert av hexun.com og East Money.</string>
     <string name="tax_result_real_get">Etter skatt</string>
     <string name="tax_social_insurance">Sosialforsikring</string>
@@ -587,8 +594,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s

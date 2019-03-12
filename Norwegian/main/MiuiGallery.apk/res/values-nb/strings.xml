@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="confirm_recommandation_face_is">&lt;Data> Sikker på at dette er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne personen vil flyttes til \"%2$s\"-albumet. &lt;/Data></string>
+    <string name="confirm_recommandation_face_not">&lt;Data> Sikker på at dette ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Sikker på at disse er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Disse personene vil flyttes til \"%2$s\"-albumet. &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_not">&lt;Data> Sikker på at disse ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
     <string name="accept">Aksepter</string>
     <string name="accept_or_deny">%1$s delte albumet %2$s med deg.</string>
     <string name="actionbar_overflow_item_desc">Flere valg</string>
@@ -32,6 +37,11 @@
     <string name="adjust_saturation">Metning</string>
     <string name="adjust_sharpen">Kvesse</string>
     <string name="adjust_vignette">Vignett</string>
+    <string name="agreement_agree">Aksepter</string>
+    <string name="agreement_optional_tip">(Valgfritt)</string>
+    <string name="agreement_quit">Avslutt</string>
+    <string name="agreement_required_tip">(Obligatorisk)</string>
+    <string name="agreement_summary">Juridiske dokumenter</string>
     <string name="ai_album_open_switch_button_title">Start analyse av bilder</string>
     <string name="ai_album_requesting_title">AI-algoritmen behandler fortsatt bildene. Kom tilbake om en liten stund.</string>
     <string name="ai_album_setting_sub_title">Tillat at AI-algoritmen identifiserer mennesker, steder og objekter på bildene, slik at du kan finne dem raskere.</string>
@@ -88,8 +98,8 @@
     <string name="alert_secret_album_message">Sveip ned mens du står i Album-fanen for å se skjult album.</string>
     <string name="alert_secret_album_message_lower_case">  sveip ned i Album for å se</string>
     <string name="alert_secret_album_title">Hvordan du kan se skjult album</string>
-    <string name="alert_selection_description">AI markerer det beste bildet blant lignende bilder med en stjerne.</string>
-    <string name="alert_selection_title">Valgt av AI</string>
+    <string name="alert_selection_description">MIUI vil analysere liknende bilder og markere de beste bildene for deg.</string>
+    <string name="alert_selection_title">Velg det beste bildet</string>
     <string name="all_faces">Bilder med denne personen</string>
     <string name="all_items_synced">Alle album er sikkerhetskopiert til Mi Cloud</string>
     <string name="all_video_album_display_name">Alle videoer</string>
@@ -293,13 +303,9 @@
     <string name="confirm_hidden_recommend_group">OK</string>
     <string name="confirm_hidden_recommend_group_message">Når anbefalinger er skrudd av, kan du fremdeles bruke \"Flere personer som likner\"-valget</string>
     <string name="confirm_hidden_recommend_group_title">Ikke vis anbefalinger</string>
-    <string name="confirm_merge_face_albums">" "<Data> Slå sammen disse albumene med %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Slå sammen disse albumene med %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">&lt;Data> Slå sammen disse albumene med %s? &lt;/Data></string>
+    <string name="confirm_merge_many_face_albums">&lt;Data> Slå sammen disse albumene med %s? &lt;/Data></string>
     <string name="confirm_not_face">Ingen matcher</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sikker på at dette er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne personen vil flyttes til \"%2$s\"-albumet. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data> Sikker på at dette ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sikker på at disse er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Disse personene vil flyttes til \"%2$s\"-albumet. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Sikker på at disse ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Kontakt</string>
     <string name="context_menu_add_contact">Legg til kontakter</string>
     <string name="context_menu_copy">Kopier</string>
@@ -369,8 +375,8 @@
     <string name="download_type_thumbnail">Høy kvalitet</string>
     <string name="download_type_thumbnail_desc">Høy kvalitet</string>
     <string name="download_type_title">Nedlastingskvalitet</string>
-    <string name="download_without_wifi_msg">Bruk av mobildata for å laste ned filer vil øke mobildatabruken din. Hvis du overskrider datagrensen, vil leverandøren din belaste deg med ytterligere kostnader.</string>
-    <string name="download_without_wifi_title">Advarsel databruk</string>
+    <string name="download_with_metered_network_msg">Å laste ned originale filer kan generere ytterligere gebyrer fra mobiloperatøren. Laste ned allikevel?</string>
+    <string name="download_with_metered_network_title">Du er koblet til et betalt nettverk</string>
     <string name="downloading_desc">%1$d/%2$d</string>
     <string name="downloading_dialog_message">Du kan velge kvaliteten på de nedlastede elementene eller skru av automatisk nedlasting under Innstillinger.</string>
     <string name="downloading_title">Laster ned bilder fra Mi Cloud</string>
@@ -487,6 +493,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_to_pick_email">Ugyldig e-postadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Sjekk din datatilkobling og prøv igjen.</string>
@@ -497,6 +504,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="feature_guidance_photo_effects">"Ny fotoeffekt
 er tilgjengelig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgjengelig</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Svart og hvitt</string>
     <string name="filter_bi_dusk">Skumring</string>
     <string name="filter_bi_lilt">Munter sang</string>
@@ -564,10 +572,13 @@ er tilgjengelig"</string>
     <string name="free_view_desc">3D view</string>
     <string name="gallery_setting">Innstillinger</string>
     <string name="gallery_sync_disable_toast">Synkronisering er av for Bildegalleriet</string>
+    <string name="generate_story_summary">MIUI analyserer bildene og lager historiealbum. Slå av denne funksjonen for å stoppe å lage historiealbum.</string>
+    <string name="generate_story_title">Historiealbum</string>
     <string name="get_album_info_in_process">Får delte albumdetaljer…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Sett</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri trenger tilgang til 
 %s
  for å fungere som normalt, trykk \"Sett\" for å gå til Tillatelser."</string>
@@ -602,6 +613,8 @@ er tilgjengelig"</string>
     <string name="image_invalid_path">Ugyldig sti</string>
     <string name="image_not_found">Kunne ikke finne bildet</string>
     <string name="image_quota_fulfiled">For mange bilder. Slett noen bilder og prøv igjen.</string>
+    <string name="image_selection_summary">MIUI analyserer lignende bilder og markerer de beste bildene for deg. Slå av denne funksjonen for å fjerne markeringer fra bilder.</string>
+    <string name="image_selection_title">Velg det beste bildet</string>
     <string name="image_with_time">Bilder tatt den %s</string>
     <string name="image_with_time_and_location">Bilder tatt den %1$s. Sted: %2$s.</string>
     <string name="impunity_declaration_settings">Internett-tilkoblingsvarsel</string>
@@ -676,6 +689,9 @@ for å tilpasse Bildegalleriet"</string>
     <string name="merge_album_title">Slå sammen med en person</string>
     <string name="messagelist_sender_self">Meg</string>
     <string name="micloud_introduce">Sikkerhetslagre bilder og videoer automatisk (Mi Account er påkrevd)</string>
+    <string name="month_view_tip_button_text">Skjønner</string>
+    <string name="month_view_tip_sub_title">Knip skjermen for å bytte til månedsvisning</string>
+    <string name="month_view_tip_title">Månedsvisning</string>
     <string name="more">Mer</string>
     <string name="more_album_hint">, osv.</string>
     <string name="more_face">Flere personer som likner på hverandre</string>
@@ -703,8 +719,8 @@ for å tilpasse Bildegalleriet"</string>
     <string name="movie_download_failed_for_notwork">Kunne ikke laste ned. Koble til nettverket og prøv igjen.</string>
     <string name="movie_download_sdk_without_wifi_msg">Det ser ut som enheten ikke er koblet til Wi-Fi. Vil du laste ned en nødvendige plug-in (3 MB) via mobildata?</string>
     <string name="movie_download_sdk_without_wifi_title">Laste ned via mobildata</string>
-    <string name="movie_download_without_wifi_msg">Bruk av mobildata for å laste ned filer vil øke mobildatabruken din. Hvis du overskrider datagrensen, vil leverandøren din belaste deg med ytterligere kostnader.</string>
-    <string name="movie_download_without_wifi_title">Advarsel databruk</string>
+    <string name="movie_download_with_metered_network_msg">Å laste ned originale filer kan generere ytterligere gebyrer fra mobiloperatøren. Laste ned allikevel?</string>
+    <string name="movie_download_with_metered_network_title">Du er koblet til et betalt nettverk</string>
     <string name="movie_edit">Rediger</string>
     <string name="movie_item_name">Klipp</string>
     <string name="movie_preview_btn">Forhåndsvisning</string>
@@ -792,6 +808,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="operation_send">Send</string>
     <string name="operation_set_contact_photo">Sett som kontaktbilde</string>
     <string name="operation_set_slide_wallpaper">Angi som lysbildefremvisningsbakgrunn</string>
+    <string name="operation_set_video_wallpaper">Angi videobakgrunn</string>
     <string name="operation_set_wallpaper">Sett som bakgrunn</string>
     <string name="operation_share">Del</string>
     <string name="operation_show_in_photos_tab">Vis i bilder</string>
@@ -815,6 +832,16 @@ for å tilpasse Bildegalleriet"</string>
     <string name="people_mark_mode_title_no_mark_name">Velg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Uten navn</string>
+    <string name="percent_sign">%</string>
+    <string name="permissin_contract_desc">For navngiving av folk på bilder</string>
+    <string name="permission_contract_name">Kontakter</string>
+    <string name="permission_optional_category">Valgfrie tillatelser</string>
+    <string name="permission_phone_desc">For nettverksforespørsler basert på enhets-ID</string>
+    <string name="permission_phone_name">Telefon</string>
+    <string name="permission_require_category">Obligatoriske tillatelser</string>
+    <string name="permission_storage_desc">For visning, redigering og lagring av bilder</string>
+    <string name="permission_storage_name">Lagring</string>
+    <string name="permission_use_desc">Tillatelser</string>
     <string name="pet_album_display_name">Bilder av kjæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Bilder</string>
@@ -830,6 +857,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Drodling</string>
     <string name="photo_editor_filter">Filter</string>
+    <string name="photo_editor_font_default">>Mi Lanting (Vanlig)</string>
     <string name="photo_editor_frame">Ramme</string>
     <string name="photo_editor_label">Rediger</string>
     <string name="photo_editor_long_crop">Beskjær</string>
@@ -886,6 +914,11 @@ for å tilpasse Bildegalleriet"</string>
     <string name="photo_editor_talkback_redo">Gjenta</string>
     <string name="photo_editor_talkback_undo">Angre</string>
     <string name="photo_editor_text">Tekst</string>
+    <string name="photo_font_cancel_download">Avbryt</string>
+    <string name="photo_font_download">Last ned</string>
+    <string name="photo_font_download_failed_for_notwork">Kunne ikke laste ned. Koble til nettverket og prøv igjen.</string>
+    <string name="photo_font_download_without_wifi_msg">Bruk av mobildata for å laste ned filer vil øke mobildatabruken din. Hvis du overskrider datagrensen, vil operatøren din belaste deg med ytterligere kostnader.</string>
+    <string name="photo_font_download_without_wifi_title">Advarsel om databruk</string>
     <string name="photo_movie_module_finish">Vellykket innlasting av klipp</string>
     <string name="photo_movie_module_loading">Laster inn klipp…</string>
     <string name="photo_movie_select_image_range">Klipp kan inneholde 3-20 bilder</string>
@@ -943,6 +976,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="recent_album_empty_title">Har ikke lagt til nye bilder i det siste</string>
     <string name="recommanded_face_abandon_tip">Fjernet fra anbefalinger</string>
     <string name="recommanded_face_added_tip">Lagt til \"%s\"</string>
+    <string name="recommend_category_title">Galleriets valg</string>
     <string name="recovery_merge">Sammenslå</string>
     <string name="recovery_merge_or_rename">Sammenslå album</string>
     <string name="recovery_merge_or_rename_message">Det finnes allerede et album med dette navnet. Sammenslå?</string>
@@ -1045,6 +1079,9 @@ for å tilpasse Bildegalleriet"</string>
     <string name="search_title_recommend">Anbefalt</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leter etter projektor …</string>
     <string name="secret_album_card_description">Den beste plassen for alle dine små hemmeligheter</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1064,6 +1101,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="secret_reason_unknow_reasons">Ukjent feil</string>
     <string name="secret_reason_video_not_support">Kan ikke legge til videoer fra skjult album</string>
     <string name="see_ignore_faces">Se personer du har ignorert</string>
+    <string name="select_all">Velg alle</string>
     <string name="select_image_operation">Legger til bilder</string>
     <string name="select_item_face">"Er dette '%s'?"</string>
     <string name="select_origin_tip">Opprinnelig fil (%s)</string>
@@ -1075,6 +1113,8 @@ for å tilpasse Bildegalleriet"</string>
     <string name="send_too_many_files_error">Kan bruke opptil %d elementer samtidig</string>
     <string name="set_as_slide_wallpaper_description">Dette bildet er et miniatyrbilde. Laste ned det opprinnelige?</string>
     <string name="set_as_slide_wallpaper_title">Angi som lysbildefremvisningsbakgrunn</string>
+    <string name="set_as_video_wallpaper_description">Laste ned dette elementet og bruke det som videobakgrunn?</string>
+    <string name="set_as_video_wallpaper_title">Angi videobakgrunn</string>
     <string name="set_as_wallpaper_description">Dette bildet er et miniatyrbilde. Laste ned det opprinnelige?</string>
     <string name="set_as_wallpaper_title">Sett som bakgrunn</string>
     <string name="set_face_group_toast_msg_new_user">Hold inne en person for å slå sammen eller ignorere dem</string>
@@ -1083,6 +1123,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="set_face_group_toast_title_old_user">Personer kan organiseres i grupper</string>
     <string name="set_face_image">Velg et nytt profilbilde</string>
     <string name="set_group">Angi gruppe</string>
+    <string name="set_video_wallpaper_failed">Kan ikke bruke dette elementet som videobakgrunn</string>
     <string name="set_wallpaper_get_image_failed">Kunne ikke laste ned bilde, prøv igjen senere</string>
     <string name="setup_network_connection">Nettverksinnstillinger</string>
     <string name="share">Del</string>
@@ -1133,17 +1174,11 @@ for å tilpasse Bildegalleriet"</string>
     <string name="sticker_spring">Vår</string>
     <string name="sticker_summer">Sommer</string>
     <string name="sticker_words">Ord</string>
-    <string name="storage_description_primary">Intern lagring</string>
-    <string name="storage_description_sdcard">SD-kort</string>
-    <string name="storage_description_usb">USB-lagring</string>
-    <string name="storage_description_xspace">Dual-app data</string>
     <string name="storage_no_space">Ikke nok plass</string>
     <string name="story_back_stop_download">Trykk på nytt for å stanse nedlastingen</string>
     <string name="story_cancel_download">Avbryt</string>
     <string name="story_download">Last ned</string>
     <string name="story_download_failed_for_notwork">Kunne ikke laste ned. Koble til nettverket og prøv igjen.</string>
-    <string name="story_download_without_wifi_msg">Bruk av mobildata for å laste ned filer vil øke mobildatabruken din. Hvis du overskrider datagrensen, vil leverandøren din belaste deg med ytterligere kostnader.</string>
-    <string name="story_download_without_wifi_title">Advarsel om databruk</string>
     <string name="story_photo_downloading">Laster ned…</string>
     <string name="sub_discard_confirm_message">Lagre endringer?</string>
     <string name="sub_discard_negative_btn">Forkast</string>
@@ -1182,6 +1217,8 @@ for å tilpasse Bildegalleriet"</string>
     <string name="text_edit_dialog_style_shadow">Skygge</string>
     <string name="text_edit_dialog_style_transparent">Opasitet</string>
     <string name="text_edit_sub_menu_text">Boble</string>
+    <string name="text_tab_bubble">Bobler</string>
+    <string name="text_tab_watermark">Vannmerker</string>
     <string name="things_album_empty_title">Bilder kan sorteres etter objektene i dem</string>
     <string name="thumbnail_name">miniatyrbilde</string>
     <string name="tip_capture_location">Sted:</string>
@@ -1199,7 +1236,6 @@ for å tilpasse Bildegalleriet"</string>
     <string name="to_enable_sync_dialog_message">Skru først på synkronisering</string>
     <string name="to_enable_sync_dialog_positive_button_text">Gå til innstillinger</string>
     <string name="to_enable_sync_dialog_title">Synkroniser</string>
-    <string name="today">I dag</string>
     <string name="too_many_recipients">Kan ikke legge til mer enn %2$s mottakere (Så langt har du lagt til %1$s).</string>
     <string name="trash_bin">Søppelbøtte</string>
     <string name="trash_bin_summary">Se gjennom sikkerhetslagrede bilder som nylig ble slettet</string>
@@ -1244,8 +1280,8 @@ for å tilpasse Bildegalleriet"</string>
     <string name="video_editor_down_load_now">Last ned</string>
     <string name="video_editor_download">Last ned</string>
     <string name="video_editor_download_failed_for_notwork">Kunne ikke laste ned. Koble til nettverket og prøv igjen.</string>
-    <string name="video_editor_download_without_wifi_msg">Bruk av mobildata for å laste ned filer vil øke mobildatabruken din. Hvis du overskrider datagrensen, vil leverandøren din belaste deg med ytterligere kostnader.</string>
-    <string name="video_editor_download_without_wifi_title">Advarsel om databruk</string>
+    <string name="video_editor_download_with_metered_network_msg">Å laste ned originale filer kan generere ytterligere gebyrer fra mobiloperatøren. Laste ned allikevel?</string>
+    <string name="video_editor_download_with_metered_network_title">Du er koblet til et betalt nettverk</string>
     <string name="video_editor_encode_video">Koder video…</string>
     <string name="video_editor_encode_video_error">Kunne ikke kode video</string>
     <string name="video_editor_fatal_error">Ukjent feil</string>
@@ -1336,11 +1372,14 @@ for å tilpasse Bildegalleriet"</string>
     <string name="who_is_this">Hvem er det?</string>
     <string name="xiaomi_account_not_exists_toast">Mi Account finnes ikke</string>
     <string name="yes">Ja</string>
-    <string name="yesterday">I går</string>
     <string name="you_are">Du er babyens</string>
-    <string name="month_view_tip_button_text">Skjønner</string>
-    <string name="month_view_tip_sub_title">Knip skjermen for å bytte til månedsvisning</string>
-    <string name="month_view_tip_title">Månedsvisning</string>
+    <string name="cleaner_similar_action">Slett nå</string>
+    <string name="cleaner_similar_description">Slett dupliserte bilder</string>
+    <string name="cleaner_similar_title">Dupliserte bilder</string>
+    <string name="cleaner_video_action">Slett nå</string>
+    <string name="cleaner_video_description">Slett videoer som tar opp lagringsplass</string>
+    <string name="cleaner_video_pick_delete_selected">Slett valgte videoer</string>
+    <string name="cleaner_video_title">Slett videoer</string>
     <string name="photomovie_audio_custom">Lokale</string>
     <string name="photomovie_audio_default">Minne</string>
     <string name="photomovie_audio_kawaii">Romantisk</string>
@@ -1387,6 +1426,15 @@ for å tilpasse Bildegalleriet"</string>
     <string name="refocus_title">Blur</string>
     <string name="refocus_type_static">Blur level</string>
     <string name="refocus_type_video">Light trails</string>
-    <string name="text_tab_bubble">Bubbles</string>
-    <string name="text_tab_watermark">Watermarks</string>
+    <string name="screen_doodle_talkback_size">Linjetykkelse på drodling</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
+    <string name="screen_editor_finish">Ferdig</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
+    <string name="screen_save_dialog_btn_cancel">Avbryt</string>
+    <string name="screen_save_dialog_btn_delete">Slett skjermbilde</string>
+    <string name="screen_save_dialog_btn_save">Lagre i Galleri</string>
+    <string name="similar_keep_clear">Behold de beste bildene</string>
 </resources>

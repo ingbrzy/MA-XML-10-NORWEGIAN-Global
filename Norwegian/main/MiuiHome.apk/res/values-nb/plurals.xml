@@ -29,7 +29,7 @@
         <item quantity="one">Kunne ikke avinstallere %1$d app</item>
     </plurals>
     <plurals name="uninstall_result_multi_succeeded">
-        <item quantity="other">Uninstalled %1$d apps</item>
-        <item quantity="one">Uninstalled %1$d app</item>
+        <item quantity="other">Avinstallerte %1$d apper</item>
+        <item quantity="one">Avinstallerte %1$d app</item>
     </plurals>
 </resources>

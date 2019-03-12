@@ -118,6 +118,7 @@
     <string name="menu_title_select_folder">Velg mappe</string>
     <string name="menu_unhide">Vis</string>
     <string name="menu_unstick">Løsne</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nå</string>
     <string name="note_description_content">Notat-appen er et flott verktøy for å registrere tankene dine. Den har innebygde påminnelser og synkroniserer elementene dine til Mi Cloud, slik at du kan få tilgang til dem hvor som helst, når som helst. Vær sikker på at du klarer deg uten disse funksjonene før du sletter appen.</string>
     <string name="note_description_title">Om notater</string>
@@ -129,8 +130,13 @@
     <string name="note_sort_way">Velg hvordan du ønsker å sortere notatene dine</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notatpåminnelse</string>
     <string name="permdesc_accessNote">Ondsinnede apper kan bruke dette for å få tilgang til dine personlige data.</string>
+    <string name="permission_intro_contact">Til å markere notater tatt under samtaler</string>
+    <string name="permission_intro_microphone">Til å spille inn stemmenotater</string>
+    <string name="permission_intro_phone">Til å markere notater tatt under samtaler</string>
+    <string name="permission_intro_storage">Til å lagre notater og vedlegg</string>
     <string name="permlab_accessNote">Få tilgang til notater</string>
     <string name="pref_desc_skip_confirm_for_quick_delete">Kke be om bekreftelse når du sletter et notat ved hjelp av bevegelse</string>
     <string name="pref_title_cloud_trash_bin">Slettet notater i Mi Cloud</string>
@@ -213,6 +219,14 @@
     <string name="toast_reach_text_limit_truncate">Dette notatet er for lang. Noe tekst er kuttet bakfra.</string>
     <string name="toast_refuse_to_record_when_in_call">Kan ikke bruke denne funksjonen under samtaler</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Kan ikke bruke denne funksjonen med Split screen</string>
+    <string name="toast_refuse_to_use_contact">"Kontakttillatelser er begrenset.
+Tillat Notater å lese kontaktene dine og finne kontoer på enheten."</string>
+    <string name="toast_refuse_to_use_external_storage">"Lagringstillatelser er begrenset.
+Tillat Notater å lese innholdet på SD-kortet."</string>
+    <string name="toast_refuse_to_use_phone_state">"Telefontillatelser er begrenset.
+Tillat Notater å lese telefonstatus og identitet."</string>
+    <string name="toast_refuse_to_use_record_audio">"Mikrofontillatelser er begrenset.
+Tillat Notater å spille inn lyd."</string>
     <string name="toolbar_check_description">Leg til avkryssingsboks</string>
     <string name="toolbar_delete_description">Slett dette notatet</string>
     <string name="toolbar_gallery_description">Legg til bilde</string>

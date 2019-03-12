@@ -56,6 +56,8 @@
     <string name="no_sound">Demp</string>
     <string name="operation_delete">Slett</string>
     <string name="operation_send">Send</string>
+    <string name="permission_intro_microphone">For å ta opp lyd når lydkilden er satt til mikrofonen</string>
+    <string name="permission_intro_storage">For å lagre skjermopptak</string>
     <string name="quit_recording">Avslutt Skjermopptaker</string>
     <string name="recording_failure">Kunne ikke ta opp. Start på nytt</string>
     <string name="recording_max_size">Opptak ble stanset og lagret fordi videofilen nådde størrelsesgrensen. Start opptaket fra der du slapp hvis du ikke er ferdig.</string>
@@ -72,6 +74,10 @@
     <string name="show_hard_key_summary">Vis beskjeder når du trykker på Hjem-, Meny- og Tilbake-knappene</string>
     <string name="show_screen_touch">Vis berøringsbevegelser</string>
     <string name="show_screen_touch_summary">Visualiser bevegelser ved hjelp av en hvit prikk</string>
+    <string name="size_byte">B</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="size_kilobyte">KB</string>
+    <string name="size_megabyte">MB</string>
     <string name="sound_source">Lydkilde</string>
     <string name="sound_source_summary">Systemlyder eller mikrofoner</string>
     <string name="sound_source_summary_without_system_sounds">Bruk mikrofonen eller demp lyden</string>

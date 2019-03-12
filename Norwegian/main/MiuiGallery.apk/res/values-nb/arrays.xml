@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="activities_title">
+        <item>Spesiell dag</item>
+        <item>Dag å huske</item>
+        <item>Levende øyeblikk</item>
+    </string-array>
     <string-array name="baby_sexy">
         <item>Gutt</item>
         <item>Jente</item>
+    </string-array>
+    <string-array name="last_weekend_title">
+        <item>Mine helger</item>
+        <item>Biter av livet</item>
+        <item>Helgeminner</item>
+    </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flytt</item>
+        <item>Kopier</item>
+        <item>@string/cancel</item>
     </string-array>
     <string-array name="month">
         <item>Januar</item>
@@ -26,6 +41,11 @@
         <item>Mormor</item>
         <item>Morfar</item>
     </string-array>
+    <string-array name="parties_title">
+        <item>Sammen</item>
+        <item>Gode stunder</item>
+        <item>I samstemmighet</item>
+    </string-array>
     <string-array name="relation_with_me">
         <item>Meg</item>
         <item>Barn</item>
@@ -48,5 +68,9 @@
         <item>Farmor</item>
         <item>Mormor</item>
         <item>Morfar</item>
+    </string-array>
+    <string-array name="sports_title">
+        <item>Å bevege seg fremover</item>
+        <item>Full av energi</item>
     </string-array>
 </resources>

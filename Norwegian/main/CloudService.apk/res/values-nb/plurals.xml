@@ -56,12 +56,16 @@
         <item quantity="other">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>
         <item quantity="one">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_hour">
-        <item quantity="other">Fortsett synkronisering etter %d timer</item>
-        <item quantity="one">Fortsett synkronisering etter %d time</item>
+    <plurals name="micloud_manual_pause_and_resume">
+        <item quantity="other">Synkronisering er satt på pause. Fortsetter om %d minutter…</item>
+        <item quantity="one">Synkronisering er satt på pause. Fortsetter om %d minutt…</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_min">
-        <item quantity="other">Fortsett synkronisering etter %d minutter</item>
-        <item quantity="one">Fortsett synkronisering etter %d minutter</item>
+    <plurals name="last_sync_time_mins_ago">
+        <item quantity="other">%s min siden</item>
+        <item quantity="one">%s min siden</item>
+    </plurals>
+    <plurals name="last_sync_time_hours_ago">
+        <item quantity="other">%s t siden</item>
+        <item quantity="one">%s t siden</item>
     </plurals>
 </resources>

@@ -8,6 +8,10 @@
         <item quantity="other">Åpnet Nylige, tilgjengelige app: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
         <item quantity="one">Åpnet Nylige, tilgjengelige apper: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
     </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$stimer %2$s"</item>
+        <item quantity="one">" %1$stime %2$s"</item>
+    </plurals>
     <plurals name="block_record_notification_more_text">
         <item quantity="other">Skjuler varsler fra %1$s &amp; %2$d apper.</item>
         <item quantity="one">Skjuler varsler fra %1$s &amp; %2$d app.</item>

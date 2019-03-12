@@ -244,6 +244,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">%d dager siden siste sjekk</item>
         <item quantity="one">%d dag siden siste sjekk</item>
     </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d risikoer funnet, fiks nå</item>
+        <item quantity="one">%d risiko funnet, fiks nå</item>
+    </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">%d farer,</item>
         <item quantity="one">%d fare,</item>
@@ -375,10 +379,6 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d apper er skjulte</item>
         <item quantity="one">%d app er skjult</item>
-    </plurals>
-    <plurals name="first_aid_card_float_window_summary">
-        <item quantity="other">%d apper kan vises feil. Begrens flytende varsler.</item>
-        <item quantity="one">%d app kan vises feil. Begrens flytende varsler.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer krever optimalisering</item>

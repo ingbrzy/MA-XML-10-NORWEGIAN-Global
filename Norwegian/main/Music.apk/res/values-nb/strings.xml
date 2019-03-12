@@ -42,6 +42,7 @@
     <string name="add_to_last_of_playlist">Legg til i slutten av spillelisten</string>
     <string name="add_to_playlist_successful">Lagt til</string>
     <string name="added_next_play">Lag til å spille nå</string>
+    <string name="agreement_desc">Brukeravtale (obligatorisk)</string>
     <string name="alaka_required">Du bør betale for å lytte til denne sangen</string>
     <string name="album_label">Albumcovere</string>
     <string name="album_name">Album</string>
@@ -53,6 +54,16 @@
     <string name="already_favorited">Allerede favorittmerket</string>
     <string name="always_use_metered">Always use mobile data</string>
     <string name="app_label">Nedlastinger</string>
+    <string name="app_permission_confirm">Skjønner</string>
+    <string name="app_permission_optional">Valgfrie tillatelser</string>
+    <string name="app_permission_require">Obligatoriske tillatelser</string>
+    <string name="app_permission_use_desc">Tillatelser</string>
+    <string name="app_permission_use_group_account">Kontoer</string>
+    <string name="app_permission_use_group_account_desc">For å hente Mi Account-informasjon</string>
+    <string name="app_permission_use_group_phone">Telefon</string>
+    <string name="app_permission_use_group_phone_desc">For Google Push-tjenester</string>
+    <string name="app_permission_use_group_storage">Lagring</string>
+    <string name="app_permission_use_group_storage_desc">For å finne og spille av sanger som er lagret på enheten</string>
     <string name="artist">Artister</string>
     <string name="artist_area_all">Alle</string>
     <string name="artist_area_china">Kina</string>
@@ -119,6 +130,7 @@
     <string name="current_version">Aktuell versjon</string>
     <string name="data_usage_warning">Databruk</string>
     <string name="data_usage_warning_summary">Bruk av mobildataforbindelse til å strømme musikk av høy kvalitet kan øke kostnadene for databruk.</string>
+    <string name="data_use_desc">Juridiske dokumenter</string>
     <string name="date_format_str">dd-MM-yyyy</string>
     <string name="delete">Slett</string>
     <string name="delete_download">Slett</string>
@@ -205,6 +217,7 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
@@ -284,7 +297,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -306,6 +321,7 @@
     <string name="favorite_succeed">Lagt til i favoritter</string>
     <string name="favorite_tracks">Favoritter</string>
     <string name="favorites">Favoritter</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feed_back">Tilbakemelding</string>
     <string name="file_not_found">Filen eksisterer ikke</string>
     <string name="filter_by_duration">Etter lengde</string>
@@ -326,6 +342,7 @@
     <string name="format_not_support">Dette formatet er ikke støttet.</string>
     <string name="format_unsupported_or_corrupted">Dette formatet er ikke støttet, eller filen er ødelagt</string>
     <string name="fragment_title_artist_album">Albumer</string>
+    <string name="gcm_fallback_notification_channel_label">Diverse</string>
     <string name="handle_later">Ikke nå</string>
     <string name="hd_quality_audio">Lyd i HD-kvalitet</string>
     <string name="headset_and_audio_effect_category">Høretelefoner og lydeffekter</string>
@@ -344,7 +361,7 @@
     <string name="hungama_subscribe_positive_button">Kjøp PRO medlemskap</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
     <string name="i_know">OK</string>
-    <string name="impunity_declaration_content">Du må lese og akseptere vår &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=en\">User Agreement&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=en\">Privacy Policy&lt;/a> før du bruker produktet.</string>
+    <string name="impunity_declaration_content">Du må lese og akseptere vår &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=nb_NO\">User Agreement&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=nb_NO\">Privacy Policy&lt;/a> før du bruker produktet.</string>
     <string name="impunity_declaration_ignore">Ikke vis igjen</string>
     <string name="impunity_declaration_negative_text">Avslutt</string>
     <string name="impunity_declaration_positive_text">Enig</string>
@@ -539,7 +556,9 @@
     <string name="preset_music_playlist">Mi musikk-spilliste</string>
     <string name="priority_storage">Bruk eksternt SD-kort</string>
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
+    <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
@@ -547,6 +566,7 @@
     <string name="pulluprefreshrecyclerview_loading_finished">Vellykket lastet</string>
     <string name="pulluprefreshrecyclerview_loading_running">Laster…</string>
     <string name="queue_is_empty">Avspillingskøen er tom.</string>
+    <string name="ready_to_play">Neste</string>
     <string name="recently_played">Nylig spilt</string>
     <string name="recently_played_songs">Nylige</string>
     <string name="recommended_file_size_download_in_mobile">Bruke %s mobildata for å laste ned denne filen?</string>
@@ -637,6 +657,7 @@
     <string name="start_to_check_new_version">Ser etter oppdateringer…</string>
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
@@ -697,6 +718,7 @@
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="version_info">Versjon</string>
     <string name="video_play_cellular">Din enhet er ikke koblet til Wi-Fi. Bruke mobildata?</string>
     <string name="video_replay_btn">Spill av igjen</string>

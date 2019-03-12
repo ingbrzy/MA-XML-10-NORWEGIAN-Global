@@ -144,10 +144,6 @@
         <item quantity="other">Hoppet over %1$d bilder som ikke kunne gjengis.</item>
         <item quantity="one">Hoppet over 1 bilde som ikke kunne gjengis.</item>
     </plurals>
-    <plurals name="file_count_format">
-        <item quantity="other">Totalt %1$d elementer</item>
-        <item quantity="one">Totalt %1$d element</item>
-    </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d elementer venter på sikkerhetskopiering</item>
         <item quantity="one">1 element venter på sikkerhetskopiering</item>
@@ -271,5 +267,13 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d elementer</item>
         <item quantity="one">%d element</item>
+    </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Totalt %1$d elementer</item>
+        <item quantity="one">Totalt %1$d element</item>
+    </plurals>
+    <plurals name="video_count_format">
+        <item quantity="other">%1$d filer</item>
+        <item quantity="one">%1$d fil</item>
     </plurals>
 </resources>

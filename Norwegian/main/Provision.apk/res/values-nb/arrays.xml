@@ -61,4 +61,7 @@
         <item>Kun Wi-Fi</item>
         <item>Av</item>
     </string-array>
+    <string-array name="china_mobile_sim_not_default_devices">
+        <item>nitrogen</item>
+    </string-array>
 </resources>

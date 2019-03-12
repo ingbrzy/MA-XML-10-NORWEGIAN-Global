@@ -457,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrettmodus.
 Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
@@ -473,6 +474,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
@@ -588,6 +590,7 @@ i portrettmodus"</string>
     <string name="lighting_pattern_leaf">Blader</string>
     <string name="lighting_pattern_dot">Prikker</string>
     <string name="lighting_pattern_shutter">Persienner</string>
+    <string name="lighting_pattern_holi">Holi</string>
     <string name="view_privacy_policy">Se personvernerklæring</string>
     <string name="fps960_toast">Opptak i sakte tempo vi begynne på siste fjerdedel av opptaket</string>
     <string name="portrait_bokeh_text">Portrettmodus</string>
@@ -608,27 +611,27 @@ bakgrunnen på bildene dine"</string>
     <string name="live_speed_extreme_fast">Superraskt</string>
     <string name="live_sticker_updating">Oppdaterer…</string>
     <string name="live_sticker_network_error_hint">Nettverksfeil</string>
-    <string name="ultra_wide_mode">Vid vinkel</string>
+    <string name="ultra_wide_mode">Ultra-vid vinkel</string>
     <string name="beauty_body">Figur</string>
     <string name="beauty_body_head">Hode</string>
     <string name="beauty_body_body">Slank</string>
     <string name="beauty_body_shoulder">Skuldre</string>
     <string name="beauty_body_legged">Ben</string>
     <string name="beauty_body_reset_tip">Tilbakestilte figureffekter</string>
-    <string name="ultra_wide_open_tip">Vid vinkel-modus</string>
-    <string name="ultra_wide_close_tip">Vid vinkel-modus er av</string>
-    <string name="pref_camera_zoom_mode_entry_ultra">Vid vinkel</string>
-    <string name="ultra_wide_recommend_tip_hint">Prøv vid vinkel-modus</string>
+    <string name="ultra_wide_open_tip">Ultra-vid vinkel-modus</string>
+    <string name="ultra_wide_close_tip">Ultra-vid vinkel-modus er av</string>
+    <string name="pref_camera_zoom_mode_entry_ultra">ULTRA-VID</string>
+    <string name="ultra_wide_recommend_tip_hint">Prøv ultra-vid vinkel-modus</string>
     <string name="camera_liveshot_on_tip">Dynamiske bilder</string>
     <string name="camera_liveshot_off_tip">Skrudde av dynamiske bilder</string>
     <string name="accessibility_camera_liveshot_on">Skrudde på dynamiske bilder</string>
     <string name="accessibility_camera_liveshot_off">Skrudde av dynamiske bilder</string>
     <string name="beauty_tab_name_live_filter">Filtre</string>
     <string name="beauty_tab_name_live_beauty">Forskjønning</string>
-    <string name="accessibility_ultra_wide_on">Skrudde på vid vinkel-modus</string>
-    <string name="accessibility_ultra_wide_off">Skrudde av vid vinkel-modus</string>
+    <string name="accessibility_ultra_wide_on">Skrudde på ultra-vid vinkel-modus</string>
+    <string name="accessibility_ultra_wide_off">Skrudde av ultra-vid vinkel-modus</string>
     <string name="ai_scene_top_tip">Måne-modus</string>
-    <string name="pref_camera_ultra_wide_ldc_title">Korriger forvrengning i vide bilder</string>
+    <string name="pref_camera_ultra_wide_ldc_title">Korriger forvrengning i ultra-vide bilder</string>
     <string name="pref_camera_ultra_wide_ldc_description">Korriger forvrengte objekter automatisk</string>
     <string name="pref_camera_normal_wide_ldc_title">Korriger ansiktsforvrengninger på gruppebilder</string>
     <string name="pref_camera_normal_wide_ldc_description">Korriger forvrengte ansikter på personer som er nærme kanten av rammen</string>
@@ -646,9 +649,9 @@ bakgrunnen på bildene dine"</string>
     <string name="live_edit_exit_confirm">Stopp</string>
     <string name="live_edit_share_title">Del</string>
     <string name="beauty_reset_toast">Fjernet forskjønningseffekter</string>
-    <string name="pref_camera_ultra_wide_mode_title">Vid vinkel-modus</string>
+    <string name="pref_camera_ultra_wide_mode_title">Ultra-vid vinkel-modus</string>
     <string name="ultra_wide_mode_use_hint_text">"Bruk denne modusen for å inkludere mer av scenen i bildet ditt.
-Vid vinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra scenen."</string>
+Ultra-vid vinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra scenen."</string>
     <string name="live_reverse_message">Slette tidligere tatt element?</string>
     <string name="live_reverse_confirm">Slett</string>
     <string name="live_error_title">Systemtiden er feil</string>
@@ -673,4 +676,10 @@ Vid vinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra scenen
     <string name="accessibility_ultra_pixel_photography_32mp_on">32 MP er på</string>
     <string name="accessibility_ultra_pixel_photography_32mp_off">32 MP er av</string>
     <string name="zoom_no_support_tip_48M">Zoom virker ikke i 48 MP-modus</string>
+    <string name="hand_gesture_open_tip">Vis håndflaten til kameraet for å starte timeren</string>
+    <string name="hand_gesture_tip">Håndflatelukker</string>
+    <string name="autozoom_landscape_hint">Ta bilde i liggende modus for best effekt</string>
+    <string name="super_night_toast">Hold telefonen stødig når du tar bilde</string>
+    <string name="capture_back_pressed_hint">Trykk igjen for å avslutte</string>
+    <string name="video_ultra_clear_tip">4K UHD</string>
 </resources>

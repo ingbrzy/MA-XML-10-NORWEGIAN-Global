@@ -4,16 +4,16 @@
     <string name="error_filename_too_long">Filnavnet du skrev inn er for langt</string>
     <string name="power_config_select_apps_title">Apper</string>
     <string name="power_config_event_delete">Slett</string>
-    <string name="hide_mode_desc"><font color="#000000">Når en app kjører i bakgrunnen vil dens aktiviteter bli overvåket for å redusere batteribruk. Denne funksjonen vil motta og bruke brukerdata i henhold til %s</font></string>
+    <string name="hide_mode_desc">Når en app kjører i bakgrunnen vil dens aktiviteter bli overvåket for å redusere batteribruk. Denne funksjonen vil motta og bruke brukerdata i henhold til %s</string>
     <string name="privacy">Personvernerklæring</string>
     <string name="power_hide_mode_title">Batteri &amp; ytelse</string>
-    <string name="power_config_apps">Batterisparer</string>
+    <string name="power_config_apps">App-batterisparer</string>
     <string name="app_list_title">Velg apper</string>
     <string name="power_hide_mode_app_list_summary">Sparer batteri i bakgrunnen</string>
-    <string name="about_hide_mode">Om Batterisparer</string>
+    <string name="about_hide_mode">Om app-batterisparer</string>
     <string name="show_system_app">Vis systemapper</string>
     <string name="hide_system_app">Skjul systemapper</string>
-    <string name="about_extreme_mode">Ekstrem-modus</string>
+    <string name="about_extreme_mode">Ekstrem batterisparer</string>
     <string name="scenario_policies_title">Smarte scener</string>
     <string name="config_scenario_policies_title">Scener</string>
     <string name="scenario_policies_summary">Legg til annen batterisparingstrategier for forskjellige scener.</string>
@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Når MIUI oppdager at du sover, vil den lukke bakgrunnsapper, begrense Bluetooth, GPS, mobildata og Wi-Fi bruk, skjermen vil ikke lyse opp ved varsler.</string>
     <string name="nonui_mode_config_title">Ikke-interaktivt modus</string>
     <string name="nonui_mode_config_description">Skjermen lyses ikke opp ved varsler, skru av LED-lys, fingeravtrykksensor, og berøringskontroller for å spare batteri når MIUI oppdager at du ikke bruker enheten din.</string>
-    <string name="power_center">Batterisparer</string>
+    <string name="power_center">Batterioptimalisering</string>
     <string name="power_usage">Strømforbruk</string>
     <string name="power_mode">Strøminnstillinger</string>
     <string name="performance_category">Ytelse</string>
@@ -36,8 +36,8 @@
     <string name="warm_performance_tip">Din enhet vil bli varmere når flere prosesser kjøres.</string>
     <string name="vip_feedback">VIP-tilbakemelding</string>
     <string name="vip_feedback_enable">Skru på VIP-tilbakemelding</string>
-    <string name="extreme_power_config_mode_category">Ekstrem-modus</string>
-    <string name="extreme_power_config_mode_title">Ekstrem-modus</string>
+    <string name="extreme_power_config_mode_category">Ekstrem batterisparer</string>
+    <string name="extreme_power_config_mode_title">Ekstrem batterisparer</string>
     <string name="extreme_power_config_mode_desc"><li>Ekstrem batterisparer stopper all bakgrunnsaktiviteten til en app etter at du lukker den og går tilbake til startskjermen. Denne appen vil ikke sende deg varsler eller motta oppdateringer.</li>"
 "<li>Hvis du ønsker at en app skal kjøre i bakgrunnen, kan du låse den i Nylige, eller legge den til i bakgrunnsunntak nedenfor. Opptil 4 apper kan kjøre i bakgrunnen når Ekstrem batterisparer er på.</li>"
 "<li>Ekstrem batterisparer slår av NFC som standard. Du kan endre dette under Innstillinger.</li>"
@@ -94,7 +94,7 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="appconfig_active_app_dialog_title">Administrer aktive apper</string>
     <string name="config_classify">Sorter etter appinnstillinger</string>
     <string name="active_classify">Sorter etter aktivitetsstatus</string>
-    <string name="extreme_mode_max_item_alert">Du kan velge å kjøre opptil 4 apper i bakgrunnen i Ekstrem-modus</string>
+    <string name="extreme_mode_max_item_alert">Du kan velge å kjøre opptil 4 apper i bakgrunnen når Ekstrem batterisparer er på</string>
     <string name="message_i_know">Skjønner</string>
     <string name="high_temp_state">Overoppheting</string>
     <string name="high_temp_state_message">Enheten er overopphetet. Mobildata, Wi-Fi-soner, GPS og kamera vil være begrenset.</string>
@@ -110,8 +110,4 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="extreme_add_white_list_summary">Legg til opptil 4 apper</string>
     <string name="adaptive_battery_title">Bruk adaptivt batteri</string>
     <string name="adaptive_battery_summary">Begrens batteribruk for apper du ikke bruker ofte</string>
-    <string name="dark_mode">Mørk modus</string>
-    <string name="dark_mode_summary">Bytt til en mørk fargepalett for å spare strøm</string>
-    <string name="open_dark_mode">Bytt til mørk modus</string>
-    <string name="open_dark_mode_tip">Visningskvaliteten på enkelte funksjoner kan avta i Mørk modus. Den vil gjenopprettes til normalt når du går ut av Mørk modus. Bytte til Mørk modus nå?</string>
 </resources>

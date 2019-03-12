@@ -10,7 +10,7 @@
     </string-array>
     <string-array name="editing_mode_entries">
         <item>Bakgrunn</item>
-        <item>Widget</item>
+        <item>Widgeter</item>
         <item>Innstillinger</item>
     </string-array>
     <string-array name="gadget_weather_image">
@@ -37,7 +37,7 @@
         <item>Lett sandstorm</item>
         <item>Sandstorm</item>
         <item>Hagl</item>
-        <item>Floating dust</item>
+        <item>Flytende støv</item>
         <item>Dis</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">

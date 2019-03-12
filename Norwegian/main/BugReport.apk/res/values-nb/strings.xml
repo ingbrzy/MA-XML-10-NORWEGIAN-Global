@@ -9,7 +9,7 @@
     <string name="app_search">Søk i apper</string>
     <string name="btn_send">Send</string>
     <string name="bugreport_dialog_not_show_again">Ikke vis igjen</string>
-    <string name="bugreport_dialog_submit_content"><Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.</Data></string>
+    <string name="bugreport_dialog_submit_content">&lt;Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
     <string name="bugreport_dump_complete_notification_summary">Trykk for å se.</string>
     <string name="bugreport_dump_complete_notification_title">Feilrapport er opprettet</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan ta flere minutter.</string>
@@ -107,6 +107,10 @@
     <string name="feedback_remind_login_btn">Logg inn</string>
     <string name="feedback_report_remind_login_desc">Logg inn med Mi-kontoen din slik at ingeniørene våre kan kontakte deg.</string>
     <string name="feedback_report_remind_login_desc2">Du kan også se progresjonen til rapporten din i \"Mine rapporter\".</string>
+    <string name="feedback_reproductivity_everytime">Hver gang</string>
+    <string name="feedback_reproductivity_occasionally">Av og til</string>
+    <string name="feedback_reproductivity_often">Ofte</string>
+    <string name="feedback_reproductivity_once">Én gang</string>
     <string name="feedback_retest_label">Gjengi det trinnvis</string>
     <string name="feedback_select_images">Legg til et bilde eller en kort video</string>
     <string name="feedback_select_modem_log">Legg til modem-logger</string>
@@ -167,6 +171,20 @@
     <string name="goon_feedback_main">Fortsett</string>
     <string name="hint_feedback_main">Forklar problemet</string>
     <string name="issue_search">Søk</string>
+    <string name="kr_authorization_agree">Accept</string>
+    <string name="kr_authorization_contact">Accounts</string>
+    <string name="kr_authorization_contact_desc">For getting Mi Account info and verifying your account</string>
+    <string name="kr_authorization_exit">Exit</string>
+    <string name="kr_authorization_log_protocol">Log Protocol (optional)</string>
+    <string name="kr_authorization_log_protocol_desc">"In order to improve the services provided to you, we'll upload usage stats and system logs to our servers. These items may include your personal information, as well as the information about your device and networks. We'll use uploaded items to locate and analyze the problems in the system."</string>
+    <string name="kr_authorization_phone">Phone</string>
+    <string name="kr_authorization_phone_desc">For identifying device using IMEI and model number, as well as locating and analyzing issues</string>
+    <string name="kr_authorization_privacy_policy">Privacy Policy (mandatory)</string>
+    <string name="kr_authorization_select_all">Select all</string>
+    <string name="kr_authorization_storage">Storage</string>
+    <string name="kr_authorization_storage_desc">For accessing storage and saving items including logs, images, and videos</string>
+    <string name="kr_authorization_summary">Legal documents</string>
+    <string name="kr_authorization_user_protocol">User Agreement (mandatory)</string>
     <string name="loading_apps">Laster inn liste…</string>
     <string name="login_system_failed">Kunne ikke logge inn. Prøv igjen.</string>
     <string name="logo_title">Tilbakemelding</string>
@@ -284,6 +302,7 @@
     <string name="open_feedback_main">Mer</string>
     <string name="packaging_dialog_content">Oppretter rapport…</string>
     <string name="pic_not_exist">Dette bildet finnes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">Tilbakemeldingen din, i tillegg til feillogger, vil bli sendt til Mis servere.</string>
     <string name="plus_one_submit_dialog_not_show_again">Husk valget</string>
     <string name="post_miui_bbs_failed">Kunne ikke skrive innlegg på MIUI-forumet</string>
@@ -312,8 +331,8 @@
     <string name="select_system_app_tag">Velg et problem</string>
     <string name="submit_dialog_cancel">Ikke enig</string>
     <string name="submit_dialog_confirm">Enig</string>
-    <string name="submit_dialog_content"><Data>"Du må samtykke i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Personvernerklæring&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Brukeravtale&lt;/a> for å kunne bruke Tilbakemelding. Problemene du rapporterer med elementene du vedlegger (kan inneholde personlige opplysninger, i tillegg til opplysninger om enheten og nettverket ditt) vil lastes opp til MIUI's servere. Dette vil hjelpe deg med å lokalisere og løse problemene du rapporterer."</Data></string>
-    <string name="submit_dialog_content_global"><Data>Tilbakemeldingen din, sammen med vedlegg (dersom det er noen) og logger (du kan fjerne merking i de korresponderende boksene for elementene du ikke ønsker å laste opp) vil bli sendt til MIUIs servere og til en begrenset del av MIUI Forum for utviklere. Informasjon om trådene dine og forumaktivitet vil også bli samlet inn for analyse og ytterligere kommunikasjon. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.</Data></string>
+    <string name="submit_dialog_content">"&lt;Data>Du må samtykke i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Personvernerklæring&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Brukeravtale&lt;/a> for å kunne bruke Tilbakemelding. Problemene du rapporterer med elementene du vedlegger (kan inneholde personlige opplysninger, i tillegg til opplysninger om enheten og nettverket ditt) vil lastes opp til MIUI's servere. Dette vil hjelpe deg med å lokalisere og løse problemene du rapporterer.&lt;/Data>"</string>
+    <string name="submit_dialog_content_global">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (dersom det er noen) og logger (du kan fjerne merking i de korresponderende boksene for elementene du ikke ønsker å laste opp) vil bli sendt til MIUIs servere og til en begrenset del av MIUI Forum for utviklere. Informasjon om trådene dine og forumaktivitet vil også bli samlet inn for analyse og ytterligere kommunikasjon. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_title">Send rapport</string>
     <string name="submit_feedback_info_failed">Kunne ikke sende rapport</string>
     <string name="suggestion_description">Legg til beskrivelse her</string>

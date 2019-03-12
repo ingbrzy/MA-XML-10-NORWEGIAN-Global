@@ -418,7 +418,7 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="ent_licence_code_hint">Skriv inn lisenskode</string>
     <string name="ent_next_step">Neste</string>
     <string name="ent_get_code_hint">Du kan få bedrifts- og lisenskode fra lederen din</string>
-    <string name="ent_agree_privacy_policy">Jeg har lest og godtar personvernerklæringen</string>
+    <string name="ent_agree_privacy_policy">Jeg har lest og godtatt personvernerklæringen</string>
     <string name="ent_activation">Aktiver</string>
     <string name="ent_activating">Aktiverer…</string>
     <string name="ent_installing">Installerer…</string>
@@ -461,4 +461,5 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="dialog_verify_fingerprint_retry">Kunne ikke verifisere fingeravtrykk, prøv igjen.</string>
     <string name="button_touch">Sett fingeren på sensoren</string>
     <string name="button_input_password">Skriv inn passord</string>
+    <string name="master_clear_not_available">Tilbakestilling til fabrikkinnstillinger er begrenset av selskapet ditt.</string>
 </resources>
