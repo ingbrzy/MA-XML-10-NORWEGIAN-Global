@@ -6,7 +6,7 @@
         <item>20.1 - 18.2</item>
     </string-array>
     <string-array name="aries_info">
-        <item>væren</item>
+        <item>aries</item>
         <item>Væren</item>
         <item>21.3 - 19.4</item>
     </string-array>
@@ -15,7 +15,7 @@
         <item>Bundesliga</item>
     </string-array>
     <string-array name="cancer_info">
-        <item>krepsen</item>
+        <item>cancer</item>
         <item>Krepsen</item>
         <item>22.6 - 22.7</item>
     </string-array>
@@ -81,8 +81,12 @@
         <item>Denne, og fremtidige hendelser</item>
         <item>Alle hendelser</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
-        <item>tvillingene</item>
+        <item>gemini</item>
         <item>Tvillingene</item>
         <item>21.5 - 21.6</item>
     </string-array>
@@ -91,12 +95,12 @@
         <item>La Liga</item>
     </string-array>
     <string-array name="leo_info">
-        <item>løven</item>
+        <item>leo</item>
         <item>Løven</item>
         <item>23.7 - 22.8</item>
     </string-array>
     <string-array name="libra_info">
-        <item>vekten</item>
+        <item>libra</item>
         <item>Vekten</item>
         <item>23.9 - 23.10</item>
     </string-array>
@@ -218,12 +222,12 @@
         <item>Nei</item>
     </string-array>
     <string-array name="sagittarius_info">
-        <item>skytten</item>
+        <item>sagittarius</item>
         <item>Skytten</item>
         <item>23.11 - 21.12</item>
     </string-array>
     <string-array name="scorpio_info">
-        <item>skorpionen</item>
+        <item>scorpio</item>
         <item>Skorpionen</item>
         <item>24.10 - 22.11</item>
     </string-array>
@@ -232,7 +236,7 @@
         <item>Serie A</item>
     </string-array>
     <string-array name="taurus_info">
-        <item>tyren</item>
+        <item>taurus</item>
         <item>Tyren</item>
         <item>20.4 - 20.5</item>
     </string-array>
@@ -332,7 +336,7 @@
         <item>1 dag før</item>
     </string-array>
     <string-array name="virgo_info">
-        <item>jomfruen</item>
+        <item>virgo</item>
         <item>Jomfruen</item>
         <item>23.8 - 22.9</item>
     </string-array>

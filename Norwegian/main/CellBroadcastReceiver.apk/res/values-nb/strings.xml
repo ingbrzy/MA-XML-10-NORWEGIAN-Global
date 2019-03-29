@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="button_dismiss">OK</string>
     <string name="app_label">Cellekringkastinger</string>
     <string name="sms_cb_settings">Innstillinger for cellekringkastinger</string>
     <string name="cell_broadcast_settings_not_available">Innstillinger for kringkastede meldinger er ikke tilgjengelig for denne brukeren</string>
-    <string name="button_dismiss">OK</string>
     <string name="no_cell_broadcasts">Det er ingen aktive varsler i ditt område. Du kan endre varselinnstillingene i innstillingsmenyen.</string>
     <string name="menu_preferences">Innstillinger</string>
     <string name="menu_delete_all">Slett vanlig ETWS-kringkasting</string>

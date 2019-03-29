@@ -20,13 +20,9 @@
         <item quantity="other">Veldig kort forsinkelse (%1$d ms)</item>
         <item quantity="one">Veldig kort forsinkelse (%1$d ms)</item>
     </plurals>
-    <plurals name="aod_dual_togother_city">
-        <item quantity="other">" %1$stimer %2$s"</item>
-        <item quantity="one">" %1$stime %2$s"</item>
-    </plurals>
     <plurals name="app_notification_listing_summary_others">
-        <item quantity="other">Slått av for %d apper</item>
-        <item quantity="one">Slått av for %d app</item>
+        <item quantity="other">Av for %d apper</item>
+        <item quantity="one">Av for %d app</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Aldri deaktiver for %d apper</item>
@@ -40,6 +36,30 @@
         <item quantity="other">%d apper har tillatelse til å starte automatisk</item>
         <item quantity="one">%d app har tillatelse til å starte automatisk</item>
     </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d apper er begrenset</item>
+        <item quantity="one">%1$d app er begrenset</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">Vil du begrense %1$d apper?</item>
+        <item quantity="one">Vil du begrense appen?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Disse appene kan ikke kjøre i bakgrunnen</item>
+        <item quantity="one">Denne appen kan ikke kjøre i bakgrunnen</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d apper ble nylig begrenset</item>
+        <item quantity="one">%1$s ble nylig begrenset</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d apper har høy batteribruk i bakgrunnen</item>
+        <item quantity="one">%1$s har høy batteribruk i bakgrunnen</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">Begrens %1$d apper</item>
+        <item quantity="one">Begrens %1$d app</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d apper kan koble til nettverket</item>
         <item quantity="one">%d app kan koble til nettverket</item>
@@ -47,6 +67,10 @@
     <plurals name="bg_network_restrict_count">
         <item quantity="other">%d apper kan ikke koble til nettverket</item>
         <item quantity="one">%d app kan ikke koble til nettverket</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d dager igjen</item>
+        <item quantity="one">%d dag igjen</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
@@ -164,10 +188,6 @@
         <item quantity="other">%d aktive pålitelige agenter</item>
         <item quantity="one">1 aktiv pålitelig agent</item>
     </plurals>
-    <plurals name="master_clear_with_account_summary">
-        <item quantity="other">%1$d kontoer blir tilbakestilt</item>
-        <item quantity="one">1 konto blir tilbakestilt</item>
-    </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d apper brukte minne i løpet av de siste %2$s</item>
         <item quantity="one">1 app brukte minne i løpet av de siste %2$s</item>
@@ -184,9 +204,17 @@
         <item quantity="other">%1$d begrensninger</item>
         <item quantity="one">1 begrensning</item>
     </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d kategorier</item>
+        <item quantity="one">%d kategori</item>
+    </plurals>
     <plurals name="notification_summary">
         <item quantity="other">Av for %d apper</item>
         <item quantity="one">Av for én app</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d kategorier er slått av</item>
+        <item quantity="one">%d kategori er slått av</item>
     </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktive apper</item>
@@ -196,6 +224,14 @@
         <item quantity="other">%d tillatelser er gitt</item>
         <item quantity="one">%d tillatelse er gitt</item>
     </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d apper oppfører seg unormalt</item>
+        <item quantity="one">%1$s oppfører seg unormalt</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Apper som tapper batteriet</item>
+        <item quantity="one">%1$s tapper batteriet</item>
+    </plurals>
     <plurals name="print_jobs_summary">
         <item quantity="other">%1$d utskriftsjobber</item>
         <item quantity="one">1 utskriftsjobb</item>
@@ -203,6 +239,10 @@
     <plurals name="print_settings_summary">
         <item quantity="other">%1$d utskriftstjenester er på</item>
         <item quantity="one">1 utskriftstjeneste er på</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">Begrenser batteribruken for %1$d apper</item>
+        <item quantity="one">Begrenser batteribruken for %1$d app</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count">
         <item quantity="other">%d flere tillatelser</item>
@@ -224,41 +264,25 @@
         <item quantity="other">Vis %d skjulte elementer</item>
         <item quantity="one">Vis %d skjult element</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d veksleknapper vises i varselpanelet</item>
-        <item quantity="one">%1$d veksleknapp vises i varselpanelet</item>
-    </plurals>
-    <plurals name="show_audio_logcat_countdown">
-        <item quantity="other">%1$d steg igjen før du kan hente lydloggen</item>
-        <item quantity="one">%1$d steg igjen før du kan hente lydloggen</item>
-    </plurals>
     <plurals name="show_cit_countdown">
-        <item quantity="other">Du er %1$d steg unna fra å angi CIT.</item>
-        <item quantity="one">Du er %1$d steg unna fra å angi CIT.</item>
+        <item quantity="other">"You're %1$d steps away from entering CIT."</item>
+        <item quantity="one">Du er %1$d steg unna fra å gå inn i CIT.</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Nå er du %1$d steg fra å bli utvikler.</item>
         <item quantity="one">Nå er du %1$d steg fra å bli utvikler.</item>
     </plurals>
-    <plurals name="show_gps_logcat_countdown">
-        <item quantity="other">%1$d steg igjen før du kan hente GPS-loggen</item>
-        <item quantity="one">%1$d steg igjen før du kan hente GPS-loggen</item>
-    </plurals>
-    <plurals name="show_modem_logcat_countdown">
-        <item quantity="other">%1$d steg igjen før du kan hente modemloggen</item>
-        <item quantity="one">%1$d steg igjen før du kan hente modemloggen</item>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d lagrede høreapparater</item>
+        <item quantity="one">%1$d lagret høreapparat</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Du er %1$d steg unna fra å angi telefoninfo.</item>
-        <item quantity="one">Du er %1$d steg unna fra å angi telefoninfo.</item>
+        <item quantity="other">"You're %1$d steps away from entering phone info."</item>
+        <item quantity="one">Du er %1$d steg unna fra å gå inn i telefoninfo.</item>
     </plurals>
     <plurals name="show_rep_countdown">
-        <item quantity="other">Du er %1$d steg unna fra å rapportere feil.</item>
+        <item quantity="other">"You're %1$d steps away from reporting bug."</item>
         <item quantity="one">Du er %1$d steg unna fra å rapportere feil.</item>
-    </plurals>
-    <plurals name="show_reset_countdown">
-        <item quantity="other">Fullfør %1$d trinn for å utføre en tilbakestilling til fabrikkinnstillinger</item>
-        <item quantity="one">Fullfør %1$d trinn for å utføre en tilbakestilling til fabrikkinnstillinger</item>
     </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d apper kan bruke ubegrenset med data</item>
@@ -296,6 +320,14 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="other">%d apper kan vise varsler</item>
         <item quantity="one">%d app kan vise varsler</item>
     </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d forslag</item>
+        <item quantity="one">+1 forslag</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d forslag</item>
+        <item quantity="one">1 forslag</item>
+    </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d elementer</item>
         <item quantity="one">1 element</item>
@@ -312,13 +344,29 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="other">Delte %d nettverk</item>
         <item quantity="one">Delte %d nettverk</item>
     </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheter tilkoblet</item>
+        <item quantity="one">%1$d enhet tilkoblet</item>
+    </plurals>
     <plurals name="wrong_pin_code">
         <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
         <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
     </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d timer (med mindre det slås på automatisk)</item>
+        <item quantity="one">1 time (med mindre det slås på automatisk)</item>
+    </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d automatiske regler er slått på</item>
-        <item quantity="one">1 automatisk regel er slått på</item>
+        <item quantity="other">%d regler</item>
+        <item quantity="one">1 regel</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d regler kan slås på automatisk</item>
+        <item quantity="one">1 regel kan slås på automatisk</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d andre</item>
+        <item quantity="one">1 annen</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour">
         <item quantity="other">Bytt til Bare alarmer i %1$d timer til %2$s</item>

@@ -56,7 +56,7 @@
         <item>For å ringe og sende meldinger over Wi-Fi, må du først be operatøren om å konfigurere denne tjenesten. Deretter slår du på Wi-Fi-anrop igjen fra Innstillinger. (Feilkode: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Registrer deg hos operatøren din (feilkode: %1$s)</item>
+        <item>Problem med å registrere Wi-Fi-anrop med operatøren din: %1$s</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>

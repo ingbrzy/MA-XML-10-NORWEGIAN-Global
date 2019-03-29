@@ -14,13 +14,10 @@
         <item>Veldig fornøyd</item>
     </string-array>
     <string-array name="trans_cancel_survey_title">
-        <item>Overføringen tar for lang tid</item>
-        <item>Tilkoblingen ble avbrutt</item>
-        <item>Jeg valgte feil elementer å overføre</item>
-        <item>For mange trinn</item>
-        <item>Telefonens batterinivå er lavt</item>
-        <item>Overførte elementer er skadet</item>
-        <item>Jeg startet overføringen ved en feil</item>
-        <item>Annet</item>
+        <item>Samlet opplevelse</item>
+        <item>Overføringsvarighet</item>
+        <item>Prosessens enkelhet</item>
+        <item>Klarhet på instruksjoner</item>
+        <item>Denne funksjonen er nyttig</item>
     </string-array>
 </resources>

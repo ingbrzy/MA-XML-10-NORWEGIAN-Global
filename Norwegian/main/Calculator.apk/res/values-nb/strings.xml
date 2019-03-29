@@ -104,7 +104,7 @@
     <string name="item_title_currency">Valuta</string>
     <string name="item_title_dress_size">Klesstørrelse</string>
     <string name="item_title_length_conversion">Lengde</string>
-    <string name="item_title_mortgage">Boliglån</string>
+    <string name="item_title_mortgage">Home loan</string>
     <string name="item_title_scientific_calculator">Akademisk</string>
     <string name="item_title_tax">Skatt</string>
     <string name="item_title_temprature_conversion">Temperatur</string>
@@ -136,9 +136,7 @@
     <string name="loan_interest_rate">Rente</string>
     <string name="loan_pay_years">Låneperiode</string>
     <string name="loan_payback_way">Tilbakebetaling</string>
-    <string name="loan_repayment_detail">Detaljert tilbakebetaling</string>
     <string name="loan_repayment_detail_loading">Laster detaljert tilbakebetaling…</string>
-    <string name="loan_repayment_detail_unit">Detaljert tilbakebetaling (CNY)</string>
     <string name="loan_unit">(×10K)</string>
     <string name="medical_treatment">Medisinsk behandling</string>
     <string name="menuDesc">meny</string>
@@ -166,7 +164,7 @@
     <string name="mortgage_interest_rate">Kommersiell rente</string>
     <string name="mortgage_item_repayment">Tilbakebetalingmetode</string>
     <string name="mortgage_item_start_time">Startdato</string>
-    <string name="mortgage_item_years">Boliglånsperiode</string>
+    <string name="mortgage_item_years">Loan tenure</string>
     <string name="mortgage_loans_amount">Boliglånsbeløp</string>
     <string name="mortgage_provident_found_interest_rate">Fondets rente</string>
     <string name="mortgage_repayment_amount">Tilbakebetalingsperiode</string>
@@ -594,8 +592,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s

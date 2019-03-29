@@ -14,6 +14,106 @@
         <item>Kalender</item>
         <item>Lagring</item>
     </string-array>
+    <string-array name="settings_search_contacts">
+        <item>Synkroniser kontakter med Mi Cloud</item>
+        <item>Skru på/innstillinger for synkronisering</item>
+        <item>Kontakter;Anropslogg;Sky;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_sms">
+        <item>Synkroniser meldinger med Mi Cloud</item>
+        <item>Skru på/innstillinger for synkronisering</item>
+        <item>Meldinger;SMS;MMS;Sky;Synkronisering;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_gallery">
+        <item>Synkroniser Galleri med Mi Cloud</item>
+        <item>Skru på/innstillinger for synkronisering</item>
+        <item>Galleri;Bilder;Sky;Skytjenster;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_dial">
+        <item>Synkroniser anropslogg med Mi Cloud</item>
+        <item>Skru på/innstillinger for synkronisering</item>
+        <item>Anropslogg;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_recorder">
+        <item>Sykroniser opptak med Mi Cloud</item>
+        <item>Skru på/innstillinger for synkronisering</item>
+        <item>Opptaker;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_music">
+        <item>Synkroniser musikk med Mi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Musikk;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_notes">
+        <item>Synkroniser notater med Mi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Notater;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_wlan">
+        <item>Synkroniser Wi-Fi-innstillingene med Mi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>WLAN;wifiMWi-Fi;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_calendar">
+        <item>Synkroniser kalender med Mi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Kalender;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_browser">
+        <item>Synkroniser nettleser med Mi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Nettleser;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_security">
+        <item>Sykroniser sikkerhet med Mi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Sikkerhet;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_personal_assistant">
+        <item>Synkroniser App vault med Mi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>App vault;Kort;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage">
+        <item>Mi Cloud. Alle Mi-tjenestene på ett sted.</item>
+        <item>Få tilgang til bilder, kontakter, meldinger, og enheter over alt</item>
+        <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkronisering;Skytjenester;Mi Cloud;Søppel;Slettede enheter;Sikkerhet</item>
+    </string-array>
+    <string-array name="settings_search_find_phone">
+        <item>Finn enhet</item>
+        <item>Slette data og lås enheten om du skulle miste den</item>
+        <item>Finn enhet;Mistet;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_find_pad">
+        <item>Finn enhet</item>
+        <item>Slette data og lås enheten om du skulle miste den</item>
+        <item>Finn enhet;Mistet;Sky;Synkroniser;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_recycle_bin">
+        <item>Slettede enheter i Mi Cloud</item>
+        <item>Gjenopprett kontakter, bilder, meldinger og mer</item>
+        <item>Søppel;Slettede enheter;Søppelbøtte;Gjenopprett;Skytjenester;Mi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_subscribe_vip">
+        <item>Mi Cloud-medlemskap</item>
+        <item>Oppgrader medlemskapet ditt, få mer lagringsplass, og sikre din data</item>
+        <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkroniser;Skytjenester;Mi Cloud;Mega;Ultra;VIP;Sikkerhetskopiering;Gjenopprett;Søppel;Slettede enheter;Søppelbøtte</item>
+    </string-array>
+    <string-array name="settings_search_backup_setting">
+        <item>Sikkerhetskopier oppsett til Hjem-skjerm til Mi Cloud</item>
+        <item>Sikkerhetskopier Hjem-skjermens utseende, liste over alle installerte apper, og systeminnstillinger</item>
+        <item>Sky;Sikkerhetskopi;Skytjenester;Mi Cloud;Hjem-skjerm;Layout;Apper;Innstillinger;Sikkerhetskopieringsfrekvens;Administrer sikkerhetskopieringer;Gjenopprett</item>
+    </string-array>
+    <string-array name="settings_search_backup_manage">
+        <item>Sikkerhetskopier</item>
+        <item>Sikkerhetskopierte enheter</item>
+        <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Skytjenester;Mi Cloud;Hjem-skjerm;Layout;Apper;Administrer sikkerhetskopieringer;Gjenopprett</item>
+    </string-array>
+    <string-array name="settings_search_restore_device">
+        <item>Gjenopprett elementer fra Mi Cloud</item>
+        <item>Last ned sikkerhetskopierte enheter til enheten din</item>
+        <item>Sky;Sikekrhetskopi;Sikkerhetskopi;Gjenoppprett;Skytjenester;Mi Cloud</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkroniser app-data</item>
         <item>Sikkerhetskopier oppsett til Hjem-skjerm</item>

@@ -457,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrettmodus.
 Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
@@ -473,6 +474,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Moduser</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
@@ -599,7 +601,7 @@ bakgrunnen på bildene dine"</string>
     <string name="close_back_flash_toast">Enheten er overopphetet. Kan ikke bruke blits nå.</string>
     <string name="autozoom_hint">Sporer bevegende objekt</string>
     <string name="autozoom_disabled_hint">Sluttet å spore bevegende objekt</string>
-    <string name="autozoom_click_hint">Trykk på et objekt for å begynne sporingen. Hold deg minst 3 meter unna for best effekt.</string>
+    <string name="autozoom_click_hint">Trykk på et objekt for å holde det i fokus mens det beveger seg. Stå minst 3 meter i fra, for best mulig effekt.</string>
     <string name="live_sticker_fragment_tab_name">Klistremerker</string>
     <string name="live_speed_fragment_tab_name">Fart</string>
     <string name="live_speed_extreme_slow">Supersakte</string>
@@ -680,4 +682,8 @@ Ultra-vid vinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra 
     <string name="super_night_toast">Hold telefonen stødig når du tar bilde</string>
     <string name="capture_back_pressed_hint">Trykk igjen for å avslutte</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
+    <string name="pref_camera_video_bokeh_on">Video bokeh</string>
+    <string name="pref_camera_video_bokeh_off">Video bokeh er av</string>
+    <string name="macro_mode">Makro</string>
+    <string name="macro_mode_tip">Avstand mellom linsen og objektet bør ikke være over 10 cm</string>
 </resources>

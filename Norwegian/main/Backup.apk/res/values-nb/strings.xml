@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
 Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet ditt.</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke starte nedlastingen. Sørg for at Nedlastingsadministratoren fungerer som normalt.</string>
     <string name="app_name">Sikkerhetskopi</string>
     <string name="local_app_name">Sikkerhetskopi</string>
@@ -225,6 +228,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="restore_backup">Gjenopprett</string>
     <string name="enable_encrypt_description">Krypter</string>
     <string name="disable_encrypt_description">Ikke krypter</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Et øyeblikk…</string>
     <string name="state_mounting">Får tilgang til ruterlagring…</string>
     <string name="abort_backup_confirm">Sikkerhetskopieringen er ikke ferdig. Stoppe allikevel?</string>
@@ -308,7 +312,9 @@ Hold enhetene i nærheten av hverandre."</string>
     <string name="trans_detail_app_data_useless_tip">Du kan gjenopprette disse fra appen. Det er ikke nødvendig å overføre.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Det ser ut som elementet er for stort til å overføres.</string>
     <string name="trans_detail_item_app_data_selected_tip">Velg også tilsvarende apper.</string>
-    <string name="trans_detail_list_footer">Merk: Du kan velge å overføre apper separat, men dersom du velger app-data, vil tilsvarende apper imidlertid også overføres.</string>
+    <string name="trans_detail_list_footer">"1. Du kan velge individuelle apper du vil overføre.
+2. Hvis du velger appdata, vil korresponderende apper også bli valgte.
+3. WeChat- og QQ-appdata vil muligens ikke bli overført pga. kompatibilitetsproblemer. Du kan forsøke med overføringsfunksjoner i selve appen."</string>
     <string name="trans_detail_page_tip">Jo flere elementer du velger, jo lenger vil overføringen vare.</string>
     <string name="trans_detail_sys_data_list_title">System-apper</string>
     <string name="trans_detail_app_data_list_title">App-data</string>
@@ -368,8 +374,9 @@ Trykk deretter på \"Koble til igjen\" for å opprette en QR-kode."</string>
     <string name="trans_wait_trans_data">"Koblet til den gamle enheten.
 Venter på overføringen…"</string>
     <string name="trans_select_data">Velg elementer å sende</string>
-    <string name="trans_select_data_tips">"Velg elementer å overføre
-Liknende filer på den nye enheten vil overskrives."</string>
+    <string name="trans_select_data_tips">"Velg elementer som skal overføres.
+Lignende elementer på den nye enheten blir overskrevet.
+(Størrelsen på de overførte elementene du ser nå er et omtrentlig estimat.)"</string>
     <string name="trans_select_data_no_space">"Det er ikke nok lagringsplass på den nye enheten (%s tilgjengelig).
 Frigjør lagringsplass eller overfør bare viktige elementer."</string>
     <string name="trans_select_data_too_large">"Du har valgt å overføre for mange elementer.
@@ -385,6 +392,22 @@ Frigjør lagringsplass eller overfør bare viktige elementer."</string>
     <string name="trans_old_phone_low_space_msg">Mi Mover trenger litt lagringsplass for å pakke de overførte dataene, men det ser ut som det ikke er nok tilgjengelig plass på den gamle enheten. Frigjør plass under \"Sikkerhet\" eller overfør bare viktige elementer.</string>
     <string name="button_clean_garbage">Frigjør plass</string>
     <string name="button_quit">Avslutt</string>
+    <string name="soft_ap_creating">Oppretter hotspot…</string>
+    <string name="wait_link">"Koble den gamle enheten til denne hotspoten.
+Ikke forlat denne siden før tilkoblingen er etablert."</string>
+    <string name="old_way">Du kan også koble til ved hjelp av en QR-kode. Trykk for å generere koden.</string>
+    <string name="soft_ap_create_failed">Kunne ikke opprette hotspot</string>
+    <string name="scan_soft_ap_label">Koble til den gamle enheten</string>
+    <string name="scan_soft_ap">Søker etter den nye enheten…</string>
+    <string name="click_soft_ap_to_link">Velg en hotspot å koble til</string>
+    <string name="waiting">Et øyeblikk…</string>
+    <string name="old_soft_name">Koble til ved hjelp av QR-kode</string>
+    <string name="confirm_exit_link_title">Avbryter overføringen</string>
+    <string name="confirm_exit_link_msg">Hvis du forlater appen nå, blir den pågående overføringen avbrutt. Du må etablere tilkoblingen mellom de to enhetene på nytt. Forlate appen likevel?</string>
+    <string name="confirm_exit_link">Forlat</string>
+    <string name="confirm_exit_link_cancel">Ikke forlat</string>
+    <string name="connect_soft_ap_label">Kobler til ny enhet…</string>
+    <string name="recreate_soft_ap_tips">Trykk på knappen nedenfor for å prøve på nytt.</string>
     <string name="trans_install_guide_page_title">Installer Mi Mover på din gamle telefon</string>
     <string name="trans_install_guide_scan_install_tip">"Skann denne QR-koden med din gamle telefon
 for å laste ned og installere Mi Mover."</string>
@@ -417,6 +440,8 @@ for å laste ned og installere Mi Mover."</string>
     <string name="trans_intro_title_old">På en gammel telefon:</string>
     <string name="trans_intro_desc_old">Trykk på \"Jeg er en sender\". Skann QR-koden på den nye telefonen, vent til Mi Mover finner ut hvilke filer som skal sendes, og trykk på \"Send\".</string>
     <string name="trans_intro_desc_old_market">Trykk på \"Start\". Skann QR-koden på den nye telefonen, vent til Mi Mover finner ut hvilke filer som skal sendes, og trykk på \"Send\".</string>
+    <string name="trans_intro_question_10">%d. Finner du ikke hotspoten på den gamle enheten?</string>
+    <string name="trans_intro_desc_10">Trykk på «Koble til ved hjelp av QR-kode» på den nye enheten, og skann QR-koden for å etablere tilkoblingen.</string>
     <string name="trans_intro_question_3">%d. Hva bør jeg gjøre om Mi Mover henger seg opp underveis?</string>
     <string name="trans_intro_desc_3">Avbryt overføringen, avslutt Mi Mover og start på nytt. Duplikatfiler vil overskrives under den nye overføringen.</string>
     <string name="trans_intro_question_4">%d. Hvorfor kan jeg ikke bruke Wi-Fi under overføringer?</string>
@@ -439,6 +464,8 @@ for å laste ned og installere Mi Mover."</string>
     <string name="trans_intro_desc_multiuser">Mi Mover kan ikke få tilgang til elementer i den sekundære lagringen. Flytt først elementer til den primære lagringe og start Mi Mover der.</string>
     <string name="trans_intro_title_multiapp">Dual-app data:</string>
     <string name="trans_intro_desc_multiapp">For å unngå konflikt mellom filer, overfører Mi Mover ikke dual-app data.</string>
+    <string name="trans_intro_title_gms">Data generert av Google-apper:</string>
+    <string name="trans_intro_desc_gms">På grunn av høy risiko for mislykket overføring pga. kompatibilitetsproblemer, støtter ikke Mi Mover overføring av data generert av Google-apper.</string>
     <string name="trans_intro_question_9_market">%d. Tilbakemelding.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Del din tilbakemelding ved å bruke \"Feedback\"-appen.</string>
     <string name="trans_intro_desc_9_method_1_dec">Gå til Startskjemen > Verktøy > Tilbakemelding.</string>
@@ -470,7 +497,6 @@ Likte du Mi Mover?"</string>
     <string name="trans_success_dialog_button_survey">Spørreundersøkelse</string>
     <string name="trans_success_dialog_survey_title">Vi setter pris på tilbakemeldingen din</string>
     <string name="trans_success_survey_hint">Fyll inn alle feltene først.</string>
-    <string name="trans_cancel_dialog_survey_title">Hvorfor avbrøt du overføringen?</string>
     <string name="trans_dialog_survey_finish">Send</string>
     <string name="trans_failed_details_page_title">Mislykkede overføringer</string>
     <string name="close_twice_auth_tutor">Skru av Apple ID to-faktor-autentisering</string>
@@ -540,6 +566,7 @@ https://appleid.apple.com/#!&amp;page=signin å lukke"</string>
 bør du først opprette en sikkerhetskopi av iCloud."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">Grunnet kompatibilitetsproblemer, kan du kun overføre delvise data fra iOS-enheter. Sørg for at du lager en sikkerhetskopiering av iCloud før du overfører.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Velg elementer å importere</string>
     <string name="select_item_summary_wait">Venter…</string>

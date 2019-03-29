@@ -30,6 +30,7 @@
     <string name="sdcard_not_present">Finner ikke SD-kort.</string>
     <string name="only_primary_user_allowed">Bare eieren av denne enheten kan installere sertifikater.</string>
     <string name="credential_usage_label">Bruk av legitimasjon:</string>
+    <string name="certificate_capabilities_warning">Merk: Utstederen av dette sertifikatet kan inspisere all trafikk til og fra enheten.</string>
     <string name="wifi_title">Wi-Fi-profil</string>
     <string name="wifi_detail_title">Detaljer for %s</string>
     <string name="wifi_detail_label">Detaljer</string>

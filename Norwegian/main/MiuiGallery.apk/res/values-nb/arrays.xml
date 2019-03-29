@@ -14,6 +14,11 @@
         <item>Biter av livet</item>
         <item>Helgeminner</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flytt</item>
+        <item>Kopier</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="month">
         <item>Januar</item>
         <item>Februar</item>

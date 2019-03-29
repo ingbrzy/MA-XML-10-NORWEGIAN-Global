@@ -79,6 +79,8 @@
     <string name="HIPS_Perm_get_installed_apps_Desc">få informasjon om appene som er installert på denne enheten</string>
     <string name="HIPS_Perm_service_foreground">Forgrunnstjenester</string>
     <string name="HIPS_Perm_service_foreground_Desc">forgrunnstjenester</string>
+    <string name="HIPS_Perm_UDevice_ID">Del deler av enhetens informasjon med spillutviklere for å hjelpe dem med å forbedre din spillopplevelse. Godta?</string>
+    <string name="HIPS_Perm_UDevice_ID_DESC">dele deler av enhetens informasjon med spillutviklere for å hjelpe dem med å forbedre din spillopplevelse. Godta?</string>
     <string name="permission_group_title_charges_related">Gebyr</string>
     <string name="permission_group_title_privacy_related">Personvern</string>
     <string name="permission_group_title_media_related">Multimedia</string>

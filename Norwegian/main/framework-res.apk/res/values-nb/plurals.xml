@@ -72,6 +72,10 @@
         <item quantity="other">om %d år</item>
         <item quantity="one">om %d år</item>
     </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Prøv på nytt om %d sekunder.</item>
+        <item quantity="one">Prøv på nytt om ett sekund.</item>
+    </plurals>
     <plurals name="last_num_days">
         <item quantity="other">De siste %d dagene</item>
         <item quantity="one">Den siste %d dagen</item>
@@ -113,7 +117,7 @@
         <item quantity="one">I én time</item>
     </plurals>
     <plurals name="zen_mode_duration_hours_summary">
-        <item quantity="other">For %1$d timer (til %2$s)</item>
+        <item quantity="other">I %1$d timer (til %2$s)</item>
         <item quantity="one">I 1 time (til %2$s)</item>
     </plurals>
     <plurals name="zen_mode_duration_hours_summary_short">

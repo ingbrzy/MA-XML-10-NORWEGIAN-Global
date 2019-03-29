@@ -78,6 +78,7 @@
     <string name="respond_via_sms_custom_message">Tilpasset SMS</string>
     <string name="manageConferenceLabel">Administrer konferansesamtale</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
+    <string name="volte_call">VoLTE-samtale</string>
     <string name="notification_dialing">Ringer</string>
     <string name="notification_ongoing_call">Pågående anrop</string>
     <string name="notification_on_hold">På vent</string>
