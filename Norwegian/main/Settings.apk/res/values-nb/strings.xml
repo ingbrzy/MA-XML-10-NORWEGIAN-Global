@@ -1114,7 +1114,6 @@ Samplingsfrekvens"</string>
     <string name="bootloader_summary">Flash enheten din via USB</string>
     <string name="bootloader_tips">Etter du legger til din Mi Account må du ikke logge ut av den, utføre en tilbakestilling til fabrikkinnstillinger, eller tømme systemapp-dataene. Hvis du gjør noe av disse, må du legge til kontoen din på nytt eller så vil du ikke kunne låse opp enheten din.</string>
     <string name="bootloader_tips_ok">Skjønner</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Lysfarge</string>
     <string name="breathing_light_color_summary">Lysfarge ved nytt mottatt varsel</string>
     <string name="breathing_light_freq_summary">Blink når du har nye varsler</string>
@@ -1814,10 +1813,8 @@ Hvis problemet vedvarer, må du kanskje avinstallere appen for å få bedre batt
     <string name="dialog_title_hdmi_color_calibration">Forhåndsinnstilling fargekorrigering</string>
     <string name="dialog_title_login">Logg inn på din Mi Account</string>
     <string name="dialog_yes">Ja</string>
-    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Merk: Etter en omstart kan ikke denne appen startes opp før du låser opp telefonen din</string>
     <string name="directory_access">Katalogtilgang</string>
-    <string name="directory_on_volume">%1$s (%2$s)</string>
     <string name="disable_overlays">Deaktiver HW-overlegg</string>
     <string name="disable_overlays_summary">Bruk alltid GPU til skjermgjengivelse</string>
     <string name="disable_power_key_long_press_under_keyguard">Slå av Av/på-knappmenyen</string>
@@ -1884,7 +1881,6 @@ Hvis problemet vedvarer, må du kanskje avinstallere appen for å få bedre batt
     <string name="dndm_auto_button_title">Gjenta «Ikke forstyrr»-tid</string>
     <string name="dndm_auto_setting_group">Planlagt</string>
     <string name="dndm_auto_time_setting">Angi tid</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Til</string>
     <string name="dndm_auto_time_turn_off_title">Skru av «Ikke forstyrr» automatisk</string>
     <string name="dndm_auto_time_turn_on">Fra</string>
@@ -2268,7 +2264,6 @@ Ta kontakt med administratoren for organisasjonen for mer informasjon."</string>
     <string name="firewall_temp_rule_reason">%2$s begrenset internettilkobling for %1$s</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_wifi_dialog_message">Den installerte appen vil ikke kunne kobles til internett ved bruk av Wi-Fi når denne bryteren er av.</string>
-    <string name="firmware_title">Android</string>
     <string name="firmware_version">Android-versjon</string>
     <string name="flash_drive_backup_restore">Sikkerhetskopier eller gjenopprett ved å bruke USB</string>
     <string name="flash_drive_backup_restore_summary">Koble til en USB-minnepinne</string>
@@ -2380,7 +2375,6 @@ Når du slår på automatisk sikkerhetskopiering, lagres app- og enhetsdata auto
     <string name="gadget_picker_title">Velg gadget</string>
     <string name="gadget_state_off">av</string>
     <string name="gadget_state_on">på</string>
-    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_turning_off">slår av</string>
     <string name="gadget_state_turning_on">slår på</string>
     <string name="gadget_sync">Synkronisering</string>
@@ -2754,7 +2748,6 @@ Du kan endre dette senere fra Innstillinger > Apper og varsler."</string>
     <string name="lights_title">LED-lys</string>
     <string name="line_breaking_summary">Optimaliser linjeskift for avsnitt</string>
     <string name="line_breaking_title">Optimaliser tekst</string>
-    <string name="link_speed">%1$d Mbps</string>
     <string name="list_bg_header_text">Hvis du begrenser bakgrunnstilkoblingen, vil nye apper ikke være i stand til å koble til internett i bakgrunnen etter du har installert dem. De vil muligens ikke være i stand til å motta meldinger eller laste ned innhold etter dette.</string>
     <string name="list_empty_text">Tøm</string>
     <string name="loading">Et øyeblikk…</string>
@@ -3151,7 +3144,6 @@ Det er andre brukere tilstede på denne enheten.
     <string name="memory_title">Tilgjengelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Minnebruk</string>
     <string name="memory_usage_apps">Minne brukt av apper</string>
-    <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s gjennomsnittlig minne brukt i løpet av de siste tre timene</string>
     <string name="menu_cancel">Forkast</string>
     <string name="menu_check">Opplevelse</string>
@@ -3463,7 +3455,6 @@ Velg ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">Skjønner</string>
     <string name="nfc_how_it_works_title">Betaling ved terminaler</string>
     <string name="nfc_more_title">Mr</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp for betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angitt</string>
     <string name="nfc_payment_favor_default">Bruk alltid standard-appen</string>
@@ -3729,7 +3720,6 @@ OTG deaktiveres automatisk etter 10 minutter med inaktivitet."</string>
     <string name="overlay_display_devices_title">Simuler sekundære skjermer</string>
     <string name="overlay_settings">Vis over andre apper</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Android.</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskjermsignatur</string>
     <string name="owner_space">Første område</string>
@@ -3895,7 +3885,6 @@ OTG deaktiveres automatisk etter 10 minutter med inaktivitet."</string>
     <string name="power_remaining_less_than_duration_only">Mindre enn %1$s gjenstående</string>
     <string name="power_remaining_more_than_subtext">Mer enn %1$s gjenstår (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Mer enn %1$s gjenstående</string>
-    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_settings_title">Systemytelse</string>
     <string name="power_unaccounted">Diverse</string>
@@ -4078,8 +4067,6 @@ OTG deaktiveres automatisk etter 10 minutter med inaktivitet."</string>
     <string name="private_sms_recording_intro_header">Tegn et opplåsingsmønster:</string>
     <string name="private_sms_reset_by_account">For å tilbakestille passordet ditt, logg inn på din Mi Account</string>
     <string name="process_dex2oat_label">Appoptimalisering</string>
-    <string name="process_format">%1$s (%2$d)</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Medietjener</string>
     <string name="process_provider_in_use_description">Leverandøren %1$s er i bruk.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i bruk.</string>
@@ -4724,7 +4711,6 @@ Slik bruker du én-appsmodus:
     <string name="security_encryption_attention_3">Du må angi et nytt låseskjermpassord.</string>
     <string name="security_encryption_attention_4">Forsikre deg om at du husker låseskjermpassordet. Hvis ikke må du gjennomføre en full tilbakestilling og slette alle data på enheten.</string>
     <string name="security_encryption_attention_info">Du kan kryptere kontoer, innstillinger, nedlastede apper og deres data, medier og andre filer.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Viktig</string>
     <string name="security_encryption_close_dialog_info">Om du velger å ikke kryptere enheten med låseskjermpassord, kan enkelte Google-tjenester bli utilgjengelige.</string>
     <string name="security_encryption_close_dialog_title">Gå tilbake til standard passordbeskyttelse</string>
@@ -4990,7 +4976,6 @@ Muligens feil personlig kode."</string>
     <string name="sim_select_card">Velg et SIM-kort</string>
     <string name="sim_selection_channel_title">Valg av SIM-kort</string>
     <string name="sim_selection_required_pref">Du må velge en SIM-innstilling</string>
-    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -5006,7 +4991,6 @@ Muligens feil personlig kode."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
-    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Hopp over likevel</string>
     <string name="skip_label">Hopp over</string>
@@ -5127,10 +5111,8 @@ Pålitelig legitimasjon, som er installert på enheten din, gjør dette mulig."<
     <string name="status_bar_app_enable_keyguard">Låseskjerm</string>
     <string name="status_bar_app_enable_message">Merker</string>
     <string name="status_bar_carrier_settings_no_sim_card">Ingen SIM-kort</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Varslinger og statuslinje</string>
     <string name="status_bar_settings_all_app_display_loading">Et øyeblikk…</string>
-    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">App-varsler</string>
     <string name="status_bar_settings_notification_bar">Meldingsskygge</string>
     <string name="status_bar_settings_status_bar">Statuslinje</string>
@@ -5377,7 +5359,6 @@ Prøv å bruke et raskere ^3, eller bruk ^4 som bærbar lagring i stedet."</stri
     <string name="sum_carrier_select">Velg en nettverksoperatør</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
-    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="supl_not_set">&lt;Ikke angitt></string>
     <string name="support_country_format">%1$s – %2$s</string>
@@ -6427,14 +6408,12 @@ Vil du tillate dette for alle apper som prøver å skanne?"</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_owe">OWE</string>
     <string name="wifi_security_passpoint">Passpoint</string>
-    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_sae">SAE</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_dpp">DPP</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_short_owe">OWE</string>
-    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_sae">SAE</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
@@ -6881,10 +6860,8 @@ Husk at kritiske varsler for telefonaktivitet og -status fremdeles vises."</stri
     <string name="zone_auto_summaryOff">Bruk tiden som er gitt av transportnettverket</string>
     <string name="zone_auto_summaryOn">Bruk tiden som er gitt av transportnettverket</string>
     <string name="zone_change_to_from_dst">%1$s starter %2$s.</string>
-    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Bruker %1$s. %2$s starter %3$s.</string>
     <string name="zone_info_footer_no_dst">Bruker %1$s. Ingen sommertid.</string>
-    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Sortér alfabetisk</string>
     <string name="zone_list_menu_sort_by_timezone">Sortér etter tidssone</string>
     <string name="zone_menu_by_offset">Velg etter utligning mot UTC</string>
