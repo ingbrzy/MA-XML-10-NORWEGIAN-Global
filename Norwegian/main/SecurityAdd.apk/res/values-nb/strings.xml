@@ -13,6 +13,7 @@
     <string name="no_network_btn">Prøv igjen</string>
     <string name="main_toolbar_purchase">Fyll på</string>
     <string name="usage_sorted_loading_text">Et øyeblikk…</string>
+    <string name="empty">" "</string>
     <string name="share">Del</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>

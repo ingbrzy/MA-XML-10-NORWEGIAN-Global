@@ -104,7 +104,7 @@
     <string name="item_title_currency">Valuta</string>
     <string name="item_title_dress_size">Klesstørrelse</string>
     <string name="item_title_length_conversion">Lengde</string>
-    <string name="item_title_mortgage">Home loan</string>
+    <string name="item_title_mortgage">Boliglån</string>
     <string name="item_title_scientific_calculator">Akademisk</string>
     <string name="item_title_tax">Skatt</string>
     <string name="item_title_temprature_conversion">Temperatur</string>
@@ -164,7 +164,7 @@
     <string name="mortgage_interest_rate">Kommersiell rente</string>
     <string name="mortgage_item_repayment">Tilbakebetalingmetode</string>
     <string name="mortgage_item_start_time">Startdato</string>
-    <string name="mortgage_item_years">Loan tenure</string>
+    <string name="mortgage_item_years">Låneperiode</string>
     <string name="mortgage_loans_amount">Boliglånsbeløp</string>
     <string name="mortgage_provident_found_interest_rate">Fondets rente</string>
     <string name="mortgage_repayment_amount">Tilbakebetalingsperiode</string>
@@ -592,12 +592,23 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
 Delta-størrelse på oppdatering: %2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s oppdatering!</string>
     <string name="year" />
+    <string name="app_notification_info">Kalkulator kjører i bakgrunnen</string>
+    <string name="btn_float_window_alpha">Justere opasitet</string>
+    <string name="btn_float_window_back_to_app">Maksimere kalkulator</string>
+    <string name="btn_float_window_close">Lukk minimert kalkulator</string>
+    <string name="btn_float_window_resize">Endre størrelse på minimert kalkulator</string>
+    <string name="float_window_guide_text">Trykk her for å minimere kalkulator</string>
+    <string name="hint_floatwindow_alpha_guide_text">Trykk for å justere opasitet</string>
+    <string name="view_float_window_move">Flytte minimert kalkulator</string>
 </resources>

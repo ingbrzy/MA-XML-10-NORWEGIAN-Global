@@ -12,4 +12,16 @@
         <item quantity="other">Gjenoppretter %d filer</item>
         <item quantity="one">Gjenoppretter %d fil</item>
     </plurals>
+    <plurals name="restore_app_order_prior">
+        <item quantity="other">Høy prioritet: %d elementer</item>
+        <item quantity="one">Høy prioritet: %d element</item>
+    </plurals>
+    <plurals name="restore_app_order_normal">
+        <item quantity="other">Normal prioritet: %d elementer</item>
+        <item quantity="one">Normal prioritet: %d element</item>
+    </plurals>
+    <plurals name="restore_app_order_installed">
+        <item quantity="other">%d apper på denne enheten</item>
+        <item quantity="one">%d app på denne enheten</item>
+    </plurals>
 </resources>

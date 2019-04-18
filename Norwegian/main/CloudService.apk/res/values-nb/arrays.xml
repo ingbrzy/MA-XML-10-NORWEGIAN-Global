@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="user_detail_fixed_items">
+        <item>Vis synkroniserte elementer</item>
+        <item>Lagringsdetaljer</item>
+    </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>For å identifisere synkroniserte elementer</item>
         <item>For å synkronisere meldinger</item>
@@ -76,7 +80,7 @@
     </string-array>
     <string-array name="settings_search_sync_manage">
         <item>Mi Cloud. Alle Mi-tjenestene på ett sted.</item>
-        <item>Få tilgang til bilder, kontakter, meldinger, og enheter over alt</item>
+        <item>Få tilgang til bilder, kontakter, meldinger, og enheter hvor som helst</item>
         <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkronisering;Skytjenester;Mi Cloud;Søppel;Slettede enheter;Sikkerhet</item>
     </string-array>
     <string-array name="settings_search_find_phone">
@@ -100,19 +104,19 @@
         <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkroniser;Skytjenester;Mi Cloud;Mega;Ultra;VIP;Sikkerhetskopiering;Gjenopprett;Søppel;Slettede enheter;Søppelbøtte</item>
     </string-array>
     <string-array name="settings_search_backup_setting">
-        <item>Sikkerhetskopier oppsett til Hjem-skjerm til Mi Cloud</item>
-        <item>Sikkerhetskopier Hjem-skjermens utseende, liste over alle installerte apper, og systeminnstillinger</item>
-        <item>Sky;Sikkerhetskopi;Skytjenester;Mi Cloud;Hjem-skjerm;Layout;Apper;Innstillinger;Sikkerhetskopieringsfrekvens;Administrer sikkerhetskopieringer;Gjenopprett</item>
+        <item>Sikkerhetskopier oppsett til Startskjerm til Mi Cloud</item>
+        <item>Sikkerhetskopier startskjermens utseende, liste over alle installerte apper, og systeminnstillinger</item>
+        <item>Sky;Sikkerhetskopi;Skytjenester;Mi Cloud;Startskjerm;Layout;Apper;Innstillinger;Sikkerhetskopieringsfrekvens;Administrer sikkerhetskopieringer;Gjenopprett</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Sikkerhetskopier</item>
         <item>Sikkerhetskopierte enheter</item>
-        <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Skytjenester;Mi Cloud;Hjem-skjerm;Layout;Apper;Administrer sikkerhetskopieringer;Gjenopprett</item>
+        <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Skytjenester;Mi Cloud;Startskjerm;Layout;Apper;Administrer sikkerhetskopieringer;Gjenopprett</item>
     </string-array>
     <string-array name="settings_search_restore_device">
         <item>Gjenopprett elementer fra Mi Cloud</item>
-        <item>Last ned sikkerhetskopierte enheter til enheten din</item>
-        <item>Sky;Sikekrhetskopi;Sikkerhetskopi;Gjenoppprett;Skytjenester;Mi Cloud</item>
+        <item>Last ned sikkerhetskopierte elementer til enheten din</item>
+        <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Gjenoppprett;Skytjenester;Mi Cloud</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkroniser app-data</item>

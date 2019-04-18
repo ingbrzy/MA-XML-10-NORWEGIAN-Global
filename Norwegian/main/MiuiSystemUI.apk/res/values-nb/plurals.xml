@@ -33,12 +33,12 @@
         <item quantity="one">Feil PUK-kode, %d forsøk gjenstår</item>
     </plurals>
     <plurals name="input_password_after_timeout_msg">
-        <item quantity="other">Du har ikke brukt passordet ditt på minst %d timer. Tast inn passordet ditt.</item>
-        <item quantity="one">Du har ikke brukt passordet ditt på minst %d time. Tast inn passordet.</item>
+        <item quantity="other">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
+        <item quantity="one">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
-        <item quantity="other">Du har ikke brukt opplåsingmønsteret ditt på minst %d timer. Tegn inn opplåsingsmønsteret.</item>
-        <item quantity="one">Du har ikke brukt opplåsingmønsteret ditt på minst %d time. Tegn inn opplåsingsmønsteret.</item>
+        <item quantity="other">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
+        <item quantity="one">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Omtrent %d timer igjen</item>

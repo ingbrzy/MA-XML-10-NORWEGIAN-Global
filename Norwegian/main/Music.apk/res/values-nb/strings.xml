@@ -47,8 +47,13 @@
     <string name="album_label">Albumcovere</string>
     <string name="album_name">Album</string>
     <string name="all_album_count">Alle albumer (%d)</string>
+    <string name="all_albums">Alle album</string>
+    <string name="all_artists">Alle artister</string>
     <string name="all_playlist_count">Alle spillelister (%d)</string>
+    <string name="all_playlists">Alle spillelister</string>
+    <string name="all_songs">Alle sanger</string>
     <string name="all_tracks">Alle sanger</string>
+    <string name="all_videos">Alle videoer</string>
     <string name="already_download">Laster ned…</string>
     <string name="already_download_btn">Laster ned…</string>
     <string name="already_favorited">Allerede favorittmerket</string>
@@ -217,6 +222,7 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
@@ -296,7 +302,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -555,6 +563,7 @@
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
@@ -592,6 +601,8 @@
     <string name="search_for_album">Album</string>
     <string name="search_for_artist">Artist</string>
     <string name="search_hint">Søk etter artister, sanger, album og anbefalinger</string>
+    <string name="search_hint_local">Søk etter sanger på enheten</string>
+    <string name="search_hint_online">Søk etter artister, album, sanger, spillelister og videoer på nett</string>
     <string name="search_history_clear_all">Rens</string>
     <string name="search_instant_online_music">Online</string>
     <string name="search_menu_title">Søk</string>
@@ -653,6 +664,7 @@
     <string name="start_to_check_new_version">Ser etter oppdateringer…</string>
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
@@ -662,8 +674,10 @@
     <string name="tab_artist">Artister</string>
     <string name="tab_artist_list">Artister</string>
     <string name="tab_folder">Mapper</string>
+    <string name="tab_playlist">Spillelister</string>
     <string name="tab_track">Sanger</string>
     <string name="tab_track_list">Sanger</string>
+    <string name="tab_video">Videoer</string>
     <string name="take_effect_afater_restart">Du må restarte appen for at denne instillingen skal effektiviseres.</string>
     <string name="talkback_back">Gå tilbake</string>
     <string name="talkback_batch_process">Flere elementer</string>
@@ -713,6 +727,7 @@
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="version_info">Versjon</string>
     <string name="video_play_cellular">Din enhet er ikke koblet til Wi-Fi. Bruke mobildata?</string>
     <string name="video_replay_btn">Spill av igjen</string>
@@ -720,6 +735,7 @@
     <string name="view_album">Vis album</string>
     <string name="vip_required">Få Premium Song Pack for å spille denne sangen. Hoppet over sangen nå.</string>
     <string name="vip_required_with_song">%s er kun tilgjengelig for PRO-medlemmer. Denne sangen ble hoppet over for nå.</string>
+    <string name="voice_search_first_hint">Prøv stemmesøk!</string>
     <string name="wifi_required_body" formatted="false">"Koble til Wi-Fi for å fullføre denne %s nedlastingen
 
 Trykk%s for å starte denne nedlastingen neste gang du er tilkoblet et Wi-Fi-nettverk."</string>

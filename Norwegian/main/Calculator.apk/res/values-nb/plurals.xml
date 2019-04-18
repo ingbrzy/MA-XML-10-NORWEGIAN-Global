@@ -4,16 +4,16 @@
         <item quantity="other">%d elementer</item>
         <item quantity="one">%d element</item>
     </plurals>
+    <plurals name="loan_repayment_detail">
+        <item quantity="other">Detaljert tilbakebetaling (%d år)</item>
+        <item quantity="one">Detaljert tilbakebetaling (%d år)</item>
+    </plurals>
+    <plurals name="loan_repayment_detail_unit">
+        <item quantity="other">Detaljert tilbakebetaling (%d år), CNY</item>
+        <item quantity="one">Detaljert tilbakebetaling (%d år), CNY</item>
+    </plurals>
     <plurals name="mortgage_summary_years">
         <item quantity="other">%1$d år (%2$d måneder)</item>
         <item quantity="one">%1$d år (%2$d måneder)</item>
-    </plurals>
-    <plurals name="loan_repayment_detail">
-        <item quantity="other">Detailed repayment (%d years)</item>
-        <item quantity="one">Detailed repayment (%d year)</item>
-    </plurals>
-    <plurals name="loan_repayment_detail_unit">
-        <item quantity="other">Detailed repayment (%d years), CNY</item>
-        <item quantity="one">Detailed repayment (%d year), CNY</item>
     </plurals>
 </resources>

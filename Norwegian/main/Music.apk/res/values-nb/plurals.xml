@@ -78,6 +78,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> laster ned</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> laster ned</item>
     </plurals>
+    <plurals name="free_downloads_num_hint">
+        <item quantity="other">Gjenstående gratis nedlastinger %dsanger</item>
+        <item quantity="one">Gjenstående gratis nedlastinger %dsang</item>
+    </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d enheter valgt</item>
         <item quantity="one">%d enhet valgt</item>
@@ -117,5 +121,9 @@ Merk: Filen vil også slettes fra denne enheten."</item>
     <plurals name="video_play_count">
         <item quantity="other">%1$s vis</item>
         <item quantity="one">%1$s vis</item>
+    </plurals>
+    <plurals name="vip_remain_days_hint">
+        <item quantity="other">Gjenstår %ddager</item>
+        <item quantity="one">Gjenstår %ddag</item>
     </plurals>
 </resources>

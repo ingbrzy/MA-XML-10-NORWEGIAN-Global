@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Denne telefonens andre område</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
     <string name="size_unknown">Ukjent størrelse</string>
     <string name="recovering">Gjenoppretter %s</string>
@@ -72,7 +74,7 @@
     <string name="desktop_waiting">Venter</string>
     <string name="desktop_downloading">Laster ned</string>
     <string name="desktop_installing">Installering</string>
-    <string name="desktop_wait_wifi">Venter</string>
+    <string name="desktop_wait_network">Venter…</string>
     <string name="desktop_failed">Feil</string>
     <string name="recover_from_micloud">Gjenopprett fra sikkerhetskopi i Mi-skyen</string>
     <string name="click_try_to_restore_again">Trykk for å prøve igjen</string>
@@ -114,7 +116,7 @@
     <string name="confirm_cancel_restore_positive">Fortsett</string>
     <string name="confirm_cancel_restore_negative">Avbryt</string>
     <string name="confirm_restore_title">Gjenopprett</string>
-    <string name="confirm_restore_summary">Startskjermen starter på nytt og apper lastes ned automatisk når koblet til Wi-Fi</string>
+    <string name="confirm_restore_summary">Hjem-skjermen din vil bli restartet. Sikkerhetskopierte apper vil bli lastet ned automatisk.</string>
     <string name="confirm_restore">Gjenopprett</string>
     <string name="cloud_backup_have_data">Fant sikkerhetskopi i Mi-skyen</string>
     <string name="cloud_backup_select_recover">Velg sikkerhetskopi fra Mi-skyen</string>
@@ -134,7 +136,9 @@
     <string name="provision_error_connect_msg">Test nettverket og prøv igjen. Sikkerhetskopier er ikke tilgjengelige når enheten er offline.</string>
     <string name="provision_error_connect_title">Kan ikke koble til</string>
     <string name="loading_user_backup">Laster brukersikkerhetskopier…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
+    <string name="doing_calc_backup_data_size">Beregner størrelse…</string>
     <string name="authentication_failed">Kunne ikke verifisere konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhetskopier i Mi-skyen.</string>
@@ -181,10 +185,34 @@
     <string name="msg_alert_cancel_restore">Gjenoppretter elementer. Stoppe nå?</string>
     <string name="btn_restore_cancel">Avbryt</string>
     <string name="btn_restore_resume">Gjenoppta</string>
+    <string name="btn_restore_wait">Vent på Wi-Fi</string>
+    <string name="btn_restore_continue">Gjenopprett likevel</string>
+    <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> av filer vil bli lastet ned."</string>
+    <string name="msg_restore_with_metered_network_hint">Hvis du fortsetter gjenoppretting av disse elementene, vil mobildata bli brukt til nedlasting.</string>
+    <string name="msg_restore_start_with_metered_network">"Hjem-skjermen din vil bli restartet. Sikkerhetskopierte apper vil bli lastet ned automatisk. &lt;br />&lt;b>&lt;font color='red'>%s av filer vil bli lastet ned.&lt;/font>&lt;/b>"</string>
+    <string name="title_restore_with_current_network">Bruker nåværende tilkobling for nedlasting av filer</string>
     <string name="title_alert_restore_error">Kunne ikke gjenopprette</string>
     <string name="msg_alert_restore_error">Kunne ikke gjenopprette elementer fra Mi Cloud. Prøv igjen.</string>
     <string name="btn_restore_retry">Prøv igjen</string>
     <string name="btn_restore_abort">Avbryt</string>
     <string name="backup_stopped_title">Sikkerhetskopieringen ble satt på pause</string>
     <string name="backup_stopped_msg">Den nåværende sikkerhetskopien vil overskrive den forrige. Trykk for å se.</string>
+    <string name="restore_network_unconnect">%s (Venter på tilkobling)</string>
+    <string name="restore_network_pause">%s (Trykk for å fortsette)</string>
+    <string name="restore_detail_title">Velg elementer som skal gjenopprettes</string>
+    <string name="restore_detail_category_settings">Innstillinger</string>
+    <string name="restore_detail_category_apps">Hjem-skjermens utseende og apper</string>
+    <string name="restore_detail_more">Mer</string>
+    <string name="restore_app_order_title">Prioriter gjenopprettede elementer</string>
+    <string name="restore_app_order_search_hint">Søk etter elementer for å velge prioritet</string>
+    <string name="restore_app_order_search_prior">Apper med høy prioritet</string>
+    <string name="restore_app_order_search_normal">Apper med normal prioritet</string>
+    <string name="restore_app_order_search_installed">Apper på denne enheten</string>
+    <string name="restore_app_order_retry">Prøv igjen</string>
+    <string name="restore_app_order_retry_desc">"Kunne ikke koble til nettverket. 
+Sjekk nettverksinnstillingene dine og prøv igjen."</string>
+    <string name="restore_app_order_loading">Ett øyeblikk…</string>
+    <string name="restore_app_order_finish">Ferdig</string>
+    <string name="provision_restore_data">Restoring items</string>
+    <string name="provision_background_restore_more_data">Restore more items in the background</string>
 </resources>

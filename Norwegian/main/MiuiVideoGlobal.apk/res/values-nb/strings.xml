@@ -58,6 +58,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
     <string name="cast_notification_connecting_message">Kobler til %1$s</string>
@@ -486,6 +487,7 @@ Sjekk ut andre videoer!"</string>
     <string name="slid_fail_message">Kunne ikke lagre</string>
     <string name="slide_save_message">Genererer video…</string>
     <string name="sns_sign_in">Andre måter å logge inn</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sure_to_logout">Logge ut nå?</string>
     <string name="switch_ratio_pause">Avspillingshastigheten er ustabil. Bytter tilbake til standardhastigheten…</string>
     <string name="symbol_rmb">¥</string>
@@ -517,4 +519,26 @@ Sjekk ut andre videoer!"</string>
     <string name="v_ok">OK</string>
     <string name="v_pw_need_update_app">Oppdater Mi Video for å kunne bruke alle funksjonene</string>
     <string name="v_save">Lagre</string>
+    <string name="Subscribe">Abonner</string>
+    <string name="diy_channels_tips">Du kan tilpasse listen over kanalene nå.</string>
+    <string name="empty_channels">Administrer kanaler</string>
+    <string name="empty_subscribe">Du har ikke abonnert på noe ennå.</string>
+    <string name="hidden_channels">Følgende kanaler vises ikke på hjemmesiden.</string>
+    <string name="init_channels">Gjenopprett standardinnstillingene</string>
+    <string name="isSubscribed">Abonnerer</string>
+    <string name="my_favorite_channels">Mine kanaler</string>
+    <string name="ovp_navigation_subscribe">Abonner</string>
+    <string name="ovp_player_plugin_dlg_neg_btn">Lukk</string>
+    <string name="ovp_player_plugin_dlg_no_content">Ingen programtillegg for videospiller installert.</string>
+    <string name="ovp_player_plugin_dlg_title">Programtillegg for videospiller</string>
+    <string name="permission_phone">Telefon</string>
+    <string name="permission_phone_desc">For å få tilgang til enhetsstatuser og sette avspillinger på pause under samtaler</string>
+    <string name="permission_storage">Lagring</string>
+    <string name="permission_storage_desc">For å få tilgang til elementer, lagre filer, og vise og spille av lokale videoer</string>
+    <string name="pw_channels">Kanaler</string>
+    <string name="recommend_channels">Anbefalte kanaler</string>
+    <string name="restore_channel_list">Gjenopprette standardinnstillingene nå?</string>
+    <string name="title_publisher">Skapere</string>
+    <string name="title_subscribe">Abonnementer</string>
+    <string name="ugc_confirm_unsubscribe">Avslutte abonnementet nå?</string>
 </resources>

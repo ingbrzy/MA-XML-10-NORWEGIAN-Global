@@ -86,8 +86,6 @@
     <string name="force_touch_menu_add">Legg til notat</string>
     <string name="format_move_note_out_folder">Dette notatet ble flyttet</string>
     <string name="format_move_note_to_folder">Flyttet til %1$s</string>
-    <string name="format_move_notes_out_folder">Flyttet %1$s ut</string>
-    <string name="format_move_notes_to_folder">Flyttet %1$s to %2$s</string>
     <string name="hidden_notes_fragment_title">Skjulte notater</string>
     <string name="hide_arrow_description">Skjul</string>
     <string name="hint_cannot_view_hidden_note_content">Kan ikke se innhold i skjulte notater</string>
@@ -129,6 +127,7 @@
     <string name="note_sort_way">Velg hvordan du ønsker å sortere notatene dine</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notatpåminnelse</string>
     <string name="permdesc_accessNote">Ondsinnede apper kan bruke dette for å få tilgang til dine personlige data.</string>
     <string name="permission_intro_contact">Til å markere notater tatt under samtaler</string>
@@ -207,11 +206,9 @@
     <string name="toast_cancel_to_insert_image">Kunne ikke legge til bilde.</string>
     <string name="toast_message_add_image_fail">Kunne ikke legge til bilde</string>
     <string name="toast_notes_delete_success">Sletting var vellykket</string>
-    <string name="toast_notes_hidden_count">Skjuling %1$s var vellykket</string>
     <string name="toast_notes_hidden_edit">Dette notatet ble skjult. Trekk ned for å se skjulte notater.</string>
     <string name="toast_notes_hidden_home">Dette notatet ble skjult. Trekk ned for å se skjulte notater.</string>
     <string name="toast_notes_unhidden">Visning var vellykket</string>
-    <string name="toast_notes_unhidden_count">Visning %1$s var vellykket</string>
     <string name="toast_reach_text_limit_attachment">Kan ikke legge til nye vedlegg fordi notatet er for langt</string>
     <string name="toast_reach_text_limit_checkbox">Kan ikke legge til avkryssingsboks siden notatet er for langt</string>
     <string name="toast_reach_text_limit_truncate">Dette notatet er for lang. Noe tekst er kuttet bakfra.</string>

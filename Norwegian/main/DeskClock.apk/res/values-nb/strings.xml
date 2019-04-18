@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søk</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Legg til alarm</string>
     <string name="add_clock">Legg til klokke</string>
     <string name="add_timezone_title">Legg til tidssone</string>
@@ -63,6 +64,9 @@
     <string name="channel_name_timer">Tidtaker</string>
     <string name="check_theme_app_install">Sørg for at Themes-appen er installert på enheten din.</string>
     <string name="check_voice_assist_app_version">Oppdater Mi AI til siste versjon.</string>
+    <string name="clock_bg_button_setting_summary_common">Velg bakgrunnsfarge for Klokke-appen</string>
+    <string name="clock_bg_button_setting_summary_follow_sys">Svart brukes som bakgrunnsfarge hver gang du bytter til mørk modus</string>
+    <string name="clock_bg_button_setting_title">Bakgrunnsfarge</string>
     <string name="close_alarm">Skru av</string>
     <string name="common_settings">Innstillinger</string>
     <string name="confirm_abort">Forkast</string>
@@ -80,9 +84,14 @@
     <string name="delete_timezone_title">Slett tidssone</string>
     <string name="dialog_confirm_abort">Forkast endringer?</string>
     <string name="dialog_message_agree">Enig</string>
-    <string name="dialog_message_for_contact_permission">For å gjøre bursdagsalarmer tilgjengelig, trenger klokken tilgang til kontaktene. Enig?</string>
+    <string name="dialog_message_for_contact_permission">For å gjøre bursdagsalarmer tilgjengelig, trenger Klokke tilgang til kontaktene. Enig?</string>
     <string name="dialog_message_negative">Ikke enig</string>
     <string name="dialog_message_not_remind">Ikke spørr igjen</string>
+    <string name="dialog_privacy_content">Klokke må koble til internett for å hente og synkronisere relevant info om lokale offentlige helligdager og tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
+    <string name="dialog_privacy_content_global">Klokke må koble til internett for å tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
+    <string name="dialog_privacy_content_news">Klokke må koble til internett for å tilby tilpassede tjenester og for å inkludere morgennyheter i alarmene. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
+    <string name="dialog_privacy_content_timer">Klokke må koble til internett for å laste ned lydfiler for bakgrunnsstøytidtakere og tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
+    <string name="dialog_privacy_content_timer_data">Klokke må koble til internett for å laste ned lydfiler for bakgrunnsstøytidtakere (≈ 20MB) og tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Du bruker mobildata nå. Godta?</string>
     <string name="done">Ferdig</string>
     <string name="dynamic_alarm_speech">Smart alarm</string>
     <string name="edit_alarm">Endre alarm</string>
@@ -93,6 +102,10 @@
     <string name="force_touch_enter_stopwatch">Stoppeklokke</string>
     <string name="force_touch_enter_timer">Tidtaker</string>
     <string name="go_back">Tilbake</string>
+    <string name="holiday_update">En oppdatering for helligdager er tilgjengelig</string>
+    <string name="holiday_update_fail">Kunne ikke oppdatere</string>
+    <string name="holiday_update_loading">Oppdaterer…</string>
+    <string name="holiday_update_success">Alle elementer er oppdaterte</string>
     <string name="hour_unit">Time +</string>
     <string name="install_weather_app_error">Kunne ikke laste inn app</string>
     <string name="install_weather_app_loading">Et øyeblikk…</string>
@@ -118,6 +131,7 @@
     <string name="life_post_setting">Morgenrapport</string>
     <string name="life_post_setting_FBE_remind">På grunn av systembegrensninger, kan det være at værinfo i morgenrapportene ikke vises riktig etter enheten starter på nytt.</string>
     <string name="life_post_setting_close_title">Slå av morgenrapporter</string>
+    <string name="life_post_setting_open_desc">Slå av gjentatte alarmer mellom 04:00 og 10:00 for å lytte til den gjeldende værmeldingen</string>
     <string name="life_post_setting_open_subtitle">Få værinformasjon når du skrur av alarmen mellom 4.00 og 9.30</string>
     <string name="life_post_setting_open_title">Motta morgenrapporter</string>
     <string name="life_post_setting_wake_up_list_title">Oppvåkningshistorikk</string>
@@ -139,13 +153,15 @@
     <string name="menu_item_sort_by_gmt_offset">Sorter etter tid</string>
     <string name="menu_item_sort_by_name">Sorter etter navn</string>
     <string name="module_download_cancel">Nei takk</string>
-    <string name="module_download_data_msg">Klokke-appen må kobles til Internett for å kunne laste ned lydfiler for MIUI 10 væralarmer og omgivelsesstøy-tidtakere. Du trenger 20 MB med mobildata for denne nedlastingen. Tillate?</string>
-    <string name="module_download_data_msg_golbal">Klokke-appen må laste ned lydfiler for MIUI 10 væralarmer og omgivelsesstøy-tidtakere. Du trenger 20 MB med mobildata for denne nedlastingen. Tillate?</string>
-    <string name="module_download_data_msg_replace">Oppdatert lyd for smarte alarmer (≈20 MB) er tilgjengelig. Koble til nettverket og laste ned med mobildata?</string>
+    <string name="module_download_data_msg">Klokke må laste ned lydfiler for MIUI smarte alarmer. Smarte alarmer inneholder lydfunksjoner som tillater inkludering av nåværende værinformasjon i alarmene. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
+    <string name="module_download_data_msg_golbal">Klokke må laste ned lydfiler for MIUI smarte alarmer. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
+    <string name="module_download_data_msg_replace">Oppdatert lyd for MIUI smarte alarmer er tilgjengelig. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
+    <string name="module_download_data_msg_timer">Klokke må laste ned lydfiler for bakgrunnsstøytidtakere. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
     <string name="module_download_fail">Kunne ikke laste ned ekstra lyd</string>
-    <string name="module_download_msg">Klokke-appen må kobles til Internett for å kunne laste ned lydfiler for MIUI 10 væralarmer og omgivelsesstøy-tidtakere. Tillate?</string>
-    <string name="module_download_msg_golbal">Klokke-appen må laste ned lydfiler for MIUI 10 væralarmer og omgivelsesstøy-tidtakere. Tillate?</string>
-    <string name="module_download_msg_replace">Oppdatert lyd for smarte alarmer er tilgjengelig. Koble til nettverket og laste ned nå?</string>
+    <string name="module_download_msg">Klokke må laste ned lydfiler for MIUI smarte alarmer. Smarte alarmer inneholder lydfunksjoner som tillater inkludering av nåværende værinformasjon i alarmene. Laste ned nå?</string>
+    <string name="module_download_msg_golbal">Klokke må laste ned lydfiler for MIUI smarte alarmer. Laste ned nå?</string>
+    <string name="module_download_msg_replace">Oppdatert lyd for MIUI smarte alarmer er tilgjengelig. Laste ned nå?</string>
+    <string name="module_download_msg_timer">Klokke må laste ned lydfiler for bakgrunsstøytidtakere. Laste ned nå?</string>
     <string name="module_download_no_network">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="module_download_ok">Tillat</string>
     <string name="module_download_success">Lastet ned ekstra lyd</string>
@@ -160,6 +176,7 @@
     <string name="other_category_title">Annet</string>
     <string name="pause">Pause</string>
     <string name="percentage_sign">%</string>
+    <string name="personal_recommend">Personlig tilpassede innholdsanbefalinger</string>
     <string name="privacy_policy">Personvernpolitikk</string>
     <string name="remind_ringtone">Ringetone</string>
     <string name="repeat_count">Ganger</string>
@@ -184,6 +201,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 5 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
@@ -202,6 +220,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">℃</string>
@@ -255,6 +274,7 @@
     <string name="turn_off_this_repeat_alarm">Skru av denne repeterende alarmen</string>
     <string name="upcoming_alarm">%s Kommende alarm</string>
     <string name="upcoming_alarm_hint">Denne alarmen kan velges på forhånd</string>
+    <string name="user_agreement">Brukeravtale</string>
     <string name="vibrate_pref_summary">Vibrer når alarmen går</string>
     <string name="vibrate_when_ringing">Vibrer ved ringing</string>
     <string name="volume_button_setting_summary">Still inn funksjonene til volumknappene under alarm</string>
