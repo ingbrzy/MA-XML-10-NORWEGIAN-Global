@@ -290,7 +290,6 @@
     <string name="month_view">Måned</string>
     <string name="monthly">Månedlig</string>
     <string name="monthly_on_day">Månedlig (samme dato)</string>
-    <string name="monthly_on_day_count">Månedlig (%1$s %2$s)</string>
     <string name="network_not_available">Kan ikke koble til nettverket</string>
     <string name="new_event_description">Ny</string>
     <string name="news">Nyheter</string>
