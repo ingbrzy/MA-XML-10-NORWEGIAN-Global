@@ -92,6 +92,8 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="content_description_complete">Fullført</string>
     <string name="language_picker_other_languages_title">Flere språk</string>
     <string name="language_settings">Velg språk</string>
+    <string name="font_hint_normal">Øk tekststørrelse</string>
+    <string name="font_hint_large">Standard tekststørrelse</string>
     <string name="navigation_picker_radio_text_full_screen">Fullskjermbevegelser</string>
     <string name="navigation_picker_radio_text_virtual_key">Knapper</string>
     <string name="congratulation_swipe">Dra opp for å åpne systemet</string>
@@ -119,4 +121,8 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="ai_button_double_press_desc">Dobbelttrykk på AI-knappen for å fullføre tilpassede oppgaver</string>
     <string name="zone_picker_title">Velg tidssone</string>
     <string name="locale_picker_other_locale_title">Flere regioner</string>
+    <string name="skip_gesture_guide_dialog_title">Fullskjermbevegelser</string>
+    <string name="skip_gesture_guide_dialog_message">Sørg for at du vet hvordan å bruke fullskjermbevegelser før du velger dette alternativet.</string>
+    <string name="skip_gesture_guide_dialog_negative_btn">Avbryt</string>
+    <string name="skip_gesture_guide_dialog_positive_btn">OK</string>
 </resources>

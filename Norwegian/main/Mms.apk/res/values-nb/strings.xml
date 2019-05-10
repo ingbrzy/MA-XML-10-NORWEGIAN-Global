@@ -29,8 +29,8 @@
     <string name="already_updated">Oppdatert</string>
     <string name="app_label">Meldinger</string>
     <string name="app_name">Enheter</string>
-    <string name="application_list_title">Mini app</string>
-    <string name="attach_group_chat">Group chat</string>
+    <string name="application_list_title">Mini-apper</string>
+    <string name="attach_group_chat">Gruppesamtaler</string>
     <string name="attach_image">Bilder</string>
     <string name="attach_rcs_file">Fil</string>
     <string name="attach_rcs_location">Plassering</string>
@@ -42,7 +42,7 @@
     <string name="attach_take_photo">Ta bilde</string>
     <string name="attach_transaction">Overfør penger</string>
     <string name="attach_video">Video</string>
-    <string name="attach_video_call">Video call</string>
+    <string name="attach_video_call">Videosamtale</string>
     <string name="audio_download_failed">Kunne ikke laste ned lyd</string>
     <string name="audio_message_expired">Denne talemeldinger har utløpt.</string>
     <string name="audio_message_mx_offline">Kunne ikke laste ned lyd. Mi Message er frakoblet eller ikke tilgjengelig.</string>
@@ -76,7 +76,7 @@
     <string name="button_unfold">Brett ut</string>
     <string name="call_sender">Ring avsender</string>
     <string name="can_not_send_by_rcs">Kan ikke bruke China Mobile Messaging</string>
-    <string name="can_not_view_group_chat_stranger">"Can't view the details of strangers."</string>
+    <string name="can_not_view_group_chat_stranger">Kan ikke vise detaljer om fremmede.</string>
     <string name="cannot_add_picture_and_video">Kan ikke legge til video og bilde i ett lysbilde.</string>
     <string name="cannot_add_slide_anymore">Kan ikke legge til flere lysbilder.</string>
     <string name="cannot_forward_drm_obj">DRM-objektet i meldingen kan ikke bli videresendt.</string>
@@ -134,7 +134,7 @@
     <string name="confirm_restore_positive">Gjenopprett</string>
     <string name="confirm_restore_title">Gjenopprett meldinger</string>
     <string name="confirm_send_mms">En av dine mottakere inkluderer en e-postadresse. Denne meldingen vil bli sendt som MMS, noe som kan føre til ekstra kostnader fra operatøren din.</string>
-    <string name="contact_not_exists">"This person isn't in your contacts."</string>
+    <string name="contact_not_exists">Denne personen er ikke blant dine kontakter.</string>
     <string name="context_menu_add_calendar">Legg til i kalender</string>
     <string name="context_menu_add_contact">Legg til i kontakter</string>
     <string name="context_menu_add_to_browser_favorite">Legg til i nettleserbokmerkene</string>
@@ -173,6 +173,8 @@
     <string name="dialog_message_mx">Mi Message lar deg sende meldinger til andre MIUI-brukere over Internett uten å påføre deg kostnader. En utgående SMS-melding kan bli nødvendig for å aktivere MI Message. Operatøren din vil belaste deg for denne meldingen. Du må samtykke i \"%1$s\" og \"%2$s\" vår før du bruker Mi Message.</string>
     <string name="dialog_message_networking">Messaging må bruke gule sider for å kunne gi avsender-ID gjenkjennelse. Messaging og gule sider må koble til Internett og få tilgang til posisjonen din for å fungere normalt. Tillat?</string>
     <string name="dialog_message_rcs">China Mobile Messaging lar deg sende meldinger til andre China Mobile-brukere i fastlands-Kina uten å pådra deg kostnader. Du må samtykke i \"%1$s\" og \"\" vår før du kan bruke China Mobile Messaging.</string>
+    <string name="dialog_sim_locked_confirm">OK</string>
+    <string name="dialog_sim_locked_message">SIM-kortet fungerer ikke helt som det skal med denne telefonen siden det ikke samsvarer med vilkårene og betingelsene i abonnementet. Hvis du har noen spørsmål, eller trenger mer informasjon om dette, kan du kontakte Xiaomi-tjenestesentre eller butikken som solgte produkter til deg.</string>
     <string name="dialog_title_fake_cell_detect_error">Correction</string>
     <string name="dialog_title_mx_rcs">Mi Message</string>
     <string name="dialog_title_networking">Vilkår og betingelser</string>
@@ -229,6 +231,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_message_select_title">Videresend melding</string>
@@ -250,7 +253,7 @@
     <string name="group_resend_message">Send på nytt (%d)</string>
     <string name="group_view_settings_disolved">Kan ikke vise elementer. Denne gruppesamtalen ble slettet.</string>
     <string name="group_view_settings_not_memeber">Kan ikke vise elementer. Du er ikke medlem av denne gruppesamtalen.</string>
-    <string name="groupchat_list_title">Group chats</string>
+    <string name="groupchat_list_title">Gruppesamtaler</string>
     <string name="guild_add_attachments">Trykk for å legge til uttrykksikon og andre elementer</string>
     <string name="guild_add_recipients">Trykk for å legge til mottakere fra kontakter</string>
     <string name="guild_msim_switcher">Trykk for å bytte SIM-kort</string>
@@ -293,7 +296,7 @@
     <string name="menu_edit">Rediger</string>
     <string name="menu_forward">Videresend</string>
     <string name="menu_lock">Legg til i favoritter</string>
-    <string name="menu_make_call">Call</string>
+    <string name="menu_make_call">Ring</string>
     <string name="menu_mark">Marker</string>
     <string name="menu_more">Mer</string>
     <string name="menu_new_contact">Ny kontakt</string>
@@ -304,7 +307,7 @@
     <string name="menu_traffic_destination">Destinasjon</string>
     <string name="menu_unlock">Fjern fra favoritter</string>
     <string name="menu_view_contact">Vis kontakt</string>
-    <string name="menu_view_group_info">Group Info</string>
+    <string name="menu_view_group_info">Gruppeinfo</string>
     <string name="message_class_label">"Meldingsklasse: "</string>
     <string name="message_contact">Kontakt:</string>
     <string name="message_details_title">Meldingsdetaljer</string>
@@ -416,7 +419,7 @@
     <string name="no_block_button_msg">Fjern blokkering</string>
     <string name="no_conversations">Ingen samtaler</string>
     <string name="no_delivery_report">Ingen leveringsrapport</string>
-    <string name="no_network_description">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="no_network_description">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="no_subject">(Emne mangler)</string>
     <string name="no_subject_view">(Emne mangler)</string>
     <string name="non_english_subject_limit">13 tegn</string>
@@ -539,9 +542,9 @@
     <string name="prvate_contact">Private kontakter</string>
     <string name="quick_reply">Svar</string>
     <string name="rate_limit_surpassed">OK</string>
-    <string name="rcs_auto_resend_as_sms_remind_change">Change</string>
-    <string name="rcs_auto_resend_as_sms_remind_desp">When the network signal is weak, the text part of a message (up to 900 Bytes) can be converted and sent as SMS. You can change this in Settings.</string>
-    <string name="rcs_auto_resend_as_sms_remind_title">Convert to SMS</string>
+    <string name="rcs_auto_resend_as_sms_remind_change">Endre innstillinger</string>
+    <string name="rcs_auto_resend_as_sms_remind_desp">Meldinger opptil 900B kan konverteres og sendes som SMS når nettverkssignalene er dårlig. Trykk \"Endre innstillinger\" om du ønsker å konvertere dine meldinger til SMS.</string>
+    <string name="rcs_auto_resend_as_sms_remind_title">Konverter til SMS</string>
     <string name="rcs_auto_resend_mms">Konverter til MMS</string>
     <string name="rcs_auto_resend_sms">Konverter til SMS</string>
     <string name="rcs_auto_resume">Gjenoppta avbrutte opplastinger automatisk</string>
@@ -552,12 +555,12 @@
     <string name="rcs_forward_faild">Kan ikke videresende</string>
     <string name="rcs_forward_successful">Videresendt</string>
     <string name="rcs_group_notification_invitation">Invitasjon til gruppesamtale</string>
-    <string name="rcs_hello_from_pc">Sign in to Fetion on your computer to transfer files.</string>
+    <string name="rcs_hello_from_pc">Logg på Fetion på datamaskinen for å overføre filer.</string>
     <string name="rcs_message">China Mobile meldinger</string>
     <string name="rcs_message_disable">Kan ikke vise denne meldingen i det sekundære området</string>
     <string name="rcs_msg">China Mobile Messaging</string>
     <string name="rcs_not_online">Kan ikke bruke China Mobile Messaging. Kontroller nettverksinnstillingene og prøv igjen.</string>
-    <string name="rcs_offline">Not signed in to UC. Wait a minute or two and try again.</string>
+    <string name="rcs_offline">Ikke innlogget på UC. Vent et øyeblikk og prøv igjen.</string>
     <string name="rcs_offline_hint">China Mobile Messaging er frakoblet. Kan ikke videresende meldingen.</string>
     <string name="rcs_recipient_type_contact">Videresend til kontakt</string>
     <string name="rcs_recipient_type_group">Videresend til gruppesamtale</string>
@@ -657,6 +660,7 @@
     <string name="security_alert_dialog_title">Rapporter</string>
     <string name="select_audio">Velg lyd</string>
     <string name="select_bottom_text">Tekst nederst</string>
+    <string name="select_copy_text">Velg tekst å kopiere</string>
     <string name="select_different_attachment">Velg et annet vedlegg.</string>
     <string name="select_different_audio">Velg en annen lyd.</string>
     <string name="select_different_picture">Velg et annet bilde.</string>
@@ -682,6 +686,7 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>

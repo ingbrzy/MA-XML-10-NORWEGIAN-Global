@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Merk</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne videoen er ikke gyldig for direkteavspilling på enheten.</string>
     <string name="selectTextMode">Marker tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeravtrykk</string>
     <string name="paste_as_plain_text">Lim inn som ren tekst</string>
     <string name="autofill">Autofyll</string>
@@ -386,6 +387,7 @@ Ta kontakt med administratoren for organisasjonen din hvis du har spørsmål."</
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"</string>
     <string name="fcComplete">Funksjonskode utført.</string>
     <string name="fcError">Tilkoblingsproblem eller ugyldig funksjonskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Finn</string>
     <string name="find_next">Finn neste</string>
     <string name="find_on_page">Finn på side</string>
@@ -591,6 +593,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Skriv inn PIN-koden for SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser opp SIM-kortet ...</string>
+    <string name="kg_text_message_separator">" — "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har tastet inn passordet ditt feil %1$d ganger. 
 
 Prøv på nytt om %2$d sekunder."</string>
@@ -615,6 +618,14 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="leave_accessibility_shortcut_on">Bruk snarveien</string>
     <string name="loading">Laster inn …</string>
     <string name="locale_search_menu">Søk</string>
+    <string name="lock_to_app_description">"Skjermfesting låser skjermen i en enkelt visning.
+
+For å løsne skjermen må du holde hjem- og av/på-knappen nede samtidig."</string>
+    <string name="lock_to_app_description_accessible">"Skjermfesting låser skjermen i en enkelt visning.
+
+For å løsne skjermen må du holde hjem- og av/på-knappen nede samtidig."</string>
+    <string name="lock_to_app_toast">For å løsne denne skjermen må du holde hjem- og av/på-knappen nede samtidig.</string>
+    <string name="lock_to_app_toast_accessible">For å løsne denne skjermen må du holde hjem- og av/på-knappen nede samtidig.</string>
     <string name="lock_to_app_unlock_password">Krev passord for å løsne apper</string>
     <string name="lock_to_app_unlock_pattern">Krev opplåsingsmønster for å løsne apper</string>
     <string name="lock_to_app_unlock_pin">PIN-kode for å løsne apper</string>
@@ -644,18 +655,18 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_glogin_username_hint">Brukernavn (e-post)</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Trykk på menyknappen for å låse opp.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Trykk på menyknappen for å låse opp eller ringe et nødnummer.</string>
-    <string name="lockscreen_missing_sim_instructions">Sett inn et SIM-kort.</string>
-    <string name="lockscreen_missing_sim_instructions_long">SIM-kort mangler eller er uleselig. Sett inn et SIM-kort.</string>
-    <string name="lockscreen_missing_sim_message">Ikke noe SIM-kort i telefonen.</string>
-    <string name="lockscreen_missing_sim_message_short">SIM-kort mangler</string>
+    <string name="lockscreen_missing_sim_instructions">Sett inn SIM-kort.</string>
+    <string name="lockscreen_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke leses. Sett inn et SIM-kort.</string>
+    <string name="lockscreen_missing_sim_message">Ingen SIM-kort i telefonen.</string>
+    <string name="lockscreen_missing_sim_message_short">Ingen SIM-kort</string>
     <string name="lockscreen_network_locked_message">Nettverk ikke tillatt</string>
     <string name="lockscreen_password_wrong">Prøv på nytt</string>
     <string name="lockscreen_pattern_correct">Riktig!</string>
     <string name="lockscreen_pattern_instructions">Tegn mønster for å låse opp</string>
     <string name="lockscreen_pattern_wrong">Prøv på nytt</string>
     <string name="lockscreen_permanent_disabled_sim_instructions">"SIM-kortet er deaktivert permanent.
-Ta kontakt med leverandøren av trådløstjenesten for å få et nytt SIM-kort."</string>
-    <string name="lockscreen_permanent_disabled_sim_message_short">Ubrukelige SIM-kort.</string>
+Kontakt operatøren av det trådløse nettverket for å få et nytt SIM-kort."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">Ubrukelig SIM-kort.</string>
     <string name="lockscreen_return_to_call">Tilbake til samtale</string>
     <string name="lockscreen_screen_locked">Skjermen er låst</string>
     <string name="lockscreen_sim_locked_message">SIM-kortet er låst.</string>
@@ -875,6 +886,7 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-anrop</string>
     <string name="notification_hidden_text">Nytt varsel</string>
     <string name="notification_listener_binding_label">Varsellytteren</string>
+    <string name="notification_messaging_title_template">%1$s%2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste for rangering av varsler</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Påloggingsfeil for %1$s</string>
@@ -1421,7 +1433,10 @@ Hvis du hører på et høyt volum over lengre perioder, kan det skade hørselen 
     <string name="taking_remote_bugreport_notification_title">Kjører feilrapport …</string>
     <string name="terabyteShort">TB</string>
     <string name="tethered_notification_message">Trykk for å konfigurere.</string>
-    <string name="tethered_notification_title">Internettdeling eller trådløs sone er aktiv</string>
+    <string name="tethered_notification_multi_device_message">%1$s tilkoblede enheter</string>
+    <string name="tethered_notification_no_device_message">Ingen tilkoblet enhet</string>
+    <string name="tethered_notification_one_device_message">%1$s tilkoblet enhet</string>
+    <string name="tethered_notification_title">Tilknytning eller sone aktiv</string>
     <string name="textSelectionCABTitle">Merket tekst</string>
     <string name="text_copied">Kopierte tekst til utklippstavlen.</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
@@ -1488,11 +1503,11 @@ Hvis du hører på et høyt volum over lengre perioder, kan det skade hørselen 
     <string name="volume_call">Samtalevolum</string>
     <string name="volume_dialog_ringer_guidance_silent">Anrop og varsler er lydløse</string>
     <string name="volume_dialog_ringer_guidance_vibrate">Anrop og varsler vibrerer</string>
-    <string name="volume_icon_description_bluetooth">Bluetooth-volum</string>
-    <string name="volume_icon_description_incall">Samtalevolum</string>
-    <string name="volume_icon_description_media">Medievolum</string>
-    <string name="volume_icon_description_notification">Varslingsvolum</string>
-    <string name="volume_icon_description_ringer">Ringetonevolum</string>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_incall">Anrop</string>
+    <string name="volume_icon_description_media">Media</string>
+    <string name="volume_icon_description_notification">Varsling</string>
+    <string name="volume_icon_description_ringer">Ringetone</string>
     <string name="volume_music">Medievolum</string>
     <string name="volume_music_hint_playing_through_bluetooth">Spiller over Bluetooth</string>
     <string name="volume_music_hint_silent_ringtone_selected">Stille ringetone angitt</string>
@@ -1597,6 +1612,7 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">«Ikke forstyrr»</string>
     <string name="zen_mode_forever">Til du slår av</string>
     <string name="zen_mode_forever_dnd">Inntil du slår av Ikke forstyrr</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Til %1$s</string>
     <string name="zen_upgrade_notification_content">Trykk for å sjekke hva som er blokkert.</string>
     <string name="zen_upgrade_notification_title">Ikke forstyrr er endret</string>

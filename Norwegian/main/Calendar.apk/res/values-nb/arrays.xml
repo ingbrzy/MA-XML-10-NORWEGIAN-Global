@@ -81,6 +81,10 @@
         <item>Denne, og fremtidige hendelser</item>
         <item>Alle hendelser</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>Tvillingene</item>
@@ -103,13 +107,6 @@
     <string-array name="ligue_1">
         <item>5</item>
         <item>Ligue 1</item>
-    </string-array>
-    <string-array name="ordinal_labels">
-        <item>første</item>
-        <item>andre</item>
-        <item>tredje</item>
-        <item>fjerde</item>
-        <item>siste</item>
     </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
@@ -348,5 +345,42 @@
     <string-array name="widget_style_list">
         <item>Gjennomsiktig</item>
         <item>Hvit bakgrunn</item>
+    </string-array>
+    <string-array name="repeat_monthly_on_day_count_values">
+        <item>første mandag</item>
+        <item>første tirsdag</item>
+        <item>første onsdag</item>
+        <item>første torsdag</item>
+        <item>første fredag</item>
+        <item>første lørdag</item>
+        <item>første søndag</item>
+        <item>andre mandag</item>
+        <item>andre tirsdag</item>
+        <item>andre onsdag</item>
+        <item>andre torsdag</item>
+        <item>andre fredag</item>
+        <item>andre lørdag</item>
+        <item>andre søndag</item>
+        <item>tredje mandag</item>
+        <item>tredje tirsdag</item>
+        <item>tredje onsdag</item>
+        <item>tredje torsdag</item>
+        <item>tredje fredag</item>
+        <item>tredje lørdag</item>
+        <item>tredje søndag</item>
+        <item>fjerde mandag</item>
+        <item>fjerde tirsdag</item>
+        <item>fjerde onsdag</item>
+        <item>fjerde torsdag</item>
+        <item>fjerde fredag</item>
+        <item>fjerde lørdag</item>
+        <item>fjerde søndag</item>
+        <item>siste mandag</item>
+        <item>siste tirsdag</item>
+        <item>siste onsdag</item>
+        <item>siste torsdag</item>
+        <item>siste fredag</item>
+        <item>siste lørdag</item>
+        <item>siste søndag</item>
     </string-array>
 </resources>

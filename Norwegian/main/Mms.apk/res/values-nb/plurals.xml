@@ -41,8 +41,8 @@
         <item quantity="one">%1$s meldinger</item>
     </plurals>
     <plurals name="rcs_group_notification_invitation_receive">
-        <item quantity="other">You received %d group chat invitations</item>
-        <item quantity="one">You received %d group chat invitation</item>
+        <item quantity="other">Du har mottatt %d gruppesamtaleinvitasjoner</item>
+        <item quantity="one">Du har mottatt %d gruppesamtaleinvitasjon</item>
     </plurals>
     <plurals name="recipient_count">
         <item quantity="other">%1$s personer</item>

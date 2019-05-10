@@ -219,6 +219,7 @@ For å aktivere kontoen må du følge
     <string name="passport_talkback_switch_image_captcha">Bytt till bildeverifiseringskode</string>
     <string name="passport_license_info_open">Detaljer</string>
     <string name="passport_license_info_collapse">Kollaps</string>
+    <string name="passport_first_login_prompt">Mi-konto opprettes automatisk når du logger på for første gang.</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud,Kontoinnstilling,Mi Pay Info,Logg av</string>
@@ -353,6 +354,8 @@ For å aktivere kontoen må du følge
     <string name="activity_not_found_notice">Finner ikke appen</string>
     <string name="scan_barcode_title">For å logge på Mi-kontoen din, skann QR-koden</string>
     <string name="talkback_scan_barcode">Skann QR-kode</string>
+    <string name="scan_barcode">Skann QR-kode for å logge inn</string>
+    <string name="agreement_and_privacy">Personvernerklæring og brukeravtale</string>
     <string name="authorize_title">Autorisasjon</string>
     <string name="my_device_title">Nåværende enhet</string>
     <string name="device_list_title">Mine enheter</string>
@@ -419,9 +422,8 @@ For å aktivere kontoen må du følge
     <string name="push_notify_dialog_title">Kontobekreftelse</string>
     <string name="push_notify_dialog_message">En ukjent enhet brukes til å logge på Mi-kontoen din. Skriv inn denne bekreftelseskoden på enheten. Hvis det ikke var deg, endre Mi-kontopassordet ditt med en gang. Ikke oppgi bekreftelseskoden til andre personer.</string>
     <string name="account_secure_info_pref_title">Kontoinformasjon</string>
-    <string name="account_user_email">E-post</string>
-    <string name="account_user_phone">Telefon</string>
-    <string name="account_user_recovery_phone">Gjenopprettings-telefonnummer</string>
+    <string name="account_user_email">Gjenopprettings-e-post</string>
+    <string name="account_user_phone">Gjenopprettings-telefonnummer</string>
     <string name="input_new_pwd">Tast inn nytt passord</string>
     <string name="confirm_new_pwd">Bekreft nytt passord</string>
     <string name="inconsistent_pwd">Passordene stemmer ikke overens</string>

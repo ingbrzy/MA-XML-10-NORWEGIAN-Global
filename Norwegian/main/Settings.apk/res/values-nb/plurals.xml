@@ -336,6 +336,74 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="other">%d elementer</item>
         <item quantity="one">1 element</item>
     </plurals>
+    <plurals name="usage_state_device_explain_today">
+        <item quantity="other">Låst opp %d ganger</item>
+        <item quantity="one">Låst opp %d gang</item>
+    </plurals>
+    <plurals name="usage_state_device_explain_week">
+        <item quantity="other">Låst opp %d ganger</item>
+        <item quantity="one">Låst opp %d gang</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_today">
+        <item quantity="other">Mottatt %d varsler</item>
+        <item quantity="one">Mottatt %d varsel</item>
+    </plurals>
+    <plurals name="usage_state_device_noti_explain_week">
+        <item quantity="other">Mottatt %d varsler</item>
+        <item quantity="one">Mottatt %d varsel</item>
+    </plurals>
+    <plurals name="usage_state_hour">
+        <item quantity="other">%d t</item>
+        <item quantity="one">%d t</item>
+    </plurals>
+    <plurals name="usage_state_hour24">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="usage_state_hour_text">
+        <item quantity="other">" t"</item>
+        <item quantity="one">" t"</item>
+    </plurals>
+    <plurals name="usage_state_minute">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="usage_state_miunte_text">
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
+    <plurals name="usage_state_noti_count">
+        <item quantity="other">%d varsler</item>
+        <item quantity="one">%d varsel</item>
+    </plurals>
+    <plurals name="usage_state_unlock_count">
+        <item quantity="other">%d ganger</item>
+        <item quantity="one">%d gang</item>
+    </plurals>
+    <plurals name="usage_state_week_day_hour">
+        <item quantity="other">Helger: %d timer</item>
+        <item quantity="one">Helger: %d time</item>
+    </plurals>
+    <plurals name="usage_state_week_day_minute">
+        <item quantity="other">Helger: %d minutter</item>
+        <item quantity="one">Helger: %d minutt</item>
+    </plurals>
+    <plurals name="usage_state_work_day_hour">
+        <item quantity="other">Ukedager: %d timer</item>
+        <item quantity="one">Ukedager: %d time</item>
+    </plurals>
+    <plurals name="usage_state_work_day_minute">
+        <item quantity="other">Ukedager: %d minutter</item>
+        <item quantity="one">Ukedager: %d minutt</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_hour">
+        <item quantity="other">" t"</item>
+        <item quantity="one">" t"</item>
+    </plurals>
+    <plurals name="usagestats_device_notification_des_min">
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
+    </plurals>
     <plurals name="virus_scan_app_find_risk">
         <item quantity="other">%d risikoer funnet</item>
         <item quantity="one">%d risiko funnet</item>

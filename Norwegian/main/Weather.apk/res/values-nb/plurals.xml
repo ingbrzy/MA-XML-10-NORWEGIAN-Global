@@ -20,6 +20,14 @@
         <item quantity="other">%1$s-dagers værvarsel</item>
         <item quantity="one">%1$s-dag værvarsel</item>
     </plurals>
+    <plurals name="feedback_result_interval_time_too_short_minute">
+        <item quantity="other">Du kan sende inn tilbakemelding på nytt om %1$s minutter</item>
+        <item quantity="one">Du kan sende inn tilbakemelding på nytt om %1$s minutt</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short_second">
+        <item quantity="other">Du kan sende inn tilbakemelding på nytt om %1$s sekunder</item>
+        <item quantity="one">Du kan sende inn tilbakemelding på nytt om %1$s sekund</item>
+    </plurals>
     <plurals name="no_vote_num">
         <item quantity="other">%1$s personer | </item>
         <item quantity="one">%1$s person | </item>
@@ -35,9 +43,5 @@
     <plurals name="yes_vote_num">
         <item quantity="other"> | %1$s personer</item>
         <item quantity="one"> | %1$s person</item>
-    </plurals>
-    <plurals name="feedback_result_interval_time_too_short">
-        <item quantity="other">%1$s sekunder etter tilbakemeldingen</item>
-        <item quantity="one">%1$s sekund etter tilbakemeldingen</item>
     </plurals>
 </resources>

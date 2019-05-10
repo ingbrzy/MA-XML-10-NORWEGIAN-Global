@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
 Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet ditt.</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke starte nedlastingen. Sørg for at Nedlastingsadministratoren fungerer som normalt.</string>
     <string name="app_name">Sikkerhetskopi</string>
     <string name="local_app_name">Sikkerhetskopi</string>
@@ -73,6 +76,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="sms_title">Melding</string>
     <string name="mms_title">Multimediamelding</string>
     <string name="wifi_title">Wi-Fi-innstillinger</string>
+    <string name="phone_title">Telefoninnstillinger</string>
     <string name="note_title">Notater</string>
     <string name="compute_backup_info">Henter sikkerhetskopieringsinformasjon…</string>
     <string name="compute_delete_contact_info">Henter informasjon…</string>
@@ -225,6 +229,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="restore_backup">Gjenopprett</string>
     <string name="enable_encrypt_description">Krypter</string>
     <string name="disable_encrypt_description">Ikke krypter</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Et øyeblikk…</string>
     <string name="state_mounting">Får tilgang til ruterlagring…</string>
     <string name="abort_backup_confirm">Sikkerhetskopieringen er ikke ferdig. Stoppe allikevel?</string>
@@ -254,6 +259,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="err_pkg_not_exist">Kunne ikke finne appen.</string>
     <string name="err_user_abort">Avbrutt av brukeren.</string>
     <string name="err_binder_died">Appen stoppet uventet.</string>
+    <string name="err_no_gms">Inkompatibel appversjon. Installer denne appen separat</string>
     <string name="backup_is_running">Sikkerhetskopierer enhet</string>
     <string name="restore_is_running">Gjenoppretter enhet</string>
     <string name="notif_backup_title">Sikkerhetskopier data</string>
@@ -307,6 +313,7 @@ Hold enhetene i nærheten av hverandre."</string>
     <string name="trans_detail_qq_data">QQ-data (inkludert chathistorikk)</string>
     <string name="trans_detail_app_data_useless_tip">Du kan gjenopprette disse fra appen. Det er ikke nødvendig å overføre.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Det ser ut som elementet er for stort til å overføres.</string>
+    <string name="trans_detail_item_app_data_skip_data">Kan ikke overføre appdata</string>
     <string name="trans_detail_item_app_data_selected_tip">Velg også tilsvarende apper.</string>
     <string name="trans_detail_list_footer">"1. Du kan velge individuelle apper du vil overføre.
 2. Hvis du velger appdata, vil korresponderende apper også bli valgte.
@@ -562,6 +569,7 @@ https://appleid.apple.com/#!&amp;page=signin å lukke"</string>
 bør du først opprette en sikkerhetskopi av iCloud."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">Grunnet kompatibilitetsproblemer, kan du kun overføre delvise data fra iOS-enheter. Sørg for at du lager en sikkerhetskopiering av iCloud før du overfører.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Velg elementer å importere</string>
     <string name="select_item_summary_wait">Venter…</string>

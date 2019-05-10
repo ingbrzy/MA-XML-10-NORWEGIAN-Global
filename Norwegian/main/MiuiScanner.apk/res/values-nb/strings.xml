@@ -39,6 +39,7 @@
     <string name="business_card">Visittkort</string>
     <string name="business_card_result_title">Visittkort</string>
     <string name="business_card_title">Sett visittkortet inn i rammen</string>
+    <string name="business_card_with_qr_code">Plasser visittkortet eller QR-koden innenfor rammen</string>
     <string name="business_copy">Kopier</string>
     <string name="business_new_contacts">Opprett kontakt</string>
     <string name="business_no_result">Kjente ikke igjen visittkortet. Prøv igjen.</string>

@@ -102,6 +102,7 @@
     <string name="card_title_change">Mer</string>
     <string name="cards_language_hint">Noen kort er kanskje ikke tilgjengelige for det valgte språket.</string>
     <string name="change_response_title">Endre respons</string>
+    <string name="change_zodiac">Endre stjernetegn</string>
     <string name="click_to_share">Trykk for å dele</string>
     <string name="close_alarm">Slå av</string>
     <string name="contacts_permission_desc">Tilgang til kontaktinfo</string>
@@ -134,6 +135,7 @@
     <string name="date_interval_text_to">Til %1$s</string>
     <string name="date_jump_hint">Hopp direkte til en spesifikk dag</string>
     <string name="date_jump_title">Hopp til dato</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (i dag)"</string>
     <string name="day_view_new_event_hint">Ny hendelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
@@ -202,6 +204,7 @@
     <string name="event_view">Se hendelse</string>
     <string name="every_weekday">Ukedager (Man–Fre)</string>
     <string name="fb_birthday_failure">Kunne ikke importere bursdager fra Facebook. Prøv igjen.</string>
+    <string name="fb_birthday_region_warning">Denne funksjonen er ikke tilgjengelig i ditt område</string>
     <string name="fb_birthday_success">Bursdager importert fra Facebook</string>
     <string name="fb_calendar_account_name">Mi Lokal kalender</string>
     <string name="fb_calendar_display_name">Facebook-venners bursdager</string>
@@ -290,6 +293,7 @@
     <string name="month_view">Måned</string>
     <string name="monthly">Månedlig</string>
     <string name="monthly_on_day">Månedlig (samme dato)</string>
+    <string name="monthly_on_day_count">Månedlig (%1$s)</string>
     <string name="network_not_available">Kan ikke koble til nettverket</string>
     <string name="new_event_description">Ny</string>
     <string name="news">Nyheter</string>

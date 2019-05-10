@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="input_password_after_timeout_msg">
         <item quantity="other">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
-        <item quantity="one">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
+        <item quantity="one">Skriv inn passordet ditt minst én gang hver %d time for å alltid huske det</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
         <item quantity="other">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>

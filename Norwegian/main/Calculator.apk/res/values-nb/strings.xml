@@ -3,7 +3,12 @@
     <string name="allow">Enig</string>
     <string name="app_name">Kalkulator</string>
     <string name="app_name_danfa">Mi Kalkulator</string>
+    <string name="app_notification_info">Kalkulator kjører i bakgrunnen</string>
     <string name="base_rate">Basisrente</string>
+    <string name="btn_float_window_alpha">Justere opasitet</string>
+    <string name="btn_float_window_back_to_app">Maksimere kalkulator</string>
+    <string name="btn_float_window_close">Lukk minimert kalkulator</string>
+    <string name="btn_float_window_resize">Endre størrelse på minimert kalkulator</string>
     <string name="cal_convert_to_word_figure">Konverter til finansielle tegn</string>
     <string name="cal_copy">Kopier</string>
     <string name="cal_edit_mode">Redigering</string>
@@ -71,6 +76,7 @@
     <string name="extra_deduction_tips">Trykk på knappen i øvre hjørne av skjermen for å se fradragsdetaljer.</string>
     <string name="extra_deduction_title">Ytterligere fradrag</string>
     <string name="factorialDesc">fakultet</string>
+    <string name="float_window_guide_text">Trykk her for å minimere kalkulator</string>
     <string name="fund" />
     <string name="fund_loan">Fondslån</string>
     <string name="further_education">Videreutdanning</string>
@@ -91,6 +97,7 @@
     <string name="golbal_search_calculator_setting">Kalkulator;Kalkulatorinnstillinger;Innstillinger</string>
     <string name="golbal_search_path_calculator_setting">Systemapper/Kalkulator/Innstillinger</string>
     <string name="help_content_desc">Hjelp</string>
+    <string name="hint_floatwindow_alpha_guide_text">Trykk for å justere opasitet</string>
     <string name="home_loan">Boliglånsrente</string>
     <string name="home_title_calculator">Kalkulator</string>
     <string name="house_rent">Leie</string>
@@ -569,6 +576,7 @@
     <string name="unit_yuan">CNY</string>
     <string name="updating">Oppdaterer kalkulator…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="view_float_window_move">Flytte minimert kalkulator</string>
     <string name="voiceDesc">Stemmekontroller</string>
     <string name="wf_word_figure">Finansielle tegn</string>
     <string name="word_figure_big_unit_fen">分</string>
@@ -592,20 +600,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
 Delta-størrelse på oppdatering: %2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s oppdatering!</string>
     <string name="year" />
-    <string name="app_notification_info">Kalkulator kjører i bakgrunnen</string>
-    <string name="btn_float_window_alpha">Justere opasitet</string>
-    <string name="btn_float_window_back_to_app">Maksimere kalkulator</string>
-    <string name="btn_float_window_close">Lukk minimert kalkulator</string>
-    <string name="btn_float_window_resize">Endre størrelse på minimert kalkulator</string>
-    <string name="float_window_guide_text">Trykk her for å minimere kalkulator</string>
-    <string name="hint_floatwindow_alpha_guide_text">Trykk for å justere opasitet</string>
-    <string name="view_float_window_move">Flytte minimert kalkulator</string>
 </resources>
