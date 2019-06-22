@@ -2,6 +2,7 @@
 <resources>
     <string name="action_add_to_workspace">Legg til i arbeidsplass</string>
     <string name="activity_not_found">Appen er ikke installert på din enhet</string>
+    <string name="activity_not_unlocked">Vent til din enhet er fullstendig omstartet før du åpner applikasjoner</string>
     <string name="add_screen">Legg til skjerm</string>
     <string name="announce_for_app_move_in_folder">Flyttet til posisjon %1$d i mappen</string>
     <string name="announce_for_checked">%1$s, merket av</string>
@@ -30,9 +31,11 @@
     <string name="announce_for_open_default_preview">Åpnet standardinnstillinger for startskjermen</string>
     <string name="announce_for_open_folder">Åpnet mappen %1$s</string>
     <string name="announce_for_open_launcher_menu">Åpnet menyen</string>
+    <string name="announce_for_search_bar">Søkefelt</string>
     <string name="announce_for_show_uninstall_dialog">Avinstalleringsdialogen dukket opp. Avbryt eller bekreft.</string>
     <string name="announce_for_unchecked">%1$s, ikke merket av</string>
     <string name="announce_for_widget_span">Bredde %1$d, høyde %2$d</string>
+    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">App eksisterer allerede</string>
     <string name="app_being_backup_message">App sikkerhetskopieres</string>
     <string name="app_being_restored_message">App gjenopprettes</string>
@@ -92,6 +95,7 @@
     <string name="defalut_launcher_title">Standard startprogram</string>
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Spill</string>
+    <string name="default_folder_title_meitu">Meitu-apper</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Flere apper</string>
     <string name="default_folder_title_security">System</string>
@@ -188,7 +192,7 @@
     <string name="group_shortcuts">Snarveier</string>
     <string name="guide_install_app_msg">Denne appen er ikke installert på enheten. Finne og installere appen nå?</string>
     <string name="guide_install_app_title">Finn og installer app?</string>
-    <string name="guide_tips_editing_mode">Press &amp; hold to pick up a widget</string>
+    <string name="guide_tips_editing_mode">Trykk &amp; hold for å plukke opp en widget</string>
     <string name="home_gesture_content_center">Innholdssenter</string>
     <string name="home_gesture_global_search">Søk</string>
     <string name="home_gesture_no_action">Ingen</string>
@@ -240,7 +244,7 @@
     <string name="menu_trans_effect">Overgangseffekter</string>
     <string name="menu_wallpaper">Bakgrunn</string>
     <string name="menu_workspace_preview">Forhåndsvisning av Startskjerm</string>
-    <string name="mi_wallpaper">MIUI Themes</string>
+    <string name="mi_wallpaper">MIUI-temaer</string>
     <string name="minus_one_screen">Apphvelv</string>
     <string name="miui_screen_config_title">Innstillinger for startskjerm</string>
     <string name="mtzgadget_missing_text">Widget var ikke tilgjengelig</string>
@@ -277,7 +281,7 @@
     <string name="pref_enable_drawing_cache_title">Tegnebuffer</string>
     <string name="pref_icon_shadow_summary">Vis appskygger og refleksjonseffekter for favoritter.</string>
     <string name="pref_icon_shadow_title">App-skygger</string>
-    <string name="pref_keep_in_memory_summary">Keep launcher running when memory is low.</string>
+    <string name="pref_keep_in_memory_summary">Behold launcher kjørende når minnet er lavt.</string>
     <string name="pref_keep_in_memory_title">Lås MIUI i minnet</string>
     <string name="pref_keep_layout_summary">Endring av startskjermens oppsett vil ikke påvirke appers posisjon i henhold til hverandre.</string>
     <string name="pref_keep_layout_title">Lås app-posisjon</string>
@@ -288,6 +292,8 @@
     <string name="preferences_general_title">Tilleggsinnstillinger</string>
     <string name="preferences_title">Launcher innstillinger</string>
     <string name="preferred_app_settings_not_selected">Ikke valgt</string>
+    <string name="privacy_thumbnail_blur_summary">Blur app-forhåndsvisninger i «Nylige»</string>
+    <string name="privacy_thumbnail_blur_title">Blur app-forhåndsvisninger</string>
     <string name="quick_app">Hurtigapper</string>
     <string name="recents_config_title">Nylige</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
@@ -315,6 +321,9 @@
     <string name="setting_wallpaper_tip">Klyp eller sveip for å justere</string>
     <string name="settings">Innstillinger</string>
     <string name="settings_shortcut">Innstillinger</string>
+    <string name="shake_to_align_icons">Rist enheten for å fylle tomme celler med ikoner</string>
+    <string name="shake_to_align_icons_summary">Rist enheten din mens du er i redigeringsmodus for å fylle tomme celler med ikoner automatisk</string>
+    <string name="shake_to_align_icons_title">Rist for å fylle tomme celler</string>
     <string name="share">Del</string>
     <string name="show_all">Vis alt</string>
     <string name="show_mem_info_title">Vis minnestatus</string>
@@ -324,11 +333,13 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_downloaded">Nedlastet</string>
     <string name="status_downloading">Laster ned</string>
     <string name="status_installing">Installering</string>
     <string name="status_paused">Satt på vent</string>
     <string name="status_pending">Venter</string>
+    <string name="system_shortcuts_more_operation">App-info</string>
     <string name="title_jeejen">Pantalla inicial Jeejen</string>
     <string name="title_select_live_folder">Velg mappe</string>
     <string name="title_select_shortcut">Velg snarvei</string>
@@ -367,9 +378,4 @@
     <string name="widget_global_search">Søk</string>
     <string name="widget_quick_function">Hurtigfunksjoner</string>
     <string name="widgets_preview_title">Legg til widget</string>
-    <string name="activity_not_unlocked">Vent til din enhet er fullstendig omstartet før du åpner applikasjoner</string>
-    <string name="default_folder_title_meitu">Meitu</string>
-    <string name="privacy_thumbnail_blur_summary">Blur app-forhåndsvisninger i «Nylige»</string>
-    <string name="privacy_thumbnail_blur_title">Blur app-forhåndsvisninger</string>
-    <string name="system_shortcuts_more_operation">App-info</string>
 </resources>

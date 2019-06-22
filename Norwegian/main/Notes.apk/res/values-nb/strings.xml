@@ -127,6 +127,7 @@
     <string name="note_sort_way">Velg hvordan du ønsker å sortere notatene dine</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notatpåminnelse</string>
     <string name="permdesc_accessNote">Ondsinnede apper kan bruke dette for å få tilgang til dine personlige data.</string>
     <string name="permission_intro_contact">Til å markere notater tatt under samtaler</string>
@@ -134,13 +135,13 @@
     <string name="permission_intro_phone">Til å markere notater tatt under samtaler</string>
     <string name="permission_intro_storage">Til å lagre notater og vedlegg</string>
     <string name="permlab_accessNote">Få tilgang til notater</string>
-    <string name="pref_desc_skip_confirm_for_quick_delete">Kke be om bekreftelse når du sletter et notat ved hjelp av bevegelse</string>
+    <string name="pref_desc_skip_confirm_for_quick_delete">Sveip opp med to fingre for å slette notater uten bekreftelse</string>
     <string name="pref_title_cloud_trash_bin">Slettet notater i Mi Cloud</string>
     <string name="pref_title_common">Ekstra innstillinger</string>
     <string name="pref_title_font_size">Fontstørrelse</string>
     <string name="pref_title_note_style">Stil</string>
     <string name="pref_title_show_root_folder_in_homepage">Vis kun hurtignotater på startsiden</string>
-    <string name="pref_title_skip_confirm_for_quick_delete">Hurtigsletting</string>
+    <string name="pref_title_skip_confirm_for_quick_delete">Slett ved hjelp av bevegelse</string>
     <string name="recover_notes_hint">Det oppsto en feil, gå til i.mi.com for å gjenopprette notater.</string>
     <string name="redo">Gjenta</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Vent til notatet er lastet og prøv igjen.</string>
@@ -208,6 +209,7 @@
     <string name="toast_notes_hidden_edit">Dette notatet ble skjult. Trekk ned for å se skjulte notater.</string>
     <string name="toast_notes_hidden_home">Dette notatet ble skjult. Trekk ned for å se skjulte notater.</string>
     <string name="toast_notes_unhidden">Visning var vellykket</string>
+    <string name="toast_pic_is_not_really">Lagrer bilde…</string>
     <string name="toast_reach_text_limit_attachment">Kan ikke legge til nye vedlegg fordi notatet er for langt</string>
     <string name="toast_reach_text_limit_checkbox">Kan ikke legge til avkryssingsboks siden notatet er for langt</string>
     <string name="toast_reach_text_limit_truncate">Dette notatet er for lang. Noe tekst er kuttet bakfra.</string>

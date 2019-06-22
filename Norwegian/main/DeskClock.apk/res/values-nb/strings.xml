@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søk</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Legg til alarm</string>
     <string name="add_clock">Legg til klokke</string>
     <string name="add_timezone_title">Legg til tidssone</string>
@@ -108,7 +109,9 @@
     <string name="hour_unit">Time +</string>
     <string name="install_weather_app_error">Kunne ikke laste inn app</string>
     <string name="install_weather_app_loading">Et øyeblikk…</string>
-    <string name="invalid_time">Ugyldig tid: %3$s %1$d: %2$d</string>
+    <string name="invalid_time">"Ugyldig tid:
+%3$s %1$d:
+%2$d "</string>
     <string name="invalid_timer_length">Tidtakerens varighet er ugyldig</string>
     <string name="keep_screen_on">Hold skjermen på</string>
     <string name="korea_permission_calendar">Kalender</string>
@@ -195,11 +198,15 @@
     <string name="setting_alarm_arriving_summary">Send et varsel før alarmen går av</string>
     <string name="setting_alarm_arriving_title">Varsel før alarmen går av</string>
     <string name="settings">Innstillinger</string>
+    <string name="shortcut_new_alarm">Set alarm</string>
+    <string name="shortcut_start_timer">Start timer</string>
+    <string name="shortcut_stop_watch">Start stopwatch</string>
     <string name="shut_down_keep_screen">Skjermen vil ikke holdes på</string>
     <string name="shutdown_alarm_disable_summary">Alarmen vil ikke gå av etter at enheten er skrudd av</string>
     <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 5 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
@@ -218,6 +225,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">℃</string>
@@ -271,6 +279,7 @@
     <string name="turn_off_this_repeat_alarm">Skru av denne repeterende alarmen</string>
     <string name="upcoming_alarm">%s Kommende alarm</string>
     <string name="upcoming_alarm_hint">Denne alarmen kan velges på forhånd</string>
+    <string name="update_notification_info">Oppdaterer data i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
     <string name="vibrate_pref_summary">Vibrer når alarmen går</string>
     <string name="vibrate_when_ringing">Vibrer ved ringing</string>

@@ -52,6 +52,10 @@
         <item quantity="other">%d App vault-oppføringer</item>
         <item quantity="one">%d App vault-oppføring</item>
     </plurals>
+    <plurals name="dirty_phrase_count">
+        <item quantity="other">%d ofte brukte setninger</item>
+        <item quantity="one">%d ofte brukt setning</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>
         <item quantity="one">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>

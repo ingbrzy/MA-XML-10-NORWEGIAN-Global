@@ -42,6 +42,14 @@
     <string name="common_google_play_services_update_text">%1$s kjører ikke med mindre du oppdaterer Google Play Tjenester.</string>
     <string name="common_google_play_services_update_title">Oppdater Google Play-tjenester</string>
     <string name="common_google_play_services_updating_text">%1$s kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå.</string>
+    <string name="early_warning_android_system">Android-system</string>
+    <string name="early_warning_feedback_action">Tilbakemelding</string>
+    <string name="early_warning_feedback_body">Gi tilbakemeldingen din her</string>
+    <string name="early_warning_feedback_chooser_text">Velg en e-post-app</string>
+    <string name="early_warning_feedback_subject">Tilbakemelding om Early warning-varsel</string>
+    <string name="early_warning_notification_channel_name">Batteriadvarsler</string>
+    <string name="early_warning_notification_text">Dette er tidligere enn du vanligvis lader</string>
+    <string name="early_warning_notification_title">Batteriet kan gå tomt klokken %1$s</string>
     <string name="icon_content_description">Dialogboksikon</string>
     <string name="password_toggle_content_description">Vis passordet</string>
     <string name="ssb_clear_data_activity_name">Nullstill tilpasset lysstyrke?</string>

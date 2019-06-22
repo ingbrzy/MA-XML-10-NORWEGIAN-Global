@@ -48,6 +48,10 @@ total %2$d sang"</item>
         <item quantity="other">%d kommentarer</item>
         <item quantity="one">%d kommentar</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d dager siden</item>
+        <item quantity="one">%d dag siden</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Slett %d elementer?</item>
         <item quantity="one">Slett %d element?</item>

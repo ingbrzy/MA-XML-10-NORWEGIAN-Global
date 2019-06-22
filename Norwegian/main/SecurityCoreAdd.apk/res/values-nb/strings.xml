@@ -419,7 +419,7 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="ent_licence_code">Lisenskode</string>
     <string name="ent_licence_code_hint">Skriv inn lisenskode</string>
     <string name="ent_next_step">Neste</string>
-    <string name="ent_get_code_hint">Du kan få bedrifts- og lisenskode fra lederen din</string>
+    <string name="ent_get_code_hint">Du kan få bedrifts- og lisenskoder fra lederen din</string>
     <string name="ent_agree_privacy_policy">Jeg har lest og godtatt personvernerklæringen</string>
     <string name="ent_activation">Aktiver</string>
     <string name="ent_activating">Aktiverer…</string>
@@ -429,7 +429,7 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="ent_invalid_agency">Bedriftskoden er ugyldig.</string>
     <string name="ent_privacy_policy_notice">* Personlige data i denne modusen blir samlet inn i henhold til policyene som er etablert av selskapet ditt. Xiaomi samler ikke inn personlige data i denne modusen.</string>
     <string name="ent_confirm_dialog_content">Du vil ikke kunne gå tilbake til nåværende systemtilstand etter at du har aktivert Organisasjonsmodus. Alle dataene dine vil imidlertid fortsatt være lagret på enheten. Du må starte enheten på nytt for å aktivere Organisasjonsmodus. Aktivere nå?</string>
-    <string name="ent_error_dialog_content">Minst én av kodene du skrev inn var feil. Sjekk bedrifts- og lisenskoden, og skriv dem inn på ny.</string>
+    <string name="ent_error_dialog_content">Minst én av kodene du skrev inn var feil. Sjekk bedrifts- og lisenskodene dine, og skriv dem inn på nytt.</string>
     <string name="ent_download_install_dialog_content">Du må installere firmaapper for å aktivere Organisasjonsmodus. Installer nå?</string>
     <string name="ent_download_install_dialog_title">Last ned firmaapper</string>
     <string name="ent_downloading_message">Laster ned %d%%</string>

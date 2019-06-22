@@ -128,9 +128,14 @@
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">Kan ikke bruke SIM %2$d, mens SIM %1$d er i bruk.</string>
     <string name="select_one_sim_title">Kan bare bruke SIM %1$d</string>
+    <string name="select_sim_hint_for_heduohao">"Can't use other, while SIM %1$d Sub %2$d is in use."</string>
+    <string name="select_one_sim_title_for_heduohao">Can only use SIM %1$d Sub %2$d</string>
     <string name="can_not_use">Kan ikke bruke</string>
     <string name="sim1_description">SIM1</string>
     <string name="sim2_description">SIM2</string>
+    <string name="sim1_heduohao_card">Sub1</string>
+    <string name="sim2_heduohao_card">Sub2</string>
+    <string name="sim3_heduohao_card">Sub3</string>
     <string name="call_description_recording">Tar opp…</string>
     <string name="call_recording_error_privacy">Kan ikke spille inn mens du er i gjestemodus</string>
     <string name="call_recording_error_sd_access">Får ikke tilgang til SD-kort</string>

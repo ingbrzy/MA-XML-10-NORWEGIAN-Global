@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="April">April</string>
+    <string name="August">August</string>
+    <string name="December">Desember</string>
+    <string name="February">Februar</string>
+    <string name="January">Januar</string>
+    <string name="July">Juli</string>
+    <string name="June">Juni</string>
+    <string name="March">Mars</string>
+    <string name="May">Mai</string>
+    <string name="November">November</string>
+    <string name="October">Oktober</string>
+    <string name="September">September</string>
+    <string name="Updated_at">"Oppdatert: "</string>
     <string name="abc_action_bar_home_description">Gå til startsiden</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
@@ -88,6 +101,7 @@
     <string name="available_playlist_name_format">Ny spilleliste %d</string>
     <string name="avoid_to_use_traffic_summary">Ikke bruk mobilnettverk til å strømme musikk</string>
     <string name="avoid_to_use_traffic_title">Varsle når mobildata brukes til å spille sanger</string>
+    <string name="back">Tilbake</string>
     <string name="back_confirm">Trykk igjen for å presse appen til bakgrunnen</string>
     <string name="bluetooth_device">Bluetooth lydenhet</string>
     <string name="buffering">Bufrer…</string>
@@ -222,6 +236,7 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
@@ -301,7 +316,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -359,6 +376,9 @@
     <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_batch_download_alert_summary">Bare PRO-medlemmer kan laste ned flere sanger. Få et PRO-medlemskap nå?</string>
     <string name="hungama_free_download_out_summary">Du kan ikke laste ned flere gratis sanger. Få et PRO-medlemskap for å kunne laste ned ubegrenset med sanger?</string>
+    <string name="hungama_privacy_desc">Personvernerklæring for Hungama (valgfritt)</string>
+    <string name="hungama_privacy_tips_content">For å få tilgang til online innhold, må du godta <a href="/link/click">Hungama Personvernerklæring</a>.</string>
+    <string name="hungama_privacy_tips_title">Hungama Personvernerklæring</string>
     <string name="hungama_subscribe_message">Kjøp PRO medlemskap for å laste ned musikk i høy kvalitet.</string>
     <string name="hungama_subscribe_positive_button">Kjøp PRO medlemskap</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
@@ -498,14 +518,29 @@
     <string name="nowplaying_dialog_title_delete_tracks">Fjerne denne sangen fra køen?</string>
     <string name="nowplaying_menu_item_delete">Fjern fra kø</string>
     <string name="ok">OK</string>
+    <string name="online_apk_acquired">Lastet %d%%</string>
+    <string name="online_apk_acquiring">Laster… %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Kunne ikke laste ned grunnet manglende lagringsplass.</string>
     <string name="online_apk_downloading">Laster ned…%d%%</string>
     <string name="online_apk_install_alert_confirm">Last ned</string>
+    <string name="online_apk_install_alert_continue">Gjenoppta</string>
+    <string name="online_apk_install_alert_failed_text">Kunne ikke laste ned. Prøv igjen.</string>
     <string name="online_apk_install_alert_message">Du må laste ned Yandex.Music plug-in. Laste ned nå?</string>
+    <string name="online_apk_install_alert_mobile_net_text">Du bruker mobildata nå. Bruk av mobildata for å laste ned elementer kan generere ekstra kostnader.</string>
     <string name="online_apk_install_alert_note">Denne tjenesten er levert av Yandex.Music</string>
+    <string name="online_apk_install_alert_note_new">Online innhold er levert av %s</string>
+    <string name="online_apk_install_alert_pause">Pause</string>
+    <string name="online_apk_install_alert_retry">Prøv igjen</string>
+    <string name="online_apk_install_alert_start">Start</string>
+    <string name="online_apk_install_completed">Lasting av online innhold var vellykket. Trykk %s for å vise.</string>
     <string name="online_apk_install_error_no_enough_space">Kunne ikke installere grunnet manglende lagringsplass.</string>
     <string name="online_apk_install_error_with_reason">Kunne ikke installere (Feil %d)</string>
+    <string name="online_apk_install_failed_with_reason" formatted="false">Kunne ikke laste online innhold. Trykk %s for å prøve igjen. Feilmelding: %d.</string>
+    <string name="online_apk_install_in_background">Laster online innhold i bakgrunnen…</string>
+    <string name="online_apk_install_network_change_paused">Du bruker mobildata. Lasting av elementer er pauset inntil videre. Trykk på %s for å vise.</string>
+    <string name="online_apk_install_network_error">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="online_list_delete_message">Alle nedlastede sanger i spillelisten vil bli slettet fra internminnet.</string>
+    <string name="online_playlist_category">Spillelister</string>
     <string name="online_recommend">Spilleliste</string>
     <string name="online_service_open_tip">Musikktjenester på nett er på</string>
     <string name="online_service_title">Internett-tjenester</string>
@@ -560,6 +595,7 @@
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
@@ -594,6 +630,8 @@
     <string name="save_changes">Lagre endringer</string>
     <string name="search_album_and_lyric">Søk albumcovere og -tekster</string>
     <string name="search_empty">Fant ingen resultater</string>
+    <string name="search_empty_subtitle_online_music">Trykk på knappen nedenfor for å åpne %s.</string>
+    <string name="search_empty_title_online_music">Ingen elementer her ennå.</string>
     <string name="search_for_album">Album</string>
     <string name="search_for_artist">Artist</string>
     <string name="search_hint">Søk etter artister, sanger, album og anbefalinger</string>
@@ -660,6 +698,7 @@
     <string name="start_to_check_new_version">Ser etter oppdateringer…</string>
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
@@ -712,6 +751,8 @@
     <string name="toast_not_pro">Denne funksjonen er bare tilgjengelig for PRO-medlemmer.</string>
     <string name="toast_uhd_songs_for_download">Nedlastingskvalitet satt til Høy</string>
     <string name="toast_uhd_songs_for_stream">Strømmekvalitet satt til Høy</string>
+    <string name="today">I dag</string>
+    <string name="top_chart_title">Lister</string>
     <string name="ultra_high_quality">Høyest</string>
     <string name="unknown_album_name">Ukjent album</string>
     <string name="unknown_artist_name">Ukjent artist</string>
@@ -722,6 +763,7 @@
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="version_info">Versjon</string>
     <string name="video_play_cellular">Din enhet er ikke koblet til Wi-Fi. Bruke mobildata?</string>
     <string name="video_replay_btn">Spill av igjen</string>

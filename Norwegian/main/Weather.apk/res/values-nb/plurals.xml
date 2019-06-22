@@ -36,6 +36,22 @@
         <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> personer har stemt"</item>
         <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> person har stemt"</item>
     </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">Høyeste temperatur: %1$s grader celsius</item>
+        <item quantity="one">Høyeste temperatur: %1$s grad celsius</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">Høyeste temperatur: %1$s grader fahrenheit</item>
+        <item quantity="one">Høyeste temperatur: %1$s grad fahrenheit</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">Laveste temperatur: %1$s grader celsius</item>
+        <item quantity="one">Laveste temperatur: %1$s grad celsius</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">Laveste temperatur: %1$s grader fahrenheit</item>
+        <item quantity="one">Laveste temperatur: %1$s grad fahrenheit</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>
         <item quantity="one">Klart</item>

@@ -370,6 +370,7 @@ Valg"</string>
     <string name="private_dns_mode_provider">Vertsnavn for privat DNS-leverandør</string>
     <string name="private_dns_mode_provider_failure">Kunne ikke koble til</string>
     <string name="private_dns_mode_provider_hostname_hint">Skriv inn vertsnavnet til DNS-leverandøren</string>
+    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="remaining_length_format">%1$s gjenstår</string>
     <string name="respond_via_sms_canned_response_1">Kan ikke snakke nå. Hva skjer?</string>
     <string name="respond_via_sms_canned_response_2">Jeg ringer deg snart tilbake.</string>

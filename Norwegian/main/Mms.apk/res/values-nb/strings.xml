@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_firewall_setting">Blokkeringsliste</string>
     <string name="activity_not_found">Ingen app ble funnet til å håndtere denne handlingen</string>
     <string name="activity_not_found_uri">Ingen app ble funnet til å håndtere denne handlingen</string>
@@ -99,16 +98,7 @@
     <string name="cm_privacy_dialog_tips">Smarte meldingstjenester tilbys av operatøren din. Messaging må koble til Internett og få tilgang til posisjonen din for å tilby disse tjenestene. Du må godta operatørens %1s før du begynner å bruke disse tjenestene. Godta?</string>
     <string name="cm_privacy_dialog_title">Vær oppmerksom</string>
     <string name="cmcc_privacy">China Mobile Carrier personvernavtale</string>
-    <string name="complain_input_number">Skriv inn telefonnummeret ditt</string>
-    <string name="complain_jump">Hopp over</string>
     <string name="complain_message_title">Rapporter</string>
-    <string name="complain_ok">OK</string>
-    <string name="complain_phone_number">Telefonnummer (påkrevd)</string>
-    <string name="complain_reason">Hvorfor rapporterer du denne meldingen?</string>
-    <string name="complain_success">Takk for tilbakemeldingen din. Det hjelper oss å gjøre Messaging bedre!</string>
-    <string name="complain_tips">"Innholdet i den nyeste meldingen du rapporterer vil lastes opp til serverne våre sammen med telefonnummeret du oppgir. Tjenesteneleverandørene våre vil gjennomgå den innrapporterte meldingen.
-"</string>
-    <string name="complain_upload">Klagen har blitt sendt inn</string>
     <string name="compressing">Bilde er for stort. Komprimerer…</string>
     <string name="confirm">OK</string>
     <string name="confirm_add_blacklist_dialog_dspt">Legge til dette nummeret i blokkeringslisten?</string>
@@ -231,6 +221,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_message_select_title">Videresend melding</string>
@@ -685,6 +676,7 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>
@@ -724,7 +716,7 @@
     <string name="sms_report_failed">Kunne ikke sende rapport</string>
     <string name="sms_report_success">Sending av rapport vellykket</string>
     <string name="snippet_audio">[Audio]</string>
-    <string name="snippet_picture">[Bilde]</string>
+    <string name="snippet_picture">Bilde</string>
     <string name="snippet_timed">[Timed]</string>
     <string name="sp_category_all">Alle tjenestemeldinger</string>
     <string name="sp_category_bank">Bankvarslingsmeldinger</string>
@@ -733,6 +725,7 @@
     <string name="sp_mark_as_read_menu_title">Marker som lest</string>
     <string name="sqlite_disk_full">Lagringsplass på enheten din er full.</string>
     <string name="sqlite_low_memory">Ikke nok lagringsplass</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_failed">Mislykket</string>
     <string name="status_label">"Status: "</string>
     <string name="status_pending">Avventer</string>

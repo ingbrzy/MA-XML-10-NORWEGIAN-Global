@@ -9,6 +9,9 @@
     <string name="button_queue_for_wifi">Vent</string>
     <string name="button_start_now">Last ned</string>
     <string name="call_record">Innspilte samtaler</string>
+    <string name="call_record_list_group_all">Alle</string>
+    <string name="call_record_list_group_connected">Tilkoblet</string>
+    <string name="call_record_list_group_unconnected">Ikke tilkoblet</string>
     <string name="clear_records">Slett synkroniserte opptak</string>
     <string name="cloud_record_open">Synkroniser opptak</string>
     <string name="cloud_record_tip">Sykroniser opptak med Mi Cloud.</string>
@@ -133,13 +136,14 @@
     <string name="preference_enable_earpiece_summary">Bruk mottakerhøyttaler til ekstern tilbakespilling</string>
     <string name="preference_enable_earpiece_title">Bruk mottaker til å spille lyd</string>
     <string name="preference_led_indicator">Lock screen-varsler</string>
-    <string name="preference_led_indicator_prompt">Vis statuslinje-snarvei og puls-varslingslys på Startskjermen under opptak.</string>
+    <string name="preference_led_indicator_prompt">Vis snarvei for statuslinje og puls-varslingslys under opptak</string>
     <string name="preference_online_orders">Ordre på nett</string>
     <string name="preference_recog_faqs">Transkribering på nett – OSS</string>
     <string name="preference_recog_terms">Tjenestevilkår</string>
     <string name="preference_record_scenes_dialog_title">Velg opptakstype</string>
     <string name="preference_scenes">Opptakstype</string>
     <string name="preference_silent_mode">Skru av ringelyd under opptak</string>
+    <string name="preference_status_bar_indicator_prompt">Vis snarvei for statuslinje under opptak</string>
     <string name="preference_tip_rename">Gi opptak navn manuelt</string>
     <string name="privacy_policy_title">Personvernerklæring</string>
     <string name="recognition_error_cancel">Avbrutt</string>
@@ -231,6 +235,9 @@
     <string name="service_instructions">Om iflyrec.com</string>
     <string name="share">Del</string>
     <string name="share_dialog_title">Del ved hjelp av</string>
+    <string name="shortcut_records">Opptak</string>
+    <string name="shortcut_start_record">Start opptak</string>
+    <string name="shortcut_stop_record">Stopp opptak</string>
     <string name="sound_recorder_settings">Innstillinger</string>
     <string name="speech_recognition_complete">Transkribert</string>
     <string name="speech_recognition_running_tip">"Behandler "</string>

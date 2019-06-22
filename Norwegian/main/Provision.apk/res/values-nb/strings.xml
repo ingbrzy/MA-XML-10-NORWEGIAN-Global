@@ -56,6 +56,7 @@ Du må samtykke i våre vilkår for bruk av tjenesten og personvernerklæringen 
     <string name="terms_of_use_label_systemhelper">, selvregistrert tjeneste</string>
     <string name="terms_of_use_lable_smart_cards">, smartkort</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
+    <string name="terms_of_use_label_updater">, Oppdater</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du må samtykke i vår Facemoji-personvernpolicy før du bruker denne funksjonen."</string>

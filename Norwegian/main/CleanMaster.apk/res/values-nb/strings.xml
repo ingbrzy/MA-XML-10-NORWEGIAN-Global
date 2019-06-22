@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerte apper: %d</string>
     <string name="toast_resolve_apk_error">Løs apk-feil</string>
@@ -185,8 +186,6 @@
     <string name="toast_backup_uninstall_success">Sikkerhetskopiering og avinstallering fullført</string>
     <string name="activity_title_cache_data">App-data</string>
     <string name="deepclean_cache_header_left">Datafiler: %d</string>
-    <string name="notification_title_of_garbage_cleanup">%s av søppelfiler</string>
-    <string name="notification_summary_of_garbage_cleanup">Trykk for å frigjøre plass</string>
     <string name="notification_summary_after_auto_cleanup">Rengjorde %s.</string>
     <string name="toast_uninstall_success">Avinstallering fullført</string>
     <string name="toast_app_no_residual_on_sdcard">Appen har ingen filer lagret på SD-kortet</string>
@@ -299,6 +298,7 @@
     <string name="downloading">Laster ned</string>
     <string name="installing">Installering</string>
     <string name="start_install">Installer nå</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>
     <string name="connecting">Kobler til…</string>
@@ -565,4 +565,10 @@
     <string name="one_tap_clean_M">%dMB</string>
     <string name="one_tap_clean_GB">%sGB</string>
     <string name="security_center_slogan">Sikkerhet. Alltid på vakt.</string>
+    <string name="notification_garbage_cleanup_title">Fjern søppelfiler</string>
+    <string name="notification_garbage_cleanup_summary">Mengden søppel har nådd %s</string>
+    <string name="notification_low_memory_cache_title">Tøm hurtigbuffer</string>
+    <string name="notification_low_memory_cache_summary">Mindre enn 1,5 GB lagringsplass tilgjengelig</string>
+    <string name="notification_low_memory_deepclean_title">Lite lagringsplass igjen</string>
+    <string name="notification_low_memory_deepclean_summary">Dyprensing kan frigjøre lagringsplass på enheten</string>
 </resources>

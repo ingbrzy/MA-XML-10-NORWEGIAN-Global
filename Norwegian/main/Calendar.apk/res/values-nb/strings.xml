@@ -64,6 +64,7 @@
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Utløpt</string>
     <string name="alert_title">Kalendervarsler</string>
+    <string name="all_events">Alle hendelser</string>
     <string name="anniversary_event_title">Jubileum: %1$s</string>
     <string name="anniversary_secondary_tag">Jubileum</string>
     <string name="app_label">Kalender</string>
@@ -135,6 +136,7 @@
     <string name="date_interval_text_to">Til %1$s</string>
     <string name="date_jump_hint">Hopp direkte til en spesifikk dag</string>
     <string name="date_jump_title">Hopp til dato</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (i dag)"</string>
     <string name="day_view_new_event_hint">Ny hendelse</string>
     <string name="default_reminder_mode">Påminnelser</string>
@@ -344,6 +346,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="preferences_default_reminder_title">Standard påminnelsestid</string>
     <string name="preferences_home_tz_title">Hjemmetidssone</string>
     <string name="preferences_notification_ringtone_title">Lyd</string>
+    <string name="preferences_show_indic_date_title">Vis Indic Calendar</string>
     <string name="preferences_title">Kalender</string>
     <string name="preferences_use_home_tz_descrip">Vis alltid kalendere og tidshendelser i din hjemmetidssone når du reiser</string>
     <string name="preferences_use_home_tz_title">Bruk hjemmetidssone</string>
@@ -403,10 +406,12 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="setting_others">Flere</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Vis høytidsdager</string>
+    <string name="setting_title_policy">Personvernerklæring</string>
     <string name="share_image">Del</string>
     <string name="share_image_label">Del via</string>
     <string name="share_title">Del</string>
     <string name="show_day_view">Vis dag</string>
+    <string name="show_indic_date_summary">Indic Calendar er tilgjengelig når ett av språkene i India er valgt som ditt systemspråk</string>
     <string name="start_date_calculate">Beregn</string>
     <string name="storage_permission_denied">Gi først tilgang til lagring</string>
     <string name="subscribe_card">Abonner nå</string>
