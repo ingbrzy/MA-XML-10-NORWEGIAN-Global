@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Varsler</string>
+    <string name="default_list_type">Sorter etter tidspunkt mottatt</string>
+    <string name="disable_float_notification">Flytende varsler er ikke tillatt</string>
+    <string name="disable_lockscreen_notification">Varsler på låseskjermen er ikke tillatt</string>
+    <string name="disable_show_badge_notification">Varselmerker er ikke tillatt</string>
+    <string name="enable_float_notification">Flytende varsler er tillatt</string>
+    <string name="enable_lockscreen_notification">Varsler på låseskjermen er tillatt</string>
+    <string name="enable_show_badge_notification">Varselmerker er tillatt</string>
+    <string name="expandable_under_keyguard">Åpne varslingskyggen på låseskjermen</string>
+    <string name="float_notifications">Flytende varsler</string>
+    <string name="hint_search_all">Søk etter apper</string>
+    <string name="hint_search_in_disabled_apps">Søk etter apper som ikke kan vise varsler</string>
+    <string name="hint_search_in_enabled_apps">Søk etter apper som kan vise varsler</string>
+    <string name="list_title_disable_notification">Varsler er ikke tillatt</string>
+    <string name="loading">Et øyeblikk…</string>
+    <string name="lock_screen_display_rules">Format</string>
+    <string name="lock_screen_tip_toast">Tillatt varsler i «Appvarsler» først</string>
+    <string name="lockscreen_notifications">Låseskjermvarsler</string>
+    <string name="not_sent_recently">Ikke nylig</string>
+    <string name="notification_display_setting">Varslingsskygge</string>
+    <string name="notification_display_style">Varselsstil</string>
+    <string name="notification_fold_summary">Alle ubetydelige varsler vises i en egen mappe</string>
+    <string name="notification_fold_title">Varselmappe</string>
+    <string name="notification_manager">Appvarsler</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
+    <string name="off">Av</string>
+    <string name="on">På</string>
+    <string name="show_badge_notifications">Varselmerker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>
+    <string name="summary_disable_lockscreen_notification">Varsler på låseskjermen er ikke tillatt</string>
+    <string name="summary_disable_show_badge_notification">Varselmerker er ikke tillatt</string>
+    <string name="summary_enable_float_notification">Flytende varsler er tillatt</string>
+    <string name="summary_enable_lockscreen_notification">Varsler på låseskjermen er tillatt</string>
+    <string name="summary_enable_show_badge_notification">Varselmerker er tillatt</string>
+    <string name="summary_float_enable_notification_first">Tillat varsler å kunne aktivere flytende varsler</string>
+    <string name="summary_lock_screen_enable_notification_first">Tillat varsler å kunne aktivere varsler på låseskjerm</string>
+    <string name="summary_show_badge_enable_notification_first">Tillat varsler å kunne aktivere varselmerker</string>
+</resources>

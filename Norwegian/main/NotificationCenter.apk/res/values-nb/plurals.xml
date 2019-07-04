@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sent_frequency_per_day">
+        <item quantity="other">%d varsler om dagen</item>
+        <item quantity="one">%d varsel om dagen</item>
+    </plurals>
+    <plurals name="sent_frequency_per_week">
+        <item quantity="other">%d varsler i uken</item>
+        <item quantity="one">%d varsel i uken</item>
+    </plurals>
+</resources>
