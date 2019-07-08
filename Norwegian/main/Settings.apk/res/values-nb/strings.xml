@@ -2427,7 +2427,6 @@ Når du slår på automatisk sikkerhetskopiering, lagres app- og enhetsdata auto
     <string name="gesture_prevent_ringing_title">Trykk på av/på- og volum opp-knappen samtidig</string>
     <string name="gesture_setting_off">Av</string>
     <string name="gesture_setting_on">På</string>
-    <string name="gesture_wakeup_title">Dobbelttrykk på skjermen for å aktivere</string>
     <string name="giga_hertz">GHz</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_change_warning">Innstillingene påvirker alle brukere av denne telefonen.</string>
