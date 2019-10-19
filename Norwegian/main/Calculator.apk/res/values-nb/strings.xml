@@ -18,6 +18,7 @@
     <string name="cancel">Avbryt</string>
     <string name="children_education">Barnas utdanning</string>
     <string name="choose_currency">Velg valuta</string>
+    <string name="choose_radix">Velg tallsystem</string>
     <string name="choose_unit">Velg enhet</string>
     <string name="city">By</string>
     <string name="clearDesc">rens</string>
@@ -28,6 +29,7 @@
     <string name="convertion_unit">Enhetskonverterer</string>
     <string name="convertion_unit_area">Områdekonverterer</string>
     <string name="convertion_unit_length">Lengdekonverterer</string>
+    <string name="convertion_unit_radix">Tallsystem</string>
     <string name="convertion_unit_temperature">Temperaturkonverterer</string>
     <string name="convertion_unit_time">Tidkonverterer</string>
     <string name="convertion_unit_velocity">Hastighetskonverterer</string>
@@ -112,6 +114,7 @@
     <string name="item_title_dress_size">Klesstørrelse</string>
     <string name="item_title_length_conversion">Lengde</string>
     <string name="item_title_mortgage">Boliglån</string>
+    <string name="item_title_radix">Tallsystem</string>
     <string name="item_title_scientific_calculator">Akademisk</string>
     <string name="item_title_tax">Skatt</string>
     <string name="item_title_temprature_conversion">Temperatur</string>
@@ -174,6 +177,7 @@
     <string name="mortgage_item_years">Låneperiode</string>
     <string name="mortgage_loans_amount">Boliglånsbeløp</string>
     <string name="mortgage_provident_found_interest_rate">Fondets rente</string>
+    <string name="mortgage_provider_east_money">Data leveres av East Money</string>
     <string name="mortgage_repayment_amount">Tilbakebetalingsperiode</string>
     <string name="mortgage_result">Resultater</string>
     <string name="mortgage_show_details">Vis detaljer</string>
@@ -186,6 +190,7 @@
     <string name="negDesc">Bytt mellom minusgrader og plussgrader</string>
     <string name="network_confirm_content">Valutakonverterer, og skatte- og boligkalkulatorer trenger å koble til internett og få tilgang til stedtjenester for å fungere normalt.</string>
     <string name="network_confirm_title">Nødvendig med tillatelse</string>
+    <string name="network_purpose">Velkommen til Kalkulator! Kalkulator gir deg muligheten til å konvertere valutaer, beregne tilbakebetaling på boliglån og mer.</string>
     <string name="none">Ingen</string>
     <string name="not_supported_due_to_language">Denne funksjonen er bare tilgjengelig i kinesisk språk</string>
     <string name="ok">OK</string>
@@ -318,11 +323,13 @@
     <string name="unit_data_display_currency_aed">Forente arababiske staters dirham</string>
     <string name="unit_data_display_currency_ars">Argentinsk peso</string>
     <string name="unit_data_display_currency_aud">Australske dollar</string>
+    <string name="unit_data_display_currency_bdt">Bangladeshisk taka</string>
     <string name="unit_data_display_currency_bgn">Bulgarske lev</string>
     <string name="unit_data_display_currency_bhd">Bahraini dinarer</string>
     <string name="unit_data_display_currency_bnd">Brunei dollar</string>
     <string name="unit_data_display_currency_brl">Brasilianske real</string>
     <string name="unit_data_display_currency_byn">Hviterussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadiske dollar</string>
     <string name="unit_data_display_currency_chf">Sveitsiske franc</string>
     <string name="unit_data_display_currency_clp">Chilenske pesos</string>
@@ -408,6 +415,10 @@
     <string name="unit_data_display_length_um">Mikrometer</string>
     <string name="unit_data_display_length_yd">Yard</string>
     <string name="unit_data_display_length_zhang">Zhang</string>
+    <string name="unit_data_display_radix_10">Desimal</string>
+    <string name="unit_data_display_radix_16">Heksadesimal</string>
+    <string name="unit_data_display_radix_2">Binært</string>
+    <string name="unit_data_display_radix_8">Oktal</string>
     <string name="unit_data_display_temperature_c">Celsius</string>
     <string name="unit_data_display_temperature_f">Fahrenheit</string>
     <string name="unit_data_display_temperature_k">Kelvin</string>
@@ -601,8 +612,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
@@ -610,5 +624,9 @@ Delta-størrelse på oppdatering: %2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s oppdatering!</string>
     <string name="year" />
     <string name="preference_use_voice">Taleutdata</string>
+    <string name="preference_use_voice_summary">Turn on to use speech output during calculations</string>
+    <string name="preference_use_voice_title">Speech output</string>
+    <string name="preference_user_feedback_title">Feedback</string>
+    <string name="voice_guide_text">You can turn on speech output here</string>
     <string name="warn_locale_unsupport_for_voice">Taleutdata for dette språket støttes foreløpig ikke.</string>
 </resources>

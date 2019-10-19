@@ -29,8 +29,6 @@
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_app_name">Om Temaer</string>
     <string name="about_version_update">Hva er nytt</string>
-    <string name="accessibility_setting_hint">"Trykk på knappen i øverste høyre hjørne for å aktivere denne tjenesten.
-Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i appene du velger.​"</string>
     <string name="accessibiliy_description_content_account">Profil</string>
     <string name="accessibiliy_description_content_ad">Annonse</string>
     <string name="accessibiliy_description_content_add_resource">Legg til elementer</string>
@@ -70,6 +68,11 @@ Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i a
     <string name="audio_duration_minutes_format">%1$d minutter</string>
     <string name="audio_duration_seconds_format">%1$d sekunder</string>
     <string name="audition_ringtone">Spill av</string>
+    <string name="author_attention">Følg</string>
+    <string name="author_attention_success">Fulgt</string>
+    <string name="author_dialog_message">Slutte å følge denne kontoen nå?</string>
+    <string name="author_dynamic">Status</string>
+    <string name="author_dynamic_no_resource">Kunne ikke finne resultater</string>
     <string name="automatically_update_using_theme_tips">Oppdater automatisk neste gang</string>
     <string name="backup_theme_dialog_message">Sikkerhetskopiere ditt nåværende tema?</string>
     <string name="backup_theme_dialog_ok">Sikkerhetskopier</string>
@@ -92,7 +95,7 @@ Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i a
     <string name="close">Lukk</string>
     <string name="common_applying">Bruker…</string>
     <string name="common_downloading">Laster ned…</string>
-    <string name="common_format_date_no_year">MM/dd</string>
+    <string name="common_format_date_no_year">dd/MM</string>
     <string name="common_skip">Hopp over</string>
     <string name="component_backup_preference_title">Sikkerhetskopier tema</string>
     <string name="component_category_finest_title">GENERELL</string>
@@ -103,6 +106,7 @@ Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i a
     <string name="component_title_wallpaper">Bakgrunner</string>
     <string name="count_down_tip">%der gjenstår</string>
     <string name="current_using_desktop_wallpaper_text">Startskjerm</string>
+    <string name="current_using_float_wallpaper_text">Gjennomsiktig</string>
     <string name="current_using_lockscreen_wallpaper_text">Lås skjerm</string>
     <string name="current_version">Nåværende versjon: %1$s</string>
     <string name="current_version_incompatible">Ikke kompatibel</string>
@@ -117,6 +121,9 @@ Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i a
     <string name="description_version_szie">Versjon: %1$s Størrelse: %2$s</string>
     <string name="desktop_effects">Startskjerm-effekter</string>
     <string name="desktop_wallpaper">Startskjerm</string>
+    <string name="detail_author_attention_head">Følg noen av våre mest fremragende designere</string>
+    <string name="detail_author_fans">"Følgere: "</string>
+    <string name="detail_author_works">"Elementer: "</string>
     <string name="detail_recommend_title">Du vil kanskje like disse</string>
     <string name="dev_options">Utvikleralternativer</string>
     <string name="dev_options_summary">Nettressurser</string>
@@ -124,9 +131,9 @@ Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i a
     <string name="download_preview_failed">Kan ikke laste forhåndsvisning</string>
     <string name="download_success">Nedlastingen er fullført</string>
     <string name="dynamic_video_wallpaper">24H-bakgrunn</string>
-    <string name="enable_accessibility">Tillatelser for tilgang nødvendig</string>
-    <string name="enable_accessibility_hint">Du kan aktivere denne tjenesten i Temaer. Så kan du kunne velge hvilke apper som skal fungere med gjennomsiktige bakgrunner.</string>
+    <string name="enable_all_free_mode">Løs inn</string>
     <string name="enable_transparent_wallpaper">Bruk gjennomsiktig bakgrunn</string>
+    <string name="enabling_all_free_mode">Løser inn…</string>
     <string name="exit_extreme_mode_dialog_agree">Godta</string>
     <string name="exit_extreme_mode_dialog_cancel">Avbryt</string>
     <string name="exit_extreme_mode_dialog_title">Slå av Ekstrem-modus</string>
@@ -149,7 +156,9 @@ Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i a
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -201,11 +210,18 @@ Temaer vil oppdage hvilke apper du bruker, og vise gjennomsiktige bakgrunner i a
     <string name="gift_use_confirmation_dlg_title">Sende denne gaven</string>
     <string name="gift_use_fail_dlg_title">Noe gikk galt</string>
     <string name="gift_used">Sendt</string>
-    <string name="go_accessibility_setting">Velg</string>
     <string name="goto_purchased_list">Se kjøpshistorikk</string>
     <string name="goto_wechat">Kopierte WeChat konto\"%1$s\" til utklippstavlen. Åpne WeChat nå?</string>
-    <string name="hide_free">Skjul gratis %1$s</string>
+    <string name="has_mamual_hide_font">Skjulte</string>
+    <string name="has_mamual_hide_theme">Skjult</string>
+    <string name="has_mamual_hide_wallpaper">Skjulte</string>
+    <string name="hide_free_font">Skjul gratis fonter</string>
+    <string name="hide_free_theme">Skjul gratis temaer</string>
+    <string name="hide_free_wallpaper">Skjul gratis bakgrunner</string>
     <string name="hide_incompatible">Skjul ikke-kompatibel %1$s</string>
+    <string name="hide_mamual_hide_font">Ikke vis skjulte fonter</string>
+    <string name="hide_mamual_hide_theme">Ikke vis skjulte temaer</string>
+    <string name="hide_mamual_hide_wallpaper">Ikke vis skjulte bakgrunner</string>
     <string name="home_apply_failured">Kan ikke bruke wallpaper til Startskjerm</string>
     <string name="home_apply_success">Wallpaper til Startskjerm i bruk</string>
     <string name="in_the_end">Ingen flere elementer å vise</string>
@@ -226,10 +242,13 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="incompatible_dialog_ok">Skjønner</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbakeringstone</string>
     <string name="item_resource_audio_optional_notification_ring">Varsler</string>
     <string name="item_resource_audio_optional_phone_ring">Ringetone</string>
+    <string name="kuyin_user_agreement_content">Abonnement på tilpassede ringetoner leveres av iFlytek. Du må godta %s før du bruker abonnementer på tilpassede ringetoner. Godta?</string>
+    <string name="kuyin_user_agreement_content_href">iFlyteks personvernerklæring</string>
     <string name="lab">Temalab</string>
     <string name="like_list">Elementer jeg har likt</string>
     <string name="live_wallpaper">Livebakgrunn</string>
@@ -250,7 +269,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="lockscreen_magazine_title">Bakgrunnskarusell</string>
     <string name="lockscreen_wallpaper">Lås skjerm</string>
     <string name="lockstyle_personal_settings">Tilpass</string>
-    <string name="loop_wallpaper_is_here">Lysbildeserier av bakgrunnsbilder er tilgjengelige nå</string>
+    <string name="long_click_can_hide_resource">Trykk og hold inne for å skjule elementer</string>
     <string name="mi_wallpaper">Bakgrunn</string>
     <string name="miuishare_account_activate_confirmation">Aktiver Mi Account</string>
     <string name="miuishare_account_activate_ok">Aktiver</string>
@@ -279,6 +298,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="mix_icons_option_des">Startskjermikoner. Fjern avhukingen i denne boksen for å bruke standardvalgene.</string>
     <string name="mix_lockscreen_option_des">Bakgrunn og klokke. Fjern avhukingen i denne boksen for å bruke standardvalgene.</string>
     <string name="mix_tip">Temakomponenter</string>
+    <string name="more_sub_comment">Se alle svar (%1$d)></string>
     <string name="multi_sim_mms_ringtone_settings_dialog_message">Denne ringetonen brukes for begge SIM-kortene.</string>
     <string name="multi_sim_ringtone_settings_dialog_message">Ringetonen er tilført begge SIM-kortene.</string>
     <string name="multi_sim_ringtone_settings_dialog_ok">Skjønner</string>
@@ -316,7 +336,6 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="purchased_list_current">Optimaliserte temaer</string>
     <string name="purchased_list_legacy">Eldre temaer</string>
     <string name="recently_used">Nylig brukt</string>
-    <string name="reenable_accessibility">En feil oppstod. Gi tillatelser for tilgang igjen.</string>
     <string name="refresh_footer_all_loaded">Det var alt for nå.</string>
     <string name="refresh_footer_failed">Kunne ikke laste inn informasjon</string>
     <string name="refresh_footer_finish">Vellykket innlasting</string>
@@ -334,6 +353,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_alarm_default">Alarm</string>
     <string name="resource_app_name">Se ressurser</string>
     <string name="resource_apply">Bruk</string>
+    <string name="resource_apply_trial">Bruk</string>
     <string name="resource_back">Tilbake</string>
     <string name="resource_buy">Kjøp</string>
     <string name="resource_can_not_selected">%1$s kan ikke velges</string>
@@ -404,6 +424,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_download">Last ned</string>
     <string name="resource_download_notification_title_many">%1$s temaer lastet ned</string>
     <string name="resource_download_notification_title_one">Tema lastet ned</string>
+    <string name="resource_download_trial">Prøv</string>
     <string name="resource_downloaded_title">Last ned ressurser</string>
     <string name="resource_downloading">Laster ned</string>
     <string name="resource_exchange">Løs inn</string>
@@ -434,6 +455,9 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_get_auth_not_official">Temaer fra tredjepartskilder støttes ikke</string>
     <string name="resource_get_auth_retrieving">Henter informasjon…</string>
     <string name="resource_has_been_downloaded">Du har allerede lastet ned dette temaet.</string>
+    <string name="resource_hide">Skjul</string>
+    <string name="resource_hide_fail">Kunne ikke skjule</string>
+    <string name="resource_hide_succ">Skjult</string>
     <string name="resource_hint">Varsel</string>
     <string name="resource_import_failed">Kan ikke importere</string>
     <string name="resource_import_successful">Fullført</string>
@@ -459,6 +483,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_pack_price_info">Opprinnelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerde kjøpt %1$d-komponenter i dette temaet. Det er billigere hvis du kjøper de resterende komponentene hver for seg.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi-kreditter</string>
     <string name="resource_purchase_common_error">Det oppsto en feil. Prøv igjen</string>
@@ -470,6 +495,13 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_ranking">Populær</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betalt</string>
+    <string name="resource_restore">Gjenopprett</string>
+    <string name="resource_restore_fail">Kunne ikke gjenopprette</string>
+    <string name="resource_restore_succ">Gjenopprettingen var vellykket</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringetoner</string>
     <string name="resource_ringtone_playing_error">Feil</string>
     <string name="resource_ringtone_volume_mute">Ringer er satt på stille</string>
@@ -544,8 +576,14 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="shortcut_message">Legg til snarvei på startskjermen!</string>
     <string name="shortcut_show_tip">Ikke vis igjen</string>
     <string name="shortcut_title">Liker du vår wallpaper?</string>
-    <string name="show_free">Show free %1$s</string>
+    <string name="show_free_font">Vis gratis fonter</string>
+    <string name="show_free_theme">Vis gratis temaer</string>
+    <string name="show_free_wallpaper">Vis gratis bakgrunner</string>
     <string name="show_incompatible">Vis ikke-kompatibel %1$s</string>
+    <string name="show_mamual_hide_font">Vis skjulte fonter</string>
+    <string name="show_mamual_hide_theme">Vis skjulte temaer</string>
+    <string name="show_mamual_hide_wallpaper">Vis skjulte bakgrunner</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="swipe_find_more">Sveip opp for å se mer</string>
     <string name="system_precust">Forhåndsinnstallert</string>
     <string name="the_picture_is_not_support">Bildet støttes ikke</string>
@@ -565,6 +603,13 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="theme_changed_failed_message">Kan ikke bruke tema</string>
     <string name="theme_changed_message">Tema brukes</string>
     <string name="theme_changing_dialog_title">Brukes</string>
+    <string name="theme_comment_detail_no_more">Det var alt for nå</string>
+    <string name="theme_comment_detail_sub_comment_title">Alle svar</string>
+    <string name="theme_comment_detail_title">Detaljer</string>
+    <string name="theme_comment_dialog_cancel">Ikke nå</string>
+    <string name="theme_comment_dialog_message">Liker du temaet du bruker nå? Vi hadde satt pris på din tilbakemelding!</string>
+    <string name="theme_comment_dialog_ok">Anmeldelse</string>
+    <string name="theme_comment_sub_comment_bar_hint">Del dine idéer med fellesskapet vårt</string>
     <string name="theme_component_title_alarm">Alarm</string>
     <string name="theme_component_title_alarmstyle">Alarmstil</string>
     <string name="theme_component_title_all">Temaer</string>
@@ -608,6 +653,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="theme_is_external_priority_storage">Lagre til SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Themes-appen omstarter umiddelbart etter denne innstillingen godkjennes.</string>
     <string name="theme_multiple_button_title_customize">Tilpass</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nei</string>
     <string name="theme_purchased_list_empty">Du har ikke kjøpt noen temaer.</string>
     <string name="theme_purchased_non_local">På nett</string>
@@ -651,6 +697,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="transparent_wallpaper_filter_setting">Individuelle apper</string>
     <string name="transparent_wallpaper_guide">Gå til Temaer</string>
     <string name="transparent_wallpaper_guide_tip">Du kan nå velge et gjennomsiktig bakgrunnsbilde i Temaer.</string>
+    <string name="transparent_wallpaper_is_running_in_background">«Gjennomsiktige bakgrunnsbilde» kjører i bakgrunnen</string>
     <string name="transparent_wallpaper_pref_summary">Bakgrunner med redusert bakgrunnsopasitet</string>
     <string name="transparent_wallpaper_white_wallpaper">Gjør bakgrunnen hvit</string>
     <string name="transparent_wallpaper_white_wallpaper_failed">Kunne ikke gjøre bakgrunnen hvit</string>
@@ -666,6 +713,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="uid_change_dialog_message">Du har slettet oppdateringer. Oppdater enheten for å kunne bruke temaene.</string>
     <string name="uid_change_dialog_ok">Skjønner</string>
     <string name="uid_change_dialog_title">Omstart to ganger</string>
+    <string name="unable_connect_network">Kunne ikke koble til nettverket</string>
     <string name="up_to_the_end">Det var alt for nå. Kom tilbake senere.</string>
     <string name="update_btn">OPPDATER NÅ</string>
     <string name="update_check">Se etter oppdateringer</string>
@@ -694,7 +742,9 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="wallpaper_apply">Bruk</string>
     <string name="wallpaper_crop">Beskjær</string>
     <string name="wallpaper_decoded_error">Kunne ikke laste bakgrunn</string>
+    <string name="wallpaper_delete_all">Slette valgte elementer?</string>
     <string name="wallpaper_detail_load_page_no_network">Koble til nettverket og prøv igjen.</string>
+    <string name="wallpaper_dynamic">Dynamisk</string>
     <string name="wallpaper_loop_add_success">Lagt til</string>
     <string name="wallpaper_loop_add_to_loop_desk_wallpaper">Legg til i lysbildeserie for startskjerm</string>
     <string name="wallpaper_loop_add_to_loop_lock_wallpaper">Legg til i lysbildeserie for låseskjerm</string>
@@ -717,6 +767,11 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="wallpaper_loop_title">Lysbildeserie av bakgrunnsbilder</string>
     <string name="wallpaper_loop_title_desk_wallpaper">Lysbildeserie av bakgrunnsbilder på startskjerm</string>
     <string name="wallpaper_loop_title_lock_walpaper">Lysbildeserie av bakgrunnsbilder på låseskjerm</string>
+    <string name="wallpaper_no_favorite">Ingen elementer her ennå.</string>
+    <string name="wallpaper_no_record">Ingen elementer her ennå.</string>
+    <string name="wallpaper_online">Bakgrunnsbilder på nett</string>
+    <string name="wallpaper_online_no_more">Det var alt for nå</string>
+    <string name="wallpaper_online_tip">Koble til nettverket for å se flere elementer</string>
     <string name="wallpaper_scroll_type_tips">Bakgrunnsrull</string>
     <string name="wallpaper_set_as_both">Sett begge</string>
     <string name="wallpaper_set_as_desktop">Sett som Startskjerm</string>
@@ -727,6 +782,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="wallpaper_settings_no_history">Ingen historikk</string>
     <string name="wallpaper_settings_pad_more_page_title">Flere wallpapers</string>
     <string name="wallpaper_settings_page_title">Bakgrunn</string>
+    <string name="wallpaper_static">Statisk</string>
     <string name="wechat_not_found">Installer WeChat først</string>
     <string name="weibo">Weibo</string>
     <string name="wifi_check_cancel">Avbryt</string>

@@ -9,8 +9,7 @@
     <string name="app_search">Søk i apper</string>
     <string name="btn_send">Send</string>
     <string name="bugreport_dialog_not_show_again">Ikke vis igjen</string>
-    <string name="bugreport_dialog_submit_content">"&lt;Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.&lt;/Data>"</string>
+    <string name="bugreport_dialog_submit_content">&lt;Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
     <string name="bugreport_dump_complete_notification_summary">Trykk for å se.</string>
     <string name="bugreport_dump_complete_notification_title">Feilrapport er opprettet</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan ta flere minutter.</string>
@@ -103,9 +102,23 @@
     <string name="feedback_description_hint_suggestion">Fortell oss hvordan du ønsker å forbedre MIUI.</string>
     <string name="feedback_description_label">Beskrivelse</string>
     <string name="feedback_description_suggest_hint">Jeg ville likt om du legger til en ny funksjon () fordi jeg trenger ().</string>
-    <string name="feedback_detail_tile">Progresjon</string>
+    <string name="feedback_detail_copy_toast">Kopiert til utklippstavle</string>
+    <string name="feedback_detail_feedback_attach">Vedlegg</string>
+    <string name="feedback_detail_feedback_attach_upload_failed">Kunne ikke laste opp</string>
+    <string name="feedback_detail_feedback_attach_uploading">Laster opp…</string>
+    <string name="feedback_detail_feedback_category">Kategori</string>
+    <string name="feedback_detail_feedback_id">Rapport-ID: %d</string>
+    <string name="feedback_detail_feedback_reply_hint">Svar</string>
+    <string name="feedback_detail_feedback_summary">Tilbakemelding</string>
+    <string name="feedback_detail_need_content">Du må først skrive inn innhold</string>
+    <string name="feedback_detail_title">Detaljer</string>
+    <string name="feedback_detail_upload_generate_log">Generer logger</string>
+    <string name="feedback_detail_upload_image">Last opp bilder/videoer</string>
+    <string name="feedback_detail_upload_local_log">Last opp fil</string>
+    <string name="feedback_detail_upload_log">Last opp logger</string>
+    <string name="feedback_detail_waiting">Genererer…</string>
     <string name="feedback_empty_report_list">Ingen rapporter enda</string>
-    <string name="feedback_guess">Vår gjetning</string>
+    <string name="feedback_guess">Vår gjetning:</string>
     <string name="feedback_history_remind_login_desc">Logg inn med Mi-kontoen din for å se detaljer om progresjonen til rapporten</string>
     <string name="feedback_id">ID: %d</string>
     <string name="feedback_jira_key">JIRA Key: %s</string>
@@ -182,12 +195,13 @@
     <string name="issue_search">Søk</string>
     <string name="kr_authorization_agree">Godta</string>
     <string name="kr_authorization_contact">Kontoer</string>
-    <string name="kr_authorization_contact_desc">For å få Mi-kontoinformasjon og verifisere kontoen</string>
+    <string name="kr_authorization_contact_desc">For tilgang til Mi-kontoinformasjon for å kunne identifisere enheten</string>
     <string name="kr_authorization_exit">Avslutt</string>
+    <string name="kr_authorization_function">Sende tilbakemelding, generere logger, se ofte stilte spørsmål</string>
     <string name="kr_authorization_log_protocol">Loggprotokoll (valgfritt)</string>
     <string name="kr_authorization_log_protocol_desc">For å forbedre tjenestene som tilbys deg, laster vi opp brukerstatistikk og systemlogger til serverne våre. Disse elementene kan inneholde personlige opplysninger, samt informasjon om enheten og nettverk. Vi bruker opplastede elementer til å finne og analysere problemer i systemet.</string>
     <string name="kr_authorization_phone">Telefon</string>
-    <string name="kr_authorization_phone_desc">For å identifisere enheten ved hjelp av IMEI- og modellnummer, samt for å finne og analysere problemer</string>
+    <string name="kr_authorization_phone_desc">For tilgang til enhetsmodell, IMEI og enhets-ID for å kunne lokalisere og løse problemer</string>
     <string name="kr_authorization_privacy_policy">Personvernerklæring (obligatorisk)</string>
     <string name="kr_authorization_select_all">Velg alle</string>
     <string name="kr_authorization_storage">Lagring</string>
@@ -200,6 +214,10 @@
     <string name="max_error">Din %1$s bør være kortere.</string>
     <string name="menu_copy">Kopier</string>
     <string name="message_label">Melding</string>
+    <string name="mi_service_dialog_cancel">Avslutt</string>
+    <string name="mi_service_dialog_confirm">Åpne</string>
+    <string name="mi_service_dialog_content">Alle tilbakemeldingsfunksjoner er flyttet til den nye «Tjenester og tilbakemelding»-appen. Tilbakemelding-appen vil fjernes fra startskjermen.</string>
+    <string name="mi_service_dialog_title">Vi presenterer «Tjenester og tilbakemelding»</string>
     <string name="michat_app_name">Støtte på nett</string>
     <string name="michat_artificial_customer_phone">4001005678</string>
     <string name="michat_artificial_customer_phone_dial_error">Hvis du ikke kan ringe 400-hjelpelinjen, kan du ringe %1$s med en annen telefon</string>
@@ -283,7 +301,7 @@
     <string name="module_more">Mer</string>
     <string name="module_network">Nettverk</string>
     <string name="module_search">Søk</string>
-    <string name="module_security">Sikkerhet &amp; Mi Cloud</string>
+    <string name="module_security">Sikkerhet og Xiaomi Cloud</string>
     <string name="module_system">System</string>
     <string name="module_tools">Systemverktøy</string>
     <string name="modules">Velg element</string>
@@ -340,10 +358,8 @@
     <string name="select_system_app_tag">Velg et problem</string>
     <string name="submit_dialog_cancel">Ikke enig</string>
     <string name="submit_dialog_confirm">Enig</string>
-    <string name="submit_dialog_content">"&lt;Data>Du må samtykke i vår
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Personvernerklæring&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Brukeravtale&lt;/a> for å kunne bruke Tilbakemelding. Problemene du rapporterer med elementene du vedlegger (kan inneholde personlige opplysninger, i tillegg til opplysninger om enheten og nettverket ditt) vil lastes opp til MIUI's servere. Dette vil hjelpe deg med å lokalisere og løse problemene du rapporterer.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global">"&lt;Data>Tilbakemeldingen din, sammen med vedlegg (dersom det er noen) og logger (du kan fjerne merking i de korresponderende boksene for elementene du ikke ønsker å laste opp) vil bli sendt til MIUIs servere og til en begrenset del av MIUI Forum for utviklere. Informasjon om trådene dine og forumaktivitet vil også bli samlet inn for analyse og ytterligere kommunikasjon. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt 
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtalen&lt;/a>.&lt;/Data>"</string>
+    <string name="submit_dialog_content">"&lt;Data>Du må samtykke i vår &lt;a href=\"%1$s\">Personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">Brukeravtale&lt;/a> for å kunne bruke Tilbakemelding. Problemene du rapporterer med elementene du vedlegger (kan inneholde personlige opplysninger, i tillegg til opplysninger om enheten og nettverket ditt) vil lastes opp til MIUI's servere. Dette vil hjelpe deg med å lokalisere og løse problemene du rapporterer.&lt;/Data>"</string>
+    <string name="submit_dialog_content_global">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), vil bli sendt til MIUIs servere. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_title">Send rapport</string>
     <string name="submit_feedback_info_failed">Kunne ikke sende rapport</string>
     <string name="suggestion_description">Legg til beskrivelse her</string>

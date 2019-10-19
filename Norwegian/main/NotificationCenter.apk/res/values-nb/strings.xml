@@ -16,9 +16,10 @@
     <string name="list_title_disable_notification">Varsler er ikke tillatt</string>
     <string name="loading">Et øyeblikk…</string>
     <string name="lock_screen_display_rules">Format</string>
-    <string name="lock_screen_tip_toast">Tillatt varsler i «Appvarsler» først</string>
+    <string name="lock_screen_tip_toast">Tillat låseskjermvarsler i \"Format\"</string>
     <string name="lockscreen_notifications">Låseskjermvarsler</string>
     <string name="not_sent_recently">Ikke nylig</string>
+    <string name="notch_and_status_bar_setting">Skjermleppe og statuslinje</string>
     <string name="notification_display_setting">Varslingsskygge</string>
     <string name="notification_display_style">Varselsstil</string>
     <string name="notification_fold_summary">Alle ubetydelige varsler vises i en egen mappe</string>
@@ -28,7 +29,10 @@
     <string name="notification_style_miui">MIUI</string>
     <string name="off">Av</string>
     <string name="on">På</string>
+    <string name="settings_guide_title">Trenger du andre innstillinger?</string>
     <string name="show_badge_notifications">Varselmerker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>
     <string name="summary_disable_lockscreen_notification">Varsler på låseskjermen er ikke tillatt</string>
     <string name="summary_disable_show_badge_notification">Varselmerker er ikke tillatt</string>

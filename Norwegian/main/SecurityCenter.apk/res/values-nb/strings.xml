@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -103,7 +105,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="dlg_not_block_call">Fjerne blokkering av valgte numre? De vil bli lagt til under unntak, men tidligere blokkerte elementer vises ikke i anropslisten.</string>
     <string name="dlg_update_date_title">Advarsel</string>
     <string name="dlg_update_data_content">Du er ikke koblet til Wi-Fi. Bruk av mobildata kan generere ekstra gebyrer. Fortsette likevel?</string>
-    <string name="dlg_sec_network_unavailable">Security-appen kan ikke oppdatere fordi du har begrenset internett-tilkoblingen. Tillat Security å koble til internett?</string>
+    <string name="dlg_sec_network_unavailable">Sikkerhet kan ikke oppdatere fordi du har begrenset internett-tilkoblingen. Tillate Sikkerhet å koble til internett?</string>
     <string name="dlg_update_btn_contiue">Fortsett</string>
     <string name="dlg_update_btn_open">Tillat</string>
     <string name="dlg_update_updating">Oppdaterer…</string>
@@ -172,7 +174,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="sms_filter">Smartfilter</string>
     <string name="sms_keywords">Nøkkelord-blokkeringsliste</string>
     <string name="sms_service">Blokker tjenestemeldinger</string>
-    <string name="sms_stranger_block">Blokker SMS fra fremmede</string>
+    <string name="sms_stranger_block">Blokkert</string>
     <string name="sms_contact_block">Blokker SMS fra kontakter</string>
     <string name="sms_malicious_url">Blokker SMS med skadelige URL-er</string>
     <string name="sms_cloud_block">Sky-blokkeringsliste</string>
@@ -198,7 +200,9 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="sms_delete_title">Slett meldinger</string>
     <string name="call_delete_title">Slett anropslogg</string>
     <string name="sms_delete_hint">Slette alle blokkerte meldinger fra dette nummeret?</string>
+    <string name="sms_delete_all_hint">Slette alle meldinger nå?</string>
     <string name="call_delete_hint">Slette alle blokkerte anrop fra dette nummeret?</string>
+    <string name="call_delete_all_hint">Slette alle blokkerte anrop?</string>
     <string name="backsound_set_hint">Angi fraværsmeldingen din som %s?</string>
     <string name="report">Rapporter</string>
     <string name="report_only">Velg en melding å rapportere</string>
@@ -208,6 +212,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="report_warning_title">Merk</string>
     <string name="st_sub_title_customize_mode_name">Navn</string>
     <string name="read_all_sms">Lest alt</string>
+    <string name="delete_all_sms">Slett alle</string>
     <string name="loding">Laster inn data</string>
     <string name="action_source_sms_title">Blokkerte meldinger</string>
     <string name="action_source_call_title">Blokkerte anrop</string>
@@ -237,6 +242,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="st_antispam_title_anoy_incoming">Anrop fra fremmede</string>
     <string name="st_antispam_title_null_incoming">Private numre</string>
     <string name="st_antispam_title_service_sms">Tjenestevarsler</string>
+    <string name="st_antispam_title_mms">MMS</string>
     <string name="st_summary_keywords_blacklist">Legg til nøkkelord for å blokkere meldinger</string>
     <string name="st_summary_blacklist_numbers">Blokker anrop og meldinger fra spesifikke numre og områder</string>
     <string name="st_summary_whitelist_numbers">Tillat anrop og meldinger fra spesifikke numre og områder</string>
@@ -320,7 +326,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="st_share_settings">Bruk SIM 1-innstillinger</string>
     <string name="st_msg_settings">SMS-blokkeringsliste</string>
     <string name="st_msg_intercept_contacts">Blokker SMS fra kontakter</string>
-    <string name="st_msg_stranger_group">Blokker SMS fra fremmede</string>
+    <string name="st_msg_stranger_group">Blokker meldinger fra fremmede</string>
     <string name="st_msg_other_group">Annet</string>
     <string name="st_msg_keyword_group">Nøkkelord</string>
     <string name="st_msg_keyword_black">Nøkkelord-blokkeringsliste</string>
@@ -342,11 +348,11 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="st_confirm_dialog_summary_contact_call">Alle anrop fra kontakter blir blokkert.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Slå på for å blokkere alle innkommende anrop fra utenlandske telefonnumre.</string>
     <string name="cta_dialog_title">Internettforbindelse</string>
-    <string name="cta_dialog_msg">&lt;Data>Du må godta &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæringen&lt;/a> vår før du bruker Sikkerhet. Sikkerhet må også koble til Internett og få tilgang til posisjonen din for å fungere normalt og holde antivirus-definisjoner oppdatert. Godta?&lt;/Data></string>
     <string name="cta_dialog_negative">Avslutt</string>
     <string name="cta_dialog_positive">Godtar</string>
     <string name="cta_settings">Tillat internettforbindelse</string>
-    <string name="gdpr_msg">&lt;Data>For å kunne bruke de grunnleggende funksjonene i Sikkerhet, må du godta at Xiaomi kommer til å samle inn, behandle og bruke dine personlige data, inkludert informasjon om måtene du bruker Sikkerhets funksjoner (f.eks. statistikk for mobildatabruk, informasjon om skadelig programvare, samt grunnleggende informasjon om enheten din) og annen informasjon som er spesifisert i vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="gdpr_msg">&lt;Data>For å kunne bruke de grunnleggende funksjonene i Sikkerhet, må du godta at Xiaomi samler inn, behandler og bruker dine personlige data, inkludert informasjon om måtene du bruker Sikkerhets funksjoner på (f.eks. statistikk for mobildatabruk, informasjon om skadelig programvare, samt grunnleggende informasjon om enheten) og annen informasjon som er spesifisert i &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">personvernerklæringen&lt;/a> vår.&lt;/Data></string>
+    <string name="cta_main_purpose">Velkommen til Sikkerhet! Du kan bruke denne appen til å fjerne alt søppet fra enheten, finne og nøytralisere virus, optimalisere ytelsen for spill, spare batteri, behandle apper og mer.</string>
     <string name="app_name_na">Databruk</string>
     <string name="list_empty_text">Tøm</string>
     <string name="dialog_title_attention">Merk</string>
@@ -461,6 +467,7 @@ svarer"</string>
     <string name="not_limited_brand">Ubegrenset</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -969,7 +976,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="om_running_system_apps">Kjører system-apper</string>
     <string name="om_running_third_apps">Kjører tredjeparts apper</string>
     <string name="om_locked_apps_summary">Låste apper vil ignoreres av hastighetsøkningen.</string>
-    <string name="power_center_title">Batterioptimalisering</string>
+    <string name="power_center_title">Batteri og ytelse</string>
     <string name="power_center_back">Tilbake</string>
     <string name="power_center_auto_shutdown">Strømstyringsplan</string>
     <string name="power_center_ontime_boot">Slå på</string>
@@ -1012,6 +1019,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1019,6 +1027,8 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_cell">Ventemodus</string>
     <string name="power_phone">Taleanrop</string>
     <string name="power_idle">Telefon inaktiv</string>
+    <string name="power_ambient_display">Aktiv låseskjerm</string>
+    <string name="battery_desc_ambient_display">Strømforbruk av aktiv låseskjerm</string>
     <string name="usage_type_cpu">CPU totalt</string>
     <string name="usage_type_cpu_foreground">CPU forgrunn</string>
     <string name="usage_type_wake_lock">Hold våken</string>
@@ -1086,7 +1096,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="btn_text_optimize_now">Optimalisere</string>
     <string name="btn_text_optimize_manually">Optimaliser manuelt</string>
     <string name="battery_history_activity_title">Historikk</string>
-    <string name="btn_text_goto_power_rank">Se batterirangering</string>
+    <string name="btn_text_goto_power_rank">Se all statistikk</string>
     <string name="btn_text_goto_setup">Gå til innstillinger</string>
     <string name="power_save_title_text">Batterisparer</string>
     <string name="power_save_summary_text">Slå på batterispareren for å redusere appers bakgrunnsaktivitet, stanse synkronisering og minimere systemanimasjoner.</string>
@@ -1112,7 +1122,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="deep_power_save_item_title_bluetooth">Slå av Bluetooth</string>
     <string name="deep_power_save_item_summary_bluetooth">Slå av Bluetooth for å spare batteri</string>
     <string name="deep_power_save_item_title_lock_screen_time">Slå av skjermen</string>
-    <string name="deep_power_save_item_summary_lock_screen_time">Slå av skjermen etter 30 sekunder med inaktivitet for å spare batteri</string>
+    <string name="deep_power_save_item_summary_lock_screen_time">Slå av skjermen etter 15 sekunder med inaktivitet for å spare batteri</string>
     <string name="power_save_mode_enable">Batterisparer</string>
     <string name="power_save_mode_summary">Spor bakgrunnsprosesser og slå av synkronisering.</string>
     <string name="power_optimize_save_mode_not_opened">Batterisparer av</string>
@@ -1234,12 +1244,17 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
     <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
     <string name="power_center_list_item_battery_status_time">t</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Stopp skanning</string>
     <string name="hide_mode_result_summary_text">Tilpass batterisparerinnstillinger for individuelle apper</string>
     <string name="auto_task_result_summary_text">Sett automatiserte oppgaver for batterisparer</string>
-    <string name="pc_settings_title">Innstillinger for batterioptimalisering</string>
+    <string name="pc_settings_title">Innstillinger for batteri og ytelse</string>
     <string name="pc_main_activity_back">Tilbake</string>
     <string name="extreme_power_save_mode_card_summary">Aktiver Ekstrem batterisparer for å spare strøm når det er lite batteri igjen.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="power_save_ps_limit">Begrens aktiviteten for systemapper</string>
     <string name="power_save_ps_freeze">Frys apper i bakgrunnen</string>
     <string name="power_save_ps_clean">Tøm hurtigbuffer når enheten er låst</string>
@@ -1259,6 +1274,15 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_setting_category_other">Tilleggsinnstillinger</string>
     <string name="power_setting_background_app_save_title">Batterisparer i bakgrunnen</string>
     <string name="power_setting_background_app_save_summary">Begrens aktiviteten til apper i bakgrunnen uten å påvirke funksjonaliteten</string>
+    <string name="power_setting_warm_configure">Temperaturkontroll</string>
+    <string name="power_setting_config_scenario_policies_title">Scenarier</string>
+    <string name="power_setting_scenario_policies_summary">Identifiser scenarier for å veksle mellom batterisparingsmodus automatisk</string>
+    <string name="power_setting_important_warning">OBS</string>
+    <string name="power_setting_warm_performance_tip">Scenarier som krever høyt strømforbruk vil øke enhetens temperatur over nivåene i standard temperaturkontrollmodus.</string>
+    <string name="power_setting_features">Spesielle funksjoner</string>
+    <string name="power_setting_wireless_reverse_charging_title">Omvendt trådløs lading</string>
+    <string name="power_setting_wireless_reverse_charging_summary">Lad kompatible enheter trådløst</string>
+    <string name="battery_and_property">Batteri og ytelse</string>
     <string name="power_settings_lock_screen_saver_title">Innstillinger for låseskjerm</string>
     <string name="quick_optimize_sub_summary_with_battery_text">Lagt til %1$s, omtrent %2$s igjen</string>
     <string name="quick_optimize_sub_battery_text">Omtrent %s igjen</string>
@@ -1273,6 +1297,17 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_main_sub_battery_text_hour_minute">%1$st %2$sm gjenstår</string>
     <string name="pc_main_power_manager_day_hour">%1$sd %2$st til den er fulladet</string>
     <string name="pc_main_power_manager_hour_minute">%1$st %2$sm til den er fulladet</string>
+    <string name="battery_statistics_activity_title">Statistikk for batteribruk</string>
+    <string name="pc_battery_history_consume_rank_menu_item">Rangering</string>
+    <string name="pc_battery_history_battery_detail_menu_item">Detaljer</string>
+    <string name="pc_battery_history_rank_percent_menu_item">Prosent</string>
+    <string name="pc_battery_history_rank_mha_menu_item">Milliamperetime</string>
+    <string name="pc_battery_detail_curve_reference_now">Nå</string>
+    <string name="pc_battery_detail_device_item_title">Statistikk for batteribruk</string>
+    <string name="pc_statistics_battery_use_title">Batteribruk</string>
+    <string name="pc_statistics_battery_use_summary">%s siden siste lading</string>
+    <string name="pc_statistics_battery_use_hour_minute">%1$d t %2$d m siden siste lading</string>
+    <string name="pc_statistics_battery_last_hour_minute">%1$d t %2$d m gjenstår</string>
     <string name="notification_battery_scan_consume_abnormal_title_set">%s tapper batteri</string>
     <string name="notification_battery_scan_consume_abnormal_summary">Trykk for å reparere problemet</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Forhindrer systemet i å gå i ventemodus</string>
@@ -1282,6 +1317,38 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_abnormal_scan_reason_wake_system">Aktiverer systemet for ofte</string>
     <string name="pc_abnormal_scan_reason_reconnect">Prøver å koble til nettverket for ofte</string>
     <string name="pc_abnormal_scan_button_text">Lukk apper</string>
+    <string name="superpower_settings">Ultrabatterisparer</string>
+    <string name="superpower_notification_time_12">EEEE dd. MMMM</string>
+    <string name="superpower_notification_time_24">EEEE dd. MMMM</string>
+    <string name="superpower_notification_hint_enter">Slå på</string>
+    <string name="superpower_savemode_limit1">Mørk tema</string>
+    <string name="superpower_savemode_limit2">Begrens bakgrunnsaktivit</string>
+    <string name="superpower_savemode_limit3">Begrens strømkrevende aktiviteter (synkronisering, GPS, vibrasjon, ambient display osv.)</string>
+    <string name="superpower_savemode_limit4">Tillatt utvalgte apper til å fungere normalt</string>
+    <string name="superpower_settins_switch_summary">Begrenser de mest strømkrevende funksjonene for å tillate kun grunnleggende funksjonalitet (for eksempel samtaler, SMS og utvalgte apper) så lenge som mulig</string>
+    <string name="superpower_settins_autoleave_title">Skru av automatisk</string>
+    <string name="superpower_settins_autoleave_summary">Skru av Ultrabatterisparer automatisk når batteriet er 50% oppladet</string>
+    <string name="superpower_settins_other">Tilleggsinnstillinger</string>
+    <string name="superpower_settins_autoenter_title">Skru på automatisk</string>
+    <string name="superpower_settins_autoenter_summary">Skru på Ultrabatterisparer automatisk når batteriet er 10% oppladet</string>
+    <string name="superpower_notification_title">Mindre enn10% av batterikapasiteten igjen</string>
+    <string name="superpower_notification_summary">Slå på Ultrabatterisparer</string>
+    <string name="superpower_dialog_title">Ultrabatterisparer</string>
+    <string name="superpower_dialog_massage">Ultrabatterisparer begrenser de fleste strømforbrukende funksjonene og reduserer ytelsen til enheten for at basisfunksjonene (f.eks. anrop, SMS og tilkobling til nettverk) skal være tilgjengelige så lenge som mulig. Aktivere ultrabatterisparer?</string>
+    <string name="superpower_dialog_button_ok">Ok</string>
+    <string name="superpower_dialog_button_disable_dialog">Ikke vis igjen</string>
+    <string name="superpower_progress_title">Gjenstående tid</string>
+    <string name="superpower_progress_content">Slå på Ultrabatterisparer…</string>
+    <string name="superpower_progress_turnoff_items">Begrens strømkrevende aktivitet</string>
+    <string name="superpower_progress_turnoff_process">Begrens bakgrunnsaktivitet</string>
+    <string name="superpower_progress_turndown_brightness">Senk skjermens lysstyrke</string>
+    <string name="superpower_progress_switch_home">Bytt til mørkt tema</string>
+    <string name="superpower_progress_left_time">%1$dt %2$dm</string>
+    <string name="pc_search_keywords_battery">Batteri</string>
+    <string name="pc_search_keywords_battery_save">Batterisparer</string>
+    <string name="pc_search_keywords_battery_use">Batteribruk</string>
+    <string name="pc_search_keywords_capacity">Batterikapasitet</string>
+    <string name="pc_search_keywords_property">Ytelse</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Sjekk meldingsapp</string>
     <string name="apps_list_header_title_sms_access">Begrens tilgang til bekreftelseskoder</string>
@@ -1349,7 +1416,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="sp_settings_check_item_title_wifi">Wi-Fi</string>
     <string name="sp_settings_check_item_title_root">Root</string>
     <string name="sp_settings_check_item_title_update">Systemoppdatering</string>
-    <string name="sp_settings_check_item_title_virus_exception">Virus-unntak</string>
+    <string name="sp_settings_check_item_title_virus_exception">Unntak</string>
     <string name="sp_settings_check_item_title_sign_exception">Signatur-unntak</string>
     <string name="sp_settings_check_item_summary_virus_exception">Administrer virus-unntak</string>
     <string name="sp_settings_check_item_summary_sign_exception">Behandle signatur-unntak</string>
@@ -1357,7 +1424,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="sp_empty_title_sign_exception">Hold appen for å legge den til unntak</string>
     <string name="sp_toast_removed_from_sign_white_list">Fjern fra unntak. Enheten vil bli skannet neste gang.</string>
     <string name="sp_network_privacy_dialog_title">Kan ikke bruke sikkerhetssøk</string>
-    <string name="sp_network_privacy_dialog_message">Sikkerhetsappen fungerer ikke riktig fordi du har begrenset internettilkobling. Tillate Sikkerhet å koble til Internett?</string>
+    <string name="sp_network_privacy_dialog_message">Sikkerhet fungerer ikke som den skal fordi du har begrenset internettilkobling. Tillate Sikkerhet å koble til internett?</string>
     <string name="sp_settings_exception_count_zero">Ingen elementer</string>
     <string name="sp_monitored_apps_count_zero">Ingen betalingsapper er beskyttet</string>
     <string name="monitor_app_more">Mer</string>
@@ -1385,8 +1452,6 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="btn_text_quick_scan">Skann</string>
     <string name="menu_text_antivirus">Sikkerhetsskanning</string>
     <string name="menu_summary_antivirus">Søk etter virus på enheten din</string>
-    <string name="menu_summary_antivirus_2">Potensielle risikoer er funnet</string>
-    <string name="menu_summary_antivirus_3">Har ikke skannet enheten</string>
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_summary_networkassistants">Administrer dataplanen din</string>
@@ -1395,24 +1460,25 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="menu_summary_networkassistants_4">I ferd med å gå tom for data</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_antispam">Blokkeringsliste</string>
     <string name="menu_summary_antispam">Blokker anrop og meldinger</string>
-    <string name="menu_summary_antispam_2">Blokkerte anrop og meldinger</string>
     <string name="menu_text_license_manager">Tillatelser</string>
     <string name="menu_text_garbage_cleanup">Renser</string>
     <string name="menu_summary_garbage_cleanup">Ingen papirkurv funnet</string>
-    <string name="menu_summary_garbage_cleanup_2">Størrelse på papirkurven</string>
-    <string name="menu_summary_garbage_cleanup_3">Fjern søppel</string>
-    <string name="menu_text_power_manager">Batterioptimalisering</string>
+    <string name="menu_summary_garbage_cleanup_ex">Fjern %s søppel</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
+    <string name="menu_text_power_manager">Batteri og ytelse</string>
     <string name="menu_summary_power_manager">Batterispareren gir deg mer tid mellom oppladingene</string>
     <string name="menu_summary_power_manager_1">Batteriet er fulladet</string>
     <string name="menu_summary_power_manager_2">%s gjenstår</string>
     <string name="menu_summary_power_manager_3">Koble til lader</string>
     <string name="menu_summary_power_manager_4">%s til fulladet</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="examination_score_100">Alt ser bra ut!</string>
     <string name="examination_score_80_100">Et par enheter kan optimaliseres</string>
@@ -1427,7 +1493,6 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="activity_title_power_manager">Batterioptimalisering</string>
     <string name="activity_title_garbage_cleanup">Renser</string>
     <string name="menu_summary_app_manager">Oppdater og avinstaller apper</string>
-    <string name="menu_summary_app_manager_2">Oppdateringer er tilgjengelig</string>
     <string name="memory_check_content">Frigjort %s</string>
     <string name="memory_clear_unused">Tøm cache (%s)</string>
     <string name="activity_title_virus">Virus</string>
@@ -1500,7 +1565,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="hints_virus_app_list_item_summary">app</string>
     <string name="hints_virus_apk_list_item_summary">apk</string>
     <string name="hints_loading_text">Laster…</string>
-    <string name="security_center_slogan">Sikkerhet. Alltid på vakt.</string>
+    <string name="security_center_slogan">Hold enheten rask og sikker</string>
     <string name="activity_title_auto_start_manager">Automatisk oppstart</string>
     <string name="activity_title_permission_manager">Tillatelser</string>
     <string name="activity_title_other_permission_manager">Andre tillatelser</string>
@@ -1526,6 +1591,8 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="permission_action_accept">Godta</string>
     <string name="permission_action_prompt">Gi beskjed</string>
     <string name="permission_action_reject">Avslå</string>
+    <string name="permission_action_always">Alltid tillat</string>
+    <string name="permission_action_foreground">Når du bruker appen</string>
     <string name="empty_title_permission_apps_list">Ingen apper.</string>
     <string name="old_sdk_deny_warning">"Appen er ikke kompatibel med de nyeste kravene til  Android-tillatelser. Nektede tillatelser kan påvirke måten denne appen fungerer på."</string>
     <string name="empty_title_root_apps">Ingen apper har rottilgang.</string>
@@ -1588,10 +1655,10 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="empty_title_manual_item_white_list">Ingen unntak</string>
     <string name="title_cloud_account">Mi-konto</string>
     <string name="summary_cloud_account">Få mest mulig ut av Mi-enheten din</string>
-    <string name="title_cloud_service">Mi Cloud</string>
+    <string name="title_cloud_service">Xiaomi Cloud</string>
     <string name="summary_cloud_service">Synkroniser bilder, kontakter og mer på tvers av alle enhetene dine</string>
     <string name="title_network_switch">Nettverksforbindelse</string>
-    <string name="summary_network_switch">La Security-appen koble seg til internett</string>
+    <string name="summary_network_switch">Tillat at Sikkerhet kobler til internett</string>
     <string name="title_power_optimizer">Batterisparer</string>
     <string name="summary_power_optimizer">Reduser enhetens ytelse når batterinivået er lavt</string>
     <string name="title_data_flow_monitor">Overvåking av databruk er på</string>
@@ -1702,7 +1769,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_privacy_dialog_title">Personvernerklæring</string>
     <string name="antivirus_privacy_dialog_summary">Denne funksjonen krypterer og laster opp enhetens ID til Avast, AVL og Tencents servere (%s).</string>
-    <string name="antivirus_privacy_dialog_summary_link">se personvernerklæring</string>
+    <string name="antivirus_privacy_dialog_summary_link">Personvernerklæring</string>
     <string name="antivirus_privacy_dialog_cloudscan">Last opp app-navn og detaljer</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Last opp og skan app-navn og detaljer ved hjelp av virusdefinisjoner fra nett.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
@@ -1712,7 +1779,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="antivirus_not_wlan">Du er ikke koblet til Wi-Fi. Bruk av mobildata kan generere ekstra gebyrer. Fortsette likevel?</string>
     <string name="antivirus_longtime_no_update">Ser ut som at virusdefinisjonene dine er gamle. Regelmessige oppdateringer bidrar til å få bedre skanningsresultater. Tillat Security å koble til internett og oppdatere virusdefinisjonerdefinitions?</string>
     <string name="antivirus_longtime_no_update1">Det ser ut til at virusdefinisjonene dine er gamle. Regelmessige oppdateringer bidrar til å få bedre skanningsresultater. Oppdater definisjoner og prøv igjen.</string>
-    <string name="antivirus_sec_network_unavailable">Security-appen kan ikke oppdatere fordi du har begrenset internett-tilkoblingen. Tillat Security å koble til internett?</string>
+    <string name="antivirus_sec_network_unavailable">Sikkerhet kan ikke oppdatere fordi du har begrenset internett-tilkoblingen. Tillate Sikkerhet å koble til internett?</string>
     <string name="antivirus_update_btn_contiue">Fortsett</string>
     <string name="antivirus_update_btn_open">Tillat</string>
     <string name="antivirus_update_btn_update">Oppdater</string>
@@ -1794,6 +1861,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1850,7 +1918,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="ac_enter_applock">Start App lock</string>
     <string name="ac_mask_all_apps">Skjul for alle apper</string>
     <string name="ac_unmask_all_apps">Vis for alle apper</string>
-    <string name="ac_summaryOn">Skrudd på, passord kreves for å åpne apper</string>
+    <string name="ac_summaryOn">Tast inn passord for å åpne beskyttede apper</string>
     <string name="ac_summaryOff">Skrudd av, passord ikke påkrevet for å åpne apper</string>
     <string name="lockpattern_tutorial_cancel_label">Avbryt</string>
     <string name="lockpattern_tutorial_continue_label">Neste</string>
@@ -1864,8 +1932,8 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="modifypassword">Endre passordtype</string>
     <string name="back_modifypassword">Gå tilbake til endre passordtype</string>
     <string name="showpattern">Vis mønster</string>
-    <string name="notification_mask_title">Skjul innhold</string>
-    <string name="notification_mask_summary">Skjul varselinnhold på låseskjermen og i meldingsskyggen</string>
+    <string name="notification_mask_title">Skjul varselinnhold</string>
+    <string name="notification_mask_summary">Ikke vis varselinnhold for beskyttede apper</string>
     <string name="convenient_mode">Lås opp alle apper samtidig</string>
     <string name="convenient_summary">Sriv inn passord for å låse opp alle apper</string>
     <string name="suggest_app_tolock">Forslag</string>
@@ -2075,7 +2143,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="app_manager_permission_power_saving_title">Batterisparer</string>
     <string name="app_manager_default_open_title">Tøm standarder</string>
     <string name="app_manager_default_close_summary">Ingen innstilte standarder</string>
-    <string name="app_manager_default_open_summary">Du’ve har valgt å starte denne appen i standardmodus for enkelte handlinger.</string>
+    <string name="app_manager_default_open_summary">Du har valgt å starte denne appen i standardmodus for enkelte handlinger.</string>
     <string name="app_manager_app_version_name">"Versjon: "</string>
     <string name="app_manager_unstall_application">Avinstaller</string>
     <string name="app_manager_force_stop_dlg_title">Tvunget stopp?</string>
@@ -2178,6 +2246,7 @@ Du mister ikke noe appdata."</string>
     <string name="app_manager_find_apps">Finn apper</string>
     <string name="app_manager_thumbnail_blur_title">Forhåndsvisninger av Blur app</string>
     <string name="app_manager_thumbnail_blur_summary">Forhåndsvisninger av Blur app i Nylige</string>
+    <string name="app_manager_power_consume">%.1f%%</string>
     <string name="ad_btn_default_text">Lær mer</string>
     <string name="open_activity_err">Applikasjonen ble ikke funnet</string>
     <string name="low_memory_warning_dialog_title">Ikke nok ledig plass</string>
@@ -2233,7 +2302,7 @@ Du mister ikke noe appdata."</string>
     <string name="already_close_gamebooster">Hastighetsøker for spill av</string>
     <string name="no_game">Fant ikke spill</string>
     <string name="gamebooster_network_dialog_title">Enkelte funksjoner er ikke tilgjengelig</string>
-    <string name="gamebooster_network_dialog_message">Tillat Security å koble til nettverk for å bruke alle funksjonen i Game speed booster?</string>
+    <string name="gamebooster_network_dialog_message">Tillate Sikkerhet å koble til nettverket for å bruke alle funksjonene i Spillturbo?</string>
     <string name="ask_create_shortcut">Lage en snarvei til Hjem-skjerm?</string>
     <string name="create_shortcut">Lag en Startskjerm med snarvei til Game speed booster</string>
     <string name="i_know">Skjønner</string>
@@ -2245,6 +2314,12 @@ Du mister ikke noe appdata."</string>
     <string name="gmscore_support_service">Grunnleggende Google-tjenester</string>
     <string name="gmscore_support_remind">Slå denne funksjonen på hvis du opplever problemer med bruk av Gmail, Google Maps og andre Google-apper. Det vil redusere batterilevetiden litt.</string>
     <string name="google_base_app_install_choice">Applikasjonen krever Google Services Framework for å virke normalt, laste ned og installere den?</string>
+    <string name="function_gwsd_title">Ikke tillat innkommende anrop å avbryte data-SIM-kort-tilkoblingen</string>
+    <string name="function_gwsd_detail">"Om denne funksjonen:
+ 1. Innkommende anrop til data-SIM-kortet ditt vil ikke avbryte mobildatatilkoblingen. Tilkoblingen blir bare avbrutt når du svarer på et anrop.
+ 2. Når denne funksjonen er på, vil ikke anroper høre venteringetoner. Innkommende anrop avsluttes hvis du ikke svarer innen 6 sekunder.
+ 3. Denne funksjonen fungerer bare for data-SIM-kort. Anrop til det primære SIM-kortet ditt avbryter mobildatatilkoblingen.
+ 4. Denne funksjonen støttes bare av China Mobile og China Unicom."</string>
     <string name="application_item_disable">Begrenset</string>
     <string name="application_item_already_permission">Tillatt</string>
     <string name="man_add_application">Legg til autostart-apper manuelt</string>
@@ -2377,6 +2452,7 @@ Du mister ikke noe appdata."</string>
     <string name="gamebox_display_3">Lys</string>
     <string name="gamebox_display_4">Lys &amp; mettet</string>
     <string name="gamebox_display_set">"Visuell forbedring: "</string>
+    <string name="gamebox_milink">Strøm</string>
     <string name="gb_first_window_title">Hastighetsøker for spill</string>
     <string name="gb_first_window_summary">Øk farten og ytelsen på systemnivå</string>
     <string name="gb_first_window_gamebox_summary_four">Tøm hurtigbufferen, og ta skjermopptak og skjermbilder</string>
@@ -2411,6 +2487,7 @@ Du mister ikke noe appdata."</string>
     <string name="gb_advance_settings_reset_dialog_content">Gjenopprett standardinnstillinger nå?</string>
     <string name="title_reply">Kommenter</string>
     <string name="title_like">Lik</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort pause.</string>
     <string name="video_repeat">Spill igjen</string>
@@ -2460,12 +2537,21 @@ Du mister ikke noe appdata."</string>
     <string name="function_shield_eye_shield">Deaktiver lesemodus</string>
     <string name="function_shield_three_finger">Begrens skjermbildebevegelser</string>
     <string name="function_shield_pull_notification_bar">Ikke åpne varselskygge</string>
+    <string name="function_shield_voice_trigger">Ikke aktiver Mi AI med stemme</string>
     <string name="choose_gs_show_way">Velg orientering på startside</string>
     <string name="gs_show_way">Orientering på startside</string>
     <string name="gs_show_way_horizontal">Horisontal</string>
     <string name="gs_show_way_vertical">Vertikal</string>
     <string name="gb_global_settings">Generelle innstillinger</string>
     <string name="gb_add_game_hint">Legg til elementer fra listen over apper</string>
+    <string name="gb_first_guide_title">Øk farten og ytelsen på systemnivå</string>
+    <string name="gb_first_guide_gamebox_des">Bruk snarveier når du spiller spill</string>
+    <string name="gb_first_guide_handsfree_des">Svar på anrop i bakgrunnen</string>
+    <string name="gb_first_guide_shortcut_des">En snarvei på startskjermen for Spillturbo er opprettet</string>
+    <string name="gb_first_guide_function_shiled_title">Deaktiver systemfunksjoner når Spillturbo er aktivert</string>
+    <string name="stop_milink_connect">Stoppet strømming</string>
+    <string name="other_milink_connect">Kan ikke strømme. En annen funksjon blir strømmet nå.</string>
+    <string name="alert_back_milink_hangup_tips_content">Strømming blir ikke avbrutt når du avslutter en samtale. Du kan trykke på Av/på-knappen for å aktivere skjermen.</string>
     <string name="notify_channel_name_security">Systemsikkerhet</string>
     <string name="privacy_apps_category_title">Skjulte apper</string>
     <string name="privacy_apps">Skjulte apper</string>
@@ -2480,6 +2566,12 @@ Du mister ikke noe appdata."</string>
     <string name="privacy_apps_checkbox_remind_choice">Ikke vis igjen</string>
     <string name="privacy_apps_go_to_use">Start</string>
     <string name="privacy_apps_close">Lukk</string>
+    <string name="privacy_apps_shield_message_title">Ikke vis varsler</string>
+    <string name="privacy_apps_shield_message_summary">Ikke vis varsler for beskyttede apper</string>
+    <string name="privacy_apps_begin_use">Start</string>
+    <string name="privacy_apps_next_stup">Neste</string>
+    <string name="privacy_apps_button_know">Skjønner</string>
+    <string name="privacy_apps_tutorial_dlg_title">Slik finner du skjulte apper</string>
     <string name="first_aid_stop_scan">Stopp skanning</string>
     <string name="first_aid_scanning_item1">Ser etter ytelsesproblemer…</string>
     <string name="first_aid_scanning_item2">Ser etter nettverksproblemer…</string>
@@ -2552,6 +2644,55 @@ Alle dataene på enheten din kan slettes, og passordet til den låste skjermen d
     <string name="third_desktop_dialog_content">Da starterapper fra tredjeparter kan resultere i problemer som datalekkasje, unormal batteriutlading, treghet osv., kan bare de som er verifiserte av MIUI angis som standard.</string>
     <string name="third_desktop_dialog_ok">Skjønner</string>
     <string name="user_guide">Sveip opp for å oppdage flere nye spill</string>
+    <string name="system_permission_declare_main_purpose" formatted="false">Velkommen til %1s! Denne appen lar deg bruke følgende funksjon: %2s.</string>
+    <string name="system_permission_declare_privacy_declare">Vi respekterer og beskytter personvernet ditt. Merk at %1s må innhente dataene dine og krever følgende tillatelser for å fungere som normalt:</string>
+    <string name="system_permission_declare_analytics_declare">Takk for at du meldte deg inn i vårt Brukeropplevelsesprogram. Enheten må være koblet til internett for at denne funksjonen skal fungere som den skal. Du må også gi følgende tillatelser for at vi skal kunne samle inn dataene som vil hjelpe oss med å forbedre produktene og tjenestene våre. Dataene samles kun inn for statistiske formål. Vi vil ikke kunne bruke disse dataene til å identifisere deg personlig.</string>
+    <string name="system_permission_declare_privacy_no_permission">Merk at %1s må innhente dataene dine for å fungere som normalt. Vi respekterer og beskytter personvernet ditt.</string>
+    <string name="system_permission_declare_use_network">Koble til nettverk</string>
+    <string name="system_permission_declare_use_network_no_permission">Koble til nettverket</string>
+    <string name="system_permission_declare_no_say_no">Hvis du ikke ønsker å innvilge de nødvendige tillatelsene eller ikke vil la oss innhente og bruke dine data vil ikke denne applikasjonen fungere skikkelig.</string>
+    <string name="system_permission_declare_no_say_no_analytics">Hvis du ikke ønsker å gi disse tillatelsene, kan du melde deg av under innstillinger > Tilleggsinnstillinger > Personvern > Brukeropplevelsesprogram.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Hvis du ikke ønsker å innvilge de nødvendige tillatelsene eller ikke vil la oss innhente og bruke dataene dine, vil ikke denne appen fungere skikkelig.</string>
+    <string name="system_permission_declare_revoke_uninstallable">Du kan logge ut og avinstallere denne appen, eller tilbakekalle autorisasjonen din under Sikkerhet > Behandle apper > Tillatelser > Tillatelser.</string>
+    <string name="system_permission_declare_revoke_system">Du kan avslutte denne appen.</string>
+    <string name="system_permission_declare_double_link">&lt;Data>Les og aksepter vår &lt;a href=\"%1$s\">Brukeravtale&lt;/a> og &lt;a href=\"%2$s\">Personvernerklæring&lt;/a> før du bruker denne funksjonen.&lt;/Data></string>
+    <string name="system_permission_declare_user_agreement">&lt;Data>Les og aksepter &lt;a href=\"%1$s\">brukeravtalen&lt;/a> vår før du bruker denne funksjonen.&lt;/Data></string>
+    <string name="system_permission_declare_privacy_policy">&lt;Data>Les og aksepter &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du bruker denne funksjonen.&lt;/Data></string>
+    <string name="system_permission_declare_agree">Godta</string>
+    <string name="system_permission_declare_disagree">Uenig</string>
+    <string name="system_permission_perm_send_mms">Send MMS</string>
+    <string name="system_permission_perm_read_mms">Les MMS</string>
+    <string name="system_permission_perm_answer_call">Utfør samtale</string>
+    <string name="system_permission_perm_read_numbers">Les telefonummer</string>
+    <string name="permgroupdesc_contacts">Tilgang til kontakter</string>
+    <string name="permgroupdesc_location">Tilgang til plasseringsinfo</string>
+    <string name="permgroupdesc_calendar">Tilgang til kalenderhendelser</string>
+    <string name="permgroupdesc_sms">Les eller send SMS</string>
+    <string name="permgroupdesc_storage">Tilgang til bilder eller filer på enheten</string>
+    <string name="permgroupdesc_microphone">Spill inn lyd</string>
+    <string name="permgroupdesc_camera">Ta bilder og spille inn videoer</string>
+    <string name="permgroupdesc_calllog">Tilgang til og lagre elementer i anropslogg</string>
+    <string name="permgroupdesc_phone">Utføre anrop og håndtere samtaler</string>
+    <string name="permgroupdesc_sensors">Tilgang til kroppssensordata</string>
+    <string name="permgroupdesc_recognition">Tilgang til helse- og aktivitetsdata</string>
+    <string name="phone_manage">Verktøy</string>
+    <string name="securitycenter_tab_title">Sikkerhet</string>
+    <string name="phone_manage_system_tool_title">Verktøy</string>
+    <string name="phone_manage_system_tool_summary">Nyttige verktøy på systemnivå</string>
+    <string name="phone_manage_clean_title">Renser</string>
+    <string name="phone_manage_clean_summary">Frigjør lagringsplass</string>
+    <string name="phone_manage_app_manager_summary">Behandle apper på enheten din</string>
+    <string name="phone_manage_electric_title">Batteri</string>
+    <string name="phone_manage_electric_summary">Optimaliser enheten for å spare batteri</string>
+    <string name="phone_manage_special_title">Spesielle funksjoner</string>
+    <string name="phone_manage_special_summary">Finn ut mer om tilleggsfunksjonene våre</string>
+    <string name="system_tool_green_guard">Familievakt</string>
+    <string name="system_tool_sos">Nødsituasjon-SOS</string>
+    <string name="power_save_mode">Batterisparer</string>
+    <string name="power_save_settings">Batteriinnstillinger</string>
+    <string name="banner_optimizemanage_summary">Frigjør minne</string>
+    <string name="banner_red_money_assist_summary">Åpne røde konvolutter raskere</string>
+    <string name="banner_red_money_assist_button">Aktiver</string>
     <string name="resource_securitycenter_settings">Sikkerhet</string>
     <string name="keywords_securitycenter_settings">Batteribruk;Administrer autostart;Installer via USB;Apptillatelser;Kjøp mobildata;Blokkeringsliste;Databruk;Kalibrere dataplan;Test nettverk; Spar batteri;Varme;Slå på;Slå av;Batteri;Tømming;Batteriproblemer;Energi;Batterisparer;Enerisparer;Energisparing;Batterisparing; Autostart;Tillatelser;Auto start;MIUI autostart; App autostart; autostart apper;Kjedestart;kjeded oppstart;utløst start; USB installere;installere fra datamaskin;ADB installere; Plassering;Tilgang til kontakter; data;mobildata;kjøp data;fyll på data;dataplan; Blokker;Svartelist;Smart blokkeringsliste;Svindel;Salg;Agenter;Anrop blokkeringslist;Melding blokkeringsliste;Meldinger blokkeringsliste;SMS blokkeringsliste;svarteklister;bsvarteliste;blokkeringsliste;blokkering liste;svindel;blokker kontakt;blokker kontakter; Trafikk; Kalibrere; Forbindelse;Internett;Test; Batteribruk;Batterioptimalisering;Strømforbruk; Spill;hastighetsøker;Glory of the king;Ytelsesmodus;DND</string>
     <string name="path_securitycenter_settings">Systemapper/Sikkerhet</string>

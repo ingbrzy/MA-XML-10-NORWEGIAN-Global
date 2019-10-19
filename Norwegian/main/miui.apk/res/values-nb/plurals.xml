@@ -5,11 +5,11 @@
         <item quantity="one">%d element valgt</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="other">Akkurat nå</item>
+        <item quantity="other">Just now</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Akkurat nå</item>
+        <item quantity="other">Just now</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">

@@ -26,13 +26,16 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="other_settings_user_experience_summary_index">Vis detaljer</string>
     <string name="other_settings_upload_debug_log_title">Send diagnosedata automatisk</string>
     <string name="other_settings_upload_debug_log_summary">Bruksstatistikk som hjelper oss med å finne og løse problemer kan inneholde dine personlige opplysninger</string>
-    <string name="other_settings_auto_update">Oppdater automatisk</string>
-    <string name="other_settings_auto_update_summary">MIUI vil velge beste tidspunkt for å installere oppdateringer</string>
-    <string name="other_settings_ad_enable">Tilpasset annonseanbefaling</string>
-    <string name="other_settings_ad_enable_summary">Motta personlig tilpassede annonser basert på atferdsdataene dine</string>
+    <string name="other_settings_auto_update">Automatiske systemoppdateringer</string>
+    <string name="other_settings_auto_update_summary">MIUI velger det beste tidspunktet å laste ned og installere oppdateringer på. Enheten startes på nytt automatisk for å ta i bruk endringene.</string>
+    <string name="other_settings_ad_enable">Tilpassede annonser</string>
+    <string name="other_settings_ad_enable_summary">Tilpassede annonser etter dine interesser</string>
+    <string name="other_settings_ad_disable_summary">Skru på tilpassede annonser</string>
+    <string name="other_settings_ad_dialog_content">Etter at du skrur av denne funksjonen, vil du ikke lenger motta tilpassede annonser. Du vil likevel fremdeles motta annonser uavhengig av dine interesser. Du kan finne ut mer om tilpassede annonser i Xiaomis Personvernerklæring. Skru på tilpassede annonser likevel?</string>
     <string name="other_settings_enhanced_lockscreen">Bakgrunnskarusell</string>
-    <string name="other_settings_enhanced_lockscreen_summary">Få kuraterte bilder og historier levert på din låste skjerm hver dag. Betingelser og vilkår gjelder.</string>
-    <string name="other_settings_enhanced_lockscreen_summary_index">Vilkår og betingelser</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Få organiserte bilder og historier levert til låseskjermen daglig. %1$s og %2$s</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Lisensavtale for sluttbrukere</string>
+    <string name="other_settings_enhanced_lockscreen_privacy_index">Retningslinjer for personvern</string>
     <string name="back">Tilbake</string>
     <string name="next">Neste</string>
     <string name="skip_underline">Hopp over dette trinnet</string>
@@ -51,12 +54,17 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="terms_of_use_label">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk av tjenesten og personvernerklæringen for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg.
 
 Du må samtykke i våre vilkår for bruk av tjenesten og personvernerklæringen før du kan bruke MIUI. %s og Mi Account-komponentene vil kobles til internett og hente plasseringen din."</string>
-    <string name="terms_of_use_lable_apps">Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn min enhet, Hjemskjerm, Game center, MAB, MIUI Daemon og MSA-systemkomponenter, oversettingstjenester, Quick apps, App vault, statistikk, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, translation services, Quick apps, App vault, statistics, Mi Link</string>
+    <string name="terms_of_use_label_mab">, MAB</string>
+    <string name="terms_of_use_label_Mistore">, Mi Store system plug-in</string>
     <string name="terms_of_use_lable_gms">, Google Play-tjenester</string>
     <string name="terms_of_use_label_systemhelper">, selvregistrert tjeneste</string>
+    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTMLViewer</string>
     <string name="terms_of_use_lable_smart_cards">, smartkort</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
     <string name="terms_of_use_label_updater">, Oppdater</string>
+    <string name="terms_of_use_label_package">, Packageinstaller</string>
+    <string name="terms_of_use_label_phrase">, Frequent phrases</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du må samtykke i vår Facemoji-personvernpolicy før du bruker denne funksjonen."</string>
@@ -88,7 +96,7 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Bruk fingeravtrykket ditt til å låse opp enheten din eller for å logge inn på apper og tjenester.</string>
     <string name="content_description_start">Start</string>
-    <string name="start_up_slogan">Designet for full skjerm-opplevelse</string>
+    <string name="start_up_slogan">Livet blir enklere</string>
     <string name="content_description_miui_version">MIUI 10</string>
     <string name="content_description_complete">Fullført</string>
     <string name="language_picker_other_languages_title">Flere språk</string>

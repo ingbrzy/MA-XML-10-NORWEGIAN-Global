@@ -3,12 +3,12 @@
     <string-array name="aquarius_info">
         <item>aquarius</item>
         <item>Vannmannen</item>
-        <item>20.1 - 18.2</item>
+        <item>20/1 - 18/2</item>
     </string-array>
     <string-array name="aries_info">
         <item>aries</item>
         <item>Væren</item>
-        <item>21.3 - 19.4</item>
+        <item>21/3 - 19/4</item>
     </string-array>
     <string-array name="bundesliga">
         <item>2</item>
@@ -17,12 +17,12 @@
     <string-array name="cancer_info">
         <item>cancer</item>
         <item>Krepsen</item>
-        <item>22.6 - 22.7</item>
+        <item>22/6 - 22/7</item>
     </string-array>
     <string-array name="capricorn_info">
         <item>capricorn</item>
         <item>Steinbukken</item>
-        <item>22.12 - 19.1</item>
+        <item>22/12 - 19/1</item>
     </string-array>
     <string-array name="change_response_labels">
         <item>Kun denne hendelsen</item>
@@ -81,10 +81,14 @@
         <item>Denne, og fremtidige hendelser</item>
         <item>Alle hendelser</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>Tvillingene</item>
-        <item>21.5 - 21.6</item>
+        <item>21/5 - 21/6</item>
     </string-array>
     <string-array name="la_liga">
         <item>3</item>
@@ -93,21 +97,30 @@
     <string-array name="leo_info">
         <item>leo</item>
         <item>Løven</item>
-        <item>23.7 - 22.8</item>
+        <item>23/7 - 22/8</item>
     </string-array>
     <string-array name="libra_info">
         <item>libra</item>
         <item>Vekten</item>
-        <item>23.9 - 23.10</item>
+        <item>23/9 - 23/10</item>
     </string-array>
     <string-array name="ligue_1">
         <item>5</item>
         <item>Ligue 1</item>
     </string-array>
+    <string-array name="panchang_weeks">
+        <item>Søndag</item>
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+    </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
         <item>Fiskene</item>
-        <item>19.2 - 20.3</item>
+        <item>19/2 - 20/3</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>
@@ -204,6 +217,43 @@
         <item>måned</item>
         <item>år</item>
     </string-array>
+    <string-array name="repeat_monthly_on_day_count_values">
+        <item>første mandag</item>
+        <item>første tirsdag</item>
+        <item>første onsdag</item>
+        <item>første torsdag</item>
+        <item>første fredag</item>
+        <item>første lørdag</item>
+        <item>første søndag</item>
+        <item>andre mandag</item>
+        <item>andre tirsdag</item>
+        <item>andre onsdag</item>
+        <item>andre torsdag</item>
+        <item>andre fredag</item>
+        <item>andre lørdag</item>
+        <item>andre søndag</item>
+        <item>tredje mandag</item>
+        <item>tredje tirsdag</item>
+        <item>tredje onsdag</item>
+        <item>tredje torsdag</item>
+        <item>tredje fredag</item>
+        <item>tredje lørdag</item>
+        <item>tredje søndag</item>
+        <item>fjerde mandag</item>
+        <item>fjerde tirsdag</item>
+        <item>fjerde onsdag</item>
+        <item>fjerde torsdag</item>
+        <item>fjerde fredag</item>
+        <item>fjerde lørdag</item>
+        <item>fjerde søndag</item>
+        <item>siste mandag</item>
+        <item>siste tirsdag</item>
+        <item>siste onsdag</item>
+        <item>siste torsdag</item>
+        <item>siste fredag</item>
+        <item>siste lørdag</item>
+        <item>siste søndag</item>
+    </string-array>
     <string-array name="response_labels1">
         <item>Ingen respons</item>
         <item>Ja</item>
@@ -213,12 +263,12 @@
     <string-array name="sagittarius_info">
         <item>sagittarius</item>
         <item>Skytten</item>
-        <item>23.11 - 21.12</item>
+        <item>23/11 - 21/12</item>
     </string-array>
     <string-array name="scorpio_info">
         <item>scorpio</item>
         <item>Skorpionen</item>
-        <item>24.10 - 22.11</item>
+        <item>24/10 - 22/11</item>
     </string-array>
     <string-array name="serie_a">
         <item>1</item>
@@ -227,7 +277,7 @@
     <string-array name="taurus_info">
         <item>taurus</item>
         <item>Tyren</item>
-        <item>20.4 - 20.5</item>
+        <item>20/4 - 20/5</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshalløyene</item>
@@ -327,7 +377,7 @@
     <string-array name="virgo_info">
         <item>virgo</item>
         <item>Jomfruen</item>
-        <item>23.8 - 22.9</item>
+        <item>23/8 - 22/9</item>
     </string-array>
     <string-array name="week_header_name">
         <item>SØN</item>
@@ -341,42 +391,5 @@
     <string-array name="widget_style_list">
         <item>Gjennomsiktig</item>
         <item>Hvit bakgrunn</item>
-    </string-array>
-    <string-array name="repeat_monthly_on_day_count_values">
-        <item>første mandag</item>
-        <item>første tirsdag</item>
-        <item>første onsdag</item>
-        <item>første torsdag</item>
-        <item>første fredag</item>
-        <item>første lørdag</item>
-        <item>første søndag</item>
-        <item>andre mandag</item>
-        <item>andre tirsdag</item>
-        <item>andre onsdag</item>
-        <item>andre torsdag</item>
-        <item>andre fredag</item>
-        <item>andre lørdag</item>
-        <item>andre søndag</item>
-        <item>tredje mandag</item>
-        <item>tredje tirsdag</item>
-        <item>tredje onsdag</item>
-        <item>tredje torsdag</item>
-        <item>tredje fredag</item>
-        <item>tredje lørdag</item>
-        <item>tredje søndag</item>
-        <item>fjerde mandag</item>
-        <item>fjerde tirsdag</item>
-        <item>fjerde onsdag</item>
-        <item>fjerde torsdag</item>
-        <item>fjerde fredag</item>
-        <item>fjerde lørdag</item>
-        <item>fjerde søndag</item>
-        <item>siste mandag</item>
-        <item>siste tirsdag</item>
-        <item>siste onsdag</item>
-        <item>siste torsdag</item>
-        <item>siste fredag</item>
-        <item>siste lørdag</item>
-        <item>siste søndag</item>
     </string-array>
 </resources>

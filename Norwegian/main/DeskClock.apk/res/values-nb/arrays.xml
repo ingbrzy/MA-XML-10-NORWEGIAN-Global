@@ -25,7 +25,7 @@
         <item>Tilpasset</item>
     </string-array>
     <string-array name="alarm_set">
-        <item>Alarmen vil gå av om under 1 minutt.</item>
+        <item>Alarmen vil gå av om mindre enn 1 minutt.</item>
         <item>Alarmen vil gå av om %1$s.</item>
         <item>Alarmen vil gå av om %2$s.</item>
         <item>Alarmen vil gå av om %1$s og %2$s.</item>

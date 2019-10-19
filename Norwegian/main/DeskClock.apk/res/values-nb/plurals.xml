@@ -32,6 +32,22 @@
         <item quantity="other">%d sekunder</item>
         <item quantity="one">%d sekund</item>
     </plurals>
+    <plurals name="snooze_duration_changed_info">
+        <item quantity="other">Endret slumreintervall til %d minutter</item>
+        <item quantity="one">Endret slumreintervall til %d minutt</item>
+    </plurals>
+    <plurals name="snooze_duration_count">
+        <item quantity="other">Gå av %1$s ganger</item>
+        <item quantity="one">Gå av %1$s gang</item>
+    </plurals>
+    <plurals name="snooze_duration_desc">
+        <item quantity="other">Hvert %1$s min, gå av %2$s ganger</item>
+        <item quantity="one">Hvert %1$s min, gå av %2$s gang</item>
+    </plurals>
+    <plurals name="snooze_duration_min">
+        <item quantity="other">Hvert %1$s min</item>
+        <item quantity="one">Hvert %1$s min</item>
+    </plurals>
     <plurals name="snooze_duration_summary">
         <item quantity="other">Alarmen vil gå av %2$s ganger (%1$s min. hver)</item>
         <item quantity="one">Alarmen vil gå av %2$s gang (%1$s min.)</item>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_weather_setting">Om Vær</string>
+    <string name="about_weather_setting_feedback">Tilbakemelding</string>
+    <string name="abrupt_weather_settings_summary_type">Motta varsler om forventet nedbør, endringer i luftkvalitet og andre betydelige endringer</string>
     <string name="act_find_city_hint">Skriv inn sted</string>
     <string name="act_find_city_hot_attractions_title">Populære steder</string>
     <string name="act_find_city_hot_city_title">Populære byer</string>
@@ -29,6 +32,8 @@
     <string name="add_city">Legg til</string>
     <string name="alert_detail_title">Varseldetaljer</string>
     <string name="alert_warning">Værvarsel</string>
+    <string name="alert_weather_enable_settings_summary">Motta offisielle væradvarsler</string>
+    <string name="alert_weather_enable_settings_title">Væradvarsler</string>
     <string name="already_voted_toast">Du har allerede stemt i dag</string>
     <string name="app_name">Vær</string>
     <string name="aqi_data_source">Drevet av Colorful Clouds</string>
@@ -96,14 +101,17 @@
     <string name="daily_forecast_add_city_message">Følg været i %1$s for en mer detaljert prognose.</string>
     <string name="daily_forecast_add_city_title">Følg været i %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente værinfo
 Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="data_provided_by">Data delvis levert av</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Oppdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke koble til nettverket</string>
     <string name="empty_view_refresh">Prøv igjen</string>
     <string name="eu_region_version_first_start_network_msg">Ved å bruke dette produktet, godtar du at dette produktet vil koble til nettverket, samle inn, behandle og bruke din personlige informasjon, inkludert koordinatene til byene du søker, og andre typer data som er angitt i vår personvernerklæring. Les vår personvernerklæring for å lære mer om hvordan vi samler inn og behandler informasjon. Ved å trykke på \"Godta\", godtar du Xiaomis %1$s og %2$s.</string>
+    <string name="feedback">Rapporter feil værinformasjon</string>
     <string name="feedback_cloudy">Skyet</string>
     <string name="feedback_foggy">Tåke</string>
     <string name="feedback_haze">Dis</string>
@@ -112,12 +120,16 @@ Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="feedback_overcast">Overskyet</string>
     <string name="feedback_report_privacy_msg">Rapporten vil inneholde informasjon om beliggenheten din</string>
     <string name="feedback_result_fail_no_choice">Velg gjeldende værforhold</string>
+    <string name="feedback_result_fail_no_reason">Takk for tilbakemeldingen din!</string>
+    <string name="feedback_result_fail_same_type">Ser ut som rapporten din ikke er ulik det nåværende været. Prøv igjen.</string>
     <string name="feedback_result_success">Innsendingen var vellykket, takk for tilbakemeldingen.</string>
     <string name="feedback_sandy">Sandete</string>
     <string name="feedback_sunny">Klart</string>
     <string name="first_start_network_title">Internettilkobling og tilgang til stedstjeneste</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nå</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s%2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timers værvarsel</string>
     <string name="hourly_forecast_title_hourly_desc">Timesvarsel</string>
@@ -133,11 +145,15 @@ Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="indices_title_feel">Føles som</string>
     <string name="indices_title_pressure">Trykk</string>
     <string name="install">Installer</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">TRYKK</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til å regne</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="locate_fail_detail_err">"Finner ikke enheten
 Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="location_provider_btn_text">Skru på stedtjenester</string>
@@ -160,7 +176,7 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="more_details">Flere detaljer</string>
     <string name="network_not_available">Kan ikke koble til nettverket</string>
     <string name="network_unavailable">Kan ikke koble til nettverket.</string>
-    <string name="night_not_disturb_settings_summary">Sett varsler på stille mellom 23:00 og 07:00</string>
+    <string name="night_not_disturb_settings_summary">Blokker varsler mellom kl. 23:00 og kl. 7:00</string>
     <string name="night_not_disturb_settings_title">Ikke forstyrr om natten</string>
     <string name="no_data">Ingen data</string>
     <string name="no_network_btn">Prøv igjen</string>
@@ -219,6 +235,7 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI-værr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke ta skjermbilde</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timersvarsel</string>
@@ -226,6 +243,7 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="some_where_on_earth">Et sted på jorden</string>
     <string name="sunrise">Soloppgang</string>
     <string name="sunset">Solnedgang</string>
+    <string name="temperature_normal_unit">%1$s°</string>
     <string name="temperature_unit_C">%1$s℃</string>
     <string name="temperature_unit_F">%1$s℉</string>
     <string name="title_share_link">Del lenke</string>
@@ -265,6 +283,8 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="view_forecast_item_yesterday">I går</string>
     <string name="view_indexes_item_today">I dag</string>
     <string name="view_indexes_item_tommorrow">I morgen</string>
+    <string name="warning_weather_day_and_night_settings_summary">Motta daglige sammendrag som inneholder værinformasjon kl. 7:00 og kl. 19:00.</string>
+    <string name="warning_weather_day_and_night_settings_title">Daglige sammendrag</string>
     <string name="weather_alert_channel_name">Varsler</string>
     <string name="weather_introduce">Alltid med deg, regn eller sol.</string>
     <string name="weather_permission_agree">Aksepter</string>

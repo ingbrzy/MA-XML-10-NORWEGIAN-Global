@@ -16,7 +16,7 @@
     <string name="cannot_change_frames">Bildefrekvensen kan bare tilpasses for opptak med faste bildefrekvenser.</string>
     <string name="cannot_change_parames">Kunne ikke endre parametre under opptak</string>
     <string name="cannot_record">Kunne ikke ta opp. Prøv igjen senere.</string>
-    <string name="close_screen_record">Stopped recording</string>
+    <string name="close_screen_record">Stoppet opptak</string>
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
@@ -26,8 +26,8 @@
     <string name="error_open_file_failed_no_app_found">Fant ikke app til å åpne denne filen</string>
     <string name="first_using_mic_dialog_message">Skjermopptaker behøver tilgang til din mikrofon for å ta opp lyd. Tillat?</string>
     <string name="first_using_mic_dialog_title">Nødvendig med tillatelse</string>
-    <string name="fixed_frame_rate">Fixed frame rate</string>
-    <string name="fixed_frame_rate_summary">Recording videos with fixed frame rate enhances playback on social media platforms and reduces battery life.</string>
+    <string name="fixed_frame_rate">Fast bildefrekvens</string>
+    <string name="fixed_frame_rate_summary">Å ta opp bilder med fast bildefrekvens forbedrer avspillingen på sosiale media-plattformer og reduserer batteritiden.</string>
     <string name="frames">Bildefrekvens</string>
     <string name="frames_summary">Høyere bildefrekvens øker bevegelsesskarpheten</string>
     <string name="frequently_click_toast">Et øyeblikk…</string>
@@ -39,9 +39,9 @@
     <string name="hint_volume_down">Senk volum</string>
     <string name="hint_volume_up">Øk volum</string>
     <string name="home_title_none">Velg elementer</string>
-    <string name="is_checked">Selected</string>
-    <string name="is_go_home">Go back to Screen recorder</string>
-    <string name="is_go_home_summary">"Open Screen recorder's start page after you stop recording"</string>
+    <string name="is_checked">Valgt</string>
+    <string name="is_go_home">Gå tilbake til skjermopptaker</string>
+    <string name="is_go_home_summary">Åpne skjermopptakerens startside etter du stopper opptaket</string>
     <string name="loopback_sound">Høyttaler</string>
     <string name="low_battery">Lad telefonen din før du starter opptak</string>
     <string name="low_battery_title">Lav batterikapasitet</string>
@@ -58,6 +58,7 @@
     <string name="operation_send">Send</string>
     <string name="permission_intro_microphone">For å ta opp lyd når lydkilden er satt til mikrofonen</string>
     <string name="permission_intro_storage">For å lagre skjermopptak</string>
+    <string name="permission_microphone_desc">Bruke mikrofonen som lydkilde for skjermopptak</string>
     <string name="quit_recording">Avslutt Skjermopptaker</string>
     <string name="recording_failure">Kunne ikke ta opp. Start på nytt</string>
     <string name="recording_max_size">Opptak ble stanset og lagret fordi videofilen nådde størrelsesgrensen. Start opptaket fra der du slapp hvis du ikke er ferdig.</string>
@@ -69,7 +70,9 @@
     <string name="screen_record_option">Opptaksalternativer</string>
     <string name="screen_record_params">Opptaksparametre</string>
     <string name="select_all">Velg alle</string>
-    <string name="settings">Settings</string>
+    <string name="settings">Innstillinger</string>
+    <string name="settings_other">Annet</string>
+    <string name="settings_privacy">Personvernerklæring</string>
     <string name="show_hard_key">Visualiser navigeringsknapper</string>
     <string name="show_hard_key_summary">Vis beskjeder når du trykker på Hjem-, Meny- og Tilbake-knappene</string>
     <string name="show_screen_touch">Vis berøringsbevegelser</string>
@@ -87,10 +90,10 @@
     <string name="stop_record_while_locking">Lås skjerm for å avslutte</string>
     <string name="stop_record_while_locking_summary">Avslutt opptak og lagre video når skjermen låses</string>
     <string name="stop_recording">Stopp opptak</string>
-    <string name="storage_location">Storage</string>
-    <string name="storage_location_summary">Select your preferred storage option</string>
+    <string name="storage_location">Lagring</string>
+    <string name="storage_location_summary">Velg ditt foretrukne lagringsvalg</string>
     <string name="timer_format">%s</string>
-    <string name="unchecked">Not selected</string>
+    <string name="unchecked">Ikke valgt</string>
     <string name="using_record_confirm_cancel">Begrense</string>
     <string name="using_record_confirm_ok">Tillat</string>
     <string name="warning_recording_when_a2dp_connect">Enheten din støtter ikke opptak av systemlyder mens Bluetooth-hodetelefonene er i bruk.</string>

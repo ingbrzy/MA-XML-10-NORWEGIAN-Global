@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Gå til startsiden</string>
-    <string name="abc_action_bar_home_description_format">%1$s – %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s – %2$s – %3$s</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
@@ -10,6 +8,16 @@
     <string name="abc_activitychooserview_choose_application">Velg en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meny+</string>
     <string name="abc_search_hint">Søk …</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
     <string name="abc_searchview_description_query">Søkeord</string>
@@ -26,7 +34,11 @@
     <string name="accessibility_shutter_button">Lukker</string>
     <string name="action_search">Søk</string>
     <string name="address">Adresse:</string>
+    <string name="agree_app_use">Skanning av QR-koder og gjenkjenning av dem på andre bilder</string>
     <string name="agree_btn">Godta</string>
+    <string name="agree_camera_permission">For å ta bilder og spille inn videoer</string>
+    <string name="agree_storage_permission">For tilgang til bilder og filer lagret på enheten</string>
+    <string name="always">Alltid</string>
     <string name="amazon_assistant_shopping_title">Søk i Amazon</string>
     <string name="app_description_content">Skanner lar deg skanne QR-koder, dokumenter, visittkort og mer. Vær sikker på at du kan klare deg uten disse funksjonene før du avinstallerer appen.</string>
     <string name="app_description_title">Om Skannner</string>
@@ -47,8 +59,10 @@
     <string name="call_anyone">Ring</string>
     <string name="camera_error_title">Kamerafeil</string>
     <string name="cancel">Avbryt</string>
+    <string name="choose_open_code_app">Velg en app</string>
     <string name="choose_pay_title">Velg betalingsmetode</string>
     <string name="choose_picture">Velg QR-kodebilde</string>
+    <string name="close_hotspot_when_connecting_to_wifi">Hotspot er aktivert. Aktiver Wi-Fi.</string>
     <string name="common_retake_picture">Ta på nytt</string>
     <string name="common_retry">Prøv igjen</string>
     <string name="common_save">Lagre</string>
@@ -96,12 +110,14 @@
     <string name="feed_search_fail">Ingen resultat, prøv på nytt</string>
     <string name="feedback_description_camera_access">Skanneren kan ikke koble til kameraet</string>
     <string name="feedback_description_save_photo">Kunne ikke lagre bilde eller video</string>
+    <string name="flight_mode_connecting_to_wifi">Aktiver Wi-Fi manuelt når flymodus er aktivert</string>
     <string name="got_it">Skjønner</string>
     <string name="gps">Naviger</string>
     <string name="import_contact">Importer kontakt</string>
-    <string name="impunity_declaration_content">Skanneren må bruke kameraet ditt og behandle bildene du tar mens du bruker appen. Ikke bruk skanneren for å ta bilder av ting som inneholder personlige opplysninger om deg. Ved å trykke på \"Enig\", samtykker du i vår &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\" style=\"color:#ff32b4ff;\">Personvernerklæring&lt;/a>&lt;/font> og tillater at skanneren kobles til internettet.</string>
+    <string name="impunity_declaration_content">Skanneren må bruke kameraet ditt og behandle bildene du tar mens du bruker appen. Ikke bruk skanneren for å ta bilder av ting som inneholder personlige opplysninger om deg. Ved å trykke på «Godta», samtykker du i &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://privacy.mi.com/all/%1$s\" style=\"color:#ff32b4ff;\">personvernerklæringen&lt;/a>&lt;/font> vår og tillater at skanneren kobler til internett.</string>
     <string name="impunity_declaration_negative_text">Avslutt</string>
     <string name="impunity_declaration_title">Personvernerklæring</string>
+    <string name="jd_shopping_title">Søk på JD</string>
     <string name="label_choose_picture">Velg bilde</string>
     <string name="label_flash_light">Varsellys</string>
     <string name="language_entry_chinese_cn">Forenklet kinesisk</string>
@@ -135,6 +151,7 @@
     <string name="not_insert_contact">Kan ikke legge til kontakt</string>
     <string name="not_recommend_access_web_url">Gå likevel</string>
     <string name="note">Merknad:</string>
+    <string name="once">Bare én gang</string>
     <string name="open_url">Åpne URL</string>
     <string name="pay_no_tip">Ikke vis igjen</string>
     <string name="pay_save_this_choose">Husk valget mitt</string>
@@ -161,6 +178,7 @@
     <string name="setting_alipay">Alipay</string>
     <string name="setting_choose_every_time">Spør hver gang</string>
     <string name="setting_default_function">Standardfunksjon</string>
+    <string name="setting_function_sort">Omorganiser funksjoner</string>
     <string name="setting_preference_pay">Foretrukket betalingsmetode</string>
     <string name="setting_title">Innstillinger</string>
     <string name="setting_use_last_choose">Husk det forrige valget</string>
@@ -177,7 +195,9 @@
     <string name="switch_open">Slå på</string>
     <string name="tel">Telefon</string>
     <string name="title">Tittel:</string>
+    <string name="to_install_title">Denne QR-koden videresender deg til en app som ikke er installert. Laste ned appen nå?</string>
     <string name="to_pay">Fullfør betalingen</string>
+    <string name="toinstall">Last ned</string>
     <string name="translate_auto_lock">Lås oversettelsen</string>
     <string name="translate_auto_unlock">Lås opp oversettelsen</string>
     <string name="translate_copy_success">Kopiert</string>
@@ -216,9 +236,11 @@
     <string name="website_details">Nettsted:</string>
     <string name="weixin_code_tip">Skann denne QR-koden ved bruk av WeChat</string>
     <string name="wifi_details">Wi-Fi:</string>
-    <string name="wifi_exist_fail">Wi-Fi-sonen \"%1$s\" finnes allerede. Slett den og prøv igjen.</string>
+    <string name="wifi_exist_fail">Hotspot «%1$s» eksisterer allerede. Slett den og skann koden på ny for å koble til.</string>
     <string name="wifi_open_fail">Kan ikke slå på Wi-Fi</string>
+    <string name="wifi_psd_toolong">Passordet er for langt. Skriv inn passordet manuelt.</string>
     <string name="wifi_pwd">Passord:</string>
     <string name="wifi_security">Sikkerhet:</string>
     <string name="wifi_ssid">SSID:</string>
+    <string name="wx_not_installed_toast">Denne funksjonen må bruke WeChat. Installer WeChat først.</string>
 </resources>

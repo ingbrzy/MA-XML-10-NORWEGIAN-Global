@@ -16,6 +16,10 @@
         <item quantity="other">Gjennomsnitt av %1$s stasjoner</item>
         <item quantity="one">Gjennomsnitt av %1$s stasjon</item>
     </plurals>
+    <plurals name="daily_forcast_drawer_on_home">
+        <item quantity="other">%1$s-dagers værvarsel</item>
+        <item quantity="one">%1$s-dags værvarsel</item>
+    </plurals>
     <plurals name="daily_forcast_drawer_on_top">
         <item quantity="other">%1$s-dagers værvarsel</item>
         <item quantity="one">%1$s-dag værvarsel</item>

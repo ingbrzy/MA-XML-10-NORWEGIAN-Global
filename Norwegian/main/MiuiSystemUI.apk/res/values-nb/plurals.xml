@@ -8,14 +8,6 @@
         <item quantity="other">Åpnet Nylige, tilgjengelige app: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
         <item quantity="one">Åpnet Nylige, tilgjengelige apper: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
     </plurals>
-    <plurals name="block_record_notification_more_text">
-        <item quantity="other">Skjuler varsler fra %1$s &amp; %2$d apper.</item>
-        <item quantity="one">Skjuler varsler fra %1$s &amp; %2$d app.</item>
-    </plurals>
-    <plurals name="disable_notification_confirm_title">
-        <item quantity="other">Skjule %d varsler fra app?</item>
-        <item quantity="one">Skjule denne appens varslinger?</item>
-    </plurals>
     <plurals name="fold_tips_title">
         <item quantity="other">%d viktige varsler</item>
         <item quantity="one">%d viktig varsel</item>

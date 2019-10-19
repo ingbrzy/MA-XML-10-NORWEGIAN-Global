@@ -12,4 +12,6 @@
     <string name="import_vcard">Importér ^1</string>
     <string name="mime_display_name">Data fra NFC-etikett</string>
     <string name="vcard_title">Kontaktinfo for ^1</string>
+    <string name="call_phone_permission_denied">Denne appen må ha tilgang til telefontillatelser for å kunne foreta anrop. Du kan administrere merkingstillatelser i Innstillinger.</string>
+    <string name="external_storage_permission_denied">Denne appen må ha tilgang til ekstern lagring for å få tilgang til filer. Du kan administrere Tag-tillatelser i innstillingene.</string>
 </resources>

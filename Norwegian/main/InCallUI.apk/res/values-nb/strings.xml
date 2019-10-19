@@ -78,7 +78,6 @@
     <string name="respond_via_sms_custom_message">Tilpasset SMS</string>
     <string name="manageConferenceLabel">Administrer konferansesamtale</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
-    <string name="volte_call">VoLTE-samtale</string>
     <string name="notification_dialing">Ringer</string>
     <string name="notification_ongoing_call">Pågående anrop</string>
     <string name="notification_on_hold">På vent</string>
@@ -128,14 +127,9 @@
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">Kan ikke bruke SIM %2$d, mens SIM %1$d er i bruk.</string>
     <string name="select_one_sim_title">Kan bare bruke SIM %1$d</string>
-    <string name="select_sim_hint_for_heduohao">"Can't use other, while SIM %1$d Sub %2$d is in use."</string>
-    <string name="select_one_sim_title_for_heduohao">Can only use SIM %1$d Sub %2$d</string>
     <string name="can_not_use">Kan ikke bruke</string>
     <string name="sim1_description">SIM1</string>
     <string name="sim2_description">SIM2</string>
-    <string name="sim1_heduohao_card">Sub1</string>
-    <string name="sim2_heduohao_card">Sub2</string>
-    <string name="sim3_heduohao_card">Sub3</string>
     <string name="call_description_recording">Tar opp…</string>
     <string name="call_recording_error_privacy">Kan ikke spille inn mens du er i gjestemodus</string>
     <string name="call_recording_error_sd_access">Får ikke tilgang til SD-kort</string>
@@ -169,7 +163,6 @@
     <string name="onscreen_message_text">Meldinger</string>
     <string name="onscreen_close_preview_camera">Lukk</string>
     <string name="upgrade_vt_prompt">Skifte til videoanrop?</string>
-    <string name="incoming_answer_voice_text">Talesvar</string>
     <string name="picking_participant">Henter kontaktinfo…</string>
     <string name="conference_caller_info_name">%1$ss konferanseanrop</string>
     <string name="video_conference_caller_info_name">%1$ss videokonferanseanrop</string>
@@ -191,8 +184,8 @@
     <string name="incoming_circle_text_reject">Slipp</string>
     <string name="incoming_circle_text_answer_p">Skyv opp</string>
     <string name="incoming_circle_text_answer">Slipp</string>
-    <string name="incoming_circle_text_message_p">Skyv opp</string>
-    <string name="incoming_circle_text_message">Slipp</string>
+    <string name="incoming_circle_text_video_answer_p">Sveip opp for å svare med video</string>
+    <string name="incoming_circle_text_video_answer">Slipp for å svare med video</string>
     <string name="dialpad_zero">0</string>
     <string name="dialpad_one">1</string>
     <string name="dialpad_two">2</string>
@@ -206,4 +199,9 @@
     <string name="prompt_no_volte_when_failed">Kan ikke utføre anrop. Forsikre at enheten din er koblet til 4G-nettverket med VoLTE support</string>
     <string name="volume_boost_text">Volum forsterket</string>
     <string name="supp_service_notification_call_waiting">Nummeret du slo er opptatt. Vennligst vent…</string>
+    <string name="incall_bubble_hangup_click_hint">Trykk igjen for å gå tilbake til samtale</string>
+    <string name="manager_conference_done">Ferdig</string>
+    <string name="incoming_answer_voice_text">Talesvar</string>
+    <string name="incoming_circle_text_message_p">Skyv opp</string>
+    <string name="incoming_circle_text_message">Slipp</string>
 </resources>

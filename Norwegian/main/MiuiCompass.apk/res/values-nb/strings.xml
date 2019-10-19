@@ -55,6 +55,8 @@
     <string name="mobiledata_alert_dialog_title">Advarsel databruk</string>
     <string name="open_perm_msg">Kompass trenger tilgang til posisjonsinformasjon og kameraet. Dette er nødvendig å angi koordinater og gi direkte forhåndsvisninger. Tillate?</string>
     <string name="open_perm_title">Tillatelser er nødvendig</string>
+    <string name="permission_camera_desc">Bruke vateret</string>
+    <string name="permission_location_desc">Vise koordinater og lufttrykk</string>
     <string name="preference_other">Annet</string>
     <string name="preference_privacy_title">Personvernerklæring</string>
     <string name="pressure">%.1f</string>

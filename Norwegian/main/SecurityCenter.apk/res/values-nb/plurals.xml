@@ -180,6 +180,22 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">%s minutter til den er fulladet</item>
         <item quantity="one">%s minutt til den er fulladet</item>
     </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d minutter siden siste lading</item>
+        <item quantity="one">%d minutt siden siste lading</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d sekunder siden siste lading</item>
+        <item quantity="one">%d sekund siden siste lading</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">%d minutter gjenstår</item>
+        <item quantity="one">%d minutt gjenstår</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">%d timer gjenstår</item>
+        <item quantity="one">%d time gjenstår</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
         <item quantity="other">%2$d apper, inkludert %1$s, tapper batteri</item>
         <item quantity="one">%2$d app, inkludert %1$s, tapper batteri</item>
@@ -232,21 +248,21 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">%s apper er ikke beskyttet</item>
         <item quantity="one">%s app er ikke beskyttet</item>
     </plurals>
-    <plurals name="menu_text_antivirus_2">
-        <item quantity="other">%d elementer</item>
-        <item quantity="one">%d element</item>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d apper inneholder virus eller skadelig programvare</item>
+        <item quantity="one">%d app inneholder virus eller skadelig programvare</item>
     </plurals>
-    <plurals name="menu_text_antivirus_3">
-        <item quantity="other">%d dager</item>
-        <item quantity="one">%d dag</item>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">Enheten har ikke blitt skannet på %d dager</item>
+        <item quantity="one">Enheten har ikke blitt skannet på %d dag</item>
     </plurals>
-    <plurals name="menu_text_antispam_2">
-        <item quantity="other">%d elementer</item>
-        <item quantity="one">%d element</item>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d meldinger eller anrop ble blokkert</item>
+        <item quantity="one">%d melding eller anrop ble blokkert</item>
     </plurals>
-    <plurals name="menu_text_app_manager_2">
-        <item quantity="other">%d apper</item>
-        <item quantity="one">%d app</item>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">%d oppdateringer er tilgjengelige</item>
+        <item quantity="one">%d oppdatering er tilgjengelig</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d enheter sikre</item>
@@ -433,12 +449,12 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">+%1$d tegn til</item>
     </plurals>
     <plurals name="privacy_apps_enable_header_title">
-        <item quantity="other">Kan skjule %d apper</item>
-        <item quantity="one">Kan skjule %d app</item>
+        <item quantity="other">%d appikoner er ikke skjulte</item>
+        <item quantity="one">%d appikon er ikke skjult</item>
     </plurals>
     <plurals name="privacy_apps_disable_header_title">
-        <item quantity="other">%d apper er skjulte</item>
-        <item quantity="one">%d app er skjult</item>
+        <item quantity="other">%d appikoner er skjulte</item>
+        <item quantity="one">%d appikon er skjult</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer krever optimalisering</item>

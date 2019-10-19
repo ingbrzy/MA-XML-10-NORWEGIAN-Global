@@ -2,7 +2,7 @@
 <resources>
     <string name="alert_message_clear_records">Slette valgte opptak?</string>
     <string name="alert_message_delete_local_record">Slette dette opptaket?</string>
-    <string name="alert_message_delete_record">Sletting av opptaket på enheten din, sletter også opptaket fra Mi Cloud. Slette nå?</string>
+    <string name="alert_message_delete_record">Om du sletter opptaket på enheten, sletter du det også fra Xiaomi Cloud. Slette nå?</string>
     <string name="alert_message_delete_record_title">Slette opptak?</string>
     <string name="app_name">Opptaker</string>
     <string name="back">Tilbake</string>
@@ -14,12 +14,12 @@
     <string name="call_record_list_group_unconnected">Ikke tilkoblet</string>
     <string name="clear_records">Slett synkroniserte opptak</string>
     <string name="cloud_record_open">Synkroniser opptak</string>
-    <string name="cloud_record_tip">Sykroniser opptak med Mi Cloud.</string>
-    <string name="cloud_service_state_open_reminder">Slå på synkronisering med Mi Cloud for å synkronisere opptak.</string>
+    <string name="cloud_record_tip">Synkroniser opptak med Xiaomi Cloud.</string>
+    <string name="cloud_service_state_open_reminder">Aktiver synkronisering med skyen for å synkronisere opptak.</string>
     <string name="cloud_status_full_dialog_cancel">Ikke nå</string>
     <string name="cloud_status_full_dialog_msg">Lagringsplassen din er full. Kan ikke synkronisere opptakene. Oppgrader kontoen din for å få mer lagringsplass.</string>
     <string name="cloud_status_full_dialog_ok">Oppgrader</string>
-    <string name="cloud_status_full_dialog_title">Mi Cloud-lagringsplass er full</string>
+    <string name="cloud_status_full_dialog_title">Xiaomi Cloud-lagringsplass er full</string>
     <string name="data_connection_body">Ved å bruke din mobile dataforbindelse for å laste ned denne filen, øker databruken din. Hvis du går over planens grense for dataforbruk, kan operatøren belaste deg ekstra gebyrer.</string>
     <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Advarsel databruk</string>
@@ -28,7 +28,7 @@
     <string name="deleting_message">Sletter…</string>
     <string name="details">Detaljer</string>
     <string name="dialog_content_storage_full">Opptak stoppet, da det ikke er nok lagringsplass igjen på enheten din.</string>
-    <string name="dialog_privacy_revoke_tips">Etter at du har tilbakekalt autorisasjonen, vil appen slutte å samle inn data, og alle relaterte data vil bli slettet fra serverne. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel? Logg inn på i.mi.com før du tilbakekaller autorisasjon for Mi Cloud-tjenestene slik at du sikrer sikkerheten til kontoen din.</string>
+    <string name="dialog_privacy_revoke_tips">Etter at du har tilbakekalt autorisasjonen, vil appen slutte å samle inn data, og alle relaterte data vil bli slettet fra serverne. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel? Logg inn på i.mi.com før du tilbakekaller autorisasjon for Xiaomi Cloud-tjenestene slik at du sikrer sikkerheten til kontoen din.</string>
     <string name="dialog_title_storage_full">Ikke nok plass</string>
     <string name="download">Last ned</string>
     <string name="duration_format_hour">%st</string>
@@ -180,7 +180,7 @@
     <string name="recognize_extra_price_desp">(Eksklusivt tilbud for Mi-brukere)</string>
     <string name="record">Opptak</string>
     <string name="record_back_pressed_hint">For å stoppe opptak, trykk på Tilbake</string>
-    <string name="record_download">Last ned fra Mi Cloud</string>
+    <string name="record_download">Last ned fra Xiaomi Cloud</string>
     <string name="record_download_complete">Nedlastet</string>
     <string name="record_download_msg">Opptak kan kun spilles av etter at de er lastet ned.</string>
     <string name="record_download_msg_reload">Dette opptaket eksisterer ikke.</string>
@@ -245,7 +245,9 @@
     <string name="status_bar_back">Trykk for å gå tilbake til Opptaker</string>
     <string name="status_bar_recording">Tar opp…</string>
     <string name="status_bar_recording_pause">Opptaker på pause</string>
+    <string name="text_btn_backward_3_seconds">3 sekunder bakover</string>
     <string name="text_btn_complete">Stopp</string>
+    <string name="text_btn_forward_3_seconds">3 sekunder fremover</string>
     <string name="text_btn_list">Opptak</string>
     <string name="text_btn_mark">Merke</string>
     <string name="text_btn_pause">Pause</string>
@@ -255,11 +257,16 @@
     <string name="text_btn_recording">Opptak</string>
     <string name="text_btn_wave">Bølge</string>
     <string name="text_finish">Bekreft</string>
+    <string name="text_play_speed_0_5">0,5X avspillingshastighet</string>
+    <string name="text_play_speed_1_0">Normal avspillingshastighet</string>
+    <string name="text_play_speed_1_5">1,5X avspillingshastighet</string>
+    <string name="text_play_speed_2_0">2X avspillingshastighet</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
     <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s kan ta opp i ca. %2$s</string>
     <string name="toast_uninstall_fileexplorer">Filbehandler er ikke installert</string>
+    <string name="usage_description">Transkribere lyd og synkronisere elementer med skyen</string>
     <string name="webview_check_network">Nettverksinnstillinger</string>
     <string name="webview_data_error">En feil oppstod</string>
     <string name="webview_locating_fail">Kunne ikke finne plasseringen din</string>

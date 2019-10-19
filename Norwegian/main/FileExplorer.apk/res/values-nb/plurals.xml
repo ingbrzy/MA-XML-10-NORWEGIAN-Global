@@ -44,16 +44,4 @@
         <item quantity="other">Valgte %1$d elementer</item>
         <item quantity="one">Valgt %1$d element</item>
     </plurals>
-    <plurals name="search_head_hint_app">
-        <item quantity="other">%2$d elementer fra %1$s</item>
-        <item quantity="one">%2$d element fra %1$s</item>
-    </plurals>
-    <plurals name="search_head_hint_file">
-        <item quantity="other">%2$d elementene med nøkkelord \"%1$s\"</item>
-        <item quantity="one">%2$d element med nøkkelord \"%1$s\"</item>
-    </plurals>
-    <plurals name="search_head_hint_tag">
-        <item quantity="other">%2$d elementer tagged som %1$s</item>
-        <item quantity="one">%2$d element tagged som %1$s</item>
-    </plurals>
 </resources>

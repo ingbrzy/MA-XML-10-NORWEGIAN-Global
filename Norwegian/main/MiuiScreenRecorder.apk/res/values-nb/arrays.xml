@@ -38,8 +38,8 @@
         <item>Systemlyder</item>
     </string-array>
     <string-array name="screenrecorder_settings_storage_location">
-        <item>Internal storage</item>
-        <item>External storage</item>
+        <item>Intern lagring</item>
+        <item>Ekstern lagring</item>
     </string-array>
     <string-array name="screenrecorder_utils_support_high_frames_cpu">
         <item>Qualcomm Technologies, Inc SDM845</item>

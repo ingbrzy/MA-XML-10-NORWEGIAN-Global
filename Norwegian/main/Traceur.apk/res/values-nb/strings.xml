@@ -419,7 +419,7 @@ Valg"</string>
     <string name="trace_saved">Sporet er lagret</string>
     <string name="tracing_categories_unavailable">Noen sporkategorier er utilgjengelige:</string>
     <string name="track_frame_time">GPU-gjengivelse av profil</string>
-    <string name="transition_animation_scale_title">Overgangsanimasjonsskala</string>
+    <string name="transition_animation_scale_title">Animasjonsskala for overgang</string>
     <string name="tts_default_lang_summary">Velger språkspesifikk stemme</string>
     <string name="tts_default_lang_title">Språk</string>
     <string name="tts_default_pitch_summary">Påvirker tonehøyden for syntetisert tale</string>

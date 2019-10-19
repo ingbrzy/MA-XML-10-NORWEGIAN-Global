@@ -156,6 +156,14 @@
         <item quantity="other">Må inneholde minst %d store bokstaver</item>
         <item quantity="one">Må inneholde minst én stor bokstav</item>
     </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Du kan skrive inn opptil %d tegn</item>
+        <item quantity="one">Du kan skriv inn opptil %d tegn</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Skriv inn minst %d tegn</item>
+        <item quantity="one">Skriv inn minst %d tegn</item>
+    </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN-koden må være på %d siffer</item>
         <item quantity="one">PIN-koden må være på %d siffer</item>

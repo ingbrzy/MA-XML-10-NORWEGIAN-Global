@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Merk</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne videoen er ikke gyldig for direkteavspilling på enheten.</string>
     <string name="selectTextMode">Marker tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeravtrykk</string>
     <string name="paste_as_plain_text">Lim inn som ren tekst</string>
     <string name="autofill">Autofyll</string>
@@ -386,6 +387,7 @@ Ta kontakt med administratoren for organisasjonen din hvis du har spørsmål."</
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"</string>
     <string name="fcComplete">Funksjonskode utført.</string>
     <string name="fcError">Tilkoblingsproblem eller ugyldig funksjonskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Finn</string>
     <string name="find_next">Finn neste</string>
     <string name="find_on_page">Finn på side</string>
@@ -591,6 +593,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Skriv inn PIN-koden for SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser opp SIM-kortet ...</string>
+    <string name="kg_text_message_separator">" — "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har tastet inn passordet ditt feil %1$d ganger. 
 
 Prøv på nytt om %2$d sekunder."</string>
@@ -883,6 +886,7 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-anrop</string>
     <string name="notification_hidden_text">Nytt varsel</string>
     <string name="notification_listener_binding_label">Varsellytteren</string>
+    <string name="notification_messaging_title_template">%1$s%2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste for rangering av varsler</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Påloggingsfeil for %1$s</string>
@@ -995,8 +999,8 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="permdesc_requestInstallPackages">Lar apper be om installasjon av pakker.</string>
     <string name="permdesc_route_media_output">Lar en app videresende medieutdata til andre eksterne enheter.</string>
     <string name="permdesc_runInBackground">Denne appen kan kjøre i bakgrunnen. Det kan øke batteribruken.</string>
-    <string name="permdesc_sdcardRead">Lar appen lese innhold på SD-kortet ditt.</string>
-    <string name="permdesc_sdcardWrite">Lar appen skrive til SD-kortet.</string>
+    <string name="permdesc_sdcardRead">Lar appen lese innhold på USB-lagringen din.</string>
+    <string name="permdesc_sdcardWrite">Appen tillates å skrive til USB-lagringen.</string>
     <string name="permdesc_sendSms">Lar appen sende tekstmeldinger. Dette kan resultere i uventede kostnader. Merk at skadelige apper kan påføre deg kostnader ved å sende meldinger uten bekreftelse fra deg.</string>
     <string name="permdesc_setAlarm">Lar appen stille inn alarmen for en installert alarmklokke-app. Enkelte alarmklokke-apper implementerer kanskje ikke denne funksjonen.</string>
     <string name="permdesc_setInputCalibration">Lar appen endre kalibrasjonsparametrene for berøringsskjermen. Denne tillatelsen bør aldri være nødvendig for vanlige apper.</string>
@@ -1137,8 +1141,8 @@ for kontoen %s."</string>
     <string name="permlab_requestInstallPackages">be om installasjon av pakker</string>
     <string name="permlab_route_media_output">videresende medieutdata</string>
     <string name="permlab_runInBackground">kjør i bakgrunnen</string>
-    <string name="permlab_sdcardRead">leser innholdet i SD-kortet</string>
-    <string name="permlab_sdcardWrite">endre eller slette innhold i SD-kortet</string>
+    <string name="permlab_sdcardRead">leser innholdet i USB-lagringen</string>
+    <string name="permlab_sdcardWrite">endre eller slette innholdet i USB-lagringen</string>
     <string name="permlab_sendSms">sende og lese SMS-meldinger</string>
     <string name="permlab_setAlarm">stille alarm</string>
     <string name="permlab_setInputCalibration">endre kalibreringen av inndataenheter</string>
@@ -1194,24 +1198,24 @@ for kontoen %s."</string>
     <string name="policydesc_disableKeyguardFeatures">Forhindrer bruk av enkelte skjermlåsfunksjoner.</string>
     <string name="policydesc_encryptedStorage">Krev at lagrede appdata krypteres.</string>
     <string name="policydesc_expirePassword">Endrer hvor ofte PIN-koden, passordet eller mønsteret til skjermlåsen skal byttes.</string>
-    <string name="policydesc_forceLock">Kontrollér hvordan og når skjermen låses.</string>
+    <string name="policydesc_forceLock">Kan kontrollere hvordan og når skjermen låses.</string>
     <string name="policydesc_limitPassword">Kontrollerer tillatt lengde og tillatte tegn i passord og PIN-koder for opplåsing av skjermen.</string>
-    <string name="policydesc_resetPassword">Endre skjermlåsen.</string>
+    <string name="policydesc_resetPassword">Kan endre skjermlåsen.</string>
     <string name="policydesc_setGlobalProxy">Angir den globale proxy-tjeneren på enheten som skal brukes når regelen er aktivert. Bare eieren av enheten kan angi den globale proxy-tjeneren.</string>
     <string name="policydesc_watchLogin">Overvåk antall feil passordforsøk ved opplåsing av skjerm, og lås telefonen eller slett alle data fra telefonen ved for mange feil passordforsøk.</string>
     <string name="policydesc_watchLogin_secondaryUser">Overvåker antallet feil passord som er skrevet inn når skjermen låses opp, og låser telefonen eller sletter denne brukerens data når for mange feil passord er skrevet inn.</string>
-    <string name="policydesc_wipeData">Tilbakestill telefonens data uten advarsel, ved å tilbakestille til fabrikkstandard.</string>
+    <string name="policydesc_wipeData">Telefonens data kan slettes uten advarsel ved å tilbakestille til fabrikkstandard.</string>
     <string name="policydesc_wipeData_secondaryUser">Sletter denne brukerens data på denne telefonen uten advarsel.</string>
     <string name="policylab_disableCamera">Deaktiver kameraer</string>
-    <string name="policylab_disableKeyguardFeatures">Deaktiver enkelte skjermlåsfunksjoner</string>
+    <string name="policylab_disableKeyguardFeatures">Deaktivering av skjermlåsfunksjoner</string>
     <string name="policylab_encryptedStorage">Angi lagringskryptering</string>
     <string name="policylab_expirePassword">Angi utløpstid for skjermlås</string>
-    <string name="policylab_forceLock">Lås skjermen</string>
+    <string name="policylab_forceLock">Låsing av skjermen</string>
     <string name="policylab_limitPassword">Angi passordregler</string>
-    <string name="policylab_resetPassword">Endre skjermlåsen</string>
+    <string name="policylab_resetPassword">Endring av skjermlåsen</string>
     <string name="policylab_setGlobalProxy">Angi enhetens globale mellomtjener</string>
     <string name="policylab_watchLogin">Overvåk forsøk på å låse opp skjermen</string>
-    <string name="policylab_wipeData">Slett alle data</string>
+    <string name="policylab_wipeData">Sletting av alle data</string>
     <string name="policylab_wipeData_secondaryUser">Slett brukerdataene</string>
     <string name="popup_window_default_title">Forgrunnsvindu</string>
     <string name="postalTypeCustom">Egendefinert</string>
@@ -1229,7 +1233,7 @@ for kontoen %s."</string>
     <string name="printing_disabled_by">%s har slått av utskrift.</string>
     <string name="profile_encrypted_detail">Jobbprofilen er låst</string>
     <string name="profile_encrypted_message">Trykk for å låse opp jobbprofilen</string>
-    <string name="progress_erasing">Sletter SD-kort …</string>
+    <string name="progress_erasing">Sletter USB-lagring …</string>
     <string name="quick_contacts_not_available">Du har ingen apper som kan åpne denne kontakten.</string>
     <string name="reason_service_unavailable">Utskriftstjenesten er ikke aktivert</string>
     <string name="reason_unknown">ukjent</string>
@@ -1580,6 +1584,9 @@ Vil du lukke den?"</string>
     <string name="wifi_p2p_show_pin_message">PIN:</string>
     <string name="wifi_p2p_to_message">Til:</string>
     <string name="wifi_p2p_turnon_message">Start Wi-Fi Direct. Dette deaktiverer Wi-Fi-klienten/-sonen.</string>
+    <string name="wifi_softap_config_change">Endres til innstillingene dine for Wi-Fi-soner</string>
+    <string name="wifi_softap_config_change_detailed">Denne enheten støtter ikke innstillingen din for bare 5 GHz. I stedet bruker enheten 5 GHz-båndet når det er tilgjengelig.</string>
+    <string name="wifi_softap_config_change_summary">Båndet ditt for Wi-Fi-sone er endret.</string>
     <string name="wifi_wakeup_enabled_content">Du er i nærheten av et lagret nettverk: %1$s</string>
     <string name="wifi_wakeup_enabled_title">Wi‑Fi er slått på automatisk</string>
     <string name="wifi_wakeup_onboarding_action_disable">Ikke slå på igjen</string>
@@ -1608,6 +1615,7 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">«Ikke forstyrr»</string>
     <string name="zen_mode_forever">Til du slår av</string>
     <string name="zen_mode_forever_dnd">Inntil du slår av Ikke forstyrr</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Til %1$s</string>
     <string name="zen_upgrade_notification_content">Trykk for å sjekke hva som er blokkert.</string>
     <string name="zen_upgrade_notification_title">Ikke forstyrr er endret</string>

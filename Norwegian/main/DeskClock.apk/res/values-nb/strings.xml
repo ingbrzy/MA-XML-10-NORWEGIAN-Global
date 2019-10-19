@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søk</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Legg til alarm</string>
     <string name="add_clock">Legg til klokke</string>
     <string name="add_timezone_title">Legg til tidssone</string>
@@ -43,6 +44,7 @@
     <string name="alarm_notify_snooze_label">%s utsett</string>
     <string name="alarm_notify_text">Utsett eller avvis alarm.</string>
     <string name="alarm_repeat">Gjenta</string>
+    <string name="alarm_ringtone">Alarmringetoner</string>
     <string name="alarm_settings">Alarminnstillinger</string>
     <string name="alarm_settings_category_title">Alarminnstillinger</string>
     <string name="alarm_vibrate">Vibrer</string>
@@ -68,6 +70,7 @@
     <string name="clock_bg_button_setting_title">Bakgrunnsfarge</string>
     <string name="close_alarm">Skru av</string>
     <string name="common_settings">Innstillinger</string>
+    <string name="confirm">Bekreft</string>
     <string name="confirm_abort">Forkast</string>
     <string name="content_desc_keep_screen">\"Hold skjermen på\"-knapp</string>
     <string name="control_set_alarm">Still inn alarm</string>
@@ -82,10 +85,17 @@
     <string name="delete_timer_item_title">Slett tidsuroppgave</string>
     <string name="delete_timezone_title">Slett tidssone</string>
     <string name="dialog_confirm_abort">Forkast endringer?</string>
+    <string name="dialog_legal_off_day">&lt;Data>Det ser ut til at du bruker alarmer for fridager. Denne funksjonen må koble til internett for å fungere som den skal. Før du bruker denne funksjonen, må du godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="dialog_legal_off_day_desc">Klokke har ikke tillatelse til å koble til internett for å oppdatere info om fridager. Alarmer for fridager vil gå av lørdag og søndag.</string>
+    <string name="dialog_legal_workday">&lt;Data>Det ser ut til at du bruker alarmer for ukedager. Denne funksjonen må koble til internett for å fungere som den skal. Før du bruker denne funksjonen, må du godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="dialog_legal_workday_and_off_day">&lt;Data>Det ser ut til at du bruker alarmer for ukedager og fridager. Denne funksjonen må koble til internett for å fungere som den skal. Før du bruker denne funksjonen, må du godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="dialog_legal_workday_and_off_day_desc">Klokke har ikke tillatelse til å koble til internett for å oppdatere info om fridager. Alarmer for ukedager vil gå av fra mandag til fredag. Alarmer for fridager vil gå av lørdag og søndag.</string>
+    <string name="dialog_legal_workday_desc">Klokke har ikke tillatelse til å koble til internett for å oppdatere info om arbeidsdager. Alarmer for ukedager vil gå av fra mandag til fredag.</string>
     <string name="dialog_message_agree">Enig</string>
     <string name="dialog_message_for_contact_permission">For å gjøre bursdagsalarmer tilgjengelig, trenger Klokke tilgang til kontaktene. Enig?</string>
     <string name="dialog_message_negative">Ikke enig</string>
     <string name="dialog_message_not_remind">Ikke spørr igjen</string>
+    <string name="dialog_net_permission_in_repeat_type">&lt;Data>Denne funksjonen må koble til internett for å fungere som den skal. Før du bruker denne funksjonen, må du godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
     <string name="dialog_privacy_content">Klokke må koble til internett for å få relevant info om lokale offentlige helligdager, justere alarmer og tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
     <string name="dialog_privacy_content_global">Klokke må koble til internett for å tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
     <string name="dialog_privacy_content_news">Klokke må koble til internett for å tilby tilpassede tjenester og for å inkludere morgennyheter i alarmene. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
@@ -95,6 +105,7 @@
     <string name="dynamic_alarm_speech">Smart alarm</string>
     <string name="edit_alarm">Endre alarm</string>
     <string name="edit_systemtime">Rediger systemtid</string>
+    <string name="edit_systemtime_setting_summary">Dato, tid og dobbelklokke</string>
     <string name="every_day">Daglig</string>
     <string name="expired_timers_dismissed">Timer fjernet</string>
     <string name="force_touch_add_alarm">Legg til alarm</string>
@@ -108,9 +119,7 @@
     <string name="hour_unit">Time +</string>
     <string name="install_weather_app_error">Kunne ikke laste inn app</string>
     <string name="install_weather_app_loading">Et øyeblikk…</string>
-    <string name="invalid_time">"Ugyldig tid:
-%3$s %1$d:
-%2$d "</string>
+    <string name="invalid_time">Ugyldig tid: %3$s %1$d: %2$d</string>
     <string name="invalid_timer_length">Tidtakerens varighet er ugyldig</string>
     <string name="keep_screen_on">Hold skjermen på</string>
     <string name="korea_permission_calendar">Kalender</string>
@@ -126,14 +135,17 @@
     <string name="legal_off_day">Offentlig fridag</string>
     <string name="legal_off_day_message">" (Avslått alarm under arbeidsdager)"</string>
     <string name="legal_workday">Ekstra arbeidsdag</string>
-    <string name="legal_workday_invalidate">Utløpt data (Alarmen går av mandag til fredag)</string>
+    <string name="legal_workday_invalidate">Data utløpt (Alarmen vil gå av mandag til fredag)</string>
     <string name="legal_workday_invalidate_message">(Data utløpt. Oppdater under Innstillinger.)</string>
     <string name="legal_workday_message">" (Alarm avslått under helligdager)"</string>
     <string name="life_post_setting">Morgenrapport</string>
     <string name="life_post_setting_FBE_remind">På grunn av systembegrensninger, kan det være at værinfo i morgenrapportene ikke vises riktig etter enheten starter på nytt.</string>
     <string name="life_post_setting_close_title">Slå av morgenrapporter</string>
+    <string name="life_post_setting_open_background_subtitle">Vis bakgrunnsbilder for relaterte alarmer</string>
+    <string name="life_post_setting_open_background_title">Vis bakgrunnsbilde</string>
     <string name="life_post_setting_open_desc">Slå av gjentatte alarmer mellom 04:00 og 10:00 for å lytte til den gjeldende værmeldingen</string>
     <string name="life_post_setting_open_subtitle">Få værinformasjon når du skrur av alarmen mellom 4.00 og 9.30</string>
+    <string name="life_post_setting_open_summary">Inkluder værinformasjon i den første alarmen som slås av mellom kl. 04:00 og kl. 10:00</string>
     <string name="life_post_setting_open_title">Motta morgenrapporter</string>
     <string name="life_post_setting_wake_up_list_title">Oppvåkningshistorikk</string>
     <string name="life_post_wake_up_acumu_day_title">Opptelling av dager</string>
@@ -146,6 +158,7 @@
     <string name="life_post_weather_invalid">Trykk for å få værinformasjon</string>
     <string name="life_post_weather_no_network">Koble deg til nettverket for å oppdatere værinformasjonen</string>
     <string name="life_post_weather_temperature_centigrade">°</string>
+    <string name="listen_news_privacy">&lt;Data>Klokke må koble til internett for å kunne tilby tilpassede tjenester og for å inkludere morgennyheter i alarmene. Før du bruker Klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
     <string name="loading_ringtone">Laster inn ringetone…</string>
     <string name="menu_add_worldclock">Legg til klokke</string>
     <string name="menu_desk_clock">Klokke</string>
@@ -153,32 +166,62 @@
     <string name="menu_item_dock_settings">Hurtigmenyinnstilling</string>
     <string name="menu_item_sort_by_gmt_offset">Sorter etter tid</string>
     <string name="menu_item_sort_by_name">Sorter etter navn</string>
+    <string name="module_dialog_negative">Ikke godta</string>
+    <string name="module_dialog_neutral">Skjønner</string>
+    <string name="module_dialog_positive">Godta</string>
     <string name="module_download_cancel">Nei takk</string>
-    <string name="module_download_data_msg">Klokke må laste ned lydfiler for MIUI smarte alarmer. Smarte alarmer inneholder lydfunksjoner som tillater inkludering av nåværende værinformasjon i alarmene. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
+    <string name="module_download_data_msg">For å gjøre MIUI smarte alarmer tilgjengelig, må Klokke laste ned lydfiler. Smarte alarmer inneholder lydfunksjoner som tillater å inkludere gjeldende værinformasjon i alarmene. ≈20MB av din mobildata kreves for denne nedlastingen. Laste ned nå?</string>
     <string name="module_download_data_msg_golbal">Klokke må laste ned lydfiler for MIUI smarte alarmer. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
     <string name="module_download_data_msg_replace">Oppdatert lyd for MIUI smarte alarmer er tilgjengelig. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
     <string name="module_download_data_msg_timer">Klokke må laste ned lydfiler for bakgrunnsstøytidtakere. ≈ 20MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
     <string name="module_download_fail">Kunne ikke laste ned ekstra lyd</string>
-    <string name="module_download_msg">Klokke må laste ned lydfiler for MIUI smarte alarmer. Smarte alarmer inneholder lydfunksjoner som tillater inkludering av nåværende værinformasjon i alarmene. Laste ned nå?</string>
+    <string name="module_download_failure">Kunne ikke laste ned lyd. Sjekk nettverksinnstillingene og prøv igjen.</string>
+    <string name="module_download_msg">For å gjøre MIUI smarte alarmer tilgjengelig, må Klokke laste ned lydfiler. Smarte alarmer inneholder lydfunksjoner som tillater å inkludere gjeldende værinformasjon i alarmene. Laste ned nå?</string>
     <string name="module_download_msg_golbal">Klokke må laste ned lydfiler for MIUI smarte alarmer. Laste ned nå?</string>
     <string name="module_download_msg_replace">Oppdatert lyd for MIUI smarte alarmer er tilgjengelig. Laste ned nå?</string>
     <string name="module_download_msg_timer">Klokke må laste ned lydfiler for bakgrunsstøytidtakere. Laste ned nå?</string>
-    <string name="module_download_no_network">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
+    <string name="module_download_no_network">Klokke må koble til internett for å laste ned lyd. Sjekk nettverksinnstillingene og prøv igjen.</string>
     <string name="module_download_ok">Tillat</string>
-    <string name="module_download_success">Lastet ned ekstra lyd</string>
+    <string name="module_download_success">Lastet ned lyd</string>
     <string name="module_download_title">Ekstra lyd kreves</string>
-    <string name="module_downloading">Laster ned ekstra lyd…</string>
+    <string name="module_downloading">Laster ned lyd…</string>
+    <string name="module_update_success">Oppdatert lyd for MIUI smarte alarmer ble lastet ned. Du kan stille MIUI smarte alarmer i Klokke-innstillinger.</string>
+    <string name="module_update_success_control">Skjønner</string>
+    <string name="module_weather_ringtone_download_data">Væralarmen velger ulike ringetoner i henhold til det gjeldende været. Klokke må laste ned ≈30 MB med lyd for at den skal fungere. Laste ned nå?</string>
+    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Væralarmen velger ulike ringetoner i henhold til det gjeldende været. Klokke må koble til internett for å laste ned ≈ 30 MB med lyd. Før du bruker klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_wifi">Væralarmen velger ulike ringetoner i henhold til det gjeldende været. Klokke må laste ned lyd for at den skal fungere. Laste ned nå?</string>
+    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Væralarmen velger ulike ringetoner i henhold til det gjeldende været. Klokke må koble til internett for å laste ned lyd. Før du bruker klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="module_weather_ringtone_introduce">Væralarmen velger ulike ringetoner i henhold til det gjeldende været. Den gir deg også muligheten til å høre på den gjeldende værinformasjonen om morgenen.</string>
+    <string name="module_weather_ringtone_introduce_global">Væralarmen velger ulike ringetoner i henhold til det gjeldende været.</string>
+    <string name="module_weather_ringtone_update_data">Væralarmen kommer nå med bakgrunnsmusikk og bedre talemeldinger. Klokke må laste ned ≈30 MB med lyd for at den skal fungere. Laste ned nå?</string>
+    <string name="module_weather_ringtone_update_success">Væralarmen kommer nå med bakgrunnsmusikk og bedre talemeldinger. Du kan opprette en ny alarm for å prøve denne funksjonen.</string>
+    <string name="module_week_ringtone_download_data">Ukentlig alarm spiller av ulike lyder fra naturen hver dag i uken. Klokke må laste ned ≈30 MB med lyd for at den skal fungere. Laste ned nå?</string>
+    <string name="module_week_ringtone_download_data_privacy">&lt;Data>Ukentlig alarm spiller av ulike lyder fra naturen hver dag i uken. Klokke må koble til internett for å laste ned ≈ 30 MB med lyd. Før du bruker klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="module_week_ringtone_download_wifi">Ukentlig alarm spiller av ulike lyder fra naturen hver dag i uken. Klokke må laste ned lyd for at den skal fungere. Laste ned nå?</string>
+    <string name="module_week_ringtone_download_wifi_privacy">&lt;Data>Ukentlig alarm spiller av ulike lyder fra naturen hver dag i uken. Klokke må koble til internett for å laste ned lyd. Før du bruker klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href= %1$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="module_week_ringtone_introduce">Væralarmen spiller av ulike lyder fra naturen hver dag i uken.</string>
+    <string name="module_week_ringtone_update_data">Ukentlig alarm spiller av ulike lyder fra naturen hver dag i uken. Klokke må laste ned ≈30 MB med lyd for at den skal fungere. Laste ned nå?</string>
+    <string name="module_week_ringtone_update_success">Ukentlig alarm kommer nå med bakgrunnsmusikk hver dag i uken. Du kan opprette en ny alarm for å prøve denne funksjonen.</string>
+    <string name="module_white_noise_download_data">Klokke må laste ned lydfiler for bakgrunnsstøytidtakere. ≈ 30MB mobildata er nødvendig for denne nedlastingen. Laste ned nå?</string>
+    <string name="module_white_noise_download_data_privacy">&lt;Data>Klokke må koble til internett for å laste ned lydfiler for bakgrunnsstøytidtakere (≈ 30MB) og tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Du bruker mobildata nå. Godta?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi">Klokke må laste ned lydfiler for bakgrunsstøytidtakere. Laste ned nå?</string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>Klokke må koble til internett for å laste ned lydfiler for bakgrunnsstøytidtakere og tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
     <string name="monday_to_friday">Mandag til fredag</string>
     <string name="more_setting">Flere innstillinger</string>
     <string name="more_settings">Innstillinger</string>
+    <string name="network_privacy">&lt;Data>Klokke må koble til internett for å hente relevant info om lokale offentlige fridager og stille inn alarmer. Før du bruker Klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
+    <string name="network_privacy_global">&lt;Data>Klokke må koble til internett for å kunne tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta &lt;a href= %1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
     <string name="never">Én gang</string>
-    <string name="oneshot_alarm">Slett etter den går av</string>
+    <string name="no_alarm_setting">Ingen alarmer her</string>
+    <string name="no_worldclock">Ingen klokker her</string>
+    <string name="oneshot_alarm">Slett etter at den går av</string>
     <string name="open_keep_screen">Skjermen vil beholdes på</string>
     <string name="other_category_title">Annet</string>
     <string name="pause">Pause</string>
     <string name="percentage_sign">%</string>
     <string name="personal_recommend">Personlig tilpassede innholdsanbefalinger</string>
     <string name="privacy_policy">Personvernerklæring</string>
+    <string name="privacy_policy_title">Personvernerklæring</string>
     <string name="remind_ringtone">Ringetone</string>
     <string name="repeat_count">Ganger</string>
     <string name="repeat_count_value_five">5</string>
@@ -188,27 +231,41 @@
     <string name="repeat_count_value_two">2</string>
     <string name="reset">Tilbakestill</string>
     <string name="revert">Tilbakestill</string>
+    <string name="ringtone_all">Alle ringetoner</string>
+    <string name="ringtone_dew">Morgendugg</string>
+    <string name="ringtone_dream">Dagdrøm</string>
+    <string name="ringtone_firefly">Ildfluer</string>
+    <string name="ringtone_other">Flere ringetoner</string>
+    <string name="ringtone_weather">Væralarm</string>
+    <string name="ringtone_week">Ukentlig alarm</string>
     <string name="search_alarm_clock_keywords">Alarm;Alarmklokke;</string>
     <string name="search_stopwatch_keywords">Stoppeklokke</string>
     <string name="search_timer_keywords">Tidtaker</string>
     <string name="search_worldclock_keywords">Tid;Verdensklokke;Klokke</string>
     <string name="set_alarm">Velg tid</string>
+    <string name="set_alarm_choose_ringtone">Velge ringetone</string>
     <string name="set_alarm_done">Ferdig</string>
+    <string name="set_alarm_other">Annet</string>
+    <string name="setting_alarm_arriving_subtitle">Vis varsler før alarmer går av</string>
     <string name="setting_alarm_arriving_summary">Send et varsel før alarmen går av</string>
     <string name="setting_alarm_arriving_title">Varsel før alarmen går av</string>
     <string name="settings">Innstillinger</string>
-    <string name="shortcut_new_alarm">Set alarm</string>
-    <string name="shortcut_start_timer">Start timer</string>
-    <string name="shortcut_stop_watch">Start stopwatch</string>
+    <string name="shortcut_new_alarm">Still alarm</string>
+    <string name="shortcut_start_timer">Start tidtaker</string>
+    <string name="shortcut_stop_watch">Start stoppeklokke</string>
     <string name="shut_down_keep_screen">Skjermen vil ikke holdes på</string>
+    <string name="shutdown_alarm_alert_enable_summary">Alarmer som slås av går av minst 10 minutter etter at du slår av enheten</string>
+    <string name="shutdown_alarm_alert_title">Alarm som slås av</string>
     <string name="shutdown_alarm_disable_summary">Alarmen vil ikke gå av etter at enheten er skrudd av</string>
-    <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 5 minutter etter at du slår av enheten</string>
+    <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 10 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="slider_text">Sveip for å skru av</string>
     <string name="snooze_confirm_cancel">Avvis alarm</string>
     <string name="snooze_duration">Snooze</string>
+    <string name="snooze_duration_text">%1$s | %2$s</string>
     <string name="snooze_duration_title">Snooze</string>
     <string name="snooze_duration_value">Intervall (minutter)</string>
     <string name="snooze_duration_value_fifteen">15</string>
@@ -221,8 +278,13 @@
     <string name="star_wy_alarm_speech">Møt Roy Wang</string>
     <string name="start">Start</string>
     <string name="start_up">Start</string>
+    <string name="status_bar_clock_date_time_format">H:mm:ss</string>
+    <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
+    <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_title">Stoppeklokke</string>
+    <string name="symbol_colon">:</string>
+    <string name="system_permission_purpose">Oppretter alarmer for ukedager og angir tilpassede ringetoner</string>
     <string name="system_time_setting">Innstillinger</string>
     <string name="system_time_settings_category_title">Tidsinnstillinger</string>
     <string name="temperature_unit">℃</string>
@@ -243,6 +305,7 @@
     <string name="timer_alert_type_forest">Skog</string>
     <string name="timer_alert_type_mute">Standard</string>
     <string name="timer_alert_type_rain">Yr</string>
+    <string name="timer_alert_type_spring_rain">Sommerregn</string>
     <string name="timer_alert_type_stove_fire">Fyr i ovnen</string>
     <string name="timer_alert_type_summer_night">Sommernatt</string>
     <string name="timer_can_continue_in_timer">Åpne tidtaker for å gjenoppta</string>
@@ -274,21 +337,26 @@
     <string name="tomorrow">I morgen</string>
     <string name="turn_off_a_repeat_alarm">Skru av en gjentakende alarm</string>
     <string name="turn_off_this_repeat_alarm">Skru av denne repeterende alarmen</string>
-    <string name="upcoming_alarm">%s Kommende alarm</string>
-    <string name="upcoming_alarm_hint">Denne alarmen kan velges på forhånd</string>
+    <string name="upcoming_alarm">Kommende alarm: %s</string>
+    <string name="upcoming_alarm_hint">Du kan slå av denne alarmen nå</string>
     <string name="update_notification_info">Oppdaterer data i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
     <string name="vibrate_pref_summary">Vibrer når alarmen går</string>
     <string name="vibrate_when_ringing">Vibrer ved ringing</string>
+    <string name="volume_button_setting_desc">Tildel funksjoner til knappene Av/på og Volum +/-</string>
     <string name="volume_button_setting_summary">Still inn funksjonene til volumknappene under alarm</string>
     <string name="volume_button_setting_title">Volumknapper</string>
     <string name="workday_alarm_clock">Jobbalarm</string>
     <string name="worldclock_empty_text">Ingen klokker</string>
     <string name="worldclock_input_hint_text">Søk etter et land eller by</string>
+    <string name="worldclock_resident_city_text">Andre klokke: %s</string>
+    <string name="worldclock_resident_city_text_detail">Dobbelklokke er aktivert</string>
     <string name="worldclock_search_city">Velg en by</string>
     <string name="worldclock_title">Klokke</string>
     <string name="worldclock_world_time">Tidssone</string>
+    <string name="worldcolock_date_display_prefix">Gjeldende: </string>
     <string name="worldcolock_timezone_current">Nåværende: %1$s</string>
+    <string name="worldcolock_timezone_current_date">dd/MM/yyyy</string>
     <string name="worldcolock_timezone_date">d. MMM</string>
     <string name="worldcolock_timezone_gap">%s T</string>
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>
