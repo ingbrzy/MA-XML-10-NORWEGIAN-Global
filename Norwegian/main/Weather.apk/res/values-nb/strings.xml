@@ -101,12 +101,10 @@
     <string name="daily_forecast_add_city_message">Følg været i %1$s for en mer detaljert prognose.</string>
     <string name="daily_forecast_add_city_title">Følg været i %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente værinfo
 Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="data_provided_by">Data delvis levert av</string>
     <string name="edit_city">Administrer byer</string>
-    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Oppdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke koble til nettverket</string>
     <string name="empty_view_refresh">Prøv igjen</string>
@@ -128,8 +126,6 @@ Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="first_start_network_title">Internettilkobling og tilgang til stedstjeneste</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nå</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s%2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timers værvarsel</string>
     <string name="hourly_forecast_title_hourly_desc">Timesvarsel</string>
@@ -145,15 +141,11 @@ Trekk ned for å oppdatere eller sjekk nettverksinnstillingene"</string>
     <string name="indices_title_feel">Føles som</string>
     <string name="indices_title_pressure">Trykk</string>
     <string name="install">Installer</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">TRYKK</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til å regne</string>
-    <string name="item_city_list_region_no_data">-- / --</string>
-    <string name="item_city_list_temperature_no_data">--</string>
     <string name="locate_fail_detail_err">"Finner ikke enheten
 Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="location_provider_btn_text">Skru på stedtjenester</string>
@@ -235,7 +227,6 @@ Trykk på skjermen for å legge til eller re-posisjonere by manuelt"</string>
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI-værr#I dag %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke ta skjermbilde</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timersvarsel</string>

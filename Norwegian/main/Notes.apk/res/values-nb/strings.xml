@@ -141,7 +141,6 @@
     <string name="note_sort_way">Velg hvordan du ønsker å sortere notatene dine</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
-    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notatpåminnelse</string>
     <string name="permdesc_accessNote">Ondsinnede apper kan bruke dette for å få tilgang til dine personlige data.</string>
     <string name="permission_get_account_desc">Synkronisere notater med skyen</string>

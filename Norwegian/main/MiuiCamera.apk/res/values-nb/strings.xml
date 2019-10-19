@@ -331,7 +331,6 @@ og bringer frem mennesker som er foran."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
     <string name="button_fisheye_camera_title">Fiskeøye</string>
@@ -711,7 +710,6 @@ bakgrunnen på bildene dine"</string>
     <string name="pref_camera_snap_toast_when_volume_can_wake_screen">Kan ikke bruke Quick snap-modus mens \"Vekke med volumknapper\" er slått på.</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
-    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Av</string>
     <string name="user_agreement2">Vilkår for bruk</string>
     <string name="user_agreement4">Personvernerklæring</string>

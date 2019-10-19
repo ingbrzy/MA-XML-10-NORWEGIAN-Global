@@ -31,7 +31,6 @@
     <string name="on">På</string>
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>
     <string name="show_badge_notifications">Varselmerker</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>
     <string name="summary_disable_lockscreen_notification">Varsler på låseskjermen er ikke tillatt</string>
