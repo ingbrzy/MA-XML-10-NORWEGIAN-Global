@@ -18,7 +18,6 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søk</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ad_downloading">Last ned…</string>
     <string name="app_name">System service plugin</string>
     <string name="app_select_title">Legg til ofte brukte apper</string>
