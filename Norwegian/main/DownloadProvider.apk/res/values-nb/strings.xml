@@ -4,7 +4,6 @@
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laster ned %1$s</string>
     <string name="download_filesize_unknown">Ukjent</string>
-    <string name="notification_dld_msg">Administrer apper som lastes ned</string>
     <string name="app_label">Nedlastinger</string>
     <string name="permlab_downloadManager">Tilgang til Nedlastinger.</string>
     <string name="permdesc_downloadManager">Lar appen få tilgang til Nedlastinger og bruke den til å laste ned filer. Ondsinnede apper kan bruke dette til å forstyrre nedlastinger og få tilgang til privat informasjon.</string>
@@ -12,7 +11,7 @@
     <string name="permdesc_downloadManagerAdvanced">Lar appen få tilgang til de avanserte funksjonene til Nedlastinger. Ondsinnede apper kan bruke dette til å forstyrre nedlastinger og få tilgang til privat informasjon.</string>
     <string name="permlab_downloadCompletedIntent">Send nedlastingsvarsler.</string>
     <string name="permdesc_downloadCompletedIntent">Lar appen sende varsler om fullførte nedlastinger. Ondsinnede apper kan bruke dette til å forvirre andre apper som laster ned filer.</string>
-    <string name="permlab_seeAllExternal">Se alle nedlastinger til USB-lagring</string>
+    <string name="permlab_seeAllExternal">Se alle nedlastinger til SD-kort</string>
     <string name="permdesc_seeAllExternal">Lar appen se alle nedlastingene til SD-kortet, uansett hvilken app som lastet dem ned.</string>
     <string name="permlab_downloadCacheNonPurgeable">Reserver plass i nedlastingsbufferen</string>
     <string name="permdesc_downloadCacheNonPurgeable">Tillater appen å laste ned filer til nedlastingsbufferen, som ikke kan slettes automatisk når nedlastingsbehandleren trenger mer plass.</string>
@@ -42,4 +41,5 @@ Trykk %s for å starte denne nedlastingen neste gang du er tilkoblet et trådlø
     <string name="download_queued">I kø</string>
     <string name="download_running">Laster ned</string>
     <string name="download_error">Kunne ikke laste ned</string>
+    <string name="download_running_percent">Laster ned %s</string>
 </resources>

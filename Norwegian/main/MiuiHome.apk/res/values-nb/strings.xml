@@ -24,7 +24,6 @@
     <string name="announce_for_close_folder">Lukket mappen</string>
     <string name="announce_for_close_launcher_menu">Lukket menyen</string>
     <string name="announce_for_create_folder_with_app">Opprettet en mappe med %1$s</string>
-    <string name="announce_for_delete_gadget_and_widget">Widget</string>
     <string name="announce_for_delete_item">%1$s ble slettet</string>
     <string name="announce_for_drag_enter_delete_zone">Dratt elementer til avinstallasjonssonen</string>
     <string name="announce_for_drag_enter_folder_grid">Du kan slippe elementer inn i mappen</string>
@@ -48,7 +47,6 @@
     <string name="announce_for_show_uninstall_dialog">Avinstalleringsdialogen dukket opp. Avbryt eller bekreft.</string>
     <string name="announce_for_unchecked">%1$s, ikke merket av</string>
     <string name="announce_for_widget_span">Bredde %1$d, høyde %2$d</string>
-    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">App eksisterer allerede</string>
     <string name="app_being_backup_message">App sikkerhetskopieres</string>
     <string name="app_being_restored_message">App gjenopprettes</string>
@@ -63,12 +61,10 @@
     <string name="app_category_news">Nyheter</string>
     <string name="app_category_photos">Fotografering</string>
     <string name="app_category_productivity">Produktivitet</string>
-    <string name="app_category_shopping">Shopping</string>
     <string name="app_category_social">Sosialt</string>
     <string name="app_category_sport">Sport</string>
     <string name="app_category_tools">Verktøyer</string>
     <string name="app_category_travel">Reise</string>
-    <string name="app_category_vr">VR</string>
     <string name="application_name">Systemstarter</string>
     <string name="apply">Sett</string>
     <string name="apply_action">Sett</string>
@@ -95,7 +91,6 @@
     <string name="chooser_wallpaper">Velg en ny bakgrunn</string>
     <string name="cloud_app_restore_title">Avventer</string>
     <string name="configure_wallpaper">Innstillinger</string>
-    <string name="confirm_btn_label">OK</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Doble apper vil avinstalleres sammen med disse.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Doble apper vil avinstalleres sammen med denne.</string>
     <string name="confirm_uninstall_dialog_title">Doble apper vil avinstalleres</string>
@@ -106,25 +101,18 @@
     <string name="current_wallpaper">Nåværende</string>
     <string name="custom_wallpaper_picker">Se gjennom</string>
     <string name="defalut_launcher_title">Standard startprogram</string>
-    <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Spill</string>
     <string name="default_folder_title_meitu">Meitu-apper</string>
-    <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Flere apper</string>
-    <string name="default_folder_title_security">System</string>
     <string name="default_folder_title_services">Tjenester</string>
-    <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Verktøyer</string>
     <string name="default_screen_preview_title">Angi standardskjerm</string>
-    <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Slett</string>
     <string name="delete_screen">Slett skjerm</string>
     <string name="delete_wallpaper_message">Slette %1$d bakgrunn?</string>
     <string name="deselect_all">Fjern alle valg</string>
     <string name="disable_wallpaper_scroll">Skru av siderulling</string>
     <string name="download_action">Last ned</string>
-    <string name="drag_multiple_item_name" />
-    <string name="drag_single_item_name" />
     <string name="dual_app">Dual-apper</string>
     <string name="edit_folder_title">Endre mappenavn</string>
     <string name="edit_mode_dual_app">Opprett dobbeltapp</string>
@@ -154,7 +142,6 @@
     <string name="frame_load_failed">Kan ikke laste ramme</string>
     <string name="free_style_apps_title">Velg app</string>
     <string name="free_style_drawer_title">Alle apper</string>
-    <string name="free_style_edit_app">App</string>
     <string name="free_style_edit_bar_empty">Tøm</string>
     <string name="free_style_edit_bar_select_app">Velg app</string>
     <string name="free_style_edit_bottom_empty_tip">Trykk rektangel for å endre</string>
@@ -275,7 +262,6 @@
     <string name="open_personal_assistant_dialog_desc">Du vil ikke kunne bruke App-hvelv og motta oppdateringer. Slå av nå?</string>
     <string name="open_personal_assistant_dialog_desc_international">Du vil ikke kunne bruke App valut cards (Aksjer, Snarveier, osv.) eller motta oppdateringer etter at du har slått av denne funksjonen.</string>
     <string name="open_personal_assistant_dialog_title">Slå av App-hvelv</string>
-    <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ikke mer ledig plass på Startskjermen</string>
     <string name="permdesc_install_shortcut">Tillater en app å legge til snarveier uten brukerintervensjon.</string>
     <string name="permdesc_install_widget">Tillater en app å legge til widget uten brukerintervensjon.</string>
@@ -311,7 +297,6 @@
     <string name="quick_app">Hurtigapper</string>
     <string name="recent_apps">Nylige</string>
     <string name="recents_config_title">Nylige</string>
-    <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">Tøm</string>
     <string name="recommend_apps_no_data">Ingen data</string>
     <string name="recommend_apps_no_data_toast">Ingen anbefalinger for øyeblikket.</string>

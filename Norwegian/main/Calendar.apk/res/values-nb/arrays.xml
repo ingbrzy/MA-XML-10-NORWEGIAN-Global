@@ -3,78 +3,52 @@
     <string-array name="aquarius_info">
         <item>aquarius</item>
         <item>Vannmannen</item>
-        <item>20/1 - 18/2</item>
+        <item>20.1 - 18.2</item>
     </string-array>
     <string-array name="aries_info">
-        <item>aries</item>
+        <item>væren</item>
         <item>Væren</item>
-        <item>21/3 - 19/4</item>
-    </string-array>
-    <string-array name="bundesliga">
-        <item>2</item>
-        <item>Bundesliga</item>
+        <item>21.3 - 19.4</item>
     </string-array>
     <string-array name="cancer_info">
-        <item>cancer</item>
+        <item>krepsen</item>
         <item>Krepsen</item>
-        <item>22/6 - 22/7</item>
+        <item>22.6 - 22.7</item>
     </string-array>
     <string-array name="capricorn_info">
         <item>capricorn</item>
         <item>Steinbukken</item>
-        <item>22/12 - 19/1</item>
+        <item>22.12 - 19.1</item>
     </string-array>
     <string-array name="change_response_labels">
         <item>Kun denne hendelsen</item>
         <item>Alle hendelser i serien</item>
     </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>Bare denne gangen</item>
+        <item>Slå av gjentatt påminnelse</item>
+    </string-array>
     <string-array name="date_calculate_spinner">
         <item>Fremover</item>
         <item>Bakover</item>
     </string-array>
-    <string-array name="dates">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-    </string-array>
     <string-array name="default_reminder_labels">
         <item>På tidspunktet for hendelsen</item>
         <item>5 minutter før</item>
+        <item>10 minutter før</item>
         <item>15 minutter før</item>
         <item>30 minutter før</item>
         <item>1 time før</item>
-        <item>4 timer før</item>
         <item>1 dag før</item>
         <item>2 dager før</item>
         <item>1 uke før</item>
+    </string-array>
+    <string-array name="default_reminder_later_time_labels">
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>30 minutter</item>
+        <item>1 time</item>
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>Kun denne hendelsen</item>
@@ -82,41 +56,33 @@
         <item>Alle hendelser</item>
     </string-array>
     <string-array name="gemini_info">
-        <item>gemini</item>
+        <item>tvillingene</item>
         <item>Tvillingene</item>
-        <item>21/5 - 21/6</item>
-    </string-array>
-    <string-array name="la_liga">
-        <item>3</item>
-        <item>La Liga</item>
+        <item>21.5 - 21.6</item>
     </string-array>
     <string-array name="leo_info">
-        <item>leo</item>
+        <item>løven</item>
         <item>Løven</item>
-        <item>23/7 - 22/8</item>
+        <item>23.7 - 22.8</item>
     </string-array>
     <string-array name="libra_info">
-        <item>libra</item>
+        <item>vekten</item>
         <item>Vekten</item>
-        <item>23/9 - 23/10</item>
+        <item>23.9 - 23.10</item>
     </string-array>
-    <string-array name="ligue_1">
-        <item>5</item>
-        <item>Ligue 1</item>
-    </string-array>
-    <string-array name="panchang_weeks">
-        <item>Søndag</item>
-        <item>Mandag</item>
-        <item>Tirsdag</item>
-        <item>Onsdag</item>
-        <item>Torsdag</item>
-        <item>Fredag</item>
-        <item>Lørdag</item>
+    <string-array name="open_alarm_repeating_labels">
+        <item>Bare denne gangen</item>
+        <item>Sett gjentatt påminnelse</item>
     </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
         <item>Fiskene</item>
-        <item>19/2 - 20/3</item>
+        <item>19.2 - 20.3</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_popup_new">
+        <item>Av</item>
+        <item>For alle arrangementer</item>
+        <item>For tidssensitive arrangementer</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>
@@ -256,26 +222,28 @@
         <item>Kanskje</item>
         <item>Nei</item>
     </string-array>
+    <string-array name="response_labels2">
+        <item>Ikke svar</item>
+        <item>Aksepter</item>
+        <item>Bestem senere</item>
+        <item>Avslå</item>
+    </string-array>
     <string-array name="sagittarius_info">
-        <item>sagittarius</item>
+        <item>skytten</item>
         <item>Skytten</item>
-        <item>23/11 - 21/12</item>
+        <item>23.11 - 21.12</item>
     </string-array>
     <string-array name="scorpio_info">
-        <item>scorpio</item>
+        <item>skorpionen</item>
         <item>Skorpionen</item>
-        <item>24/10 - 22/11</item>
-    </string-array>
-    <string-array name="serie_a">
-        <item>1</item>
-        <item>Serie A</item>
+        <item>24.10 - 22.11</item>
     </string-array>
     <string-array name="taurus_info">
-        <item>taurus</item>
+        <item>tyren</item>
         <item>Tyren</item>
-        <item>20/4 - 20/5</item>
+        <item>20.4 - 20.5</item>
     </string-array>
-    <string-array name="timezone_labels">
+    <string-array name="timezone_labels_v3">
         <item>Marshalløyene</item>
         <item>Midwayøyene</item>
         <item>Hawaii</item>
@@ -287,7 +255,7 @@
         <item>Mountain Time</item>
         <item>Mellom-Amerika</item>
         <item>Central Time</item>
-        <item>Mexico By</item>
+        <item>Mexico by</item>
         <item>Saskatchewan</item>
         <item>Bogotá</item>
         <item>Eastern Time</item>
@@ -303,18 +271,21 @@
         <item>Montevideo</item>
         <item>Midt-Atlanteren</item>
         <item>Azorene</item>
-        <item>Cape Verde</item>
+        <item>Kapp Verde</item>
         <item>Casablanca</item>
-        <item>London, Dublin</item>
-        <item>Amsterdam, Berlin</item>
+        <item>London</item>
+        <item>Dublin</item>
+        <item>Amsterdam</item>
+        <item>Berlin</item>
         <item>Beograd</item>
         <item>Brussel</item>
         <item>Sarajevo</item>
         <item>Windhoek</item>
-        <item>Lokaltid Sør-Afrika</item>
-        <item>Amman, Jordan</item>
-        <item>Athen, Istanbul</item>
-        <item>Beirut, Libanon</item>
+        <item>Vestafrikansk tid</item>
+        <item>Amman</item>
+        <item>Athen</item>
+        <item>Istanbul</item>
+        <item>Beirut</item>
         <item>Kairo</item>
         <item>Helsinki</item>
         <item>Jerusalem</item>
@@ -324,14 +295,14 @@
         <item>Moskva</item>
         <item>Kuwait</item>
         <item>Nairobi</item>
-        <item>Tehran</item>
+        <item>Teheran</item>
         <item>Baku</item>
         <item>Tblisi</item>
         <item>Jerevan</item>
         <item>Dubai</item>
         <item>Kabul</item>
-        <item>Islamabad, Karachi</item>
-        <item>Uralsk</item>
+        <item>Karachi</item>
+        <item>Oral</item>
         <item>Jekaterinburg</item>
         <item>Kolkata</item>
         <item>Sri Lanka</item>
@@ -341,6 +312,7 @@
         <item>Krasnoyarsk</item>
         <item>Bangkok</item>
         <item>Beijing</item>
+        <item>Chongqing</item>
         <item>Hong Kong</item>
         <item>Macao</item>
         <item>Singapore</item>
@@ -349,13 +321,14 @@
         <item>Perth</item>
         <item>Taipei</item>
         <item>Seoul</item>
-        <item>Tokyo, Osaka</item>
-        <item>Yakutsk</item>
+        <item>Tokyo</item>
+        <item>Jakutsk</item>
         <item>Adelaide</item>
         <item>Darwin</item>
         <item>Brisbane</item>
         <item>Hobart</item>
-        <item>Sydney, Canberra</item>
+        <item>Sydney</item>
+        <item>Canberra</item>
         <item>Vladivostok</item>
         <item>Guam</item>
         <item>Magadan</item>
@@ -371,9 +344,9 @@
         <item>1 dag før</item>
     </string-array>
     <string-array name="virgo_info">
-        <item>virgo</item>
+        <item>jomfruen</item>
         <item>Jomfruen</item>
-        <item>23/8 - 22/9</item>
+        <item>23.8 - 22.9</item>
     </string-array>
     <string-array name="week_header_name">
         <item>SØN</item>
@@ -387,5 +360,14 @@
     <string-array name="widget_style_list">
         <item>Gjennomsiktig</item>
         <item>Hvit bakgrunn</item>
+    </string-array>
+    <string-array name="year_view_week_header_name">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
     </string-array>
 </resources>

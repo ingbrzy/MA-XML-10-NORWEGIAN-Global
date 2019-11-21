@@ -5,7 +5,7 @@
         <item quantity="one">Fokusert. %d av ansiktet er gjenkjent</item>
     </plurals>
     <plurals name="toast_burst_snap_finished_summary">
-        <item quantity="other">Et burst shot er ferdig. %1$s bilder er tatt</item>
-        <item quantity="one">Et burst shot er ferdig. %1$s bilde er tatt</item>
+        <item quantity="other">Et burst shot er ferdig, %1$s bilder er tatt</item>
+        <item quantity="one">Et burst shot er ferdig, %1$s bilde er tatt</item>
     </plurals>
 </resources>

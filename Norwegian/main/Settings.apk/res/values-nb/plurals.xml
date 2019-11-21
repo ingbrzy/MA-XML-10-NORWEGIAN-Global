@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">For %d dager siden</item>
+        <item quantity="one">For %d dag siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">For %d min. siden</item>
+        <item quantity="one">For %d min. siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">For %d år siden</item>
+        <item quantity="one">For %d år siden</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d apper har full tilgang til enheten din</item>
+        <item quantity="one">1 app har full tilgang til enheten din</item>
+    </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
         <item quantity="other">Ekstremt kort forsinkelse (%1$d ms)</item>
         <item quantity="one">Ekstremt kort forsinkelse (%1$d ms)</item>
@@ -132,6 +148,14 @@
         <item quantity="other">%s timer</item>
         <item quantity="one">1 time</item>
     </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d av %2$d apper har tilgang til posisjon</item>
+        <item quantity="one">%1$d av %2$d apper har tilgang til posisjon</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">På – %1$d apper har tilgang til posisjon</item>
+        <item quantity="one">På – %1$d app har tilgang til posisjon</item>
+    </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Må inneholde minst %d bokstaver</item>
         <item quantity="one">Må inneholde minst én bokstav</item>
@@ -208,9 +232,17 @@
         <item quantity="other">%d lagt til</item>
         <item quantity="one">%d lagt til</item>
     </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM-kort</item>
+        <item quantity="one">%1$d SIM-kort</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d begrensninger</item>
         <item quantity="one">1 begrensning</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d varselkanaler.</item>
+        <item quantity="one">%1$d varselkanal.</item>
     </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d kategorier</item>
@@ -224,9 +256,21 @@
         <item quantity="other">%d kategorier er slått av</item>
         <item quantity="one">%d kategori er slått av</item>
     </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d varsler per dag</item>
+        <item quantity="one">~%d varsel per dag</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d varsler per uke</item>
+        <item quantity="one">~%d varsel per uke</item>
+    </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktive apper</item>
         <item quantity="one">%d aktiv app</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s apper</item>
+        <item quantity="one">1 app</item>
     </plurals>
     <plurals name="permissions_summary">
         <item quantity="other">%d tillatelser er gitt</item>
@@ -272,9 +316,13 @@
         <item quantity="other">Vis %d skjulte elementer</item>
         <item quantity="one">Vis %d skjult element</item>
     </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d enheter er tilkoblet</item>
+        <item quantity="one">%1$d enhet er tilkoblet</item>
+    </plurals>
     <plurals name="show_cit_countdown">
-        <item quantity="other">"You're %1$d steps away from entering CIT."</item>
-        <item quantity="one">Du er %1$d steg unna fra å gå inn i CIT.</item>
+        <item quantity="other">Du er %1$d steg unna å gå inn på CIT.</item>
+        <item quantity="one">Du er %1$d steg unna å gå inn på CIT.</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Nå er du %1$d steg fra å bli utvikler.</item>
@@ -285,12 +333,12 @@
         <item quantity="one">%1$d lagret høreapparat</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">"You're %1$d steps away from entering phone info."</item>
-        <item quantity="one">Du er %1$d steg unna fra å gå inn i telefoninfo.</item>
+        <item quantity="other">Du er %1$d steg unna å gå inn på telefoninfo.</item>
+        <item quantity="one">Du er %1$d steg unna å gå inn på telefoninfo.</item>
     </plurals>
     <plurals name="show_rep_countdown">
-        <item quantity="other">"You're %1$d steps away from reporting bug."</item>
-        <item quantity="one">Du er %1$d steg unna fra å rapportere feil.</item>
+        <item quantity="other">Du er %1$d steg unna å rapportere feil.</item>
+        <item quantity="one">Du er %1$d steg unna å rapportere feil.</item>
     </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d apper kan bruke ubegrenset med data</item>
@@ -416,6 +464,14 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="other">%d nettverk</item>
         <item quantity="one">1 nettverk</item>
     </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d nettverk og abonnementer</item>
+        <item quantity="one">1 nettverk og abonnement</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d abonnementer</item>
+        <item quantity="one">1 abonnement</item>
+    </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Delte %d nettverk</item>
         <item quantity="one">Delte %d nettverk</item>
@@ -428,17 +484,21 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
         <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
     </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Varsler fra %1$d apper kan overstyre Ikke forstyrr</item>
+        <item quantity="one">Varsler fra 1 app kan overstyre Ikke forstyrr</item>
+    </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d timer (med mindre det slås på automatisk)</item>
-        <item quantity="one">1 time (med mindre det slås på automatisk)</item>
+        <item quantity="other">%d timer</item>
+        <item quantity="one">1 time</item>
     </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d regler</item>
-        <item quantity="one">1 regel</item>
+        <item quantity="other">%d er slått på</item>
+        <item quantity="one">1 er slått på</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d regler kan slås på automatisk</item>
-        <item quantity="one">1 regel kan slås på automatisk</item>
+        <item quantity="other">%d tidsplaner kan slås på automatisk</item>
+        <item quantity="one">1 tidsplan kan slås på automatisk</item>
     </plurals>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
         <item quantity="other">%d andre</item>

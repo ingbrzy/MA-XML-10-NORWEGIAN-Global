@@ -73,6 +73,7 @@
     <string name="bt_path_not_exit">Denne banen eksisterer ikke</string>
     <string name="bt_restart_dialog_message">Starte alle nedlastingene i BT-mappen på nytt?</string>
     <string name="bt_restart_dialog_title">Start alle nedlastingene på nytt</string>
+    <string name="byteShort_per_seconds">B/s</string>
     <string name="cancel">Avbryt</string>
     <string name="check_new_downloaded_action">Vis</string>
     <string name="check_new_downloaded_file">En ny fil er funnet</string>
@@ -113,6 +114,7 @@
     <string name="download_pending">Nedlasting venter</string>
     <string name="download_remain_time">Gjenstår:</string>
     <string name="download_speed">Nedlastningshastighet:</string>
+    <string name="download_speed_suffix">%1$s %2$s</string>
     <string name="download_spend_time">Tid</string>
     <string name="download_status_continue">Gjenoppta</string>
     <string name="download_status_fail">Prøv igjen</string>
@@ -141,6 +143,7 @@
     <string name="file_exist_hint">Denne filen eksisterer allerede</string>
     <string name="file_size">Størrelse:</string>
     <string name="get_data_failed">Kunne ikke hente informasjon. Vent et minutt eller to og prøv igjen.</string>
+    <string name="gigabyteShort_per_seconds">GB/s</string>
     <string name="guess_like">Kanskje du også vil like</string>
     <string name="hint">Merk</string>
     <string name="info_download_details">Detaljer</string>
@@ -151,9 +154,12 @@
     <string name="install">Installer</string>
     <string name="installing">Installerer…</string>
     <string name="insufficient_space">Ikke nok lagringsplass</string>
+    <string name="kilobyteShort_per_seconds">kB/s</string>
     <string name="korean_all_choose_item_title">Jeg godtar alle vilkår og betingelser nedenfor.</string>
     <string name="korean_permission_group_phone_describe">Gi tilgang til enhetens IMEI- og nettverksstatus, og samle inn opplysninger om mislykkede nedlastinger for å forbedre tjenesten</string>
     <string name="korean_permission_group_phone_title">Telefon</string>
+    <string name="korean_permission_group_storage_describe">Få tilgang til enhetens lagring for å administrere nedlastinger</string>
+    <string name="korean_permission_group_storage_title">Lagring</string>
     <string name="korean_privacy_btn_accept">Godta</string>
     <string name="korean_privacy_btn_exit">Avslutt</string>
     <string name="korean_privacy_item_title">Personvernerklæring (obligatorisk)</string>
@@ -162,6 +168,7 @@
     <string name="load_finish_hint">Det var alt for nå.</string>
     <string name="loading">Et øyeblikk…</string>
     <string name="media_filter">Media</string>
+    <string name="megabyteShort_per_seconds">MB/s</string>
     <string name="menu_all_task_pause">Sett alle på vent</string>
     <string name="menu_all_task_start">Start alle</string>
     <string name="menu_enter_edit_mode">Redigeringsprogram</string>
@@ -194,6 +201,7 @@
     <string name="paused_unknown">Satt på vent</string>
     <string name="paused_waiting_for_network">Venter på nettverk</string>
     <string name="paused_waiting_to_retry">Venter på å forsøke igjen</string>
+    <string name="petabyteShort_per_seconds">PB/s</string>
     <string name="pref_download_settings_title">Størrelsesbegrensning på nedlasting</string>
     <string name="pref_summary_any_bytes_popup">Vent alltid på Wi-Fi-tilkobling for å laste ned filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Vis popupvarsling når du bruker mobildata for å laste ned innhold</string>
@@ -237,6 +245,7 @@
     <string name="task_detail">Oppgaver</string>
     <string name="task_detail_notfound_confirm">OK</string>
     <string name="task_fail">Mislyktes</string>
+    <string name="terabyteShort_per_seconds">TB/s</string>
     <string name="toast_only_wifi_download">Koble til Wi-Fi for å laste ned dette elementet</string>
     <string name="total_speedup">Hastighetsøkning (total)</string>
     <string name="version">Versjon %s</string>

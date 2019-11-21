@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_prompt_label">
+        <item>Moderat</item>
+        <item>Lenge</item>
+        <item>For lenge</item>
+    </string-array>
+    <string-array name="arr_sedentary_reminder">
+        <item>På tide å bevege på seg!</item>
+        <item>Finn ut mer</item>
+        <item>Drikk noe vann og ta deg en spasertur.</item>
+        <item>Finn ut mer</item>
+        <item>Gå opp noen trapper</item>
+        <item>Finn ut mer</item>
+        <item>Ikke sitt for lenge</item>
+        <item>Finn ut mer</item>
+    </string-array>
+    <string-array name="arr_time_label">
+        <item>Én time</item>
+        <item>To timer</item>
+    </string-array>
+    <string-array name="energy_unit">
+        <item>" kcal"</item>
+        <item>" kJ"</item>
+    </string-array>
+    <string-array name="length_unit">
+        <item>" cm"</item>
+        <item>" m"</item>
+        <item>" km"</item>
+    </string-array>
+    <string-array name="pager_titles">
+        <item>Dag</item>
+        <item>Uke</item>
+        <item>Måned</item>
+    </string-array>
+    <string-array name="run_in_background_state">
+        <item>Ingen begrensninger</item>
+        <item>Begrens bakgrunnsaktivitet</item>
+        <item>Stopp etter 10 minutter</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="speed_unit">
+        <item>" km/t"</item>
+        <item>" m/s"</item>
+    </string-array>
+    <string-array name="temperature_unit">
+        <item>℃</item>
+        <item>°F</item>
+    </string-array>
+    <string-array name="week_label">
+        <item>Søn</item>
+        <item>Man</item>
+        <item>Tir</item>
+        <item>Ons</item>
+        <item>Tor</item>
+        <item>Fre</item>
+        <item>Lør</item>
+    </string-array>
+</resources>

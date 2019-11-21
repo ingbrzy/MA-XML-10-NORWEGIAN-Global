@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="pc_manage_active_app_items">
-        <item>Sett apper til dvale</item>
-        <item>Lagre strøm</item>
+    <string-array name="emode_app_groups">
+        <item>Systemapper</item>
+        <item>Andre apper</item>
+        <item>Valgte apper</item>
     </string-array>
     <string-array name="hmode_app_classify1">
         <item>Tilpasset</item>
@@ -12,10 +13,13 @@
         <item>Aktive apper</item>
         <item>Apper i dvale</item>
     </string-array>
-    <string-array name="emode_app_groups">
-        <item>Systemapper</item>
-        <item>Andre apper</item>
-        <item>Valgte apper</item>
+    <string-array name="pc_manage_active_app_items">
+        <item>Sett apper til dvale</item>
+        <item>Lagre strøm</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Ytelse</item>
+        <item>Balansert</item>
     </string-array>
     <string-array name="thermal_entries">
         <item>Standard temperatur kontrollmodus</item>
@@ -25,9 +29,5 @@
         <item>Prioriter temperaturkontroll</item>
         <item>Prioriter ytelse</item>
         <item>Ikke støttet av Ekstrem batterisparer</item>
-    </string-array>
-    <string-array name="power_mode_entries">
-        <item>Ytelse</item>
-        <item>Balansert</item>
     </string-array>
 </resources>

@@ -23,7 +23,8 @@
     <string name="app_notification_info">Notater kjører i bakgrunnen</string>
     <string name="app_widget">Notater</string>
     <string name="application_icon">App-ikon</string>
-    <string name="audio_panel_time_counter_default">00:00</string>
+    <string name="audio_create_normal_state">Slipp for å opprette. Skyv opp for å avbryte.</string>
+    <string name="audio_create_will_cancel_state">Slipp for å avbryte</string>
     <string name="audio_toast_file_invalid">Lydfil er ugyldig</string>
     <string name="audio_toast_file_undownload">Lydfilen er ikke fullt lastet ned eller mangler</string>
     <string name="audio_toast_network_is_not_available">Kunne ikke koble til nettverket</string>
@@ -40,10 +41,6 @@
     <string name="cta_dialog_title">Tillatelser er nødvendig</string>
     <string name="cta_reminder">Notater trenger tillatelse til å koble til internett, ta opp lyd og få tilgang til kontaktene dine for å fungere normalt. Tillat?</string>
     <string name="date_calculate_today">0 dager</string>
-    <string name="date_picker_label_day" />
-    <string name="date_picker_label_month" />
-    <string name="date_picker_label_year" />
-    <string name="date_time_picker_alarm_reminder">Alarm</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="date_time_picker_has_not_set_alarm">Alarm er ikke satt</string>
     <string name="date_time_picker_has_set_alarm">Alarm innstilling vellykket</string>
@@ -89,8 +86,6 @@
     <string name="error_widget_exist_for_send_to_desktop">Dette notatet ligger allerede på Startskjermen din</string>
     <string name="exceed_todo_text_limitation">Oppgavebeskrivelsen er for lang.</string>
     <string name="first_enter_custom_folder_hint">Du kan gi nytt navn eller slette mapper her</string>
-    <string name="fmt_chinese_date">N e</string>
-    <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="folder_exist">En mappe med samme navn finnes allerede</string>
     <string name="folder_operation_delete">Slett</string>
     <string name="folder_operation_rename">Gi nytt navn</string>
@@ -130,6 +125,10 @@
     <string name="menu_todo_show_finished_todo">Vis fullførte oppgaver</string>
     <string name="menu_unhide">Vis</string>
     <string name="menu_unstick">Løsne</string>
+    <string name="new_audio_create_cancel_talkback_des">Avbrutt</string>
+    <string name="new_audio_create_done_talkback_des">Opprettet</string>
+    <string name="new_audio_create_guide_tip">Trykk og hold for å opprette et talenotat</string>
+    <string name="new_audio_create_talkback_des">Trykk for å opprette et talenotat. Trykk og hold for å opprette et talenotat. Slipp knappen for å avslutte opptaket og opprette notatet, eller skyv opp for å avbryte.</string>
     <string name="not_now">Ikke nå</string>
     <string name="note_description_content">Notater-appen er et flott verktøy for å registrere ideene dine. Den har innebygde påminnelser og synkroniserer elementene dine til skyen, slik at du kan få tilgang til dem hvor som helst, når som helst. Vær sikker på at du klarer deg uten disse funksjonene før du sletter appen.</string>
     <string name="note_description_title">Om notater</string>
@@ -165,6 +164,7 @@
     <string name="pref_title_skip_confirm_for_quick_delete">Slett ved hjelp av bevegelse</string>
     <string name="pref_title_todo_float_mode">Bruk verktøykasse</string>
     <string name="pref_title_todo_shorcut">Verktøykasse</string>
+    <string name="privacy_note_content_empty">Ingen elementer her ennå.</string>
     <string name="recover_notes_hint">Det oppsto en feil, gå til i.mi.com for å gjenopprette notater.</string>
     <string name="redo">Gjenta</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Vent til notatet er lastet og prøv igjen.</string>
@@ -195,7 +195,6 @@
     <string name="snippet_audio_stub">Stemme-notat</string>
     <string name="snippet_image_stub">Bilde-notat</string>
     <string name="snippet_image_template">[Bilde %1$s]</string>
-    <string name="sns_action_send">Send</string>
     <string name="sns_choose_quality_high">Høy (%1$s)</string>
     <string name="sns_choose_quality_low">Lav</string>
     <string name="sns_choose_quality_title">Velg bildekvalitet</string>
@@ -228,7 +227,6 @@
     <string name="theme_white_description">Hvit</string>
     <string name="theme_yellow_description">Gul</string>
     <string name="time_picker_label_hour">T</string>
-    <string name="time_picker_label_minute">M</string>
     <string name="toast_cancel_to_insert_image">Kunne ikke legge til bilde.</string>
     <string name="toast_message_add_image_fail">Kunne ikke legge til bilde</string>
     <string name="toast_notes_delete_success">Sletting var vellykket</string>
@@ -250,7 +248,6 @@ Tillat Notater å lese telefonstatus og identitet."</string>
     <string name="toast_refuse_to_use_record_audio">"Mikrofontillatelser er begrenset.
 Tillat Notater å spille inn lyd."</string>
     <string name="todo_alert_title_delete">Slett fullførte oppgaver</string>
-    <string name="todo_audio_default_content">"[Voice task] "</string>
     <string name="todo_custom_remind_tag_pattern_with_md">dd/MM HH:mm</string>
     <string name="todo_custom_remind_tag_pattern_with_ymd">dd/MM/yyyy HH:mm</string>
     <string name="todo_edit_audio_hint">Si oppgaven din</string>
@@ -284,8 +281,6 @@ Tillat Notater å spille inn lyd."</string>
     <string name="todo_module_name">Oppgaver</string>
     <string name="todo_notify_alarm_title">Påminnelse for oppgave</string>
     <string name="todo_schedule_time_expired">" (Utløpt)"</string>
-    <string name="todo_schedule_time_for_picker_hm">H mm</string>
-    <string name="todo_schedule_time_hm">HH:mm</string>
     <string name="todo_schedule_time_md">dd/MM</string>
     <string name="todo_schedule_time_mdhm">dd/MM HH:mm</string>
     <string name="todo_schedule_time_today">I dag</string>
@@ -300,7 +295,6 @@ Tillat Notater å spille inn lyd."</string>
     <string name="todo_user_guide_tip3">Trykk på en oppgave for å redigere den.</string>
     <string name="todo_user_guide_tip4">Ikke glem å opprette en snarvei på startskjermen for Oppgaver.</string>
     <string name="todo_user_guide_tip5">Hold deg organisert og aldri gå glipp av noe viktig!</string>
-    <string name="todoalert_done">OK</string>
     <string name="toolbar_check_description">Leg til avkryssingsboks</string>
     <string name="toolbar_delete_description">Slett dette notatet</string>
     <string name="toolbar_gallery_description">Legg til bilde</string>

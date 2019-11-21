@@ -1,40 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="items_unsynced">
-        <item quantity="other">Elementer som venter på å synkroniseres: %d</item>
-        <item quantity="one">Elementer som venter på å synkroniseres: %d</item>
-    </plurals>
-    <plurals name="dirty_contacts_count">
-        <item quantity="other">%d kontakter</item>
-        <item quantity="one">%d kontakt</item>
-    </plurals>
-    <plurals name="dirty_mms_count">
-        <item quantity="other">%d meldinger</item>
-        <item quantity="one">%d meldinger</item>
-    </plurals>
-    <plurals name="dirty_note_count">
-        <item quantity="other">%d notater</item>
-        <item quantity="one">%d notater</item>
-    </plurals>
-    <plurals name="dirty_image_count">
-        <item quantity="other">%d bilder</item>
-        <item quantity="one">%d bilde</item>
-    </plurals>
-    <plurals name="dirty_callog_count">
-        <item quantity="other">%d anropshistorikk-registreringer</item>
-        <item quantity="one">%d anropshistorikk-registreringer</item>
-    </plurals>
-    <plurals name="dirty_wlan_count">
-        <item quantity="other">%d Wi-Fi-nettverk</item>
-        <item quantity="one">%d Wi-Fi-nettverk</item>
-    </plurals>
-    <plurals name="dirty_recorder_count">
-        <item quantity="other">%d registreringer</item>
-        <item quantity="one">%d registreringer</item>
-    </plurals>
-    <plurals name="dirty_music_count">
-        <item quantity="other">%d sanger</item>
-        <item quantity="one">%d sang</item>
+    <plurals name="dirty_blocklist_count">
+        <item quantity="other">%d blokkeringsliste-oppføringer</item>
+        <item quantity="one">%d blokkeringsliste-oppføringer</item>
     </plurals>
     <plurals name="dirty_browser_count">
         <item quantity="other">%d nettleserelementer</item>
@@ -44,9 +12,29 @@
         <item quantity="other">%d kalenderelementer</item>
         <item quantity="one">%d kalenderelementer</item>
     </plurals>
-    <plurals name="dirty_blocklist_count">
-        <item quantity="other">%d blokkeringsliste-oppføringer</item>
-        <item quantity="one">%d blokkeringsliste-oppføringer</item>
+    <plurals name="dirty_callog_count">
+        <item quantity="other">%d anropshistorikk-registreringer</item>
+        <item quantity="one">%d anropshistorikk-registreringer</item>
+    </plurals>
+    <plurals name="dirty_contacts_count">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="dirty_image_count">
+        <item quantity="other">%d bilder</item>
+        <item quantity="one">%d bilde</item>
+    </plurals>
+    <plurals name="dirty_mms_count">
+        <item quantity="other">%d meldinger</item>
+        <item quantity="one">%d meldinger</item>
+    </plurals>
+    <plurals name="dirty_music_count">
+        <item quantity="other">%d sanger</item>
+        <item quantity="one">%d sang</item>
+    </plurals>
+    <plurals name="dirty_note_count">
+        <item quantity="other">%d notater</item>
+        <item quantity="one">%d notater</item>
     </plurals>
     <plurals name="dirty_personalAssistant_count">
         <item quantity="other">%d App vault-oppføringer</item>
@@ -56,21 +44,33 @@
         <item quantity="other">%d ofte brukte setninger</item>
         <item quantity="one">%d ofte brukt setning</item>
     </plurals>
+    <plurals name="dirty_recorder_count">
+        <item quantity="other">%d registreringer</item>
+        <item quantity="one">%d registreringer</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>
         <item quantity="one">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>
     </plurals>
-    <plurals name="micloud_manual_pause_and_resume">
-        <item quantity="other">Fortsetter synkronisering om %d minutter</item>
-        <item quantity="one">Fortsetter synkronisering om %d minutt</item>
+    <plurals name="dirty_wlan_count">
+        <item quantity="other">%d Wi-Fi-nettverk</item>
+        <item quantity="one">%d Wi-Fi-nettverk</item>
+    </plurals>
+    <plurals name="items_unsynced">
+        <item quantity="other">Elementer som venter på å synkroniseres: %d</item>
+        <item quantity="one">Elementer som venter på å synkroniseres: %d</item>
+    </plurals>
+    <plurals name="last_sync_time_hours_ago">
+        <item quantity="other">%s t siden</item>
+        <item quantity="one">%s t siden</item>
     </plurals>
     <plurals name="last_sync_time_mins_ago">
         <item quantity="other">%s min siden</item>
         <item quantity="one">%s min siden</item>
     </plurals>
-    <plurals name="last_sync_time_hours_ago">
-        <item quantity="other">%s t siden</item>
-        <item quantity="one">%s t siden</item>
+    <plurals name="micloud_manual_pause_and_resume">
+        <item quantity="other">Fortsetter synkronisering om %d minutter</item>
+        <item quantity="one">Fortsetter synkronisering om %d minutt</item>
     </plurals>
     <plurals name="provision_sync_items_status_title">
         <item quantity="other">%s tjeneste blir synkroniserte med Xiaomi Cloud</item>

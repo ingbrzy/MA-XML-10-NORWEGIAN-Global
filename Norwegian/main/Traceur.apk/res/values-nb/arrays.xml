@@ -108,6 +108,11 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Slått av</item>
+        <item>Filtrering er slått på</item>
+        <item>Slått på</item>
+    </string-array>
     <string-array name="color_mode_descriptions">
         <item>Forbedrede farger</item>
         <item>Naturlige farger – som øyet ser dem</item>

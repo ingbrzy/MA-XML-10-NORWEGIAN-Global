@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Gå til startsiden</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
@@ -8,17 +8,11 @@
     <string name="abc_activitychooserview_choose_application">Velg en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
-    <string name="abc_menu_alt_shortcut_label">Alt+</string>
-    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
-    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
     <string name="abc_menu_function_shortcut_label">Funksjon+</string>
-    <string name="abc_menu_meta_shortcut_label">Meta+</string>
-    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">mellomrom</string>
-    <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Meny+</string>
-    <string name="abc_search_hint">Søk …</string>
+    <string name="abc_search_hint">Søk</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
     <string name="abc_searchview_description_query">Søkeord</string>
     <string name="abc_searchview_description_search">Søk</string>
@@ -27,7 +21,6 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
-    <string name="app_name">MIUI Bluetooth</string>
     <string name="ble_device_address">MAC for Bluetooth-smartenhet</string>
     <string name="ble_device_profile">Bluetooth-enhetens profil</string>
     <string name="ble_device_profile_header_title">Innstillinger</string>
@@ -42,6 +35,7 @@
     <string name="bluetooth_preference_found_devices">Tilgjengelige enheter</string>
     <string name="bluetooth_preference_scan_title">Søk etter enheter</string>
     <string name="bluetooth_search_for_devices">Søk etter enheter</string>
+    <string name="copy">Kopiér</string>
     <string name="device_picker">Enhetsinnstillinger for Bluetooth</string>
     <string name="disconnect">Avslutt kobling</string>
     <string name="expand_button_title">Avansert</string>
@@ -52,6 +46,7 @@
     <string name="fast_connect_device_connect_retry">Prøv igjen</string>
     <string name="fast_connect_device_connect_setup">Innstillinger</string>
     <string name="fast_connect_device_connect_success">Ferdig</string>
+    <string name="fast_connect_device_headset">Batteri</string>
     <string name="fast_connect_device_headset_l">Venstre</string>
     <string name="fast_connect_device_headset_r">Høyre</string>
     <string name="fast_connect_device_headset_reset">Hold knappen på boksen nede</string>
@@ -77,15 +72,14 @@
     <string name="mi_key_summary_open_camera">Dobbeltklikk på Mi Key for å åpne kamera</string>
     <string name="mi_key_summary_take_photo">Klikk på Mi Key for å ta et bilde</string>
     <string name="mi_key_take_photo">Ta bilde</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="notify_device_lose_connection_text">Trykk for å avslutte paring med %1$s</string>
     <string name="notify_device_lose_connection_title">Mistet forbindelsen til %1$s</string>
-    <string name="ok_button">OK</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="progress_scanning">Søker…</string>
     <string name="reset_function_msg">Hvis du tilbakestiller denne funksjonen, kan det hende at %1$s ikke fungerer normalt.</string>
     <string name="search_menu_title">Søk</string>
     <string name="some_app_taking">(%1$s bruker allerede denne funkjsonen)</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="unbind_device_alert_cancel">Avbryt</string>
     <string name="unbind_device_alert_content">Mistet forbindelsen til %1$s. Du kan spare batteri ved å avslutte paring med denne enheten nå.</string>
     <string name="unbind_device_alert_ok">Avslutt kobling</string>

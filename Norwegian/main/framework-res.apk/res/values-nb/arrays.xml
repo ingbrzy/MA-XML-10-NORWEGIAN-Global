@@ -37,6 +37,8 @@
         <item>Annen</item>
         <item>Egendefinert…</item>
     </string-array>
+    <array name="face_acquired_vendor" />
+    <array name="face_error_vendor" />
     <array name="fingerprint_acquired_vendor" />
     <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">
@@ -57,9 +59,5 @@
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Problem med å registrere Wi-Fi-anrop med operatøren din: %1$s</item>
-    </string-array>
-    <string-array name="wfcSpnFormats">
-        <item>%s</item>
-        <item>%s Wi-Fi-anrop</item>
     </string-array>
 </resources>

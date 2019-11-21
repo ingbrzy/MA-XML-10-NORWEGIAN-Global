@@ -5,7 +5,7 @@
     <string name="calendar_sound">Påminnelser om hendelser</string>
     <string name="calendar_tip">Lyder for påminnelser om hendelser fungerer for kalenderpåminnelser, notater og oppgaver</string>
     <string name="follow_sim1">Bruk SIM 1-innstillinger</string>
-    <string name="intelligent_recognition_item_summary">Identifiser innkommende anrop gjort av tjenestetilbydere (f.eks. matlevering), og bruk andre ringetoner for dem</string>
+    <string name="intelligent_recognition_item_summary">Bruk en bestemt ringetone for anrop fra leverings- og taxitjenester. Denne funksjonen fungerer når %s er angitt som standard ringetone.</string>
     <string name="intelligent_recognition_item_title">Identifiser tjenester</string>
     <string name="mms">Meldinger</string>
     <string name="more_ringtone">Alle ringetoner</string>

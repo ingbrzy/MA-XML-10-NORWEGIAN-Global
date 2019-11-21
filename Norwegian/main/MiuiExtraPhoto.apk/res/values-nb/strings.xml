@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="extra_photo_common_saving">Lagrer…</string>
+    <string name="motion_photo_re_pick_title">Velg det beste bildet</string>
+    <string name="motion_photo_toast_default">Standard</string>
+    <string name="motion_photo_toast_suggest">Anbefalt</string>
+    <string name="refocus_discard_confirm_message">Lagre endringer?</string>
+    <string name="refocus_discard_negative_btn">Forkast</string>
+    <string name="refocus_discard_positive_btn">Lagre</string>
+    <string name="refocus_photo_not_support">Kan ikke anvende uklarhet på dette bildet</string>
+    <string name="refocus_relighting_toast">Flytt på sirkelen for å jsutere lysvinkelen</string>
+    <string name="refocus_save_cancel">Avbryt</string>
+    <string name="refocus_save_title">Velg format</string>
+    <string name="refocus_save_to_photo">Lagre som bilde</string>
+    <string name="refocus_save_to_video">Lagre som video</string>
+    <string name="refocus_saving">Lagrer…</string>
+    <string name="refocus_title">Uklarhet</string>
+    <string name="refocus_type_relighting">Studio-lys</string>
+    <string name="refocus_type_relighting_no_face">Kunne ikke finne ansikt</string>
+    <string name="refocus_type_relighting_small_face">Studiolys fungerer på bilder hvor ansiktet tar mer plass enn her.</string>
+    <string name="refocus_type_static">Uklarhetsnivå</string>
+    <string name="refocus_type_video">Lysstriper</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

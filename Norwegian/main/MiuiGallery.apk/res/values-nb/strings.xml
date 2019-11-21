@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Gå til startsiden</string>
+    <string name="abc_action_bar_up_description">Gå opp</string>
+    <string name="abc_action_menu_overflow_description">Flere alternativer</string>
+    <string name="abc_action_mode_done">Ferdig</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Velg en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meny+</string>
+    <string name="abc_search_hint">Søk …</string>
+    <string name="abc_searchview_description_clear">Slett søket</string>
+    <string name="abc_searchview_description_query">Søkeord</string>
+    <string name="abc_searchview_description_search">Søk</string>
+    <string name="abc_searchview_description_submit">Utfør søket</string>
+    <string name="abc_searchview_description_voice">Talesøk</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="accept">Aksepter</string>
     <string name="accept_or_deny">%1$s delte albumet %2$s med deg.</string>
     <string name="actionbar_overflow_item_desc">Flere valg</string>
@@ -101,7 +128,7 @@
     <string name="alert_selection_description">MIUI vil analysere liknende bilder og markere de beste bildene for deg.</string>
     <string name="alert_selection_title">Velg det beste bildet</string>
     <string name="all_faces">Bilder med denne personen</string>
-    <string name="all_items_synced">Alle album er sikkerhetskopierte til Xiaomi Cloud</string>
+    <string name="all_items_synced">Alle album ble synkroniserte med skyen</string>
     <string name="all_video_album_display_name">Alle videoer</string>
     <string name="already_create_baby_album">Babyalbumet finnes allerede i Xiaomi Cloud.</string>
     <string name="and"> og </string>
@@ -116,20 +143,20 @@
     <string name="assistant_page_label">Minner</string>
     <string name="assistant_page_server_error">Kontroller nettverksinnstillingene dine</string>
     <string name="associate_face_album">Velg et album</string>
-    <string name="auto_backup_introduce">Sikkerhetslagre bilder og videoer automatisk (Mi Account er påkrevd)</string>
+    <string name="auto_backup_introduce">Synkroniser bilder og videoer automatisk (Mi-konto er påkrevd)</string>
     <string name="auto_download_media_title">Last ned bilder fra Xiaomi Cloud automatisk</string>
     <string name="auto_update_face">Legg til bilder automatisk</string>
     <string name="auto_update_face_summary">Match og legg til bilder i babyalbumet automatisk</string>
     <string name="auto_update_off">Av</string>
     <string name="auto_update_on">På</string>
-    <string name="auto_upload_before_share_message">Sikkerhetskopier dette albumet til Xiaomi Cloud før deling</string>
+    <string name="auto_upload_before_share_message">Synkroniser dette albumet med Xiaomi Cloud før du deler det</string>
     <string name="auto_upload_before_share_title">Hint</string>
     <string name="auto_upload_disable_tip">Synkronisering med skyen er deaktivert</string>
     <string name="auto_upload_disable_toast_long_press_menu">Synkronisering med skyen er deaktivert</string>
     <string name="auto_upload_enable_toast_long_press_menu">Synkronisering med skyen er aktivert</string>
     <string name="baby_album">Babyalbum</string>
     <string name="baby_album_change_background">Endre bakgrunnsbilde</string>
-    <string name="baby_album_needs_auto_backup_tip">Kan ikke skru av automatisk sikkerhetskopiering for Baby-album</string>
+    <string name="baby_album_needs_auto_backup_tip">Kan ikke deaktivere automatisk synkronisering for Baby-album</string>
     <string name="baby_album_new_photo_remind">Det er nye bilder i ditt Baby album.</string>
     <string name="baby_album_setting_title">Babyinfo</string>
     <string name="baby_album_settings">Innstillinger for babyalbum</string>
@@ -151,8 +178,8 @@
     <string name="baby_sexy">Kjønn</string>
     <string name="baby_suffix">baby</string>
     <string name="back">Tilbake</string>
-    <string name="backup_automatically_summary">Sikkerhetskopier bilder og videoer fra alle enheter til Xiaomi Cloud. Da kan du enkelt se gjennom, sortere, endre, og dele bilder og videoer på alle enhetene.</string>
-    <string name="backup_automatically_title">Sikkerhetskopier automatisk</string>
+    <string name="backup_automatically_summary">Synkroniser bilder og videoer fra alle enheter til Xiaomi Cloud. Da kan du utforske, sortere, redigere og dele bilder og videoer på alle enhetene dine.</string>
+    <string name="backup_automatically_title">Synkroniser automatisk</string>
     <string name="backup_battery_low_desc">Du kan fortsatt velge å fortsette sikkerhetskopieringen av elementer</string>
     <string name="backup_battery_low_title">Sikkerhetkopiering satt på vent på grunn av lavt batterinivå</string>
     <string name="backup_close">Lukk sikkerhetkopiering</string>
@@ -163,7 +190,7 @@
     <string name="backup_cta_not_allow_desc">Tillat automatisk sikkerhetskopiering</string>
     <string name="backup_cta_not_allow_title">Får ikke tilgang til nettverket</string>
     <string name="backup_detail_page_empty">Ingen bilder eller videoer venter på sikkerhetkopiering</string>
-    <string name="backup_detail_page_title">Xiaomi Cloud-sikkerhetskopier</string>
+    <string name="backup_detail_page_title">Synkroniserte elementer</string>
     <string name="backup_device_space_low_btn_text">Frigjør</string>
     <string name="backup_device_space_low_desc">Frigjør lagringsplass for å fortsette sikkerhetskopieringen av elementer</string>
     <string name="backup_device_space_low_title">Ikke nok lagringsplass</string>
@@ -179,15 +206,16 @@
     <string name="backup_no_wifi_btn_text">Bruk mobildata</string>
     <string name="backup_no_wifi_desc">Du kan også sikkerhetskopiere elementer ved å bruke mobildata</string>
     <string name="backup_no_wifi_title">Synkroniseringen vil fortsette etter at du har koblet til Wi-Fi</string>
-    <string name="backup_only_in_wifi">Bruk kun Wi‑Fi for å sikkerhetskopiere bilder og videoer</string>
-    <string name="backup_only_in_wifi_summary">Bruk aldri mobildata for å sikkerhetskopiere bilder eller videoer</string>
-    <string name="backup_only_wifi_dialog_message">Bruk mobildata til å sikkerhetskopiere bilder og videoer?</string>
+    <string name="backup_only_in_wifi">Bruk kun Wi‑Fi for å synkronisere bilder og videoer</string>
+    <string name="backup_only_in_wifi_summary">Bruk aldri mobildata for å synkronisere bilder eller videoer</string>
+    <string name="backup_only_wifi_dialog_message">Bruke mobildata til å synkronisere bilder og videoer?</string>
     <string name="backup_pause">Sett sikkerhetkopiering på pause</string>
+    <string name="backup_pause_dialog_title">Sett synkronisering på pause</string>
     <string name="backup_pause_title">Synkronisering er satt på pause</string>
     <string name="backup_pending">Vil bli sikkerhetskopiert automatisk</string>
     <string name="backup_stop">Stopp sikkerhetkopiering</string>
     <string name="backup_sync_dialog_confirm">Skru på</string>
-    <string name="backup_sync_dialog_tips">Aktiver synkronisering med skyen for å endre innstillingene for sikkerhetskopiering.</string>
+    <string name="backup_sync_dialog_tips">Aktiver synkronisering med skyen for å endre innstillinger.</string>
     <string name="backup_sync_dialog_title">Synkronisering av</string>
     <string name="backup_sync_error_btn_text">Prøv igjen</string>
     <string name="backup_sync_error_desc">Kan ikke koble til Xiaomi Cloud</string>
@@ -221,7 +249,7 @@
     <string name="by_others">Annet</string>
     <string name="by_sms">SMS</string>
     <string name="byteShort">B</string>
-    <string name="camera_needs_auto_backup_tip">Kameraalbum må sikkerhetskopieres</string>
+    <string name="camera_needs_auto_backup_tip">Kameraalbum må synkroniseres</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_baby_lock_wallpaper_confirm_msg">Bytte til standard bakgrunn på låst skjerm?</string>
     <string name="cancel_download_btn_text">Stopp</string>
@@ -249,6 +277,9 @@
     <string name="chooser_fragment_mishare_title">Del med</string>
     <string name="cleaner_empty_value_description">Alt ser bra ut</string>
     <string name="cleaner_photo_pick_delete_selected">Slett valgte bilder</string>
+    <string name="cleaner_raw_action">Fjern</string>
+    <string name="cleaner_raw_description">Frigjør lagringsplass ved å slette store RAW-bilder</string>
+    <string name="cleaner_raw_title">Fjern RAW-filer</string>
     <string name="cleaner_scan_description">Optimalisering av elementer frigjør lagringsplass på din enhet</string>
     <string name="cleaner_scan_exit_dialog_message">Du må begynne på nytt neste gang. Stoppe skanning nå?</string>
     <string name="cleaner_scan_exit_dialog_positive">Stopp</string>
@@ -279,13 +310,13 @@
     <string name="close">Lukk</string>
     <string name="close_dialog_desc">Lukk dialogboksen</string>
     <string name="cloud_camera_display_name">Kamerabilder</string>
-    <string name="cloud_guide_auto_backup_title">Velg album du vil sikkerhetskopiere</string>
+    <string name="cloud_guide_auto_backup_title">Velg album du vil synkronisere</string>
     <string name="cloud_guide_login_title">Sikkerhetskopier bilder og videoer automatisk</string>
     <string name="cloud_guide_welcome_title">Xiaomi Cloud</string>
-    <string name="cloud_privacy_with_ai_album">Personvernerklæring om automatiske sikkerhetskopier og bildebehandling</string>
-    <string name="cloud_privacy_with_face">Personvernerklæring om automatiske sikkerhetskopier og ansiktsgjenkjenning</string>
+    <string name="cloud_privacy_with_ai_album">Personvernerklæring om automatisk synkronisering og bildebehandling</string>
+    <string name="cloud_privacy_with_face">Personvernerklæring om automatisk synkronisering og ansiktsgjenkjenning</string>
     <string name="cloud_screenshots_display_name">Skjermbilder</string>
-    <string name="cloud_settings">Sikkerhetskopi av galleri</string>
+    <string name="cloud_settings">Synkroniser</string>
     <string name="cloud_storage_extend">Utvid skyens lagringsplass</string>
     <string name="cloud_storage_ok_append_desc">Tilgjengelig %s</string>
     <string name="cloud_storage_ok_desc">Xiaomi Cloud-lagring %s</string>
@@ -554,6 +585,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_to_pick_email">Ugyldig e-postadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Sjekk din datatilkobling og prøv igjen.</string>
@@ -564,6 +596,7 @@ Ta flere bilder av vennene dine!"</string>
     <string name="feature_guidance_photo_effects">"Ny fotoeffekt
 er tilgjengelig"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgjengelig</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_cannot_print">Kan ikke skrive ut dette elementet.</string>
     <string name="file_cannot_screen_throw">Kan ikke strømme dette elementet.</string>
     <string name="file_sending">Overfører filer…</string>
@@ -586,6 +619,7 @@ er tilgjengelig"</string>
     <string name="filter_category_scene">Landskap</string>
     <string name="filter_category_sky">Himmel</string>
     <string name="filter_film_blackwhite">B&amp;W</string>
+    <string name="filter_film_classic">Klassisk</string>
     <string name="filter_film_dew">Dugg</string>
     <string name="filter_film_fade">Falme</string>
     <string name="filter_film_film">Film</string>
@@ -694,6 +728,7 @@ er tilgjengelig"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Angi</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri trenger tilgang til 
 %s
  for å fungere som normalt, trykk \"Sett\" for å gå til Tillatelser."</string>
@@ -786,7 +821,10 @@ er tilgjengelig"</string>
     <string name="main_discard_confirm_message">Du har ulagrede endringer</string>
     <string name="main_discard_negative_btn">Forkast</string>
     <string name="main_discard_positive_btn">Lagre &amp; Avslutt</string>
+    <string name="main_save_cancel">Avbryt</string>
+    <string name="main_save_compress">Komprimer og lagre</string>
     <string name="main_save_error_msg">Kunne ikke lagre endringene grunnet en feil</string>
+    <string name="main_save_origin">Lagre opprinnelig fil</string>
     <string name="mark_myself_default_name">Meg</string>
     <string name="mark_myself_suggestion_load_more">Det er ikke meg</string>
     <string name="mark_myself_suggestion_title">"Velg bilder med ansiktet ditt
@@ -805,7 +843,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="merge_album_title">Slå sammen med en person</string>
     <string name="messagelist_sender_self">Meg</string>
     <string name="mi_drop">Mi Share</string>
-    <string name="micloud_introduce">Sikkerhetslagre bilder og videoer automatisk (Mi Account er påkrevd)</string>
+    <string name="micloud_introduce">Synkroniser bilder og videoer automatisk (Mi-konto er påkrevd)</string>
     <string name="midnight">AM</string>
     <string name="monday">Monday</string>
     <string name="monday_short">Mon</string>
@@ -996,6 +1034,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="people_mark_mode_title_no_mark_name">Velg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Uten navn</string>
+    <string name="percent_sign">%</string>
     <string name="permission_contacts_desc">For å tilordne kontakter til personer på bilder</string>
     <string name="permission_contacts_name">Kontakter</string>
     <string name="permission_optional_category">Valgfrie tillatelser</string>
@@ -1205,8 +1244,13 @@ for å tilpasse Bildegalleriet"</string>
     <string name="screen_doodle_talkback_size">Linjetykkelse på drodling</string>
     <string name="screen_editor_btn_delete">Slett</string>
     <string name="screen_editor_btn_save">Lagre</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Slette denne skjermdumpen?</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Ferdig</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Avbryt</string>
     <string name="screen_save_dialog_btn_delete">Slett skjermbilde</string>
     <string name="screen_save_dialog_btn_save">Lagre i Galleri</string>
@@ -1243,6 +1287,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="search_login_title_full_screen">Logg inn med din Mi Account for å finne flere objekter og mennesker</string>
     <string name="search_mark_feedback_false_negative_title">OK</string>
     <string name="search_mark_feedback_false_positive_title">Fiks</string>
+    <string name="search_menu_title">Søk</string>
     <string name="search_net_error">En nettverksfeil oppstod. Koble til et nytt nettverk og prøv igjen.</string>
     <string name="search_request_applied">Lagt til</string>
     <string name="search_request_open">Bli med i test-teamet</string>
@@ -1264,6 +1309,9 @@ for å tilpasse Bildegalleriet"</string>
     <string name="search_title_recommend">Anbefalt</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leter etter projektor …</string>
     <string name="secret_album_card_description">Den beste plassen for alle dine små hemmeligheter</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1312,7 +1360,7 @@ for å tilpasse Bildegalleriet"</string>
     <string name="setup_network_connection">Nettverksinnstillinger</string>
     <string name="share">Del</string>
     <string name="share_album">Del album</string>
-    <string name="share_album_needs_auto_upload_tip">Kan ikke skru av sikkerhetskopieringer for delte album</string>
+    <string name="share_album_needs_auto_upload_tip">Kan ikke deaktivere synkronisering med skyen for delte album</string>
     <string name="share_album_qr_code">Albumets QR-kode</string>
     <string name="share_by_email_start">Del %1$s i bakgrunnen</string>
     <string name="share_by_email_successfully">Delt %1$s</string>
@@ -1500,6 +1548,8 @@ for å tilpasse Bildegalleriet"</string>
     <string name="unpublish_failed">Kunne ikke fjerne publisering</string>
     <string name="unpublish_succeeded">Album ikke publisert</string>
     <string name="unpublishing">Kansellerer…</string>
+    <string name="unsupport_raw">%s fungerer ikke med RAW-bilder</string>
+    <string name="unsupport_raw_and_video">%s fungerer ikke med videoer og RAW-bilder</string>
     <string name="unsupport_video">%s fungerer ikke med videoer</string>
     <string name="user_agree">Enig</string>
     <string name="user_agreement2">Vilkår for bruk</string>

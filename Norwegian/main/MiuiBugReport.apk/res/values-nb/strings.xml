@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="action_cancel">Avbryt</string>
-    <string name="action_submit">Send</string>
     <string name="announcement">Oppmerksomhet</string>
     <string name="app_empty">Kunne ikke finne apper.</string>
     <string name="app_label">Tilbakemelding</string>
     <string name="app_name">Tilbakemelding</string>
     <string name="app_search">Søk i apper</string>
-    <string name="btn_send">Send</string>
     <string name="bugreport_dialog_not_show_again">Ikke vis igjen</string>
     <string name="bugreport_dialog_submit_content">&lt;Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
     <string name="bugreport_dump_complete_notification_summary">Trykk for å se.</string>
@@ -32,7 +30,6 @@
 3. Kom tilbake til denne siden og trykk på «Fullfør og last opp»."</string>
     <string name="catch_full_log_item_content_title">Trinn:</string>
     <string name="catch_full_log_item_title_audio">Lyd, lydopptak og anropslyd</string>
-    <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Henger etter</string>
     <string name="catch_full_log_item_title_gps">Stedtjenester</string>
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
@@ -50,14 +47,12 @@
     <string name="catch_full_log_submit_directly">Send inn</string>
     <string name="close_feedback_main">Gjem</string>
     <string name="cta_cancel">Avbryt</string>
-    <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Denne appen trenger en internettforbindelse for å fungere normalt.</string>
     <string name="cta_dialog_title">Internettforbindelse</string>
     <string name="cta_not_show_again">Ikke vis igjen</string>
     <string name="customer_service_apply">Be om kundeservice</string>
     <string name="customer_service_complain">Rapporter kundeservice</string>
     <string name="customer_service_station">Servicesteder</string>
-    <string name="default_text_view">TextView</string>
     <string name="description">Forklar problemet</string>
     <string name="dialog_ask_delete">Slett</string>
     <string name="dialog_ask_quit">Avslutt</string>
@@ -67,8 +62,6 @@
     <string name="discard_draft_dialog_title">Forkast utkast?</string>
     <string name="err_type">Feiltype</string>
     <string name="err_type_app">Apper</string>
-    <string name="err_type_appstore">App Store</string>
-    <string name="err_type_bluetooth">Bluetooth</string>
     <string name="err_type_camera">Kamera</string>
     <string name="err_type_hardware">Maskinvare</string>
     <string name="err_type_hardware_summary">Knapper, lading, sensorer, osv.</string>
@@ -78,12 +71,9 @@
     <string name="err_type_reboot">Starter om</string>
     <string name="err_type_signal">Nettverk</string>
     <string name="err_type_suggestion">Forslag</string>
-    <string name="err_type_system">System</string>
     <string name="err_type_system_summary">Minne, ytelse, osv.</string>
     <string name="err_type_systemapp">MIUI-apper</string>
     <string name="err_type_translate">Språk</string>
-    <string name="err_type_wifi">Wi-Fi</string>
-    <string name="err_type_xiaomi_family">Mi Home</string>
     <string name="err_type_xiaomi_service">Kundeservice</string>
     <string name="error_no_connection">Kunne ikke koble til nettverket</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
@@ -120,8 +110,6 @@
     <string name="feedback_empty_report_list">Ingen rapporter enda</string>
     <string name="feedback_guess">Vår gjetning:</string>
     <string name="feedback_history_remind_login_desc">Logg inn med Mi-kontoen din for å se detaljer om progresjonen til rapporten</string>
-    <string name="feedback_id">ID: %d</string>
-    <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Oppretter en Jira…</string>
     <string name="feedback_package_log_failed">Kunne ikke komprimere logger</string>
     <string name="feedback_phone_model_label">Telefonmodell</string>
@@ -187,8 +175,6 @@
     <string name="feedback_tracking">Spor problemer</string>
     <string name="feedback_version_label">Versjon</string>
     <string name="feesback_list">Rapporter</string>
-    <string name="first_position">2#</string>
-    <string name="floor">%1$s#</string>
     <string name="from">fra %1$s</string>
     <string name="goon_feedback_main">Fortsett</string>
     <string name="hint_feedback_main">Forklar problemet</string>
@@ -219,7 +205,6 @@
     <string name="mi_service_dialog_content">Alle tilbakemeldingsfunksjoner er flyttet til den nye «Tjenester og tilbakemelding»-appen. Tilbakemelding-appen vil fjernes fra startskjermen.</string>
     <string name="mi_service_dialog_title">Vi presenterer «Tjenester og tilbakemelding»</string>
     <string name="michat_app_name">Støtte på nett</string>
-    <string name="michat_artificial_customer_phone">4001005678</string>
     <string name="michat_artificial_customer_phone_dial_error">Hvis du ikke kan ringe 400-hjelpelinjen, kan du ringe %1$s med en annen telefon</string>
     <string name="michat_artificial_customer_text">Støttepersonale</string>
     <string name="michat_attach_image">Bilde</string>
@@ -259,7 +244,6 @@
     <string name="michat_msg_image_upload_error">Kunne ikke sende bildet. Prøv igjen senere</string>
     <string name="michat_msg_input_info">Forklar kort problemet ditt</string>
     <string name="michat_msg_status_arrived">Sendt</string>
-    <string name="michat_msg_status_send">Send</string>
     <string name="michat_msg_status_sendding">Sender …</string>
     <string name="michat_msg_too_long_info">Du har fylt inn %1$d tegn. Du kan fylle inn opptil %2$d tegn.</string>
     <string name="michat_net_error_info">Ingen nettverkstilkoblingen. Trykk her for å gå til Innstillinger</string>
@@ -297,12 +281,10 @@
     <string name="module_google_apps">Google apper</string>
     <string name="module_item_less">Gjem</string>
     <string name="module_item_more">Mer</string>
-    <string name="module_medias">Media</string>
     <string name="module_more">Mer</string>
     <string name="module_network">Nettverk</string>
     <string name="module_search">Søk</string>
     <string name="module_security">Sikkerhet og Xiaomi Cloud</string>
-    <string name="module_system">System</string>
     <string name="module_tools">Systemverktøy</string>
     <string name="modules">Velg element</string>
     <string name="multi_graph_more">Totale elementer: %d</string>
@@ -321,14 +303,13 @@
     <string name="network_errortip_server">En serverfeil oppstod. Prøv igjen senere</string>
     <string name="network_errortip_timeout">Tilkobling opplevde et tidsavbrudd. Prøv igjen senere.</string>
     <string name="network_errortip_unknow">Vi prøver å løse det…</string>
-    <string name="network_unavailable_dialog_button_ok">OK</string>
     <string name="network_unavailable_dialog_content">Rapporten din vil bli sendt når du oppretter en dataforbindelse.</string>
     <string name="network_unavailable_dialog_title">Kan ikke koble til nettverket</string>
     <string name="non_system_app_select">Nedlastede apper</string>
-    <string name="nothing">--</string>
     <string name="open_feedback_main">Mer</string>
     <string name="packaging_dialog_content">Oppretter rapport…</string>
     <string name="pic_not_exist">Dette bildet finnes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">Tilbakemeldingen din, i tillegg til feillogger, vil bli sendt til Mis servere.</string>
     <string name="plus_one_submit_dialog_not_show_again">Husk valget</string>
     <string name="post_miui_bbs_failed">Kunne ikke skrive innlegg på MIUI-forumet</string>
@@ -350,7 +331,6 @@
     <string name="save_pic_fail">Kunne ikke lagre bildet. Kontroller SD-kortet ditt</string>
     <string name="save_pic_success">Lagret bilde til %s</string>
     <string name="screen_lock">Skjermlås</string>
-    <string name="second_position">3#</string>
     <string name="section_description">Beskrivelse</string>
     <string name="section_err_type">Feiltype</string>
     <string name="section_screenshot">Skjermbilde</string>
@@ -403,7 +383,6 @@
     <string name="toast_screenshot_too_large">Kan ikke laste opp bilder eller videoer større enn 100 MB.</string>
     <string name="toast_third_packagename_required">Fyll inn navn på appen</string>
     <string name="toast_title_required">Beskriv problemet ditt</string>
-    <string name="topic_author">1#</string>
     <string name="try_again">Prøv igjen</string>
     <string name="upload_log_failed">Kunne ikke sende logger</string>
     <string name="warning_field_empty">Fyll inn %1$s</string>

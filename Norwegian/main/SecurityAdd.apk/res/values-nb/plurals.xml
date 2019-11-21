@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
+        <item quantity="one">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
+    </plurals>
+</resources>

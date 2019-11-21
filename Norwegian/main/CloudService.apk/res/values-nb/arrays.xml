@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="user_detail_fixed_items">
-        <item>Vis synkroniserte elementer</item>
-        <item>Lagringsdetaljer</item>
-    </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>For å identifisere synkroniserte elementer</item>
         <item>For å synkronisere meldinger</item>
@@ -18,30 +14,74 @@
         <item>Kalender</item>
         <item>Lagring</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray">
+        <item>Synkroniser kontakter, meldinger, notater, kalender og mer</item>
+        <item>Sikkerhetskopier apper, oppsett til Hjem-skjerm og bakgrunner</item>
+        <item>Sikkerhetskopier viktige innstillinger, inkludert Wi-Fi og visning</item>
+        <item>Lås enheten din eksternt hvis den blir borte</item>
+    </string-array>
+    <string-array name="micloud_entrance_titleArray">
+        <item>Synkroniser app-data</item>
+        <item>Sikkerhetskopier oppsett til Hjem-skjerm</item>
+        <item>Sikkerhetskopier systeminnstillinger</item>
+        <item>Finn enhet</item>
+    </string-array>
+    <string-array name="priv_dialog_finddevice_runtime_perm_desc">
+        <item>For identifying your device</item>
+        <item>For locating your device and switching to the lost mode</item>
+    </string-array>
+    <string-array name="priv_dialog_sync_runtime_perm_desc">
+        <item>For syncing events</item>
+        <item>For syncing messages</item>
+        <item>For syncing messages</item>
+        <item>For syncing contacts</item>
+        <item>For syncing contacts</item>
+        <item>For saving items on your device (e.g. images, videos, songs)</item>
+    </string-array>
+    <string-array name="settings_search_backup_manage">
+        <item>Sikkerhetskopier</item>
+        <item>Sikkerhetskopierte enheter</item>
+        <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Skytjenester;Xiaomi Cloud;Startskjerm;Oppsett;Apper;Administrer sikkerhetskopier;Gjenopprett</item>
+    </string-array>
+    <string-array name="settings_search_backup_setting">
+        <item>Sikkerhetskopier oppsett til Startskjerm til Xiaomi Cloud</item>
+        <item>Sikkerhetskopier startskjermens utseende, liste over alle installerte apper, og systeminnstillinger</item>
+        <item>Sky;Sikkerhetskopi;Skytjenester;Xiaomi Cloud;Startskjerm;Oppsett;Apper;Innstillinger;Sikkerhetskopieringsfrekvens;Administrer sikkerhetskopier;Gjenopprett</item>
+    </string-array>
+    <string-array name="settings_search_browser">
+        <item>Synkroniser nettleser med Xiaomi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Nettleser;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_calendar">
+        <item>Synkroniser kalender med Xiaomi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Kalender;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
     <string-array name="settings_search_contacts">
         <item>Synkroniser kontakter med Xiaomi Cloud</item>
         <item>Skru på/innstillinger for synkronisering</item>
         <item>Kontakter;Anropslogg;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_sms">
-        <item>Synkroniser meldinger med Xiaomi Cloud</item>
-        <item>Skru på/innstillinger for synkronisering</item>
-        <item>Meldinger;SMS;MMS;Sky;Synkronisering;Skytjenester;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_gallery">
-        <item>Synkroniser Galleri med Xiaomi Cloud</item>
-        <item>Skru på/innstillinger for synkronisering</item>
-        <item>Galleri;Bilder;Sky;Synkroniser;Skytjenster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_dial">
         <item>Synkroniser anropshistorikk med Xiaomi Cloud</item>
         <item>Skru på/innstillinger for synkronisering</item>
         <item>Anropshistorikk;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>
-    <string-array name="settings_search_recorder">
-        <item>Synkroniser opptak med Xiaomi Cloud</item>
+    <string-array name="settings_search_find_pad">
+        <item>Finn enhet</item>
+        <item>Slette data og lås enheten om du skulle miste den</item>
+        <item>Finn enhet;Mistet;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_find_phone">
+        <item>Finn enhet</item>
+        <item>Slette data og lås enheten om du skulle miste den</item>
+        <item>Finn enhet;Mistet;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_gallery">
+        <item>Synkroniser Galleri med Xiaomi Cloud</item>
         <item>Skru på/innstillinger for synkronisering</item>
-        <item>Opptaker;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+        <item>Galleri;Bilder;Sky;Synkroniser;Skytjenster;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_music">
         <item>Synkroniser musikk med Xiaomi Cloud</item>
@@ -53,81 +93,53 @@
         <item>Skru på synkronisering</item>
         <item>Notater;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>
-    <string-array name="settings_search_wlan">
-        <item>Synkroniser Wi-Fi-innstillingene med Xiaomi Cloud</item>
-        <item>Skru på synkronisering</item>
-        <item>WLAN;wifi;Wi-Fi;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_calendar">
-        <item>Synkroniser kalender med Xiaomi Cloud</item>
-        <item>Skru på synkronisering</item>
-        <item>Kalender;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_browser">
-        <item>Synkroniser nettleser med Xiaomi Cloud</item>
-        <item>Skru på synkronisering</item>
-        <item>Nettleser;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_security">
-        <item>Synkroniser sikkerhet med Xiaomi Cloud</item>
-        <item>Skru på synkronisering</item>
-        <item>Sikkerhet;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
-    </string-array>
     <string-array name="settings_search_personal_assistant">
         <item>Synkroniser App vault med Xiaomi Cloud</item>
         <item>Skru på synkronisering</item>
         <item>App vault;Kort;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>
-    <string-array name="settings_search_sync_manage">
-        <item>Xiaomi Cloud. Alle Mi-tjenestene på ett sted.</item>
-        <item>Få tilgang til bilder, kontakter, meldinger, og enheter hvor som helst</item>
-        <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkronisering;Skytjenester;Xiaomi Cloud;Søppel;Slettede elementer;Sikkerhet</item>
-    </string-array>
-    <string-array name="settings_search_find_phone">
-        <item>Finn enhet</item>
-        <item>Slette data og lås enheten om du skulle miste den</item>
-        <item>Finn enhet;Mistet;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_find_pad">
-        <item>Finn enhet</item>
-        <item>Slette data og lås enheten om du skulle miste den</item>
-        <item>Finn enhet;Mistet;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+    <string-array name="settings_search_recorder">
+        <item>Synkroniser opptak med Xiaomi Cloud</item>
+        <item>Skru på/innstillinger for synkronisering</item>
+        <item>Opptaker;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_recycle_bin">
         <item>Slettede enheter i Xiaomi Cloud</item>
         <item>Gjenopprett kontakter, bilder, meldinger og mer</item>
         <item>Søppel;Slettede elementer;Søppelbøtte;Gjenopprett;Skytjenester;Xiaomi Cloud</item>
     </string-array>
-    <string-array name="settings_search_subscribe_vip">
-        <item>Xiaomi Cloud-medlemskap</item>
-        <item>Oppgrader medlemskapet ditt, få mer lagringsplass, og sikre din data</item>
-        <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkroniser;Skytjenester;Xiaomi Cloud;Mega;Ultra;VIP;Sikkerhetskopiering;Gjenopprett;Søppel;Slettede enheter;Søppelbøtte</item>
-    </string-array>
-    <string-array name="settings_search_backup_setting">
-        <item>Sikkerhetskopier oppsett til Startskjerm til Xiaomi Cloud</item>
-        <item>Sikkerhetskopier startskjermens utseende, liste over alle installerte apper, og systeminnstillinger</item>
-        <item>Sky;Sikkerhetskopi;Skytjenester;Xiaomi Cloud;Startskjerm;Oppsett;Apper;Innstillinger;Sikkerhetskopieringsfrekvens;Administrer sikkerhetskopier;Gjenopprett</item>
-    </string-array>
-    <string-array name="settings_search_backup_manage">
-        <item>Sikkerhetskopier</item>
-        <item>Sikkerhetskopierte enheter</item>
-        <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Skytjenester;Xiaomi Cloud;Startskjerm;Oppsett;Apper;Administrer sikkerhetskopier;Gjenopprett</item>
-    </string-array>
     <string-array name="settings_search_restore_device">
         <item>Gjenopprett elementer fra Xiaomi Cloud</item>
         <item>Last ned sikkerhetskopierte elementer til enheten din</item>
         <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Gjenoppprett;Skytjenester;Xiaomi Cloud</item>
     </string-array>
-    <string-array name="micloud_entrance_titleArray">
-        <item>Synkroniser app-data</item>
-        <item>Sikkerhetskopier oppsett til Hjem-skjerm</item>
-        <item>Sikkerhetskopier systeminnstillinger</item>
-        <item>Finn enhet</item>
+    <string-array name="settings_search_security">
+        <item>Synkroniser sikkerhet med Xiaomi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Sikkerhet;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>
-    <string-array name="micloud_entrance_subtitleArray">
-        <item>Synkroniser kontakter, meldinger, notater, kalender og mer</item>
-        <item>Sikkerhetskopier apper, oppsett til Hjem-skjerm og bakgrunner</item>
-        <item>Sikkerhetskopier viktige innstillinger, inkludert Wi-Fi og visning</item>
-        <item>Lås enheten din eksternt hvis den blir borte</item>
+    <string-array name="settings_search_sms">
+        <item>Synkroniser meldinger med Xiaomi Cloud</item>
+        <item>Skru på/innstillinger for synkronisering</item>
+        <item>Meldinger;SMS;MMS;Sky;Synkronisering;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_subscribe_vip">
+        <item>Xiaomi Cloud-medlemskap</item>
+        <item>Oppgrader medlemskapet ditt, få mer lagringsplass, og sikre din data</item>
+        <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkroniser;Skytjenester;Xiaomi Cloud;Mega;Ultra;VIP;Sikkerhetskopiering;Gjenopprett;Søppel;Slettede enheter;Søppelbøtte</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage">
+        <item>Xiaomi Cloud. Alle Mi-tjenestene på ett sted.</item>
+        <item>Få tilgang til bilder, kontakter, meldinger, og enheter hvor som helst</item>
+        <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkronisering;Skytjenester;Xiaomi Cloud;Søppel;Slettede elementer;Sikkerhet</item>
+    </string-array>
+    <string-array name="settings_search_wlan">
+        <item>Synkroniser Wi-Fi-innstillingene med Xiaomi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>WLAN;wifi;Wi-Fi;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="user_detail_fixed_items">
+        <item>Vis synkroniserte elementer</item>
+        <item>Lagringsdetaljer</item>
     </string-array>
 </resources>

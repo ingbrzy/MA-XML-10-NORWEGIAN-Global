@@ -68,6 +68,10 @@
         <item quantity="other">Fortsetter om %d min</item>
         <item quantity="one">Fortsetter om %d min</item>
     </plurals>
+    <plurals name="backup_pause_dialog_message">
+        <item quantity="other">Sett synkronisering av bilder, videoer, kontakter, notater og andre elementer med skyen på pause i %d minutter.</item>
+        <item quantity="one">Sett synkronisering av bilder, videoer, kontakter, notater og andre elementer med skyen på pause i %d minutt.</item>
+    </plurals>
     <plurals name="backuping_desc_gprs">
         <item quantity="other">%1$d bilder og videoer | %2$s</item>
         <item quantity="one">%1$d bilde og video | %2$s</item>
@@ -193,36 +197,36 @@
         <item quantity="one">%1$d fil</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
-        <item quantity="other">%1$d elementer venter på sikkerhetskopiering</item>
-        <item quantity="one">1 element venter på sikkerhetskopiering</item>
+        <item quantity="other">%1$d elementer venter på å synkroniseres</item>
+        <item quantity="one">%1$d element venter på å synkroniseres</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d bilder</item>
         <item quantity="one">1 bilde</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
-        <item quantity="other">%1$d bilder venter på sikkerhetskopiering</item>
-        <item quantity="one">1 bilde venter på sikkerhetskopiering</item>
+        <item quantity="other">%1$d bilder venter på å synkroniseres</item>
+        <item quantity="one">%1$d bilde venter på å synkroniseres</item>
     </plurals>
     <plurals name="number_of_uploading_images">
-        <item quantity="other">Sikkerhetskopierer %1$d bilder…</item>
-        <item quantity="one">Sikkerhetskopierer bilde…</item>
+        <item quantity="other">Synkroniserer %1$d bilder…</item>
+        <item quantity="one">Synkroniserer %1$d bilde…</item>
     </plurals>
     <plurals name="number_of_uploading_images_and_videos">
-        <item quantity="other">Sikkerhetskopierer %1$d elementer…</item>
-        <item quantity="one">Sikkerhetskopierer 1 element…</item>
+        <item quantity="other">Synkroniserer %1$d elementer…</item>
+        <item quantity="one">Synkroniserer %1$d element…</item>
     </plurals>
     <plurals name="number_of_uploading_videos">
-        <item quantity="other">Sikkerhetskopierer %1$d videoer…</item>
-        <item quantity="one">Sikkerhetskopierer 1 video…</item>
+        <item quantity="other">Synkroniserer %1$d videoer…</item>
+        <item quantity="one">Synkroniserer %1$d video…</item>
     </plurals>
     <plurals name="number_of_videos_synced">
         <item quantity="other">%1$d videoer</item>
         <item quantity="one">1 video</item>
     </plurals>
     <plurals name="number_of_videos_to_upload">
-        <item quantity="other">%1$d videoer venter på sikkerhetskopiering</item>
-        <item quantity="one">1 video venter på sikkerhetskopiering</item>
+        <item quantity="other">%1$d videoer venter på å synkroniseres</item>
+        <item quantity="one">%1$d video venter på å synkroniseres</item>
     </plurals>
     <plurals name="photo_count_format">
         <item quantity="other">Totalt %1$d elementer</item>
