@@ -309,7 +309,6 @@
     <string name="open_feedback_main">Mer</string>
     <string name="packaging_dialog_content">Oppretter rapport…</string>
     <string name="pic_not_exist">Dette bildet finnes ikke</string>
-    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">Tilbakemeldingen din, i tillegg til feillogger, vil bli sendt til Mis servere.</string>
     <string name="plus_one_submit_dialog_not_show_again">Husk valget</string>
     <string name="post_miui_bbs_failed">Kunne ikke skrive innlegg på MIUI-forumet</string>

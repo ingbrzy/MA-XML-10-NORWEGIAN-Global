@@ -598,7 +598,6 @@
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
@@ -786,7 +785,6 @@
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="version_info">Versjon</string>

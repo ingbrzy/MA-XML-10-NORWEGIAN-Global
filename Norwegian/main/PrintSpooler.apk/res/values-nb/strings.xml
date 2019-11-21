@@ -84,7 +84,6 @@
     <string name="printer_busy">Skriver er opptatt</string>
     <string name="printer_error">Skriverfeil</string>
     <string name="printer_error_msg">Skriverfeil: %1$s</string>
-    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer informasjon om denne printeren</string>
     <string name="printer_notification_error_title">Kunne ikke skrive ut %1$s</string>
     <string name="printer_unavailable">Skriver er ikke tilgjengelig</string>
