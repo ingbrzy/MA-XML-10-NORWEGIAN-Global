@@ -48,6 +48,8 @@
     <string name="error_unknown">Kan ikke logge inn</string>
     <string name="find_device">Finn enhet</string>
     <string name="find_device_dspt_provision">Hvis du mister enheten din, kan du gå til &lt;font color=#ff0000>%s&lt;/font> for å finne, låse eller tilbakestille. Du kan når som helst skru denne funksjonen på eller av i Innstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Kontroller internettforbindelsen din og prøv igjen.</string>
     <string name="find_device_error_server">Serverfeil</string>
     <string name="find_device_gdpr_prompt">Ved å skru på Finn enhet, samtykker du i vår <a href="app://com.miui.cloudservice.gdpr.license"><u>Personvernerklæring</u></a>. Hvis du trenger å tilbakekalle autorisasjonen din, må du slå av denne funksjonen.</string>
@@ -179,11 +181,14 @@ Finn og lås enheten din hvis den mistes."</string>
     <string name="micloud_find_device_open_fail">Kunne ikke skru på Finn enhet</string>
     <string name="micloud_find_device_opened">Finn enhet på</string>
     <string name="micloud_find_device_opened_content">Finn enheten din på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">En utgående SMS-melding kan være nødvendig for å aktivere denne tjenesten. Operatøren din vil belaste deg for denne meldingen. Når du bytter SIM-kort, vil det automatisk sendes en melding for å aktivere denne funksjonen på nytt.</string>
     <string name="micloud_find_device_verify_button">Aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_verify_close">Skru av Finn enhet</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_verify_progress">Aktiverer Finn enhet på nytt…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkroniseringen ble avbrutt. Prøv igjen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Sikkerhetskopi av startskjerm</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Oppsett, apper og systeminnstillinger for startskjerm</string>
@@ -475,6 +480,8 @@ Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.licens
     <string name="sync_dspt_entrance_provision_network">Denne appen må kobles til internett for å fungere normalt. Synkronisering av data kan kreve mobildatatilgang og aktivering av Wi-Fi.</string>
     <string name="sync_dspt_entrance_provision_skip">Hopp over dette trinnet</string>
     <string name="sync_dspt_provision">Synkroniser bildene, kontaktene, notatene og mer på tvers av enhetene dine, eller få tilgang til dem på</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst skru denne funksjonen på eller av i Innstillingene.
 "</string>
     <string name="sync_item_calllog_summary">Synkroniser registreringer av alle utgående og inngående anrop på denne telefonen</string>

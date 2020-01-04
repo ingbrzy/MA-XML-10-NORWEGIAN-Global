@@ -41,4 +41,5 @@ Trykk %s for å starte denne nedlastingen neste gang du er tilkoblet et trådlø
     <string name="download_queued">I kø</string>
     <string name="download_running">Laster ned</string>
     <string name="download_error">Kunne ikke laste ned</string>
+    <string name="download_running_percent">Laster ned %s</string>
 </resources>
