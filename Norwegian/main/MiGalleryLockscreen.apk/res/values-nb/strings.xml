@@ -8,8 +8,15 @@
     <string name="abc_activitychooserview_choose_application">Velg en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
     <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Meny+</string>
     <string name="abc_search_hint">Søk …</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
@@ -31,7 +38,9 @@
     <string name="isornot_your_mi_account">Er dette din Mi-konto?</string>
     <string name="nick_name">Navn</string>
     <string name="passport_activate_token_expired">Verifiseringen er utløpt. Prøv igjen.</string>
+    <string name="passport_auth_title" />
     <string name="passport_bad_authentication">Ugyldig brukernavn og passord</string>
+    <string name="passport_captcha_title">Captcha</string>
     <string name="passport_close">Lukk</string>
     <string name="passport_empty_password">Passordet kan ikke være tomt</string>
     <string name="passport_empty_user_name">Brukernavnet kan ikke være tomt</string>
@@ -65,6 +74,7 @@
     <string name="search_menu_title">Søk</string>
     <string name="sign_in_title">Logg inn med din Mi Account</string>
     <string name="sns_sign_in">Andre måter å logge inn</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ticket_hint">Verifiseringskode</string>
     <string name="ticket_invalid">Koden du har skrevet inn er feil</string>
     <string name="ticket_sign_in">Logg på med SMS</string>

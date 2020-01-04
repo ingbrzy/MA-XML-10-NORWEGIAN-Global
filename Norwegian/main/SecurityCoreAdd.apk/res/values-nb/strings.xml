@@ -45,6 +45,7 @@ vil denne funksjonen bli lagt til Andre område automatisk."</string>
     <string name="complete_setting">Ferdig</string>
     <string name="complete_setting_sub_title">Du kan også komme tilbake senere for å justere innstillingene.</string>
     <string name="complete_setting_title">Du er klar!</string>
+    <string name="confirm">OK</string>
     <string name="confirmClose">Slå av</string>
     <string name="confirmCloseSpaceDes">Du kan ikke gå inn i Andre område etter at du har slettet det. Alle data vil bli flyttet eller slettet.</string>
     <string name="confirmDelete">Slett</string>
@@ -246,6 +247,7 @@ Du kan også laste dem ned separat."</string>
     <string name="notification_recommend_title">De 12 beste appene for Andre område</string>
     <string name="notification_setting_second_space">Sett opp Andre område</string>
     <string name="notification_setting_second_space_desc">Legg til passord for Andre område og flytt data</string>
+    <string name="ok_button">OK</string>
     <string name="openPasswordGuard">Angi Andre område-passord</string>
     <string name="openSuccess">Slått på</string>
     <string name="opened">På</string>
@@ -305,6 +307,7 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="sdcradfs_dialog_in_sec_message">"For å oppdatere må du slette Andre område og deretter opprette det på nytt. Flytt data fra Andre område til Første område og start enheten på nytt for å fullføre oppdateringen. 
 Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal."</string>
     <string name="sdcradfs_dialog_in_sec_title">Viktig oppdatering</string>
+    <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Kunne ikke finne noen apper</string>
     <string name="secondSpace">Andre område</string>
     <string name="second_owner_finger_print">Andre område-fingeravtrykk</string>
@@ -345,6 +348,7 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="settings_set_password_for_owner_space_desc">Sett en skjermlås i Første område for å fjerne snarveien i Innstillingene.</string>
     <string name="settings_set_password_for_sec_space">Sett en skjermlås i Andre område</string>
     <string name="settings_set_password_for_sec_space_desc">Sett en skjermlås i Andre område for å fjerne snarveien i Innstillingene.</string>
+    <string name="settings_space_data">Data</string>
     <string name="settings_status_icon_summary">Vis Andre område-ikon i statuslinjen</string>
     <string name="settings_status_icon_title">Ikon for Andre område</string>
     <string name="settings_switch_shortcut_summary">Vis Startskjerm-snarvei i Første område</string>
@@ -381,6 +385,7 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="start_new_fingerprint_tips">"Bruk fingeravtrykk for Andre område
 for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="start_setting_guide_desc_title">Det er noen ting som må settes opp</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_xspace_alert_content">Slette alle doble apper sammen med deres kontoer og appdata? Enheten din vil bli restartet for å ta i bruk denne endringen.</string>
     <string name="stop_xspace_alert_title">Slett dobbeltappkontoer</string>
     <string name="summary_switch_apps_settings">Velg apper brukt i nåværende område</string>
@@ -434,6 +439,7 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="use_xiaoai_open">Aktiver med Mi AI</string>
     <string name="wating">Et øyeblikk…</string>
     <string name="weibo_send">Send til Weibo</string>
+    <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Logg inn og del</string>
     <string name="whatsapp_send">Del på WhatsApp</string>
     <string name="xpsace_guide_button">Opprett</string>
@@ -450,9 +456,11 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="xspace_description">"Dobbeltapper er appkopier som kan brukes separat med en annen konto. 
 
  Enkelte dobbeltapper må støttes av Google Services Framework. I slike tilfeller opprettes dobbelt Google Services Framework."</string>
+    <string name="xspace_facebook_title">Facebook</string>
     <string name="xspace_guide_des">Bruk 2 kontoer uten å skifte</string>
     <string name="xspace_guide_title">Opprett en dobbeltapp</string>
     <string name="xspace_header">Doblbeltapper</string>
+    <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_completed">Ikon lagt til startskjermbildet</string>
     <string name="xspace_install_completed_global">Ikonet er lagt til skuffen</string>
     <string name="xspace_install_failed">Kunne ikke opprette</string>
@@ -460,10 +468,14 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="xspace_introduce">Anbefalt</string>
     <string name="xspace_label">Doble apper</string>
     <string name="xspace_loading_msg">Laster apper…</string>
+    <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Slett dobbeltappkontoer</string>
     <string name="xspace_setting_label">Innstillinger for dobbeltapp</string>
     <string name="xspace_uninstall_completed">Dobbeltapp avinstallert</string>
     <string name="xspace_uninstall_dialog_content">Avinstallering av dobbelapp vil fjerne alle appdata.</string>
     <string name="xspace_uninstall_dialog_title">Avinstaller dobbeltapp</string>
     <string name="xspace_uninstalling">Avinstallerer…</string>
+    <string name="xspace_weibo_title">Weibo</string>
+    <string name="xspace_weixin_title">WeChat</string>
+    <string name="xspace_whatsapp_title">WhatsApp</string>
 </resources>

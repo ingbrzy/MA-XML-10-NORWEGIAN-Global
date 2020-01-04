@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="April">April</string>
+    <string name="August">August</string>
     <string name="December">Desember</string>
     <string name="February">Februar</string>
     <string name="January">Januar</string>
@@ -7,7 +9,9 @@
     <string name="June">Juni</string>
     <string name="March">Mars</string>
     <string name="May">Mai</string>
+    <string name="November">November</string>
     <string name="October">Oktober</string>
+    <string name="September">September</string>
     <string name="Updated_at">"Oppdatert: "</string>
     <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
@@ -17,9 +21,15 @@
     <string name="abc_activitychooserview_choose_application">Velg en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
     <string name="abc_menu_delete_shortcut_label">slett</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
     <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Meny+</string>
     <string name="abc_search_hint">Søk</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
@@ -31,6 +41,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="account_and_cloud">Konto</string>
+    <string name="account_logout">Logg ut</string>
     <string name="action_item_add">Legg til</string>
     <string name="action_item_add_song">Legg til i spilleliste</string>
     <string name="action_item_add_to_current_playlist">Kø</string>
@@ -50,6 +61,7 @@
     <string name="ad_close">Lukk</string>
     <string name="ad_data_exception">Legg til datafeil</string>
     <string name="ad_recommend">Motta anbefalinger</string>
+    <string name="ad_setting">Additional settings</string>
     <string name="add_music">Legg til sanger</string>
     <string name="add_to_last_of_playlist">Legg til i slutten av spillelisten</string>
     <string name="add_to_playlist_successful">Lagt til</string>
@@ -57,7 +69,10 @@
     <string name="agreement_desc">Brukeravtale (obligatorisk)</string>
     <string name="alaka_required">Du bør betale for å lytte til denne sangen</string>
     <string name="alarm_clock_ringtones_successful">Alarmen er valgt</string>
+    <string name="album_cover">Albumcover</string>
+    <string name="album_is_empty">Albumnavn kan ikke være tomt.</string>
     <string name="album_label">Albumcovere</string>
+    <string name="album_name">Album</string>
     <string name="all_album_count">Alle albumer (%d)</string>
     <string name="all_albums">Alle album</string>
     <string name="all_artists">Alle artister</string>
@@ -69,6 +84,7 @@
     <string name="already_download">Laster ned…</string>
     <string name="already_download_btn">Laster ned…</string>
     <string name="already_favorited">Allerede favorittmerket</string>
+    <string name="always_use_metered">Always use mobile data</string>
     <string name="app_label">Nedlastinger</string>
     <string name="app_permission_confirm">Skjønner</string>
     <string name="app_permission_optional">Valgfrie tillatelser</string>
@@ -84,13 +100,17 @@
     <string name="artist_area_all">Alle</string>
     <string name="artist_area_china">Kina</string>
     <string name="artist_area_europe_usa">Europa/USA</string>
+    <string name="artist_area_japan">Japan</string>
+    <string name="artist_area_korea">Korea</string>
     <string name="artist_gender_all">Alle</string>
     <string name="artist_gender_female">Kvinne</string>
     <string name="artist_gender_group">Gruppe</string>
     <string name="artist_gender_male">Mann</string>
     <string name="artist_home_search_hint">Søk etter artist</string>
     <string name="artist_is_empty">Artistnavn kan ikke være tom.</string>
+    <string name="artist_name">Artist</string>
     <string name="audio_picker_title">Velg en sang</string>
+    <string name="auto_recommend">Automatisk (anbefalt)</string>
     <string name="auto_update">Oppdater automatisk</string>
     <string name="auto_update_tip">Du kan oppdatere systemapper ved å bruke mobildata. Dette kan generere ytterligere datakostnader.</string>
     <string name="available_playlist_name_format">Ny spilleliste %d</string>
@@ -113,8 +133,10 @@
     <string name="choose_download_quality">Velg nedlastingskvalitet</string>
     <string name="choose_music_lang_pref">Foretrukket språk for sanger</string>
     <string name="choose_stream_quality">Velg strømmekvalitet</string>
+    <string name="click_to_add_album_cover_and_lyric">Trykk for å legge til albumcover og sangtekster</string>
     <string name="click_to_shuffle">Trykk for å stokke</string>
     <string name="close_music_time">Gjenstående tid</string>
+    <string name="comment_format" formatted="false">%s: %s</string>
     <string name="common_google_play_services_enable_button">Slå på</string>
     <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
     <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
@@ -133,6 +155,7 @@
     <string name="common_open_on_phone">Åpne på telefonen</string>
     <string name="common_signin_button_text">Logg på</string>
     <string name="common_signin_button_text_long">Logg på med Google</string>
+    <string name="confirm">OK</string>
     <string name="confirm_exit">Lagre endringer?</string>
     <string name="connect_now">Koble til</string>
     <string name="connecting_apk">Kobler til…</string>
@@ -242,13 +265,16 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_queued">I kø</string>
     <string name="download_running">Pågår</string>
     <string name="download_running_percent">Pågår, %d%%</string>
     <string name="download_share_dialog">Del ved hjelp av</string>
+    <string name="download_song_quality_title">Kvalitet på nedlastede sanger</string>
     <string name="download_start">Starter nedlasting…</string>
     <string name="download_start_apk">Starter å laste ned… Se utviklingen i Meldingsskyggen.</string>
     <string name="download_start_btn">Last ned</string>
@@ -285,14 +311,22 @@
     <string name="enjoy_hungama_pro">Nyt Hungama PRO</string>
     <string name="enter_garbage_clean">Rens intern lagringsplass</string>
     <string name="eq_auto">Tilpasset</string>
+    <string name="eq_blues">Blues</string>
     <string name="eq_classical">Klassisk</string>
+    <string name="eq_country">Country</string>
+    <string name="eq_dance">Dance</string>
     <string name="eq_delete">Fjern</string>
     <string name="eq_delete_success">Ferdig</string>
     <string name="eq_electronic">Elektronika</string>
     <string name="eq_flat">Standard</string>
+    <string name="eq_hiphop">Hip Hop</string>
+    <string name="eq_jazz">Jazz</string>
+    <string name="eq_metal">Metal</string>
+    <string name="eq_pop">Pop</string>
     <string name="eq_preset_format">Bruker forhåndsinnstilt %d</string>
     <string name="eq_preset_hint">Effektnavn</string>
     <string name="eq_preset_select">Velg en forhåndsinnstilling</string>
+    <string name="eq_rock">Rock</string>
     <string name="equalizer">Tonekontroll</string>
     <string name="error_not_support">Ikke støttet</string>
     <string name="exo_controls_fastforward_description">Spol forover</string>
@@ -313,10 +347,16 @@
     <string name="exo_download_failed">Nedlastingen mislyktes</string>
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
     <string name="exo_track_selection_title_text">Tekst</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
     <string name="exo_track_surround">Surround-lyd</string>
     <string name="exo_track_surround_5_point_1">5.1 surround-lyd</string>
     <string name="exo_track_surround_7_point_1">7.1 surround-lyd</string>
@@ -346,8 +386,11 @@
     <string name="filter_by_folder">Etter mappe</string>
     <string name="filter_by_folder_summary">Velg mapper å vise</string>
     <string name="filter_by_size">Etter størrelse</string>
+    <string name="filter_by_size_max">%dMB</string>
+    <string name="filter_by_size_min">%dKB</string>
     <string name="filter_by_size_prefix">Skjul filer som er mindre enn</string>
     <string name="filter_by_size_summary">Skjult små lydfiler</string>
+    <string name="filter_size_unit">%dKB</string>
     <string name="floating_view_dialog_desc">Musikk vil ikke bli avspilt lenger hvis du forlater denne siden nå. Forlate likevel?</string>
     <string name="floating_view_dialog_leave">Forlat</string>
     <string name="floating_view_dialog_stay">Bli værende</string>
@@ -358,6 +401,8 @@
     <string name="format_unsupported_or_corrupted">Dette formatet er ikke støttet, eller filen er ødelagt</string>
     <string name="fragment_title_artist_album">Albumer</string>
     <string name="gcm_fallback_notification_channel_label">Diverse</string>
+    <string name="get_more_favorite_content_after_login">Logg inn for å oppdage flere sanger og videoer.</string>
+    <string name="google_account_login">Logg inn med Google</string>
     <string name="goto_local_search">Søk på enhet</string>
     <string name="goto_online_search">Søk online</string>
     <string name="handle_later">Ikke nå</string>
@@ -367,6 +412,7 @@
     <string name="headset_and_audio_effect_title">Høretelefoner &amp; lydeffekter</string>
     <string name="hide_album">Skjul albumcover</string>
     <string name="hide_lyric">Skjul tekster</string>
+    <string name="high_sound_quality">Høy</string>
     <string name="higher_quality_music">Høykvalitets lyd</string>
     <string name="higher_quality_music_summary">Strøm og last ned filer med høyere bitrate</string>
     <string name="home_tab_home">Hjem</string>
@@ -374,6 +420,7 @@
     <string name="home_tab_more_music">Mer musikk</string>
     <string name="home_tab_online">Online musikk</string>
     <string name="home_tab_search">Søk</string>
+    <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_batch_download_alert_summary">Bare PRO-medlemmer kan laste ned flere sanger. Få et PRO-medlemskap nå?</string>
     <string name="hungama_batch_download_alert_summary_toast">Få et abonnement for å laste ned hele spillelisten.</string>
     <string name="hungama_free_download_out_summary">Du kan ikke laste ned flere gratis sanger. Få et PRO-medlemskap for å kunne laste ned ubegrenset med sanger?</string>
@@ -384,6 +431,7 @@
     <string name="hungama_subscribe_message">Kjøp PRO medlemskap for å laste ned musikk i høy kvalitet.</string>
     <string name="hungama_subscribe_positive_button">Kjøp PRO medlemskap</string>
     <string name="hungama_subscribe_title">PRO medlemskap</string>
+    <string name="i_know">OK</string>
     <string name="impunity_declaration_content">Du må lese og akseptere vår &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=nb_NO\">User Agreement&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=nb_NO\">Privacy Policy&lt;/a> før du bruker produktet.</string>
     <string name="impunity_declaration_ignore">Ikke vis igjen</string>
     <string name="impunity_declaration_negative_text">Avslutt</string>
@@ -425,7 +473,10 @@
     <string name="local_page_artist_more">Flere sanger av %s</string>
     <string name="local_page_playlist">Spillelister</string>
     <string name="local_page_song_download_history">Nedlastinger</string>
+    <string name="login_instantly">Logg inn</string>
+    <string name="login_mi_account_and_gain_more_rights">Logg inn med Mi-kontoen din for å få tilgang til flere funksjoner.</string>
     <string name="long_press_to_select_lyric">Press &amp; hold inne for å velge en lokal sangtekstfil</string>
+    <string name="low_sound_quality">Lav</string>
     <string name="lrc_search_failed">Finner ikke tekst</string>
     <string name="lrc_searching">Søker…</string>
     <string name="lyric_is_empty">Ingen tekster tilgjengelig</string>
@@ -441,6 +492,8 @@
     <string name="metered_allow">Spill</string>
     <string name="metered_beyond_alert">Databruken overskredet</string>
     <string name="metered_disallow">Ikke nå</string>
+    <string name="metered_play_and_download_summary">"Don't show data usage warnings while streaming and downloading songs using mobile data."</string>
+    <string name="metered_play_and_download_title">Stream and download songs using mobile data</string>
     <string name="metered_play_toast">Bruker mobildata til å spille sanger</string>
     <string name="metered_play_toast_with_beyond_data">Bruker mobildata til å spille sanger. Overskredet databruk med %s</string>
     <string name="metered_play_toast_with_data">Bruker mobildata til å spille sanger, %s igjen</string>
@@ -448,10 +501,12 @@
     <string name="metered_serious_alert_msg_with_beyond_data">Du har allerede overskredet din databruk med %s. Bruke mobildata til å spille sanger?</string>
     <string name="metered_serious_alert_msg_with_data">Du har kun %s mobildata igjen. Bruke mobildata til å spille sanger?</string>
     <string name="metered_serious_allow">Spill uansett</string>
+    <string name="middle_sound_quality">Standard</string>
     <string name="milink_unavaliable_please_update">"Mi Link isn't er ikke tilgjengelig. Oppdater MIUI."</string>
     <string name="missing_title">&lt;Ukjent></string>
     <string name="miuishare_account_login_ok">Logg inn</string>
     <string name="miuishare_no_network">Kan ikke koble til nettverk</string>
+    <string name="miuishare_publish">Send</string>
     <string name="miuishare_share_editor_title">Del</string>
     <string name="miuishare_title_more">Mer</string>
     <string name="miuishare_title_share">Del</string>
@@ -464,6 +519,7 @@
     <string name="modify_song_info_success">Sanginfo er oppdatert</string>
     <string name="more">Mer</string>
     <string name="more_add_song_list">Legg sanger til køen</string>
+    <string name="more_milink_and_bluetooth">Mi Link &amp; Bluetooth</string>
     <string name="more_settings">Avanserte innstillinger</string>
     <string name="more_settings_summary">Innsovningstimer, filtrering av filer, og mer</string>
     <string name="more_share">Del</string>
@@ -471,6 +527,7 @@
     <string name="mulit_choice_management">Administrer flere elementer</string>
     <string name="music_browser_label">Musikk</string>
     <string name="music_filter">Filtrer lydfiler</string>
+    <string name="music_recommendation">Anbefalte sanger</string>
     <string name="music_service">Musikktjeneste</string>
     <string name="music_settings">Musikk</string>
     <string name="mv_metered_play_summary">Ikke vis mobildataadvarsler</string>
@@ -487,6 +544,7 @@
     <string name="network_settings_error">No es pot connectar a la xarxa</string>
     <string name="network_traffic">Databruk</string>
     <string name="next_time">Ikke nå</string>
+    <string name="next_to_play">Neste</string>
     <string name="no_album_info">Ingen albuminfo</string>
     <string name="no_artist_info">Ingen artistinfo</string>
     <string name="no_downloads">Ingen nedlastinger</string>
@@ -495,6 +553,7 @@
     <string name="no_local_songs">Tøm</string>
     <string name="no_local_songs_selected">Kan ikke sende sanger, siden de ikke er lastet ned</string>
     <string name="no_local_source_find">Fant ikke sang</string>
+    <string name="no_longer_prompt">Ikke vis igjen</string>
     <string name="no_results_return">Ingen søkeresultater</string>
     <string name="no_scanned_songs">Tøm</string>
     <string name="no_song_downloaded">Fant ikke noen sanger å laste ned</string>
@@ -522,6 +581,7 @@
     <string name="nowplaying_circle_style_wave">Bølge</string>
     <string name="nowplaying_dialog_title_delete_tracks">Fjerne denne sangen fra køen?</string>
     <string name="nowplaying_menu_item_delete">Fjern fra kø</string>
+    <string name="ok">OK</string>
     <string name="online_apk_acquired">Lastet %d%%</string>
     <string name="online_apk_acquiring">Laster… %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Kunne ikke laste ned grunnet manglende lagringsplass.</string>
@@ -533,7 +593,9 @@
     <string name="online_apk_install_alert_mobile_net_text">Du bruker mobildata nå. Bruk av mobildata for å laste ned elementer kan generere ekstra kostnader.</string>
     <string name="online_apk_install_alert_note">Denne tjenesten er levert av Yandex.Music</string>
     <string name="online_apk_install_alert_note_new">Online innhold er levert av %s</string>
+    <string name="online_apk_install_alert_pause">Pause</string>
     <string name="online_apk_install_alert_retry">Prøv igjen</string>
+    <string name="online_apk_install_alert_start">Start</string>
     <string name="online_apk_install_completed">Lasting av online innhold var vellykket. Trykk %s for å vise.</string>
     <string name="online_apk_install_error_no_enough_space">Kunne ikke installere grunnet manglende lagringsplass.</string>
     <string name="online_apk_install_error_with_reason">Kunne ikke installere (Feil %d)</string>
@@ -547,8 +609,10 @@
     <string name="online_service_open_tip">Musikktjenester på nett er på</string>
     <string name="online_service_title">Internett-tjenester</string>
     <string name="online_switch">Online innholdstjenester</string>
+    <string name="online_switch_confirm_title">Deaktivering av innholdstjenester på nett vil gjøre alle nettfunksjoner utilgjengelige. Deaktivere likevel?</string>
     <string name="online_switch_message">Å slå av internett-tjenester vil påvirke VIP-tjenester og anbefalinger. Slå av likevel?</string>
     <string name="online_switch_setting">Online innholdsinnstillinger</string>
+    <string name="only_pro_can_choose_hd_sound_quality">HD-lyd er bare tilgjengelig for PRO-medlemmer</string>
     <string name="open_online_service">Du må skru på internett-tjenester for å bruke denne funksjonen. Skru på nå?</string>
     <string name="open_service">Skru på</string>
     <string name="operation_done_close">Lukk</string>
@@ -575,6 +639,7 @@
     <string name="pick_recent_song">Nylig spilt</string>
     <string name="play_all_song">Spill alle</string>
     <string name="play_empty_playlist">Kan ikke spille av sanger. Spillelisten er tom.</string>
+    <string name="play_history">Avspillingshistorikk</string>
     <string name="play_mode_all_loop">Gjenta alle</string>
     <string name="play_mode_one_loop">Sløyfe</string>
     <string name="play_mode_play_all">Spill alle</string>
@@ -587,7 +652,9 @@
     <string name="playlist_title_is_empty">Navnet på spillelisten kan ikke stå tomt</string>
     <string name="playlist_title_is_invalid">Spillelisten finnes allerede</string>
     <string name="playlist_type_album">Albumer</string>
+    <string name="playlist_type_artist">Artist</string>
     <string name="playlist_type_billboard">Lister</string>
+    <string name="playlist_type_fm">FM</string>
     <string name="playlist_type_my">Mine spillelister</string>
     <string name="playlist_type_recommend">Utvalgte spillelister</string>
     <string name="please_download_first">Du må laste ned denne sangen før du kan bruke den som ringetone</string>
@@ -598,6 +665,7 @@
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
@@ -608,6 +676,7 @@
     <string name="ready_to_play">Neste</string>
     <string name="recently_played">Nylig spilt</string>
     <string name="recently_played_songs">Nylige</string>
+    <string name="recommend_songs_when_playing_audio_files">Få anbefalte sanger mens du hører på musikk</string>
     <string name="recommended_file_size_download_in_mobile">Bruke %s mobildata for å laste ned denne filen?</string>
     <string name="recommended_no_file_size_download_in_mobile">Bruke din mobile dataforbindelse for å laste ned denne filen?</string>
     <string name="remove">Fjern</string>
@@ -636,19 +705,24 @@
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
     <string name="s7">Testannonse</string>
     <string name="save_changes">Lagre endringer</string>
+    <string name="save_image">Lagre bilde</string>
     <string name="search_album_and_lyric">Søk albumcovere og -tekster</string>
     <string name="search_empty">Fant ingen resultater</string>
     <string name="search_empty_subtitle_online_music">Trykk på knappen nedenfor for å åpne %s.</string>
     <string name="search_empty_title_online_music">Ingen elementer her ennå.</string>
+    <string name="search_for_album">Album</string>
+    <string name="search_for_artist">Artist</string>
     <string name="search_hint">Søk etter artister, sanger, album og anbefalinger</string>
     <string name="search_hint_local">Søk etter sanger på enheten</string>
     <string name="search_hint_online">Søk etter artister, album, sanger, spillelister og videoer på nett</string>
     <string name="search_history_clear_all">Rens</string>
     <string name="search_history_delete_all_dialog_titile">Tømme søkelogg?</string>
     <string name="search_in_youtube">Søk på YouTube</string>
+    <string name="search_instant_online_music">Online</string>
     <string name="search_menu_title">Søk</string>
     <string name="search_more">Mer</string>
     <string name="search_result_local_songs">Lokal</string>
+    <string name="search_result_online_songs">Online</string>
     <string name="search_songs">Søk etter sanger</string>
     <string name="search_songs_count">Sanger: %d</string>
     <string name="select">Velg</string>
@@ -657,7 +731,9 @@
     <string name="select_desc_sub">Du kan velge opptil tre språk</string>
     <string name="select_device">Velg enhet</string>
     <string name="select_displayed_folders">Velg mapper å vise</string>
+    <string name="select_local_album_cover">Velg bilde</string>
     <string name="select_local_cover">Velg et lokalt cover</string>
+    <string name="select_local_lyric">Velg fil</string>
     <string name="select_local_lyric_file">Velg en lokal sangtekstfil</string>
     <string name="select_none">Fjern alle valg</string>
     <string name="select_one_language">Velg minst ett språk</string>
@@ -665,6 +741,7 @@
     <string name="selected_count">Valgt %1$d av %2$d</string>
     <string name="send_to_title">Send til (%1$s)</string>
     <string name="service_and_settings">Service og innstillinger</string>
+    <string name="set_as_alarm_clock_ringtone">Alarm</string>
     <string name="set_as_ring">Establir com a to de trucada</string>
     <string name="set_ringtones_failed">Kunne ikke sette ringetone</string>
     <string name="set_ringtones_successful">%s satt som ringetone</string>
@@ -706,6 +783,7 @@
     <string name="song_not_find">Denne sangen er ikke tilgjengelig</string>
     <string name="song_offline">Dette sang er ikke lenger tilgjengelig.</string>
     <string name="song_picker_complete">Ferdig</string>
+    <string name="song_quality_category">Musikk</string>
     <string name="songgroup_pick_album">Albumer</string>
     <string name="songgroup_pick_playlist">Spillelister</string>
     <string name="sort_by_name">Navn</string>
@@ -713,16 +791,20 @@
     <string name="start_to_check_new_version">Ser etter oppdateringer…</string>
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="streamloadingtext">Forbinder til %s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="switch_success">Byttet</string>
     <string name="tab_album">Albumer</string>
     <string name="tab_album_list">Albumer</string>
     <string name="tab_artist">Artister</string>
     <string name="tab_artist_list">Artister</string>
     <string name="tab_chart">Lister</string>
+    <string name="tab_flow">Se</string>
     <string name="tab_folder">Mapper</string>
     <string name="tab_playlist">Spillelister</string>
     <string name="tab_top_results">Toppresultat</string>
@@ -775,6 +857,7 @@
     <string name="toast_uhd_songs_for_stream">Strømmekvalitet satt til Høy</string>
     <string name="today">I dag</string>
     <string name="top_chart_title">Lister</string>
+    <string name="track_play_history_after_login">Logg inn for å se avspillingshistorikk</string>
     <string name="ultra_high_quality">Høyest</string>
     <string name="unknown_album_name">Ukjent album</string>
     <string name="unknown_artist_name">Ukjent artist</string>
@@ -785,6 +868,7 @@
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="version_info">Versjon</string>

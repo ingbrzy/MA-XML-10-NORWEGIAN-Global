@@ -52,6 +52,17 @@
         <item>25 minutter</item>
         <item>30 minutter</item>
     </string-array>
+    <string-array name="bedtime_guide_repeat_type">
+        <item>Mandag til fredag</item>
+        <item>Hver dag</item>
+        <item>Arbeidsdager</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entries">
+        <item>Hver dag</item>
+        <item>Mandag til fredag</item>
+        <item>Arbeidsdager</item>
+        <item>Tilpasset</item>
+    </string-array>
     <string-array name="cities_names_miui">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -633,6 +644,22 @@
         <item>Surinam</item>
         <item>Ecuador</item>
     </string-array>
+    <string-array name="days_of_week">
+        <item>Søn</item>
+        <item>Man</item>
+        <item>Tir</item>
+        <item>Ons</item>
+        <item>Tor</item>
+        <item>Fre</item>
+        <item>Lør</item>
+    </string-array>
+    <string-array name="notification_adv_time_entries">
+        <item>På angitt tid</item>
+        <item>15 minutter på forhånd</item>
+        <item>30 minutter på forhånd</item>
+        <item>1 time på forhånd</item>
+        <item>Ingen</item>
+    </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minutt</item>
         <item>5 minutter</item>
@@ -641,6 +668,15 @@
         <item>20 minutter</item>
         <item>25 minutter</item>
         <item>30 minutter</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
     </string-array>
     <string-array name="time">
         <item>%1$s</item>
@@ -664,5 +700,10 @@
         <item>Gjør ingenting</item>
         <item>Utsett</item>
         <item>Avvis</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

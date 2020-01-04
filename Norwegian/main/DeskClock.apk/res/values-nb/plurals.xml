@@ -32,6 +32,22 @@
         <item quantity="other">%d sekunder</item>
         <item quantity="one">%d sekund</item>
     </plurals>
+    <plurals name="sleep_duration_hour">
+        <item quantity="other">%1$s timer</item>
+        <item quantity="one">%1$s time</item>
+    </plurals>
+    <plurals name="sleep_duration_hour_avg">
+        <item quantity="other">%1$s timer</item>
+        <item quantity="one">%1$s time</item>
+    </plurals>
+    <plurals name="sleep_duration_min">
+        <item quantity="other">%1$s minutter</item>
+        <item quantity="one">%1$s minutt</item>
+    </plurals>
+    <plurals name="sleep_duration_min_avg">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
     <plurals name="snooze_duration_changed_info">
         <item quantity="other">Endret slumreintervall til %d minutter</item>
         <item quantity="one">Endret slumreintervall til %d minutt</item>

@@ -22,8 +22,10 @@
     <string name="cloud_status_full_dialog_ok">Oppgrader</string>
     <string name="cloud_status_full_dialog_title">Xiaomi Cloud-lagringsplass er full</string>
     <string name="data_connection_body">Ved å bruke din mobile dataforbindelse for å laste ned denne filen, øker databruken din. Hvis du går over planens grense for dataforbruk, kan operatøren belaste deg ekstra gebyrer.</string>
+    <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Advarsel databruk</string>
     <string name="delete">Slett</string>
+    <string name="delete_cloud_data_at_same_time">Slett fra skyen også</string>
     <string name="delete_dialog_message">Slette opptak?</string>
     <string name="deleting_message">Sletter…</string>
     <string name="details">Detaljer</string>
@@ -32,6 +34,8 @@
     <string name="dialog_title_storage_full">Ikke nok plass</string>
     <string name="download">Last ned</string>
     <string name="duration_format_hour">%st</string>
+    <string name="duration_format_minute">%sm</string>
+    <string name="duration_format_second">%ss</string>
     <string name="empty_recognition_tip">Tøm</string>
     <string name="err_msg_abandon">Ordren ble forlatt</string>
     <string name="err_msg_complete">Ordren ble fullført</string>
@@ -75,6 +79,7 @@
     <string name="loading_order_list">Et øyeblikk…</string>
     <string name="loading_order_list_empty">Ingen ordre her.</string>
     <string name="low_battery_error">Mindre enn 5% batteri igjen. Stopp og lagre opptaket for å sikre at det ikke går tapt.</string>
+    <string name="low_battery_error_confirm">OK</string>
     <string name="low_battery_error_title">Lav batterikapasitet</string>
     <string name="lyric_item_point_count">%1$d til %2$d</string>
     <string name="mark_point_list_title">Merker</string>
@@ -103,6 +108,7 @@
     <string name="online_recognize_duration_limite">(Starter fra og med 10 minutter)</string>
     <string name="online_recognize_fail">Kunne ikke transkribere</string>
     <string name="online_recognize_login_fail">Kunne ikke logge inn</string>
+    <string name="online_recognize_order_audio_price">%s CNY</string>
     <string name="online_recognize_order_create">Logg inn</string>
     <string name="online_recognize_order_duration_key">Varighet</string>
     <string name="online_recognize_order_pay">Betal og se resultater</string>
@@ -123,7 +129,9 @@
     <string name="online_recognize_service_unavailable">Tjenesten er ikke tilgjengelig nå. Vent et par minutter og prøv igjen.</string>
     <string name="order_item_duration">Varighet: %s</string>
     <string name="order_item_number">Ordrenummer: %s</string>
+    <string name="order_item_price">%s CNY</string>
     <string name="path_soundrecorder_setting">Systemapper/Opptaker</string>
+    <string name="pause">Pause</string>
     <string name="pay_error_cancel">Betalingen ble avbrutt</string>
     <string name="pay_error_null">Kunne ikke fullføre betalingen. Sjekk kontoen din.</string>
     <string name="pay_error_unknown">Ukjent feil</string>
@@ -136,6 +144,8 @@
     <string name="preference_online_orders">Ordre på nett</string>
     <string name="preference_recog_faqs">Transkribering på nett – OSS</string>
     <string name="preference_recog_terms">Tjenestevilkår</string>
+    <string name="preference_record_desktop_indicator_summary">Vis en blå indikator på startskjermen når Opptaker arbeider i bakgrunnen</string>
+    <string name="preference_record_desktop_indicator_title">Startskjermindikator</string>
     <string name="preference_record_scenes_dialog_title">Velg opptakstype</string>
     <string name="preference_scenes">Opptakstype</string>
     <string name="preference_silent_mode">Skru av ringelyd under opptak</string>
@@ -186,12 +196,15 @@
     <string name="record_format_preference_title">Opptaksformat</string>
     <string name="record_list">Opptak</string>
     <string name="record_list_call">Innspilte samtaler</string>
+    <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Synkroniserte opptak</string>
     <string name="record_list_cloud_call">Synkroniserte opptak av samtaler</string>
     <string name="record_list_cloud_fm">Synkroniserte FM-opptak</string>
     <string name="record_list_fm">FM-opptak</string>
     <string name="record_list_item_recognize_text">Tekst</string>
     <string name="record_mark_point">Marker %s</string>
+    <string name="record_name_hour">.</string>
+    <string name="record_name_minute" />
     <string name="record_quliaty_preference_title">Opptakskvalitet</string>
     <string name="record_resotre">Gjenopprett opptak</string>
     <string name="recording">Tar opp</string>
@@ -245,6 +258,7 @@
     <string name="text_btn_forward_3_seconds">3 sekunder fremover</string>
     <string name="text_btn_list">Opptak</string>
     <string name="text_btn_mark">Merke</string>
+    <string name="text_btn_pause">Pause</string>
     <string name="text_btn_play">Spill</string>
     <string name="text_btn_recognize">Transkriber</string>
     <string name="text_btn_recognize_pending">"Avventer "</string>
@@ -255,6 +269,9 @@
     <string name="text_play_speed_1_0">Normal avspillingshastighet</string>
     <string name="text_play_speed_1_5">1,5X avspillingshastighet</string>
     <string name="text_play_speed_2_0">2X avspillingshastighet</string>
+    <string name="timer_format" formatted="false">%02d:%02d</string>
+    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
+    <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s kan ta opp i ca. %2$s</string>
     <string name="toast_uninstall_fileexplorer">Filbehandler er ikke installert</string>
     <string name="usage_description">Transkribere lyd og synkronisere elementer med skyen</string>

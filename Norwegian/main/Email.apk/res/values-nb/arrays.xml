@@ -51,6 +51,10 @@
         <item>Eldre melding</item>
         <item>Innboks</item>
     </string-array>
+    <string-array name="prefEntries_contact_add">
+        <item>Alle</item>
+        <item>Bare avsendere</item>
+    </string-array>
     <string-array name="signature_normal_string_array_next">
         <item>Adresse:</item>
         <item>Telefon:</item>

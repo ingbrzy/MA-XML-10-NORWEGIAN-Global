@@ -111,6 +111,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
     <string name="cast_notification_connecting_message">Kobler til %1$s</string>
@@ -167,6 +168,27 @@
     <string name="com_facebook_tooltip_default">Du bestemmer – velg hvilke opplysninger du vil dele med apper.</string>
     <string name="com_permission_desc">Mi Video har ikke tilgang til videoer på enheten din. Tillat tilgang i Innstillinger.</string>
     <string name="com_permission_title">Tillatelser er nødvendig</string>
+    <string name="comment_model_add_comment">Legg til en kommentar</string>
+    <string name="comment_model_bg_add_comment">Del tankene dine med fellesskapet vårt</string>
+    <string name="comment_model_bg_deleted_comment">Denne kommentaren ble slettet</string>
+    <string name="comment_model_comment">Kommentarer</string>
+    <string name="comment_model_confirm_delete">Slette kommentaren nå?</string>
+    <string name="comment_model_copy">Kopier</string>
+    <string name="comment_model_copy_fail">Kunne ikke kopiere</string>
+    <string name="comment_model_copy_success">Kopiert</string>
+    <string name="comment_model_delete">Slett</string>
+    <string name="comment_model_delete_fail">Kunne ikke slette</string>
+    <string name="comment_model_delete_success">Slettet</string>
+    <string name="comment_model_reply">Svar</string>
+    <string name="comment_model_reply_comment">"Svar til %s: "</string>
+    <string name="comment_model_report">Rapporter</string>
+    <string name="comment_model_report_fail">Kunne ikke rapportere</string>
+    <string name="comment_model_report_success">Rapportert</string>
+    <string name="comment_model_send_fail">Kunne ikke sende</string>
+    <string name="comment_model_send_fail_frequently">Ikke så raskt! Vent et par minutter og prøv igjen.</string>
+    <string name="comment_model_send_forbid_desc">Du har publisert flere kommentarer som inneholder elementer som bryter med standardene i samfunnet vårt. Kontoen din er permanent suspendert for nå. Du kan protestere på avgjørelsen ved å bruke tilbakemeldingsfunksjonen i appen.</string>
+    <string name="comment_model_send_forbid_tips">Konto suspendert</string>
+    <string name="comment_model_send_success">Sendt</string>
     <string name="common_cancel">Avbryt</string>
     <string name="common_google_play_services_enable_button">Slå på</string>
     <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
@@ -198,7 +220,7 @@
     <string name="diagnosis_log_sent_format">"Logger er sendt.
 ID:%s
 Send denne koden til den overordnede."</string>
-    <string name="dialog_privacy_info_new2">For å kunne bruke tjenestene, må du godta at %1$s innhenter, behandler og bruker personopplysningene dine. Det anses at du har lest og godtatt &lt;a href=%2$s>personvernerklæringen&lt;/a> når du trykker på \"Godta\" nedenfor.</string>
+    <string name="dialog_privacy_info_new2">For å kunne bruke tjenestene, må du godta at %1$s innhenter, behandler og bruker personopplysningene dine. Det anses at du har lest og godtatt &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> når du trykker på \"Godta\" nedenfor.</string>
     <string name="dialog_privacy_title">Autorisasjon</string>
     <string name="dialog_revoke_privacy_info_new2">Etter at du har tilbakekalt autorisasjonen, slutter appen å innhente data, og alle relaterte data slettes fra serverne våre. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel?</string>
     <string name="dialog_revoke_privacy_title">Tilbakekaller autorisasjonen</string>
@@ -252,6 +274,7 @@ Send denne koden til den overordnede."</string>
     <string name="favorite_cancel_success">Fjernet fra favoritter</string>
     <string name="favorite_fail">Kunne ikke legge til i favoritter. Prøv igjen.</string>
     <string name="favorite_success">Lagt til i favoritter</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feedback">Tilbakemelding</string>
     <string name="feedback_activity_title">Tilbakemelding</string>
     <string name="feedback_contact_empty">Skriv inn kontaktinformasjonen din</string>
@@ -430,7 +453,7 @@ for videoer"</string>
     <string name="lv_subtitle_onlinesub_loading">Laster undertekster…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Laster undertekster…</string>
     <string name="lv_subtitle_onlinesub_right_declare">Ansvarsfraskrivelse</string>
-    <string name="lv_subtitle_onlinesub_right_declare_content">Få undertekster &lt;br/>&lt;br/>fra &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.&lt;br/>&lt;br/>Alle undertekster på nett er tilbudt av &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
+    <string name="lv_subtitle_onlinesub_right_declare_content">Få undertekster &lt;br/>&lt;br/>fra &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.&lt;br/>&lt;br/>Alle undertekster på nett er tilbudt av &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.</string>
     <string name="lv_subtitle_onlinesub_save_failed">Kunne ikke legge til undertekster</string>
     <string name="lv_subtitle_onlinesub_save_success">Undertekster lagt til</string>
     <string name="lv_subtitle_onlinesub_search_keyword">Skriv inn søkeord for å søke</string>
@@ -500,8 +523,15 @@ for videoer"</string>
     <string name="no_recommend_data">Ingen anbefalte videoer for øyeblikket</string>
     <string name="no_subscriptions">Ingen elementer her</string>
     <string name="not_show">Ikke vis igjen</string>
+    <string name="notice_comment_action">%s kommenterte på innlegget ditt</string>
+    <string name="notice_comment_action_deleted">Kommentaren ble slettet</string>
+    <string name="notice_feedback_content">Det er en oppdatering på tilbakemeldingen din. Trykk for å se.</string>
+    <string name="notice_like_action">%s likte kommentaren din</string>
+    <string name="notice_message_title">Varsler</string>
+    <string name="notice_title">Meldinger</string>
     <string name="notify_apk_installed">Nedlastingen var vellykket</string>
     <string name="ok">OK</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Nylige abonnement</string>
     <string name="order_recently_updated">Nylig oppdatert</string>
     <string name="ovp_alert_dialog_download_install_task">Laster ned HD-plug-in…</string>
@@ -509,6 +539,7 @@ for videoer"</string>
     <string name="ovp_category">Kategorier</string>
     <string name="ovp_confirm_delete_favor">Fjernet valgte elementer fra favoritter?</string>
     <string name="ovp_default_plugin_name">HD-plug-in</string>
+    <string name="ovp_detail_back_to_watch_more">Oppdag flere elementer på startsiden</string>
     <string name="ovp_detail_collapse_summary">Skjul</string>
     <string name="ovp_detail_collect">Legg til i favoritter</string>
     <string name="ovp_detail_comment">Kommenter</string>
@@ -551,12 +582,14 @@ for videoer"</string>
     <string name="ovp_loading_video_netplay_label_v5">Et øyeblikk…</string>
     <string name="ovp_local_videos_title">Lokale videoer</string>
     <string name="ovp_navigation_category">Kategori</string>
+    <string name="ovp_navigation_content">Samarbeid om innhold</string>
     <string name="ovp_navigation_favorites">Favoritter</string>
     <string name="ovp_navigation_feedback">Tilbakemelding</string>
     <string name="ovp_navigation_history">Historikk</string>
     <string name="ovp_navigation_home">Hjem</string>
     <string name="ovp_navigation_language">Språk</string>
     <string name="ovp_navigation_localvideo">Lokal</string>
+    <string name="ovp_navigation_notice">Varsler</string>
     <string name="ovp_navigation_setting">Innstillinger</string>
     <string name="ovp_navigation_subscribe">Abonnement</string>
     <string name="ovp_player_plugin_dlg_neg_btn">Lukk</string>
@@ -664,8 +697,8 @@ Oppdater Mi Video til den nyeste versjonen først."</string>
     <string name="passport_unknow_error">En ukjent feil oppstod</string>
     <string name="passport_unknow_host_network_error">Sjekk nettverksinnstillingene dine og prøv igjen</string>
     <string name="passport_unknow_network_error">En nettverksfeil oppstod</string>
-    <string name="passport_user_agreement_link">&lt;Data>Jeg har lest og godtatt Xiaomis &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_link_more">&lt;Data>Jeg har lest og samtykket i følgende dokumenter: Xiaomis &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link">&lt;Data>Jeg har lest og godtatt Xiaomis &lt;a href=\"%1$s\">brukeravtale&lt;/a> og &lt;a href=\"%2$s\">personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link_more">&lt;Data>Jeg har lest og samtykket i følgende dokumenter: Xiaomis &lt;a href=\"%1$s\">brukeravtale&lt;/a> og &lt;a href=\"%4$s\">personvernerklæring&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a>.&lt;/Data></string>
     <string name="passport_user_id_intro">Oppgi passordet for: %1$s</string>
     <string name="passport_v_code_error">Verifiseringskode er feil</string>
     <string name="passport_vcode_notification_title">Påloggingsverifiseringen er ufullstendig</string>
@@ -702,6 +735,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="playlist_title">Spilleliste</string>
     <string name="plus_add_shortcut">Opprett en snarvei på startskjermen</string>
     <string name="plus_change_poster">Endre albumcover</string>
+    <string name="plus_continue_watching">Fortsett å se</string>
     <string name="plus_deleting_wait">Sletter</string>
     <string name="plus_fallback">Tilbakemelding</string>
     <string name="plus_gallery_allvideos">Alle videoer</string>
@@ -720,6 +754,12 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_gallery_video_title_mediatype">Videokategorier</string>
     <string name="plus_gallery_video_title_othergallery">Andre videoer</string>
     <string name="plus_loading_text">Laster elementer…</string>
+    <string name="plus_menu_delete">Slett</string>
+    <string name="plus_menu_delete_popup_text">Slette nå?</string>
+    <string name="plus_menu_properties">Egenskaper</string>
+    <string name="plus_menu_rename">Gi nytt navn</string>
+    <string name="plus_menu_rename_fail">Filnavn kan ikke inneholde \"/\"</string>
+    <string name="plus_menu_share">Del</string>
     <string name="plus_mine_gallery">Mine album</string>
     <string name="plus_mine_videos">Mine videoer</string>
     <string name="plus_player_8k_video_not_support">Kan ikke spille av 8K-videoer på denne enheten</string>
@@ -758,7 +798,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_player_subtitle_local_add_success">Undertekster lagt til</string>
     <string name="plus_player_subtitle_no_file">Ingen undertekster her.</string>
     <string name="plus_player_subtitle_online">Undertekster på nett</string>
-    <string name="plus_player_subtitle_online_declare_content">Du er i ferd med å søke etter &lt;br/>undertekster i &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>-databasen. &lt;br/>Alle undertekster tilbys av &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
+    <string name="plus_player_subtitle_online_declare_content">Du er i ferd med å søke etter &lt;br/>undertekster i &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br/>Alle undertekster tilbys av &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.</string>
     <string name="plus_player_subtitle_online_declare_title">Ansvarsfraskrivelse</string>
     <string name="plus_player_subtitle_online_download_fail">Kunne ikke laste ned undertekster</string>
     <string name="plus_player_subtitle_online_download_start">Laster ned undertekster…</string>
@@ -770,6 +810,31 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_player_unhide">Vis skjulte</string>
     <string name="plus_player_video_not_support">Dette videoformatet støttes ikke.</string>
     <string name="plus_poster_reset_default">Gjenopprett standardcover</string>
+    <string name="plus_properties_bit_rate">Bithastighet</string>
+    <string name="plus_properties_codec">Kodek</string>
+    <string name="plus_properties_date">Dato</string>
+    <string name="plus_properties_file">Fil</string>
+    <string name="plus_properties_file_name">Filnavn</string>
+    <string name="plus_properties_finished">Fullført</string>
+    <string name="plus_properties_format">Format</string>
+    <string name="plus_properties_frame_rate">Bildefrekvens</string>
+    <string name="plus_properties_last_playback_position">Siste plassering</string>
+    <string name="plus_properties_last_playback_time">Sist avspilt</string>
+    <string name="plus_properties_length">Varighet</string>
+    <string name="plus_properties_media">Media</string>
+    <string name="plus_properties_path">Plassering</string>
+    <string name="plus_properties_playback_history">Avspillingshistorikk</string>
+    <string name="plus_properties_resolution">Oppløsning</string>
+    <string name="plus_properties_sample_rate">Samplingsfrekvens</string>
+    <string name="plus_properties_size">Størrelse</string>
+    <string name="plus_properties_status">Status</string>
+    <string name="plus_properties_stream">Strøm</string>
+    <string name="plus_properties_stream_title">Tittel</string>
+    <string name="plus_properties_type">Type</string>
+    <string name="plus_properties_type_audio">Lyd</string>
+    <string name="plus_properties_type_subtitle">Undertekster</string>
+    <string name="plus_properties_type_video">Video</string>
+    <string name="plus_properties_unfinish">Ikke fullført</string>
     <string name="plus_search_barhint">Søk etter lokale videoer</string>
     <string name="plus_search_guide">Søk etter videoer</string>
     <string name="plus_search_result_empty">Kunne ikke finne resultater</string>
@@ -809,6 +874,11 @@ Bedre tilpasse tjenestene for enheten din
     <string name="reload_sub_title">Trykk for å prøve igjen.</string>
     <string name="reload_title">Kunne ikke koble til nettverket.</string>
     <string name="report">Rapporter</string>
+    <string name="report_content_fakement">Søppelpost eller svindel</string>
+    <string name="report_content_illegal">Ulovlige uttalelser</string>
+    <string name="report_content_other">Annet</string>
+    <string name="report_content_sexy">Seksuelt eksplisitt innhold</string>
+    <string name="report_content_violence">Hatefulle ytringer</string>
     <string name="report_fail">Kunne ikke rapportere. Prøv igjen.</string>
     <string name="report_success">Rapportert</string>
     <string name="resend_active_email">Send på nytt</string>
@@ -861,6 +931,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
     <string name="sns_sign_in">Andre måter å logge inn på</string>
     <string name="source">"Kilde: "</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Intern lagring</string>
     <string name="submit">Send inn</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Quick ball</string>
     <string name="app_not_installed">Ikke installert</string>
     <string name="applications">Apper</string>
     <string name="category_others">Annet</string>
@@ -17,9 +18,11 @@
     <string name="motion_behavior">Foretrukket bevegelse</string>
     <string name="name_alipay_payment_code">Alipay-betaling</string>
     <string name="name_alipay_scan">Alipay-skanner</string>
+    <string name="name_all_mipay_cards">Mi Pay</string>
     <string name="name_handy_mode">Énhåndsmodus</string>
     <string name="name_long_press_power_key">Hold inne på-knappen</string>
     <string name="name_memory_clean">Tøm hurtigbuffer</string>
+    <string name="name_mi_wallet">Mi Wallet</string>
     <string name="name_music_next_song">Neste sang</string>
     <string name="name_music_prev_song">Forrige sang</string>
     <string name="name_music_toggle">Spill/Sett sang på pause</string>

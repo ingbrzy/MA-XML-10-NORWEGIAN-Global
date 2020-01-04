@@ -61,6 +61,13 @@
     <string name="call_anyone">Ring</string>
     <string name="camera_error_title">Kamerafeil</string>
     <string name="cancel">Avbryt</string>
+    <string name="carsHome_title">Bil</string>
+    <string name="cars_is_public">Lansert</string>
+    <string name="cars_no_public">Ikke lansert</string>
+    <string name="cars_solution">"Løsning: "</string>
+    <string name="cars_suitability">"Match: "</string>
+    <string name="cars_title">Skann en bil eller en bildel</string>
+    <string name="carshome_data">Teknisk støtte leveres av Autohome Inc.</string>
     <string name="check_for_updates">Se etter betaoppdateringer</string>
     <string name="choose_open_code_app">Velg en app</string>
     <string name="choose_pay_title">Velg betalingsmetode</string>
@@ -78,6 +85,7 @@
     <string name="continue_waiting">Fortsett å vente</string>
     <string name="copy_text">Kopier tekst</string>
     <string name="copy_text_success">Tekst er kopiet</string>
+    <string name="copy_tracknum">Kopier sporingskode</string>
     <string name="crop_cancel_description">Avbryt</string>
     <string name="crop_done_description">Ferdig</string>
     <string name="crop_title_study">Beskjær bildet</string>
@@ -137,10 +145,12 @@
     <string name="got_it">Skjønner</string>
     <string name="gps">Naviger</string>
     <string name="import_contact">Importer kontakt</string>
-    <string name="impunity_declaration_content">Skanneren må bruke kameraet ditt og behandle bildene du tar mens du bruker appen. Ikke bruk skanneren for å ta bilder av ting som inneholder personlige opplysninger om deg. Ved å trykke på «Godta», samtykker du i &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://privacy.mi.com/all/%1$s\" style=\"color:#ff32b4ff;\">personvernerklæringen&lt;/a>&lt;/font> vår og tillater at skanneren kobler til internett.</string>
+    <string name="impunity_declaration_content">Skanner må bruke kameraet ditt og behandle bildene du tar mens du bruker appen. Ikke bruk Skanner til å ta bilder av ting som inneholder personlige opplysninger om deg. Ved å trykke på «Godta», samtykker du i &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">personvernerklæringen&lt;/a>&lt;/font> vår og tillater at Skanner kobler til internett.</string>
     <string name="impunity_declaration_negative_text">Avslutt</string>
     <string name="impunity_declaration_title">Personvernerklæring</string>
     <string name="jd_shopping_title">Søk på JD</string>
+    <string name="jingdong">JD</string>
+    <string name="kuaidi100_data">Drevet av Kuaidi 100</string>
     <string name="label_choose_picture">Velg bilde</string>
     <string name="label_flash_light">Varsellys</string>
     <string name="language_entry_chinese_cn">Forenklet kinesisk</string>
@@ -150,6 +160,7 @@
     <string name="language_entry_japanese">Japansk</string>
     <string name="language_entry_korean">Koreansk</string>
     <string name="language_entry_spanish">Spansk</string>
+    <string name="logistics">Ekspresslevering</string>
     <string name="low_version_tip">Oppdater til siste versjon av MIUI for å kunne bruke Scanner.</string>
     <string name="miracast_connect">Cast</string>
     <string name="miracast_connect_fail">Kunne ikke caste. Prøv igjen</string>
@@ -158,6 +169,7 @@
     <string name="miracast_message">Caste til %s?</string>
     <string name="miracast_switch_off">Trådløs visning er av</string>
     <string name="miracast_switch_tip">Skru på trådløs visning for å bruke denne funksjonen</string>
+    <string name="mishop">Mi Store</string>
     <string name="module_title_business_card">Visittkort</string>
     <string name="module_title_code">QR-kode</string>
     <string name="module_title_document">Dokument</string>
@@ -176,6 +188,7 @@
     <string name="not_insert_contact">Kan ikke legge til kontakt</string>
     <string name="not_recommend_access_web_url">Gå likevel</string>
     <string name="note">Merknad:</string>
+    <string name="now_state">"Nåværende status: "</string>
     <string name="once">Bare én gang</string>
     <string name="open_url">Åpne URL</string>
     <string name="pay_no_tip">Ikke vis igjen</string>
@@ -188,10 +201,16 @@
     <string name="plant_reg_fail_2">Gjenkjenner ikke dette objektet. Skanneren kan kun identifisere planter.</string>
     <string name="plant_support">" (Teknisk støtte)"</string>
     <string name="plant_title">Skann planten du vil identifisere</string>
+    <string name="please_try_again_later">Vent et minutt eller to, og prøv igjen</string>
     <string name="preparing_sd">Klargjør intern lagring…</string>
     <string name="previous">Tilbake</string>
     <string name="prompt">Merk</string>
     <string name="qr_code_details">QR-kodeopplysninger:</string>
+    <string name="queryNum">Sjekk bestilling</string>
+    <string name="query_faile">Bestillingsstatus og -detaljer er ikke synkronisert enda. Sjekk bestillingen manuelt.</string>
+    <string name="query_inai">La Mi AI hjelpe deg</string>
+    <string name="query_more">Mer informasjon</string>
+    <string name="query_tracknum">Sjekk bestilling med ekspresslevering</string>
     <string name="recognize">Skann</string>
     <string name="recognize_fail">Kunne ikke lese koden</string>
     <string name="request_server_failed">Kunne ikke koble til serveren</string>
@@ -200,6 +219,7 @@
     <string name="sdk_not_ready">Forbereder SDK. Prøv igjen senere.</string>
     <string name="secure_access_web_url">Gå til nettsted</string>
     <string name="see_app_details">Se appopplysninger</string>
+    <string name="see_details">Trykk for å se detaljer</string>
     <string name="select_dialog_confirm">OK</string>
     <string name="send_mail">Send e-post</string>
     <string name="setting_alipay">Alipay</string>
@@ -214,6 +234,13 @@
     <string name="shopping_title">Ta et bilde av produktet</string>
     <string name="shopping_vendor_info">Drevet av Taobao</string>
     <string name="spaceIsLow_content">Ikke nok plass på intern lagring. Frigjør plass.</string>
+    <string name="store_feedback_prompt">Skriv inn tilbakemeldingen din først</string>
+    <string name="store_location_dialog">Denne tjenesten leveres av Dianping. Alle bilder du tar mens du bruker denne tjenesten, inkludert relatert plasseringsinformasjon, deles med Dianping for å kunne hente informasjon om butikker.</string>
+    <string name="store_location_fail">Kunne ikke hente plasseringsinformasjon</string>
+    <string name="store_location_prompt">Gi Skanner tillatelse til å få tilgang til plasseringen din for å kunne identifisere butikker</string>
+    <string name="store_module_title">Butikk</string>
+    <string name="store_no_date">Kunne ikke identifisere butikk</string>
+    <string name="store_title">Skann butikkskilt</string>
     <string name="study_rotate_picture">Behandler bildet…</string>
     <string name="study_scan_result">Resultat</string>
     <string name="study_searching">Leter etter resultater…</string>
@@ -221,6 +248,7 @@
     <string name="study_vendor_info">Drevet av Zuoyebang</string>
     <string name="suggested_submission_success">Tilbakemeldingen din er sendt</string>
     <string name="switch_open">Slå på</string>
+    <string name="taobao">Taobao</string>
     <string name="tel">Telefon</string>
     <string name="title">Tittel:</string>
     <string name="to_install_title">Denne QR-koden videresender deg til en app som ikke er installert. Laste ned appen nå?</string>
@@ -261,6 +289,7 @@
     <string name="url_is_unknown">Kan ikke sjekke om dette nettstedet er sikkert</string>
     <string name="url_is_unsafety">Dette nettstedet er ikke trygt</string>
     <string name="vender_info_translation_kingsoft">Drevet av Kingsoft</string>
+    <string name="waybill_num">"Bestilling: "</string>
     <string name="web">Nettsted:</string>
     <string name="website_details">Nettsted:</string>
     <string name="weixin_code_tip">Skann denne QR-koden ved bruk av WeChat</string>
@@ -274,6 +303,8 @@
     <string name="wifi_ssid">SSID:</string>
     <string name="will_be_sent_tothe_background_review">" (Søknaden din blir sendt til vurdering snart.)"</string>
     <string name="wx_not_installed_toast">Denne funksjonen må bruke WeChat. Installer WeChat først.</string>
+    <string name="xiaoai_dialog">"Prøv å si det du
+vil for å skanne til Mi AI"</string>
     <string name="you_have_permission_to_download">Trykk for å laste ned betaversjonen</string>
     <string name="you_id">"Din ID: "</string>
     <string name="your_application_is_under_review">" (Søknaden din vurderes.)"</string>

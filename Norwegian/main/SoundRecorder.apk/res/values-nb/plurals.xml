@@ -8,6 +8,14 @@
         <item quantity="other">%d elementer</item>
         <item quantity="one">%d element</item>
     </plurals>
+    <plurals name="confirm_delete_cloud_records">
+        <item quantity="other">Slette %d opptak fra skyen?</item>
+        <item quantity="one">Slette %d opptak fra skyen?</item>
+    </plurals>
+    <plurals name="confirm_delete_records">
+        <item quantity="other">Slette %d opptak?</item>
+        <item quantity="one">Slette %d opptak?</item>
+    </plurals>
     <plurals name="local_records_count">
         <item quantity="other">%d elementer</item>
         <item quantity="one">%d element</item>

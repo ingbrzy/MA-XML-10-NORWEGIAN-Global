@@ -8,8 +8,15 @@
     <string name="abc_activitychooserview_choose_application">Velg en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
     <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Meny+</string>
     <string name="abc_search_hint">Søk …</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
@@ -43,6 +50,7 @@
     <string name="ad_download_download_now">Last ned</string>
     <string name="ad_download_install">Installer</string>
     <string name="ad_download_open">Åpne</string>
+    <string name="ad_download_pause">Pause</string>
     <string name="ad_download_pending">Avventer</string>
     <string name="ad_download_resume">Gjenoppta</string>
     <string name="ad_downloading_tip">Dette elementet lastes ned. Du kan se utviklingen i Varslingsskyggen.</string>
@@ -63,6 +71,7 @@
     <string name="author_attention">Følg</string>
     <string name="author_attention_success">Fulgt</string>
     <string name="author_dialog_message">Slutte å følge denne kontoen nå?</string>
+    <string name="author_dynamic">Status</string>
     <string name="author_dynamic_no_resource">Kunne ikke finne resultater</string>
     <string name="automatically_update_using_theme_tips">Oppdater automatisk neste gang</string>
     <string name="backup_theme_dialog_message">Sikkerhetskopiere ditt nåværende tema?</string>
@@ -146,10 +155,16 @@
     <string name="exo_download_failed">Nedlastingen mislyktes</string>
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
     <string name="exo_track_selection_title_text">Tekst</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
     <string name="exo_track_surround">Surround-lyd</string>
     <string name="exo_track_surround_5_point_1">5.1 surround-lyd</string>
     <string name="exo_track_surround_7_point_1">7.1 surround-lyd</string>
@@ -227,6 +242,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="incompatible_dialog_ok">Skjønner</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbakeringstone</string>
     <string name="item_resource_audio_optional_notification_ring">Varsler</string>
@@ -266,12 +282,16 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="miuishare_mini_program_title">Sjekk bakgrunnsbildet jeg fant!</string>
     <string name="miuishare_no_network">Kunne ikke koble til nettverket.</string>
     <string name="miuishare_please_retry">Kunne ikke hente informasjon. Sjekk nettverksinnstillingene og prøv igjen.</string>
+    <string name="miuishare_publish">Send</string>
+    <string name="miuishare_qzone_title">Qzone</string>
     <string name="miuishare_share_done">Delt</string>
     <string name="miuishare_share_editor_title">Del</string>
     <string name="miuishare_share_fail">Kunne ikke dele</string>
     <string name="miuishare_timeline_title">Finn ditt neste bakgrunnsbilde</string>
     <string name="miuishare_title_more">Mer</string>
     <string name="miuishare_title_share">Del</string>
+    <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
+    <string name="miuishare_weibo_title">Weibo</string>
     <string name="mix_global_option">Generelt</string>
     <string name="mix_global_option_des">Varselsskygge, telefon, meldinger og andre systemelementer. Fjern avhukingen i denne boksen for å bruke standardvalgene.</string>
     <string name="mix_home_option_des">Bakgrunn og klokke. Fjern avhukingen i denne boksen for å bruke standardvalgene.</string>
@@ -289,12 +309,15 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="my_gifts_received">Mottatt</string>
     <string name="network_exception">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="no_data">Kan ikke koble til nettverket</string>
+    <string name="official_accounts">WeChat</string>
     <string name="online_no_network">kan ikke koble til nettverket</string>
     <string name="online_precust_abstract">Abstrakt</string>
     <string name="online_precust_animal">Dyr</string>
     <string name="online_precust_building">Bygning</string>
     <string name="online_precust_creative">Kreativ</string>
+    <string name="online_precust_hatsune">Hatsune</string>
     <string name="online_precust_lifestyle">Livsstil</string>
+    <string name="online_precust_museum">British Museum</string>
     <string name="online_precust_plant">Plante</string>
     <string name="online_precust_scenery">Landskap</string>
     <string name="online_search_hint">Søk etter ressurser på nett</string>
@@ -327,6 +350,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_account_login_before_action">Logg inn på Mi-kontoen din nå</string>
     <string name="resource_account_login_title">Logg inn</string>
     <string name="resource_account_switch">Skift</string>
+    <string name="resource_alarm_default">Alarm</string>
     <string name="resource_app_name">Se ressurser</string>
     <string name="resource_apply">Bruk</string>
     <string name="resource_apply_trial">Bruk</string>
@@ -390,6 +414,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_detail">Detaljer</string>
     <string name="resource_detail_comment_title">Kommentarer</string>
     <string name="resource_detail_description_pic_text">%1$d ikoner totalt</string>
+    <string name="resource_detail_header_theme_designer_title">Designer: %1$s</string>
     <string name="resource_detail_jump_to_online_title">På nett</string>
     <string name="resource_detail_jump_to_same_author_title">Samme forfatter</string>
     <string name="resource_detail_recommend_desiner_other_themes">Temaer designet av %1$s</string>
@@ -403,6 +428,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_downloaded_title">Last ned ressurser</string>
     <string name="resource_downloading">Laster ned</string>
     <string name="resource_exchange">Løs inn</string>
+    <string name="resource_exchange_confirm">OK</string>
     <string name="resource_exchange_empty_format">Skriv inn gavekode</string>
     <string name="resource_exchange_has_bought">Du har allerede kjøpt dette temaet.</string>
     <string name="resource_exchange_has_expired">Koden du skrev inn er utløpt.</string>
@@ -457,6 +483,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_pack_price_info">Opprinnelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerde kjøpt %1$d-komponenter i dette temaet. Det er billigere hvis du kjøper de resterende komponentene hver for seg.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi-kreditter</string>
     <string name="resource_purchase_common_error">Det oppsto en feil. Prøv igjen</string>
@@ -471,6 +498,10 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_restore">Gjenopprett</string>
     <string name="resource_restore_fail">Kunne ikke gjenopprette</string>
     <string name="resource_restore_succ">Gjenopprettingen var vellykket</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringetoner</string>
     <string name="resource_ringtone_playing_error">Feil</string>
     <string name="resource_ringtone_volume_mute">Ringer er satt på stille</string>
@@ -491,6 +522,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_select_ringtone_audio_confirm">Velge denne ringelyden?</string>
     <string name="resource_select_ringtone_confirm">Velge denne ringetonen?</string>
     <string name="resource_selected">Anbefalt</string>
+    <string name="resource_send">Send</string>
     <string name="resource_server_alert_dialog_title">Vi er straks tilbake…</string>
     <string name="resource_server_out_of_service">Dessverre er serveren vår nede i øyeblikket</string>
     <string name="resource_share_subject">Del tema: %1$s</string>
@@ -517,6 +549,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_trial_end_time">(prøve til %1$s)</string>
     <string name="resource_trial_end_time_format">hh:mma d MMM</string>
     <string name="resource_trial_end_title">Prøve utløpt</string>
+    <string name="resource_trial_fail_cancel">OK</string>
     <string name="resource_trial_fail_go_settings">Innstillinger</string>
     <string name="resource_trial_fail_message">Sørg for at systemklokken din er korrekt stilt inn</string>
     <string name="resource_trial_fail_title">Kunne ikke sette opp prøveøkt</string>
@@ -525,7 +558,9 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="resource_trial_minutes">(prøve: %1$dm)</string>
     <string name="resource_unknow_error">En ukjent feil oppsto</string>
     <string name="resource_update">Oppdater</string>
+    <string name="resource_user_know">OK</string>
     <string name="resource_waiting_download">Venter</string>
+    <string name="resource_waiting_pause">Pause</string>
     <string name="resource_wallpaper_download">Last ned bakgrunn</string>
     <string name="ringtone_set_success">Innstilling vellykket</string>
     <string name="sdcard_not_mounted_dialog_message">"Sett inn SD-kort nå.
@@ -548,10 +583,12 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="show_mamual_hide_font">Vis skjulte fonter</string>
     <string name="show_mamual_hide_theme">Vis skjulte temaer</string>
     <string name="show_mamual_hide_wallpaper">Vis skjulte bakgrunner</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="swipe_find_more">Sveip opp for å se mer</string>
     <string name="system_precust">Forhåndsinnstallert</string>
     <string name="the_picture_is_not_support">Bildet støttes ikke</string>
     <string name="the_picture_is_too_small">Bildet er for lite</string>
+    <string name="theme_apply_audio_dialog_item_alarm">Alarm</string>
     <string name="theme_apply_audio_dialog_item_color_ring_back_tone">Tilpasset tilbakeringingstone</string>
     <string name="theme_apply_audio_dialog_item_mms">Meldingsringetone</string>
     <string name="theme_apply_audio_dialog_item_notification">Varsling</string>
@@ -573,6 +610,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="theme_comment_dialog_message">Liker du temaet du bruker nå? Vi hadde satt pris på din tilbakemelding!</string>
     <string name="theme_comment_dialog_ok">Anmeldelse</string>
     <string name="theme_comment_sub_comment_bar_hint">Del dine idéer med fellesskapet vårt</string>
+    <string name="theme_component_title_alarm">Alarm</string>
     <string name="theme_component_title_alarmstyle">Alarmstil</string>
     <string name="theme_component_title_all">Temaer</string>
     <string name="theme_component_title_audio_effect">Lyder</string>
@@ -615,6 +653,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="theme_is_external_priority_storage">Lagre til SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Themes-appen omstarter umiddelbart etter denne innstillingen godkjennes.</string>
     <string name="theme_multiple_button_title_customize">Tilpass</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nei</string>
     <string name="theme_purchased_list_empty">Du har ikke kjøpt noen temaer.</string>
     <string name="theme_purchased_non_local">På nett</string>
@@ -745,6 +784,7 @@ For å slå av denne funksjonen, kan du gå til Innstillinger > Lyd og vibrering
     <string name="wallpaper_settings_page_title">Bakgrunn</string>
     <string name="wallpaper_static">Statisk</string>
     <string name="wechat_not_found">Installer WeChat først</string>
+    <string name="weibo">Weibo</string>
     <string name="wifi_check_cancel">Avbryt</string>
     <string name="wifi_check_confirm">Bekreft</string>
     <string name="wifi_check_message">Bruke mobildata til å laste ned oppdateringer?</string>

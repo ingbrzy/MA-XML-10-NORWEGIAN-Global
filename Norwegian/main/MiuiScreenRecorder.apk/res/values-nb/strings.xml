@@ -10,12 +10,16 @@
     <string name="bubble_text">Trykk for å starte opptak</string>
     <string name="button_back">Tilbake</string>
     <string name="button_clear_storage">Frigjør lagringsplass</string>
+    <string name="button_confirm">OK</string>
     <string name="button_goon_recorder">Gjenoppta</string>
     <string name="cancel_edit">Avbryt</string>
     <string name="cannot_change_frames">Bildefrekvensen kan bare tilpasses for opptak med faste bildefrekvenser.</string>
     <string name="cannot_change_parames">Kunne ikke endre parametre under opptak</string>
     <string name="cannot_record">Kunne ikke ta opp. Prøv igjen senere.</string>
     <string name="close_screen_record">Stoppet opptak</string>
+    <string name="date_day" />
+    <string name="date_month">/</string>
+    <string name="date_year">/</string>
     <string name="description_content">Skjermopptak gir opptaksmuligheter på systemnivå. Denne handlingen betyr at du forkaster skjermopptaksfunksjonen. Bekreft for å fortsette.</string>
     <string name="description_title">Om Skjermopptaker</string>
     <string name="deselect_all">Fjern alle valg</string>
@@ -51,6 +55,7 @@
     <string name="no_recorder_info2">Trykk på knappen for å starte opptak</string>
     <string name="no_sound">Demp</string>
     <string name="operation_delete">Slett</string>
+    <string name="operation_send">Send</string>
     <string name="permission_intro_microphone">For å ta opp lyd når lydkilden er satt til mikrofonen</string>
     <string name="permission_intro_storage">For å lagre skjermopptak</string>
     <string name="permission_microphone_desc">Bruke mikrofonen som lydkilde for skjermopptak</string>
@@ -72,9 +77,14 @@
     <string name="show_hard_key_summary">Vis beskjeder når du trykker på Hjem-, Meny- og Tilbake-knappene</string>
     <string name="show_screen_touch">Vis berøringsbevegelser</string>
     <string name="show_screen_touch_summary">Visualiser bevegelser ved hjelp av en hvit prikk</string>
+    <string name="size_byte">B</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="size_kilobyte">KB</string>
+    <string name="size_megabyte">MB</string>
     <string name="sound_source">Lydkilde</string>
     <string name="sound_source_summary">Systemlyder eller mikrofoner</string>
     <string name="sound_source_summary_without_system_sounds">Bruk mikrofonen eller demp lyden</string>
+    <string name="start">Start</string>
     <string name="start_recording">Start opptak</string>
     <string name="stop_by_second_space">Å bytte mellom områder vil stanse opptaket</string>
     <string name="stop_record_while_locking">Lås skjerm for å avslutte</string>
@@ -82,6 +92,7 @@
     <string name="stop_recording">Stopp opptak</string>
     <string name="storage_location">Lagring</string>
     <string name="storage_location_summary">Velg ditt foretrukne lagringsvalg</string>
+    <string name="timer_format">%s</string>
     <string name="unchecked">Ikke valgt</string>
     <string name="using_record_confirm_cancel">Begrense</string>
     <string name="using_record_confirm_ok">Tillat</string>
