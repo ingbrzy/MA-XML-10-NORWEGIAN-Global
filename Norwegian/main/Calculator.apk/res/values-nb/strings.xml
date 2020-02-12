@@ -510,11 +510,8 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="weight_prompt">Vekt</string>
     <string name="wf_word_figure">Finansielle tegn</string>
     <string name="word_figure_guide_text">Trykk og hold teksten som skal konverteres.</string>
-    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
-    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
-    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
