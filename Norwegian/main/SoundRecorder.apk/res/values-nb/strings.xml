@@ -152,6 +152,10 @@
     <string name="preference_status_bar_indicator_prompt">Vis snarvei for statuslinje under opptak</string>
     <string name="preference_tip_rename">Gi opptak navn manuelt</string>
     <string name="privacy_policy_title">Personvernerklæring</string>
+    <string name="recognition_button_add_to_queue">Legg til kø</string>
+    <string name="recognition_button_cancel">Ikke nå</string>
+    <string name="recognition_button_start">Transkriber</string>
+    <string name="recognition_confirm_dialog_body">Transkribering kan ta litt tid. Du vil motta et varsel når denne oppgaven er fullført. Transkribere nå?</string>
     <string name="recognition_error_cancel">Avbrutt</string>
     <string name="recognition_error_code">Feilkode: %d</string>
     <string name="recognition_error_download_cancel">Senere</string>
@@ -167,6 +171,11 @@
     <string name="recognition_error_internal">Intern feil</string>
     <string name="recognition_error_stopped">Transkriberingen stoppet</string>
     <string name="recognition_error_unknown">En ukjent feil oppstod. Rapporter det til oss og prøv igjen.</string>
+    <string name="recognition_interrupt_current_dialog_body">Transkribering kan ta litt tid. Du vil motta et varsel når denne oppgaven er fullført. «%s» transkriberes nå. Legge denne oppgaven til transkriberingskø?</string>
+    <string name="recognition_notification_channel">Transkriberer</string>
+    <string name="recognition_notification_complete_success">Transkribering av «%s» var vellykket. Trykk for å vise.</string>
+    <string name="recognition_notification_error">Kunne ikke transkribere «%s»</string>
+    <string name="recognition_notification_running">Transkriberer «%s»…</string>
     <string name="recognition_process_dialog_body">Andre opptak (%s) transkriberes nå. Vil du stoppe de pågående oppgavene og starte en ny?</string>
     <string name="recognition_process_dialog_cancel">Kø</string>
     <string name="recognition_process_dialog_confirm">Tving start</string>
@@ -174,6 +183,7 @@
     <string name="recognition_status_downloaded">Vellykket nedlasting av transkriberingsmaskin</string>
     <string name="recognition_status_downloading">"Laster ned "</string>
     <string name="recognition_status_init">"Forbereder "</string>
+    <string name="recognition_stop_current">Stopp pågående oppgave</string>
     <string name="recognize_choose_dialog_offline">Transkriberer gratis</string>
     <string name="recognize_choose_dialog_offline_desp">Transkriber opptak uten å koble til internett</string>
     <string name="recognize_choose_dialog_online">Transkriberer i skyen</string>

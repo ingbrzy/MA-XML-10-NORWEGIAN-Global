@@ -100,6 +100,7 @@
     <string name="aqi_quality_index_light_pollution">Advarsel</string>
     <string name="aqi_quality_index_moderate">Moderat</string>
     <string name="aqi_quality_index_unhealthy">Usunt</string>
+    <string name="auto_add_app_shortcut">Plasser nye apper på Startskjermen</string>
     <string name="auto_delete_category_dialog_content">Nåværende apper blir fjernet fra denne kategorien, og kategorien blir slettet. Slette denne kategorien nå?</string>
     <string name="auto_delete_category_dialog_title">Sletter kategori</string>
     <string name="backup_fail">Kunne ikke sikkerhetskopiere startprogram</string>
@@ -254,6 +255,7 @@
     <string name="home_pull_down_action">Sveip ned på startskjermen</string>
     <string name="home_screen">Startskjerm</string>
     <string name="home_slide_up_action">Sveip opp på startskjermen</string>
+    <string name="home_switch_personal_assistant">-1-skjerm</string>
     <string name="icon_reorganize_channel">Ordne ikoner</string>
     <string name="icon_size">Ikonstørrelse</string>
     <string name="image_too_small_message">Originalt bilde er ikke stort nok.</string>
@@ -263,6 +265,9 @@
     <string name="is_system_wallpaper_message">Kan ikke slette systemressurser</string>
     <string name="launcher_not_exist">En feil oppstod. Gå tilbake til startskjermen og prøv igjen.</string>
     <string name="launcher_pull_down_title">Sveip ned på startskjermen</string>
+    <string name="launcher_search_bar_title">Startskjermens søkefelt</string>
+    <string name="launcher_search_bar_value_disable">Av</string>
+    <string name="launcher_search_bar_value_enable">På</string>
     <string name="launcher_slide_up_title">Sveip opp på startskjermen</string>
     <string name="launcher_sliding_up_gesture">Sveip for å åpne Startskjermen og åpne søk</string>
     <string name="launcher_title">Startskjerm &amp; Nylige</string>
@@ -313,6 +318,7 @@
     <string name="notification_installed">Installert</string>
     <string name="notification_open_button">Åpen</string>
     <string name="notification_reset_title">Ordnet ikoner</string>
+    <string name="one_key_call_title">Trykk for å taste</string>
     <string name="online_wallpaper">På nett</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå av</string>
@@ -402,12 +408,17 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_downloaded">Nedlastet</string>
     <string name="status_downloading">Laster ned</string>
     <string name="status_installing">Installering</string>
     <string name="status_paused">Satt på vent</string>
     <string name="status_pending">Venter</string>
+    <string name="switch_personal_assistant_app_vault">Apphvelv</string>
+    <string name="switch_personal_assistant_google">Google Discover</string>
+    <string name="switch_personal_assistant_none">Ingen</string>
     <string name="system_shortcuts_more_operation">App-info</string>
+    <string name="system_shortcuts_remove">Fjern</string>
     <string name="system_text">System</string>
     <string name="title_jeejen">Pantalla inicial Jeejen</string>
     <string name="title_select_live_folder">Velg mappe</string>

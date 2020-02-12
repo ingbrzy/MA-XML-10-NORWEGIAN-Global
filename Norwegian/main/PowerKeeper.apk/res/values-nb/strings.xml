@@ -32,7 +32,6 @@
     <string name="config_suggest_description">"Identifiser apper og aktivitet som holder viktige prosesser i gang.
 Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="config_suggest_suffix_title">Batterisparer (anbefalt)</string>
-    <string name="confirm">OK</string>
     <string name="current_cloud_addr_is">Sky-kontroll serveradresse er:</string>
     <string name="empty_title_apps_container_list">Ingen apper</string>
     <string name="enable_sleep_mode">Skru på Dvalemodus for å optimalisere batteribruken om natten</string>
@@ -92,7 +91,6 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="scenario_policies_summary">Legg til annen batterisparingstrategier for forskjellige scener.</string>
     <string name="scenario_policies_title">Smarte scener</string>
     <string name="scenario_policies_warmcontrol">Temperaturkontroll</string>
-    <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Kunne ikke finne noen apper</string>
     <string name="show_system_app">Vis systemapper</string>
     <string name="sleep_config_enhance_description">Når MIUI oppdager at du sover, vil den lukke bakgrunnsapper, begrense NFC, Bluetooth, GPS, mobildata og Wi-Fi bruk, skjermen vil ikke lyse opp ved varsler.</string>

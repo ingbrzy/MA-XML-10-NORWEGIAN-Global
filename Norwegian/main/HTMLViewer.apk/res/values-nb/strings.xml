@@ -2,7 +2,6 @@
 <resources>
     <string name="ad_service">Annonse-tjeneste</string>
     <string name="app_label">HTML-visning</string>
-    <string name="app_name_which_call">App: %s</string>
     <string name="app_version_which_call">App-versjon: %s</string>
     <string name="autoconnect">Automatisk tilkobling</string>
     <string name="ime_privacy_policy">Velg tastatur</string>

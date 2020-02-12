@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessibility_nfc_enabled">NFC er aktivert.</string>
-    <string name="android_beam">Android Beam</string>
     <string name="app_name">NFC-tjeneste</string>
     <string name="ask_nfc_tap">Trykk på en annen enhet for å fullføre</string>
     <string name="beam_busy">Beam er opptatt for øyeblikket. Prøv igjen når den forrige overføringen er fullført.</string>
@@ -34,7 +33,6 @@
     <string name="pairing_peripheral_failed">Kunne ikke sammenkoble %1$s</string>
     <string name="pay_with">Betal med</string>
     <string name="prompt_connect_to_network">Vil du koble til nettverket «%1$s»?</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_unable_to_connect">Kunne ikke koble til nettverket</string>
     <string name="status_wifi_connected">Tilkoblet</string>
     <string name="tap_again_to_complete">Trykk igjen for å fullføre med %1$s</string>

@@ -15,7 +15,6 @@
     <string name="hint_search_in_enabled_apps">Søk etter apper som kan vise varsler</string>
     <string name="list_title_disable_notification">Varsler er ikke tillatt</string>
     <string name="loading">Et øyeblikk…</string>
-    <string name="lock_screen_display_rules">Format</string>
     <string name="lock_screen_tip_toast">Tillat låseskjermvarsler i \"Format\"</string>
     <string name="lockscreen_notifications">Låseskjermvarsler</string>
     <string name="not_sent_recently">Ikke nylig</string>
@@ -25,8 +24,6 @@
     <string name="notification_fold_summary">Alle ubetydelige varsler vises i en egen mappe</string>
     <string name="notification_fold_title">Varselmappe</string>
     <string name="notification_manager">Appvarsler</string>
-    <string name="notification_style_android">Android</string>
-    <string name="notification_style_miui">MIUI</string>
     <string name="off">Av</string>
     <string name="on">På</string>
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>

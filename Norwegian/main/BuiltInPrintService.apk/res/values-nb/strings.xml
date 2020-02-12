@@ -44,7 +44,6 @@
     <string name="title_activity_add_printer">Legg til skriver</string>
     <string name="unreadable_input">Kunne ikke lese dokument</string>
     <string name="waiting_to_send">Venter på å sende</string>
-    <string name="wifi_direct">Wi-Fi Direct</string>
     <string name="wifi_direct_permission_rationale">Standard utskriftstjeneste trenger tilgang til plassering for å finne enheter i nærheten.</string>
     <string name="wifi_direct_printers">Wi-Fi Direct-skrivere</string>
     <string name="wifi_direct_printing">Wi-Fi Direct-utskrift</string>

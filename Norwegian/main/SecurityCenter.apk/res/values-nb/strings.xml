@@ -554,6 +554,7 @@ Du mister ikke noe appdata."</string>
     <string name="card_main_private_space_summary">Å bruke Second space er som å ha 2 enheter</string>
     <string name="card_main_private_space_title">Andre område</string>
     <string name="card_main_sectool_title">Verktøy</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Lag</string>
     <string name="card_main_xspace_summary">Opprett doble kontoer for apper</string>
     <string name="card_main_xspace_title">Dobbeltapper</string>
@@ -742,6 +743,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="doze_optimization_title">Optimaliserte berøringskontroller</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-post</string>
     <string name="empty_app">Ingen apper</string>
     <string name="empty_title_auto_start_list">Ingen apper kan autostarte.</string>
@@ -791,7 +793,9 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -1367,9 +1371,11 @@ svarer"</string>
     <string name="menu_text_antispam">Blokkeringsliste</string>
     <string name="menu_text_antivirus">Sikkerhetsskanning</string>
     <string name="menu_text_garbage_cleanup">Renser</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Tillatelser</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -1377,6 +1383,7 @@ svarer"</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_power_manager">Batteri og ytelse</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Fjern fra unntak</string>
     <string name="menu_white">Legg til unntak</string>
     <string name="mi_service_app_detail">Detaljer om databruk</string>
@@ -1696,6 +1703,11 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_center_dialog_msg_top">Når batterisparer er aktivert, utfører MIUI følgende optimaliseringer:</string>
     <string name="power_center_hints_scan_danger_result">Du kan løse batteriproblemer nå</string>
     <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Slå av Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
@@ -1841,6 +1853,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pref_normal_traffic_limit">Når dataplanen er brukt opp</string>
     <string name="pref_open_adjust_traffic">Oppdater databruk hver dag ved å bruke statistikk fra leverandøren din</string>
     <string name="pref_operator_not_set">Leverandøren er ikke valgt</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Når du overskrider dataplanen din</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_pkg_begin_date">Tilbakestillingsdato på bruk</string>
@@ -1902,6 +1915,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
 
 Mens kalibreringen pågår, vil MIUI sende en tekstmelding til leverandøren din for å motta kalibreringsmalen."</string>
     <string name="privacy_prompt_upload">Last opp</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="promotion">Annonse</string>
     <string name="prompt_all">Spør om alle</string>
