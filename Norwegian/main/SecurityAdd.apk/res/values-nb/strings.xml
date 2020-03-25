@@ -18,7 +18,6 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søk</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ad_downloading">Last ned…</string>
     <string name="app_name">System service plugin</string>
     <string name="app_select_title">Legg til ofte brukte apper</string>
@@ -36,7 +35,6 @@
     <string name="dialog_market_score_title_step2">Takk for tilbakemeldingen din!</string>
     <string name="dual_app_title">Doble apper</string>
     <string name="dual_app_words">Hver konto fortjener sin egen app</string>
-    <string name="empty">" "</string>
     <string name="fastboot_locked_answer_1">Rask låsing er den tradisjonelle metoden til flash-Mi-enheter. Når enheten er i rask omstartsmodus, vil all dataene som er lagret på den nås og slettes direkte. Vi låser Rask omstart for å sørge for at dataene dine forblir sikre i tilfelle du mister enheten, i tillegg til å garantere påliteligheten til Finn en enhet-funksjoner.</string>
     <string name="fastboot_locked_answer_2">Dersom du mister enheten din, garanterer Rask omstart sikkerheten til enhetene som er lagret på den. Hvis du låser opp Rask omstart, vil du ikke lenger kunne låse enheten din eksternt eller fjerne data ved bruk av Finn en enhet. Det er grunnen til at vi ikke anbefaler at du låser opp Rask omstart på enheten din.</string>
     <string name="fastboot_locked_answer_3">Du bør bruke verktøyet fra MIUI-nettsiden for å låse opp. For å låse opp enheten, trenger vi å vite at enheten tilhører deg. Det er grunnen til at du bør logge inn med din Mi Account og skru av Finn enhet-funksjonen.</string>
