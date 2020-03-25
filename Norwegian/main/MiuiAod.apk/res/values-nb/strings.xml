@@ -28,6 +28,8 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søk</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="above_image">Opp</string>
     <string name="accessibility_battery_level">Batteri-%dprosent.</string>
     <string name="accessibility_battery_level_charging">Batteri lader, %d prosent.</string>
     <string name="align_type">Juster</string>
@@ -42,19 +44,22 @@
     <string name="aod_mode_summary">Vis klokke, dato, varsler og bakgrunnsbilder når skjermen er av</string>
     <string name="aod_mode_time_summary">Planlegg tid for å aktivere og deaktivere Alltid på-modus</string>
     <string name="aod_mode_time_title">Planlegg</string>
-    <string name="aod_mode_title">Alltid på-modus</string>
+    <string name="aod_mode_title">Alltid på-skjerm</string>
+    <string name="aod_show_date_and_time">Vis dato og tid</string>
     <string name="aod_show_style_title">Vis elementer</string>
     <string name="aod_style">Tema</string>
     <string name="aod_to_close">Deaktiver</string>
     <string name="apply">Bruk</string>
     <string name="apply_succeed">Aktivert</string>
     <string name="background_icon">Bakgrunn</string>
+    <string name="below_image">Ned</string>
     <string name="cancel">Avbryt</string>
     <string name="choose_aod_style">Velg tema</string>
     <string name="chosen_picture">Velg bakgrunn</string>
     <string name="clock_panel_icon">Urskive</string>
     <string name="color_change_with_time_description">Endre tekstfarge automatisk over tid</string>
     <string name="color_change_with_time_title">Endre farge automatisk</string>
+    <string name="custom_image">Tilpasset bilde</string>
     <string name="deep_space_planet">Ytre rom</string>
     <string name="deep_space_planet_des">Dette temaet reflekterer lysendringer som skjer rundt deg gjennom dagen. Soloppgang og solnedgang er også synkroniserte med plasseringen din.</string>
     <string name="digital_clock">Digital</string>
@@ -84,18 +89,20 @@
     <string name="show_battery_status">Vis batteristatus</string>
     <string name="show_notification">Vis varsler</string>
     <string name="show_notificaton">Vis varsler</string>
+    <string name="shownone_arround_image">Ingen</string>
     <string name="signature">Signatur</string>
     <string name="signature_default_content">"Tro alltid på at noe
 fantastisk er i ferd med å skje"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
-    <string name="summary">"Elementer vises ikke i følgende situasjoner for å redusere strømforbruket:
-1. Når enheten ligger i mørket lenge.
-2. Når Ikke forstyrr-modus er aktivert."</string>
+    <string name="summary">For å redusere strømforbruk vil ikke elementer vises når enheten ligger lenge i mørket.</string>
     <string name="temporary_style">I 10 sekunder etter å ha trykt</string>
     <string name="text_color">Tekstfarge</string>
     <string name="text_length_exceed_limit_alert">*Teksten du skrev inn er for lang</string>
     <string name="text_size">Tekststørrelse</string>
+    <string name="time_location">Klokkeposisjon</string>
     <string name="time_style">Stil</string>
     <string name="time_style_layout">Utforming</string>
+    <string name="disable_aod_in_power_save_mode">Deaktiver når batterisparer er aktivert</string>
+    <string name="disable_aod_in_power_save_mode_summary">Ikke vis elementer for å spare strøm</string>
 </resources>

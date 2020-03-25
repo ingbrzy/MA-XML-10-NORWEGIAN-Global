@@ -83,6 +83,7 @@
     <string name="handy_mode_summary">Trykk på det mørke området for å lukke</string>
     <string name="handy_mode_title">Énhåndsmodus</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">Plasser fingeren din på startknappen</string>
+    <string name="input_method_clipboard_tips">Kopierte elementer sletter fra utklippstavlen etter 48 timer</string>
     <string name="input_method_edit_phrase_text">Rediger ofte brukte setninger</string>
     <string name="input_method_no_content_text">Ingen elementer her enda</string>
     <string name="input_method_switch_settings_text">Innstillinger for tastatur</string>

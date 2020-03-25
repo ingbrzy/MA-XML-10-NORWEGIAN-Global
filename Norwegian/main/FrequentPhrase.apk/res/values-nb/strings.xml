@@ -9,5 +9,6 @@
     <string name="menu_add_frequent_phrases">Legg til</string>
     <string name="menu_delete">Slett</string>
     <string name="menu_edit">Rediger</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sync_phrase_label">Ofte brukte setninger</string>
 </resources>

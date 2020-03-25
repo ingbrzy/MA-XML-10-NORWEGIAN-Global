@@ -100,7 +100,6 @@
     <string name="aqi_quality_index_light_pollution">Advarsel</string>
     <string name="aqi_quality_index_moderate">Moderat</string>
     <string name="aqi_quality_index_unhealthy">Usunt</string>
-    <string name="auto_add_app_shortcut">Plasser nye apper på Startskjermen</string>
     <string name="auto_delete_category_dialog_content">Nåværende apper blir fjernet fra denne kategorien, og kategorien blir slettet. Slette denne kategorien nå?</string>
     <string name="auto_delete_category_dialog_title">Sletter kategori</string>
     <string name="backup_fail">Kunne ikke sikkerhetskopiere startprogram</string>
@@ -117,9 +116,6 @@
     <string name="category_cannot_empty">Du må først skrive inn kategori</string>
     <string name="category_choose_no_app_select_tip">Hver kategori må inneholde minst én app.</string>
     <string name="category_drawer_name_hint">Skriv inn kategorinavn</string>
-    <string name="category_edit_back_confirm_dialog_content">Lagre endringer nå?</string>
-    <string name="category_edit_back_confirm_dialog_negative_button">Ikke lagre</string>
-    <string name="category_edit_back_confirm_dialog_positive_button">Lagre</string>
     <string name="category_group">Kategoriser apper</string>
     <string name="category_group_summary">Kategoriser apper i app-skuff</string>
     <string name="category_not_selected">Tilgjengelige apper</string>
@@ -265,9 +261,6 @@
     <string name="is_system_wallpaper_message">Kan ikke slette systemressurser</string>
     <string name="launcher_not_exist">En feil oppstod. Gå tilbake til startskjermen og prøv igjen.</string>
     <string name="launcher_pull_down_title">Sveip ned på startskjermen</string>
-    <string name="launcher_search_bar_title">Startskjermens søkefelt</string>
-    <string name="launcher_search_bar_value_disable">Av</string>
-    <string name="launcher_search_bar_value_enable">På</string>
     <string name="launcher_slide_up_title">Sveip opp på startskjermen</string>
     <string name="launcher_sliding_up_gesture">Sveip for å åpne Startskjermen og åpne søk</string>
     <string name="launcher_title">Startskjerm &amp; Nylige</string>
@@ -408,6 +401,7 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_downloaded">Nedlastet</string>
     <string name="status_downloading">Laster ned</string>
     <string name="status_installing">Installering</string>

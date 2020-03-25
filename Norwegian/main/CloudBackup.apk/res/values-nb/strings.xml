@@ -10,7 +10,6 @@
     <string name="retry">Prøv igjen</string>
     <string name="cloud_app_current_device">Nåværende enhet</string>
     <string name="cloud_app_other_devices">Andre enheter</string>
-    <string name="cloud_app_restore_app_and_data">Konfigurer enheeten</string>
     <string name="cloud_app_restore_data">Persondata og tidligere installerte apper vises på enheten din automatisk</string>
     <string name="cloud_app_dont_restore">Konfigurer som ny enhet</string>
     <string name="cloud_app_restore_wifi_prompt">Gjenopprett fra sikkerhetskopi i skyen.</string>
@@ -50,6 +49,8 @@
     <string name="self_device_second_space">Denne telefonens andre område</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
     <string name="size_unknown">Ukjent størrelse</string>
     <string name="recovering">Gjenoppretter %s</string>
@@ -222,4 +223,5 @@ Sjekk nettverksinnstillingene dine og prøv igjen."</string>
     <string name="restore_task_unfinished">Kunne ikke gjenopprette</string>
     <string name="restore_failed_reason_network_error">Nettverksfeil. Vent et minutt eller to før du prøver igjen.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Ikke nok lagringsplass. Frigjør lagringsplass først.</string>
+    <string name="cloud_app_restore_app_and_data">Konfigurer enheeten</string>
 </resources>

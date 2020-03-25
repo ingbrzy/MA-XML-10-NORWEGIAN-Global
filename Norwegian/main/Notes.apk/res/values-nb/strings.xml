@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Gå opp</string>
+    <string name="abc_action_menu_overflow_description">Flere alternativer</string>
+    <string name="abc_action_mode_done">Ferdig</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Velg en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meny+</string>
+    <string name="abc_search_hint">Søk</string>
+    <string name="abc_searchview_description_clear">Slett søket</string>
+    <string name="abc_searchview_description_query">Søkeord</string>
+    <string name="abc_searchview_description_search">Søk</string>
+    <string name="abc_searchview_description_submit">Utfør søket</string>
+    <string name="abc_searchview_description_voice">Talesøk</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="action_folder_description">Se mapper</string>
     <string name="action_mode_switcher_grid_description">Rutenettvisning</string>
     <string name="action_mode_switcher_list_description">Listevisning</string>
@@ -36,11 +63,14 @@
     <string name="cloud_trash_bin_title">Slettet notater i skyen</string>
     <string name="confirm_cancel">Ikke godta</string>
     <string name="confirm_ok">Godta</string>
+    <string name="copy">Kopiér</string>
     <string name="cta_confirm_cancel">Ikke tillat</string>
     <string name="cta_confirm_ok">Tillat</string>
     <string name="cta_dialog_message">Notater trenger tillatelse til å koble til internett, ta opp lyd og få tilgang til kontaktene dine for å fungere normalt. Tillat?</string>
     <string name="cta_dialog_title">Tillatelser er nødvendig</string>
     <string name="cta_reminder">Notater trenger tillatelse til å koble til internett, ta opp lyd og få tilgang til kontaktene dine for å fungere normalt. Tillat?</string>
+    <string name="data_empty_note">Ingen notater her ennå</string>
+    <string name="data_empty_todo">Ingen oppgaver her ennå</string>
     <string name="date_calculate_today">0 dager</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -90,6 +120,7 @@
     <string name="error_unsupport_content">Dette notatet inneholder ustøttet innhold. Trykk her for å oppdatere</string>
     <string name="error_widget_exist_for_send_to_desktop">Dette notatet ligger allerede på Startskjermen din</string>
     <string name="exceed_todo_text_limitation">Oppgavebeskrivelsen er for lang.</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="first_enter_custom_folder_hint">Du kan gi nytt navn eller slette mapper her</string>
     <string name="fmt_chinese_date">N e</string>
     <string name="fmt_time_12hour_minute">h:mm</string>
@@ -137,6 +168,7 @@
     <string name="new_audio_create_guide_tip">Trykk og hold for å opprette et talenotat</string>
     <string name="new_audio_create_talkback_des">Trykk for å opprette et talenotat. Trykk og hold for å opprette et talenotat. Slipp knappen for å avslutte opptaket og opprette notatet, eller skyv opp for å avbryte.</string>
     <string name="not_now">Ikke nå</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="note_description_content">Notater-appen er et flott verktøy for å registrere ideene dine. Den har innebygde påminnelser og synkroniserer elementene dine til skyen, slik at du kan få tilgang til dem hvor som helst, når som helst. Vær sikker på at du klarer deg uten disse funksjonene før du sletter appen.</string>
     <string name="note_description_title">Om notater</string>
     <string name="note_link_email">Skriv e-post</string>
@@ -147,6 +179,8 @@
     <string name="note_sort_way">Velg hvordan du ønsker å sortere notatene dine</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
+    <string name="notification_content_add_todo_from_other_app">Du la til en ny oppgave. Trykk for å se.</string>
     <string name="notify_alarm_title">Notatpåminnelse</string>
     <string name="permdesc_accessNote">Ondsinnede apper kan bruke dette for å få tilgang til dine personlige data.</string>
     <string name="permission_get_account_desc">Synkronisere notater med skyen</string>
@@ -171,6 +205,7 @@
     <string name="pref_title_skip_confirm_for_quick_delete">Slett ved hjelp av bevegelse</string>
     <string name="pref_title_todo_float_mode">Bruk verktøykasse</string>
     <string name="pref_title_todo_shorcut">Verktøykasse</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="privacy_note_content_empty">Ingen elementer her ennå.</string>
     <string name="recover_notes_hint">Det oppsto en feil, gå til i.mi.com for å gjenopprette notater.</string>
     <string name="redo">Gjenta</string>
@@ -211,6 +246,7 @@
     <string name="search_hint">Søker notater</string>
     <string name="search_keyword_notes">Notater;Memo</string>
     <string name="search_label">Søker…</string>
+    <string name="search_menu_title">Søk</string>
     <string name="search_path_notes">Systemapps/Notater</string>
     <string name="search_setting_description">Søk tekst i notatene dine</string>
     <string name="select_account_prompt">Synkroniser notater</string>
@@ -235,6 +271,8 @@
     <string name="sns_title_send">Send melding</string>
     <string name="sns_toast_empty">Kan ikke sende tom melding</string>
     <string name="sns_toast_over_limit">Sendt som bilde</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_tips">Trykk for å synkronisere notater med skyen.</string>
     <string name="theme_blue_description">Blå</string>
     <string name="theme_green_description">Grønn</string>
@@ -345,6 +383,8 @@ Tillat Notater å spille inn lyd."</string>
     <string name="unclassfied_folder_name">Ukategorisert</string>
     <string name="undo">Angre</string>
     <string name="unknown_source">Ukjent kilde</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="widget_content_loading">Et øyeblikk…</string>
     <string name="widget_havenot_content">Trykk for å opprette et notat. Hold widget for å endre størrelse.</string>
 </resources>

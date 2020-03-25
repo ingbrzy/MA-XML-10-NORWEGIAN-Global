@@ -2,6 +2,7 @@
 <resources>
     <string name="ad_service">Annonse-tjeneste</string>
     <string name="app_label">HTML-visning</string>
+    <string name="app_name_which_call">App: %s</string>
     <string name="app_version_which_call">App-versjon: %s</string>
     <string name="autoconnect">Automatisk tilkobling</string>
     <string name="ime_privacy_policy">Velg tastatur</string>
@@ -13,6 +14,8 @@ gå til %s på en annen tilkoblet enhet."</string>
     <string name="open_wifi_connect_summary">Trykk for å se detaljer.</string>
     <string name="open_wifi_connect_title">Koblet til %1$s</string>
     <string name="permdesc_accessDrm">Tillat appen å få tilgang til DRM-beskyttet innhold.</string>
+    <string name="poco_launcher_privacy_policy">POCO Launcher personvernerklæring</string>
+    <string name="poco_launcher_user_agreement">POCO Launcher brukeravtale</string>
     <string name="poco_privacy_policy">Personvernpolicyen og brukeravtalen til POCO-oppstarteren</string>
     <string name="policy_name">Protokoll: %s</string>
     <string name="pre_installed_apps">Forhåndsinstallerte apper</string>

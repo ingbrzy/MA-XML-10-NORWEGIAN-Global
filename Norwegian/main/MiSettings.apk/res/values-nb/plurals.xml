@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="last_several_days">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_equal">
+        <item quantity="other">Skjermtid i dag tilsvarer din %d-dagers gjennomsnitt</item>
+        <item quantity="one">Skjermtid i dag tilsvarer ditt %d-dags gjennomsnitt</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_less">
+        <item quantity="other">%2$s mindre skjermtid i dag enn ditt %1$d-dagers gjennomsnitt</item>
+        <item quantity="one">%2$s mindre skjermtid i dag enn ditt %1$d-dags gjennomsnitt</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_more">
+        <item quantity="other">%2$s mer skjermtid i dag enn ditt %1$d-dagers gjennomsnitt</item>
+        <item quantity="one">%2$s mer skjermtid i dag enn ditt %1$d-dags gjennomsnitt</item>
+    </plurals>
+    <plurals name="unlock_times">
+        <item quantity="other">%.2f ganger</item>
+        <item quantity="one">%.2f gang</item>
+    </plurals>
+    <plurals name="usage_days">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">Låst opp %d ganger</item>
         <item quantity="one">Låst opp %d gang</item>
@@ -15,6 +39,10 @@
     <plurals name="usage_state_device_noti_explain_week">
         <item quantity="other">Mottatt %d varsler</item>
         <item quantity="one">Mottatt %d varsel</item>
+    </plurals>
+    <plurals name="usage_state_focus_usage_summary">
+        <item quantity="other">%d minutter er et stort steg mot mindfulness og konsentrasjon.</item>
+        <item quantity="one">%d minutt er et stort steg mot mindfulness og konsentrasjon.</item>
     </plurals>
     <plurals name="usage_state_hour">
         <item quantity="other">%d t</item>

@@ -118,6 +118,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">%d sanger</item>
         <item quantity="one">%d sang</item>
     </plurals>
+    <plurals name="sound_fade_duration_in_seconds">
+        <item quantity="other">Krysstoning mellom sanger: %d sekunder</item>
+        <item quantity="one">Krysstoning mellom sanger: %d sekund</item>
+    </plurals>
     <plurals name="video_count">
         <item quantity="other">Videoer</item>
         <item quantity="one">Video</item>
