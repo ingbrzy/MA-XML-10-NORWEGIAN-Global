@@ -49,6 +49,8 @@
     <string name="self_device_second_space">Denne telefonens andre område</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
     <string name="size_unknown">Ukjent størrelse</string>
     <string name="recovering">Gjenoppretter %s</string>
@@ -57,6 +59,7 @@
     <string name="start_backup_to_micloud">Sikkerhetskopier apper til Xiaomi Cloud</string>
     <string name="backing_up_to_micloud">Sikkerhetskopierer…</string>
     <string name="restore_from_cloud">Gjenopprett fra sikkerhetskopi i skyen</string>
+    <string name="restore_from_mimover">Overfør fra den gamle enheten din ved hjelp av Mi Mover</string>
     <string name="backup_to_cloud">Sikkerhetskopier app</string>
     <string name="restoring_file_title_no_progress">Gjenoppretter filer…</string>
     <string name="menu_item_sort">Sorter etter</string>
@@ -80,7 +83,7 @@
     <string name="download_settings">Laster ned innstillinger for startskjerm %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd/MM/yyyy</string>
     <string name="recover_home_settings">Gjenopprett innstillinger for startskjerm</string>
-    <string name="cancel_recover_settings"><u>Avbryt</u></string>
+    <string name="cancel_recover_settings">Avbryt</string>
     <string name="recover_settings_description">Hold enheten din skrudd på</string>
     <string name="recover_miui_settings">Gjenopprett systeminnstillinger</string>
     <string name="wait_icon_download">Laster ned app-ikoner</string>
@@ -106,6 +109,7 @@
     <string name="restore_data_summary">Denne funksjonen krever internettilkobling.</string>
     <string name="query_restore_summary">Fant en sikkerhetskopi for denne enheten i Xiaomi Cloud. Gjenopprette apper på startskjermen og innstillinger, eller bruke den som en ny enhet og fjerne tidligere sikkerhetskopier i Xiaomi Cloud?</string>
     <string name="restore_home_screen_apps">Gjenopprett fra sikkerhetskopi i skyen</string>
+    <string name="restoring_home_screen_apps">Gjenoppretter fra Xiaomi Cloud…</string>
     <string name="query_restore_description">Gjenopprett startskjermapper og innstillinger med denne sikkerhetskopieringen. Da overskrives appdata dersom flere like apper allerede er installert på enheten. Apper som ikke er inkluder i sikkerhetspopieringen flyttes til den siste startskjermen.</string>
     <string name="restore_from_this_device">Gjenopprett med denne sikkerhetskopien</string>
     <string name="confirm_cancel_restore_title">Avbryt gjenoppretting?</string>
@@ -132,7 +136,7 @@
     <string name="provision_error_connect_msg">Test nettverket og prøv igjen. Sikkerhetskopier er ikke tilgjengelige når enheten er offline.</string>
     <string name="provision_error_connect_title">Kan ikke koble til</string>
     <string name="loading_user_backup">Laster brukersikkerhetskopier…</string>
-    <string name="loading_progress_num">(%s%%)</string>
+    <string name="loading_progress_num">Lastet %s%%</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Beregner størrelse…</string>
     <string name="authentication_failed">Kunne ikke verifisere konto.</string>
@@ -165,7 +169,7 @@
     <string name="cloud_backup">Sikkerhetskopier i Cloud</string>
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
     <string name="restore_cloud_backup_to_phone">Gjenopprett elementer fra skyen</string>
-    <string name="cloud_backup_in_process">Sikkerhetskopierer…</string>
+    <string name="cloud_backup_in_process">Sikkerhetskopierer</string>
     <string name="cloud_backup_in_cancel">Avbryt</string>
     <string name="dialog_cancel_backup_title">Avbryte pågående sikkerhetskopiering?</string>
     <string name="dialog_cancel_backup_msg">Hvis du trykker på bryteren, avsluttes pågående sikkerhetskopieringer.</string>
@@ -221,5 +225,6 @@ Sjekk nettverksinnstillingene dine og prøv igjen."</string>
     <string name="restore_task_unfinished">Kunne ikke gjenopprette</string>
     <string name="restore_failed_reason_network_error">Nettverksfeil. Vent et minutt eller to før du prøver igjen.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Ikke nok lagringsplass. Frigjør lagringsplass først.</string>
-    <string name="cloud_app_restore_app_and_data">Konfigurer enheeten</string>
+    <string name="storage_unit_mb">%s MB</string>
+    <string name="storage_unit_gb">%s GB</string>
 </resources>

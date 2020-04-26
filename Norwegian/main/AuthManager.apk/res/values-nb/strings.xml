@@ -97,7 +97,7 @@
     <string name="grant_dialog_button_deny_background_and_dont_ask_again">Avslå og ikke spør igjen</string>
     <string name="location_settings">Plasseringsinnstillinger</string>
     <string name="location_warning">%1$s er leverandør av plasseringstjenester for denne enheten. Plasseringstilgang kan endres fra plasseringsinnstillinger.</string>
-    <string name="never_ask_again">Ikke spør igjen</string>
+    <string name="never_ask_again">Ikke spør meg igjen etter begrensning</string>
     <string name="ok">OK</string>
     <string name="permdesc_camera">Ta bilder og spille inn videoer</string>
     <string name="permdesc_in_calls">Overvåke innkommende anrop</string>

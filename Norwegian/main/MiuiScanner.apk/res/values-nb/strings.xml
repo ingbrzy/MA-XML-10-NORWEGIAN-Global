@@ -41,7 +41,6 @@
     <string name="agree_camera_permission">For å ta bilder og spille inn videoer</string>
     <string name="agree_storage_permission">For tilgang til bilder og filer lagret på enheten</string>
     <string name="always">Alltid</string>
-    <string name="amazon_assistant_shopping_title">Søk i Amazon</string>
     <string name="app_description_content">Skanner lar deg skanne QR-koder, dokumenter, visittkort og mer. Vær sikker på at du kan klare deg uten disse funksjonene før du avinstallerer appen.</string>
     <string name="app_description_title">Om Skannner</string>
     <string name="app_details">App:</string>
@@ -74,6 +73,7 @@
     <string name="choose_open_code_app">Velg en app</string>
     <string name="choose_pay_title">Velg betalingsmetode</string>
     <string name="choose_picture">Velg QR-kodebilde</string>
+    <string name="choosed_title">Valgt</string>
     <string name="classesNameNull_toast">Klassenavnet kan ikke stå tomt</string>
     <string name="classes_canfirmTitle">Bekreft resultater og start importering</string>
     <string name="classes_company">Importer</string>
@@ -100,10 +100,16 @@
     <string name="copy_text">Kopier tekst</string>
     <string name="copy_text_success">Tekst er kopiet</string>
     <string name="copy_tracknum">Kopier sporingskode</string>
+    <string name="create">Generer QR-kode</string>
+    <string name="createFail">Kunne ikke generere QR-kode. Meldingen din er for lang.</string>
+    <string name="createQRCode_hint">Skriv inn tekst</string>
+    <string name="createQRCode_save">Lagre</string>
+    <string name="create_again">Oppdater</string>
     <string name="crop_cancel_description">Avbryt</string>
     <string name="crop_done_description">Ferdig</string>
     <string name="crop_title_study">Beskjær bildet</string>
     <string name="crop_title_translation">Velg tekst som skal oversettes</string>
+    <string name="delete">Slett</string>
     <string name="document_color_picture">Farge</string>
     <string name="document_color_picture_tip">Konverterer til farge…</string>
     <string name="document_crop_title">Beskjære dokument</string>
@@ -158,6 +164,8 @@
     <string name="food_module_title_food">Kalorier</string>
     <string name="got_it">Skjønner</string>
     <string name="gps">Naviger</string>
+    <string name="history">Historikk</string>
+    <string name="importFailed">Kunne ikke importere</string>
     <string name="import_contact">Importer kontakt</string>
     <string name="impunity_declaration_content">Skanner må bruke kameraet ditt og behandle bildene du tar mens du bruker appen. Ikke bruk Skanner til å ta bilder av ting som inneholder personlige opplysninger om deg. Ved å trykke på «Godta», samtykker du i &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">personvernerklæringen&lt;/a>&lt;/font> vår og tillater at Skanner kobler til internett.</string>
     <string name="impunity_declaration_negative_text">Avslutt</string>
@@ -176,7 +184,7 @@
     <string name="language_entry_spanish">Spansk</string>
     <string name="logistics">Ekspresslevering</string>
     <string name="low_version_tip">Oppdater til siste versjon av MIUI for å kunne bruke Scanner.</string>
-    <string name="miracast_connect">Cast</string>
+    <string name="miracast_connect">Strøm</string>
     <string name="miracast_connect_fail">Kunne ikke caste. Prøv igjen</string>
     <string name="miracast_connecting">Caster…</string>
     <string name="miracast_details">Skann QR-kode for å strømme</string>
@@ -228,6 +236,11 @@
     <string name="recognize">Skann</string>
     <string name="recognize_fail">Kunne ikke lese koden</string>
     <string name="request_server_failed">Kunne ikke koble til serveren</string>
+    <string name="saveDone">Lagret</string>
+    <string name="scanHistory">Skannerhistorikk</string>
+    <string name="scanHistory_close">Slå av</string>
+    <string name="scanHistory_isOpen">Begynne å spore historikk over skannede elementer nå?</string>
+    <string name="scanHistory_open">Slå på</string>
     <string name="scan_result">Resultat</string>
     <string name="scan_support_type">WeChat, Alipay, QR-koder, strekkoder</string>
     <string name="sdk_not_ready">Forbereder SDK. Prøv igjen senere.</string>

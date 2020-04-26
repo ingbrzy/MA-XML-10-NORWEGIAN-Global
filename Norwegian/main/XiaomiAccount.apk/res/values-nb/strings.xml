@@ -119,6 +119,7 @@
     <string name="passport_change_phone_number">Bytt numre</string>
     <string name="passport_forget_password"><u>Glemt passord</u></string>
     <string name="passport_forget_password_no_underline">Glemt passord</string>
+    <string name="passport_can_not_receive_verification_code">Kan du ikke motta bekreftelseskoden?</string>
     <string name="passport_reg_type_email">E-postadresse</string>
     <string name="passport_register_by_email"><u>Opprett en konto med en e-postadresse</u></string>
     <string name="passport_international_register_by_email">Opprett en konto med en e-postadresse</string>
@@ -505,7 +506,9 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="input_new_pwd">Tast inn nytt passord</string>
     <string name="confirm_new_pwd">Bekreft nytt passord</string>
     <string name="inconsistent_pwd">Passordene stemmer ikke overens</string>
-    <string name="same_new_and_old_pwd">Kan ikke være det samme som det nåværende passordet</string>
+    <string name="same_new_and_old_pwd">Nytt passord må være forskjellig fra det gamle</string>
+    <string name="pwd_width_phone_number_or_mail_num">Passordet kan ikke inneholde telefonnummeret, e-postadressen eller Mi-konto-ID-en din</string>
+    <string name="risky_pwd_not_allow">Nytt passord er ikke sikkert. Angi et nytt.</string>
     <string name="account_security_info_pref_title">Sikkerhetsinformasjon</string>
     <string name="account_bind_settings">Kontoer</string>
     <string name="account_bind_devices">Enheter</string>

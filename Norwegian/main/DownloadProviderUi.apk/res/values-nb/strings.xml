@@ -127,10 +127,10 @@
     <string name="downloading">Laster ned…</string>
     <string name="downloading_empty">Tøm</string>
     <string name="downloads_operating">Arbeider…</string>
-    <string name="durationDayHour">%1$d dag %2$d time</string>
+    <string name="durationDayHour">%1$d dag %2$d t</string>
     <string name="durationDayHours">%1$d dag %2$d timer</string>
-    <string name="durationHourMinute">%1$d time %2$d min</string>
-    <string name="durationHourMinutes">%1$d time %2$d min</string>
+    <string name="durationHourMinute">%1$d t %2$d min</string>
+    <string name="durationHourMinutes">%1$d t %2$d min</string>
     <string name="durationMinute">%1$d min</string>
     <string name="durationMinuteSecond">%1$d min %2$d sek</string>
     <string name="durationMinuteSeconds">%1$d min %2$d sek</string>
@@ -205,7 +205,7 @@
     <string name="pref_download_settings_title">Størrelsesbegrensning på nedlasting</string>
     <string name="pref_summary_any_bytes_popup">Vent alltid på Wi-Fi-tilkobling for å laste ned filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Vis popupvarsling når du bruker mobildata for å laste ned innhold</string>
-    <string name="pref_summary_max_bytes_limit_format">Vent til Wi-Fi hvis filstørrelsen overstiger %s</string>
+    <string name="pref_summary_max_bytes_limit_format">Vent på Wi-Fi hvis filstørrelsen overskrider%s</string>
     <string name="pref_summary_no_limit_popup">Ubegrenset</string>
     <string name="pref_title_enable_max_bytes_popup">Vis databrukmelding</string>
     <string name="preferences_title">Innstillinger</string>
@@ -249,4 +249,5 @@
     <string name="toast_only_wifi_download">Koble til Wi-Fi for å laste ned dette elementet</string>
     <string name="total_speedup">Hastighetsøkning (total)</string>
     <string name="version">Versjon %s</string>
+    <string name="security_ui_title">Security ads</string>
 </resources>

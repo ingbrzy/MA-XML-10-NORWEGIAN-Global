@@ -47,6 +47,7 @@
     <string name="content_description_web_url">Søk</string>
     <string name="copy">Kopier</string>
     <string name="cut">Klipp</string>
+    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">Ukjent enhet</string>
     <string name="default_name">Standard</string>
     <string name="description_title">Stillemodus</string>
@@ -71,7 +72,7 @@
     <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Ikke nå</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Slå på</string>
     <string name="fp_nav_center_action_choose_dlg_title">Trykk på hurtigtrykk</string>
-    <string name="frequent_email">Hyppig e-post</string>
+    <string name="frequent_email">Ofte brukt e-post</string>
     <string name="frequent_phrases">Ofte brukte uttrykk</string>
     <string name="functions_are_being_developed">Denne funksjonen vil bli tilgjengelig snart. Følg med!</string>
     <string name="global_actions_airplane_mode">Flymodus</string>
@@ -202,6 +203,7 @@
     <string name="sim_added_reboot_title">SIM-kortet aktiveres når du har startet enheten på nytt.</string>
     <string name="sim_lock_non_ais_msg">SIM-kortet fungerer ikke helt som det skal med denne telefonen siden det ikke samsvarer med vilkårene og betingelsene i abonnementet ditt. Hvis du har noen spørsmål eller trenger mer informasjon om dette, kan du ta kontakt med Xiaomi-servicesentre eller butikken som solgte produkter til deg.</string>
     <string name="sim_lock_now_ais_title">SIM %1$d</string>
+    <string name="slatoast">Bruk av mobildata for å øke hastigheten kan forbruke mobildata</string>
     <string name="slavewifi">Wi-Fi med dobbeltbånd</string>
     <string name="slavewifi_disconnect">Koble fra</string>
     <string name="slavewifi_notification_title">Bruker Wi-Fi med dobbeltbånd</string>

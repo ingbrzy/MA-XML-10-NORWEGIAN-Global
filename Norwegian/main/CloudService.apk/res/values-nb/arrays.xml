@@ -26,17 +26,17 @@
         <item>Sikkerhetskopier systeminnstillinger</item>
         <item>Finn enhet</item>
     </string-array>
-    <string-array name="priv_dialog_finddevice_runtime_perm_desc">
-        <item>For identifying your device</item>
-        <item>For locating your device and switching to the lost mode</item>
+    <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
+        <item>For identifisering av enheten</item>
+        <item>For å lokalisere enheten og bytte til mistet-modus</item>
     </string-array>
-    <string-array name="priv_dialog_sync_runtime_perm_desc">
-        <item>For syncing events</item>
-        <item>For syncing messages</item>
-        <item>For syncing messages</item>
-        <item>For syncing contacts</item>
-        <item>For syncing contacts</item>
-        <item>For saving items on your device (e.g. images, videos, songs)</item>
+    <string-array name="privacy_dialog_sync_runtime_perm_desc">
+        <item>For synkronisering av hendelser</item>
+        <item>For synkronisering av meldinger</item>
+        <item>For synkronisering av meldinger</item>
+        <item>For synkronisering av kontakter</item>
+        <item>For synkronisering av kontakter</item>
+        <item>For å lagre elementer på enheten (f.eks. bilder, videoer, sanger)</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Sikkerhetskopier</item>

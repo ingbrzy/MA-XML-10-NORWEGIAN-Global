@@ -22,12 +22,13 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="find_device_error_access_denied">Tilgang avslått.</string>
     <string name="find_device_error_account_sys_timeout">"Kunne ikke koble til Mi Account. "</string>
     <string name="find_device_error_account_unknown_error">Mi Account-feil (%s).</string>
+    <string name="find_device_error_custom">%s</string>
     <string name="find_device_error_network">Nettverksfeil.</string>
     <string name="find_device_error_password_changed">Kontopassord er nylig endret.</string>
     <string name="find_device_error_server">Serverfeil (%s).</string>
     <string name="find_device_error_unknown">Ukjent feil (%s).</string>
     <string name="find_device_noise_title">Finn enhetens alarm</string>
-    <string name="find_device_notice">Gå til&lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />for å lokalisere, lpse eller gjenopprette din enhet.</string>
+    <string name="find_device_notice">Gå til &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> for å finne, låse eller gjenopprette enheten din.</string>
     <string name="find_device_notice_sms_alert">Hvis du bytter SIM-kort, vil enda en SMS automatisk sendes for å aktivere denne funksjonen på nytt.</string>
     <string name="find_device_stop_noise">Trykk OK for å sette på lydløst</string>
     <string name="find_device_storage_corrupted">"'Finn enhet' lagring er skadet. Din enhet er utrygg nå."</string>
