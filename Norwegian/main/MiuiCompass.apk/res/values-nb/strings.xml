@@ -51,8 +51,10 @@
     <string name="cannot_get_location">--</string>
     <string name="compass_settings">Innstillinger</string>
     <string name="copy">Kopiér</string>
+    <string name="cta_agree_desc">Gi denne appen tillatelse til å koble til internett og gi de valgfrie tillatelsene for å kunne bruke alle funksjonene.</string>
     <string name="cta_v2_app_purpose">viser retninger, koordinater, lufttrykk og nåværende høyde</string>
     <string name="dialog_body_no_network">Koble til Wi-Fi eller slå på mobildata.</string>
+    <string name="dialog_body_no_network_china">Connect to WLAN or turn on mobile data.</string>
     <string name="dialog_calibrat_altitude">Kalibrerer…</string>
     <string name="dialog_title_no_network">Kunne ikke koble til nettverket</string>
     <string name="direction_east">Ø</string>
@@ -86,8 +88,8 @@
     <string name="not_set">Ikke angitt</string>
     <string name="open_perm_msg">Kompass trenger tilgang til posisjonsinformasjon og kameraet. Dette er nødvendig å angi koordinater og gi direkte forhåndsvisninger. Tillate?</string>
     <string name="open_perm_title">Tillatelser er nødvendig</string>
-    <string name="permission_camera_desc">Bruke vateret</string>
-    <string name="permission_location_desc">Vise koordinater og lufttrykk</string>
+    <string name="permission_camera_desc">For visning av azimuth i live forhåndsvisning</string>
+    <string name="permission_location_desc">For visning av koordinater</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preference_other">Annet</string>
     <string name="preference_privacy_title">Personvernerklæring</string>

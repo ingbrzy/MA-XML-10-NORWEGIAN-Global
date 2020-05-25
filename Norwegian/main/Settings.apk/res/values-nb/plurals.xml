@@ -88,6 +88,10 @@
         <item quantity="other">%d dager igjen</item>
         <item quantity="one">%d dag igjen</item>
     </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d tilgjengelige enheter</item>
+        <item quantity="one">%d tilgjengelig enhet</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
         <item quantity="one">%d enhet</item>
@@ -303,6 +307,10 @@
     <plurals name="runtime_permissions_summary">
         <item quantity="other">%1$d av %2$d tillatelser er gitt</item>
         <item quantity="one">%1$d av %2$d tillatelser er gitt</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
     </plurals>
     <plurals name="seconds">
         <item quantity="other">%s sekunder</item>

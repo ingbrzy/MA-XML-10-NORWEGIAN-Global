@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Gå til startsiden</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
@@ -10,7 +10,7 @@
     <string name="abc_capital_on">PÅ</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
     <string name="abc_menu_enter_shortcut_label">enter</string>
     <string name="abc_menu_function_shortcut_label">Funksjon+</string>
     <string name="abc_menu_meta_shortcut_label">Meta+</string>
@@ -18,7 +18,7 @@
     <string name="abc_menu_space_shortcut_label">mellomrom</string>
     <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Meny+</string>
-    <string name="abc_search_hint">Søk …</string>
+    <string name="abc_search_hint">Søk</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
     <string name="abc_searchview_description_query">Søkeord</string>
     <string name="abc_searchview_description_search">Søk</string>
@@ -27,16 +27,19 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
-    <string name="search_menu_title">Søk</string>
     <string name="above_image">Opp</string>
     <string name="accessibility_battery_level">Batteri-%dprosent.</string>
     <string name="accessibility_battery_level_charging">Batteri lader, %d prosent.</string>
+    <string name="add_from_album">Legg til fra galleri</string>
     <string name="align_type">Juster</string>
     <string name="always_style">Alltid</string>
     <string name="animation_clock_panel">Bølgeurskive</string>
     <string name="aod_close_color_inversion">Denne funksjonen kan ikke kombineres med fargeinvertering. Deaktiver fargeinvertering først.</string>
     <string name="aod_lock_screen_date">EE, d MMMM</string>
     <string name="aod_lock_screen_date_12">EE, d. MMMM</string>
+    <string name="aod_lock_screen_date_smartcover">"EE
+dd. MM"</string>
+    <string name="aod_lock_screen_date_smartcover_b">EE dd. MM</string>
     <string name="aod_mode_preview">Forhåndsvisning</string>
     <string name="aod_mode_style">Klokkestil og bakgrunn</string>
     <string name="aod_mode_style_title">Flere valg</string>
@@ -52,21 +55,32 @@
     <string name="apply_succeed">Aktivert</string>
     <string name="background_icon">Bakgrunn</string>
     <string name="below_image">Ned</string>
+    <string name="btn_know">Skjønner</string>
     <string name="cancel">Avbryt</string>
     <string name="choose_aod_style">Velg tema</string>
     <string name="chosen_picture">Velg bakgrunn</string>
     <string name="clock_panel_icon">Urskive</string>
     <string name="color_change_with_time_description">Endre tekstfarge automatisk over tid</string>
     <string name="color_change_with_time_title">Endre farge automatisk</string>
+    <string name="copy">Kopiér</string>
     <string name="custom_image">Tilpasset bilde</string>
     <string name="deep_space_planet">Ytre rom</string>
     <string name="deep_space_planet_des">Dette temaet reflekterer lysendringer som skjer rundt deg gjennom dagen. Soloppgang og solnedgang er også synkroniserte med plasseringen din.</string>
+    <string name="delete">Slett</string>
     <string name="digital_clock">Digital</string>
+    <string name="disable_aod_in_power_save_mode">Deaktiver når batterisparer er aktivert</string>
+    <string name="disable_aod_in_power_save_mode_summary">Ikke vis elementer for å spare strøm</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="font_thickness">Tykk skrift</string>
     <string name="large_time">Stor klokke</string>
     <string name="letter_space">Bokstavavstand</string>
     <string name="line_space">Linjeavstand</string>
     <string name="mini_time">Liten klokke</string>
+    <string name="minimalist_clock">Enkel klokke</string>
+    <string name="modify_scheduled_time">Endre tid</string>
+    <string name="more_online_theme">Elementer på nett</string>
+    <string name="my_style_title">Mitt tema</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="notification_anim_pulse">Puls</string>
     <string name="notification_anim_rhythm">Rytme</string>
     <string name="notification_anim_star">Stjernelys</string>
@@ -74,18 +88,28 @@
     <string name="notification_screen_on">Lys opp skjermen</string>
     <string name="only_show_bg_description">Ikke vis tid, dato og andre elementer</string>
     <string name="only_show_bg_title">Bare vis bakgrunn</string>
+    <string name="open_aod_mode">Slå på</string>
     <string name="panel_clock">Analog</string>
     <string name="paper_mode_end_time_title">Deaktiver</string>
     <string name="paper_mode_start_time_title">Aktiver</string>
+    <string name="photo_editor_saving">Lagrer…</string>
     <string name="please_input_signature">Fyll inn en signatur</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
+    <string name="scheduled_mode_dialog_msg">Elementer vises på Alltid på-skjermen i denne perioden: %s</string>
+    <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
+    <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
+    <string name="scheduled_mode_msg">Aktiv periode: %s</string>
     <string name="scheduled_style">Planlagt</string>
     <string name="scope_des">Hvert kaleidoskop inneholder fem forskjellige mønstre som vises i tur hver gang skjermen slås på.</string>
     <string name="scope_icon">Kaleidoskopstil</string>
     <string name="scope_time">Kaleidoskop</string>
+    <string name="search_menu_title">Søk</string>
     <string name="select_notification_animation_style">Velg spesialeffekt</string>
     <string name="select_notification_notify_style">Velg varslingseffekt</string>
     <string name="show_battery">Vis batteristatus</string>
     <string name="show_battery_status">Vis batteristatus</string>
+    <string name="show_lunar">Vis tradisjonell kinesisk kalender</string>
+    <string name="show_lunar_desc">Dobbel klokke støtter ikke tradisjonell kinesisk kalender</string>
     <string name="show_notification">Vis varsler</string>
     <string name="show_notificaton">Vis varsler</string>
     <string name="shownone_arround_image">Ingen</string>
@@ -94,7 +118,9 @@
 fantastisk er i ferd med å skje"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary">For å redusere strømforbruk vil ikke elementer vises når enheten ligger lenge i mørket.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="temporary_style">I 10 sekunder etter å ha trykt</string>
     <string name="text_color">Tekstfarge</string>
     <string name="text_length_exceed_limit_alert">*Teksten du skrev inn er for lang</string>
@@ -102,6 +128,7 @@ fantastisk er i ferd med å skje"</string>
     <string name="time_location">Klokkeposisjon</string>
     <string name="time_style">Stil</string>
     <string name="time_style_layout">Utforming</string>
-    <string name="disable_aod_in_power_save_mode">Deaktiver når batterisparer er aktivert</string>
-    <string name="disable_aod_in_power_save_mode_summary">Ikke vis elementer for å spare strøm</string>
+    <string name="tip_to_open_aod_mode">Alltid-på-visning er av. Slå på nå?</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
 </resources>

@@ -6,6 +6,33 @@
 Meldinger vil bare vises i Andre område."</string>
     <string name="PrivacyContactDes2">"Hvis du har brukt private meldinger i Første område,
 vil denne funksjonen bli lagt til Andre område automatisk."</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Gå opp</string>
+    <string name="abc_action_menu_overflow_description">Flere alternativer</string>
+    <string name="abc_action_mode_done">Ferdig</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Velg en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meny+</string>
+    <string name="abc_search_hint">Søk</string>
+    <string name="abc_searchview_description_clear">Slett søket</string>
+    <string name="abc_searchview_description_query">Søkeord</string>
+    <string name="abc_searchview_description_search">Søk</string>
+    <string name="abc_searchview_description_submit">Utfør søket</string>
+    <string name="abc_searchview_description_voice">Talesøk</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_ent_mode">Om Organisasjonsmodus</string>
     <string name="activate_ent_mode">Aktiver Organisasjonsmodus</string>
     <string name="add_finger_print">Legg til fingeravtrykk</string>
@@ -61,6 +88,7 @@ vil denne funksjonen bli lagt til Andre område automatisk."</string>
 for å kunne se dem når som helst"</string>
     <string name="contact_us">Kontakt oss</string>
     <string name="continueButton">Fortsett</string>
+    <string name="copy">Kopiér</string>
     <string name="createANewSpace">Opprett et separat område på telefonen din.</string>
     <string name="createUserFail">Kunne ikke opprette</string>
     <string name="create_app_icon_failed">Kunne ikke opprette ikon</string>
@@ -149,6 +177,7 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="err_unknown">Ukjent feil</string>
     <string name="err_volume_not_enough">Ikke nok lagringsplass</string>
     <string name="exit_private_space">Skift</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="experience_more_features">Legg til en enhet for å se alle funksjonene</string>
     <string name="facebook_login">Logg inn med Facebook</string>
     <string name="facebook_send">Del på Facebook</string>
@@ -174,10 +203,10 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="greenguard_child_des_title">Skann QR-kode for å legge til enhet</string>
     <string name="greenguard_functional_description">"Administrer enheter eksternt, se plasseringsinfo,
 kontroller installerte apper og begrens bruk"</string>
-    <string name="greenguard_install_cancle">No thanks</string>
-    <string name="greenguard_install_confirm">Install</string>
-    <string name="greenguard_install_message">"Family Guard is a system app. You don't need internet to install it."</string>
-    <string name="greenguard_install_title">Install Family Guard</string>
+    <string name="greenguard_install_cancle">Nei takk</string>
+    <string name="greenguard_install_confirm">Installer</string>
+    <string name="greenguard_install_message">Familievakt er en system-app. Du trenger ikke internett for å installere den.</string>
+    <string name="greenguard_install_title">Installer Familievakt</string>
     <string name="greenguard_parent_des">Administrer enhetene til venner og familie</string>
     <string name="greenguard_parent_des_title">Bruk Kite Guard for å legge til enheter</string>
     <string name="guide_contact_sub_title_desc">"Kontakter lagt til Andre område vil være private.
@@ -223,6 +252,7 @@ Du kan også laste dem ned separat."</string>
     <string name="master_clear_apply_step_2">Sørg for at du har sikkerhetskopiert alle viktige elementene på datamaskinen din. Etter du trykker «OK» vil det utføres en tilbakestilling til fabrikkinnstillinger på enheten din, noe som permanent sletter alle filene og dataene dine, inkludert kontoer, kontakter, bilder og apper.</string>
     <string name="master_clear_apply_title">Merk</string>
     <string name="master_clear_not_available">Tilbakestilling til fabrikkinnstillinger er begrenset av selskapet ditt.</string>
+    <string name="master_clear_not_available_ep">Du har ikke lov til å utføre tilbakestilling til fabrikkinnstillinger eller tilbakekalle autorisasjonen nå. Kontakt din overordnede.</string>
     <string name="menu_item_about_privacy_title">Personvernerklæring</string>
     <string name="messageData">Meldinger</string>
     <string name="more_settings">Mer</string>
@@ -240,6 +270,7 @@ Du kan også laste dem ned separat."</string>
     <string name="next_setp">Neste</string>
     <string name="no_match_repate_scanner">Kunne ikke finne matchende fingeravtrykk, skanne på nytt</string>
     <string name="normal_app">Første område</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="not_support_air_space">Denne funksjonen støttes ikke på telefonen din</string>
     <string name="not_support_multiple_users">Flere områder støttes ikke</string>
     <string name="notificationSetPassword">Angi passord</string>
@@ -262,6 +293,7 @@ Du kan også laste dem ned separat."</string>
     <string name="passwordProtect">Passord</string>
     <string name="please_diff_finger_print">"Sørg for å bruke forskjellige fingeravtrykk for Første område og Andre område.
 Ellers vil du ikke kunne gå inn i Andre område fra Låseskjerm."</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="privacyContactsSummary">Vis private elementer i Andre område</string>
     <string name="privacyContactsTitle">Private meldinger og kontakter</string>
     <string name="privacy_password_fingerprint_dialog_message">Sett fingeren din på sensoren</string>
@@ -312,6 +344,7 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
 Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal."</string>
     <string name="sdcradfs_dialog_in_sec_title">Viktig oppdatering</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
+    <string name="search_menu_title">Søk</string>
     <string name="search_result_text">Kunne ikke finne noen apper</string>
     <string name="secondSpace">Andre område</string>
     <string name="second_owner_finger_print">Andre område-fingeravtrykk</string>
@@ -392,6 +425,7 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_xspace_alert_content">Slette alle doble apper sammen med deres kontoer og appdata? Enheten din vil bli restartet for å ta i bruk denne endringen.</string>
     <string name="stop_xspace_alert_title">Slett dobbeltappkontoer</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Velg apper brukt i nåværende område</string>
     <string name="support_desc">Sikkerhetstjenester leveres av Spaces Mobile</string>
     <string name="sure_to_use">Bekreft</string>
@@ -441,6 +475,8 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="undo_success">Tilbakekalt</string>
     <string name="use_google_open">Aktiver med Google Assistant</string>
     <string name="use_xiaoai_open">Aktiver med Mi AI</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="wating">Et øyeblikk…</string>
     <string name="weibo_send">Send til Weibo</string>
     <string name="weixin_pay">WeChat Pay</string>
@@ -460,6 +496,8 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="xspace_description">"Dobbeltapper er appkopier som kan brukes separat med en annen konto. 
 
  Enkelte dobbeltapper må støttes av Google Services Framework. I slike tilfeller opprettes dobbelt Google Services Framework."</string>
+    <string name="xspace_disable">Ikke opprettet</string>
+    <string name="xspace_enable">Opprettet</string>
     <string name="xspace_facebook_title">Facebook</string>
     <string name="xspace_guide_des">Bruk 2 kontoer uten å skifte</string>
     <string name="xspace_guide_title">Opprett en dobbeltapp</string>
@@ -472,9 +510,12 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="xspace_introduce">Anbefalt</string>
     <string name="xspace_label">Doble apper</string>
     <string name="xspace_loading_msg">Laster apper…</string>
+    <string name="xspace_notification">Dobbeltapp-varsler</string>
+    <string name="xspace_notification_error">Logg inn på dobbel WeChat og prøv igjen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Slett dobbeltappkontoer</string>
     <string name="xspace_setting_label">Innstillinger for dobbeltapp</string>
+    <string name="xspace_settins">Angi</string>
     <string name="xspace_uninstall_completed">Dobbeltapp avinstallert</string>
     <string name="xspace_uninstall_dialog_content">Avinstallering av dobbelapp vil fjerne alle appdata.</string>
     <string name="xspace_uninstall_dialog_title">Avinstaller dobbeltapp</string>

@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="agree_description">Gi denne appen tillatelse til å koble til Internett for å kunne bruke alle funksjonene.</string>
     <string name="alert_message_clear_records">Slette valgte opptak?</string>
     <string name="alert_message_delete_local_record">Slette dette opptaket?</string>
     <string name="alert_message_delete_record">Om du sletter opptaket på enheten, sletter du det også fra Xiaomi Cloud. Slette nå?</string>
@@ -48,6 +49,7 @@
     <string name="cloud_status_full_dialog_msg">Lagringsplassen din er full. Kan ikke synkronisere opptakene. Oppgrader kontoen din for å få mer lagringsplass.</string>
     <string name="cloud_status_full_dialog_ok">Oppgrader</string>
     <string name="cloud_status_full_dialog_title">Xiaomi Cloud-lagringsplass er full</string>
+    <string name="copy">Kopiér</string>
     <string name="data_connection_body">Ved å bruke din mobile dataforbindelse for å laste ned denne filen, øker databruken din. Hvis du går over planens grense for dataforbruk, kan operatøren belaste deg ekstra gebyrer.</string>
     <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Advarsel databruk</string>
@@ -88,6 +90,7 @@
     <string name="error_filename_too_long">Filnavnet er for langt</string>
     <string name="error_sdcard_access">Får ikke tilgang til SD-kort</string>
     <string name="error_sdcard_unmounted">Sett inn SD-kort nå</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="export_to_note">Eksporter</string>
     <string name="head_set_tip_dialog_msg">Koble fra øretelefonene dine for å ta opp lyd med spesiell forhåndsinnstilling (f.eks. musikk, stemme).</string>
     <string name="head_set_tip_dialog_ok">Skjønner</string>
@@ -122,6 +125,7 @@
     <string name="network_unavailable_tip">Koble til nettverket og prøv igjen.</string>
     <string name="new_record_name">Nytt opptak</string>
     <string name="no_file">Tøm</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse</string>
     <string name="notification_playback">Spiller…</string>
     <string name="notification_recording">Tar opp…</string>
@@ -164,6 +168,7 @@
     <string name="pay_error_unknown">Ukjent feil</string>
     <string name="playback_delete_records">Slett opptak</string>
     <string name="playback_share_records">Del opptak</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preference_enable_earpiece_summary">Bruk mottakerhøyttaler til ekstern tilbakespilling</string>
     <string name="preference_enable_earpiece_title">Bruk mottaker til å spille lyd</string>
     <string name="preference_led_indicator">Lock screen-varsler</string>
@@ -292,6 +297,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Tar opp…</string>
     <string name="status_bar_recording_pause">Opptaker på pause</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="text_btn_backward_3_seconds">3 sekunder bakover</string>
     <string name="text_btn_complete">Stopp</string>
     <string name="text_btn_forward_3_seconds">3 sekunder fremover</string>
@@ -314,6 +320,8 @@
     <string name="toast_max_record_time">%1$s kan ta opp i ca. %2$s</string>
     <string name="toast_uninstall_fileexplorer">Filbehandler er ikke installert</string>
     <string name="usage_description">Transkribere lyd og synkronisere elementer med skyen</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="webview_check_network">Nettverksinnstillinger</string>
     <string name="webview_data_error">En feil oppstod</string>
     <string name="webview_locating_fail">Kunne ikke finne plasseringen din</string>

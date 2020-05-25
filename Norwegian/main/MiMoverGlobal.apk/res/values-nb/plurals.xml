@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="data_item_count">
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
+    </plurals>
+    <plurals name="data_item_count_fail">
+        <item quantity="other">Kunne ikke overføre %d elementer</item>
+        <item quantity="one">Kunne ikke overføre %d element</item>
+    </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d elementer</item>
+        <item quantity="one">%1$d/%2$d element</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">&lt;g id="hour">%1$d&lt;/g> timer</item>
+        <item quantity="one">&lt;g id="hour">%1$d&lt;/g> time</item>
+    </plurals>
+    <plurals name="icloud_importing_title_count_desc">
+        <item quantity="other">Importerte %d elementer</item>
+        <item quantity="one">Importerte %d element</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">&lt;g id="minute">%1$d&lt;/g> minutter</item>
+        <item quantity="one">&lt;g id="minute">%1$d&lt;/g> minutt</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg1">
+        <item quantity="other">"Importerte %d elementer. "</item>
+        <item quantity="one">"Importerte %d element. "</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg2">
+        <item quantity="other">Importer %d elementer på nytt.</item>
+        <item quantity="one">Importer %d element på nytt.</item>
+    </plurals>
+    <plurals name="save_item_saved_summary">
+        <item quantity="other">Importerte og gjenopprettet %d elementer</item>
+        <item quantity="one">Importerte og gjenopprettet %d element</item>
+    </plurals>
+    <plurals name="save_item_saving_summary">
+        <item quantity="other">Gjenopprettet %d elementer</item>
+        <item quantity="one">Gjenopprettet %d element</item>
+    </plurals>
+    <plurals name="select_item_summary">
+        <item quantity="other">%1$s | %2$d elementer</item>
+        <item quantity="one">%1$s | %2$d element</item>
+    </plurals>
+    <plurals name="trans_time_format_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="trans_time_format_minute">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
+</resources>

@@ -16,6 +16,22 @@
         <item quantity="other">%d elementer</item>
         <item quantity="one">%d elementer</item>
     </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d elementer</item>
+        <item quantity="one">%1$d/%2$d element</item>
+    </plurals>
+    <plurals name="local_main_backup_manage_summary">
+        <item quantity="other">%1$s sikkerhetskopier (%2$s)</item>
+        <item quantity="one">%1$s sikkerhetskopi (%2$s)</item>
+    </plurals>
+    <plurals name="new_task_backup_failed">
+        <item quantity="other">Sikkerhetskopiering vellykket. Kunne ikke sikkerhetskopiere %d elementer.</item>
+        <item quantity="one">Sikkerhetskopiering vellykket. Kunne ikke sikkerhetskopiere %d element.</item>
+    </plurals>
+    <plurals name="new_task_restore_failed">
+        <item quantity="other">Gjenoppretting vellykket. Kunne ikke gjenopprette %d elementer.</item>
+        <item quantity="one">Gjenoppretting vellykket. Kunne ikke gjenopprette %d element.</item>
+    </plurals>
     <plurals name="save_item_failed_summary_seg1">
         <item quantity="other">"Importerte %d elementer. "</item>
         <item quantity="one">"Importerte %d element. "</item>

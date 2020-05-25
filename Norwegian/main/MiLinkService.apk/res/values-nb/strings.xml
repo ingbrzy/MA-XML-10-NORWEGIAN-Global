@@ -17,6 +17,7 @@
     <string name="dialog_connect_verify_perssion_fail">Kunne ikke godkjenne strømming på TV-en. Vent et minutt eller to og prøv igjen.</string>
     <string name="dialog_connected">Tilkoblet</string>
     <string name="dialog_connecting">Kobler til…</string>
+    <string name="dialog_nfc_cast_wifi_off">Slå på Wi-Fi for for å kunne caste ved hjelp av NFC. Slå på nå?</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Strøm bilder, videoer eller musikk</string>
     <string name="dialog_open_wifi_bt">Aktiver</string>
@@ -41,6 +42,11 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="help_page_text_05">Trinn 1: Kontroller enhetene og nettverksmiljøet</string>
     <string name="help_page_text_06">"1. Du trenger ikke å koble til internett hvis du vil strømme noe fra en Mi-telefon til en Mi TV.
 2. Hvis du ikke kan etablere en tilkobling mellom de to enhetene, kan du prøve å koble begge til det samme Wi-Fi-nettverket."</string>
+    <string name="help_page_text_06_global">"1. Mi TV-er, Mi-bokser og Mi-projektorer:
+Koble både telefonen og den eksterne skjermen til det samme Wi-Fi-nettverket for best mulig effekt. Hvis de er koblet til ulike nettverk, kan det ta lenger tid å finne den eksterne skjermen og koble til.
+Merk: Eldre Mi TV-er støtter kanskje ikke casting på tvers av ulike nettverk.
+2. Hvis du bruker TV-er, TV-mottakere eller projektorer av andre merker, må du koble både telefonen og den eksterne skjermen til det samme Wi-Fi-nettverket.
+Hvis de to enhetene ikke kan kobles til sammen nettverk, kan du aktivere Miracast på den eksterne skjermen. Navnet på Miracast-funksjonaliteten kan variere."</string>
     <string name="help_page_text_08">Trinn 2: Aktiver strømming</string>
     <string name="help_page_text_09">Trykk på «Strøm»-veksleren i telefonens varslingsskygge. Aktiver både Wi-Fi og Bluetooth for en mer stabil tilkobling.</string>
     <string name="help_page_text_10">Hvis du vil strømme elementer fra Galleri eller Mi Video, kan du bruke innebygde strømmefunksjoner i disse appene.</string>
@@ -87,7 +93,7 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="help_page_text_40">Kontroller først at Miracast-funksjonalitet er støttet på enheten. På noen modeller kan du velge Apper > Skjermspeiling.</string>
     <string name="help_page_text_41">Kundestøtte for Panasonic: 400-881-1315</string>
     <string name="help_page_text_42">Changhong</string>
-    <string name="help_page_text_43">Kontroller først at Miracast-funksjonalitet er støttet på enheten. På noen modeller kan du velge System > Systemverktøy > Flere skjermer > Skjermspeiling.</string>
+    <string name="help_page_text_43">Kontroller innstillingene på TV-en for å forsikre deg om at den eksterne skjermen din støtter Miracast-funksjonalitet.</string>
     <string name="help_page_text_44">Kundestøtte for Changhong: 400-811-1666</string>
     <string name="help_page_text_45">TCL</string>
     <string name="help_page_text_46">Kontroller først at Miracast-funksjonalitet er støttet på enheten. På noen modeller kan du velge Apper > Trådløs skjerm.</string>
@@ -103,6 +109,7 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="help_page_text_55_global">"Hvis du ikke kan koble til nettverket, må du kontrollere at den eksterne skjermen støtter Miracast-funksjonaliteten og at den er aktivert. På noen modeller er denne funksjonen kalt trådløs skjerm, skjermspeiling eller flere skjermer.
 4. Hvis du støter på problemer, kan du rapportere dem ved å bruke «Tjenester og tilbakemelding»-appen."</string>
     <string name="help_page_text_end">Hvis merket på enheten din ikke er oppført her, kan du kontakte produsenten for å finne ut mer om strømmefunksjonalitet.</string>
+    <string name="nfc_connect_failed_toast">Kunne ikke caste. Prøv igjen.</string>
     <string name="notification_rc_title">XiaoMi TV-assistent</string>
     <string name="notification_show_more">Trykk for å se flere funksjoner</string>
     <string name="privacy_agree">Godta</string>
@@ -121,13 +128,15 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="san_wait_msg_3">Eksterne enheter er enklere å finne når de er tilkoblet samme nettverk som telefonen</string>
     <string name="san_wait_msg_4">Se «Hjelp» hvis du ikke finner enheter</string>
     <string name="small_window">Minimer vindu</string>
+    <string name="small_window_not_supported">Kan ikke minimere denne appen mens den castes</string>
     <string name="status_bar_in_casting">Strømmer…</string>
     <string name="status_bar_in_casting_long">Trykk for å se flere strømmefunksjoner</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tile_label">Strøm</string>
     <string name="toast_guide_show_more">Finn ut mer</string>
     <string name="toast_guide_title">Finn ut mer om de nye funksjonene våre her</string>
     <string name="toast_msg_for_multi_window">Kan ikke bruke denne funksjonen med delt skjerm</string>
     <string name="toast_msg_for_small_window">Du kan minimere vinduet som strømmes for å kunne bruke andre funksjoner på telefonen uten å avbryte strømmeprosessen.</string>
+    <string name="toast_nfc_dont_move">Ikke beveg telefonen din unna</string>
     <string name="toast_title_for_small_window">Velg «Minimer vindu» i appen</string>
+    <string name="toast_turn_off_hotspot_before_cast">Deaktiver flyttbar hotspot før casting</string>
 </resources>

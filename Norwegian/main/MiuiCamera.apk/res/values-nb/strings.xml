@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Gå opp</string>
+    <string name="abc_action_menu_overflow_description">Flere alternativer</string>
+    <string name="abc_action_mode_done">Ferdig</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Velg en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meny+</string>
+    <string name="abc_search_hint">Søk</string>
+    <string name="abc_searchview_description_clear">Slett søket</string>
+    <string name="abc_searchview_description_query">Søkeord</string>
+    <string name="abc_searchview_description_search">Søk</string>
+    <string name="abc_searchview_description_submit">Utfør søket</string>
+    <string name="abc_searchview_description_voice">Talesøk</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="access_sd_fail">Kunne ikke få tilgang til SD-kort.</string>
     <string name="accessibility_ai_scene_off">AI camera is off</string>
     <string name="accessibility_ai_scene_on">AI-kameraet er på</string>
@@ -50,8 +77,8 @@
     <string name="accessibility_intent_done_retry">Prøv igjen</string>
     <string name="accessibility_lighting_panel_off">Studiobelysningssøylen er skjult</string>
     <string name="accessibility_lighting_panel_on">Viser studiobelysningssøylen</string>
-    <string name="accessibility_mimovie_off">Filmmodus er deaktivert</string>
-    <string name="accessibility_mimovie_on">Filmmodus er aktivert</string>
+    <string name="accessibility_mimovie_off">Uten filmramme</string>
+    <string name="accessibility_mimovie_on">Med filmramme</string>
     <string name="accessibility_more">Mer</string>
     <string name="accessibility_open">Slått på</string>
     <string name="accessibility_portrait_button">Portrettmodus</string>
@@ -85,6 +112,7 @@ og justere innstillinger automatisk"</string>
     <string name="auxiliary_exposure_feedback_status">Eksponeringsverifisering er aktivert</string>
     <string name="auxiliary_focus_peak_status">Markering av overeksponert område er aktivert</string>
     <string name="back_bokeh_use_hint">Hold motivet innen 1,5 meter for best effekt</string>
+    <string name="background">Background</string>
     <string name="beauty_body">Figur</string>
     <string name="beauty_body_body">Slank</string>
     <string name="beauty_body_head">Hode</string>
@@ -128,6 +156,17 @@ og justere innstillinger automatisk"</string>
     <string name="capture_back_pressed_hint">Trykk igjen for å avslutte</string>
     <string name="ccc_temperature_warning_msg">Enheten er overopphetet. Kameraet vil lukkes om %d sekunder. Bildene eller videoene dine lagres automatisk.</string>
     <string name="ccc_temperature_warning_title">Enhet er overopphetet</string>
+    <string name="clone_don_not_move_phone">请不要移动手机</string>
+    <string name="clone_landscape_hint">分身模式仅支持横屏拍摄</string>
+    <string name="clone_no_person_found_in_viewfinder">取景区域未识别到人</string>
+    <string name="clone_offset_is_too_large">手机偏移过大，请重新拍摄</string>
+    <string name="clone_photo_mode">拍照模式</string>
+    <string name="clone_photo_mode_start_hint">请点击快门键开始拍照</string>
+    <string name="clone_preview_no_person">未识别到人,可能拍摄失败</string>
+    <string name="clone_put_phone_back_in_place">请把手机恢复原位</string>
+    <string name="clone_start_capture">开始拍摄</string>
+    <string name="clone_video_mode">视频模式</string>
+    <string name="clone_video_mode_start_hint">请点击快门键开始录制</string>
     <string name="close_back_flash_toast">Enheten er overopphetet. Kan ikke bruke blits nå.</string>
     <string name="close_front_flash_toast">Enheten er overopphetet. Kan ikke bruke blits nå.</string>
     <string name="color_effect_entry_berry">Bær</string>
@@ -157,7 +196,7 @@ og justere innstillinger automatisk"</string>
     <string name="config_name_group">Gruppe-selfie</string>
     <string name="config_name_hht">HHT</string>
     <string name="config_name_magic">Magi</string>
-    <string name="config_name_mimovie">Filmmodus</string>
+    <string name="config_name_mimovie">Filmramme</string>
     <string name="config_name_scene">Scene</string>
     <string name="config_name_setting">Innstillinger</string>
     <string name="config_name_sound">Lyd</string>
@@ -214,6 +253,7 @@ skannede dokumenter automatisk"</string>
     <string name="edit_skin_white">Hudfarge</string>
     <string name="edit_slim_nose">Nese</string>
     <string name="edit_smile">Smil</string>
+    <string name="emoticon">Sticker pack</string>
     <string name="error_fail_to_start_audio_capture">Kunne ikke starte lydopptak</string>
     <string name="eye_light">Øyelys</string>
     <string name="eye_light_angel">Engel</string>
@@ -348,6 +388,9 @@ i portrettmodus"</string>
     <string name="mimoji_check_no_face">Kunne ikke oppdage ansikt</string>
     <string name="mimoji_check_normal">Trykk på lukkerknappen</string>
     <string name="mimoji_confirm">OK</string>
+    <string name="mimoji_create_emoticon">Create sticker pack</string>
+    <string name="mimoji_create_emoticon_error">"Couldn't create sticker pack"</string>
+    <string name="mimoji_create_emoticon_progress">Creating sticker pack…</string>
     <string name="mimoji_create_tips">Se rett inn i kameraet og opprett Mimojien</string>
     <string name="mimoji_delete"><font fgcolor="#ffff0000">Slett</font></string>
     <string name="mimoji_delete_dialog_title">Slette Mimoji?</string>
@@ -371,6 +414,8 @@ i portrettmodus"</string>
     <string name="mimoji_edit_cancel_alert">Alle endringer blir forkastet. Vil du avbryte likevel?</string>
     <string name="mimoji_edit_mimoji">Rediger Mimoji</string>
     <string name="mimoji_editor">Rediger</string>
+    <string name="mimoji_emoticon_save">Save sticker pack</string>
+    <string name="mimoji_emoticon_with_jpeg_save">Save images as well</string>
     <string name="mimoji_eye">Øyne</string>
     <string name="mimoji_eye_shape">Øyeform</string>
     <string name="mimoji_eyebrow">Øyenbryn</string>
@@ -380,6 +425,12 @@ i portrettmodus"</string>
     <string name="mimoji_featured_face">Ansikt</string>
     <string name="mimoji_fragment_tab_name">Mimoji</string>
     <string name="mimoji_freckle">Fregner</string>
+    <string name="mimoji_gif_accelerate">Speed</string>
+    <string name="mimoji_gif_clear_bg">Remove background</string>
+    <string name="mimoji_gif_edit_hint">Tap to add text</string>
+    <string name="mimoji_gif_edit_title">Edit GIF</string>
+    <string name="mimoji_gif_record_time_short">Recorded video is too short</string>
+    <string name="mimoji_gif_reverse">Reverse</string>
     <string name="mimoji_hairstyle">Hår</string>
     <string name="mimoji_headwear">Hatter</string>
     <string name="mimoji_mole">Føflekker</string>
@@ -393,7 +444,9 @@ i portrettmodus"</string>
     <string name="mimoji_recapture_alert">Alle endringene blir forkastet når du begynner på nytt. Vil du likevel begynne på nytt?</string>
     <string name="mimoji_reset">Tilbakestill</string>
     <string name="mimoji_save">Lagre</string>
+    <string name="mimoji_save_finish">Done</string>
     <string name="mimoji_save_success">Lagret</string>
+    <string name="mimoji_select_number_error">Select at least 1 item</string>
     <string name="mimoji_selected">Velg</string>
     <string name="mimoji_start_create">Oppretter Mimoji…</string>
     <string name="mimoji_tips">Trykk for å ta et bilde. Trykk og hold inne for å ta opp en video.</string>
@@ -409,7 +462,7 @@ i portrettmodus"</string>
     <string name="module_name_square">Kvadrat</string>
     <string name="module_name_video">Video</string>
     <string name="moive_frame">Filmramme</string>
-    <string name="multi_window_mode_not_supported">Kameraet fungerer ikke i Delt skjerm</string>
+    <string name="multi_window_mode_not_supported">"Camera can't be used in multi-window mode"</string>
     <string name="network_access_user_notice_agree">Godta</string>
     <string name="network_access_user_notice_message_live_video">&lt;Data>Kamera må koble til internett for å tilby effekter, musikk og andre funksjoner for korte videoer.&lt;br/>&lt;br/>Ved å trykke på \"Godta\" nedenfor, godtar du &lt;a href =%1$s>brukeravtalen&lt;/a> og &lt;a href =%2$s>personvernerklæringen&lt;/a> vår, og gir Kamera tillatelse til å koble til internett.&lt;/Data></string>
     <string name="network_access_user_notice_message_mi_live_video">&lt;Data>Velkommen til korte videoer! Tjenesten må koble til nettverket for å tilby musikk og andre funksjoner. &lt;br/>&lt;br/>Før du bruker tjenesten må du lese og godta &lt;a href =%1$s>brukeravtalen&lt;/a> og &lt;a href =%2$s>personvernerklæringen&lt;/a> vår, samt gi appen tillatelse til å koble til internett.&lt;/Data></string>
@@ -419,6 +472,7 @@ i portrettmodus"</string>
     <string name="no_storage">Sett inn SD-kortet før du bruker kameraet</string>
     <string name="not_enough_space">SD-kortet er full</string>
     <string name="object_track_enable_toast">Trykk på to diagonale punkter samtidig rundt ytterkantene for å velge et objekt.</string>
+    <string name="only_mimoji_multi_window_mode_not_supported">"This feature can't be used in multi-window mode"</string>
     <string name="pano_how_to_use_prompt_align_reference_line">Juster pilen med referanselinjen</string>
     <string name="pano_how_to_use_prompt_go_on_moving">Fortsett slik…</string>
     <string name="pano_how_to_use_prompt_slow_down">Senk farten…</string>
@@ -508,6 +562,7 @@ og bringer frem mennesker som er foran."</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrettmodus.
 Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_960_watermark_title">960FPS vannmerke</string>
+    <string name="pref_advance_settings">Additional settings</string>
     <string name="pref_ai_detect">AI-gjenkjenning</string>
     <string name="pref_audio_focus_entry_front">Foran</string>
     <string name="pref_audio_focus_entry_general">Normal</string>
@@ -535,6 +590,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifisering</string>
     <string name="pref_camera_auxiliary_focus_peak">Markering av overeksponert område</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
@@ -543,7 +599,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_coloreffect_entry_big_face">Spredning</string>
     <string name="pref_camera_coloreffect_entry_blackwhite">B&amp;W</string>
     <string name="pref_camera_coloreffect_entry_fisheye">Fiskeøye</string>
-    <string name="pref_camera_coloreffect_entry_instagram_clarendon">Fargepop</string>
+    <string name="pref_camera_coloreffect_entry_instagram_clarendon">Fargefokus</string>
     <string name="pref_camera_coloreffect_entry_instagram_crema">Rustikk</string>
     <string name="pref_camera_coloreffect_entry_instagram_hudson">Isete</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Lomo</string>
@@ -568,7 +624,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_delay_capture_title">Tidtaker</string>
     <string name="pref_camera_device_watermark_title">Vannmerke knyttet til enhet</string>
     <string name="pref_camera_face_info_watermark_title">Legg til aldersstempel på bilder</string>
-    <string name="pref_camera_first_tag_tips">Markert</string>
+    <string name="pref_camera_first_tag_tips">Tagget</string>
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Mykt lys</string>
     <string name="pref_camera_flashmode_entry_off">Av</string>
@@ -635,6 +691,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_peak_entry_off">Av</string>
     <string name="pref_camera_peak_entry_on">På</string>
     <string name="pref_camera_peak_title">Markering av overeksponert område</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Full skjerm</string>
     <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
     <string name="pref_camera_picturesize_title_simple_mode">Kamerabilde</string>
     <string name="pref_camera_portrait_mode_entry_off">Portrettmodus er av</string>
@@ -699,8 +756,8 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_video_duration_entry_120">Ingen begrensning</string>
     <string name="pref_camera_video_duration_entry_30">30 minutter</string>
     <string name="pref_camera_video_duration_entry_mms">30 sekunder (MMS)</string>
-    <string name="pref_camera_video_tag">Tillat markering av videoer</string>
-    <string name="pref_camera_video_tag_description">Trykk på «Marker» når du tar opp en video for å kunne gå tilbake til markerte øyeblikk under avspilling</string>
+    <string name="pref_camera_video_tag">Tillat tagging av videoer</string>
+    <string name="pref_camera_video_tag_description">Trykk på «Tag» når du spiller inn en video for å kunne gå tilbake til merkede øyeblikk under avspilling</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Lukker</string>
     <string name="pref_camera_volumekey_function_entry_timer">Utløsernedteller</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volum</string>
@@ -783,6 +840,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
     <string name="pref_video_quality_entry_720p">HD 720p, 30fps</string>
     <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
+    <string name="pref_video_quality_entry_8k_24fps_uhd">UHD 8K, 24fps</string>
     <string name="pref_video_quality_entry_8kuhd">UHD 8K, 30fps</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_speed_entry_fast">Raskt</string>
@@ -809,6 +867,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_watermark_on">Aktivert</string>
     <string name="pref_watermark_title">Vannmerke</string>
     <string name="preparing_sd">Sjekker SD-kort…</string>
+    <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Pro farge</string>
     <string name="recommend_macro_mode">Prøv Makromodus</string>
     <string name="recommend_portrait">Prøv Portrettmodus</string>
@@ -819,8 +878,10 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="reset_manually_parameter_hint">Tilbakestill</string>
     <string name="screen_on_proximity_sensor_hint">Trykk på Volum opp-knappen og Tilbake-knappen samtidig for å skru av denne funksjonen.</string>
     <string name="screen_on_proximity_sensor_summary">Ikke tildekk øretelefonområdet</string>
+    <string name="search_menu_title">Søk</string>
     <string name="search_settings">Kamerainnstillinger;Kvalitet;Bildekvalitet;Bildeplassering;Bildeplassering;Ansiktsgjenkjenning;Kameralyd</string>
     <string name="see_qrcode_detals">Se detaljer om QR-kode</string>
+    <string name="share">Share</string>
     <string name="simple_mode_button_asd_flash">Skru av flash-opptak</string>
     <string name="simple_mode_button_asd_hdr">Skru av HDR-opptak</string>
     <string name="simple_mode_button_text_audio_capture">Skru av taleutløser</string>
@@ -849,14 +910,22 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="sticker_tab1">Søt</string>
     <string name="sticker_tab2">Morsom</string>
     <string name="subtitle_network_exception_tips">Kunne ikke koble til nettverket. Kan ikke transkribere nå.</string>
-    <string name="super_eis">Superstabilisering</string>
-    <string name="super_eis_disabled_hint">Superstabilisering er av</string>
+    <string name="super_eis">Stabil video</string>
+    <string name="super_eis_disabled_hint">Stabil video er deaktivert</string>
     <string name="super_night_hint">Optimaliserer bilde… Hold enheten din stabil.</string>
+    <string name="super_night_se_tip">Nattmodus</string>
     <string name="super_night_toast">Hold telefonen stødig når du tar bilde</string>
     <string name="tap_to_exposure">Trykk for å tilpasse eksponeringen manuelt</string>
     <string name="tap_to_focus">Trykk for å fokusere</string>
     <string name="text_ai_scene_selector_text_off">BAKBELYSNING</string>
     <string name="text_ai_scene_selector_text_on">SILHUETT</string>
+    <string name="timbre">Voice</string>
+    <string name="timbre_baby">Kid</string>
+    <string name="timbre_gentlemen">Gent</string>
+    <string name="timbre_girl">Girl</string>
+    <string name="timbre_lady">Lady</string>
+    <string name="timbre_normal">Original</string>
+    <string name="timbre_robot">Robot</string>
     <string name="time_lapse_error">Kan ikke bruke denne videostørrelsen for tidsforløpsopptak</string>
     <string name="title_snap_double_confirm">Bekreft på nytt</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Kan ikke utføre et burst shot mens lydopptak er på</string>
@@ -887,20 +956,21 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="ultra_wide_open_tip_sat">0,6X ultravidvinkel</string>
     <string name="ultra_wide_recommend_tip_hint">Prøv ultra-vid vinkel-modus</string>
     <string name="ultra_wide_recommend_tip_hint_sat">Bytt til 0.6X ultrabred vinkel</string>
+    <string name="unknow_error">Unknown error</string>
     <string name="user_agree">Enig</string>
     <string name="user_define_watermark_cancel">Avbryt</string>
     <string name="user_define_watermark_save">Lagre</string>
     <string name="user_notice_identify_summary_format">Før du bruker Kamera, må du akseptere vår <a href="http://www.miui.com/res/doc/eula.html?lang=nb_NO">Brukeravtale</a> og<a href="http://www.miui.com/res/doc/privacy.html?lang=nb_NO">Personvernerklæring</a>. Kameraet må også være koblet til nett for å fungere normalt. Godtar du dette?</string>
     <string name="user_notice_title">Vilkår og betingelser</string>
     <string name="video_beauty_tip">Forskjønn videoer</string>
-    <string name="video_beauty_tip_beautification">Beautify</string>
+    <string name="video_beauty_tip_beautification">Forskjønne</string>
     <string name="video_beauty_tip_filter">Filtre</string>
     <string name="video_beauty_tip_portrait_bokeh">Bokeh</string>
     <string name="video_camera_label">Videokamera</string>
     <string name="video_effect_entry_blackwhite">B&amp;W</string>
     <string name="video_effect_entry_bygone">Forgangen</string>
     <string name="video_effect_entry_central">Central</string>
-    <string name="video_effect_entry_color_retention">Fargepop</string>
+    <string name="video_effect_entry_color_retention">Fargefokus</string>
     <string name="video_effect_entry_fantasy">Fantasi</string>
     <string name="video_effect_entry_film">Film</string>
     <string name="video_effect_entry_forest">Skogholt</string>
@@ -913,7 +983,7 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="video_effect_entry_summer_day">Sommer</string>
     <string name="video_effect_entry_wind_sing">Bris</string>
     <string name="video_reach_size_limit">Størrelsesgrensen eer nådd.</string>
-    <string name="video_tag_flag_title">Marker</string>
+    <string name="video_tag_flag_title">Tag</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Se personvernerklæring</string>

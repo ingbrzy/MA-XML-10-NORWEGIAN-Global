@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ai_assistant">Smarte anrop</string>
+    <string name="ai_assistant_not_installed">Installer AI Ringeassistent først</string>
     <string name="antispam_local_marked">Markert lokalt</string>
     <string name="antispam_notification_title">Ukjent nummer</string>
     <string name="antispam_provider">Identifisert av %s</string>
@@ -50,14 +52,10 @@
     <string name="can_not_use">Kan ikke bruke</string>
     <string name="cancel">Avbryt</string>
     <string name="card_title_answering">Besvarer anrop</string>
-    <string name="card_title_answering_time_out">Kunne ikke besvare anrop, prøv igjen.</string>
     <string name="card_title_call_ended">"Anrop avsluttet "</string>
     <string name="card_title_conf_call">Konferansesanrop</string>
     <string name="card_title_dialing">Ringer</string>
     <string name="card_title_hanging_up">"Legge på "</string>
-    <string name="card_title_hanging_up_fail">Kunne ikke avslutte anrop, prøv igjen.</string>
-    <string name="card_title_hanging_up_restart">Kan ikke avslutte anrop. Start enheten på nytt.</string>
-    <string name="card_title_hanging_up_weak_signal">Svakt mobilnettverkssignal. Avslutter anrop…</string>
     <string name="card_title_in_call">Innkommende anrop</string>
     <string name="card_title_in_call_short">Innkommende anrop</string>
     <string name="card_title_in_video">Video</string>
@@ -117,6 +115,8 @@
     <string name="dialpad_zero">0</string>
     <string name="do_not_support_video_calls_by_remote">Videosamtaler støttes ikke på den andre enheten</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
+    <string name="enter_ai_assistant">Bruk</string>
+    <string name="enter_ai_assistant_tip">Hvis det ikke passer for deg å snakke, kan du bruke AI Ringeassistent til å konvertere meldingene dine til tale under denne samtalen. Bruke AI Ringeassistent?</string>
     <string name="inCallLabel">Telefon</string>
     <string name="incall_bubble_hangup_click_hint">Trykk igjen for å gå tilbake til samtale</string>
     <string name="incall_call_type_label_sip">Internettsamtale</string>

@@ -28,6 +28,14 @@
         <item quantity="other">%d opptak lastet ned</item>
         <item quantity="one">%d opptak lastet ned</item>
     </plurals>
+    <plurals name="search_alll_records_hint">
+        <item quantity="other">Søk gjennom %d opptak</item>
+        <item quantity="one">Søk gjennom %d opptak</item>
+    </plurals>
+    <plurals name="search_call_records_hint">
+        <item quantity="other">Søk gjennom %d anropsopptak</item>
+        <item quantity="one">Søk gjennom %d anropsopptak</item>
+    </plurals>
     <plurals name="search_result">
         <item quantity="other">Fant %d opptak</item>
         <item quantity="one">Fant %d opptak</item>

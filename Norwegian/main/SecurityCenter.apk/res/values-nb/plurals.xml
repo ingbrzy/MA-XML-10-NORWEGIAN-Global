@@ -4,6 +4,58 @@
         <item quantity="other">Lag til %d spill</item>
         <item quantity="one">Lag til %d spill</item>
     </plurals>
+    <plurals name="app_behavior_desc_allow">
+        <item quantity="other">Tillatt %3$d ganger mellom %1$s og %2$s</item>
+        <item quantity="one">Tillatt %3$d gang mellom %1$s og %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_allow_minute">
+        <item quantity="other">Tillatt %2$d ganger kl. %1$s</item>
+        <item quantity="one">Tillatt %2$d gang kl. %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny">
+        <item quantity="other">Begrenset %3$d ganger mellom %1$s og %2$s</item>
+        <item quantity="one">Begrenset %3$d gang mellom %1$s og %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny_minute">
+        <item quantity="other">Avslått %2$d ganger på %1$s</item>
+        <item quantity="one">Avslått %2$d gang på %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual">
+        <item quantity="other">Returnerte %3$d tomme meldinger mellom %1$s og %2$s</item>
+        <item quantity="one">Returnerte %3$d tom melding mellom %1$s og %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual_minute">
+        <item quantity="other">Returnerte %2$d tom meldinger kl %1$s</item>
+        <item quantity="one">Returnerte %2$d tom melding kl %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_notification_audio_more">
+        <item quantity="other">%2$d apper inkludert %1$1s tar opp lyd</item>
+        <item quantity="one">%2$d app inkludert %1$1s tar opp lyd</item>
+    </plurals>
+    <plurals name="app_behavior_notification_camera_more">
+        <item quantity="other">%2$d apper inkludert %1$1s tar bilder</item>
+        <item quantity="one">%2$d app inkludert %1$1s tar bilder</item>
+    </plurals>
+    <plurals name="app_behavior_notification_location_more">
+        <item quantity="other">%2$d apper inkludert %1$1s har tilgang til plasseringen din</item>
+        <item quantity="one">%2$d app inkludert %1$1s har tilgang til plasseringen din</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_off">
+        <item quantity="other">Du vil ikke bli varslet om sensitive handlinger utført av %1$d apper</item>
+        <item quantity="one">Du vil ikke bli varslet om sensitive handlinger utført av %1$d app</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_on">
+        <item quantity="other">Du vil bli varslet om sensitive handlinger utført av %1$d apper</item>
+        <item quantity="one">Du vil bli varslet om sensitive handlinger utført av %1$d app</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple">
+        <item quantity="other">%1$1s startet %2$d apper</item>
+        <item quantity="one">%1$1s startet %2$d app</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple_single">
+        <item quantity="other">Denne appen startet %1$d andre apper</item>
+        <item quantity="one">Denne appen startet %1$d annen app</item>
+    </plurals>
     <plurals name="app_manager_permission_summary_accept">
         <item quantity="other">Gitt %d tillatelser</item>
         <item quantity="one">Gitt %d tillatelse</item>
@@ -113,8 +165,8 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">Sjekket inn %d gang</item>
     </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
-        <item quantity="other">+%1$d tegn til</item>
-        <item quantity="one">+%1$d tegn til</item>
+        <item quantity="other">    +%1$d tegn til</item>
+        <item quantity="one">    +%1$d tegn til</item>
     </plurals>
     <plurals name="hints_apps_perm_count">
         <item quantity="other">%d tilaltelser</item>
@@ -175,6 +227,14 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="install_game_count_title">
         <item quantity="other">Lagt til %d spill</item>
         <item quantity="one">Lagt til %d spill</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minutt</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Forbind minst %d prikker</item>
@@ -267,6 +327,14 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="pc_abnormal_scan_result_model_result_title">
         <item quantity="other">%d apper tapper batteri</item>
         <item quantity="one">%d app tapper batteri</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" t"</item>
+        <item quantity="one">" t"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
     </plurals>
     <plurals name="pc_main_power_center_battery_day">
         <item quantity="other">%s dager</item>
@@ -368,6 +436,14 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">%s minutter gjenstår</item>
         <item quantity="one">%s minutt gjenstår</item>
     </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">Skjønner (%ds)</item>
+        <item quantity="one">Skjønner (%ds)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">Enheten din vil slås av om %d sekunder. Koble til lader.</item>
+        <item quantity="one">Enheten din vil slås av om %d sekund. Koble til lader.</item>
+    </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d appikoner er skjulte</item>
         <item quantity="one">%d appikon er skjult</item>
@@ -375,6 +451,14 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="privacy_apps_enable_header_title">
         <item quantity="other">%d appikoner er ikke skjulte</item>
         <item quantity="one">%d appikon er ikke skjult</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s apper har permanent tilgang</item>
+        <item quantity="one">%s app har permanent tilgang</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s ganger</item>
+        <item quantity="one">%s gang</item>
     </plurals>
     <plurals name="quick_optimize_issue_count">
         <item quantity="other">%d batteriproblemer</item>

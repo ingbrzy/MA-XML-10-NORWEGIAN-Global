@@ -181,9 +181,6 @@ Valg"</string>
     <string name="bugreport_in_power">Snarvei til feilrapport</string>
     <string name="bugreport_in_power_summary">Vis en knapp for generering av feilrapport i batterimenyen</string>
     <string name="button_convert_fbe">Slett og konvertér …</string>
-    <string name="callFailed_simError">SIM-kortfeil</string>
-    <string name="can_not_dial_vt_while_voice_prompt">Kan ikke gjøre videoanrop mens taleanrop pågår</string>
-    <string name="can_not_dial_while_vt_prompt">Kan ikke ringe mens et videoanrop pågår</string>
     <string name="cancel">Avbryt</string>
     <string name="cant_call_due_to_no_supported_service">Anropet kan ikke utføres fordi du ikke har noen ringekontoer som støtter denne typen anrop.</string>
     <string name="cant_call_due_to_ongoing_call">Kan ikke utføre et anrop. %1$s annet anrop pågår.</string>
@@ -203,7 +200,6 @@ Valg"</string>
     <string name="charge_length_format">%1$s siden</string>
     <string name="choose_profile">Velg profil</string>
     <string name="clear_adb_keys">USB-feilsøking – opphev autorisasjon</string>
-    <string name="close">Skru av</string>
     <string name="confirm_enable_oem_unlock_text">ADVARSEL: Funksjoner for enhetsbeskyttelse fungerer ikke på denne enheten mens denne innstillingen er slått på.</string>
     <string name="confirm_enable_oem_unlock_title">Vil du tillate OEM-opplåsing?</string>
     <string name="connected_via_app">Tilkoblet via %1$s</string>
@@ -254,8 +250,6 @@ Valg"</string>
     <string name="development_settings_not_available">Utvikleralternativene er ikke tilgjengelige for denne brukeren</string>
     <string name="development_settings_summary">Angi alternativer for apputvikling</string>
     <string name="development_settings_title">Utvikleralternativer</string>
-    <string name="dial_conference_fail_prompt">Kan ikke ringe konferanse direkte fordi det nåværende nettverket ikke støtter VoLTE.</string>
-    <string name="dial_vt_fail_prompt">Nåværende nettverk støtter ikke VoLTE. Bytt til vanlig taleanrop?</string>
     <string name="direct_boot_unaware_dialog_message">Merk: Etter en omstart kan ikke denne appen starte før du låser opp telefonen din</string>
     <string name="disable_overlays">Slå av maskinvareoverlegg</string>
     <string name="disable_overlays_summary">Bruk alltid GPU for skjermsammensetting</string>
@@ -300,9 +294,6 @@ Valg"</string>
     <string name="inactive_app_active_summary">Aktiv. Trykk for å slå av/på.</string>
     <string name="inactive_app_inactive_summary">Ikke aktiv. Trykk for å slå av/på.</string>
     <string name="inactive_apps_title">Apper i ventemodus</string>
-    <string name="incall_error_call_failed">Kunne ikke foreta anrop.</string>
-    <string name="incall_error_power_off">Slå av flymodus for å foreta et anrop.</string>
-    <string name="incall_error_supp_service_unknown">Denne tjenesten støttes ikke.</string>
     <string name="install_other_apps">Installer ukjente apper</string>
     <string name="keep_screen_on">Forbli våken</string>
     <string name="keep_screen_on_summary">Skjermen blir aldri svart under lading</string>
@@ -318,7 +309,6 @@ Valg"</string>
     <string name="managed_user_title">Alle jobbapper</string>
     <string name="media_category">Medier</string>
     <string name="media_transfer_this_device_name">Denne enheten</string>
-    <string name="missedcall_notification_public_version_title">Telefon</string>
     <string name="mobile_data_always_on">Mobildata er alltid aktiv</string>
     <string name="mobile_data_always_on_summary">Ha alltid mobildata slått på, selv når Wi-Fi er aktiv (for hurtig nettverksbytting).</string>
     <string name="mock_location_app">Velg app for fiktiv plassering</string>
@@ -353,7 +343,6 @@ Valg"</string>
     <string name="no_vm_number_msg">Ikke noe talepostnummer lagret på SIM-kortet.</string>
     <string name="non_primary_user">Kun enhets eiere kan se og administrere blokkerte numre.</string>
     <string name="not_set">Ikke angitt</string>
-    <string name="notification_AllMissedCallTitle">Alle tapte anrop</string>
     <string name="notification_channel_call_blocking">Anropsblokkering</string>
     <string name="notification_channel_incoming_call">Innkommende anrop</string>
     <string name="notification_channel_missed_call">Ubesvarte anrop</string>
@@ -362,7 +351,6 @@ Valg"</string>
     <string name="notification_missedCallTicker">Tapt anrop fra %s</string>
     <string name="notification_missedCallTitle">Tapt anrop</string>
     <string name="notification_missedCall_call_back">Ring tilbake</string>
-    <string name="notification_missedCall_call_back_miui">Anrop</string>
     <string name="notification_missedCall_message">Melding</string>
     <string name="notification_missedCallsMsg">%s tapt anrop</string>
     <string name="notification_missedCallsTitle">Tapt anrop</string>
@@ -419,6 +407,7 @@ Valg"</string>
     <string name="private_dns_mode_provider">Vertsnavn for privat DNS-leverandør</string>
     <string name="private_dns_mode_provider_failure">Kunne ikke koble til</string>
     <string name="private_dns_mode_provider_hostname_hint">Skriv inn vertsnavnet til DNS-leverandøren</string>
+    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="remaining_length_format">%1$s gjenstår</string>
     <string name="respond_via_sms_canned_response_1">Kan ikke snakke nå. Hva skjer?</string>
     <string name="respond_via_sms_canned_response_2">Jeg ringer deg snart tilbake.</string>
@@ -546,9 +535,6 @@ Valg"</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="verify_apps_over_usb_summary">Sjekk apper som er installert via ADB/ADT, for skadelig atferd.</string>
     <string name="verify_apps_over_usb_title">Bekreft apper via USB</string>
-    <string name="voice_dial_out">Taleanrop</string>
-    <string name="voice_report_incoming_call">Innkommende anrop</string>
-    <string name="voice_report_unknown_num">Ukjent nummer</string>
     <string name="vpn_settings_not_available">Innstillingene for VPN er ikke tilgjengelig for denne brukeren</string>
     <string name="wait_for_debugger">Vent på feilsøkingsverktøyet</string>
     <string name="wait_for_debugger_summary">Feilsøkt app venter til feilsøkingsverktøyet er lagt til før den kjører</string>

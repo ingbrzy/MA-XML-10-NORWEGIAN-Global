@@ -4,4 +4,8 @@
         <item quantity="other">" %1$stimer %2$s"</item>
         <item quantity="one">" %1$stime %2$s"</item>
     </plurals>
+    <plurals name="count_selected">
+        <item quantity="other">Valgte %d elementer</item>
+        <item quantity="one">Valgte %d element</item>
+    </plurals>
 </resources>

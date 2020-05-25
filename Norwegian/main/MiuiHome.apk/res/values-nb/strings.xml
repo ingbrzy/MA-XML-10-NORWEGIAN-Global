@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Gå til startsiden</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
@@ -10,7 +10,7 @@
     <string name="abc_capital_on">PÅ</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
     <string name="abc_menu_enter_shortcut_label">enter</string>
     <string name="abc_menu_function_shortcut_label">Funksjon+</string>
     <string name="abc_menu_meta_shortcut_label">Meta+</string>
@@ -18,7 +18,7 @@
     <string name="abc_menu_space_shortcut_label">mellomrom</string>
     <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Meny+</string>
-    <string name="abc_search_hint">Søk …</string>
+    <string name="abc_search_hint">Søk</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
     <string name="abc_searchview_description_query">Søkeord</string>
     <string name="abc_searchview_description_search">Søk</string>
@@ -170,9 +170,13 @@
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Doble apper vil avinstalleres sammen med disse.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Doble apper vil avinstalleres sammen med denne.</string>
     <string name="confirm_uninstall_dialog_title">Doble apper vil avinstalleres</string>
+    <string name="content_description_button_add">Trykk for å legge til i aktuelle apper</string>
+    <string name="content_description_button_disable">Kan ikke legge til flere aktuelle apper</string>
+    <string name="content_description_button_remove">Trykk for å fjerne fra aktuelle apper</string>
     <string name="content_description_for_shortcut_icon_checked">%1$s, krysset av</string>
     <string name="content_description_shortcut_icon_unchecked">%1$s, ikke krysset av</string>
     <string name="content_description_workspace_thumbnail_item">Forhåndsvisning av skjerm, side %1$s</string>
+    <string name="copy">Kopiér</string>
     <string name="current_preview">Forhåndsvisning</string>
     <string name="current_wallpaper">Nåværende</string>
     <string name="custom_wallpaper_picker">Se gjennom</string>
@@ -226,6 +230,7 @@
     <string name="emptyplaylist">Trykk for å legge til sanger</string>
     <string name="enable_wallpaper_scroll">Skru på siderulling</string>
     <string name="encryption">Kryptering</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="failed_to_delete_temporary">Kan ikke fjerne</string>
     <string name="failed_to_drop">Kan ikke flytte</string>
     <string name="failed_to_drop_widget_invalid">Denne widgeten er ugyldig</string>
@@ -355,6 +360,7 @@
     <string name="no_space_toast">Ikke nok plass</string>
     <string name="no_space_toast_when_click_widget">Ikke nok ledig plass på siden. Prøv å dra elementet til en annen side.</string>
     <string name="normal_wallpaper">Bakgrunn</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="notification_installed">Installert</string>
     <string name="notification_open_button">Åpen</string>
     <string name="notification_reset_title">Ordnet ikoner</string>
@@ -367,11 +373,13 @@
     <string name="open_personal_assistant_dialog_title">Slå av App-hvelv</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ikke mer ledig plass på Startskjermen</string>
+    <string name="perfect_icons_switch_summary">Gjengi animasjoner på ikoner for tredjepartsapper</string>
+    <string name="perfect_icons_switch_title">Globale ikonanimasjoner</string>
     <string name="permdesc_install_shortcut">Tillater en app å legge til snarveier uten brukerintervensjon.</string>
-    <string name="permdesc_install_widget">Tillater en app å legge til widget uten brukerintervensjon.</string>
+    <string name="permdesc_install_widget">Tillater en app å legge til widgets uten at flere handlinger kreves av brukeren.</string>
     <string name="permdesc_read_settings">Tillater appen å lese av innstillingene og snarveiene til startskjermen.</string>
     <string name="permdesc_uninstall_shortcut">Tillater en app å fjerne snarveier uten brukerintervensjon.</string>
-    <string name="permdesc_uninstall_widget">Tillater en app å fjerne widgets uten brukerintervensjon.</string>
+    <string name="permdesc_uninstall_widget">Tillater en app å fjerne widgets uten at flere handlinger kreves av brukeren.</string>
     <string name="permdesc_write_settings">Tillater appen å endre innstillingene og snarveiene til startskjermen.</string>
     <string name="permlab_install_shortcut">Installer snarveier</string>
     <string name="permlab_install_widget">Installer widget</string>
@@ -396,6 +404,7 @@
     <string name="pref_render_in_truecolor_title">Høykvalitets grafikk</string>
     <string name="pref_screen_transformation_type_title">Skjermovergangseffekt</string>
     <string name="pref_wallpaper_scroll_type_title">Bakgrunnsjustering</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preferences_general_title">Tilleggsinnstillinger</string>
     <string name="preferences_title">Launcher innstillinger</string>
     <string name="preferred_app_settings_not_selected">Ikke valgt</string>
@@ -416,6 +425,7 @@
     <string name="recents_exit_multi_window_mode">Avslutt</string>
     <string name="recents_forbid_dock_when_screening_toast_text">Kan ikke bruke delt skjerm når du caster</string>
     <string name="recents_incompatible_app_message">Denne appen støtter ikke delt skjerm</string>
+    <string name="recents_smallwindow_text">Slipp for å legge til</string>
     <string name="recents_task_screening">Casting</string>
     <string name="recents_title_app_manager">Administrer apper</string>
     <string name="recents_title_game">Spill</string>
@@ -423,6 +433,7 @@
     <string name="recents_title_garbage_deepclean">Dyprens</string>
     <string name="recents_title_market">Finn apper</string>
     <string name="recents_title_security_scan">Sikkerhetsskanning</string>
+    <string name="recents_tv_small_window_text">Flytende vinduer</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_app">App-forslag</string>
     <string name="recommend_apps_default_title">Tøm</string>
@@ -467,11 +478,19 @@
     <string name="show_most_popular_apps_you_used">Vis de mest brukte appene i skuffen</string>
     <string name="show_recents_recommend_title">Vis forslag</string>
     <string name="slide_to_open_newhome">Sveip opp for å åpne Innholdssenter</string>
+    <string name="small_window_button_complete">Ferdig</string>
+    <string name="small_window_edit_content">Du kan legge til opptil %d apper</string>
+    <string name="small_window_edit_title">Aktuelle apper</string>
+    <string name="small_window_empty">Velg fra tilgjengelige apper</string>
+    <string name="small_window_select_title">Tilgjengelige apper</string>
+    <string name="small_window_title_text">Trykk for å åpne et flytende vindu</string>
+    <string name="small_window_toast">Du kan legge til opptil %d apper</string>
     <string name="sort_by_abc">Sorter etter navn</string>
     <string name="sort_by_frequency">Sorter etter bruk</string>
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_info1">%1$s B av %2$s B tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />
     <string name="status_downloaded">Nedlastet</string>
@@ -479,6 +498,7 @@
     <string name="status_installing">Installering</string>
     <string name="status_paused">Satt på vent</string>
     <string name="status_pending">Venter</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_personal_assistant_app_vault">Apphvelv</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ingen</string>
@@ -510,6 +530,8 @@
     <string name="uninstall_xspace_dialog_title_format">Avinstaller dobbel \"%s\"?</string>
     <string name="unknown_artist_name">Ukjent artist</string>
     <string name="unnamed_folder_name">Mappe</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="wallpaper">Bakgrunn</string>
     <string name="wallpaper_auto_change_title">Lås skjerm</string>
     <string name="wallpaper_failed_message">Kan ikke sette bakgrunn</string>

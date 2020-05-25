@@ -31,7 +31,7 @@
     <string name="congratulation_swipe">Dra opp for å åpne systemet</string>
     <string name="congratulation_title">Oppsettet er fullført</string>
     <string name="content_description_complete">Fullført</string>
-    <string name="content_description_miui_version">MIUI 11</string>
+    <string name="content_description_miui_version">MIUI 12</string>
     <string name="content_description_start">Start</string>
     <string name="content_introduction">Innholdssenter samler innhold og tjenester fra flere kanaler. Her kan du lese artikler, se på videoer, se daglige fremhevede elementer og motta innholdsanbefalinger.</string>
     <string name="continue_to_enable_accessibility">Hold to fingre nede for å tillate tilgjengelighet.</string>
@@ -76,6 +76,8 @@
     <string name="locale_picker_title">Velg din region</string>
     <string name="location_introduction">Stedsbaserte tjenester finner produkter og tjenester i nærheten av deg.</string>
     <string name="lockscreen_introduction">Bakgrunnskarusellen gjør at du kan få nye bilder til låseskjermen daglig.</string>
+    <string name="mint_keyboard_oobe_checkbox">Jeg har lest og samtykket i personvernerklæringen for Mint-tastatur</string>
+    <string name="mint_keyboard_oobe_terms">Personvernerklæring for Mint-tastatur</string>
     <string name="miui_privacy_policy_no_network">Du er ikke koblet til internett. Se personvernerklæringen på %s.</string>
     <string name="miui_terms_no_network">Du er ikke koblet til internett. Se brukeravtalen på %s.</string>
     <string name="multisim_settings_category">Innstillinger for SIM-kort</string>
@@ -203,7 +205,7 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="skip_gesture_guide_dialog_positive_btn">OK</string>
     <string name="skip_gesture_guide_dialog_title">Fullskjermbevegelser</string>
     <string name="skip_underline">Hopp over dette trinnet</string>
-    <string name="start_up_slogan">Livet blir enklere</string>
+    <string name="start_up_slogan">Yours alone</string>
     <string name="summary_not_set">Ikke satt</string>
     <string name="system_navigation_mode">Systemnavigeringsmodus</string>
     <string name="terms_of_use">Vilkår og betingelser</string>
@@ -224,6 +226,9 @@ Du må samtykke i vår Facemoji-personvernpolicy før du bruker denne funksjonen
     <string name="terms_of_use_lable_default_input_method_kika">"
 
 Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</string>
+    <string name="terms_of_use_lable_default_input_method_mint">"
+
+Du må samtykke i personvernerklæringen for Mint-tastatur før du bruker denne funksjonen."</string>
     <string name="terms_of_use_lable_gms">, Google Play-tjenester</string>
     <string name="terms_of_use_lable_smart_cards">, smartkort</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
@@ -231,7 +236,7 @@ Du må samtykke i vår Kika-personvernpolicy før du bruker denne funksjonen."</
     <string name="terms_privacy_policy_input_method_kika">Kika-personvernpolicy</string>
     <string name="title_fingerprint">Skriv inn passord</string>
     <string name="user_agreement">Brukeravtale</string>
-    <string name="user_agreement_declare">Før du bruker MIUI må du lese og godta brukeravtalen og personvernerklæringen vår. Når enheten blir aktivert, vil Mi SIM-aktiveringstjeneste, Xiaomi Cloud, Finn enhet, Startskjerm, Ofte brukte uttrykk, Oversettertjeneste, MIUI Daemon, HTML-visning, AI-assistent, Batteri og ytelse, Strømdetektor, Joyose, OS AI-innstilling og Oppdaterer koble til nettverket. Smarttjenester vil koble til nettverket og få tilgang til plasseringen din.</string>
+    <string name="user_agreement_declare">Før du bruker MIUI må du lese og godta brukeravtalen og personvernerklæringen vår. Når enheten blir aktivert, vil Mi SIM-aktiveringstjeneste, Xiaomi Cloud, Finn enhet, Startskjerm, Ofte brukte uttrykk, Oversettertjeneste, MIUI Daemon, HTML-visning, AI-assistent, Batteri og ytelse, Strømdetektor, Joyose, OS AI-innstilling, Tillatelsesbehandling og Oppdaterer koble til nettverket. Smarttjenester vil koble til nettverket og få tilgang til plasseringen din.</string>
     <string name="voice_assist_advice">Mi AI tillater deg å bruke talekontroller, men bruker mer strøm (+1 % hver time).</string>
     <string name="voice_assist_condition">"Du vil kunne bruke Mi AI i disse tilfellene: r
 1. Når skjermen er på. r

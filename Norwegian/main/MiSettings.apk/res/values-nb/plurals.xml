@@ -4,6 +4,14 @@
         <item quantity="other">%d dager</item>
         <item quantity="one">%d dag</item>
     </plurals>
+    <plurals name="steady_on_screen_notification_summary">
+        <item quantity="other">Du har brukt enheten din i %d minutter uten forstyrrelser</item>
+        <item quantity="one">Du har brukt enheten din i %d minutt uten forstyrrelser</item>
+    </plurals>
+    <plurals name="steady_on_screen_time_pick">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Skjermtid i dag tilsvarer din %d-dagers gjennomsnitt</item>
         <item quantity="one">Skjermtid i dag tilsvarer ditt %d-dags gjennomsnitt</item>
@@ -23,6 +31,26 @@
     <plurals name="usage_days">
         <item quantity="other">%d dager</item>
         <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="usage_new_home_avg_unlockc">
+        <item quantity="other">%.2f ganger om dagen i gjennomsnitt</item>
+        <item quantity="one">%.2f gang om dagen i gjennomsnitt</item>
+    </plurals>
+    <plurals name="usage_new_home_total_unlocks">
+        <item quantity="other">Låst opp %d ganger</item>
+        <item quantity="one">Låst opp %d gang</item>
+    </plurals>
+    <plurals name="usage_new_home_total_week_unlocks">
+        <item quantity="other">Låst opp %d ganger</item>
+        <item quantity="one">Låst opp %d gang</item>
+    </plurals>
+    <plurals name="usage_remain_about_hour">
+        <item quantity="other">≈%s timer</item>
+        <item quantity="one">≈%s time</item>
+    </plurals>
+    <plurals name="usage_remain_about_miunte">
+        <item quantity="other">≈%s min</item>
+        <item quantity="one">≈%s min</item>
     </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">Låst opp %d ganger</item>
@@ -87,6 +115,14 @@
     <plurals name="usage_state_work_day_minute">
         <item quantity="other">Ukedager: %d minutter</item>
         <item quantity="one">Ukedager: %d minutt</item>
+    </plurals>
+    <plurals name="usage_stats_remain_hour">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="usage_stats_remain_miunte">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_hour">
         <item quantity="other">" t"</item>
