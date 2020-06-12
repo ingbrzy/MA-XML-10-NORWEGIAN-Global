@@ -118,7 +118,6 @@ dd. MM"</string>
 fantastisk er i ferd med å skje"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary">For å redusere strømforbruk vil ikke elementer vises når enheten ligger lenge i mørket.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="temporary_style">I 10 sekunder etter å ha trykt</string>
