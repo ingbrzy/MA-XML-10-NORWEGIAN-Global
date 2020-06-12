@@ -61,6 +61,14 @@
     <string name="exo_track_surround_7_point_1">7.1 surround-lyd</string>
     <string name="exo_track_unknown">Ukjent</string>
     <string name="expand_button_title">Avansert</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slipp for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Et øyeblikk…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke laste inn elementer</string>
     <string name="not_set">Ikke angitt</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="search_menu_title">Søk</string>

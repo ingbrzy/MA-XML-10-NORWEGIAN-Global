@@ -32,6 +32,10 @@
         <item quantity="other">Søk gjennom %d opptak</item>
         <item quantity="one">Søk gjennom %d opptak</item>
     </plurals>
+    <plurals name="search_app_records_hint">
+        <item quantity="other">Search among %d recordings</item>
+        <item quantity="one">Search among %d recording</item>
+    </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Søk gjennom %d anropsopptak</item>
         <item quantity="one">Søk gjennom %d anropsopptak</item>

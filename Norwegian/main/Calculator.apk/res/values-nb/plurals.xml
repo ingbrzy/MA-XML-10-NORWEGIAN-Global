@@ -32,4 +32,8 @@
         <item quantity="other">%d måneder</item>
         <item quantity="one">%d måned</item>
     </plurals>
+    <plurals name="tenure_years">
+        <item quantity="other">%d år</item>
+        <item quantity="one">%d år</item>
+    </plurals>
 </resources>

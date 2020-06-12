@@ -33,6 +33,8 @@
     <string name="alert_message_delete_record">Om du sletter opptaket på enheten, sletter du det også fra Xiaomi Cloud. Slette nå?</string>
     <string name="alert_message_delete_record_title">Slette opptak?</string>
     <string name="app_name">Opptaker</string>
+    <string name="app_record">App recordings</string>
+    <string name="app_record_preference_title">App recordings</string>
     <string name="back">Tilbake</string>
     <string name="button_queue_for_wifi">Vent</string>
     <string name="button_start_now">Last ned</string>
@@ -237,6 +239,7 @@
     <string name="record_downloading_notification_count">%d nedlastet</string>
     <string name="record_format_preference_title">Opptaksformat</string>
     <string name="record_list">Opptak</string>
+    <string name="record_list_app">App recordings</string>
     <string name="record_list_call">Innspilte samtaler</string>
     <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Synkroniserte opptak</string>

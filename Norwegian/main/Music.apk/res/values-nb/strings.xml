@@ -128,6 +128,7 @@
     <string name="button_sort_by_date">Sorter etter dato</string>
     <string name="button_sort_by_size">Sorter etter størrelse</string>
     <string name="button_wait_for_wifi">Vent</string>
+    <string name="buy_vip_skip_ad">Fjern annonser</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_running_download">Avbryt</string>
     <string name="cannot_download_to_sdcard_hint">Kan ikke laste ned elementer til SD-kortet på grunn av opphavsrettsrestriksjoner. Elementene lastes ned til intern lagring i stedet.</string>
@@ -271,7 +272,9 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_queued">I kø</string>
@@ -352,7 +355,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -457,6 +462,46 @@
     <string name="is_scanning">Sjekker lagringsplass…</string>
     <string name="is_scanning_support_online">"Sjekker lagringsplass…
 (I mellomtiden kan du strømme musikk på nett)"</string>
+    <string name="joox_account_bind_mi_account">Legg til Mi-konto</string>
+    <string name="joox_account_cancel_login">Avbryt</string>
+    <string name="joox_account_continue_login">Logg inn</string>
+    <string name="joox_account_fans_center">Fansenter</string>
+    <string name="joox_account_login_conflict_message">Det ser ut til at du er logget inn på en annen enhet. Logge inn her?</string>
+    <string name="joox_account_login_exception">Logg inn på nytt</string>
+    <string name="joox_account_multi_device_login">Flere enheter</string>
+    <string name="joox_area_check_failed">Det ser ut til at du er i et område der tjenestene våre ikke er tilgjengelige. Koble til et annet nettverk og start appen på nytt.</string>
+    <string name="joox_auth_button_acquire_vip_instantly">Skaff et VIP-medlemskap</string>
+    <string name="joox_auth_button_login_to_acquire_vip">Logg inn for å skaffe et VIP-medlemskap</string>
+    <string name="joox_auth_dialog_message">Vi har anbefalt noen sanger for deg. Skaff VIP-medlemskap for å fjerne begrensningene.</string>
+    <string name="joox_auth_message_connect_network">Har ikke koblet til serveren på en stund. Koble til nettverket for å kunne spille av sangene som er lastet ned.</string>
+    <string name="joox_auth_message_content_for_vip_only">Dette elementet er bare tilgjengelig for VIP-medlemmer</string>
+    <string name="joox_auth_message_content_offline">Nettjenester er ikke tilgjengelig nå. Vi forbedrer noen ting og åpner for tilgang igjen snart. Følg med!</string>
+    <string name="joox_auth_message_login_status_expired">Innloggingsøkt er utløpt. Logg inn på nytt.</string>
+    <string name="joox_auth_message_one_hour_limit_for_one_company">Du kan spille av opptil seks sanger fra det samme plateselskapet hver time. Lytt til noen anbefalte sanger for nå.</string>
+    <string name="joox_auth_message_recommend_for_you">Anbefalt</string>
+    <string name="joox_auth_message_update_vip_to_change_playlist">Skaff et VIP-medlemskap for å redigere spillelister</string>
+    <string name="joox_auth_message_update_vip_to_download">Skaff et VIP-medlemskap for å laste ned</string>
+    <string name="joox_auth_message_update_vip_to_listen_offline">VIP-medlemskapet ditt er utløpt. Du kan lytte til sanger på nettet nå. Skaff et VIP-medlemskap for å kunne laste ned sanger.</string>
+    <string name="joox_auth_message_update_vip_to_play_on_demand">Kan ikke spille av denne sangen på grunn av opphavsrettbegrensninger. Prøv å spille av i tilfeldig rekkefølge for å høre på andre sanger, eller skaff et VIP-medlemskap for å spille av denne.</string>
+    <string name="joox_auth_message_update_vip_to_seek_progress">Kan ikke justere fremdrift på avspilling på grunn av opphavsrettbegrensninger. Skaff et VIP-medlemskap for å fjerne begrensningene.</string>
+    <string name="joox_auth_message_update_vip_to_switch_songs">Skaff et VIP-medlemskap for å bytte mellom sanger</string>
+    <string name="joox_auth_message_update_vip_to_use_function">Skaff et VIP-medlemskap for å bruke denne funksjonen</string>
+    <string name="joox_auth_title_download_song">Last ned sanger</string>
+    <string name="joox_auth_title_login_again">Logg inn</string>
+    <string name="joox_auth_title_long_time_no_network">Det ser ut til at du ikke har koblet til nettverket på en stund</string>
+    <string name="joox_auth_title_shuffle_play">Stokk</string>
+    <string name="joox_auth_title_vip_content">VIP-innhold</string>
+    <string name="joox_auth_title_vip_expired">Medlemskap utløpt</string>
+    <string name="joox_auth_title_vip_function">VIP-funksjoner</string>
+    <string name="joox_download_title">JOOX-nedlastinger</string>
+    <string name="joox_privacy_desc">Personvernerklæring for JOOX (valgfritt)</string>
+    <string name="joox_privacy_tips_content">Les og godta <a href="/link/click">JOOXs personvernerklæring</a> før du bruker nettjenestene.</string>
+    <string name="joox_privacy_tips_title">Personvernerklæring for JOOX</string>
+    <string name="joox_recommend_artist_title">Anbefalte artister</string>
+    <string name="joox_recommend_playlist_title">Anbefalte spillelister</string>
+    <string name="joox_search_result_more">Mer</string>
+    <string name="joox_vip_check_to_pay">Kjøp</string>
+    <string name="joox_vip_expired_hint">VIP-medlemskapet ditt har utløpt. Sanger som er nedlastet fra JOOX vises bare i nedlastingene dine.</string>
     <string name="keep_queued_download">Behold</string>
     <string name="ktv_playlist">KTV-spilliste</string>
     <string name="language_page_confirm">Bekreft</string>
@@ -673,6 +718,7 @@
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
@@ -801,12 +847,14 @@
     <string name="start_to_check_new_version">Ser etter oppdateringer…</string>
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="streamloadingtext">Forbinder til %s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="supplementary_songs">Ytterligere sanger</string>
     <string name="switch_success">Byttet</string>
     <string name="tab_album">Albumer</string>
     <string name="tab_album_list">Albumer</string>
@@ -877,6 +925,7 @@
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="upgrading_in_backstage">Oppdaterer i bakgrunnen…</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="version_info">Versjon</string>

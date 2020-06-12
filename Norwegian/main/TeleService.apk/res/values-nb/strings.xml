@@ -937,6 +937,7 @@ Det er %d forsøk igjen."</string>
     <string name="private_dns_mode_provider_failure">Kunne ikke koble til</string>
     <string name="private_dns_mode_provider_hostname_hint">Skriv inn vertsnavnet til DNS-leverandøren</string>
     <string name="private_num">Privat nummer</string>
+    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="progress_dialog_exiting_ecm">Avslutter tilbakeringingsmodus for nødstilfeller</string>
     <string name="proxy_address_title">Utgående proxy-adresse</string>
     <string name="pstn_connection_service_label">Innebygde SIM-kort</string>
@@ -1172,6 +1173,7 @@ Neste periode starter om %2$d dager (%3$s)"</string>
     <string name="time_end_minute">time end minute</string>
     <string name="time_formate_am">AM</string>
     <string name="time_formate_pm">PM</string>
+    <string name="time_interval_char">:</string>
     <string name="time_next_day">" neste dag "</string>
     <string name="time_start">" Fra "</string>
     <string name="time_start_hour">time start hour</string>
@@ -1209,6 +1211,7 @@ Neste periode starter om %2$d dager (%3$s)"</string>
     <string name="tts_status_ok">%1$s støttes fullt ut</string>
     <string name="tts_status_requires_network">%1$s krever nettverkstilkobling</string>
     <string name="tts_status_title">Status for standardspråk</string>
+    <string name="tty_mode_key">button_tty_mode_key</string>
     <string name="tty_mode_not_allowed_video_call">TTY-modusendring er ikke tillatt under videosamtale</string>
     <string name="tty_mode_option_summary">Still inn TTY-modus</string>
     <string name="tty_mode_option_title">TTY-modus</string>
@@ -1248,6 +1251,7 @@ Kontakt operatøren din hvis dette problemet vedvarer."</string>
     <string name="voicemail">Telefonsvarer</string>
     <string name="voicemail_abbreviated">Svarer:</string>
     <string name="voicemail_change_pin_dialog_title">Endre PIN-kode</string>
+    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
     <string name="voicemail_default">Din operatør</string>
     <string name="voicemail_notifications_preference_title">Varsler</string>
     <string name="voicemail_number_not_set">&lt;Ikke angitt></string>
@@ -1256,6 +1260,7 @@ Kontakt operatøren din hvis dette problemet vedvarer."</string>
     <string name="voicemail_settings">Oppsett</string>
     <string name="voicemail_settings_number_label">Talepostnummer</string>
     <string name="voicemail_settings_with_label">Talepost (%s)</string>
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
     <string name="voicemail_visual_voicemail_switch_title">Visuell talepostkasse</string>
     <string name="vpn_settings_not_available">Innstillingene for VPN er ikke tilgjengelig for denne brukeren</string>
     <string name="vvm_unsupported_message_format">Ikke-støttet meldingstype, ring %s for å høre.</string>
@@ -1265,6 +1270,7 @@ Kontakt operatøren din hvis dette problemet vedvarer."</string>
 "</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunktet er midlertidig fullt</string>
     <string name="wifi_calling">Wi-Fi-anrop</string>
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="wifi_calling_settings_title">Wi-Fi-anrop</string>
     <string name="wifi_cant_connect">Kan ikke koble til</string>
     <string name="wifi_cant_connect_to_ap">Kan ikke koble til «%1$s»</string>

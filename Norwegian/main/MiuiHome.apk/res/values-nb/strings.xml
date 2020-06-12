@@ -27,6 +27,13 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="accessibility_all_app_custom_category_finish">Done</string>
+    <string name="accessibility_all_app_custom_category_item_remove">Remove \"%1$s\" from categories</string>
+    <string name="accessibility_clear_search_bar_text">Clear search bar</string>
+    <string name="accessibility_enter_all_app_mode">Open App drawer</string>
+    <string name="accessibility_enter_all_app_settings">Open App drawer settings</string>
+    <string name="accessibility_menu_item_smallwindow_disable">Denne appen støtter ikke flytende vinduer</string>
+    <string name="accessibility_menu_item_smallwindow_enable">Denne appen støtter flytende vinduer</string>
     <string name="accessibility_menu_item_split_disable">Appen støtter ikke delt skjerm.</string>
     <string name="accessibility_menu_item_split_enable">Appen støtter delt skjerm</string>
     <string name="accessibility_recent_task_enter">Nylige åpnet</string>
@@ -60,6 +67,7 @@
     <string name="all_apps_no_search_results">Kunne ikke finne resultater</string>
     <string name="all_apps_search_app">Søk etter apper</string>
     <string name="all_apps_search_market_message">Søk online</string>
+    <string name="all_apps_setting_classic_title">Klassisk</string>
     <string name="all_apps_setting_desktop_desc">Vis alle installerte apper på startskjermen. Trykk og hold på ikonet til en app for å se tilgjengelige snarveier og administrere eller avinstallere appen.</string>
     <string name="all_apps_setting_desktop_title">Vanlig</string>
     <string name="all_apps_setting_drawer_desc">Plasser alle installerte apper i app-skuffen som kan åpnes ved å sveipe opp på startskjermen. Du vil fortsatt finne apper som du flyttet til startskjermen i app-skuffen.</string>
@@ -141,6 +149,7 @@
     <string name="auto_add_app_shortcut">Plasser nye apper på Startskjermen</string>
     <string name="auto_delete_category_dialog_content">Nåværende apper blir fjernet fra denne kategorien, og kategorien blir slettet. Slette denne kategorien nå?</string>
     <string name="auto_delete_category_dialog_title">Sletter kategori</string>
+    <string name="back">Back</string>
     <string name="backup_fail">Kunne ikke sikkerhetskopiere startprogram</string>
     <string name="bad_wallpaper_source_prompt">Kunne ikke laste bakgrunn</string>
     <string name="buffering">Bufrer…</string>
@@ -165,6 +174,10 @@
     <string name="choose_wallpaper">Velg bakgrunn</string>
     <string name="chooser_wallpaper">Velg en ny bakgrunn</string>
     <string name="cloud_app_restore_title">Avventer</string>
+    <string name="common_home_search_delete">Sletter søkefelt på startskjermen</string>
+    <string name="common_home_search_delete_cancle">Avbryt</string>
+    <string name="common_home_search_delete_confirm">Slett</string>
+    <string name="common_home_search_delete_content">Du kan ikke søke etter elementer ved å bruke søkefeltet på startskjermen etter at du har slettet det. Slette allikevel?</string>
     <string name="configure_wallpaper">Innstillinger</string>
     <string name="confirm_btn_label">OK</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Doble apper vil avinstalleres sammen med disse.</string>
@@ -490,8 +503,11 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
-    <string name="status_bar_recent_memory_info1">%1$s B av %2$s B tilgjengelig</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_bar_recent_memory_giga">%1$s GB</string>
+    <string name="status_bar_recent_memory_info1">%1$s av %2$s tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />
+    <string name="status_bar_recent_memory_mega">%1$s MB</string>
     <string name="status_downloaded">Nedlastet</string>
     <string name="status_downloading">Laster ned</string>
     <string name="status_installing">Installering</string>
