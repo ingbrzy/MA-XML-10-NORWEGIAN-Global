@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0 %</item>
         <item>50 %</item>
@@ -37,24 +55,24 @@
         <item>Ikke vis dette ikonet</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>16 bit/prøve</item>
         <item>24 bit/prøve</item>
         <item>32 bit/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>16 bit/prøve</item>
         <item>24 bit/prøve</item>
         <item>32 bit/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -62,30 +80,30 @@
         <item>Optimalisert for lydkvalitet</item>
         <item>Balansert kvalitet på lyd og tilkobling</item>
         <item>Optimalisert for tilkoblingskvalitet</item>
-        <item>Beste forsøk (Tilpasset bitfrekvens)</item>
+        <item>Beste forsøk (automatisk bitfrekvens)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Optimalisert for lydkvalitet (990 kbps/909 kbps)</item>
         <item>Balansert kvalitet på lyd og tilkobling (660 kbps/606 kbps)</item>
         <item>Optimalisert for tilkoblingskvalitet (330 kbps/303 kbps)</item>
-        <item>Beste forsøk (Tilpasset bitfrekvens)</item>
+        <item>Beste forsøk (automatisk bitfrekvens)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™-lyd</item>
@@ -96,11 +114,9 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Aktiver valgfrie kodeker</item>
-        <item>Deaktiver valgfrie kodeker</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Bruk systemutvalg (Standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™-lyd</item>
@@ -132,12 +148,22 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Deaktivert</item>
-        <item>Aktivert filtrert</item>
+        <item>Filtered</item>
         <item>Aktivert</item>
-        <item>«Filtrerte overskrifter» aktivert</item>
-        <item>«Filtrerte mediepakker» aktivert</item>
+        <item>Headers filtered</item>
+        <item>Media packets filtered</item>
     </string-array>
     <string-array name="clock_options">
         <item>Vis timer, minutter og sekunder</item>
@@ -213,25 +239,25 @@
     <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Av</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Av</item>
-        <item>64K per loggbuffer</item>
-        <item>256K per loggbuffer</item>
-        <item>1M per loggbuffer</item>
-        <item>4M per loggbuffer</item>
-        <item>16M per loggbuffer</item>
+        <item>64 KB per loggbuffer</item>
+        <item>256 KB per loggbuffer</item>
+        <item>1 MB per loggbuffer</item>
+        <item>4 MB per loggbuffer</item>
+        <item>16 MB per loggbuffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Av</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Av</item>

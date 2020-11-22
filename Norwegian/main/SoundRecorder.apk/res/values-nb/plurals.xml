@@ -28,13 +28,17 @@
         <item quantity="other">%d opptak lastet ned</item>
         <item quantity="one">%d opptak lastet ned</item>
     </plurals>
+    <plurals name="recovery_failed_dialog_message">
+        <item quantity="other">Kunne ikke gjenopprette %d elementer på grunn av en ukjent feil.</item>
+        <item quantity="one">Kunne ikke gjenopprette %d element på grunn av en ukjent feil.</item>
+    </plurals>
     <plurals name="search_alll_records_hint">
         <item quantity="other">Søk gjennom %d opptak</item>
         <item quantity="one">Søk gjennom %d opptak</item>
     </plurals>
     <plurals name="search_app_records_hint">
-        <item quantity="other">Search among %d recordings</item>
-        <item quantity="one">Search among %d recording</item>
+        <item quantity="other">Søk gjennom %d opptak</item>
+        <item quantity="one">Søk gjennom %d opptak</item>
     </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Søk gjennom %d anropsopptak</item>
@@ -43,6 +47,18 @@
     <plurals name="search_result">
         <item quantity="other">Fant %d opptak</item>
         <item quantity="one">Fant %d opptak</item>
+    </plurals>
+    <plurals name="time_left_for_clear_file">
+        <item quantity="other">%d dager igjen</item>
+        <item quantity="one">%d dag igjen</item>
+    </plurals>
+    <plurals name="trash_box_delete_items">
+        <item quantity="other">Slette %d valgte oppføringer permanent?</item>
+        <item quantity="one">Slette %d valgt oppføring permanent?</item>
+    </plurals>
+    <plurals name="trash_box_tip">
+        <item quantity="other">Slettede elementer kan lagres i søppel i opptil %d dager</item>
+        <item quantity="one">Slettede elementer kan lagres i søppel i opptil %d dag</item>
     </plurals>
     <plurals name="unsynced_records_count">
         <item quantity="other">%d ikke synkronisert</item>

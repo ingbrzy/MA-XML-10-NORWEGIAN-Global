@@ -4,6 +4,30 @@
         <item quantity="other">Fokusert. %d av ansiktene er gjenkjent</item>
         <item quantity="one">Fokusert. %d av ansiktet er gjenkjent</item>
     </plurals>
+    <plurals name="accessibility_timer_burst_count">
+        <item quantity="other">%d bilder i et burst shot</item>
+        <item quantity="one">%d bilde i et burst shot</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_interval">
+        <item quantity="other">Intervall: %d sekunder</item>
+        <item quantity="one">Intervall: %d sekund</item>
+    </plurals>
+    <plurals name="accessibility_vv_duartion">
+        <item quantity="other">Duration: %d seconds</item>
+        <item quantity="one">Duration: %d second</item>
+    </plurals>
+    <plurals name="clone_guide_tip2">
+        <item quantity="other">Du kan lage opptil %d kloner om gangen.</item>
+        <item quantity="one">Du kan lage opptil %d klone om gangen.</item>
+    </plurals>
+    <plurals name="pref_camera_fastmotion_duration_unit">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="timer_burst_setting_total_count">
+        <item quantity="other">%1$s bilder</item>
+        <item quantity="one">%1$s bilde</item>
+    </plurals>
     <plurals name="toast_burst_snap_finished_summary">
         <item quantity="other">Et burst shot er ferdig, %1$s bilder er tatt</item>
         <item quantity="one">Et burst shot er ferdig, %1$s bilde er tatt</item>

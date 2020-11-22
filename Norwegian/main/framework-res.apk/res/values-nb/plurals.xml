@@ -104,14 +104,6 @@
         <item quantity="other">Sertifiseringsinstansene er installert</item>
         <item quantity="one">Sertifiseringsinstansen er installert</item>
     </plurals>
-    <plurals name="wifi_available">
-        <item quantity="other">Wi-Fi-nettverk er tilgjengelig</item>
-        <item quantity="one">Wi-Fi-nettverk er tilgjengelig</item>
-    </plurals>
-    <plurals name="wifi_available_detailed">
-        <item quantity="other">Åpne Wi-Fi-nettverk er tilgjengelig</item>
-        <item quantity="one">Åpent Wi-Fi-nettverk er tilgjengelig</item>
-    </plurals>
     <plurals name="zen_mode_duration_hours">
         <item quantity="other">I %d timer</item>
         <item quantity="one">I 1 time</item>

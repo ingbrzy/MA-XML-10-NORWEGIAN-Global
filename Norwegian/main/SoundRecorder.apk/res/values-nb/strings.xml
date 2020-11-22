@@ -33,8 +33,8 @@
     <string name="alert_message_delete_record">Om du sletter opptaket på enheten, sletter du det også fra Xiaomi Cloud. Slette nå?</string>
     <string name="alert_message_delete_record_title">Slette opptak?</string>
     <string name="app_name">Opptaker</string>
-    <string name="app_record">App recordings</string>
-    <string name="app_record_preference_title">App recordings</string>
+    <string name="app_record">App-opptak</string>
+    <string name="app_record_preference_title">App-opptak</string>
     <string name="back">Tilbake</string>
     <string name="button_queue_for_wifi">Vent</string>
     <string name="button_start_now">Last ned</string>
@@ -127,6 +127,7 @@
     <string name="network_unavailable_tip">Koble til nettverket og prøv igjen.</string>
     <string name="new_record_name">Nytt opptak</string>
     <string name="no_file">Tøm</string>
+    <string name="no_network">"Couldn't connect to the network"</string>
     <string name="not_set">Ikke angitt</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse</string>
     <string name="notification_playback">Spiller…</string>
@@ -239,7 +240,7 @@
     <string name="record_downloading_notification_count">%d nedlastet</string>
     <string name="record_format_preference_title">Opptaksformat</string>
     <string name="record_list">Opptak</string>
-    <string name="record_list_app">App recordings</string>
+    <string name="record_list_app">App-opptak</string>
     <string name="record_list_call">Innspilte samtaler</string>
     <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Synkroniserte opptak</string>
@@ -257,6 +258,9 @@
     <string name="recording_quality_low">Lav kvalitet</string>
     <string name="recording_quality_standard">Standardkvalitet</string>
     <string name="recording_stopped">Stoppet</string>
+    <string name="recovery">Gjenopprett</string>
+    <string name="recovery_failed_dialog_button">Skjønner</string>
+    <string name="recovery_failed_dialog_title">Merk</string>
     <string name="reg_error_audio_exist">Denne filen finnes allerede.</string>
     <string name="reg_error_audio_large">Lydfiler kan ikke overskride 500 MB.</string>
     <string name="reg_error_audio_short">Lydfilen er for liten.</string>
@@ -275,7 +279,8 @@
     <string name="rename_no_more_tip">Ikke vis igjen</string>
     <string name="retry">Prøv igjen</string>
     <string name="runtime_permission_ungranted">Kan ikke bruker Opptaker på grunn av uinnvilgede tillatelser</string>
-    <string name="search_app">Gravadora</string>
+    <string name="save_record_dialog_title">Lagre opptak</string>
+    <string name="search_app">Opptaker</string>
     <string name="search_empty">Kunne ikke finne resultater</string>
     <string name="search_enable_earpiece_title">Bruk mottaker for å spille lyd</string>
     <string name="search_hint">Søk</string>
@@ -318,11 +323,14 @@
     <string name="text_play_speed_1_5">1,5X avspillingshastighet</string>
     <string name="text_play_speed_2_0">2X avspillingshastighet</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s kan ta opp i ca. %2$s</string>
     <string name="toast_uninstall_fileexplorer">Filbehandler er ikke installert</string>
+    <string name="trash_box">Nylig slettede elementer</string>
+    <string name="trash_box_close_tip">Lukk melding</string>
+    <string name="trash_box_delete_all">Slette alle elementer fra søppelet permanent?</string>
     <string name="usage_description">Transkribere lyd og synkronisere elementer med skyen</string>
+    <string name="user_feedback">Tilbakemelding</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="webview_check_network">Nettverksinnstillinger</string>

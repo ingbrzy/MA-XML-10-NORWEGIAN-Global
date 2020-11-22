@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="app_name">Varsler</string>
+    <string name="back">Tilbake</string>
     <string name="cancel">Avbryt</string>
     <string name="category_other">Annet</string>
     <string name="confirm">OK</string>
@@ -46,6 +47,7 @@
     <string name="feedback_tip_msg">For å gruppere varsler på en mer nøyaktig måte, trenger vi å samle inn appnavn, varslingstittel og beskrivelse, og tidspunktet varselet ble sendt på. Sende inn tilbakemeldingen?</string>
     <string name="feedback_tip_title">Tilbakemelding på varslingskategorier</string>
     <string name="float_notifications">Flytende varsler</string>
+    <string name="float_notifications_short">Flytende</string>
     <string name="function_description">Om denne funksjonen</string>
     <string name="hint_search_all">Søk etter apper</string>
     <string name="hint_search_in_disabled_apps">Søk etter apper som ikke kan vise varsler</string>
@@ -56,20 +58,14 @@
     <string name="lock_screen_display_rules">Format</string>
     <string name="lock_screen_tip_toast">Tillat låseskjermvarsler i \"Format\"</string>
     <string name="lockscreen_notifications">Låseskjermvarsler</string>
-    <string name="menu_setting_recommend_to_minus">Vis færre varsler</string>
-    <string name="menu_setting_recommend_to_normal">Ikke reduser varsler</string>
+    <string name="lockscreen_notifications_short">Låseskjerm</string>
     <string name="menu_setting_show_in_home">Ikke grupper</string>
-    <string name="menu_setting_tip_recommend_minus">Du vil se færre varsler fra %s</string>
-    <string name="menu_setting_tip_recommend_normal">Varsler fra %s blir ikke redusert</string>
     <string name="menu_setting_tip_show_in_home">Varsler fra %s blir ikke gruppert</string>
     <string name="menu_setting_tip_unfold">Alle varsler fra denne appen blir sett på som viktige</string>
-    <string name="menu_setting_toast_recommend_minus">Du vil se færre varsler fra %s</string>
-    <string name="menu_setting_toast_recommend_normal">Varsler fra %s blir ikke redusert</string>
-    <string name="menu_setting_toast_show_in_home">Varsler fra %s blir ikke gruppert</string>
     <string name="menu_setting_unfold">Viktige</string>
     <string name="not_sent_recently">Ikke nylig</string>
     <string name="not_set">Ikke angitt</string>
-    <string name="notch_and_status_bar_setting">Skjermleppe og statuslinje</string>
+    <string name="notch_and_status_bar_setting">Kontrollsenter og statuslinje</string>
     <string name="notification_aggregate_description1">MIUI kan gruppere push- og kampanjevarsler automatisk, noe som gjør varslingsskyggen mer ryddig.</string>
     <string name="notification_aggregate_description2">Algoritmene våre analyserer varslingsinnhold og bruker ikke denne funksjonen på viktige varsler fra direktemeldingsprogrammer. Hvis du oppdager at viktige varsler er feilaktig gruppert, kan du rapportere problemet ved hjelp av Tilbakemelding-funksjonen.</string>
     <string name="notification_aggregate_summary">Tillat MIUI å gruppere varslinger automatisk</string>
@@ -80,8 +76,6 @@
     <string name="notification_fold_summary">Grupper uviktige varsler automatisk</string>
     <string name="notification_fold_title">Grupper varsler</string>
     <string name="notification_manager">Appvarsler</string>
-    <string name="notification_setting_menu_feedback_text">"Burde ikke dette varselet vært her?
-Rapporter om problemet >"</string>
     <string name="notification_style_android">Android</string>
     <string name="notification_style_miui">MIUI</string>
     <string name="off">Av</string>
@@ -90,6 +84,8 @@ Rapporter om problemet >"</string>
     <string name="search_menu_title">Søk</string>
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>
     <string name="show_badge_notifications">Varselmerker</string>
+    <string name="show_badge_notifications_short">Merker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>
@@ -102,8 +98,6 @@ Rapporter om problemet >"</string>
     <string name="summary_lock_screen_enable_notification_first">Tillat varsler å kunne aktivere varsler på låseskjerm</string>
     <string name="summary_show_badge_enable_notification_first">Tillat varsler å kunne aktivere varselmerker</string>
     <string name="swipe_to_delete">Sveip til venstre eller høyre for å slette</string>
-    <string name="tip_feedback_success">Innsendt</string>
-    <string name="tip_select_category">Velg varslingskategori</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
 </resources>

@@ -48,6 +48,14 @@
         <item quantity="other">Ringte %1$d ganger</item>
         <item quantity="one">Ringte %1$d gang</item>
     </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d telefonnumre</item>
+        <item quantity="one">%d telefonnummer</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">Slette %d telefonnumre?</item>
+        <item quantity="one">Slette %d telefonnummer?</item>
+    </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d kontakter eller bilder har ikke blitt synkronisert</item>
         <item quantity="one">%1$d kontakt eller bilder har ikke blitt synkronisert</item>
@@ -100,10 +108,6 @@
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
-    <plurals name="hint_account_contacts">
-        <item quantity="other">Found %1$d elementer</item>
-        <item quantity="one">Found %1$d element</item>
-    </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d kontakter</item>
         <item quantity="one">%1$d kontakt</item>
@@ -148,10 +152,6 @@
         <item quantity="other">%1$d kontakter med delvis identisk informasjon</item>
         <item quantity="one">%1$d kontakter med delvis identisk informasjon</item>
     </plurals>
-    <plurals name="merge_info">
-        <item quantity="other">slått sammen fra %0$d kilder</item>
-        <item quantity="one">ikke fusjonert</item>
-    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d valgt</item>
         <item quantity="one">%1$d valgt</item>
@@ -160,17 +160,9 @@
         <item quantity="other">%1$d personer fra %2$s</item>
         <item quantity="one">%1$d person fra %2$s</item>
     </plurals>
-    <plurals name="num_groups_in_account">
-        <item quantity="other">%d grupper</item>
-        <item quantity="one">%d gruppe</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
-    </plurals>
-    <plurals name="number_of_items_available">
-        <item quantity="other">%1$d gjenstående elementer</item>
-        <item quantity="one">%1$d gjenstående element</item>
     </plurals>
     <plurals name="number_of_items_selected">
         <item quantity="other">%1$d valgt</item>
@@ -195,6 +187,10 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d funnet</item>
         <item quantity="one">%d funnet</item>
+    </plurals>
+    <plurals name="search_group_contacts_result">
+        <item quantity="other">%s resultater</item>
+        <item quantity="one">%s resultat</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Ikke velg mer enn %1$d. Alle kan ikke velges</item>

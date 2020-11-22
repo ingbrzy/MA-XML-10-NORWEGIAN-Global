@@ -47,6 +47,7 @@
     <string name="content_description_web_url">Søk</string>
     <string name="copy">Kopier</string>
     <string name="cut">Klipp</string>
+    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">Ukjent enhet</string>
     <string name="default_name">Standard</string>
     <string name="description_title">Stillemodus</string>
@@ -82,6 +83,10 @@
     <string name="global_actions_reboot">Omstart</string>
     <string name="global_actions_shutdown">Slå av</string>
     <string name="global_actions_silent_mode">Stillemodus</string>
+    <string name="handset_text_unsupported_handset_insert">Trykk for å se detaljer</string>
+    <string name="handset_text_usb_handset_insert">Trykk for å åpne tilleggsinnstillinger</string>
+    <string name="handset_title_unsupported_handset_insert">USB-hodetelefonadapter støttes ikke</string>
+    <string name="handset_title_usb_handset_insert">Spiller av lyd over USB</string>
     <string name="handy_mode_enter_dlg_msg">Gå til enhåndsmodus?</string>
     <string name="handy_mode_enter_dlg_title">Gå til enhåndsmodus</string>
     <string name="handy_mode_summary">Trykk på det mørke området for å lukke</string>
@@ -127,6 +132,8 @@
     <string name="mi_9t_pro">Mi 9T Pro</string>
     <string name="mi_a3">Mi A3</string>
     <string name="mi_drop">Mi Share</string>
+    <string name="miaudiovisual_notification_summary">Skru på for å vise effekter på låseskjermen</string>
+    <string name="miaudiovisual_notification_title">Lyd og visuelle effekter</string>
     <string name="miui_forbid_poweroff_when_device_locked">Kan ikke skrue av, enheten er låst.</string>
     <string name="miui_screen_ratio_hint">Problemer med sideforholdet</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Ikke vis igjen</string>
@@ -225,6 +232,7 @@
     <string name="sim_added_reboot_title">SIM-kortet aktiveres når du har startet enheten på nytt.</string>
     <string name="sim_lock_non_ais_msg">SIM-kortet fungerer ikke helt som det skal med denne telefonen siden det ikke samsvarer med vilkårene og betingelsene i abonnementet ditt. Hvis du har noen spørsmål eller trenger mer informasjon om dette, kan du ta kontakt med Xiaomi-servicesentre eller butikken som solgte produkter til deg.</string>
     <string name="sim_lock_now_ais_title">SIM %1$d</string>
+    <string name="slatoast">Bruk av mobildata for å øke hastighet kan generere ytterligere operatørkostnader</string>
     <string name="slavewifi">Wi-Fi med dobbeltbånd</string>
     <string name="slavewifi_disconnect">Koble fra</string>
     <string name="slavewifi_notification_title">Bruker Wi-Fi med dobbeltbånd</string>

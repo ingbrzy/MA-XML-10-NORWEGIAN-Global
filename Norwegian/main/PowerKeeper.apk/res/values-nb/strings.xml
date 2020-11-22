@@ -83,6 +83,14 @@ Batterisparer vil behandle viktige apper selektivt."</string>
     <string name="lasttime_applist_cloud">Oppdaterte apper:</string>
     <string name="lasttime_feature_cloud">Oppdaterte funksjoner:</string>
     <string name="message_i_know">Skjønner</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slipp for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Et øyeblikk…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke laste inn elementer</string>
     <string name="nonui_mode_config_description">Skjermen lyses ikke opp ved varsler, skru av LED-lys, fingeravtrykksensor, og berøringskontroller for å spare batteri når MIUI oppdager at du ikke bruker enheten din.</string>
     <string name="nonui_mode_config_title">Ikke-interaktivt modus</string>
     <string name="not_set">Ikke angitt</string>

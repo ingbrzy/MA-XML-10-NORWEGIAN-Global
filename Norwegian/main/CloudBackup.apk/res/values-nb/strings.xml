@@ -37,7 +37,6 @@
     <string name="back_up_task_in_process">Sikkerhetskopierer…</string>
     <string name="back_up_task_unfinished">Kunne ikke sikkerhetskopiere</string>
     <string name="backing_up_to_micloud">Sikkerhetskopierer…</string>
-    <string name="backup_fail_wifi_needed">Kunne ikke gjenopprette, krever Wi-Fi.</string>
     <string name="backup_failed_reason_cloud_space_not_enough">Ikke nok lagringsplass i Xiaomi Cloud. Oppgrader abonnementet ditt eller frigjør lagringsplass.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Ikke nok lagringsplass. Frigjør lagringsplass først.</string>
     <string name="backup_failed_reason_network_error">Nettverksfeil. Vent et minutt eller to før du prøver igjen.</string>
@@ -58,6 +57,7 @@
     <string name="btn_restore_resume">Gjenoppta</string>
     <string name="btn_restore_retry">Prøv igjen</string>
     <string name="btn_restore_wait">Vent på Wi-Fi</string>
+    <string name="btn_restore_wait_china">Wait for WLAN</string>
     <string name="btn_retry">Sjekk igjen</string>
     <string name="btn_skip">Hopp over dette trinnet</string>
     <string name="button_cancel">Avbryt</string>
@@ -87,10 +87,15 @@
 *  Varslingsinnstillinger 
 *  MIUI og systeminnstillinger 
 \"Merk: Data for apper som du har installert blir ikke sikkerhetskopierte i Xiaomi Cloud."</string>
+    <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
+*  Apps, Home screen layout, and wallpapers 
+*  Alarm, clock, and time settings 
+*  Notification settings 
+*  MIUI and system settings 
+Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Tidsplan for sikkerhetskopiering</string>
     <string name="cloud_back_up_frequence_long">Hver 7. dag</string>
     <string name="cloud_back_up_frequence_short">Alle dager</string>
-    <string name="cloud_back_up_no_network_warn">Kan ikke koble til Wi-Fi</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Et øyeblikk…</string>
     <string name="cloud_back_up_subscribe_vip_confirm">Oppgrader</string>
@@ -103,6 +108,7 @@
     <string name="cloud_backup_detail_manage">Administrer sikkerhetskopier</string>
     <string name="cloud_backup_detail_state">Automatiske sikkerhetskopier</string>
     <string name="cloud_backup_detail_state_summary">Opprett Xiaomi Cloud-sikkerhetskopier automatisk når du er tilkoblet Wi-Fi.</string>
+    <string name="cloud_backup_detail_state_summary_china">Create Xiaomi Cloud backups automatically when connected to WLAN.</string>
     <string name="cloud_backup_detail_time">Siste sikkerhetskopiering: %1$s</string>
     <string name="cloud_backup_detail_title">Startskjerm, apper og innstillinger</string>
     <string name="cloud_backup_have_data">Fant en sikkerhetskopi i Xiaomi Cloud</string>
@@ -138,7 +144,9 @@
     <string name="dialog_cancel_backup_title">Avbryte pågående sikkerhetskopiering?</string>
     <string name="dialog_msg_overwrite_backup">Lokal sikkerhetskopi er forskjellig fra den i Xiaomi Cloud. Hvis du fortsetter vil den nåværende sikkerhetskopien overskrive den forrige.</string>
     <string name="dialog_msg_restore_require_wlan">Gjenoppretting av sikkerhetskopier krever en Wi-Fi-forbindelse.</string>
+    <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
     <string name="dialog_title_require_wlan">Koble til Wi-Fi</string>
+    <string name="dialog_title_require_wlan_china">Connect to WLAN</string>
     <string name="dir_date_format">HHmmss_ddMMyyyy</string>
     <string name="doing_calc_backup_data_size">Beregner størrelse…</string>
     <string name="doing_restore_home">Gjenoppretter startskjerm og innstillinger…</string>
@@ -153,6 +161,7 @@
     <string name="error_unknown">Noe gikk galt</string>
     <string name="expand_button_title">Avansert</string>
     <string name="get_device_id_error">Kunne ikke hente enhetens ID</string>
+    <string name="help_and_feedback">Hjelp og tilbakemelding</string>
     <string name="hint_restore_cross_space">Oppsettet på startskjermen vises kanskje ikke på riktig måte hvis du overfører elementer mellom områder.</string>
     <string name="home_hint_global_launcher">POCO-starter</string>
     <string name="home_hint_other_launcher">Annen starter</string>
@@ -179,11 +188,10 @@
     <string name="notification_channel_remind">Påminnelse</string>
     <string name="notification_channel_service">Tjeneste</string>
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
-    <string name="open_wifi">Slå på Wi-Fi nå</string>
-    <string name="open_wifi_description">Koble til et Wi-Fi-nettverk for å gjenopprette appen</string>
-    <string name="open_wifi_setting">Wi-Fi-innstillinger</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
     <string name="provision_background_restore_more_data">Gjenopprett flere elementer i bakgrunnen</string>
@@ -211,7 +219,6 @@ Sjekk nettverksinnstillingene dine og prøv igjen."</string>
     <string name="restore_app_order_search_prior">Apper med høy prioritet</string>
     <string name="restore_app_order_title">Prioriter gjenopprettede elementer</string>
     <string name="restore_cloud_backup_to_phone">Gjenopprett elementer fra skyen</string>
-    <string name="restore_data_summary">Denne funksjonen krever internettilkobling.</string>
     <string name="restore_data_title">Gjenopprett data</string>
     <string name="restore_detail_category_apps">Hjem-skjermens utseende og apper</string>
     <string name="restore_detail_category_settings">Innstillinger</string>

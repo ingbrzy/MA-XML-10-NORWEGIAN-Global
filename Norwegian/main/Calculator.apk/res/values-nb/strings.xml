@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Gå til startsiden</string>
-    <string name="abc_action_bar_home_description_format">%1$s – %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s – %2$s – %3$s</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
@@ -10,7 +8,17 @@
     <string name="abc_activitychooserview_choose_application">Velg en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
-    <string name="abc_search_hint">Søk …</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meny+</string>
+    <string name="abc_search_hint">Søk</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
     <string name="abc_searchview_description_query">Søkeord</string>
     <string name="abc_searchview_description_search">Søk</string>
@@ -19,6 +27,24 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="common_google_play_services_enable_button">Slå på</string>
+    <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
+    <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
+    <string name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din.</string>
+    <string name="common_google_play_services_install_title">Installer Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Tjenester-tilgjengelighet</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Tjenester-feil</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din.</string>
+    <string name="common_google_play_services_update_button">Oppdater</string>
+    <string name="common_google_play_services_update_text">%1$s kjører ikke med mindre du oppdaterer Google Play Tjenester.</string>
+    <string name="common_google_play_services_update_title">Oppdater Google Play-tjenester</string>
+    <string name="common_google_play_services_updating_text">%1$s kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå.</string>
+    <string name="common_google_play_services_wear_update_text">Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund.</string>
+    <string name="common_open_on_phone">Åpne på telefonen</string>
+    <string name="common_signin_button_text">Logg på</string>
+    <string name="common_signin_button_text_long">Logg på med Google</string>
     <string name="search_menu_title">Søk</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="age_label_add_to_calendar">Legg til i kalender</string>
@@ -64,6 +90,7 @@
     <string name="convert_currency">Valutakonverterer</string>
     <string name="convertion_unit">Enhetskonverterer</string>
     <string name="convertion_unit_area">Områdekonverterer</string>
+    <string name="convertion_unit_data">Datakonverterer</string>
     <string name="convertion_unit_length">Lengdekonverterer</string>
     <string name="convertion_unit_radix">Tallsystem</string>
     <string name="convertion_unit_temperature">Temperaturkonverterer</string>
@@ -73,6 +100,7 @@
     <string name="convertion_unit_weight">Massekonverterer</string>
     <string name="cos">cos</string>
     <string name="cosDesc">cosinus</string>
+    <string name="currency_dialog_privacy_content">&lt;Data>Valutakonverterer må koble seg til internett for å få de nyeste valutakursene. Les og godta vår &lt;a href=\"%1$s\">Brukeravtale&lt;/a> og våre &lt;a href=\"%2$s\">Retningslinjer for personvern&lt;/a> før du bruker denne funksjonen.&lt;/Data></string>
     <string name="currency_update_connect_to_get_data">Valutakursene er levert av Webull. Koble til nettverket for å få siste info.</string>
     <string name="currency_update_support">Valutakursene er levert av Webull.</string>
     <string name="currency_update_time_format">Valutakurser er gitt av Webull (%s)</string>
@@ -86,7 +114,7 @@
     <string name="description_content">Bortsett fra de grunnleggende funksjonene, fungerer Calculator også som en multifunksjonell konverterer, og boliglån- og skattekalkulator. Sørg for at du klarer deg uten disse tilleggene før du avinstallerer appen.</string>
     <string name="description_title">Om Calculator</string>
     <string name="devided_by_zero_reminder_message">Kan ikke dele med null</string>
-    <string name="dialog_privacy_content">Bortsett fra de grunnleggende funksjonene til en kalkulator, inneholder appen vår også en vitenskapelig kalkulator og en multifunksjonskalkulator. Noen funksjoner må koble til Internett for å fungere normalt. Du må lese og godta vår %1$s og %2$s før du kan bruke kalkulatoren.</string>
+    <string name="dialog_privacy_content">&lt;Data>Bortsett fra de grunnleggende funksjonene til en kalkulator, inneholder appen vår også en vitenskapelig kalkulator og en multifunksjonskalkulator. Noen funksjoner må koble til Internett for å fungere normalt. Du må lese og godta vår &lt;a href=\"%1$s\">Brukeravtale&lt;/a> og våre &lt;a href=\"%2$s\">Retningslinjer for personvern&lt;/a> før du kan bruke kalkulatoren.&lt;/Data></string>
     <string name="dialog_privacy_title">Vilkår og betingelser</string>
     <string name="dialog_rating_desc_ask">Hva synes du om Calculator?</string>
     <string name="dialog_rating_desc_less">Ønsker du å gi oss en tilbakemelding i tillegg?</string>
@@ -104,6 +132,7 @@
     <string name="digit9">9</string>
     <string name="divDesc">del</string>
     <string name="dob_selection_error">Fødselsdato må være før dagens dato</string>
+    <string name="dont_allow">Ikke enig</string>
     <string name="dotDesc">komma</string>
     <string name="e">e</string>
     <string name="eDesc">Eulers nummer</string>
@@ -148,17 +177,23 @@
     <string name="install">Installer</string>
     <string name="install_scanner_to_continued_use">Skanner er ikke installert. Installere igjen?</string>
     <string name="interest_rate_hint">Angi rente</string>
+    <string name="investment_invalid_duration">Investeringsvarighet må være større enn null</string>
+    <string name="investment_type_once">Én gang</string>
+    <string name="investment_type_recurring">Gjentagende</string>
+    <string name="item_page_title_investment">Investeringskalkulator</string>
     <string name="item_title_aa_payment">Del regningen</string>
     <string name="item_title_age">Alder</string>
     <string name="item_title_area_conversion">Område</string>
     <string name="item_title_bmi">BMI</string>
     <string name="item_title_calculator">Kalkulator</string>
     <string name="item_title_currency">Valuta</string>
+    <string name="item_title_data_conversion">Data</string>
     <string name="item_title_date_calculator">Dato</string>
     <string name="item_title_discount">Rabatt</string>
     <string name="item_title_dress_size">Klesstørrelse</string>
     <string name="item_title_emi">Lånekalkulator</string>
     <string name="item_title_gst">GST</string>
+    <string name="item_title_investment">Investering</string>
     <string name="item_title_length_conversion">Lengde</string>
     <string name="item_title_loan">Lån</string>
     <string name="item_title_mortgage">Boliglån</string>
@@ -183,17 +218,21 @@
     <string name="label_from_date">Fra</string>
     <string name="label_history">Historikk</string>
     <string name="label_interest">Rente (prosent)</string>
+    <string name="label_investment_duration">Varighet</string>
     <string name="label_loan_tenure">Låneperiode</string>
     <string name="label_months">Måneder</string>
     <string name="label_no_history">Ingen elementer her ennå</string>
+    <string name="label_powered_by">Drevet av Mi Kalkulator</string>
     <string name="label_principal">Avdrag</string>
     <string name="label_share">Del</string>
     <string name="label_start_date">Startdato</string>
     <string name="label_statistics">Statistikk</string>
     <string name="label_to_date">Til</string>
     <string name="label_total_interest">Total renter</string>
+    <string name="label_total_investment">Total investering</string>
     <string name="label_total_payment">Total betaling</string>
     <string name="label_total_principal">Totale avdrag</string>
+    <string name="label_total_value">Total verdi</string>
     <string name="label_years">År</string>
     <string name="leftParen">(</string>
     <string name="leftParenDesc">Venstreparentes</string>
@@ -409,6 +448,9 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="tax_unemployment">Arbeidsledighet</string>
     <string name="tax_update_time_format">Data er skaffet av HeXun (%s)</string>
     <string name="times" />
+    <string name="tv_recurrence_monthly">Månedlig</string>
+    <string name="tv_recurrence_quaterly">Kvartalsvis</string>
+    <string name="tv_recurrence_yearly">Årlig</string>
     <string name="unKnow_error">Ukjent feil</string>
     <string name="unit_cm">Centimeter</string>
     <string name="unit_data_display_area_acre">Mål</string>
@@ -447,6 +489,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviterussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadiske dollar</string>
     <string name="unit_data_display_currency_cdf">Kongolesisk franc</string>
     <string name="unit_data_display_currency_chf">Sveitsiske franc</string>
@@ -538,6 +581,12 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_display_currency_yer">Jemenittisk rial</string>
     <string name="unit_data_display_currency_zar">Sørafrikanske rand</string>
     <string name="unit_data_display_currency_zmw">Zambiske kwacha</string>
+    <string name="unit_data_display_data_b">Byte</string>
+    <string name="unit_data_display_data_gb">Gigabyte</string>
+    <string name="unit_data_display_data_kb">Kilobyte</string>
+    <string name="unit_data_display_data_mb">Megabyte</string>
+    <string name="unit_data_display_data_pb">Petabyte</string>
+    <string name="unit_data_display_data_tb">Terabyte</string>
     <string name="unit_data_display_length_au">Astronomisk enhet</string>
     <string name="unit_data_display_length_chi">Chi</string>
     <string name="unit_data_display_length_cm">Centimeter</string>
@@ -646,6 +695,12 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_short_area_sq.rd">rd²</string>
     <string name="unit_data_short_area_sq.um">μm²</string>
     <string name="unit_data_short_area_sq.yd">yd²</string>
+    <string name="unit_data_short_data_b">B</string>
+    <string name="unit_data_short_data_gb">GB</string>
+    <string name="unit_data_short_data_kb">KB</string>
+    <string name="unit_data_short_data_mb">MB</string>
+    <string name="unit_data_short_data_pb">PB</string>
+    <string name="unit_data_short_data_tb">TB</string>
     <string name="unit_data_short_length_au">⊙</string>
     <string name="unit_data_short_length_chi">chi</string>
     <string name="unit_data_short_length_cm">cm</string>
@@ -770,8 +825,11 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s

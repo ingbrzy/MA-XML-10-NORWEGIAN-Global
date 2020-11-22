@@ -10,6 +10,7 @@
     <string name="download_queued">I kø</string>
     <string name="download_remaining">%s gjenstår</string>
     <string name="download_running">Laster ned</string>
+    <string name="download_running_percent">Laster ned %s</string>
     <string name="download_unknown_title">&lt;Uten navn></string>
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laster ned %1$s</string>
@@ -34,12 +35,12 @@
     <string name="permlab_downloadWithoutNotification">Last ned filer uten varsel</string>
     <string name="permlab_seeAllExternal">Se alle nedlastinger til USB-lagring</string>
     <string name="root_downloads">Nedlastinger</string>
-    <string name="wifi_recommended_body" formatted="false">"Starting av denne %s nedlastingen nå kan redusere batterilevetiden din og/eller resultere i overforbruk av mobildatatilkoblingen din, som videre kan føre til ekstrakostnader fra operatøren din (avhengig av ditt abonnement).
+    <string name="wifi_recommended_body">"Starting av denne %1$s nedlastingen nå kan redusere batterilevetiden din og/eller resultere i overforbruk av mobildatatilkoblingen din, som videre kan føre til ekstrakostnader fra operatøren din (avhengig av ditt abonnement).
 
-Trykk %s for å starte denne nedlastingen neste gang du er tilkoblet et trådløst nettverk."</string>
+Trykk %2$s for å starte denne nedlastingen neste gang du er tilkoblet et trådløst nettverk."</string>
     <string name="wifi_recommended_title">Sette i kø for nedlasting senere?</string>
-    <string name="wifi_required_body" formatted="false">"Koble til Wi-Fi for å fullføre denne %s nedlastingen
+    <string name="wifi_required_body">"Koble til Wi-Fi for å fullføre denne %1$s nedlastingen
 
-Trykk%s for å starte denne nedlastingen neste gang du er tilkoblet et Wi-Fi-nettverk."</string>
+Trykk%2$s for å starte denne nedlastingen neste gang du er tilkoblet et Wi-Fi-nettverk."</string>
     <string name="wifi_required_title">Filen er for stor til å laste ned over mobildata</string>
 </resources>

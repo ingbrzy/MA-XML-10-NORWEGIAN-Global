@@ -320,6 +320,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">%d låste apper</item>
         <item quantity="one">%d låst app</item>
     </plurals>
+    <plurals name="om_running_apps_num">
+        <item quantity="other">%d apper</item>
+        <item quantity="one">%d app</item>
+    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
         <item quantity="one">+%d</item>

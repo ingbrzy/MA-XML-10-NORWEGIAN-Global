@@ -30,7 +30,7 @@
     <string name="advanced_mode">Avanserte innstillinger</string>
     <string name="anti_flicker_mode">Antiflimmer</string>
     <string name="anti_flicker_mode_categroy">Moduser</string>
-    <string name="anti_flicker_mode_summary">Reduser flimmer i lite lys for å redusere belastningen på øynene. Noen elementer vises kanskje ikke riktig.</string>
+    <string name="anti_flicker_mode_summary">Forhindre utstrakt flimring og redusere belastning på øynene i lite lys</string>
     <string name="anti_flicker_title">Antiflimmer-modus</string>
     <string name="app_name">Innstillinger</string>
     <string name="application_sound">Appvarsler</string>
@@ -51,6 +51,10 @@
     <string name="created">Opprettet</string>
     <string name="created_successfully">Opprettet</string>
     <string name="cu_confirm">Angi</string>
+    <string name="dc_light_hint_enable_title">Obs</string>
+    <string name="dc_light_hint_normal">DC dimming kan påvirke hvordan noen av elementene vises.</string>
+    <string name="dc_light_hint_other">DC dimming kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
+    <string name="dc_lignt_enable_hint">Antiflimmermodus setter skjermens oppdateringsfrekvens til 60 Hz. Bytt til antiflimmermodus?</string>
     <string name="display_description">Større ikoner, større tekst, færre visuelle forstyrrelser</string>
     <string name="display_title">Større elementer</string>
     <string name="exit_easymode">Slå av Lite-modus</string>
@@ -66,6 +70,7 @@
     <string name="follow_sim1">Bruk SIM 1-innstillinger</string>
     <string name="gamma">Gamma</string>
     <string name="healthy_use_phone">Administrer skjermtid</string>
+    <string name="high_fps_description">Høy oppdateringsfrekvens for skjerm. Høyere strømforbruk.</string>
     <string name="hsv_space_color">HSV-fargeområde</string>
     <string name="hsv_space_color_hue">Fargetone</string>
     <string name="hsv_space_color_saturation">Metning</string>
@@ -74,6 +79,7 @@
     <string name="intelligent_recognition_item_title">Identifiser tjenester</string>
     <string name="less_than_one">&lt; %d</string>
     <string name="lock_summary">Beskytt personopplysningene dine</string>
+    <string name="low_fps_description">Lav oppdateringsfrekvens for skjerm. Lavere strømforbruk.</string>
     <string name="low_light_preview">Forhåndsvisning i lite lys</string>
     <string name="mms">Meldinger</string>
     <string name="more_ringtone">Alle ringetoner</string>
@@ -119,6 +125,7 @@
     <string name="search_menu_title">Søk</string>
     <string name="several_days_use_time">Skjermtid: %2$s</string>
     <string name="shortcut_created">Snarveien finnes allerede</string>
+    <string name="silent_ringtone_hint">Lyden er dempet nå. Øk volumet og prøv igjen.</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
     <string name="sms_delivered_sound_title">Levert melding</string>
@@ -158,7 +165,9 @@
     <string name="usage_app_limit_alter_title">Sjekk skjermtidsgrense</string>
     <string name="usage_app_limit_prelong">Forleng tid</string>
     <string name="usage_app_limit_reach_summay">%s gjenstår</string>
+    <string name="usage_app_limit_reach_summay_new">Trykk for å legge til %d minutter</string>
     <string name="usage_app_limit_reach_title">%s nærmer seg skjermtidsgrensen sin</string>
+    <string name="usage_app_limit_reach_title_new" formatted="false">Gjenværende skjermtid for %1s: %2s</string>
     <string name="usage_app_limit_summary">Valgte apper vil ikke være tilgjengelige når grensen er nådd</string>
     <string name="usage_app_limit_title">Begrens skjermtid</string>
     <string name="usage_app_other_settings">Tilleggsinnstillinger</string>
@@ -210,8 +219,12 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_home_premission_second_summary_double_link_prefix">Vi beskytter personopplysningene dine i samsvar med relevante lover, forskrifter og personvernerklæringer. Hvis du ikke samtykker i å gi slike tillatelser eller dele og laste opp personopplysningene dine, kan du ikke bruke denne appen. Du kan tilbakekalle autorisasjonen din under Skjermtid > Innstillinger > Deaktiver Skjermtid.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Før du bruker denne appen må du lese og godta &lt;a href='%1s'>brukeravtalen&lt;/a> og &lt;a href='%2s'>personvernerklæringen&lt;/a> vår.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Vi beskytter personopplysningene dine i samsvar med relevante lover, forskrifter og personvernerklæringer. Hvis du ikke samtykker i å gi slike tillatelser eller dele og laste opp personopplysningene dine, kan du ikke bruke denne appen. Du kan tilbakekalle autorisasjonen din under Skjermtid > Innstillinger > Deaktiver Skjermtid. Hvis du har flere spørsmål om personvern, kan du kontakte oss på privacy@xiaomi.com.</string>
+    <string name="usage_new_home_app_limit_summary">Angi en daglig skjermtidsgrense for denne appen</string>
+    <string name="usage_new_home_app_limit_title">Begrens skjermtid</string>
     <string name="usage_new_home_average">"Snitt "</string>
+    <string name="usage_new_home_avg_usage_day">Gjennomsnittlig %s daglig</string>
     <string name="usage_new_home_category">Kategori</string>
+    <string name="usage_new_home_classify_manage">Administrer appkategorier</string>
     <string name="usage_new_home_compare_text1">%.2f mer enn dagen før</string>
     <string name="usage_new_home_compare_text2">%.2f mindre enn dagen før</string>
     <string name="usage_new_home_compare_text3">Det samme som dagen før</string>
@@ -219,15 +232,19 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_new_home_dashboard">Dashbord</string>
     <string name="usage_new_home_date_day_title">%s | Bruksvarighet</string>
     <string name="usage_new_home_day_category_title">Appkategorier</string>
+    <string name="usage_new_home_day_category_title_new">Skjermtid for appkategorier %s</string>
     <string name="usage_new_home_day_title">Dag</string>
     <string name="usage_new_home_day_usage_title">Individuelle apper</string>
+    <string name="usage_new_home_day_usage_title_new">Skjermtid %s</string>
     <string name="usage_new_home_first_unlock">Først låst opp: %s</string>
     <string name="usage_new_home_name">Navn</string>
     <string name="usage_new_home_show_more_data_summary">Du kan også begrense skjermtiden for individuelle apper</string>
     <string name="usage_new_home_show_more_data_title">Se mer statistikk</string>
+    <string name="usage_new_home_sys_no_limit_summary">Kan ikke begrense skjermtid for systemapper</string>
     <string name="usage_new_home_unlock_equals_text">Det samme som dagen før</string>
     <string name="usage_new_home_unused">Brukte ikke</string>
     <string name="usage_new_home_update">Endre</string>
+    <string name="usage_new_home_usage_detail">Detaljer om bruk</string>
     <string name="usage_new_home_week_category_title">Appkategorier</string>
     <string name="usage_new_home_week_compare_text1">%.2f mer enn uken før</string>
     <string name="usage_new_home_week_compare_text2">%.2f mindre enn uken før</string>
@@ -249,7 +266,7 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_reach_device_limit_warning_text">Du har nådd skjermtidsgrensen for i dag</string>
     <string name="usage_refresh">Prøv igjen</string>
     <string name="usage_remain_about_hour_miunte">≈%1$s %2$s</string>
-    <string name="usage_remain_hour_miunte">%1$s%2$s</string>
+    <string name="usage_remain_hour_miunte">%1$s %2$s</string>
     <string name="usage_request_error_summary">En ukjent feil oppsto</string>
     <string name="usage_request_timeout_summary">Forespørselen ble tidsavbrutt</string>
     <string name="usage_runtime_per_des_summary">For å lagre din Skjermtid-statistikk</string>
@@ -363,6 +380,8 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_stats_week_day">Helger</string>
     <string name="usage_total_days">Totalt antall dager</string>
     <string name="usage_total_times">Totalt antall økter</string>
+    <string name="usage_week_avg_usage_title">Snitt denne uken</string>
+    <string name="usage_week_avg_usage_title2">Snittid</string>
     <string name="usage_weekly_report_summary">Lær hvordan du bruker tid med enheten din</string>
     <string name="usage_weekly_report_title">Ukentlig rapport</string>
     <string name="usagestats_app_category_miui_education">Utdanning</string>

@@ -35,6 +35,11 @@
     <string name="close_panel">Skru av Quick ball</string>
     <string name="copy">Kopiér</string>
     <string name="customize_entries">Velg snarveier</string>
+    <string name="edge_distance_pref_summary">Trykk på aktiveringsområdene nær skjermkantene for at Quick ball skal dukke opp</string>
+    <string name="edge_distance_pref_title">Aktiveringsområder</string>
+    <string name="edge_mode_custom_summary">Juster størrelsen på aktiveringsområdene nær skjermkantene</string>
+    <string name="edge_mode_custom_title">Egendefinert</string>
+    <string name="edge_mode_default_title">Standard</string>
     <string name="enable_touch_assistant">Skru på Quick ball</string>
     <string name="expand_button_title">Avansert</string>
     <string name="function_settings">Snarveisinnstillinger</string>
@@ -67,6 +72,7 @@
     <string name="name_trans_cards">Transport-kort</string>
     <string name="name_wechat_payment_code">WeChat-betaling</string>
     <string name="name_wechat_scan">WeChat-skanner</string>
+    <string name="name_xiao_ai">Mi AI</string>
     <string name="nfc_all_mipay_card_not_in_use">Mi Pay er ikke aktivert</string>
     <string name="nfc_trans_card_not_in_use">Transportkorter er ikke aktivert</string>
     <string name="not_set">Ikke angitt</string>

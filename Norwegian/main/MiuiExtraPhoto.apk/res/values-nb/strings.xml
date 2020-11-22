@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="doc_photo_adjust_section_title">Dra for å justere</string>
+    <string name="doc_photo_cancel">Avbryt</string>
+    <string name="doc_photo_confirm">Avslutt</string>
+    <string name="doc_photo_doc_photo_title">Rediger dokument</string>
+    <string name="doc_photo_enhance_bin">S/H</string>
+    <string name="doc_photo_enhance_color">Forbedret</string>
+    <string name="doc_photo_enhance_none">Opprinnelig</string>
+    <string name="doc_photo_idcard_alert_msg">Forkaste alle endringer og avslutte redigeringsprogrammet?</string>
+    <string name="doc_photo_idcard_emblem">Bakside</string>
+    <string name="doc_photo_idcard_mode_title">ID-kort</string>
+    <string name="doc_photo_idcard_portrait">Fremside</string>
+    <string name="doc_photo_not_support">Kan ikke redigere dette bildet som et dokument</string>
+    <string name="doc_photo_view_effect">Forhåndsvisning</string>
     <string name="extra_photo_common_save_fail">Kunne ikke lagre</string>
     <string name="extra_photo_common_saving">Lagrer…</string>
     <string name="motion_photo_cancel">Avbryt</string>
@@ -25,6 +38,7 @@
     <string name="refocus_save_to_video">Lagre som video</string>
     <string name="refocus_saving">Lagrer…</string>
     <string name="refocus_title">Uklarhet</string>
+    <string name="refocus_type_movie_relighting">Filmatisk</string>
     <string name="refocus_type_relighting">Studio-lys</string>
     <string name="refocus_type_relighting_no_face">Kunne ikke finne ansikt</string>
     <string name="refocus_type_relighting_small_face">Studiolys fungerer på bilder hvor ansiktet tar mer plass enn her.</string>

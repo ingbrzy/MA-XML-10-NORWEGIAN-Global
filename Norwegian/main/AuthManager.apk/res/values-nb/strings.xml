@@ -83,6 +83,8 @@
     <string name="HIPS_Perm_get_tasks_Desc">få oppgaver</string>
     <string name="HIPS_Perm_install_shortcut">Snarveier på startskjermbildet</string>
     <string name="HIPS_Perm_install_shortcut_Desc">legg snarveier til startskjermbildet</string>
+    <string name="HIPS_Perm_mediaVolume">Juster medievolumet</string>
+    <string name="HIPS_Perm_mediaVolume_Desc">Gi appen tillatelse til å justere medievolumet</string>
     <string name="HIPS_Perm_process_nfc">NFC</string>
     <string name="HIPS_Perm_process_nfc_Desc">tilgang til nær feltkommunikasjon (NFC) maskinvare</string>
     <string name="HIPS_Perm_process_outgoing_calls">Tilgang til telefonapp</string>
@@ -117,6 +119,10 @@
     <string name="location_warning">%1$s er leverandør av plasseringstjenester for denne enheten. Plasseringstilgang kan endres fra plasseringsinnstillinger.</string>
     <string name="never_ask_again">Ikke spør meg igjen etter begrensning</string>
     <string name="ok">OK</string>
+    <string name="perm_action_allow">Tillat</string>
+    <string name="perm_action_deny">Tillat aldri</string>
+    <string name="perm_modem_location">Tilgang til plasseringen din</string>
+    <string name="perm_modem_location_desc">Operatøren din prøver å få tilgang til plasseringsinformasjon. Dele plasseringsinformasjonen med operatøren?</string>
     <string name="permdesc_camera">Ta bilder og spille inn videoer</string>
     <string name="permdesc_in_calls">Overvåke innkommende anrop</string>
     <string name="permdesc_location">Få tilgang til plasseringsinformasjon</string>

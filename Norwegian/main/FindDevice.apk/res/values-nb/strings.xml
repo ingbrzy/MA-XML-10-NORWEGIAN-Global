@@ -46,8 +46,8 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="passport_trust_device">Stol på denne enheten</string>
     <string name="passport_vcode_prompt_long">Tast inn bekreftelseskode</string>
     <string name="passport_verify">Bekreft</string>
-    <string name="password">Passord</string>
-    <string name="phone_locked">Denne enheten kan kobles til en eksisterende Mi Account (%s). Logg inn for å aktivere denne enheten.</string>
+    <string name="password">Angi passord</string>
+    <string name="phone_locked">Denne enheten er tilknyttet en Mi-konto (%s). Angi passord for å aktivere enheten.</string>
     <string name="phone_locked_account_email">, tilknyttet e-post: %s</string>
     <string name="phone_locked_account_phone">, tilknyttet telefonnummer: %s</string>
     <string name="return_to_call">Gå tilbake til anrop</string>
@@ -74,14 +74,14 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="unlock_error_unknown">Kan ikke logge inn</string>
     <string name="unlock_error_user_name">Ugyldig brukernavn</string>
     <string name="unlock_error_wrong_vcode">Koden du har skrevet inn er feil</string>
-    <string name="unlock_help">"Forbli tilkoblet til nettverket.
-Sørg for at du har installert et SIM-kort som virker (hvis enheten din støtter dette), og at din enhet er koblet til et gyldig Wi-Fi-nettverk.
+    <string name="unlock_help">"Koble til nettverket.
+Sett inn et fungerende SIM-kort og ikke koble til ugyldige Wi-Fi-nettverk.
 
-Glemt passord?
-Gå til id.mi.com for å tilbakestille passordet ditt
+Glemt passordet?
+Gå til id.mi.com, velg «Glemt passordet?» og følg instruksjonene.
 
-Andre grunner
-Logg inn på i.mi.com og prøv å låse opp enheten din derfra."</string>
+Kan du ikke aktivere enheten?
+Gå til i.mi.com/ss og send inn en søknad om å låse opp enheten."</string>
     <string name="unlock_help_title">Lås opp hjelp:</string>
     <string name="unlock_number">Opplåsingskode: %s</string>
     <string name="unlock_wrong_captcha">Koden du har skrevet inn er feil</string>

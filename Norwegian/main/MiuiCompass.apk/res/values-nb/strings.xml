@@ -79,6 +79,7 @@
     <string name="location_enabled">Du kan når som helst skru av stedtjenester i Innstillingene.</string>
     <string name="location_north">NL</string>
     <string name="location_not_enabled_summary">Kompasset er nødvendig for å få tilgang til beliggenheten din for å vise koordinater og høyde.</string>
+    <string name="location_not_enabled_summary_no_pressure_sensor">Kompass trenger tilgang til plasseringen din for å vise nåværende koordinater.</string>
     <string name="location_not_enabled_title">Stedtjenester</string>
     <string name="location_south">SL</string>
     <string name="location_west">VL</string>

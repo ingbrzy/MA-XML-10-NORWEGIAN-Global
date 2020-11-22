@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_earth">
+        <item>Hjem</item>
+        <item>Bakgrunn/Superbakgrunner/Hjem</item>
+        <item>Jorden;Superbakgrunner;Jorden-utgave;Bakgrunn</item>
+    </string-array>
+    <string-array name="settings_search_mars">
+        <item>Den røde planeten</item>
+        <item>Bakgrunn/Superbakgrunn/Den røde planeten</item>
+        <item>Mars;Mars-utgave;Superbakgrunner;Bakgrunn</item>
+    </string-array>
+    <string-array name="settings_search_superwp">
+        <item>Superbakgrunner</item>
+        <item>Bakgrunn/Superbakgrunner</item>
+        <item>Superbakgrunner;Bakgrunn;Dynamisk bakgrunn;3D-bakgrunn</item>
+    </string-array>
+</resources>

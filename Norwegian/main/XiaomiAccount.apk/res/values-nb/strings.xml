@@ -157,6 +157,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="confirm_unbundled_phone_dialog_message">Telefonnummeret %1$s er knyttet til Mi-konto %2$s. Det vil ikke lenger være knyttet til Mi-konto %3$s hvis du fortsetter. Fortsette?</string>
     <string name="continue_action">Fortsett</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_to_clipboard_successful">Kopiert</string>
     <string name="delete_action">Slett</string>
     <string name="delete_bank_card_message">Mi Pay-bankkort og NFC-kort vil bli slettet når du logger av.</string>
     <string name="delete_bank_card_title">Merk</string>
@@ -357,6 +358,10 @@ Send denne koden til den overordnede."</string>
     <string name="passport_get_verify_code">Få kode</string>
     <string name="passport_getting_activator_phone">Henter SIM-info…</string>
     <string name="passport_getting_verify_code">Henter</string>
+    <string name="passport_google_login">Logge på med den sist brukte Google-kontoen?</string>
+    <string name="passport_google_login_agree">Google-konto</string>
+    <string name="passport_google_login_disagree">Mi-konto</string>
+    <string name="passport_google_login_failed">Kunne ikke logge inn med Google. Logg inn på Mi-kontoen din direkte.</string>
     <string name="passport_i_know">Skjønner</string>
     <string name="passport_identification_expired">Verifiseringskoden er utløpt, begynn på nytt</string>
     <string name="passport_imei_permission_denied_message">Vi ber om tillatelse til å hente enhetens IMEI. Mi-kontoen bruker IMEI for å identifsere enheten du logger på / registrerer med, slik at Mi-kontoen din forblir sikker.</string>

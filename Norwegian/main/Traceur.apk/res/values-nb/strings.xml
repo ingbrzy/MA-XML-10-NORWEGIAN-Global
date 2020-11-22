@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">Dette er en eksperimentell funksjon som kan gjøre at telefonen ikke fungerer optimalt.</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Med fargekorrigering kan du justere hvordan farger vises på enheten din</string>
     <string name="accessibility_display_daltonizer_preference_title">Fargekorrigering</string>
     <string name="accessibility_manual_zen_less_time">Mindre tid.</string>
     <string name="accessibility_manual_zen_more_time">Mer tid.</string>
@@ -39,10 +39,40 @@
     <string name="accessibility_wifi_signal_full">Wi-Fi-signalet er ved full styrke.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi-signal med tre stolper.</string>
     <string name="accessibility_wifi_two_bars">Wi-Fi-signal med to stolper.</string>
+    <string name="accessor_expires_text">Leieperioden utløper %s</string>
+    <string name="accessor_info_title">Apper deler data</string>
+    <string name="accessor_no_description_text">Appen gir ingen beskrivelse.</string>
     <string name="active_input_method_subtypes">Aktive inndatametoder</string>
+    <string name="adb_device_fingerprint_title_format">Enhetens fingeravtrykk: %1$s</string>
+    <string name="adb_device_forget">Glem</string>
     <string name="adb_keys_warning_message">Vil du oppheve tilgangen til USB-feilsøking fra alle datamaskiner du tidligere har autorisert?</string>
+    <string name="adb_pair_method_code_summary">Koble til nye enheter med en sekssifret kode</string>
+    <string name="adb_pair_method_code_title">Koble til enheten med en tilkoblingskode</string>
+    <string name="adb_pair_method_qrcode_summary">Koble til nye enheter med en QR-kodeskanner</string>
+    <string name="adb_pair_method_qrcode_title">Koble til enheten med en QR-kode</string>
+    <string name="adb_paired_devices_title">Tilkoblede enheter</string>
+    <string name="adb_pairing_device_dialog_failed_msg">Sørg for at enheten er koblet til samme nettverk.</string>
+    <string name="adb_pairing_device_dialog_failed_title">Tilkoblingen mislyktes</string>
+    <string name="adb_pairing_device_dialog_pairing_code_label">Wi‑Fi-tilkoblingskode</string>
+    <string name="adb_pairing_device_dialog_title">Koble til enheten</string>
+    <string name="adb_qrcode_pairing_device_failed_msg">Kunne ikke koble til enheten. Enten var QR-koden feil, eller enheten er ikke koblet til samme nettverk.</string>
     <string name="adb_warning_message">USB-feilsøking er bare ment for utviklingsformål. Bruk det til å kopiere data mellom datamaskinen og enheten, installere apper på enheten uten varsel og lese loggdata.</string>
     <string name="adb_warning_title">Tillate USB-feilsøking?</string>
+    <string name="adb_wireless_connection_failed_message">Sørg for at %1$s er koblet til riktig nettverk</string>
+    <string name="adb_wireless_connection_failed_title">Tilkoblingen mislyktes</string>
+    <string name="adb_wireless_device_connected_summary">Tilkoblet nå</string>
+    <string name="adb_wireless_device_details_title">Enhetsdetaljer</string>
+    <string name="adb_wireless_error">Feil</string>
+    <string name="adb_wireless_ip_addr_preference_title">IP-adresse og port</string>
+    <string name="adb_wireless_list_empty_off">For å se og bruke tilgjengelige enheter, slå på trådløs feilsøking</string>
+    <string name="adb_wireless_no_network_msg">Koble til et Wi-Fi-nettverk</string>
+    <string name="adb_wireless_qrcode_pairing_description">Koble til enheten via Wi-Fi ved å skanne en QR-kode</string>
+    <string name="adb_wireless_qrcode_pairing_title">Skann QR-koden</string>
+    <string name="adb_wireless_qrcode_summary">Koble til enheten via Wi-Fi ved å skanne en QR-kode</string>
+    <string name="adb_wireless_settings">Trådløs feilsøking</string>
+    <string name="adb_wireless_verifying_qrcode_text">Kobler til enheten …</string>
+    <string name="adbwifi_warning_message">Trådløs feilsøking er bare ment for utviklingsformål. Bruk det til å kopiere data mellom datamaskinen og enheten, installere apper på enheten uten varsel og lese loggdata.</string>
+    <string name="adbwifi_warning_title">Vil du tillate trådløs feilsøking?</string>
     <string name="alarm_template">kl. %1$s</string>
     <string name="alarm_template_far">%1$s</string>
     <string name="all_traces_will_be_deleted">Alle spor slettes fra /data/local/traces</string>
@@ -52,14 +82,19 @@
     <string name="apn_settings_not_available">Innstillingene for navn på tilgangspunkt er ikke tilgjengelig for denne brukeren</string>
     <string name="app_process_limit_title">Bakgrunnsprosessgrense</string>
     <string name="applications">Apper</string>
+    <string name="auto_connect_disable">Automatisk tilkobling er av</string>
+    <string name="available_via_app">Tilgjengelig via %1$s</string>
     <string name="available_via_carrier">Tilgjengelig via %1$s</string>
     <string name="available_via_passpoint">Tilgjengelig via %1$s</string>
     <string name="battery_info_status_charging">Lader</string>
-    <string name="battery_info_status_charging_lower">lader</string>
+    <string name="battery_info_status_charging_fast">Lader raskt</string>
+    <string name="battery_info_status_charging_slow">Lader sakte</string>
     <string name="battery_info_status_discharging">Lader ikke</string>
     <string name="battery_info_status_full">Fullt</string>
     <string name="battery_info_status_not_charging">Laderen er koblet til – kan ikke lade akkurat nå</string>
     <string name="battery_info_status_unknown">Ukjent</string>
+    <string name="blob_expires_text">Utløper %s</string>
+    <string name="blob_id_text">Delt data-ID: %d</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Koblet til medielyd</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Bruk for medielyd</string>
     <string name="bluetooth_active_battery_level">Aktiv, %1$s batteri</string>
@@ -81,6 +116,8 @@
     <string name="bluetooth_disable_absolute_volume_summary">Slår av funksjonen for absolutt volum via Bluetooth i tilfelle det oppstår volumrelaterte problemer med eksterne enheter, for eksempel uakseptabelt høyt volum eller mangel på kontroll.</string>
     <string name="bluetooth_disconnected">Frakoblet</string>
     <string name="bluetooth_disconnecting">Kobler fra…</string>
+    <string name="bluetooth_enable_gabeldorsche">Aktiver Gabeldorsche</string>
+    <string name="bluetooth_enable_gabeldorsche_summary">Aktiverer funksjonsstabelen Bluetooth Gabeldorsche</string>
     <string name="bluetooth_headset_profile_summary_connected">Koblet til telefonlyd</string>
     <string name="bluetooth_headset_profile_summary_use_for">Bruk for telefonlyd</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Koblet til høreapparater</string>
@@ -97,7 +134,7 @@
     <string name="bluetooth_opp_profile_summary_not_connected">Ikke koblet til tjener for filoverføring</string>
     <string name="bluetooth_opp_profile_summary_use_for">Bruk til filoverføring</string>
     <string name="bluetooth_pairing">Sammenkobles …</string>
-    <string name="bluetooth_pairing_accept">Sammenkoble</string>
+    <string name="bluetooth_pairing_accept">Koble til</string>
     <string name="bluetooth_pairing_accept_all_caps">KOBLE TIL</string>
     <string name="bluetooth_pairing_decline">Avbryt</string>
     <string name="bluetooth_pairing_device_down_error_message">Kan ikke kommunisere med %1$s.</string>
@@ -139,8 +176,11 @@ Valg: samplefrekvens"</string>
     <string name="bluetooth_select_a2dp_codec_type">Kodek for Bluetooth-lyd</string>
     <string name="bluetooth_select_a2dp_codec_type_dialog_title">"Utløs kodek for Bluetooth-lyd
 Valg"</string>
+    <string name="bluetooth_select_a2dp_codec_type_help_info">Hvis den er nedtonet, støttes den ikke av telefonen eller hodetelefonene</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Velg Bluetooth AVRCP-versjon</string>
     <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP-versjon</string>
+    <string name="bluetooth_select_map_version_dialog_title">Velg Bluetooth MAP-versjon</string>
+    <string name="bluetooth_select_map_version_string">Bluetooth MAP-versjon</string>
     <string name="bluetooth_show_devices_without_names">Vis Bluetooth-enheter uten navn</string>
     <string name="bluetooth_show_devices_without_names_summary">Bluetooth-enheter uten navn (bare MAC-adresser) vises</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
@@ -156,6 +196,10 @@ Valg"</string>
     <string name="bugreport_in_power">Snarvei til feilrapport</string>
     <string name="bugreport_in_power_summary">Vis en knapp for generering av feilrapport i batterimenyen</string>
     <string name="button_convert_fbe">Slett og konvertér …</string>
+    <string name="cached_apps_freezer_device_default">Standard for enheten</string>
+    <string name="cached_apps_freezer_disabled">Slått av</string>
+    <string name="cached_apps_freezer_enabled">Slått på</string>
+    <string name="cached_apps_freezer_reboot_dialog_text">Enheten din må startes på nytt for at denne endringen skal tre i kraft. Start på nytt nå eller avbryt.</string>
     <string name="cancel">Avbryt</string>
     <string name="categories">Kategorier</string>
     <string name="category_personal">Personlig</string>
@@ -166,6 +210,7 @@ Valg"</string>
     <string name="clear_adb_keys">USB-feilsøking – opphev autorisasjon</string>
     <string name="clear_saved_traces">Fjern lagrede spor</string>
     <string name="clear_saved_traces_question">Vil du fjerne lagrede spor?</string>
+    <string name="clear_saved_traces_summary">Spor blir fjernet etter én måned</string>
     <string name="confirm_enable_oem_unlock_text">ADVARSEL: Funksjoner for enhetsbeskyttelse fungerer ikke på denne enheten mens denne innstillingen er slått på.</string>
     <string name="confirm_enable_oem_unlock_title">Vil du tillate OEM-opplåsing?</string>
     <string name="connected_via_app">Tilkoblet via %1$s</string>
@@ -207,6 +252,8 @@ Valg"</string>
     <string name="debug_view_attributes">Slå på inspeksjon av visningsattributt</string>
     <string name="default_categories">Standard</string>
     <string name="default_categories_restored">Standardkategorier er gjenopprettet</string>
+    <string name="delete_blob_confirmation_text">Er du sikker på at du vil slette disse delte dataene?</string>
+    <string name="delete_blob_text">Slett delte data</string>
     <string name="dev_logpersist_clear_warning_message">Når vi ikke lenger overvåker med den varige loggeren, kreves det at vi tømmer loggdataene som ligger på enheten din.</string>
     <string name="dev_logpersist_clear_warning_title">Vil du tømme det varige logglageret?</string>
     <string name="dev_settings_warning_message">Disse innstillingene er bare beregnet for bruk under programutvikling. De kan forårsake problemer med enheten din og tilhørende apper.</string>
@@ -226,6 +273,8 @@ Valg"</string>
     <string name="eight_thousand_kb">8192 kB</string>
     <string name="enable_adb">USB-feilsøking</string>
     <string name="enable_adb_summary">Feilsøkingsmodus når USB kobles til</string>
+    <string name="enable_adb_wireless">Trådløs feilsøking</string>
+    <string name="enable_adb_wireless_summary">Feilsøkingsmodus når Wi-Fi er tilkoblet</string>
     <string name="enable_freeform_support">Slå på vinduer i fritt format</string>
     <string name="enable_freeform_support_summary">Slå på støtte for vinduer i eksperimentelt fritt format.</string>
     <string name="enable_gpu_debug_layers">Slå på GPU-feilsøkingslag</string>
@@ -233,7 +282,11 @@ Valg"</string>
     <string name="enable_opengl_traces_title">Slå på OpenGL-spor</string>
     <string name="enable_terminal_summary">Aktiver terminalappen som gir lokal kommandolistetilgang</string>
     <string name="enable_terminal_title">Lokal terminal</string>
+    <string name="enable_verbose_vendor_logging">Detaljert leverandørlogging</string>
+    <string name="enable_verbose_vendor_logging_summary">Inkluder ytterligere enhetsspesifikke leverandørlogger i feilrapporter, som kan inneholde privat informasjon, bruke mer batteri og/eller bruke mer lagringsplass.</string>
     <string name="enabled_by_admin">Aktivert av administratoren</string>
+    <string name="enhanced_connectivity">Forbedret tilkobling</string>
+    <string name="enhanced_connectivity_summary">Slår på Forbedret tilkobling-funksjonen.</string>
     <string name="expand_button_title">Avansert</string>
     <string name="external_source_trusted">Tillatt</string>
     <string name="external_source_untrusted">Ikke tillatt</string>
@@ -248,9 +301,13 @@ Valg"</string>
     <string name="force_rtl_layout_all_locales">Tving layoutretning for RTL</string>
     <string name="force_rtl_layout_all_locales_summary">Tving RTL-retning på skjermen for alle språk</string>
     <string name="four_thousand_kb">4096 kB</string>
+    <string name="guest_exit_guest">Fjern gjesten</string>
+    <string name="guest_new_guest">Legg til en gjest</string>
+    <string name="guest_nickname">Gjest</string>
     <string name="hdcp_checking_dialog_title">Angi HDPC-kontrolladferd</string>
     <string name="hdcp_checking_title">HDCP-kontroll</string>
     <string name="help_feedback_label">Hjelp og tilbakemelding</string>
+    <string name="help_label">Hjelp og tilbakemelding</string>
     <string name="home">Innstillinger for startsiden</string>
     <string name="ime_security_warning">Denne inndatametoden har tilgang til all tekst du skriver, blant annet personlige opplysninger som for eksempel passord og kredittkortnumre. Den kommer fra appen %1$s. Vil du bruke denne inndatametoden?</string>
     <string name="immediately_destroy_activities">Ikke behold aktiviteter</string>
@@ -258,6 +315,7 @@ Valg"</string>
     <string name="ims_reg_status_not_registered">Ikke registrert</string>
     <string name="ims_reg_status_registered">Registrert</string>
     <string name="ims_reg_title">Tilstand for IMS-registrering</string>
+    <string name="imsi_protection_warning">Dette nettverket mottar en unik ID som kan brukes til å spore enhetsposisjonen. <annotation id="url">Finn ut mer</annotation></string>
     <string name="inactive_app_active_summary">Aktiv. Trykk for å slå av/på.</string>
     <string name="inactive_app_inactive_summary">Ikke aktiv. Trykk for å slå av/på.</string>
     <string name="inactive_apps_title">Apper i ventemodus</string>
@@ -265,6 +323,7 @@ Valg"</string>
     <string name="keep_screen_on">Forbli våken</string>
     <string name="keep_screen_on_summary">Skjermen blir aldri svart under lading</string>
     <string name="keywords">sysspor, spor, ytelse</string>
+    <string name="keywords_adb_wireless">adb, feilsøking, utvikler</string>
     <string name="launch_defaults_none">Ingen standardvalg er angitt</string>
     <string name="launch_defaults_some">Noen standardvalg er angitt</string>
     <string name="lb_control_display_fast_forward_multiplier">%1$dX</string>
@@ -318,7 +377,9 @@ Valg"</string>
     <string name="max_long_trace_duration">Maksimal varighet for langt spor</string>
     <string name="max_long_trace_size">Maksimal størrelse for langt spor</string>
     <string name="media_category">Medier</string>
-    <string name="media_transfer_this_device_name">Denne enheten</string>
+    <string name="media_transfer_this_device_name">Telefonhøyttaler</string>
+    <string name="media_transfer_wired_device_name">Lydenhet med kabel</string>
+    <string name="media_transfer_wired_usb_device_name">Hodetelefoner med kabel</string>
     <string name="mobile_data_always_on">Mobildata er alltid aktiv</string>
     <string name="mobile_data_always_on_summary">Ha alltid mobildata slått på, selv når Wi-Fi er aktiv (for hurtig nettverksbytting).</string>
     <string name="mock_location_app">Velg app for fiktiv plassering</string>
@@ -372,7 +433,7 @@ Valg"</string>
     <string name="power_discharge_by_only">Skal vare til omtrent %1$s</string>
     <string name="power_discharge_by_only_enhanced">Skal vare til omtrent %1$s, basert på bruken din</string>
     <string name="power_discharge_by_only_short">Til %1$s</string>
-    <string name="power_remaining_charging_duration_only">%1$s til det er fulladet</string>
+    <string name="power_remaining_charging_duration_only">%1$s til batteriet er fulladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s gjenstår</string>
     <string name="power_remaining_duration_only_enhanced">Omtrent %1$s gjenstår basert på bruken din</string>
     <string name="power_remaining_duration_only_shutdown_imminent">Telefonen slås kanskje av snart</string>
@@ -382,15 +443,18 @@ Valg"</string>
     <string name="power_remaining_more_than_subtext">Mer enn %1$s gjenstår (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Mer enn %1$s gjenstår</string>
     <string name="power_remaining_settings_home_page">%1$s – %2$s</string>
-    <string name="power_suggestion_extend_battery">Forleng batterilevetiden til etter %1$s</string>
+    <string name="power_suggestion_battery_run_out">Batteriet kan gå tomt %1$s</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preference_summary_default_combination">%1$s / %2$s</string>
+    <string name="private_dns_broken">Den private DNS-tjeneren kan ikke nås</string>
     <string name="private_dns_mode_off">Av</string>
     <string name="private_dns_mode_opportunistic">Automatisk</string>
     <string name="private_dns_mode_provider">Vertsnavn for privat DNS-leverandør</string>
     <string name="private_dns_mode_provider_failure">Kunne ikke koble til</string>
     <string name="private_dns_mode_provider_hostname_hint">Skriv inn vertsnavnet til DNS-leverandøren</string>
     <string name="process_kernel_label">Android-operativsystem</string>
+    <string name="profile_connect_timeout_subtext">Tilkoblingsproblemer. Slå enheten av og på igjen</string>
+    <string name="profile_info_settings_title">Profilinformasjon</string>
     <string name="record_system_activity">Registrer systemaktivitet, og analysér den senere for å forbedre ytelsen</string>
     <string name="record_trace">Registrer spor</string>
     <string name="remaining_length_format">%1$s gjenstår</string>
@@ -425,6 +489,12 @@ Valg"</string>
     <string name="select_webview_provider_toast_text">Dette valget er ikke gyldig lenger. Prøv på nytt.</string>
     <string name="share">Del</string>
     <string name="share_trace">Vil du dele sporet?</string>
+    <string name="shared_data_delete_failure_text">Det har oppstått en feil ved sletting av de delte dataene.</string>
+    <string name="shared_data_no_accessors_dialog_text">Du har ikke skaffet en leieavtale for disse delte dataene. Vil du slette dem?</string>
+    <string name="shared_data_no_blobs_text">Det finnes ingen delte data for denne brukeren.</string>
+    <string name="shared_data_query_failure_text">Det har oppstått en feil ved henting av delte data. Prøv igjen.</string>
+    <string name="shared_data_summary">Se og endre delte data</string>
+    <string name="shared_data_title">Delte data</string>
     <string name="show_all_anrs">Vis ANR-feil i bakgrunnen</string>
     <string name="show_all_anrs_summary">Vis Appen svarer ikke-dialog for bakgrunnsapper</string>
     <string name="show_hw_layers_updates">Vis maskinvarelag-oppdat.</string>
@@ -452,12 +522,15 @@ Valg"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_unavailable">Ikke tilgjengelig</string>
     <string name="stop_tracing">Stopp sporingen</string>
+    <string name="storage_category">Lagring</string>
     <string name="strict_mode">Slå på streng modus</string>
     <string name="strict_mode_summary">Skjermblink ved lange apphandlinger på hovedtråd</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_separator">" / "</string>
     <string name="system_trace_sensitive_data">Systemsporingsfiler kan inneholde sensitive system- og appdata (for eksempel appbruk). Du bør bare dele systemsporingsfiler med personer og apper du stoler på.</string>
     <string name="system_traces_storage_title">Systemspor</string>
     <string name="system_tracing">Systemsporing</string>
+    <string name="tap_to_renew_subscription_and_connect">Trykk for å fornye abonnementet og koble til</string>
     <string name="tap_to_share">Trykk for å dele sporet ditt</string>
     <string name="tap_to_sign_up">Trykk for å registrere deg</string>
     <string name="tap_to_stop_tracing">Trykk for å stoppe sporingen</string>
@@ -518,7 +591,32 @@ Valg"</string>
     <string name="usb_audio_disable_routing_summary">Slå av automatisk lydomkobling til USB-enheter</string>
     <string name="use_perfetto_beta">Bruk Perfetto (beta)</string>
     <string name="use_system_language_to_select_input_method_subtypes">Bruk systemspråk</string>
+    <string name="user_add_profile_item_summary">Du kan begrense tilgangen til apper og innhold fra kontoen din</string>
+    <string name="user_add_profile_item_title">Begrenset profil</string>
+    <string name="user_add_user_item_summary">Brukere har sine egne apper og eget innhold</string>
+    <string name="user_add_user_item_title">Bruker</string>
+    <string name="user_add_user_message_long">"Du kan dele denne enheten med andre folk ved å opprette flere brukere. Hver bruker har sin egen plass de kan tilpasse med apper, bakgrunner og annet. Brukere kan også justere enhetsinnstillinger, for eksempel Wi-Fi, som påvirker alle.
+
+Når du legger til en ny bruker, må vedkommende angi innstillinger for plassen sin.
+
+Alle brukere kan oppdatere apper for alle andre brukere. Innstillinger og tjenester for tilgjengelighet overføres kanskje ikke til den nye brukeren."</string>
+    <string name="user_add_user_message_short">"Når du legger til en ny bruker, må vedkommende konfigurere sitt eget område.
+
+Alle brukere kan oppdatere apper for alle andre brukere."</string>
+    <string name="user_add_user_title">Vil du legge til en ny bruker?</string>
+    <string name="user_add_user_type_title">Legg til</string>
     <string name="user_guest">Gjest</string>
+    <string name="user_info_settings_title">Brukerinformasjon</string>
+    <string name="user_need_lock_message">Før du kan opprette en begrenset profil, må du konfigurere skjermlåsen for å beskytte appene og de personlige dataene dine.</string>
+    <string name="user_new_profile_name">Ny profil</string>
+    <string name="user_new_user_name">Ny bruker</string>
+    <string name="user_set_lock_button">Angi lås</string>
+    <string name="user_setup_button_setup_later">Ikke nå</string>
+    <string name="user_setup_button_setup_now">Konfigurer nå</string>
+    <string name="user_setup_dialog_message">Sørg for at brukeren er tilgjengelig for å konfigurere området sitt på enheten</string>
+    <string name="user_setup_dialog_title">Konfigurere brukeren nå?</string>
+    <string name="user_setup_profile_dialog_message">Vil du konfigurere profilen nå?</string>
+    <string name="user_switch_to_user">Bytt til %s</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="verify_apps_over_usb_summary">Sjekk apper som er installert via ADB/ADT, for skadelig atferd.</string>
@@ -530,7 +628,7 @@ Valg"</string>
     <string name="wifi_cant_connect">Kan ikke koble til</string>
     <string name="wifi_cant_connect_to_ap">Kan ikke koble til «%1$s»</string>
     <string name="wifi_check_password_try_again">Sjekk passordet og prøv igjen</string>
-    <string name="wifi_connected_no_internet">Tilkoblet – ingen Internett-tilgang</string>
+    <string name="wifi_connected_no_internet">Ingen internettilkobling</string>
     <string name="wifi_disabled_by_recommendation_provider">Ikke tilkoblet på grunn av nettverk av lav kvalitet</string>
     <string name="wifi_disabled_generic">Slått av</string>
     <string name="wifi_disabled_network_failure">IP-konfigurasjonsfeil</string>
@@ -539,12 +637,15 @@ Valg"</string>
     <string name="wifi_disconnected">Frakoblet</string>
     <string name="wifi_display_certification">Trådløs skjermsertifisering</string>
     <string name="wifi_display_certification_summary">Vis alternativer for sertifisering av trådløs skjerm</string>
+    <string name="wifi_enhanced_mac_randomization">Wi‑Fi‑forbedret MAC-tilfeldiggjøring</string>
+    <string name="wifi_enhanced_mac_randomization_summary">Når denne modusen er slått på, kan MAC-adressen til denne enheten endres hver gang den kobler seg til et nettverk som har tilfeldiggjøring av MAC-adresse slått på.</string>
     <string name="wifi_fail_to_scan">Kan ikke søke etter nettverk</string>
     <string name="wifi_limited_connection">Begrenset tilkobling</string>
     <string name="wifi_metered_label">Med datamåling</string>
     <string name="wifi_no_internet">Ingen Internett-tilgang</string>
     <string name="wifi_no_internet_no_reconnect">Kobler ikke til automatisk</string>
     <string name="wifi_not_in_range">Utenfor område</string>
+    <string name="wifi_passpoint_expired">Utløpt</string>
     <string name="wifi_remembered">Lagret</string>
     <string name="wifi_scan_throttling">Begrensning av Wi‑Fi-skanning</string>
     <string name="wifi_scan_throttling_summary">Reduserer batteriforbruket og forbedrer nettverksytelsen</string>

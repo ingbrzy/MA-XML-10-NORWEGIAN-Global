@@ -56,6 +56,10 @@
         <item quantity="other">%d Wi-Fi-nettverk</item>
         <item quantity="one">%d Wi-Fi-nettverk</item>
     </plurals>
+    <plurals name="dirty_wlan_count_china">
+        <item quantity="other">%d WLAN networks</item>
+        <item quantity="one">%d WLAN network</item>
+    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Elementer som venter på å synkroniseres: %d</item>
         <item quantity="one">Elementer som venter på å synkroniseres: %d</item>
@@ -75,5 +79,9 @@
     <plurals name="provision_sync_items_status_title">
         <item quantity="other">%s tjeneste blir synkroniserte med Xiaomi Cloud</item>
         <item quantity="one">%s tjeneste blir synkronisert med Xiaomi Cloud</item>
+    </plurals>
+    <plurals name="select_no_more_than">
+        <item quantity="other">Kan ikke velge mer enn %d elementer</item>
+        <item quantity="one">Kan ikke velge mer enn %d element</item>
     </plurals>
 </resources>

@@ -126,13 +126,6 @@ for å kunne se dem når som helst"</string>
     <string name="dual_animation">Start animasjon</string>
     <string name="dual_animation_description">Vis animasjon når doble apper startes</string>
     <string name="enable">Slå på</string>
-    <string name="encrypt_space_delete_dialog_click_message">*Hvis du ikke trenger å flytte dataene, %s</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">slett og opprett Andre område nå.</string>
-    <string name="encrypt_space_delete_dialog_message">Du er i ferd med å foreta en systemoppdatering. Etter oppdateringen vil Andre område bli inkompatibelt. Flytt alle dataene til Første område, slett Andre område, og opprett det på nytt for å unngå dette.</string>
-    <string name="encrypt_space_delete_dialog_positive_text">Flytt data</string>
-    <string name="encrypt_space_delete_dialog_title">Merk</string>
-    <string name="encrypt_space_delete_notification_message">Slett ditt Andre område og opprett et nytt for å oppdatere enheten din.</string>
-    <string name="encrypt_space_delete_notification_title">Andre område</string>
     <string name="ent_activating">Aktiverer…</string>
     <string name="ent_activation">Aktiver</string>
     <string name="ent_activation_hint">Skriv inn bedriftskoden og lisenskoden for å aktivere Organisasjonsmodus. Tilpassede organisasjonstjenester vil bli aktivert etter dette.</string>
@@ -217,7 +210,6 @@ Meldinger vil bare vises i Andre område."</string>
     <string name="guide_pwd_detail_title">"Beskytt dine data
 Gå inn i Andre område fra Låseskjerm"</string>
     <string name="guide_setting_guide_title">Administrer Andre område</string>
-    <string name="guide_start_ads_text">Et helt nytt sikkerhetsnivå</string>
     <string name="guide_start_text">To områder. En enhet.</string>
     <string name="has_created_second_space">"Nå kan du åpne Andre område.
 To områder. En enhet."</string>
@@ -255,6 +247,14 @@ Du kan også laste dem ned separat."</string>
     <string name="master_clear_not_available_ep">Du har ikke lov til å utføre tilbakestilling til fabrikkinnstillinger eller tilbakekalle autorisasjonen nå. Kontakt din overordnede.</string>
     <string name="menu_item_about_privacy_title">Personvernerklæring</string>
     <string name="messageData">Meldinger</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slipp for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Et øyeblikk…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke laste inn elementer</string>
     <string name="more_settings">Mer</string>
     <string name="msg_switch_file">Slette disse filene i Første område etter at de er flyttet?</string>
     <string name="msg_switch_file_second">Slette disse filene i Andre område etter at de er flyttet?</string>
@@ -286,7 +286,6 @@ Du kan også laste dem ned separat."</string>
     <string name="openPasswordGuard">Angi Andre område-passord</string>
     <string name="openSuccess">Slått på</string>
     <string name="opened">På</string>
-    <string name="optimize_now">Optimalisere</string>
     <string name="other">Annet</string>
     <string name="otherSettings">Andre innstillinger</string>
     <string name="passWordGuardSummary">Gå inn i Andre område fra Låseskjerm ved å bruke passord</string>
@@ -310,8 +309,6 @@ Ellers vil du ikke kunne gå inn i Andre område fra Låseskjerm."</string>
     <string name="remove_button">Slett</string>
     <string name="remove_button_time">Slette (%ds)</string>
     <string name="remove_second_space_msg">Alle Andre område-appdata vil gå tapt etter at du sletter Andre område. Slette Andre område nå?</string>
-    <string name="remove_user_click_message">*Hvis du ikke har noen viktige elementer i Andre område, %s</string>
-    <string name="remove_user_click_message_action">kan du slette Andre område og starte enheten på nytt nå.</string>
     <string name="removingSpace">Sletter…</string>
     <string name="repeat_scanner_fingerprint">Legg til på nytt</string>
     <string name="reset_passwd_success">Passordet ble tilbakestilt</string>
@@ -335,14 +332,6 @@ for å gå inn i Andre område fra Låseskjermen"</string>
     <string name="scanner_fingerprint_tips_desc">Velg eksisterende fingeravtrykk for å gå inn i Andre område. Du vil ikke kunne bruke det i Første område.</string>
     <string name="scanner_fingerprint_tips_title">Gå inn i Andre område ved å bruke eksisterende fingeravtrykk</string>
     <string name="scanner_second_space_fingerprint">Skanne fingeravtrykk for Andre område</string>
-    <string name="sdcardfs_dialog_message">Et nytt filsystem introduseres i denne oppdateringen. Gamle data kan være inkompatible med den. For å løse dette problemet, følg trinnene for å installere en oppdatering. Din enhet vil omstartes to ganger under denne oppdateringen.</string>
-    <string name="sdcardfs_dialog_title">Viktig oppdatering</string>
-    <string name="sdcradfs_dialog_in_owner_message">"Et nytt filsystem introduseres under denne oppdateringen. Gamle data kan være inkompatible med dette. For å oppdatere, flytt elementer fra Andre område, start enheten på nytt og opprett Andre område på nytt. 
-Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal."</string>
-    <string name="sdcradfs_dialog_in_owner_title">Andre område</string>
-    <string name="sdcradfs_dialog_in_sec_message">"For å oppdatere må du slette Andre område og deretter opprette det på nytt. Flytt data fra Andre område til Første område og start enheten på nytt for å fullføre oppdateringen. 
-Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal."</string>
-    <string name="sdcradfs_dialog_in_sec_title">Viktig oppdatering</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_menu_title">Søk</string>
     <string name="search_result_text">Kunne ikke finne noen apper</string>
@@ -353,6 +342,8 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="second_space_desktop_tips_dialog_title">Viktig oppdatering</string>
     <string name="second_space_finger_printf_desc">Legg til fingeravtrykk spesifikt brukt til å gå inn i Andre område</string>
     <string name="second_space_finger_printf_title">Andre område-fingeravtrykk</string>
+    <string name="secondspace_homepage">"Angi en skjermlås for Andre område.
+Separer og sikre dataene dine."</string>
     <string name="select_existed_fingerprint">Velg fingeravtrykk</string>
     <string name="serNameSummary">Andre område</string>
     <string name="setSecondSpacePassword">Angi Andre område-passord</string>
@@ -410,7 +401,6 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="space_create_guide_title_1">Beskytt personvernet ditt</string>
     <string name="space_create_guide_title_2">Opprett når som helst</string>
     <string name="space_create_guide_title_3">Fullstendig risikofritt</string>
-    <string name="space_created_success">Andre område opprettet</string>
     <string name="space_deleted">Dette området er slettet</string>
     <string name="space_des_default">Isolert område med krypterte data</string>
     <string name="space_finger_sub_text">Opprett fingeravtrykk for Andre område for å skifte raskere</string>
@@ -427,7 +417,6 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="stop_xspace_alert_title">Slett dobbeltappkontoer</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Velg apper brukt i nåværende område</string>
-    <string name="support_desc">Sikkerhetstjenester leveres av Spaces Mobile</string>
     <string name="sure_to_use">Bekreft</string>
     <string name="switchDataSummary">Flytt elementer mellom områder</string>
     <string name="switch_apps_settings">Appinnstillinger</string>
