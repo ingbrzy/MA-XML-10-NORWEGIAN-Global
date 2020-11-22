@@ -1,17 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="tips">
-        <item>"Vis alle programmer.
- Berør ikonet for Oppstart. @drawable/all_apps"</item>
-        <item>"Dra apper til startsiden.
- Trykk på og hold inne en app i programlisten inntil den vibrerer."</item>
-        <item>"Omorganiser startsiden.
- Berør og hold nede et element, og når det vibrerer, dra det dit du ønsker."</item>
-        <item>"Fjern elementer.
- Berør og hold nede et element, og når det vibrerer, dra det til papirkurven. @drawable/trash"</item>
-        <item>"Flere startsider.
- Sveip til venstre eller høyre for å bytte. Dra elementer til andre skjermer."</item>
-        <item>"Ferdig med modulen?
- Berør modulen og hold den nede. Når den vibrerer, dra den til papirkurven."</item>
-    </string-array>
 </resources>
