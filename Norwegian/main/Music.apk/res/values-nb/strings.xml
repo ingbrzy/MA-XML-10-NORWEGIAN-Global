@@ -280,7 +280,9 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_queued">I kø</string>
@@ -368,7 +370,9 @@
     <string name="exo_media_action_repeat_all_description">Gjenta alle</string>
     <string name="exo_media_action_repeat_off_description">Ikke gjenta noen</string>
     <string name="exo_media_action_repeat_one_description">Gjenta én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -740,6 +744,7 @@
     <string name="privacy_authorize_revoking">Tilbakekaller autorisasjonen…</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musikk må samle inn nødvendige personopplysninger for å levere strømmetjenester på nett til deg. Du kan finne ut mer om hvordan vi håndterer informasjonen vi samler inn i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Mi Musikk under Innstillinger.
 Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du bruker Mi Musikk.
 Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data>"</string>
@@ -885,6 +890,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
     <string name="start_update">Installerer ny versjon…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -975,6 +981,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="upload_playlist_to_hungama_title">Synkroniser sanger på nett med Hungama for å kunne få tilgang til dem på andre enheter du bruker Mi-kontoen på.</string>
     <string name="upload_playlist_to_hungama_toast">Sanger på nett synkroniseres med Hungama</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Trekk tilbake (%ss)</string>
     <string name="user_privacy_dialog_positive_text">Tilbakekall</string>

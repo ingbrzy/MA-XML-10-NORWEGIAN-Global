@@ -141,6 +141,7 @@
     <string name="download_rsc_tips">Laster bakgrunnslyd…</string>
     <string name="dynamic_weather">Vær</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Oppdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke koble til nettverket</string>
     <string name="empty_view_refresh">Prøv igjen</string>
@@ -193,13 +194,17 @@
     <string name="feedback_sunny">Klart</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nå</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="index_item_experience_now">Installer nå</string>
     <string name="indices_title_chance_of_rain">Muligheter for regn</string>
     <string name="indices_title_feel">Føles som</string>
     <string name="indices_title_pressure">Trykk</string>
     <string name="indices_title_wind_speed">Vindhastighet</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-indeks</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="life_index_title">Værindeks</string>
     <string name="location_provider_btn_text">Skru på stedtjenester</string>
     <string name="location_tag">Lokaliser</string>
@@ -293,6 +298,7 @@
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI-værr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke ta skjermbilde</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timersvarsel</string>
