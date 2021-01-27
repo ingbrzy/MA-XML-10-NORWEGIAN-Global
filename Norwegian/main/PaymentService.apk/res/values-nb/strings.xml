@@ -210,7 +210,6 @@ Send denne koden til den overordnede."</string>
     <string name="sns_access_token_expired_warning">Økten er utløpt. Logg inn på nytt for å koble til kontoen på nytt.</string>
     <string name="sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
     <string name="sns_sign_in">Andre måter å logge inn på</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="temporary_not_available">Denne funksjonen er enda ikke tilgjengelig</string>
     <string name="ticket_hint">Verifiseringskode</string>
     <string name="ticket_invalid">Koden du har skrevet inn er feil</string>
