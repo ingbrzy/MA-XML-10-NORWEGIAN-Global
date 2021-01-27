@@ -43,6 +43,8 @@
     <string name="call_record_list_group_connected">Tilkoblet</string>
     <string name="call_record_list_group_unconnected">Ikke tilkoblet</string>
     <string name="cancel_rename">Avbryt</string>
+    <string name="clear_data_dialog_content">Bufrede elementer, appdata og tilpassede innstillinger blir slettet, men opptakene blir der de er.</string>
+    <string name="clear_data_dialog_title">Fjerne data nå?</string>
     <string name="clear_records">Slett synkroniserte opptak</string>
     <string name="cloud_record_open">Synkroniser opptak</string>
     <string name="cloud_record_tip">Synkroniser opptak med Xiaomi Cloud.</string>
@@ -127,7 +129,7 @@
     <string name="network_unavailable_tip">Koble til nettverket og prøv igjen.</string>
     <string name="new_record_name">Nytt opptak</string>
     <string name="no_file">Tøm</string>
-    <string name="no_network">"Couldn't connect to the network"</string>
+    <string name="no_network">Kunne ikke koble til nettverket</string>
     <string name="not_set">Ikke angitt</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse</string>
     <string name="notification_playback">Spiller…</string>
@@ -171,6 +173,7 @@
     <string name="pay_error_unknown">Ukjent feil</string>
     <string name="playback_delete_records">Slett opptak</string>
     <string name="playback_share_records">Del opptak</string>
+    <string name="preference_clear_data">Fjern data</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preference_enable_earpiece_summary">Bruk mottakerhøyttaler til ekstern tilbakespilling</string>
     <string name="preference_enable_earpiece_title">Bruk mottaker til å spille lyd</string>
@@ -329,6 +332,8 @@
     <string name="trash_box">Nylig slettede elementer</string>
     <string name="trash_box_close_tip">Lukk melding</string>
     <string name="trash_box_delete_all">Slette alle elementer fra søppelet permanent?</string>
+    <string name="uninstall_warning_content">Opptaker er en systemapp. Du kan ikke ta opp og transkribere lyd- og videosamtaler etter at du har avinstallert den.</string>
+    <string name="uninstall_warning_title">Avinstallere Opptaker?</string>
     <string name="usage_description">Transkribere lyd og synkronisere elementer med skyen</string>
     <string name="user_feedback">Tilbakemelding</string>
     <string name="v7_preference_off">AV</string>

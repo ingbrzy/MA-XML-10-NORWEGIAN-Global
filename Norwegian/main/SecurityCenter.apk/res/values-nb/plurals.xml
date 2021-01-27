@@ -156,6 +156,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">%1$d personer spiller</item>
         <item quantity="one">%1$d person spiller</item>
     </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">Avinstaller %2$d spill (inkludert %1$s)</item>
+        <item quantity="one">Avinstaller %2$d spill (inkludert %1$s)</item>
+    </plurals>
     <plurals name="gb_record_time_title">
         <item quantity="other">%d sek</item>
         <item quantity="one">%d sek</item>

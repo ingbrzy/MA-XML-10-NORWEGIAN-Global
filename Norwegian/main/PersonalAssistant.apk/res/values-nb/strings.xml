@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_home_description_format">%1$s – %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s – %2$s – %3$s</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
@@ -142,12 +144,15 @@
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
     <string name="not_set">Ikke angitt</string>
+    <string name="passport_oauth_actionbar_title">Mi-konto</string>
+    <string name="passport_oauth_sucess_tip">Authorized success</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
     <string name="search_menu_title">Søk</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>

@@ -69,6 +69,8 @@
     <string name="all_app_category_tools">Verktøy</string>
     <string name="all_app_category_work">Jobb</string>
     <string name="all_apps">Alle apper</string>
+    <string name="all_apps_install_contentcenter_msg">Det ser ut til at Innholdssenter ble avinstallert. Installere på nytt?</string>
+    <string name="all_apps_install_contentcenter_title">Installer Innholdssenter</string>
     <string name="all_apps_no_search_results">Kunne ikke finne resultater</string>
     <string name="all_apps_search_app">Søk etter apper</string>
     <string name="all_apps_search_market_message">Søk online</string>
@@ -180,6 +182,7 @@
     <string name="change_wallpaper">Endre</string>
     <string name="choose_wallpaper">Velg bakgrunn</string>
     <string name="chooser_wallpaper">Velg en ny bakgrunn</string>
+    <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="cloud_app_restore_title">Avventer</string>
     <string name="common_home_search_delete">Fjerner søkefelt</string>
     <string name="common_home_search_delete_cancle">Avbryt</string>
@@ -321,14 +324,18 @@
     <string name="home_screen">Startskjerm</string>
     <string name="home_slide_up_action">Sveip opp på startskjermen</string>
     <string name="home_switch_personal_assistant">-1-skjerm</string>
+    <string name="icon_customize_summary">Velg stil og juster størrelse</string>
+    <string name="icon_form">Ikoner</string>
     <string name="icon_reorganize_channel">Ordne ikoner</string>
     <string name="icon_size">Ikonstørrelse</string>
+    <string name="icon_style">Stil</string>
     <string name="image_too_small_message">Originalt bilde er ikke stort nok.</string>
     <string name="install">Installer</string>
     <string name="invalid_contact_shortcut">Ugyldig kontakt</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
     <string name="is_system_wallpaper_message">Kan ikke slette systemressurser</string>
     <string name="key_shortcut_settings_title">Knappesnarveier</string>
+    <string name="launcher_icon_management">Administrer snarveier på startskjermen</string>
     <string name="launcher_not_exist">En feil oppstod. Gå tilbake til startskjermen og prøv igjen.</string>
     <string name="launcher_pull_down_title">Sveip ned på startskjermen</string>
     <string name="launcher_search_bar_title">Startskjermens søkefelt</string>
@@ -509,6 +516,8 @@
     <string name="recommend_loading">Laster</string>
     <string name="recommend_refresh">Oppdater</string>
     <string name="recommend_xout">Ikke vis</string>
+    <string name="remove_dialog_message">Utvalgte apper inneholder viktige systemfunksjoner. Du kan bare fjerne snarveiene på startskjermen.</string>
+    <string name="remove_dialog_title_format">Fjern \"%s\" fra hjemmeskjermen?</string>
     <string name="remove_invalidate_gadget_tips">En av widgetene du bruker er ikke lenger tilgjengelig. Du kan legge til en annen.</string>
     <string name="reset_cate_tip_content">Hvis du fortsetter, blir alle appgrupper gjenopprettet. Fortsette likevel?</string>
     <string name="reset_cate_tip_title">Gjenopprett standardgrupper</string>
@@ -517,6 +526,7 @@
     <string name="reset_fail">Kunne ikke gjenopprette</string>
     <string name="reset_scene_prompt">Skjerm vil bli gjenopprettet som standard layout.</string>
     <string name="reset_title">Gjenopprett</string>
+    <string name="restore_icon_successful">Lagt til</string>
     <string name="screen_cells_config_title">Startskjem-layout</string>
     <string name="screen_locked_toast">Startskjermoppsettet er låst.</string>
     <string name="screen_number">%d skjerm</string>
@@ -553,6 +563,7 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />

@@ -94,6 +94,7 @@
     <string name="auth_fail_warning">Økten er utløpt. Logg inn på nytt.</string>
     <string name="auto_play_next_off">Automatisk avspilling er deaktivert</string>
     <string name="auto_play_next_on">Automatisk avspilling er aktivert</string>
+    <string name="back_to_mainpage">Oppdag</string>
     <string name="before_yestoday">2 dager siden</string>
     <string name="bind_sign_in_title">Legg til Mi-konto</string>
     <string name="cancel">Avbryt</string>
@@ -117,6 +118,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">DIREKTE</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
@@ -232,7 +234,7 @@
 ID:%s
 Send denne koden til den overordnede."</string>
     <string name="dialog_privacy_info_new2">For å kunne bruke tjenestene, må du godta at %1$s innhenter, behandler og bruker personopplysningene dine. Det anses at du har lest og godtatt &lt;a href=%2$s>personvernerklæringen&lt;/a> når du trykker på \"Godta\" nedenfor.</string>
-    <string name="dialog_privacy_info_new3">For å kunne bruke denne tjenesten må du tillate %1$s å samle inn, behandle og bruke personopplysningene dine i henhold til personvernerklæringen. Ved å trykke på \"Godta\" nedenfor, godtar du Xiaomis &lt;a href=%2$s>personvernerklæring&lt;/a> og &lt;a href=%3$s>brukeravtale&lt;/a>.</string>
+    <string name="dialog_privacy_info_new3">For å bruke denne tjenesten må du tillate %1$s å samle inn, behandle og bruke personopplysningene dine i henhold til personvernerklæringen. Ved å trykke på Godta nedenfor, samtykker du i Xiaomis &lt;a href=%2$s>personvernerklæring&lt;/a> og &lt;a href=%3$s>brukeravtale&lt;/a>. &lt;br/>&lt;br/>Å trykke på Godta gir også Mi Video tilgang til listen over apper som er installert på enheten. Med denne tillatelsen kan Mi Video dele elementer, forstå om en app er installert på enheten, hvilken versjon av appen som er installert og om appen er sikker.</string>
     <string name="dialog_privacy_title">Autorisasjon</string>
     <string name="dialog_revoke_privacy_info_new2">Etter at du har tilbakekalt autorisasjonen, slutter appen å innhente data, og alle relaterte data slettes fra serverne våre. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel?</string>
     <string name="dialog_revoke_privacy_title">Tilbakekaller autorisasjonen</string>
@@ -302,6 +304,7 @@ Send denne koden til den overordnede."</string>
     <string name="favorite_fail">Kunne ikke legge til i favoritter. Prøv igjen.</string>
     <string name="favorite_success">Lagt til i favoritter</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
+    <string name="fcm_push_title">Populære videoer</string>
     <string name="feedback">Tilbakemelding</string>
     <string name="feedback_activity_title">Tilbakemelding</string>
     <string name="feedback_contact_empty">Skriv inn kontaktinformasjonen din</string>
@@ -648,6 +651,9 @@ for videoer"</string>
     <string name="notification_bar_player_subtitle">Vis minimert spiller i varslingsskyggen</string>
     <string name="notification_bar_player_title">Minimere spilleren</string>
     <string name="notification_open_tip">Aktiver for å motta varsler</string>
+    <string name="notification_recall_action">Aktiver</string>
+    <string name="notification_recall_desc">Mi Video kan varsle deg om populære videoer og abonnementene dine.</string>
+    <string name="notification_recall_title">Aktiver varsler</string>
     <string name="notify_apk_installed">Nedlastingen var vellykket</string>
     <string name="ok">OK</string>
     <string name="order_alphabet">A-Z</string>
@@ -846,6 +852,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="permission_storage">Lagring</string>
     <string name="permission_storage_desc">For å få tilgang til elementer, lagre filer, og vise og spille av lokale videoer</string>
     <string name="permission_title">Tillatelser er nødvendig</string>
+    <string name="pgc_push_title">Abonnementer</string>
     <string name="phone_bind_too_many">Dette telefonnummeret har blitt tilknyttet til flere Mi Accounts over en kort periode. Prøv å bruke et annet telefonnummer.</string>
     <string name="phone_hint">Telefonnummer</string>
     <string name="phone_num_use_for">Telefonnummer brukes for:</string>

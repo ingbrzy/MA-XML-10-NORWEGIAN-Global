@@ -106,8 +106,9 @@
     <string name="next_fingerprint">Neste</string>
     <string name="note_introduction">Denne appen gjør at du kan opprette, se og redigere notater.</string>
     <string name="other_settings">Ekstra innstillinger</string>
-    <string name="other_settings_ad_dialog_content">"Etter at du skrur av denne funksjonen, vil du ikke lenger motta tilpassede annonser. Du vil likevel fremdeles motta annonser uavhengig av dine interesser. Du kan finne ut mer om tilpassede annonser i Xiaomis Personvernerklæring.
-Skru på tilpassede annonser likevel?"</string>
+    <string name="other_settings_ad_dialog_agree">Aktiver</string>
+    <string name="other_settings_ad_dialog_content">Når personlig tilpasset annonseanbefaling er deaktivert, ser du fortsatt samme antall annonser som når funksjonen er aktivert. Men annonsene vil da ikke være relevante siden de ikke er basert på dine personlige preferanser.</string>
+    <string name="other_settings_ad_dialog_disagree">Deaktiver</string>
     <string name="other_settings_ad_disable_summary">Skru på tilpassede annonser</string>
     <string name="other_settings_ad_enable">Tilpassede annonser</string>
     <string name="other_settings_ad_enable_summary">Tilpassede annonser etter dine interesser</string>

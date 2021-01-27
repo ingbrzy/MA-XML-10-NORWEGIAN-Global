@@ -31,6 +31,9 @@
     <string name="back">Tilbake</string>
     <string name="cancel">Avbryt</string>
     <string name="category_other">Annet</string>
+    <string name="channel_name_aggregation">Grupperte varsler</string>
+    <string name="channel_name_notification">Appvarsler</string>
+    <string name="channel_name_recovered">Gjenopprettede varsler</string>
     <string name="confirm">OK</string>
     <string name="copy">Kopiér</string>
     <string name="default_list_type">Sorter etter tidspunkt mottatt</string>
@@ -59,10 +62,14 @@
     <string name="lock_screen_tip_toast">Tillat låseskjermvarsler i \"Format\"</string>
     <string name="lockscreen_notifications">Låseskjermvarsler</string>
     <string name="lockscreen_notifications_short">Låseskjerm</string>
+    <string name="menu_setting_aggregatation_feedback">Grupperer valg</string>
+    <string name="menu_setting_feedback_donot_classify">Ikke grupper</string>
+    <string name="menu_setting_more_settings">Flere innstillinger</string>
     <string name="menu_setting_show_in_home">Ikke grupper</string>
     <string name="menu_setting_tip_show_in_home">Varsler fra %s blir ikke gruppert</string>
     <string name="menu_setting_tip_unfold">Alle varsler fra denne appen blir sett på som viktige</string>
     <string name="menu_setting_unfold">Viktige</string>
+    <string name="mune_setting_prefix_category">"Grupper med "</string>
     <string name="not_sent_recently">Ikke nylig</string>
     <string name="not_set">Ikke angitt</string>
     <string name="notch_and_status_bar_setting">Kontrollsenter og statuslinje</string>
@@ -82,9 +89,11 @@
     <string name="on">På</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="search_menu_title">Søk</string>
+    <string name="setting_menu_success">Innstilling vellykket</string>
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>
     <string name="show_badge_notifications">Varselmerker</string>
     <string name="show_badge_notifications_short">Merker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>
@@ -97,6 +106,7 @@
     <string name="summary_lock_screen_enable_notification_first">Tillat varsler å kunne aktivere varsler på låseskjerm</string>
     <string name="summary_show_badge_enable_notification_first">Tillat varsler å kunne aktivere varselmerker</string>
     <string name="swipe_to_delete">Sveip til venstre eller høyre for å slette</string>
+    <string name="tip_feedback_thanks">Takk for tilbakemeldingen!</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
 </resources>

@@ -22,11 +22,6 @@
         <item>Neste måned</item>
         <item>Velg dato</item>
     </string-array>
-    <string-array name="compose_modes">
-        <item>Svar</item>
-        <item>Svar alle</item>
-        <item>Videresend</item>
-    </string-array>
     <string-array name="general_preference_text_zoom_summary_array">
         <item>Veldig liten</item>
         <item>Liten</item>

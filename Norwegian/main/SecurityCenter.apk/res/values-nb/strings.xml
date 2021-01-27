@@ -604,7 +604,7 @@ Du mister ikke noe appdata."</string>
     <string name="banner_optimizemanage_summary">Frigjør minne</string>
     <string name="banner_red_money_assist_button">Aktiver</string>
     <string name="banner_red_money_assist_summary">Åpne røde konvolutter raskere</string>
-    <string name="battery_and_property">Batteri og ytelse</string>
+    <string name="battery_and_property">Batteri</string>
     <string name="battery_can_use_time">%s gjenstår</string>
     <string name="battery_capacity_title">Batterikapasitet</string>
     <string name="battery_charge_estimating">Beregner</string>
@@ -766,6 +766,7 @@ Du mister ikke noe appdata."</string>
     <string name="card_main_private_space_summary">Å bruke Second space er som å ha 2 enheter</string>
     <string name="card_main_private_space_title">Andre område</string>
     <string name="card_main_sectool_title">Verktøy</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Lag</string>
     <string name="card_main_xspace_summary">Opprett doble kontoer for apper</string>
     <string name="card_main_xspace_title">Dobbeltapper</string>
@@ -777,6 +778,15 @@ Du mister ikke noe appdata."</string>
     <string name="choose">Velg</string>
     <string name="choose_gs_show_way">Velg orientering på startside</string>
     <string name="clean_immediately">Tøm</string>
+    <string name="clean_master_icon_recall_button_text">Legg til</string>
+    <string name="clean_master_icon_recall_dialog_button_negative">Nei, takk</string>
+    <string name="clean_master_icon_recall_dialog_button_positive">Legg til</string>
+    <string name="clean_master_icon_recall_dialog_summary">Legg til en snarvei på startskjermen for å tømme søppel når du har behov for det.</string>
+    <string name="clean_master_icon_recall_dialog_title">Tøm søppel raskere</string>
+    <string name="clean_master_icon_recall_hint">Legg til en snarvei på startskjermen</string>
+    <string name="clean_master_icon_recall_summary">Legg til en snarvei på startskjermen for å tømme søppel når du har behov for det.</string>
+    <string name="clean_master_icon_recall_title">Tøm søppel raskere</string>
+    <string name="clean_master_icon_recall_toast_text">La til en snarvei til Renser på startskjermen</string>
     <string name="cleaned">Tømt</string>
     <string name="clear_garbage">Tøm søppel for å frigjøre plass</string>
     <string name="clear_immediately">Tøm nå</string>
@@ -968,6 +978,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="doze_optimization_title">Optimaliserte berøringskontroller</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-post</string>
     <string name="empty_app">Ingen apper</string>
     <string name="empty_title_auto_start_list">Ingen apper kan autostarte.</string>
@@ -1019,7 +1030,9 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -1156,6 +1169,11 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="free_time_traffic_settings">Databruk for</string>
     <string name="free_time_traffic_title">Fyll inn laveste datagrense</string>
     <string name="free_traffic_settings">Innstillinger for laveste databruk</string>
+    <string name="function_auto_reject_detail">"Om denne funksjonen:
+1. Når du spiller spill, blir alle innkommende anrop til SIM-kortet uten mobildatatjeneste avvist automatisk.
+2. Du vil se varsler om tapte anrop, og den andre personen vil høre en lydmelding som sier at du er opptatt for øyeblikket.
+3. Denne funksjonen støttes bare av mobiloperatører i Kina."</string>
+    <string name="function_auto_reject_title">Avvis VoLTE-anrop til SIM-kort uten datatjeneste</string>
     <string name="function_close">Av</string>
     <string name="function_gwsd_detail">"Om denne funksjonen:
  1. Når du bruker mobildata på et data-SIM-kort eller et vanlig SIM-kort koblet til et VoLTE-nettverk, blir ikke tilkoblingen avbrutt av innkommende anrop før du svarer.
@@ -1269,6 +1287,11 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="gb_description_image_button_answer">Svar</string>
     <string name="gb_description_image_button_reject">Avvis</string>
     <string name="gb_description_image_button_video_answer">Videosamtale</string>
+    <string name="gb_dialog_game_uninstall_deleting">Avinstallerer…</string>
+    <string name="gb_dialog_game_uninstall_loading">Laster inn spill…</string>
+    <string name="gb_dialog_game_uninstall_tips_message">Alle appdata blir slettet.</string>
+    <string name="gb_dialog_game_uninstall_tips_message_xspace">Alle appdata og relaterte doble apper blir slettet.</string>
+    <string name="gb_dialog_game_uninstall_tips_title">Avinstaller %s</string>
     <string name="gb_dialog_record_way_ai">KI-opptak blir lagret i spillboksen og lagret der i 7 dager.</string>
     <string name="gb_dialog_record_way_finish">Ferdig</string>
     <string name="gb_dialog_record_way_manual">Ta opp videoer på inntil 30 sekunder manuelt</string>
@@ -1300,6 +1323,10 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="gb_game_video_type_manual">Manuell</string>
     <string name="gb_get_gift_right_now">Sjekk inn nå</string>
     <string name="gb_global_settings">Generelle innstillinger</string>
+    <string name="gb_gpu_driver_btn_update">Søk etter oppdateringer</string>
+    <string name="gb_gpu_driver_update">GPU reiseoppdatering</string>
+    <string name="gb_gpu_driver_update_app">Oppdater</string>
+    <string name="gb_gpu_driver_update_app_tips">Gjeldende versjon er oppdatert</string>
     <string name="gb_have_signed">Sjekket inn i dag</string>
     <string name="gb_manual_record_dialog_del_video_message">Slette valgte videoer permanent?</string>
     <string name="gb_msg_completely_shielded">Skjul meldinger</string>
@@ -1321,6 +1348,9 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="gb_signed_gift_loading_summary">Et øyeblikk…</string>
     <string name="gb_signed_title">Sjekket inn denne måneden</string>
     <string name="gb_sound_audition">Prøv</string>
+    <string name="gb_storage_game_uninstall">Avinstaller spill</string>
+    <string name="gb_storage_summary">Ikke vis spill som ble lagt til i spillboksen på startskjermen</string>
+    <string name="gb_storage_title">Fjern spill som er lagt til fra startskjermen</string>
     <string name="gb_voice_change_settinged">Stemmeskifter er på</string>
     <string name="gb_voice_changer_cartoon">Tegneserie</string>
     <string name="gb_voice_changer_dlg_button_agree">Tillat</string>
@@ -1685,9 +1715,11 @@ svarer"</string>
     <string name="menu_text_antispam">Blokkeringsliste</string>
     <string name="menu_text_antivirus">Sikkerhetsskanning</string>
     <string name="menu_text_garbage_cleanup">Renser</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Tillatelser</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -1695,7 +1727,8 @@ svarer"</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_optimize_manage_1">Øk fart</string>
-    <string name="menu_text_power_manager">Batteri og ytelse</string>
+    <string name="menu_text_power_manager">Batteri</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Fjern fra unntak</string>
     <string name="menu_white">Legg til unntak</string>
     <string name="mi_service_app_detail">Detaljer om databruk</string>
@@ -1810,6 +1843,9 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="notification_channel_battery">Batteri</string>
     <string name="notification_exit_power_save_mode">Batterisparer slått av</string>
     <string name="notification_exit_power_save_mode_subtitle">Batteri %s ladet.</string>
+    <string name="notification_garbage_clean_botton_text">Tøm</string>
+    <string name="notification_garbage_clean_hint">Tøm lagringsplass</string>
+    <string name="notification_garbage_clean_size">Frigjør %s</string>
     <string name="notification_garbage_cleanup_summary">Tøm papirkurven (%s) for å gjøre enheten din raskere</string>
     <string name="notification_garbage_cleanup_title">Fjern søppelfiler</string>
     <string name="notification_low_battery_action_btn">Aktiver</string>
@@ -1821,6 +1857,8 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="notification_masked_item">Slik skjuler du varselinnhold</string>
     <string name="notification_masked_subtitle">Bruk Applås for å skjule varselinnhold for valgte apper</string>
     <string name="notification_summary_cmcc_app_check">Berør for å se detaljer.</string>
+    <string name="notification_whatsapp_clean_button_text">Tøm</string>
+    <string name="notification_whatsapp_clean_size">WhatsApp-hurtigbufferen nådde %s</string>
     <string name="notify_channel_mipush">Push-meldinger for sikkerhet</string>
     <string name="notify_channel_name_behavior">Atferdshistorikk</string>
     <string name="notify_channel_name_security">Systemsikkerhet</string>
@@ -1985,7 +2023,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_search_keywords_battery_use">Batteribruk</string>
     <string name="pc_search_keywords_capacity">Batterikapasitet</string>
     <string name="pc_search_keywords_property">Ytelse</string>
-    <string name="pc_settings_title">Innstillinger for batteri og ytelse</string>
+    <string name="pc_settings_title">Batteri</string>
     <string name="pc_statistics_battery_last_hour_minute">%1$d t %2$d m gjenstår</string>
     <string name="pc_statistics_battery_use_hour_minute">%1$d t %2$d m siden siste lading</string>
     <string name="pc_statistics_battery_use_summary">%s siden siste lading</string>
@@ -2084,6 +2122,11 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_center_dialog_msg_top">Når batterisparer er aktivert, utfører MIUI følgende optimaliseringer:</string>
     <string name="power_center_hints_scan_danger_result">Du kan løse batteriproblemer nå</string>
     <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Slå av Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
@@ -2118,7 +2161,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_center_super_save_title_text">Ultrabatterisparer</string>
     <string name="power_center_time_to_boot">Slå på</string>
     <string name="power_center_time_to_shutdown">Slå av</string>
-    <string name="power_center_title">Batteri og ytelse</string>
+    <string name="power_center_title">Batteri</string>
     <string name="power_consume_hardware_total_format">Maskinvare: %s</string>
     <string name="power_consume_other">Annet</string>
     <string name="power_consume_rank_hardware">Maskinvare</string>
@@ -2212,7 +2255,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_settings_number">Prosent</string>
     <string name="power_settings_saver_title">Strømsparer</string>
     <string name="power_settings_shape">Grafisk</string>
-    <string name="power_settings_title">Angi</string>
+    <string name="power_settings_title">Innstillinger</string>
     <string name="power_settings_top">Toppstolpe</string>
     <string name="power_superpower_title_systemui_highpower">Gjenstående tid</string>
     <string name="power_superpower_title_systemui_lowpower">Koble til lader</string>
@@ -2260,6 +2303,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pref_normal_traffic_limit">Når dataplanen er brukt opp</string>
     <string name="pref_open_adjust_traffic">Oppdater databruk hver dag ved å bruke statistikk fra leverandøren din</string>
     <string name="pref_operator_not_set">Leverandøren er ikke valgt</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Når du overskrider dataplanen din</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_pkg_begin_date">Tilbakestillingsdato på bruk</string>
@@ -2423,6 +2467,7 @@ Mens kalibreringen pågår, vil MIUI sende en tekstmelding til leverandøren din
     <string name="privacy_using_record">Opptak av lyd</string>
     <string name="privacyapp_number_masked_text">Varselinnhold er skjult</string>
     <string name="privacyapp_number_unmasked_text">Varselinnhold kan ikke skjules</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_vpnsdkmanager_label">Spillturbo</string>
     <string name="promotion">Annonse</string>
@@ -3260,6 +3305,9 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="vb_advanced_settings_after_open">Etter</string>
     <string name="vb_advanced_settings_before_open">Før</string>
     <string name="vb_advanced_settings_pic_stronger_desc">Gjør objekter i bevegelse skarpere ved å forbedre animasjoner. Denne funksjonen har et høyt strømforbruk.</string>
+    <string name="vb_fps_settings">Frekvens for automatisk oppdatering</string>
+    <string name="vb_fps_settings_tips">Denne funksjonen justerer skjermens oppdateringsfrekvens til videobildefrekvensen, noe som sparer batteri og gir en jevn avspilling. Aktivering av flytende kommentarer deaktiverer automatisk oppdateringsfrekvens.</string>
+    <string name="vb_quick_func_auto_bgm">Gjenkjenne bakgrunnsmusikk</string>
     <string name="vb_quick_func_hangup_listening">Spill av videolyd når skjermen er av</string>
     <string name="vb_quick_func_screen_capture">Skjermbilde</string>
     <string name="vb_quick_func_screen_record">Opptak</string>
@@ -3271,9 +3319,19 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="vb_video_effects_display_style">Stil</string>
     <string name="vb_video_effects_setting_black_white">S/H</string>
     <string name="vb_video_effects_setting_cinema">Kino</string>
+    <string name="vb_video_effects_setting_girl">Rødme</string>
+    <string name="vb_video_effects_setting_gorgeous">Pulserende</string>
+    <string name="vb_video_effects_setting_green_orange">Oransje</string>
+    <string name="vb_video_effects_setting_grim">Kjølig</string>
+    <string name="vb_video_effects_setting_hdr">HDR</string>
+    <string name="vb_video_effects_setting_knight">Metall</string>
+    <string name="vb_video_effects_setting_mecha">Robot</string>
+    <string name="vb_video_effects_setting_nostalgia">Nostalgisk</string>
     <string name="vb_video_effects_setting_old_movie">Retro</string>
     <string name="vb_video_effects_setting_outside">Utendørs</string>
     <string name="vb_video_effects_setting_raw">Opprinnelig</string>
+    <string name="vb_video_effects_setting_solar">Falmende</string>
+    <string name="vb_video_effects_setting_warmth">Varm</string>
     <string name="vb_video_effects_settings_liquid">Klarhet</string>
     <string name="vb_video_effects_settings_stereo">Volum</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>

@@ -68,6 +68,13 @@
     <string name="focus_mode_timer_pick_dialog_title">Angi varighet</string>
     <string name="focus_time_exception_tip">Det ser ut til at systemtiden har endret seg. Deaktiverte fokusmodus.</string>
     <string name="follow_sim1">Bruk SIM 1-innstillinger</string>
+    <string name="fps_nature_summary">Høy oppdateringsfrekvens holder alt skarpt og tydelig</string>
+    <string name="fps_nature_title">Høy</string>
+    <string name="fps_smooth_summary">Middels oppdateringsfrekvens gjør detaljer klarere</string>
+    <string name="fps_smooth_title">Middels</string>
+    <string name="fps_standard_summary">Standard oppdateringsfrekvens sparer batteri</string>
+    <string name="fps_standard_title">Standard</string>
+    <string name="fps_user_tip">Disse demoanimasjonene spilles av i lav hastighet for referanse. Faktisk ytelse kan se annerledes ut basert på varierende faktorer.</string>
     <string name="gamma">Gamma</string>
     <string name="healthy_use_phone">Administrer skjermtid</string>
     <string name="high_fps_description">Høy oppdateringsfrekvens for skjerm. Høyere strømforbruk.</string>
@@ -114,6 +121,7 @@
     <string name="screen_fps_summary_power_save">Bruk av fast frekvens krever mindre strøm</string>
     <string name="screen_fps_summary_smooth">Noen apper vil øke oppdateringsfrekvensen automatisk for å forbedre bildekvaliteten</string>
     <string name="screen_fps_title">Oppdateringsfrekvens</string>
+    <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (Sparer batteri)</string>
     <string name="screen_fps_unit_smooth">%dHz (Bedre kvalitet)</string>
     <string name="screen_original_gamut">Forbedret</string>
@@ -186,6 +194,7 @@
     <string name="usage_device_limit_app_prolong_time2">Legg til 40 minutter</string>
     <string name="usage_device_limit_app_prolong_time3">Legg til 60 minutter</string>
     <string name="usage_device_limit_app_prolong_time4">Ikke sett grense i dag</string>
+    <string name="usage_device_limit_app_prolong_time5">Legg til tid én gang</string>
     <string name="usage_device_limit_notifation_summary_start">Du når din grense om %1$s</string>
     <string name="usage_device_limit_notifation_title">Gjenstående tid i dag</string>
     <string name="usage_device_limit_time_over">Du har nådd dagens grense (%1$s)</string>

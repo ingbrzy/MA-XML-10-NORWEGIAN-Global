@@ -41,6 +41,7 @@
     <string name="account_unactivated">Konto ikke aktivert</string>
     <string name="ad_app_download_start">Starter nedlasting…</string>
     <string name="ad_app_is_downloading">Laster ned…</string>
+    <string name="ad_service">Vis annonser</string>
     <string name="add_resource_detail_fail">Kan ikke legge til ressurser</string>
     <string name="agreement_desc">Brukeravtale (obligatorisk)</string>
     <string name="alarm_sound">Alarm</string>
@@ -163,7 +164,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -181,6 +184,7 @@
     <string name="fail_to_add_account">Kan ikke legge til konto</string>
     <string name="favorite_list">Favoritter</string>
     <string name="favorite_list_format">Favoritt %1$s</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="find_more">Finn flere</string>
     <string name="find_more_theme">Finn flere</string>
     <string name="find_more_wallpapers">Finn flere</string>
@@ -230,6 +234,7 @@
     <string name="incompatible_dialog_ok">Skjønner</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbakeringstone</string>
     <string name="item_resource_audio_optional_notification_ring">Varsler</string>
@@ -252,7 +257,8 @@
     <string name="lockscreen_magazine_title">Bakgrunnskarusell</string>
     <string name="lockscreen_wallpaper">Lås skjerm</string>
     <string name="lockstyle_personal_settings">Tilpass</string>
-    <string name="login_invalid">Økt utløpt</string>
+    <string name="login_invalid">Sesjon utløpt. Logg inn igjen.</string>
+    <string name="match_theme">Matchende temaer</string>
     <string name="max_usable_themes">99+</string>
     <string name="message">Tekstmelding</string>
     <string name="message_sim_one">SIM 1-melding</string>
@@ -274,6 +280,7 @@
     <string name="my_gifts">Gaver</string>
     <string name="my_gifts_purchased">Kjøpt</string>
     <string name="my_gifts_received">Mottatt</string>
+    <string name="need_permission">Obligatoriske tillatelser (brukt for grunnleggende funksjoner og tjenester i denne appen)</string>
     <string name="no_data">Kan ikke koble til nettverket</string>
     <string name="no_related_font">Kunne ikke finne resultater</string>
     <string name="no_related_ringtone">Kunne ikke finne resultater</string>
@@ -296,6 +303,12 @@
     <string name="online_search_hint">Søk etter ressurser på nett</string>
     <string name="online_themes">Temaer på nett</string>
     <string name="online_wallpapers">Bakgrunnsbilder på nett</string>
+    <string name="ota_theme_default_push_content">Prøv noe nytt</string>
+    <string name="ota_theme_default_push_title">Er du lei av standardtemaet?</string>
+    <string name="ota_theme_new_push_content">Gi enheten din et nytt utseende</string>
+    <string name="ota_theme_new_push_title">Prøv de helt nye MIUI 12-temaene</string>
+    <string name="personal_recommend_desc">Motta anbefalinger om innhold basert på dine preferanser</string>
+    <string name="personal_recommend_title">Tilpassede anbefalinger</string>
     <string name="phone_ringtone">Ringetone</string>
     <string name="popular_themes">Populære temaer</string>
     <string name="popular_wallpapers">Populære bakgrunner</string>
@@ -322,6 +335,7 @@
     <string name="rank_one">1.%s</string>
     <string name="rank_three">3.%s</string>
     <string name="rank_two">2.%s</string>
+    <string name="read_write_file">Få tilgang til og lagre filer på denne enheten</string>
     <string name="recently_used">Nylig brukt</string>
     <string name="refresh_footer_all_loaded">Det var alt for nå.</string>
     <string name="refresh_footer_failed">Kunne ikke laste inn informasjon</string>
@@ -473,6 +487,7 @@
     <string name="resource_pack_price_info">Opprinnelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerde kjøpt %1$d-komponenter i dette temaet. Det er billigere hvis du kjøper de resterende komponentene hver for seg.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi-kreditter</string>
     <string name="resource_purchase_common_error">Det oppsto en feil. Prøv igjen</string>
@@ -573,6 +588,7 @@
     <string name="s5">Opprett kalenderaktivitet</string>
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
     <string name="s7">Testannonse</string>
+    <string name="scroll_switch">Sveip for å veksle mellom elementer</string>
     <string name="sdcard_not_mounted_dialog_message">"Sett inn SD-kort nå.
 "</string>
     <string name="sdcard_not_mounted_dialog_title">Ikke noe SD-kort funnet</string>
@@ -594,6 +610,8 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Lignende temaer</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_file">For å lagre nedlastede elementer</string>
     <string name="swipe_find_more">Sveip opp for å se mer</string>
     <string name="system_phone">Anrop</string>
     <string name="system_precust">Forhåndsinnstallert</string>
@@ -604,6 +622,7 @@
     <string name="theme_apply_audio_dialog_item_notification">Varsling</string>
     <string name="theme_apply_audio_dialog_item_ringtone">Ringetone</string>
     <string name="theme_apply_failured">Kunne ikke bruke</string>
+    <string name="theme_apply_fully">Tema ble lagt til. Wallpaper-karusell er av.</string>
     <string name="theme_apply_success">Vellykket</string>
     <string name="theme_applying">Bruker…</string>
     <string name="theme_batch_update_all">Oppdater alle</string>
@@ -657,6 +676,7 @@
     <string name="theme_is_external_priority_storage">Lagre til SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Themes-appen omstarter umiddelbart etter denne innstillingen godkjennes.</string>
     <string name="theme_multiple_button_title_customize">Tilpass</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nei</string>
     <string name="theme_select_others">Bla gjennom</string>
     <string name="theme_setting">Innstillinger</string>
@@ -694,7 +714,7 @@
     <string name="uid_change_dialog_ok">Skjønner</string>
     <string name="uid_change_dialog_title">Omstart to ganger</string>
     <string name="unsupport_tip">Filformatet støttes ikke. Prøv å velge en annen fil.</string>
-    <string name="up_to_the_end">Det var alt for nå. Kom tilbake senere.</string>
+    <string name="up_to_the_end">Ingen flere elementer å vise</string>
     <string name="update_btn">OPPDATER NÅ</string>
     <string name="update_check">Se etter oppdateringer</string>
     <string name="update_checking">Ser etter oppdateringer…</string>
@@ -709,7 +729,7 @@
     <string name="user_agree">Godta</string>
     <string name="user_authorization_dialog_agree">Godta</string>
     <string name="user_authorization_dialog_disagree">Avslutt</string>
-    <string name="user_authorization_dialog_message">Før du bruker Temaer må du lese og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår.</string>
+    <string name="user_authorization_dialog_message">Les og aksepter vår &lt;a href=\"%1$s\">Brukeravtale&lt;/a> og &lt;a href=\"%2$s\">Personvernerklæring&lt;/a> før du fortsetter.</string>
     <string name="user_authorization_dialog_title">Innvilger autorisasjon</string>
     <string name="user_know">Skjønner</string>
     <string name="using_theme_has_update_tips">En oppdatering for dette temaet er tilgjengelig.</string>

@@ -65,6 +65,7 @@
     <string name="ad_setting">Additional settings</string>
     <string name="add_music">Legg til sanger</string>
     <string name="add_to_last_of_playlist">Legg til i slutten av spillelisten</string>
+    <string name="add_to_playlist">Legg til i kø</string>
     <string name="add_to_playlist_successful">Lagt til</string>
     <string name="added_next_play">Lag til å spille nå</string>
     <string name="agreement_desc">Brukeravtale (obligatorisk)</string>
@@ -123,6 +124,7 @@
     <string name="back">Tilbake</string>
     <string name="back_confirm">Trykk igjen for å presse appen til bakgrunnen</string>
     <string name="bluetooth_device">Bluetooth lydenhet</string>
+    <string name="btn_text_edit">Rediger</string>
     <string name="buffering">Bufrer…</string>
     <string name="button_cancel_download">Avbryt</string>
     <string name="button_download_now">Last ned på</string>
@@ -208,6 +210,7 @@
     <string name="dialog_insufficient_space_on_cache">Kan ikke fullføre nedlasting, ikke nok intern lagringsplass igjen.</string>
     <string name="dialog_insufficient_space_on_external">Kan ikke fullføre nedlasting. Ikke nok plass på SD-kortet.</string>
     <string name="dialog_media_not_found">Kan ikke laste ned. SD-kort er ikke tilgjengelig.</string>
+    <string name="dialog_message_unfollow">Slutte å følge denne personen?</string>
     <string name="dialog_my_playlist_online_changed_merge">Behold</string>
     <string name="dialog_my_playlist_online_changed_message">Det ser ut til at denne spillelisten er endret. Du kan erstatte den med en ny versjon eller ta vare på den gamle.</string>
     <string name="dialog_my_playlist_online_changed_replace">Erstatt</string>
@@ -235,6 +238,7 @@
     <string name="dialog_song_view_type_artist">Etter artist</string>
     <string name="dialog_song_view_type_folder">Etter mappe</string>
     <string name="dialog_song_view_type_song">Etter sang</string>
+    <string name="dialog_subtitle_make_playlist_public">Offentlige spillelister er tilgjengelig for andre personer. Private spillelister er bare synlige for deg på alle synkroniserte enheter.</string>
     <string name="dialog_title_clearlist_tracks">Fjern fra kø</string>
     <string name="dialog_title_delete_tracks">Slett</string>
     <string name="dialog_title_name_playlist">Navn på spillelisten</string>
@@ -280,7 +284,9 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_queued">I kø</string>
@@ -368,7 +374,9 @@
     <string name="exo_media_action_repeat_all_description">Gjenta alle</string>
     <string name="exo_media_action_repeat_off_description">Ikke gjenta noen</string>
     <string name="exo_media_action_repeat_one_description">Gjenta én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -390,11 +398,13 @@
     <string name="fail_to_play">Kan ikke spille sang</string>
     <string name="failed_not_access_sd_card">Tillat tilgang til SD-kort først</string>
     <string name="failed_obtain_permissions">Kunne ikke få tillatelser</string>
+    <string name="fans">Følgere</string>
     <string name="fav_login_msg">Logg inn på din Mi-konto for å laste ned sanger</string>
     <string name="favorite_canceled">Fjernet fra favoritter</string>
     <string name="favorite_playlist">Favoritter</string>
     <string name="favorite_singer">Favorittartister</string>
     <string name="favorite_succeed">Lagt til i favoritter</string>
+    <string name="favorite_to_playlist">Legg til i spilleliste</string>
     <string name="favorite_tracks">Favoritter</string>
     <string name="favorites">Favoritter</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
@@ -615,8 +625,10 @@
     <string name="no_album_info">Ingen albuminfo</string>
     <string name="no_artist_info">Ingen artistinfo</string>
     <string name="no_downloads">Ingen nedlastinger</string>
+    <string name="no_fans_empty_title">Du har ikke noen følgere enda</string>
     <string name="no_favorites_songs">Tøm</string>
     <string name="no_file_picker_find">Filbehandleren er ikke installert.</string>
+    <string name="no_follow_empty_title">Du følger ikke noen enda</string>
     <string name="no_local_songs">Tøm</string>
     <string name="no_local_songs_selected">Kan ikke sende sanger, siden de ikke er lastet ned</string>
     <string name="no_local_source_find">Fant ikke sang</string>
@@ -740,6 +752,7 @@
     <string name="privacy_authorize_revoking">Tilbakekaller autorisasjonen…</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musikk må samle inn nødvendige personopplysninger for å levere strømmetjenester på nett til deg. Du kan finne ut mer om hvordan vi håndterer informasjonen vi samler inn i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Mi Musikk under Innstillinger.
 Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du bruker Mi Musikk.
 Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data>"</string>
@@ -848,6 +861,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="share_end_note">Fra Mi Music</string>
     <string name="share_failed">Kunne ikke dele</string>
     <string name="share_image_error">Kunne ikke dele bilde, grunnet nedlastingsfeil</string>
+    <string name="share_song">Del</string>
     <string name="share_text_list">"Spilleliste fra Mi Music: "</string>
     <string name="share_text_song">"Sang i Mi Music: "</string>
     <string name="show_float_first_hint">Minimere spilleren</string>
@@ -885,6 +899,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
     <string name="start_update">Installerer ny versjon…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -933,11 +948,14 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="title_online_recommend">Utvalgte spillelister</string>
     <string name="title_search_history">Søkelogg</string>
     <string name="title_search_hot">Populær</string>
+    <string name="toast_cant_collect_mine_playlist">Kan ikke legge til din egen spilleliste i favoritter</string>
     <string name="toast_cant_commit_without_title">Skriv inn en sangtittel</string>
     <string name="toast_download_error_by_count_limit">Du har brukt opp nedlastingskvoten din for denne måneden.</string>
     <string name="toast_download_error_by_not_login">Logg inn på Mi-kontoen og prøv igjen.</string>
     <string name="toast_download_error_by_vip_required">Få Premium Song Pack til å laste ned denne sangen</string>
     <string name="toast_download_in_process">Nedlasting i gang</string>
+    <string name="toast_favorite_has_been_added">Lagt til i spilleliste</string>
+    <string name="toast_follow_success">Fulgt</string>
     <string name="toast_is_pro">Du er allerede et PRO-medlem.</string>
     <string name="toast_my_playlist_illegal_name">Tittelen på denne spillelisten er ikke gyldig. Lag et nytt navn på denne spillelisten.</string>
     <string name="toast_my_playlist_set_to_private">Spillelisten er nå privat. Andre personer kan ikke se den.</string>
@@ -948,6 +966,9 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="toast_normal_songs_for_download">Nedlastingskvalitet satt til Standard</string>
     <string name="toast_normal_songs_for_stream">Srømmekvalitet satt til Standard</string>
     <string name="toast_not_pro">Denne funksjonen er bare tilgjengelig for PRO-medlemmer.</string>
+    <string name="toast_playlist_has_been_added">Lagt til i kø</string>
+    <string name="toast_playlist_has_been_private">Denne spillelisten er privat</string>
+    <string name="toast_playlist_has_been_public">Denne spillelisten er offentlig</string>
     <string name="toast_playmode_loop_playback">Nåværende spilleliste gjentas</string>
     <string name="toast_playmode_shuffle_play">Avspilling i tilfeldig rekkefølge</string>
     <string name="toast_playmode_single_cycle">Nåværende sang gjentas</string>
@@ -975,11 +996,16 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="upload_playlist_to_hungama_title">Synkroniser sanger på nett med Hungama for å kunne få tilgang til dem på andre enheter du bruker Mi-kontoen på.</string>
     <string name="upload_playlist_to_hungama_toast">Sanger på nett synkroniseres med Hungama</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
+    <string name="user_playlist_plaza">Spillelister</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Trekk tilbake (%ss)</string>
     <string name="user_privacy_dialog_positive_text">Tilbakekall</string>
     <string name="user_privacy_setting_group_title">Tilbakekalling av samtykke</string>
     <string name="user_privacy_setting_title">Ved å skru bryteren av trekker du tilbake samtykket ditt til personvernerklæringen for Mi Music.</string>
+    <string name="user_profile_created_playlist_title">Tilpassede spillelister</string>
+    <string name="user_profile_fans_count">Følgere: %s</string>
+    <string name="user_profile_follow_count">Følger: %s</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="version_info">Versjon</string>

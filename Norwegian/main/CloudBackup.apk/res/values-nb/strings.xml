@@ -37,18 +37,32 @@
     <string name="back_up_task_in_process">Sikkerhetskopierer…</string>
     <string name="back_up_task_unfinished">Kunne ikke sikkerhetskopiere</string>
     <string name="backing_up_to_micloud">Sikkerhetskopierer…</string>
-    <string name="backup_failed_reason_cloud_space_not_enough">Ikke nok lagringsplass i Xiaomi Cloud. Oppgrader abonnementet ditt eller frigjør lagringsplass.</string>
+    <string name="backup_action_buy_cloud_space">Få mer lagringsplass</string>
+    <string name="backup_action_check_network">Kontroller nettverksinnstillingene</string>
+    <string name="backup_action_clean_disk_space">Frigjør lagringsplass</string>
+    <string name="backup_action_retry_now">Prøv igjen</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Ikke nok skylagringsplass igjen til å lagre denne sikkerhetskopien. Oppgrader abonnementet ditt eller frigjør skylagringsplass.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Ikke nok lagringsplass. Frigjør lagringsplass først.</string>
-    <string name="backup_failed_reason_network_error">Nettverksfeil. Vent et minutt eller to før du prøver igjen.</string>
+    <string name="backup_failed_reason_network_error">Sjekk nettverksinnstillingene dine og prøv igjen</string>
     <string name="backup_finished_notification_content">Sikkerhetskopierte startskjermapper, systeminnstillinger osv.</string>
     <string name="backup_now">Sikkerhetskopier nå</string>
     <string name="backup_progress_percent_unit">%</string>
+    <string name="backup_remind_buy_cloud_space">Oppgrader skylagringsabonnementet</string>
+    <string name="backup_remind_clean_disk_space">Frigjør lagringsplass</string>
+    <string name="backup_remind_cloud_space_cost">Sikkerhetskopistørrelse: %s</string>
     <string name="backup_size">Størrelse: %s</string>
     <string name="backup_stopped_msg">Den nåværende sikkerhetskopien vil overskrive den forrige. Trykk for å se.</string>
     <string name="backup_stopped_title">Sikkerhetskopieringen ble satt på pause</string>
     <string name="backup_success">Sikkerhetskopieringen var vellykket</string>
     <string name="backup_successfully">Sikkerhetskopieringen var vellykket</string>
     <string name="backup_to_cloud">Sikkerhetskopier app</string>
+    <string name="backup_warning_reason_cloud_space_not_enough">Kan ikke sikkerhetskopiere</string>
+    <string name="backup_warning_reason_disk_space_not_enough">"Ikke nok lagringsplass
+Kan ikke sikkerhetskopiere"</string>
+    <string name="backup_warning_reason_network_error">"Nettverksfeil
+Kan ikke sikkerhetskopiere"</string>
+    <string name="backup_warning_reason_no_server_response">"Tilkoblingen ble avbrutt
+Prøv igjen"</string>
     <string name="btn_back">Tilbake</string>
     <string name="btn_continue">Fortsett</string>
     <string name="btn_restore_abort">Avbryt</string>
@@ -94,7 +108,7 @@
 *  MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Tidsplan for sikkerhetskopiering</string>
-    <string name="cloud_back_up_frequence_long">Hver 7. dag</string>
+    <string name="cloud_back_up_frequence_long">Hver %d. dag</string>
     <string name="cloud_back_up_frequence_short">Alle dager</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Et øyeblikk…</string>
@@ -105,6 +119,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup">Sikkerhetskopier i Cloud</string>
     <string name="cloud_backup_derail_size_summary">Størrelse: %s</string>
     <string name="cloud_backup_detail_frequence">Tidsplan for sikkerhetskopiering</string>
+    <string name="cloud_backup_detail_frequence_every_7_day">Sikkerhetskopier hver %d. dag</string>
+    <string name="cloud_backup_detail_frequence_every_day">Sikkerhetskopier hver dag</string>
     <string name="cloud_backup_detail_manage">Administrer sikkerhetskopier</string>
     <string name="cloud_backup_detail_state">Automatiske sikkerhetskopier</string>
     <string name="cloud_backup_detail_state_summary">Opprett Xiaomi Cloud-sikkerhetskopier automatisk når du er tilkoblet Wi-Fi.</string>
@@ -190,6 +206,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
     <string name="provision_background_restore_more_data">Gjenopprett flere elementer i bakgrunnen</string>

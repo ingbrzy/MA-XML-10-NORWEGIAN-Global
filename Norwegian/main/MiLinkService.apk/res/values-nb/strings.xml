@@ -326,7 +326,7 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
-    <string name="synergy_casting">跨屏协作时无法使用投屏</string>
+    <string name="synergy_casting">Kan ikke bruke casting når Screen Combo arbeider</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
     <string name="the_anti_aggression_day">Antivoldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>

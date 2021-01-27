@@ -4,4 +4,74 @@
         <item>Mann</item>
         <item>Kvinne</item>
     </string-array>
+    <string-array name="settings_search_account_and_authority_global">
+        <item>Kontoer</item>
+        <item>Legg til og administrer tredjepartskontoer</item>
+        <item>Autorisering;Konto;Mi-konto;Legg til;Par;Xiaomi;Vis;SNS;Facebook;Google</item>
+    </string-array>
+    <string-array name="settings_search_account_and_authority_non_global">
+        <item>Kontoer</item>
+        <item>Legg til og administrer tredjepartskontoer</item>
+        <item>Autorisering;Konto;Mi-konto;Legg til;Par;Xiaomi;Vis;SNS;WeChat;QQ;Weibo</item>
+    </string-array>
+    <string-array name="settings_search_change_password">
+        <item>Endre passord</item>
+        <item>Endre passord for Mi-konto</item>
+        <item>Endre;Passord;Xiaomi;Mi-konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_help_center">
+        <item>Hjelp</item>
+        <item>Få hjelp og støtte til Mi-kontoen din</item>
+        <item>Xiaomi;Konto;Mi-konto;Hjelp;Støtte;Vis</item>
+    </string-array>
+    <string-array name="settings_search_login_2_step_verify">
+        <item>Totrinnsverifisering</item>
+        <item>Angi totrinnsverifisering for Mi-kontoen din</item>
+        <item>Logg inn;Logg inn;totrinns;verifisering;Xiaomi;Konto;Mi-konto;Innstillinger</item>
+    </string-array>
+    <string-array name="settings_search_login_and_security">
+        <item>Pålogging og sikkerhet</item>
+        <item>Telefonnummer og e-postadresse for gjenoppretting, passordbehandling</item>
+        <item>Konto;Sikkerhet;Pålogging;Logg inn;Xiaomi;Mi-konto;Telefonnummer;E-postadresse;Endre;Passord;Legg til;Par</item>
+    </string-array>
+    <string-array name="settings_search_manage_device">
+        <item>Enheter</item>
+        <item>Administrer enheter knyttet til Mi-kontoen din</item>
+        <item>Enheter;Administrer;Logg inn;Logg inn;Enhetsliste;Xiaomi;Mi-konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_payment_information">
+        <item>Betalingsinformasjon</item>
+        <item>Vis og administrer betalingsinformasjon</item>
+        <item>Betaling;Informasjon;Xiaomi;Mi-konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_privacy_policy">
+        <item>Personvernerklæring</item>
+        <item>Vis personvernerklæring for Mi-konto</item>
+        <item>Xiaomi;Konto;Mi-konto;Personvern;Erklæring;Vis</item>
+    </string-array>
+    <string-array name="settings_search_security_email_address">
+        <item>E-postadresse for gjenoppretting</item>
+        <item>Legg til e-postadresse for gjenoppretting</item>
+        <item>Sikkerhet;E-postadresse;Xiaomi;Konto;Mi-konto;Legg til;Par</item>
+    </string-array>
+    <string-array name="settings_search_security_phone_number">
+        <item>Telefonnummer for gjenoppretting</item>
+        <item>Legg til telefonnummer for gjenoppretting</item>
+        <item>Sikkerhet;Konto:Mi-konto;Telefon;Xiaomi;Telefonnummer;Legg til;Par</item>
+    </string-array>
+    <string-array name="settings_search_system_ad">
+        <item>Annonser</item>
+        <item>Administrer systemannonser</item>
+        <item>System;Annonser;Xiaomi;Konto;Mi-konto;Innstillinger</item>
+    </string-array>
+    <string-array name="settings_search_user_information">
+        <item>Kontoinformasjon</item>
+        <item>Vis profilbildet og administrer kontoinformasjon</item>
+        <item>Konto;Info;Personlig;Profilbilde;Navn;Xiaomi;ID;Mi-konto;Vis;Innstillinger</item>
+    </string-array>
+    <string-array name="settings_search_user_protocol">
+        <item>Brukeravtale</item>
+        <item>Se brukeravtale for Mi-konto</item>
+        <item>Xiaomi;Konto;Mi-konto;Bruker;Avtale;Vis</item>
+    </string-array>
 </resources>

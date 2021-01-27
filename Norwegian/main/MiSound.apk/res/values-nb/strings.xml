@@ -82,8 +82,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det var alt for nå</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Et øyeblikk…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke laste inn elementer</string>
-    <string name="multi_music_coexistence_summary">Når varslingslyden dukker opp, forblir mediavolumet uendret, og flere medialyder blir ikke påvirket av hverandre</string>
-    <string name="multi_music_coexistence_title">Tillat flere lyder</string>
+    <string name="multi_music_coexistence_summary">Ikke juster medievolumet under innkommende varsler, eller mens lyden fra en annen kilde spilles av</string>
+    <string name="multi_music_coexistence_title">Flere lydkilder</string>
     <string name="music_add_my_sound">Legg til tilpasset forhåndsinnstilling</string>
     <string name="music_app_unavailable">Sørg for at Mi Music-appen er tilgjengelig.</string>
     <string name="music_audio_effect_optimize">Lydinnstillinger</string>
@@ -99,6 +99,8 @@
     <string name="music_delete">Slett</string>
     <string name="music_delete_sound_title">Sletter forhåndsinnstillinger</string>
     <string name="music_dirac_control">Optimaliser lydkvaliteten</string>
+    <string name="music_dirac_mode_bluetooth_collar">Mi Bluetooth Neckband Earphones</string>
+    <string name="music_dirac_mode_bluetooth_linefree">Mi Bluetooth Earphones (Line Free Edition)</string>
     <string name="music_dirac_mode_cancelling">Mi Støydempende 3,5 mm</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_earbuds">Mi Earbuds</string>
@@ -193,6 +195,8 @@
     <string name="personal_sound">Spill med brukte forhåndsinnstilling</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="retry_test">Start på nytt</string>
+    <string name="ringtone_output_device_summary">Tillat lyd for innkommende anrop og varsler når tilbehør (trådløse headset og Bluetooth-enheter) er tilkoblet</string>
+    <string name="ringtone_output_device_title">Tillat lyd fra høyttaler</string>
     <string name="save_and_apply">Lagre og bruk</string>
     <string name="search_menu_title">Søk</string>
     <string name="second_note">Ta på deg øretelefonene.</string>

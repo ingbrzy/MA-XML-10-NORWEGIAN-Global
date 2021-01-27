@@ -153,7 +153,7 @@
     <string name="miui_feedback_edit_submit_directly">Send inn</string>
     <string name="miui_feedback_edit_title_occurrence_time">Velg tid</string>
     <string name="miui_feedback_edit_title_reproductivity">Velg reproduktivitet</string>
-    <string name="miui_feedback_edit_toast_description_required">Du må skrive en beskrivelse</string>
+    <string name="miui_feedback_edit_toast_description_required">Forklar problemet først</string>
     <string name="miui_feedback_edit_toast_module_required">Velg element</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Beskrivelsen bør være lengre</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Velg kategori</string>
@@ -186,6 +186,7 @@
     <string name="miui_main_next_page">Neste</string>
     <string name="miui_main_pre_page">Tilbake</string>
     <string name="miui_main_shortcut_label_submit_feedback">Send inn tilbakemelding</string>
+    <string name="miui_main_update_back_to_home">Forbereder startskjerm…</string>
     <string name="miui_main_update_continue">Neste</string>
     <string name="miui_main_update_learn_more">Finn ut mer</string>
     <string name="miui_main_update_start">Oppdater nå</string>

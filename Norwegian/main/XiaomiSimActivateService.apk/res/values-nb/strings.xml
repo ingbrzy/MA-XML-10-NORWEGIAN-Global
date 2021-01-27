@@ -121,7 +121,7 @@
     <string name="phone_verify_text">%1$s vil ikke få telefonnummeret ditt. Det vil bare sørge for at nummeret er gyldig. Godta?</string>
     <string name="phone_verify_title">Tillat %1$s for å verifisere telefonnummer</string>
     <string name="privacy_revoke_failed_msg">Aktiveringen krever tildeling av autorisasjon slik at Messaging kan få tak i telefonnummeret ditt.</string>
-    <string name="privacy_revoke_tips">Etter du har tilbakekalt autorisasjonen, vil appen slutte å samle inn dataene dine, og alle dine data fra serverne slettes. Synkronisering med Mi Cloud, Mi Message og andre Messaging-funksjoner vil ikke lenger være tilgjengelig. Tilbakekalle autorisasjonen likevel?</string>
+    <string name="privacy_revoke_tips">Etter du har tilbakekalt autorisasjonen, vil appen slutte å samle inn dataene dine, og alle dine data fra serverne slettes. Synkronisering med Xiaomi Cloud, Mi Message og andre Messaging-funksjoner vil ikke lenger være tilgjengelig. Tilbakekalle autorisasjonen likevel?</string>
     <string name="sim_unactivated_title">SIM-kortet ditt er ikke aktivert</string>
     <string name="waiting_sim_in_service">Venter på at SIM aktiveres</string>
 </resources>

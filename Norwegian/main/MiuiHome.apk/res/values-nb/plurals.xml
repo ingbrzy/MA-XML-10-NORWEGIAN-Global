@@ -16,6 +16,10 @@
         <item quantity="other">%1$d elementer er valgt</item>
         <item quantity="one">%1$d element er valgt</item>
     </plurals>
+    <plurals name="remove_dialog_title_multi_format">
+        <item quantity="other">Fjerne %1$d apper fra startskjermen?</item>
+        <item quantity="one">Fjerne %1$d app fra startskjermen?</item>
+    </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">Side %1$d, %2$d apper.</item>
         <item quantity="one">Side %1$d, %2$d app.</item>

@@ -5,14 +5,29 @@
         <item>Bakgrunn/Superbakgrunner/Hjem</item>
         <item>Jorden;Superbakgrunner;Jorden-utgave;Bakgrunn</item>
     </string-array>
+    <string-array name="settings_search_geometry">
+        <item>Geometri</item>
+        <item>Bakgrunn/Superbakgrunner/Geometri</item>
+        <item>Geometri;Abstrakt;Superbakgrunn;Bakgrunn</item>
+    </string-array>
     <string-array name="settings_search_mars">
         <item>Den røde planeten</item>
         <item>Bakgrunn/Superbakgrunn/Den røde planeten</item>
         <item>Mars;Mars-utgave;Superbakgrunner;Bakgrunn</item>
     </string-array>
+    <string-array name="settings_search_saturn">
+        <item>Rings of Saturn</item>
+        <item>Wallpaper/Super wallpapers/Rings of Saturn</item>
+        <item>Planet;Saturn;Super wallpaper;Wallpaper</item>
+    </string-array>
     <string-array name="settings_search_superwp">
         <item>Superbakgrunner</item>
         <item>Bakgrunn/Superbakgrunner</item>
         <item>Superbakgrunner;Bakgrunn;Dynamisk bakgrunn;3D-bakgrunn</item>
+    </string-array>
+    <string-array name="settings_search_weather">
+        <item>Vær</item>
+        <item>Bakgrunn/Superbakgrunner/Vær</item>
+        <item>Vær;Værinfo;Superbakgrunn;Bakgrunn</item>
     </string-array>
 </resources>

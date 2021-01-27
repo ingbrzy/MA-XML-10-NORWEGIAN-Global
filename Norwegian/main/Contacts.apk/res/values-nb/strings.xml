@@ -123,6 +123,10 @@
     <string name="call_record_text_auto_delete_half_year">Etter %d måneder</string>
     <string name="call_record_text_auto_delete_never">Aldri</string>
     <string name="call_record_text_auto_delete_one_month">Etter %d måned</string>
+    <string name="call_record_user_notice_all_purpose">Finn samtalene der bestemte ord ble nevnt</string>
+    <string name="call_record_user_notice_permission_desc_microphone">For opptak av samtaler</string>
+    <string name="call_record_user_notice_permission_desc_storage">For lagring av opptak</string>
+    <string name="call_record_user_notice_title">Taleanropsøk</string>
     <string name="call_record_whitelist_custom">Valgte anrop</string>
     <string name="call_recording_notification_summary">Motta et varsel når et anrop er tatt opp</string>
     <string name="call_recording_notification_title">Varsle om anrop som er tatt opp</string>
@@ -173,6 +177,7 @@
     <string name="callrecordview_menu_show_missed">Ubesvarte anrop</string>
     <string name="callrecordview_menu_show_sim">%s anrop</string>
     <string name="callrecordview_menu_show_stranger">Anrop fra ukjente nummer</string>
+    <string name="cancel">Avbryt</string>
     <string name="cancel_confirmation_dialog_message">Forkaste endringer?</string>
     <string name="cancel_confirmation_dialog_title">Avbryt</string>
     <string name="cancel_export_confirmation_message">Avbryte eksportering av %s?</string>
@@ -251,6 +256,15 @@
     <string name="contactsList">Kontakter</string>
     <string name="contacts_default_notification_channel">Varsler</string>
     <string name="contacts_hybrid_activity_label">Gjenopprett kontakter</string>
+    <string name="contacts_trash_activity_hint">Velg kontakter som skal gjenopprettes</string>
+    <string name="contacts_trash_activity_title">Nylig slettede kontakter</string>
+    <string name="contacts_trash_delete">Slett</string>
+    <string name="contacts_trash_delete_dialog_continue">Slett</string>
+    <string name="contacts_trash_delete_dialog_hint">Du vil ikke kunne reversere dette.</string>
+    <string name="contacts_trash_delete_dialog_loading">Sletter…</string>
+    <string name="contacts_trash_delete_dialog_title">Slett valgte kontakter?</string>
+    <string name="contacts_trash_restore">Gjenopprett</string>
+    <string name="contacts_trash_restore_loading">Gjenoppretter…</string>
     <string name="contacts_unavailable_add_account">Logg inn på en konto</string>
     <string name="contacts_unavailable_create_contact">Opprett en ny kontakt</string>
     <string name="contacts_unavailable_import_contacts">Importer fra en fil</string>
@@ -389,6 +403,7 @@
     <string name="email_work">E-post jobb</string>
     <string name="emergency_number_label">Nødnummer</string>
     <string name="empty" />
+    <string name="ensure">OK</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
@@ -406,7 +421,8 @@
     <string name="export_to_sim2">Eksporter til SIM-kort 2</string>
     <string name="export_to_sim_prepare_title">Forbereder…</string>
     <string name="export_to_sim_title">Eksporterer…</string>
-    <string name="exporting_contact_failed_message">Kontaktdata ble ikke eksportert.Årsak: \"%s\"</string>
+    <string name="exporting_contact_failed_message">"Kontaktdata ble ikke eksportert.
+Årsak: \"%s\""</string>
     <string name="exporting_contact_failed_title">Kunne ikke eksportere</string>
     <string name="exporting_contact_list_message">Eksporterer til %s.</string>
     <string name="exporting_contact_list_title">Eksporterer kontaktdata</string>
@@ -467,6 +483,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Selskap</string>
@@ -487,6 +504,8 @@
     <string name="group_sms_progress_msg">Grupperer…</string>
     <string name="groupsLabel">Grupper</string>
     <string name="groups_list_empty">Ingen grupper</string>
+    <string name="hide_app_description_content">Kontakter er en systemapp. Du kan fortsatt bruke den via Telefon-appen etter at du har fjernet snarveien på startskjermen.</string>
+    <string name="hide_app_description_title">Fjerne «Kontakter» fra startskjermen?</string>
     <string name="hint_distance" />
     <string name="hint_findContacts">Finn kontakter</string>
     <string name="hint_more_contact">Sammenslå duplikatkontakter</string>
@@ -588,6 +607,7 @@
     <string name="menu_sync_remove">Fjern synkronisert gruppe</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Endre profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -716,6 +736,7 @@
     <string name="payphone">Telefonkiosk</string>
     <string name="people">Kontakter</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummeret er for langt</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Ingen bilder er tilgjengelige på enheten.</string>
@@ -828,6 +849,10 @@
     <string name="remove_duplicate">"MIUI vil hjelpe deg med å finne og sammenslå duplikate kontakter.
 
  Trykk på Sammenslå-ikonet nederst på skjermen din for å begynne."</string>
+    <string name="restore_app_btn_cancel">Avbryt</string>
+    <string name="restore_app_btn_restore">OK</string>
+    <string name="restore_app_description_content">Legg til en snarvei på startskjermen for å få tilgang til kontaktene dine raskere.</string>
+    <string name="restore_app_description_title">Legge til «Kontakter» på startskjermen?</string>
     <string name="restore_nickname">Gjenopprett</string>
     <string name="return_call">Trykk for å gå tilbake til samtale</string>
     <string name="return_call_calling">Anrop pågår</string>
@@ -915,6 +940,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Selskaper</string>
     <string name="smart_group_company_unavailable">Ingen selskapsinformasjon</string>
     <string name="smart_group_frequency_1">I løpet av den siste måneden</string>
@@ -956,6 +982,7 @@
     <string name="starred_contacts">Favoritter</string>
     <string name="status_available">Tilgjengelig</string>
     <string name="status_away">Borte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Opptatt</string>
     <string name="strequentList">Favoritter</string>
     <string name="success_message_import_from_account">Kontakt importert</string>

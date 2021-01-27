@@ -353,8 +353,8 @@
         <item quantity="one">%1$d lagret høreapparat</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">"You're %1$d step away from opening device info."</item>
-        <item quantity="one">"You're %1$d step away from opening device info."</item>
+        <item quantity="other">Du er %1$d trinn unna åpning av enhetsinfo.</item>
+        <item quantity="one">Du er %1$d trinn unna åpning av enhetsinfo.</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">Du er %1$d steg unna å rapportere feil.</item>
