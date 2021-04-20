@@ -48,6 +48,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
+    <string name="device_desc_trust">Klarerte enheter</string>
     <string name="dialog_can_not_find_device">Kunne ikke finne enheter i nærheten</string>
     <string name="dialog_cancle">Avbryt</string>
     <string name="dialog_connect_fail">Kunne ikke koble til</string>
@@ -254,10 +255,23 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="nfc_connect_failed_toast">Kunne ikke caste. Prøv igjen.</string>
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
+    <string name="normal_device_desc">Enhetene du har koblet deg til, men ikke merket som klarert</string>
+    <string name="normal_device_desc_limit">Enhetene du har koblet deg til, men ikke merket som klarert</string>
+    <string name="normal_device_none">Ingen tidligere tilkoblede enheter her</string>
+    <string name="normal_device_title">Ingen klarerte enheter</string>
     <string name="not_set">Ikke angitt</string>
+    <string name="notification_cast_desc">Strømmer…</string>
+    <string name="notification_desc_scanning">Søker etter enheter i nærheten…</string>
     <string name="notification_rc_title">XiaoMi TV-assistent</string>
     <string name="notification_show_more">Trykk for å se flere funksjoner</string>
     <string name="open_game_accelerate">Aktiver Spillturbo</string>
+    <string name="path_setting_cast">Tilkobling og deling/Cast</string>
+    <string name="path_setting_cast_demo">Tilkobling og deling/Cast/Demoer</string>
+    <string name="path_setting_cast_demo_document">Tilkobling og deling/Cast/Demoer/Dokumenter</string>
+    <string name="path_setting_cast_demo_gallery">Tilkobling og deling/Cast/Demoer/Bilder og videoer</string>
+    <string name="path_setting_cast_demo_game">Tilkobling og deling/Cast/Demoer/Spill</string>
+    <string name="path_setting_cast_feature">Tilkobling og deling/Cast/Spesialfunksjoner</string>
+    <string name="path_setting_cast_help">Tilkobling og deling/Cast/Hjelp</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="privacy_agree">Godta</string>
@@ -383,6 +397,13 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="toast_turn_off_hotspot_before_cast">Deaktiver flyttbar hotspot før casting</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
+    <string name="trust_device_desc">Disse enhetene vil vises her først når de er i nærheten</string>
+    <string name="trust_device_dialog_desc">&lt;Data>%s vil vises blant tilgjengelige enheter først når den er i nærheten hvis du merker den som klarert.&lt;br>&lt;br>Du kan &lt;a href=milink://com.milink.service/trust>administrere klarerte enheter&lt;/a> i Innstillingene.&lt;/Data></string>
+    <string name="trust_device_dialog_pos">Klarer</string>
+    <string name="trust_device_dialog_title">Klarere denne enheten?</string>
+    <string name="trust_device_manager">Administrer klarerte enheter</string>
+    <string name="trust_device_none">Ingen klarerte enheter her</string>
+    <string name="trust_device_title">Klarerte enheter</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>

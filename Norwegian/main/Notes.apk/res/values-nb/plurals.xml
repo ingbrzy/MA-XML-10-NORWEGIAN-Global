@@ -80,9 +80,17 @@
         <item quantity="other">om %d minutter</item>
         <item quantity="one">om 1 minutt</item>
     </plurals>
+    <plurals name="item_terms">
+        <item quantity="other">%1$s elementer</item>
+        <item quantity="one">%1$s element</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>

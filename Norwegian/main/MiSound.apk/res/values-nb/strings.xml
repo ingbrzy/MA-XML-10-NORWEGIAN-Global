@@ -31,6 +31,7 @@
     <string name="app_name">Hodetelefoner</string>
     <string name="apply_sound">Bruk</string>
     <string name="can_you_here">Kan du høre lyden?</string>
+    <string name="choose_bluetooth_device">Velg enhet</string>
     <string name="complete_dialog_button">Skjønner</string>
     <string name="complete_dialog_message">Du har fullført testen.</string>
     <string name="complete_dialog_title">Testresultater</string>
@@ -39,6 +40,13 @@
     <string name="customization_continue">Fortsett</string>
     <string name="customization_pause_tip">Stoppe testen nå? Koble til øretelefonene for å fortsette.</string>
     <string name="customization_quit">Lukk</string>
+    <string name="dolby_atoms">Dolby Atmos</string>
+    <string name="dolby_dax_geq_select_title">Forhåndsinnstillinger</string>
+    <string name="dolby_dax_geq_title">Grafisk equalizer</string>
+    <string name="dolby_dax_profile_dynamic">Dynamisk</string>
+    <string name="dolby_dax_setting">Dolby-effekter</string>
+    <string name="dolby_dax_title">Surround-lyd</string>
+    <string name="end_wireless_transmission">Stopp</string>
     <string name="eq_auto">Tilpasset</string>
     <string name="eq_blues">Blues</string>
     <string name="eq_cancel">Avbryt</string>
@@ -74,6 +82,7 @@
     <string name="input_hint_prefix">Fyll inn %1$s</string>
     <string name="keep_sound">Lagre forhåndsinnstilling</string>
     <string name="low_pitch">Lav tonehøyde</string>
+    <string name="misound_effect_setting">Mi Lyd</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
@@ -117,6 +126,7 @@
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_india_earphones">Mi-hodetelefoner</string>
     <string name="music_dirac_mode_india_earphones_basic">Mi-hodetelefoner Basic</string>
+    <string name="music_dirac_mode_mi_dual_driver_in_ear_earphones">Mi Dual Driver In-ear hodetelefoner</string>
     <string name="music_dirac_mode_off">Dirac av</string>
     <string name="music_dirac_mode_piston_1">Mi piston-1</string>
     <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -126,6 +136,7 @@
     <string name="music_dirac_mode_piston_standard">Standardutgave</string>
     <string name="music_dirac_mode_piston_typec">Mi In-Ear Headphones (Type-C)</string>
     <string name="music_dirac_mode_piston_youth">Ungdomsutgave</string>
+    <string name="music_dirac_mode_redmi_earphones">Redmi-hodetelefoner</string>
     <string name="music_dirac_mode_reduction_noise">Mi Støydempende Type-C</string>
     <string name="music_dolby_mode_movie">Video</string>
     <string name="music_dolby_mode_music">Musikk</string>
@@ -152,6 +163,8 @@
     <string name="music_headset_calibrate_volume_up">Øk volum</string>
     <string name="music_headset_calibrate_wrong_key">Det er feil knapp</string>
     <string name="music_headset_control_setting">Kontroller for hodetelefoner</string>
+    <string name="music_headset_effect_harman_kardon">Harman Kardon</string>
+    <string name="music_headset_effect_harman_kardon_summary">Sertifisert pro-lyd</string>
     <string name="music_headset_effect_settings">Lydeffekter</string>
     <string name="music_headset_improve_sound">Juster lyd til hodetelefoner</string>
     <string name="music_headset_is_open">På</string>
@@ -203,7 +216,25 @@
     <string name="sound_assist_key_summary">Juster lyd for individuelle apper mens flere apper spiller lyd samtidig</string>
     <string name="sound_assist_key_title">Juster medialyd i flere apper</string>
     <string name="sound_assist_title">Lydassistent</string>
+    <string name="sound_effect_hall">Hall</string>
+    <string name="sound_effect_original">Opprinnelig</string>
+    <string name="sound_effect_room">Rom</string>
+    <string name="sound_effect_theater">Teater</string>
     <string name="sound_test_title">Auditiv persepsjonstest</string>
+    <string name="sound_transmission_cancel">Nei takk</string>
+    <string name="sound_transmission_confirm">Tillat</string>
+    <string name="sound_transmission_continue">Gjenoppta</string>
+    <string name="sound_transmission_device">Enhet</string>
+    <string name="sound_transmission_dialog_message">Lydassistent</string>
+    <string name="sound_transmission_dialog_title">Aktiver Bluetooth</string>
+    <string name="sound_transmission_end">Stopp</string>
+    <string name="sound_transmission_function_generalize">Overfør lyd fra telefonens mikrofon til en ekstern Bluetooth-enhet</string>
+    <string name="sound_transmission_processing">Mikrofon</string>
+    <string name="sound_transmission_prompt">Tillat at denne funksjonen aktiverer Bluetooth for å kunne bruke trådløs mikrofon.</string>
+    <string name="sound_transmission_scenes">Scene</string>
+    <string name="sound_transmission_start">Start</string>
+    <string name="sound_transmission_stop">Pause</string>
+    <string name="sound_transmission_title">Trådløs mikrofon</string>
     <string name="start_test_sound">Start test</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -212,7 +243,14 @@
     <string name="switch_audio_device_bt">Bluetooth</string>
     <string name="switch_audio_device_phone">Denne enheten</string>
     <string name="switch_audio_dialog_title">Bytt lyd til</string>
+    <string name="switch_bluetooth_device">Bytt enhet</string>
     <string name="third_note">Finn et stille sted.</string>
+    <string name="transmission_volume_option_title">Mikrofonvolum</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="wireless_transmission">Trådløs høyttaler</string>
+    <string name="wireless_transmission_cancel">Avbryt</string>
+    <string name="wireless_transmission_confirm">Skru på</string>
+    <string name="wireless_transmission_definition">Overfør telefonens mikrofonlyd til en ekstern Bluetooth-enhet</string>
+    <string name="wireless_transmission_prompt">Den trådløse høyttaleren må skru på Bluetooth for å kunne sende lyd. Skru på nå?</string>
 </resources>

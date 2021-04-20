@@ -423,6 +423,7 @@
     <string name="navigation_type_full_screen">Bevegelser</string>
     <string name="navigation_type_title">Systemnavigasjon</string>
     <string name="navigation_type_virtual_key">Knapper</string>
+    <string name="network_error">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="no_detail_page">Ingen detaljer side</string>
     <string name="no_space_toast">Ikke nok plass</string>
     <string name="no_space_toast_when_click_widget">Ikke nok ledig plass på siden. Prøv å dra elementet til en annen side.</string>
@@ -519,6 +520,8 @@
     <string name="remove_dialog_message">Utvalgte apper inneholder viktige systemfunksjoner. Du kan bare fjerne snarveiene på startskjermen.</string>
     <string name="remove_dialog_title_format">Fjern \"%s\" fra hjemmeskjermen?</string>
     <string name="remove_invalidate_gadget_tips">En av widgetene du bruker er ikke lenger tilgjengelig. Du kan legge til en annen.</string>
+    <string name="remove_sys_app_content">Du kan legge til snarveien på startskjermen igjen under Innstillinger > Apper > Administrer snarveier på startskjermen. Fjerne nå?</string>
+    <string name="remove_sys_app_title">Fjerne snarveien på startskjermen?</string>
     <string name="reset_cate_tip_content">Hvis du fortsetter, blir alle appgrupper gjenopprettet. Fortsette likevel?</string>
     <string name="reset_cate_tip_title">Gjenopprett standardgrupper</string>
     <string name="reset_description_first_time">Du kan gjenopprette oppsettet fra %1$s innen 2 timer</string>
@@ -527,6 +530,7 @@
     <string name="reset_scene_prompt">Skjerm vil bli gjenopprettet som standard layout.</string>
     <string name="reset_title">Gjenopprett</string>
     <string name="restore_icon_successful">Lagt til</string>
+    <string name="russia_preinstall_folder_name">Russland</string>
     <string name="screen_cells_config_title">Startskjem-layout</string>
     <string name="screen_locked_toast">Startskjermoppsettet er låst.</string>
     <string name="screen_number">%d skjerm</string>
@@ -536,6 +540,7 @@
     <string name="select_all">Velg alle</string>
     <string name="select_frame">Ramme</string>
     <string name="select_photo">Foto</string>
+    <string name="server_error">En serverfeil oppstod. Vent et minutt eller to og prøv igjen.</string>
     <string name="setting_wallpaper_tip">Klyp eller sveip for å justere</string>
     <string name="settings">Innstillinger</string>
     <string name="settings_shortcut">Innstillinger</string>
@@ -563,6 +568,7 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />

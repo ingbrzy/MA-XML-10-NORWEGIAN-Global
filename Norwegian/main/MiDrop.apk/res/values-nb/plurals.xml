@@ -37,8 +37,8 @@
         <item quantity="one">%1$s og %2$s annet element overføres allerede.</item>
     </plurals>
     <plurals name="j">
-        <item quantity="other">Selected %d items</item>
-        <item quantity="one">Selected %d item</item>
+        <item quantity="other">%d elementer er valgt</item>
+        <item quantity="one">%d element er valgt</item>
     </plurals>
     <plurals name="k">
         <item quantity="other">%1$d elementer</item>

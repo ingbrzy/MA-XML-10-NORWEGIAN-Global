@@ -34,6 +34,12 @@
     <string name="add_custom_image">Tilpasset bilde</string>
     <string name="add_from_album">Legg til fra galleri</string>
     <string name="afternoon">Ettermiddag</string>
+    <string name="align_center_horizontally">Horisontalt og midtstilt</string>
+    <string name="align_center_vertically">Stablet og midtstilt</string>
+    <string name="align_left_horizontally">Horisontalt og venstrejustert</string>
+    <string name="align_left_vertically">Stablet og venstrejustert</string>
+    <string name="align_right_horizontally">Horisontalt og høyrejustert</string>
+    <string name="align_right_vertically">Stablet og høyrejustert</string>
     <string name="align_type">Juster</string>
     <string name="always_style">Alltid</string>
     <string name="always_style_symmary">Bruker mer strøm</string>
@@ -58,6 +64,7 @@ dd. MM"</string>
     <string name="aod_show_date_and_time">Vis dato og tid</string>
     <string name="aod_show_style_title">Vis elementer</string>
     <string name="aod_style">Tema</string>
+    <string name="aod_theme_store">Temaer for Alltid på-skjerm</string>
     <string name="aod_to_close">Deaktiver</string>
     <string name="apply">Bruk</string>
     <string name="apply_succeed">Aktivert</string>
@@ -254,6 +261,7 @@ dd. MM"</string>
 fantastisk er i ferd med å skje"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Skritteller leveres av Xiaomi Helse. Godta vilkår og betingelser for Xiaomi Helse for å fortsette.</string>
     <string name="step_component_info_desc">Skritteller endres til et trofé når du har nådd målet ditt. Skritteller leveres av Xiaomi Helse.</string>
     <string name="step_component_info_tip">Skritteller leveres av Xiaomi Helse. Installer eller oppdater Xiaomi Helse og godta vilkår og betingelser for å fortsette.</string>

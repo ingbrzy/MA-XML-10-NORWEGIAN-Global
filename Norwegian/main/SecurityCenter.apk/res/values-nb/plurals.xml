@@ -80,9 +80,17 @@
         <item quantity="other">Brukt for %d år siden</item>
         <item quantity="one">Brukt for %d år siden</item>
     </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">Du kan bruke Applås med %1$s apper</item>
+        <item quantity="one">Du kan bruke Applås med %1$s app</item>
+    </plurals>
     <plurals name="applock_guide_app_count_tips">
         <item quantity="other">Du kan beskytte minst %s apper</item>
         <item quantity="one">Du kan beskytte minst %s app</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s apper blir beskyttet med Applås</item>
+        <item quantity="one">%s app blir beskyttet med Applås</item>
     </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d apper kan kobles til nettverket i bakgrunnen</item>
@@ -292,6 +300,14 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">%2$d apper, inkludert %1$s, tapper batteri</item>
         <item quantity="one">%2$d app, inkludert %1$s, tapper batteri</item>
     </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d problemer med batteribruk</item>
+        <item quantity="one">%d problem med batteribruk</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Optimer %d elementer for å spare batteri</item>
+        <item quantity="one">Optimer %d element for å spare batteri</item>
+    </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">%d dager siden siste sjekk</item>
         <item quantity="one">%d dag siden siste sjekk</item>
@@ -404,9 +420,29 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">Lastet ned av %1$d personer</item>
         <item quantity="one">Lastet ned av %1$d personer</item>
     </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">ganger</item>
+        <item quantity="one">gang</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d problemer med batteribruk</item>
+        <item quantity="one">%d problem med batteribruk</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d dager "</item>
         <item quantity="one">"%d days "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">"  t"</item>
+        <item quantity="one">"  t"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">"  min"</item>
+        <item quantity="one">"  min"</item>
+    </plurals>
+    <plurals name="power_center_battery_health_summary">
+        <item quantity="other">Lad opp enheten helt minst %2$d ganger for å få nøyaktig statistikk</item>
+        <item quantity="one">Lad opp enheten helt minst %2$d gang for å få nøyaktig statistikk</item>
     </plurals>
     <plurals name="power_center_battery_hour">
         <item quantity="other">"%d timer "</item>
@@ -415,6 +451,26 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="power_center_battery_minute">
         <item quantity="other">"%d min "</item>
         <item quantity="one">"%d min "</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Reparer %d problemer med batteribruk</item>
+        <item quantity="one">Reparer %d problem med batteribruk</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">Du kan reparere %d problemer med batteribruk</item>
+        <item quantity="one">Du kan reparere %d problem med batteribruk</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d elementer kan optimeres"</item>
+        <item quantity="one">" %d element kan optimeres"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Optimer %d elementer for å spare batteri</item>
+        <item quantity="one">Optimer %d element for å spare batteri</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">Du kan optimere %d elementer for å spare batteri</item>
+        <item quantity="one">Du kan optimere %d element for å spare batteri</item>
     </plurals>
     <plurals name="power_center_battery_temperature">
         <item quantity="other">%d ℃</item>
@@ -451,6 +507,14 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="power_off_warning_notification_message">
         <item quantity="other">Enheten din vil slås av om %d sekunder. Koble til lader.</item>
         <item quantity="one">Enheten din vil slås av om %d sekund. Koble til lader.</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d apper starter ofte automatisk</item>
+        <item quantity="one">%d app starter ofte automatisk</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d apper tapper batteri</item>
+        <item quantity="one">%d app tapper batteri</item>
     </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d appikoner er skjulte</item>

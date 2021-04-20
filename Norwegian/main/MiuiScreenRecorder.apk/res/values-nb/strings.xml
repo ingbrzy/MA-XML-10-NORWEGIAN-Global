@@ -31,7 +31,10 @@
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
     <string name="app_name">Skjermopptaker</string>
+    <string name="app_notification_channel_record_complete">Notifications about finished recordings</string>
     <string name="app_notification_info">Skjermopptaker kjører i bakgrunnen</string>
+    <string name="app_notification_record_complete">"Saved screen recording to Gallery
+Tap to view"</string>
     <string name="app_notification_title">Skjermopptaker</string>
     <string name="auto_stop_title">Video lagret</string>
     <string name="battery_not_allowed" formatted="false">Kan ikke ta opp med batterikapasitet på under 3 %. Batteriet må ha minst 20 % kapasitet.</string>

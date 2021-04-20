@@ -40,6 +40,10 @@
         <item quantity="other">%d notater</item>
         <item quantity="one">%d notater</item>
     </plurals>
+    <plurals name="dirty_note_count_v2">
+        <item quantity="other">%d notater</item>
+        <item quantity="one">%d notater</item>
+    </plurals>
     <plurals name="dirty_personalAssistant_count">
         <item quantity="other">%d App vault-oppføringer</item>
         <item quantity="one">%d App vault-oppføring</item>
@@ -64,6 +68,10 @@
         <item quantity="other">%d WLAN networks</item>
         <item quantity="one">%d WLAN network</item>
     </plurals>
+    <plurals name="error_screen_pwd_next_retry_time">
+        <item quantity="other">Prøv igjen om %d sekunder</item>
+        <item quantity="one">Prøv igjen om %d sekund</item>
+    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Elementer som venter på å synkroniseres: %d</item>
         <item quantity="one">Elementer som venter på å synkroniseres: %d</item>
@@ -87,5 +95,21 @@
     <plurals name="select_no_more_than">
         <item quantity="other">Kan ikke velge mer enn %d elementer</item>
         <item quantity="one">Kan ikke velge mer enn %d element</item>
+    </plurals>
+    <plurals name="share_sdk_invitation_some_people_accepted">
+        <item quantity="other">Invitasjon akseptert av %d personer</item>
+        <item quantity="one">Invitasjon akseptert av %d person</item>
+    </plurals>
+    <plurals name="time_format_day">
+        <item quantity="other">%1$s dager</item>
+        <item quantity="one">%1$s dag</item>
+    </plurals>
+    <plurals name="time_format_hour">
+        <item quantity="other">%1$s timer</item>
+        <item quantity="one">%1$s time</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
     </plurals>
 </resources>

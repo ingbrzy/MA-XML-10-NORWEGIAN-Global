@@ -132,6 +132,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
+    <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="day_concat">", "</string>
     <string name="default_alarm_alert">Standard alarmlyd</string>
     <string name="default_alarm_title">Standard ringetone</string>
@@ -283,10 +284,13 @@
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
+    <string name="miuix_appcompat_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
+    <string name="miuix_appcompat_select_all">Velg alle</string>
     <string name="miuix_appcompat_select_all_description">Velg alle</string>
+    <string name="miuix_appcompat_select_item">Velg elementer</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
@@ -433,6 +437,7 @@
     <string name="search_stopwatch_keywords">Stoppeklokke</string>
     <string name="search_timer_keywords">Tidtaker</string>
     <string name="search_worldclock_keywords">Tid;Verdensklokke;Klokke</string>
+    <string name="send">Send</string>
     <string name="set_alarm">Velg tid</string>
     <string name="set_alarm_choose_ringtone">Velge ringetone</string>
     <string name="set_alarm_done">Ferdig</string>
@@ -452,6 +457,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 10 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="sleep_analysis">Statistikk</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -494,6 +500,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_reset_notification">Stoppeklokke ble nullstilt</string>
     <string name="stopwatch_running_notification">Stoppeklokke</string>
@@ -502,6 +509,7 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Gi denne appen tillatelse til å koble til Internett for å få tilgang til alle funksjonene.</string>
     <string name="system_permission_main_purpose">Visningstid, angi alarmer og tidtakere, bruk av stoppeklokke</string>
     <string name="system_permission_purpose">Oppretter alarmer for ukedager og angir tilpassede ringetoner</string>
@@ -617,8 +625,12 @@
     <string name="user_agreement">Brukeravtale</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="version_update_dialog_negative_desc">Ikke nå</string>
+    <string name="version_update_dialog_positive_desc">Oppdater</string>
+    <string name="version_update_dialog_title">En oppdatering er tilgjengelig</string>
     <string name="vibrate_pref_summary">Vibrer når alarmen går</string>
     <string name="vibrate_when_ringing">Vibrer ved ringing</string>
+    <string name="voice_add_alarm">Legg til alarm ved hjelp av en talekommando</string>
     <string name="volume_button_setting_desc">Tildel funksjoner til knappene Av/på og Volum +/-</string>
     <string name="volume_button_setting_summary">Still inn funksjonene til volumknappene under alarm</string>
     <string name="volume_button_setting_title">Volumknapper</string>

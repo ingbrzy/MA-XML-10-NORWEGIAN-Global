@@ -47,6 +47,8 @@
     <string name="alarm_sound">Alarm</string>
     <string name="all_resources">Alle</string>
     <string name="all_wallpapers">Alle bakgrunner</string>
+    <string name="app_description_content">Temaer er en systemapp. Den tilbyr bakgrunner og flere tilpasningsalternativer. Du kan fortsatt bruke Temaer via Innstillinger etter at du har fjernet snarveien på startskjermen.</string>
+    <string name="app_description_title">Fjerne «Temaer» fra startskjermen?</string>
     <string name="app_name">Temaer</string>
     <string name="app_permission_optional">Valgfrie tillatelser</string>
     <string name="app_permission_require">Obligatoriske tillatelser</string>
@@ -164,7 +166,9 @@
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -232,6 +236,7 @@
     <string name="incompatible_dialog_ok">Skjønner</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbakeringstone</string>
     <string name="item_resource_audio_optional_notification_ring">Varsler</string>
@@ -277,8 +282,9 @@
     <string name="my_gifts">Gaver</string>
     <string name="my_gifts_purchased">Kjøpt</string>
     <string name="my_gifts_received">Mottatt</string>
-    <string name="need_permission">Obligatoriske tillatelser (brukt for grunnleggende funksjoner og tjenester i denne appen)</string>
+    <string name="need_permission">Velkommen til Temaer! Denne appen tilbyr følgende tilpasningstjenester:</string>
     <string name="no_data">Kan ikke koble til nettverket</string>
+    <string name="no_network">Kan ikke koble til nettverket</string>
     <string name="no_related_font">Kunne ikke finne resultater</string>
     <string name="no_related_ringtone">Kunne ikke finne resultater</string>
     <string name="no_related_theme">Kunne ikke finne resultater</string>
@@ -312,7 +318,7 @@
     <string name="pref_animation_preview">Animerte forhåndsvisninger</string>
     <string name="pref_animation_preview_switch">Vis overgang fra låseskjerm til startskjerm på temacover</string>
     <string name="pref_privacy_policy">Personvernerklæring</string>
-    <string name="preference_authorization_summary">Slå bryteren av og på for å gi eller tilbakekalle autorisasjonen din</string>
+    <string name="preference_authorization_summary">Ved å skru bryteren av trekker du tilbake samtykket ditt til personvernerklæringen for Temaer.</string>
     <string name="preference_authorization_title">Autorisasjon</string>
     <string name="premium">Premium</string>
     <string name="present_local_themes">Mine temaer</string>
@@ -484,6 +490,7 @@
     <string name="resource_pack_price_info">Opprinnelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerde kjøpt %1$d-komponenter i dette temaet. Det er billigere hvis du kjøper de resterende komponentene hver for seg.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi-kreditter</string>
     <string name="resource_purchase_common_error">Det oppsto en feil. Prøv igjen</string>
@@ -562,8 +569,9 @@
     <string name="revoke_dialog_agree">Tilbakekall</string>
     <string name="revoke_dialog_agree_with_timestamp">Tilbakekall (%1$ds)</string>
     <string name="revoke_dialog_disagree">Avbryt</string>
-    <string name="revoke_dialog_message">Etter at du har tilbakekalt autorisasjonen, vil Temaer slutte å samle inn data og slette alle relaterte data fra serverne våre. Dette kan gjøre Temaer ubrukelig i praksis. Tilbakekalle autorisasjonen likevel?</string>
-    <string name="revoke_dialog_title">Tilbakekaller autorisasjonen</string>
+    <string name="revoke_dialog_message">Ved å slå av bryteren trekker du tilbake samtykket til personvernreglene til Temaer. Vi vil slutte å samle inn din personlige informasjon. Den personlige informasjonen som allerede er samlet inn og oppbevart, vil bli slettet innen den spesifikke perioden som kreves av gjeldende lover. Temaer må samle inn nødvendig personlig informasjon for å gi deg grunnleggende tjenester. Ditt tilbaketrekning av samtykke til personvernreglene vil bli ansett som å nekte å godta tjenestene sine basert på innsamlet personlig informasjon.</string>
+    <string name="revoke_dialog_title">Tilbakekalling av samtykke</string>
+    <string name="revoke_fail_message">Enheten din må koble til nettverket for at du skal kunne trekke tilbake samtykket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="revoke_progress_dialog_message">Tilbakekaller autorisasjon…</string>
     <string name="revoke_toast_message">Autorisasjon tilbakekalt</string>
     <string name="rewarded_ad_load_failed">Kunne ikke laste video. Prøv igjen.</string>
@@ -606,6 +614,7 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Lignende temaer</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_file">For å lagre nedlastede elementer</string>
     <string name="swipe_find_more">Sveip opp for å se mer</string>
     <string name="system_phone">Anrop</string>
@@ -650,6 +659,7 @@
     <string name="theme_component_title_statusbar">Statuslinje</string>
     <string name="theme_component_title_wallpaper">Startskjerm</string>
     <string name="theme_current_using_has_update">Temaoppdatering er tilgjengelig</string>
+    <string name="theme_desc">Temaer gjør at du kan tilpasse flere elementer i brukergrensesnittet over hele systemet.</string>
     <string name="theme_description_title_customized">Tilpasset</string>
     <string name="theme_description_title_default">Standard</string>
     <string name="theme_detail">Detaljer</string>
@@ -671,6 +681,7 @@
     <string name="theme_is_external_priority_storage">Lagre til SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Themes-appen omstarter umiddelbart etter denne innstillingen godkjennes.</string>
     <string name="theme_multiple_button_title_customize">Tilpass</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nei</string>
     <string name="theme_select_others">Bla gjennom</string>
     <string name="theme_setting">Innstillinger</string>
@@ -723,14 +734,14 @@
     <string name="user_agree">Godta</string>
     <string name="user_authorization_dialog_agree">Godta</string>
     <string name="user_authorization_dialog_disagree">Avslutt</string>
-    <string name="user_authorization_dialog_message">Les og aksepter vår &lt;a href=\"%1$s\">Brukeravtale&lt;/a> og &lt;a href=\"%2$s\">Personvernerklæring&lt;/a> før du fortsetter.</string>
-    <string name="user_authorization_dialog_title">Innvilger autorisasjon</string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Vi må innhente nødvendige personopplysninger for å tilby deg de grunnleggende tjenestene. Du kan finne ut mer om måten vi håndterer informasjon på i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår. Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%3$s\">personvernerklæringen&lt;/a> vår før du bruker Temaer.
+Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen til Temaer under Innstillinger.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_title">Vilkår og betingelser</string>
     <string name="user_know">Skjønner</string>
     <string name="using_theme_has_update_tips">En oppdatering for dette temaet er tilgjengelig.</string>
     <string name="using_theme_next_automatic_update">Autooppdateringer</string>
     <string name="using_theme_next_automatic_update_summary">Oppdater nedlastede temaer via Wi-Fi automatisk når skjermen er låst</string>
     <string name="using_theme_show_ad">Anbefalinger</string>
-    <string name="using_wallpaper_personal">Personlig tilpasset bakgrunnsutvalg</string>
     <string name="video_audio_apply_success">Konfigurering av video med lyd var vellykket</string>
     <string name="video_data_tips_message">Bruk av mobildata kan generere ekstra gebyrer. Fortsette likevel?</string>
     <string name="video_data_tips_title">Advarsel om databruk</string>
@@ -739,12 +750,9 @@
     <string name="wallpaper_apply">Bruk</string>
     <string name="wallpaper_crop">Beskjær</string>
     <string name="wallpaper_decoded_error">Kunne ikke laste bakgrunn</string>
+    <string name="wallpaper_desc">Bakgrunner gir startskjermen et friskt utseende.</string>
     <string name="wallpaper_detail_load_page_no_network">Koble til nettverket og prøv igjen.</string>
     <string name="wallpaper_might_like">Bakgrunnsbilder du kanskje liker</string>
-    <string name="wallpaper_personal_dialog_agree">Gi et personlig preg</string>
-    <string name="wallpaper_personal_dialog_content">Bruk denne funksjonen for å kunne se utvalget av personlig tilpassede bakgrunner i henhold til interessene dine. Du kan skru denne funksjonen av og på under Innstillinger. Gi bakgrunnene et personlig preg nå?</string>
-    <string name="wallpaper_personal_dialog_disagree">Nei, takk</string>
-    <string name="wallpaper_personal_dialog_title">Gi bakgrunnene dine et personlig preg</string>
     <string name="wallpaper_scroll_type_tips">Bakgrunnsrull</string>
     <string name="wallpaper_set_as_both">Sett begge</string>
     <string name="wallpaper_set_as_desktop">Sett som Startskjerm</string>

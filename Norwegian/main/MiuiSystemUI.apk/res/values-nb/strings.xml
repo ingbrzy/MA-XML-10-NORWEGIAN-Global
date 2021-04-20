@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Nettverksleverandør endres.</string>
     <string name="accessibility_cast_name">Koblet til %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Skjermtildeling stoppet.</string>
     <string name="accessibility_cell_data">Mobile Data</string>
     <string name="accessibility_cell_data_off">Mobildata av</string>
@@ -114,6 +115,7 @@
     <string name="accessibility_ethernet_connected">Ethernet tilkoblet.</string>
     <string name="accessibility_ethernet_disconnected">Ethernet er koblet fra.</string>
     <string name="accessibility_expand_button">Vis mer</string>
+    <string name="accessibility_face_dialog_face_icon">Ansiktikon</string>
     <string name="accessibility_fingerprint_dialog_app_icon">Applikasjonsikon</string>
     <string name="accessibility_fingerprint_dialog_fingerprint_icon">Fingeravtrykksikon</string>
     <string name="accessibility_fingerprint_dialog_help_area">Hjelpemeldingsområde</string>
@@ -387,6 +389,38 @@
     <string name="battery_saver_notification_text">Reduserer ytelse og bakgrunnsdata</string>
     <string name="battery_saver_notification_title">Batterisparer på</string>
     <string name="battery_saver_start_action">Slå på batterisparer</string>
+    <string name="biometric_dialog_authenticated">Autentisert</string>
+    <string name="biometric_dialog_confirm">Bekreft</string>
+    <string name="biometric_dialog_credential_attempts_before_wipe">Prøv på nytt. Forsøk %1$d av %2$d.</string>
+    <string name="biometric_dialog_credential_too_many_attempts">"For mange ugyldige forsøk.
+Prøv på nytt om %d sekunder."</string>
+    <string name="biometric_dialog_empty_space_description">Trykk for å avbryte autentiseringen</string>
+    <string name="biometric_dialog_face_icon_description_authenticated">Ansiktet er autentisert</string>
+    <string name="biometric_dialog_face_icon_description_authenticating">Ser etter ansiktet ditt</string>
+    <string name="biometric_dialog_face_icon_description_confirmed">Bekreftet</string>
+    <string name="biometric_dialog_face_icon_description_idle">Prøv igjen</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_device">For mange mislykkede forsøk. Dataene på denne enheten blir slettet.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_profile">For mange mislykkede forsøk. Denne jobbprofilen og tilknyttede data blir slettet.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_user">For mange mislykkede forsøk. Denne brukeren blir slettet.</string>
+    <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Dataene dine blir slettet</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_device">Hvis du skriver inn feil passord på neste forsøk, slettes dataene på denne enheten.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Hvis du skriver inn feil passord på neste forsøk, slettes jobbprofilen din og tilknyttede data.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_user">Hvis du skriver inn feil passord på neste forsøk, slettes denne brukeren.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Hvis du oppgir feil mønster på neste forsøk, slettes dataene på denne enheten.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Hvis du oppgir feil mønster på neste forsøk, slettes jobbprofilen din og tilknyttede data.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Hvis du oppgir feil mønster på neste forsøk, slettes denne brukeren.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_device">Hvis du skriver inn feil PIN-kode på neste forsøk, slettes dataene på denne enheten.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Hvis du skriver inn feil PIN-kode på neste forsøk, slettes jobbprofilen din og tilknyttede data.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Hvis du skriver inn feil PIN-kode på neste forsøk, slettes denne brukeren.</string>
+    <string name="biometric_dialog_now_wiping_dialog_dismiss">Avvis</string>
+    <string name="biometric_dialog_tap_confirm">Trykk på Bekreft for å fullføre</string>
+    <string name="biometric_dialog_try_again">Prøv på nytt</string>
+    <string name="biometric_dialog_use_password">Bruk passord</string>
+    <string name="biometric_dialog_use_pattern">Bruk mønster</string>
+    <string name="biometric_dialog_use_pin">Bruk PIN-kode</string>
+    <string name="biometric_dialog_wrong_password">Feil passord</string>
+    <string name="biometric_dialog_wrong_pattern">Feil mønster</string>
+    <string name="biometric_dialog_wrong_pin">Feil PIN-kode</string>
     <string name="blob_expires_text">Utløper %s</string>
     <string name="blob_id_text">Delt data-ID: %d</string>
     <string name="block">Blokker alle varslinger</string>
@@ -704,6 +738,7 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="ext_media_unmountable_notification_title">Skadet USB-lagring</string>
     <string name="external_source_trusted">Tillatt</string>
     <string name="external_source_untrusted">Ikke tillatt</string>
+    <string name="face_dialog_looking_for_face">Ser etter deg …</string>
     <string name="face_unlock_be_on_the_screen">Hold enheten foran ansiktet ditt</string>
     <string name="face_unlock_check_failed">Kunne ikke gjenkjenne deg</string>
     <string name="face_unlock_fail">Kunne ikke verifisere ansikt</string>
@@ -711,8 +746,11 @@ Om du fortsetter, kan det forekomme omkostninger."</string>
     <string name="face_unlock_fail_retry_global">Trykk ovenfor for å bruke ansiktsopplåsning</string>
     <string name="face_unlock_not_found">Kunne ikke gjenkjenne deg</string>
     <string name="face_unlock_open_eye">Åpne øynene dine litt mer</string>
+    <string name="face_unlock_password_and_fingerprint">Skriv inn passord eller bruk fingeravtrykk for å låse opp</string>
     <string name="face_unlock_passwork">Bruk passord</string>
     <string name="face_unlock_passwork_and_fingerprint">Bruk passord eller fingeravtrykk</string>
+    <string name="face_unlock_pattern_and_fingerprint">Tegn et mønster eller bruk fingeravtrykk for å låse opp</string>
+    <string name="face_unlock_pin_and_fingerprint">Skriv inn PIN-kode eller bruk fingeravtrykk for å låse opp</string>
     <string name="face_unlock_reveal_eye">Gjør øynene dine synlige</string>
     <string name="face_unlock_reveal_mouth">Gjør leppene dine synlige</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åpne innstillinger for %1$s</string>
@@ -838,6 +876,9 @@ Med en gang telefonen har kjølt seg ned, vil den kjøre som normalt."</string>
     <string name="inactive_apps_title">Inaktive apper</string>
     <string name="incorrect_pincode">Feil PIN-kode</string>
     <string name="incorrect_pukcode">Feil PUK-kode</string>
+    <string name="input_lockscreen_password_hint_text">Skriv inn passord</string>
+    <string name="input_lockscreen_pattern_hint_text">Tegn et mønster</string>
+    <string name="input_lockscreen_pin_hint_text">Skriv inn PIN-kode</string>
     <string name="input_password_after_boot_msg">For å låse opp enheten, skriv inn passordet ditt</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Kan ikke bytte sted under en telefonsamtale</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke bytte mellom områder mens foreldrekontrollen er skrudd på</string>
@@ -923,6 +964,10 @@ Bruk kun laderen som følger med."</string>
     <string name="keyguard_charging_back_to_lockscreen">Tilbake til låst skjerm</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Brukt</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
@@ -950,6 +995,7 @@ Bruk kun laderen som følger med."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke leses. Sett inn et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Ingen SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Ingen SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nettverket er låst</string>
     <string name="keyguard_password_enter_password_code">Tast inn passordet for å låse opp</string>
     <string name="keyguard_password_enter_pin_code">Skriv inn PIN-kode</string>
@@ -966,6 +1012,7 @@ Bruk kun laderen som følger med."</string>
     <string name="keyguard_plugged_in_charging_fast">Hurtiglading</string>
     <string name="keyguard_plugged_in_charging_slowly">Lader tregt</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Hurtigladning. Trykk for å se detaljer.</string>
+    <string name="keyguard_retry">Sveip opp for å prøve igjen</string>
     <string name="keyguard_sim_locked_message">SIM-kortet er sperret.</string>
     <string name="keyguard_sim_puk_locked_message">SIM-kortet er låst med PUK-kode.</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Låser opp SIM-kort…</string>
@@ -1034,6 +1081,7 @@ Prøv igjen om %2$d sekunder."</string>
     <string name="left_keycode">Venstre nøkkelkode</string>
     <string name="left_nav_bar_button_type">Ekstra type venstreknapp</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Et øyeblikk…</string>
     <string name="local_backup_password_summary_change">Trykk for å endre eller fjerne passordet for fullstendige sikkerhetskopieringer av hjemskjermen</string>
     <string name="local_backup_password_summary_none">Fullstendige sikkerhetskopier av hjemskjermen er ikke beskyttet for øyeblikket</string>
@@ -1113,6 +1161,7 @@ et rullende skjermbilde"</string>
     <string name="miui_guide_dialog_message">Medialyder (musikk, videoer, osv.) vil spilles av i stillemodus. Du kan endre dette i Innstillinger.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst opp av Bluetooth-enhet</string>
     <string name="miui_ringer_count_down">Nedtelling</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Stille</string>
     <string name="miui_ringer_standard_description">Demp ringelyder for innkommende anrop og varsler</string>
     <string name="miui_ringer_total">Ikke forstyrr</string>
@@ -1148,12 +1197,14 @@ Du er også koblet til %3$s som kan overvåke den personlige nettverksaktivitete
 
 Kontakt administrator for mer informasjon."</string>
     <string name="monitoring_description_ca_cert_settings">Åpne pålitelige legitimasjonsbeskrivelser</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Et autorisasjonsbevis er installert på enheten. Trafikken på det sikre nettverket kan overvåkes eller modifiseres.</string>
     <string name="monitoring_description_do_body">Din admin kan overvåke og administrere innstillinger, firmatilgang, apper, data knyttet til enheten din og enhetens lokasjonsopplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du er koblet til %1$s, som kan overvåke din nettverksaktivitet, inkludert e-poster, apper og nettsteder.</string>
     <string name="monitoring_description_do_header_generic">Din enhet administreres av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruker %2$s for å administrere din enhet.</string>
     <string name="monitoring_description_do_learn_more">Lær mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisasjonen din har installert et autorisasjonsbevis i arbeidsprofilen din. Trafikken på det sikre nettverket kan være overvåket eller modifisert.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Arbeidsprofilen din er knyttet til %1$s, som kan overvåke nettverksaktiviteten, inkludert e-post, apper og nettsteder.</string>
     <string name="monitoring_description_management">"Enheten administreres av organisasjonen du jobber for.
@@ -1185,6 +1236,7 @@ For mer informasjon, kontakt din admin.
 
 Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string>
     <string name="monitoring_description_vpn_settings">Åpne VPN-innstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-bevis</string>
     <string name="monitoring_subtitle_network_logging">Nettverkslogging</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1223,6 +1275,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="nav_guide_message">Bruk bevegelser for å skjule/vise myke knapper.</string>
     <string name="nav_guide_ok">Sett opp</string>
     <string name="nav_guide_title">Skjul myke knapper</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ingen</string>
     <string name="no_multi_window_app">Ingen apper som støtter delt skjerm</string>
     <string name="no_notification_tips">Ingen varsler</string>
@@ -1394,6 +1447,7 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="private_dns_mode_provider">Privat DNS-leverandør vertsnavn</string>
     <string name="private_dns_mode_provider_failure">Kan ikke koble til</string>
     <string name="private_dns_mode_provider_hostname_hint">Skriv inn vertsnavn på DNS-leverandør</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Problemer med å koble til. Slå av og på enheten</string>
     <string name="profile_info_settings_title">Profilinfo</string>
     <string name="profile_owned_footer">Profil kan være overvåket</string>
@@ -1540,7 +1594,6 @@ Du er også koblet til en VPN, som kan overvåke din nettverksaktivtet."</string
     <string name="quick_settings_wifi_not_connected">Ikke tilkoblet</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi er av</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi er på</string>
-    <string name="quick_settings_wireless_label">Omvendt trådløs lading</string>
     <string name="quick_settings_work_mode_label">Arbeidsmodus</string>
     <string name="rapid_charge_mode_tip">Hurtiglading</string>
     <string name="recent_cannot_dock">Kan ikke bruke delt skjerm i Andre område</string>
@@ -1996,6 +2049,7 @@ Enhver bruker kan oppdatere apper for alle andre brukere."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Heksadesimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Oppdatert %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunkt er midlertidig fullt</string>
     <string name="wifi_auto_sel_wapi_cert">Velg automatisk</string>
@@ -2072,15 +2126,6 @@ Legitimasjonslagring er kanskje ikke aktivert."</string>
     <string name="wireless_charge_reset_device">Oppladingen går tregt. Juster enheten din.</string>
     <string name="wireless_charge_reset_device_detail">Forsikre deg om at enheten er riktig plassert på ladebasen</string>
     <string name="wireless_charge_stop">Trådløs lading stoppet</string>
-    <string name="wireless_charging_connected_message">Kan ikke bruke omvendt trådløs lading når enheten lader trådløst.</string>
-    <string name="wireless_charging_low_battery_level_message">Kan ikke bruke trådløs lading når batteriet er mindre enn 30 % ladet opp.</string>
-    <string name="wireless_charging_ok">Skjønner</string>
-    <string name="wireless_charging_saver_cancel">Deaktiver</string>
-    <string name="wireless_charging_saver_message">Batterisparer er nå på. Beholde omvendt trådløs lading tilgjengelig?</string>
-    <string name="wireless_charging_saver_ok">Behold</string>
-    <string name="wireless_charging_tips_disable">Ikke vis igjen</string>
-    <string name="wireless_charging_tips_message">Plasser enheter som støtter Qi-trådløs lading (telefoner, tilbehør osv.) bak på denne enheten.</string>
-    <string name="wireless_charging_tips_title">Omvendt trådløs lading</string>
     <string name="wrong_password">Feil passord</string>
     <string name="zen_alarm_warning">Du vil ikke høre den neste alarmen %1$s</string>
     <string name="zen_alarm_warning_indef">Du vil ikke høre den neste alarmen %1$s hvis du ikke skrur av denne før det</string>

@@ -74,8 +74,11 @@
     <string name="input_method_category">Velg det standardtastaturet du kommer til å bruke for å skrive meldinger, notater og stort sett alt annet også. Merk at du kan installere andre, tredjepartstastaturer senere.</string>
     <string name="input_method_setting">Velg tastatur</string>
     <string name="install_preinstall_app">Laster apper…</string>
+    <string name="item_contents_wwarning">Hvis enheten går tapt, vil du ikke kunne hindre andre mot å bruke den og få tilgang til dine data, med mindre du har aktivert en skjermlås. Vil du fortsatt ignorere dette?</string>
     <string name="item_fingerprint">Fingeravtrykk</string>
     <string name="item_lock_screen_password">Kun skjermlås</string>
+    <string name="item_return">Angi</string>
+    <string name="item_skip">Hopp over</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Deler plasseringsinformasjon med nødhjelpsetater</string>
     <string name="language_picker_other_languages_title">Flere språk</string>
@@ -126,6 +129,7 @@
     <string name="other_settings_user_experience">Brukeropplevelsesprogram</string>
     <string name="other_settings_user_experience_summary">Hjelp oss med å forbedre produktene og tjenestene våre ved å dele bruksstatistikken din med oss. Se flere detaljer</string>
     <string name="other_settings_user_experience_summary_index">Vis detaljer</string>
+    <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
     <string name="permission_account">Få tilgang til kontoer på enheten:</string>
     <string name="permission_account_introduction">For å logge inn med Mi-konto</string>
     <string name="permission_application_package_introduction">For å få tilgang til lagring for å kunne analysere og skanne installasjonspakker</string>
@@ -158,6 +162,10 @@
     <string name="permission_picture_introduction">For å lagre, redigere og synkronisere bilder og videoer</string>
     <string name="permission_read_call_records">Rediger anropshistorikk:</string>
     <string name="permission_read_call_records_introduction">For å legge til elementer i anropshistorikk og slette blokkerte anrop</string>
+    <string name="permission_read_contacts">Accessing contacts</string>
+    <string name="permission_read_contacts_introduction">For verifying your identity</string>
+    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">For tilgang til notater og vedlegg</string>
     <string name="permission_read_write_file">Få tilgang til og lagre filer og bilder på enheten:</string>
     <string name="permission_read_write_file_introduction">For å få tilgang til, lagre og bufre elementer på enheten</string>
@@ -178,8 +186,7 @@
     <string name="pref_title_voice_slot">Foretrukket stemme-SIM-kort</string>
     <string name="privacy_policy">Personvernerklæring</string>
     <string name="protect_persoanl_info_statement">Vi beskytter personopplysningene dine i henhold til relevante lover, forskrifter og personvernerklæringer.</string>
-    <string name="provision_inputmethod_policy_description">"
-Se det valgte tastaturets personverninnstillinger."</string>
+    <string name="provision_inputmethod_policy_description">&lt;Data>Vis &lt;a href=%1$s>Personvernerklæringen&lt;/a > for ditt valgte tastatur.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Personvernerklæring</string>
     <string name="recorder_introduction">Du kan bruke denne appen til å ta opp lyd og sikkerhetskopiere opptak til skyen.</string>
     <string name="require_authority_statement">For å gi oss tillatelse til å tilby deg grunnleggende tjenester, må du gi oss følgende tillatelser for at vi skal kunne innhente personopplysningene dine:</string>
@@ -188,6 +195,7 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="security_introduction">Du kan bruke denne appen til å fjerne alt søppel på enheten, finne og nøytralisere virus, optimalisere ytelsen for spill, spare batteri, behandle apper, tillatelser og mer.</string>
     <string name="security_mobile_account_introduction">For å logge inn og administrere systemkontoer</string>
     <string name="service_agreement">Jeg har lest og godtatt vilkårene og betingelsene.</string>
+    <string name="service_name_MIUIDaemon">MIUI Daemon</string>
     <string name="service_name_album">Galleri</string>
     <string name="service_name_application_package">Pakkeinstallerer</string>
     <string name="service_name_backup">Sikkerhetskopier</string>
@@ -260,6 +268,7 @@ Du må samtykke i personvernerklæringen for Mint-tastatur før du bruker denne 
     <string name="terms_privacy_policy_input_method_facemoji">Facemoji-personvernpolicy</string>
     <string name="terms_privacy_policy_input_method_kika">Kika-personvernpolicy</string>
     <string name="title_fingerprint">Skriv inn passord</string>
+    <string name="title_set_fingerprint">Skjermlås</string>
     <string name="user_agreement">Brukeravtale</string>
     <string name="user_agreement_declare">Før du bruker MIUI må du lese og godta brukeravtalen og personvernerklæringen vår. Når enheten blir aktivert, vil Mi SIM-aktiveringstjeneste, Xiaomi Cloud, Finn enhet, Startskjerm, Ofte brukte uttrykk, Oversettertjeneste, MIUI Daemon, HTML-visning, MIUI SDK, AI-assistent, Batteri og ytelse, Strømdetektor, Joyose, OS AI-innstilling, Tillatelsesbehandling og Oppdaterer koble til nettverket. Smarttjenester vil koble til nettverket og få tilgang til plasseringen din.</string>
     <string name="voice_assist_advice">Mi AI tillater deg å bruke talekontroller, men bruker mer strøm (+1 % hver time).</string>
@@ -268,6 +277,15 @@ Du må samtykke i personvernerklæringen for Mint-tastatur før du bruker denne 
 2. Når du lytter til musikk med skjermen av."</string>
     <string name="voice_assist_desp">Si \"Mi AI\" til telefonen. Mi AI vil gjenkjenne stemmen din og vil kunne styre enheten.</string>
     <string name="voice_assist_title">Vekk med stemme</string>
+    <string name="wc_dialog_agree">Godta</string>
+    <string name="wc_dialog_reject">Ikke godta</string>
+    <string name="wc_dialog_summary">Bakgrunnskarusellen gir imponerende bilder og spennende historier på låseskjemen daglig.</string>
+    <string name="wc_dialog_title">Låseskjerm i ny utforming</string>
+    <string name="wc_double_check_agree">Prøv</string>
+    <string name="wc_double_check_reject">Nei, takk</string>
+    <string name="wc_double_check_summary">Du kan aktivere Bakgrunnskarusell for å se om den fungerer for deg. Husk at du alltid kan aktivere og deaktivere Bakgrunnskarusell under Innstillinger > Låseskjerm.</string>
+    <string name="wc_double_check_title">Prøv Bakgrunnskarusell</string>
+    <string name="wc_notice_link_announcement_summary">Les og godta tredjepartsinnholdsleverandørens &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a> før du bruker denne funksjonen.</string>
     <string name="welcome">Velkommen</string>
     <string name="zone_picker_title">Velg tidssone</string>
 </resources>

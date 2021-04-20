@@ -404,6 +404,10 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="other">%1$d forslag</item>
         <item quantity="one">1 forslag</item>
     </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Få et varsel når én av øretelefonene er borte fra øret eller ladeetuiet i mer enn %d minutter</item>
+        <item quantity="one">Få et varsel når én av øretelefonene er borte fra øret eller ladeetuiet i mer enn %d minutt</item>
+    </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d elementer</item>
         <item quantity="one">1 element</item>

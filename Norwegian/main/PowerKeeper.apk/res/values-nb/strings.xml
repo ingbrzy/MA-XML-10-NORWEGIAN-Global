@@ -47,7 +47,7 @@
     <string name="config_mode_title">Bakgrunnsinnstillinger</string>
     <string name="config_no_restrict_description">Batterisparer begrenser ikke appens aktivitet</string>
     <string name="config_no_restrict_title">Ingen begrensninger</string>
-    <string name="config_restrict_function_description">Noen funksjoner (som push-varsler) kan påvirkes, men apper kan ikke lukkes.</string>
+    <string name="config_restrict_function_description">Lukk apper etter ti minutter med bakgrunnsaktivitet</string>
     <string name="config_restrict_function_title">Begrens bakgrunnsappper</string>
     <string name="config_restrict_running_description">Apper vil lukkes for å spare batteri</string>
     <string name="config_restrict_running_title">Begrens bakgrunnsaktivitet</string>

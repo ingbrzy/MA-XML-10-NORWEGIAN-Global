@@ -305,6 +305,8 @@ For å bytte mellom funksjoner, sveip opp med tre fingre og hold."</string>
     <string name="activating">Aktiverer…</string>
     <string name="active_device_admin_msg">Administratorappen på enheten</string>
     <string name="active_input_method_subtypes">Aktive inndatametoder</string>
+    <string name="activity_check_context">Enheten din prøver å koble til internett nå. Denne prosessen kan ta lengre tid enn forventet hvis du bruker mobildata. Du kan gå tilbake og koble til et Wi-Fi-nettverk i stedet, eller fortsette å vente til mobildataforbindelsen er opprettet.</string>
+    <string name="activity_check_title">Kobler til internettet</string>
     <string name="activity_not_found">Appen er ikke installert på telefonen din.</string>
     <string name="activity_picker_label">Velg aktivitet</string>
     <string name="activity_title_power_manager">Batterisparing;Spar batteri</string>
@@ -532,6 +534,7 @@ Administratoren din kan overvåke og administrere innstillinger, tilgang, apper 
     <string name="app_and_notification_dashboard_summary">Nylige apper, standardapper</string>
     <string name="app_and_notification_dashboard_title">Apper og varsler</string>
     <string name="app_backup">Sikkerhetskopi</string>
+    <string name="app_bluetooth_device_blacklist">Blokkeringsliste for Bluetooth</string>
     <string name="app_cellular_data_usage">Databruk av apper</string>
     <string name="app_default_dashboard_title">Standardapper</string>
     <string name="app_detail">Detaljer</string>
@@ -756,9 +759,12 @@ Sist kjørt %2$s"</string>
     <string name="avoid_ui">Blokker berøringsrespons</string>
     <string name="awake">Tid enheten har vært våken</string>
     <string name="back_button">Tilbake</string>
+    <string name="back_double_tap">Dobbelt tilbaketrykk</string>
     <string name="back_key">Tilbake</string>
     <string name="back_sensitivity_dialog_message">Høyere følsomhet kan komme i konflikt med eventuelle appbevegelser langs kantene av skjermen.</string>
     <string name="back_sensitivity_dialog_title">Følsomhet for tilbakebevegelsen</string>
+    <string name="back_tap">Tilbaketrykk</string>
+    <string name="back_triple_tap">Trippelt tilbaketrykk</string>
     <string name="background_activity_disabled_dialog_text">"Du kan ikke begrense appen siden den ikke er satt til å optimalisere batteriet.
 
 For å begrense appen, slå på batterioptimalisering."</string>
@@ -1046,6 +1052,8 @@ Apper:
     <string name="bluetooth_audio_share_feature_notice_title">Del lyd</string>
     <string name="bluetooth_battery_level">%1$s batteri</string>
     <string name="bluetooth_battery_level_untethered">V: %1$s batteri, H: %2$s batteri</string>
+    <string name="bluetooth_blacklist_cancel_remove_device">Avbryt</string>
+    <string name="bluetooth_blacklist_remove_device">Fjern blokkering</string>
     <string name="bluetooth_broadcasting">Kringkasting</string>
     <string name="bluetooth_confirm_passkey_msg">Sånn kobler du til:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Kontroller at dette passordet vises:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_connect_failed">Kunne ikke koble til. Prøv på nytt.</string>
@@ -1075,6 +1083,8 @@ Apper:
     <string name="bluetooth_device_advanced_profile_header_title">Bruk for</string>
     <string name="bluetooth_device_advanced_rename_device">Gi nytt navn</string>
     <string name="bluetooth_device_advanced_title">Tilkoblet Bluetooth-enhet</string>
+    <string name="bluetooth_device_blacklist_summary">Administrer blokkerte Bluetooth-enheter</string>
+    <string name="bluetooth_device_blacklist_tital">Blokkeringsliste for Bluetooth</string>
     <string name="bluetooth_device_context_connect">Koble til</string>
     <string name="bluetooth_device_context_connect_advanced">Innstillinger…</string>
     <string name="bluetooth_device_context_disconnect">Koble fra</string>
@@ -1161,9 +1171,11 @@ Dette kan være galt:
     <string name="bluetooth_max_connected_audio_devices_dialog_title">Velg maksimalt antall tilkoblede Bluetooth-lydenheter</string>
     <string name="bluetooth_max_connected_audio_devices_string">Maksimalt antall Bluetooth-lydenheter</string>
     <string name="bluetooth_menu_advanced">Avansert</string>
+    <string name="bluetooth_message_move_out_of_blacklist">Fjerne blokkering av %1$s nå?</string>
     <string name="bluetooth_mi_fast_connect">Sammenkoble kompatible enheter</string>
     <string name="bluetooth_mi_fast_connect_summary">Koble til enheter i nærheten ved hjelp av en forenklet sammenkoblingsprosess</string>
     <string name="bluetooth_middle_name">Etui</string>
+    <string name="bluetooth_move_out_of_blacklist">Fjern blokkering av enhet</string>
     <string name="bluetooth_name_not_set">Ikke noe navn er valgt, bruker kontonavn</string>
     <string name="bluetooth_no_devices_found">Finner ingen Bluetooth-enheter.</string>
     <string name="bluetooth_not_visible_to_other_devices">Ikke synlig for andre Bluetooth-enheter</string>
@@ -1181,6 +1193,7 @@ Dette kan være galt:
     <string name="bluetooth_pairing">Parkobler…</string>
     <string name="bluetooth_pairing_accept">Sammenkoble</string>
     <string name="bluetooth_pairing_accept_all_caps">SAMMENKOBLE</string>
+    <string name="bluetooth_pairing_add_to_blackfile">Blokker</string>
     <string name="bluetooth_pairing_decline">Avbryt</string>
     <string name="bluetooth_pairing_device_down_error_message">Kan ikke kommunisere med %1$s.</string>
     <string name="bluetooth_pairing_dialog_contants_request">%1$s ønsker å få tilgang til kontaktene dine og anropsloggen.</string>
@@ -1195,6 +1208,7 @@ Dette kan være galt:
     <string name="bluetooth_pairing_rejected_error_message">Sammenkobling avvist av %1$s.</string>
     <string name="bluetooth_pairing_request">Vil du koble til %1$s?</string>
     <string name="bluetooth_pairing_shares_phonebook">Gi tilgang til kontaktene dine og anropsloggen din</string>
+    <string name="bluetooth_pairing_toast_add_to_blackfile">Blokkert. Du kan administrere blokkerte elementer under Tilleggsinnstillinger.</string>
     <string name="bluetooth_pairing_will_share_phonebook">Sammenkobling gir tilgang til kontaktene og anropsloggen din under tilkobling.</string>
     <string name="bluetooth_pan_nap_profile_summary_connected">Deler lokal internettilkobling med enhet</string>
     <string name="bluetooth_pan_profile_summary_use_for">Brukes for internettilgang</string>
@@ -1383,6 +1397,7 @@ Valg"</string>
 Hvis du allerede har gjort noe av det ovenfor, kan du legge til Mi-kontoen igjen, ellers vil du ikke kunne låse opp enheten."</string>
     <string name="bootloader_tips_ok">Skjønner</string>
     <string name="bootloader_tips_warning">Ikke koble fra nettverket, logg av Mi-kontoen, tilbakestill til fabrikkinnstillinger eller slett systemdata.</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Funksjoner av ekstra knapper</string>
     <string name="breathing_light_color_menu_title">Lysfarge</string>
     <string name="breathing_light_color_summary">Lysfarge når du mottar nye varsler</string>
@@ -1939,6 +1954,7 @@ For å fortsette å bruke telefonen, må du gjennomføre en tilbakestilling til 
     <string name="current_zone">(gjeldende)</string>
     <string name="custom_carrier_title">Rediger leverandørnavn</string>
     <string name="custom_color">Tilpasset</string>
+    <string name="custom_gesture_title">Egendefinerte bevegelser</string>
     <string name="custom_wifi_name_title">Rediger Wi-Fi navn</string>
     <string name="cutout_mode_always">Alltid vis hakk</string>
     <string name="cutout_mode_default">Automatisk</string>
@@ -2294,6 +2310,12 @@ For å forsøke å løse problemet kan du stoppe %1$s og forhindre at den kjøre
     <string name="dialog_background_check_ok">Slå av</string>
     <string name="dialog_background_check_title">Vil du slå av bakgrunnsbruk og stoppe appen?</string>
     <string name="dialog_backup_title">Sikkerhetskopiere elementer først?</string>
+    <string name="dialog_check_button_negative">Prøv igjen</string>
+    <string name="dialog_check_button_positive">Koble til Wi-Fi</string>
+    <string name="dialog_check_context">"Enheten din kan ikke koble til internett nå.
+· Trykk på «Koble til Wi-Fi» for å velge en av de tilgjengelige nettverkene.
+· Hvis du vil bruke mobildata, trykker du på «Prøv på nytt\"» eller tar ut og setter inn SIM-kortet ditt på nytt."</string>
+    <string name="dialog_check_title">Kan ikke koble til internett</string>
     <string name="dialog_chose_item">Velg et element å vise</string>
     <string name="dialog_content_login">Logge inn på din Mi Account for å oppdatere?</string>
     <string name="dialog_location_message">"Telefonen din kan ikke styre batteriet som normalt fordi %1$s stadig ber om posisjonen din når du ikke bruker appen.
@@ -2326,7 +2348,12 @@ Hvis problemet vedvarer, må du kanskje avinstallere appen for å få bedre batt
     <string name="dialog_title_color_calibration">Forhåndsinnstilling fargekorrigering</string>
     <string name="dialog_title_hdmi_color_calibration">Forhåndsinnstilling fargekorrigering</string>
     <string name="dialog_title_login">Logg inn på din Mi Account</string>
+    <string name="dialog_wifi_button_negative">Nei</string>
+    <string name="dialog_wifi_button_positive">Ja</string>
+    <string name="dialog_wifi_context">Du må koble til internett for å konfigurere enheten. Med mindre du kobler til Wi-Fi, kan mobildata brukes. Bruk av mobildata kan generere ytterligere leverandøravgifter. Bruke mobildata uansett?</string>
+    <string name="dialog_wifi_title">Bruker mobildata</string>
     <string name="dialog_yes">Ja</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Merk: Etter en omstart kan ikke denne appen startes opp før du låser opp enheten.</string>
     <string name="disable_overlays">Deaktiver HW-overlegg</string>
     <string name="disable_overlays_summary">Bruk alltid GPU til skjermgjengivelse</string>
@@ -2409,6 +2436,7 @@ Hvis problemet vedvarer, må du kanskje avinstallere appen for å få bedre batt
     <string name="dndm_auto_button_title">Gjenta «Ikke forstyrr»-tid</string>
     <string name="dndm_auto_setting_group">Planlagt</string>
     <string name="dndm_auto_time_setting">Angi tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Til</string>
     <string name="dndm_auto_time_turn_off_title">Skru av «Ikke forstyrr» automatisk</string>
     <string name="dndm_auto_time_turn_on">Fra</string>
@@ -2485,7 +2513,17 @@ Hvis problemet vedvarer, må du kanskje avinstallere appen for å få bedre batt
     <string name="doze_always_on_title">Alltid på-skjerm</string>
     <string name="doze_summary">Når skjermen er mørk, slås den på for nye varsler</string>
     <string name="doze_title">Vekk skjermen for å se varsler</string>
+    <string name="dpp_before_share_summary">Dele Wi-Fi-nettverket \"%1$s\" med en annen person?</string>
+    <string name="dpp_cannot_connect_target">Kan ikke koble til målnettverket</string>
+    <string name="dpp_connect_success">Tilkoblet</string>
+    <string name="dpp_not_support">Kan ikke dele dette nettverket</string>
+    <string name="dpp_qr_code_summary">Be den andre personen om å skanne denne QR-koden ved hjelp av skanneren i Wi-Fi-innstillingene</string>
     <string name="dpp_qrcode_generator_summary">Skann denne QR-koden med en enhet som støtter Easy Connect</string>
+    <string name="dpp_scanner_summary">Plasser QR-koden på innsiden av rammen</string>
+    <string name="dpp_shared_fail">Kunne ikke dele Wi-Fi</string>
+    <string name="dpp_shared_success">Wi-Fi delt</string>
+    <string name="dpp_sharing_wifi_summary">Deler Wi-Fi…</string>
+    <string name="dpp_theme_title">Delt Wi-Fi</string>
     <string name="draw_overlay">Vis over andre apper</string>
     <string name="dtmf_tone_enable_title">Numeriske tastaturtoner</string>
     <string name="dual_cdma_sim_warning_notification_channel_title">Kombinasjon av SIM-kort</string>
@@ -2828,6 +2866,7 @@ Ta kontakt med administratoren for organisasjonen for mer informasjon."</string>
     <string name="fingerprint_apply_to_privacy_password_scenarios">Passord for personvern beskytter dine meldinger, bilder, filer, notater og apper.</string>
     <string name="fingerprint_delete_message">Vil du slette dette fingeravtrykket?</string>
     <string name="fingerprint_delete_title">Fjern «%1$s»</string>
+    <string name="fingerprint_double_tap">Dobbelttrykk på fingeravtrykksensoren</string>
     <string name="fingerprint_enable_keyguard_toggle_title">skjermlås</string>
     <string name="fingerprint_enroll_button_add">Legg til ett til</string>
     <string name="fingerprint_enroll_button_next">Neste</string>
@@ -2904,6 +2943,7 @@ Ta kontakt med administratoren for organisasjonen for mer informasjon."</string>
     <string name="fold_title">Regler for grupperte varsler</string>
     <string name="font_size_exhuge">Ekstra diger</string>
     <string name="font_size_huge">Diger</string>
+    <string name="font_size_kddi">Middels</string>
     <string name="font_size_large">Større</string>
     <string name="font_size_make_larger_desc">Gjør større</string>
     <string name="font_size_make_smaller_desc">Gjør mindre</string>
@@ -3140,7 +3180,13 @@ Når du slår på automatisk sikkerhetskopiering, lagres app- og enhetsdata auto
     <string name="header_category_system">System</string>
     <string name="header_category_wireless_networks">Trådløst &amp; nettverk</string>
     <string name="header_data_and_synchronization">Data og synkronisering</string>
+    <string name="headset_connectiong">Kobler til…</string>
+    <string name="headset_notification_switch_summary">Vis status på meldingsskygge-widgeten når hodetelefoner er tilkoblet</string>
+    <string name="headset_notification_switch_title">Meldingsskygge-widget</string>
+    <string name="headset_remove_message">Oppheve kobling til enhet?</string>
+    <string name="headset_remove_message_indicate">Koblingen til %1$s oppheves for alle enheter tilknyttet denne Mi-kontoen.</string>
     <string name="headset_settings_title">Lydeffekter</string>
+    <string name="headset_unsaved_devices">Brukt på andre enheter</string>
     <string name="hearing_aids_category">Hjelpeverktøy til hørsel</string>
     <string name="heavy_weight_stop_description">Denne appen kan ikke stoppes på en trygg måte. Hvis du stopper den, kan du miste noe av arbeidet du holder på med.</string>
     <string name="help_and_feedback_title">Hjelp og tilbakemelding</string>
@@ -3307,6 +3353,7 @@ Xiaomi Cloud
     <string name="instruction_privacy_password">Dette passordet beskytter følgende elementer</string>
     <string name="instruction_title">Viktig sikkerhetsinformasjon</string>
     <string name="insufficient_storage">Ikke nok lagringsplass.</string>
+    <string name="intelligence_suppression_summary">Juster størrelsen på området nær kantene dynamisk, hvor berøring ved uhell blir ignorert basert på grepet ditt</string>
     <string name="intelligence_suppression_title">Auto (Anbefalt)</string>
     <string name="intent_sender_account_label">Konto:</string>
     <string name="intent_sender_action_label">Action:</string>
@@ -3512,15 +3559,23 @@ Xiaomi Cloud
     <string name="last_synced">Sist synkronisert %1$s</string>
     <string name="last_time_used_label">Sist brukt</string>
     <string name="lattice_smartcover_title">Frontdeksel med gitter</string>
+    <string name="launch_ai_shortcut">Mi AI-snarvei</string>
+    <string name="launch_alipay_payment_code">Betalingskode for Alipay</string>
+    <string name="launch_alipay_scanner">Alipay-skanner</string>
     <string name="launch_by_default">Åpne som standard</string>
+    <string name="launch_calculator">Kalkulator</string>
     <string name="launch_camera">Start kamera</string>
+    <string name="launch_control_center">Kontrollsenter</string>
     <string name="launch_defaults_none">Ingen standardinnstillinger er angitt</string>
     <string name="launch_defaults_some">Noen standardinnstillinger er angitt</string>
     <string name="launch_google_search">Start Google Assistant</string>
     <string name="launch_instant_app">Åpne</string>
     <string name="launch_mdp_app_text">Se abonnement</string>
+    <string name="launch_notification_center">Meldingsskygge</string>
     <string name="launch_recents">Start nylig brukte</string>
     <string name="launch_voice_assistant">Start taleassistent</string>
+    <string name="launch_wechat_payment_code">Betalingskode for WeChat</string>
+    <string name="launch_wechat_scanner">WeChat-skanner</string>
     <string name="launch_wifi_text">Se detaljer</string>
     <string name="launcher_icon">Ikoner</string>
     <string name="launcher_title">Startskjerm &amp; Nylige</string>
@@ -3565,6 +3620,7 @@ Xiaomi Cloud
     <string name="lights_title">LED-lys</string>
     <string name="line_breaking_summary">Optimaliser linjeskift for avsnitt</string>
     <string name="line_breaking_title">Optimaliser tekst</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="link_turbo_prompt">Statistikken på denne siden viser bare mengden data som brukes til å øke hastigheten på Wi-Fi-tilkoblingen. Denne statistikken gjenspeiler ikke faktisk mobildatabruk.</string>
     <string name="link_turbo_settings_all_app_display_loading">Et øyeblikk…</string>
     <string name="link_turbo_settings_all_app_reach_max">Du kan velge opptil 15 apper</string>
@@ -4039,6 +4095,7 @@ Du kan ikke angre denne handlingen."</string>
     <string name="memory_title">Tilgjengelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Minnebruk</string>
     <string name="memory_usage_apps">Minne brukt av apper</string>
+    <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">%1$s gjennomsnittlig minne brukt i løpet av de siste tre timene</string>
     <string name="menu_cancel">Forkast</string>
     <string name="menu_check">Opplevelse</string>
@@ -4075,6 +4132,90 @@ Du kan ikke angre denne handlingen."</string>
     <string name="mi_upi_settings">Mi Pay-konto</string>
     <string name="micloud_service_summary">Synkroniser listen over apper, systeminnstillinger for sikkerhetskopiering og oppsett på startskjerm</string>
     <string name="micloud_service_title">Xiaomi Cloud</string>
+    <string name="miheadet_up_music">Forrige spor</string>
+    <string name="miheadset_Box">Etui</string>
+    <string name="miheadset_LeftEar">Venstre</string>
+    <string name="miheadset_RightEar">Høyre</string>
+    <string name="miheadset_active">Energisk</string>
+    <string name="miheadset_anc_indicate">Koble til og sammenkoble hodetelefoner</string>
+    <string name="miheadset_audio_mode">Lydkvalitet</string>
+    <string name="miheadset_audio_mode_high">Høyt</string>
+    <string name="miheadset_audio_mode_listen">Lavt</string>
+    <string name="miheadset_audio_mode_normal">Standard</string>
+    <string name="miheadset_auto_ack_mode">Svar på anrop automatisk når du bruker hodetelefoner</string>
+    <string name="miheadset_auto_ack_mode_summary">Svar på anrop automatisk</string>
+    <string name="miheadset_bright">Lys</string>
+    <string name="miheadset_call_assist">Mi AI</string>
+    <string name="miheadset_cancel_device">Avbryt</string>
+    <string name="miheadset_checkUpdate">Se etter oppdateringer</string>
+    <string name="miheadset_closeAnc">Deaktivert</string>
+    <string name="miheadset_connectHeadsetForFw">Koble til hodetelefoner for å se fastvareversjon</string>
+    <string name="miheadset_connect_play_music">Start avspilling automatisk når hodetelefoner er tilkoblet</string>
+    <string name="miheadset_connect_toast_tips">Koble til hodetelefoner først</string>
+    <string name="miheadset_define_self">Tilpasset</string>
+    <string name="miheadset_disconnect">Koble fra</string>
+    <string name="miheadset_disconnect_device">Koble fra denne enheten?</string>
+    <string name="miheadset_double_click_key_mode">Dobbelttrykk</string>
+    <string name="miheadset_double_click_left">Dobbelttrykk på venstre hodetelefon</string>
+    <string name="miheadset_double_click_right">Dobbelttrykk på høyre hodetelefon</string>
+    <string name="miheadset_enhence_high">Forbedret diskant</string>
+    <string name="miheadset_enhence_low">Forbedret bass</string>
+    <string name="miheadset_equalizer">Equalizer</string>
+    <string name="miheadset_fitness_check">Passformtest for ørepropper</string>
+    <string name="miheadset_fitness_check_checking">Tester…</string>
+    <string name="miheadset_fitness_check_continue">Neste</string>
+    <string name="miheadset_fitness_check_done">Ferdig</string>
+    <string name="miheadset_fitness_check_restart">Start på nytt</string>
+    <string name="miheadset_fitness_check_result_dialog1">Plasser øreproppene i begge ører før du starter testen.</string>
+    <string name="miheadset_fitness_check_result_dialog2">Avslutt den nåværende samtalen før du starter testen.</string>
+    <string name="miheadset_fitness_check_result_dialog_title">Merk</string>
+    <string name="miheadset_fitness_check_result_not_ok">Dårlig passform</string>
+    <string name="miheadset_fitness_check_result_ok">God passform</string>
+    <string name="miheadset_fitness_check_result_summary1">Denne passformen fungerer bra for deg!</string>
+    <string name="miheadset_fitness_check_result_summary2">Juster eller prøv en annen ørepropp og test igjen.</string>
+    <string name="miheadset_fitness_check_start">Start</string>
+    <string name="miheadset_fitness_check_summary1">Finn ut hvilke ørepropper som gir mest komfortabel passform og best akustisk ytelse.</string>
+    <string name="miheadset_fitness_check_summary2">Plasser øreproppene i begge ører og trykk på «Start».</string>
+    <string name="miheadset_fitness_check_summary3">Hold øreproppene i ørene.</string>
+    <string name="miheadset_formal">Standard</string>
+    <string name="miheadset_game_mode">Spillmodus</string>
+    <string name="miheadset_game_mode_summary">Reduser lydforsinkelse når du spiller spill</string>
+    <string name="miheadset_ignore">Opphev sammenkobling</string>
+    <string name="miheadset_in_ear_check">Oppdag ørenærvær</string>
+    <string name="miheadset_in_ear_check_summary">Sett avspilling på pause og gjenoppta automatisk når du bruker eller fjerner hodetelefoner</string>
+    <string name="miheadset_key_config_ANC_list_title">Støykontroll</string>
+    <string name="miheadset_key_config_call_ai">Taleassistent</string>
+    <string name="miheadset_key_config_close">Deaktivert</string>
+    <string name="miheadset_key_config_close_summary">Deaktiver støydemping og transparens</string>
+    <string name="miheadset_key_config_gesture_control">Bevegelser</string>
+    <string name="miheadset_key_config_next_music">Neste sang</string>
+    <string name="miheadset_key_config_noise_control">Støykontroll</string>
+    <string name="miheadset_key_config_noise_control_summary">Trykk og hold inne for å bytte mellom to valgte moduser for støykontroll</string>
+    <string name="miheadset_key_config_noise_summary">Blokker eksterne lyder</string>
+    <string name="miheadset_key_config_press_left">Trykk og hold inne på venstre hodetelefon</string>
+    <string name="miheadset_key_config_press_right">Trykk og hold inne på høyre hodetelefon</string>
+    <string name="miheadset_key_config_trans_summary">Tillat eksterne lyder</string>
+    <string name="miheadset_key_config_triple_left">Trykk tre ganger på venstre hodetelefon</string>
+    <string name="miheadset_key_config_triple_right">Trykk tre ganger på høyre hodetelefon</string>
+    <string name="miheadset_key_config_volume_down">Senk volum</string>
+    <string name="miheadset_key_config_volume_up">Øk volum</string>
+    <string name="miheadset_last_version">Fastvare er oppdatert</string>
+    <string name="miheadset_local_ota">Oppdater</string>
+    <string name="miheadset_minus">Senk volum</string>
+    <string name="miheadset_moreSettingsInAi">Tilleggsinnstillinger</string>
+    <string name="miheadset_multi_connect_mode">Multipoint</string>
+    <string name="miheadset_multi_connect_mode_summary">Koble til flere enheter samtidig</string>
+    <string name="miheadset_next">Neste spor</string>
+    <string name="miheadset_ok_device">OK</string>
+    <string name="miheadset_openAnc">Støydemping</string>
+    <string name="miheadset_play_pause">Spill av / pause</string>
+    <string name="miheadset_plus">Øk volum</string>
+    <string name="miheadset_rename">Gi nytt navn</string>
+    <string name="miheadset_rename_device">Gi nytt navn</string>
+    <string name="miheadset_soft">Myk</string>
+    <string name="miheadset_transparent">Transparens</string>
+    <string name="miheadset_triple_click_key_mode">Trippeltrykk</string>
+    <string name="miheadset_unpair_device_text">Koblingen til %1$s oppheves for alle enheter tilknyttet denne Mi-kontoen.</string>
     <string name="mipush_fake_channel_group_name">Mi Push</string>
     <string name="misc_files">Diverse filer</string>
     <string name="misc_files_selected_count">du har valgt %1$d av %2$d</string>
@@ -4110,6 +4251,7 @@ Fortsett for å få tilgang til tilleggsinnstillinger."</string>
     <string name="miui_lab_install_drive_mode_title">Installer bilmodus</string>
     <string name="miui_lab_settings">MIUI lab</string>
     <string name="miui_lab_slogan">Lær. Utforsk. Oppdag.</string>
+    <string name="miui_master_clear_prompt_battery_low">Kan ikke gjenopprette til fabrikkinnstillinger når det er mindre enn %1$s batteri igjen. Lad opp enheten før du fortsetter.</string>
     <string name="miui_master_clear_summary">Sletter alle data på denne enheten</string>
     <string name="miui_more_special_feature">Utforsk nye funksjoner</string>
     <string name="miui_optimization_disabled">Slå av MIUI-optimalisering</string>
@@ -4319,6 +4461,7 @@ Velg ditt operativsystem:"</string>
     <string name="multifunction_keyboard">Multifunksjonell</string>
     <string name="music_equalizer">Utligner</string>
     <string name="musicfx_title">Musikkeffekter</string>
+    <string name="mute">Stillemodus</string>
     <string name="mute_media_sound_title">Demp medier i stillemodus</string>
     <string name="mute_music_stream">Demp medielyd</string>
     <string name="mute_voiceassist_stream">Demp taleassistent</string>
@@ -4431,6 +4574,7 @@ Velg ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">Skjønner</string>
     <string name="nfc_how_it_works_title">Betaling ved terminaler</string>
     <string name="nfc_more_title">Mr</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Angi som standard</string>
     <string name="nfc_payment_btn_text_update">Oppdater</string>
     <string name="nfc_payment_default">Standardapp for betaling</string>
@@ -4790,6 +4934,7 @@ OTG deaktiveres automatisk etter 10 minutter med inaktivitet."</string>
     <string name="overlay_settings_title">Tillat skjermoverlegg over Innstillinger</string>
     <string name="overlay_toast_failed_to_apply">Kunne ikke bruke overlegg</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskjermsignatur</string>
     <string name="owner_space">Første område</string>
@@ -5008,6 +5153,7 @@ OTG deaktiveres automatisk etter 10 minutter med inaktivitet."</string>
     <string name="power_remaining_less_than_duration_only">Mindre enn %1$s igjen</string>
     <string name="power_remaining_more_than_subtext">Mer enn %1$s igjen (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Mer enn %1$s igjen</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_settings_title">Systemytelse</string>
     <string name="power_suggestion_battery_run_out">Batteriet kan gå tomt innen %1$s</string>
@@ -5246,6 +5392,8 @@ OTG deaktiveres automatisk etter 10 minutter med inaktivitet."</string>
     <string name="private_sms_recording_intro_header">Tegn et opplåsingsmønster</string>
     <string name="private_sms_reset_by_account">For å tilbakestille passordet ditt, logg inn på din Mi Account.</string>
     <string name="process_dex2oat_label">Appoptimalisering</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Medietjener</string>
     <string name="process_provider_in_use_description">Leverandøren %1$s er i bruk.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i bruk.</string>
@@ -5415,6 +5563,7 @@ Start enheten din å nytt og prøv igjen."</string>
     <string name="resolution_fhd_summary" formatted="false">%d×%d (sparer batteri)</string>
     <string name="resolution_qhd">WQHD+</string>
     <string name="resolution_qhd_summary" formatted="false">%d×%d (gir klarhet)</string>
+    <string name="resolution_sub_title">MIUI kan lukke appene som kjører i bakgrunnen når oppløsningen endres</string>
     <string name="resolver_settings_label">Sorter</string>
     <string name="restore_default_apn">Gjenoppretter standard APN-innstillinger.</string>
     <string name="restore_default_apn_completed">Tilbakestilling av standard APN-innstillinger er fullført.</string>
@@ -5547,7 +5696,8 @@ Denne innstillingen påvirker alle brukerne på denne telefonen."</string>
     <string name="screen_enhance_engine_ai_pic_summary">"Identifiser objekter (f.eks. planter, dyr og bygninger) og juster visningseffekter dynamisk. "</string>
     <string name="screen_enhance_engine_ai_title">AI-bildeforbedring</string>
     <string name="screen_enhance_engine_memc_note">Kan ikke forbedre videoer når superoppløsning er på. Ved å slå på forbedrede videoer slår du av superoppløsning.</string>
-    <string name="screen_enhance_engine_memc_note_1">Denne funksjonen øker strømforbruket litt.</string>
+    <string name="screen_enhance_engine_memc_note_1">%d. Denne funksjonen øker strømforbruket litt.</string>
+    <string name="screen_enhance_engine_memc_note_2">%d. Denne funksjonen fungerer bare når verktøykasse for video er aktivert.</string>
     <string name="screen_enhance_engine_memc_open">MEMC</string>
     <string name="screen_enhance_engine_memc_pic_summary">"Legg til ekstra rammer på videoer for at innholdet skal vises jevnt og gjøre overgangene livlige. "</string>
     <string name="screen_enhance_engine_memc_title">MEMC</string>
@@ -5970,6 +6120,7 @@ Slik bruker du festing av apper: \u0009
     <string name="security_encryption_attention_3">Du må angi en ny skjermlås.</string>
     <string name="security_encryption_attention_4">Sørg for at du husker skjermlåsen din, ellers må du utføre en fullstendig tilbakestilling og slette alle data på enheten.</string>
     <string name="security_encryption_attention_info">Du kan kryptere kontoer, innstillinger, nedlastede apper og deres data, medier og andre filer.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Viktig</string>
     <string name="security_encryption_close_dialog_info">Om du velger å ikke kryptere enheten med en skjermlås, kan enkelte Google-tjenester bli utilgjengelige.</string>
     <string name="security_encryption_close_dialog_title">Gå tilbake til standard systemkryptering</string>
@@ -6195,6 +6346,7 @@ Merk: Du kan ikke bruke fingeravtrykk til å låse opp denne enheten. Ta kontakt
     <string name="setup_lock_settings_picker_title">Beskytt telefonen</string>
     <string name="setup_password_back">Tilbake</string>
     <string name="setup_password_confirm">OK</string>
+    <string name="setup_password_skip">Hopp over</string>
     <string name="severe_threats_summary">Motta varsler for alvorlige trusler mot liv og eiendom</string>
     <string name="severe_threats_title">Alvorlige trusler</string>
     <string name="share">Del</string>
@@ -6329,6 +6481,7 @@ Muligens feil personlig kode."</string>
     <string name="sim_select_card">Velg et SIM-kort</string>
     <string name="sim_selection_channel_title">Valg av SIM-kort</string>
     <string name="sim_selection_required_pref">Du må velge en SIM-innstilling</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -6345,6 +6498,7 @@ Dobbelttrykk for å åpne Nylige."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Hopp over likevel</string>
     <string name="skip_label">Hopp over</string>
@@ -6498,8 +6652,10 @@ Pålitelig legitimasjon, som er installert på enheten din, gjør dette mulig."<
     <string name="status_bar_app_enable_keyguard">Låseskjerm</string>
     <string name="status_bar_app_enable_message">Merker</string>
     <string name="status_bar_carrier_settings_no_sim_card">Ingen SIM-kort</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Varsler og statuslinje</string>
     <string name="status_bar_settings_all_app_display_loading">Et øyeblikk…</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">App-varsler</string>
     <string name="status_bar_settings_notification_bar">Meldingsskygge</string>
     <string name="status_bar_settings_status_bar">Statuslinje</string>
@@ -6777,6 +6933,7 @@ Prøv å bruke et raskere ^3, eller bruk ^4 som bærbar lagring i stedet."</stri
     <string name="style_and_wallpaper_settings_title">Stiler og bakgrunner</string>
     <string name="style_suggestion_summary">Prøv forskjellige stiler, bakgrunner med mer</string>
     <string name="style_suggestion_title">Tilpass telefonen</string>
+    <string name="subscreen_title">Bakre skjerm</string>
     <string name="subscription_available">Tilgjengelig</string>
     <string name="suggest_unrestrict_max_aspect_ratio_title">Disse appene fungerer best i fullskjermmodus</string>
     <string name="suggested_fingerprint_lock_settings_summary" />
@@ -6796,6 +6953,7 @@ Prøv å bruke et raskere ^3, eller bruk ^4 som bærbar lagring i stedet."</stri
     <string name="sum_carrier_select">Velg en nettverksoperatør</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="summary_separator">" / "</string>
     <string name="sunlight_mode">Sollysmodus</string>
@@ -6811,6 +6969,8 @@ Prøv å bruke et raskere ^3, eller bruk ^4 som bærbar lagring i stedet."</stri
     <string name="swipe_up_to_switch_apps_summary">For å bytte app, sveip opp på hjemknappen. For å se alle apper, sveip opp igjen. For å gå tilbake, trykk på tilbakeknappen.</string>
     <string name="swipe_up_to_switch_apps_title">Navigasjon med to knapper</string>
     <string name="switch_access_service_on">Bytt adgang</string>
+    <string name="switch_headset_anti_lost">Alarm for manglende øretelefon</string>
+    <string name="switch_headset_anti_lost_title">Alarm for manglende øretelefon</string>
     <string name="switch_off_text">Av</string>
     <string name="switch_on_text">Aktivert</string>
     <string name="switch_screen_button_order">Speilknapper</string>
@@ -6956,6 +7116,7 @@ Synkroniser på Google-måten, slik at du har tilgang til kontaktene dine, avtal
     <string name="title_layout_current2_weight">Tekststørrelse og skrifttykkelse</string>
     <string name="title_miui_music_mute_by_user">Stillemodus</string>
     <string name="title_of_auto_launch_manage">Autostart</string>
+    <string name="title_special_features_health_global">Puls</string>
     <string name="to_close">Slå av</string>
     <string name="toast_lockscreen_glogin_empty_password">Tast inn passord</string>
     <string name="toast_need_login">Logg inn på din Mi Account</string>
@@ -6986,6 +7147,8 @@ Synkroniser på Google-måten, slik at du har tilgang til kontaktene dine, avtal
     <string name="traffic_none">Ingen</string>
     <string name="transition_animation_scale_title">Overgangsanimasjonsskala</string>
     <string name="trigger_carrier_provisioning">Utløs operatørhåndtering</string>
+    <string name="truetone_summary">Juster farger til omgivelseslys</string>
+    <string name="truetone_title">Tilpassede farger</string>
     <string name="trust_lost_locks_screen_summary">Hvis alternativet er slått på, låses enheten når den siste pålitelige agenten ikke anses som pålitelig lenger</string>
     <string name="trust_lost_locks_screen_title">Låseskjerm ved tapt pålitelighet</string>
     <string name="trusted_credentials">Pålitelig legitimasjon</string>
@@ -8287,6 +8450,7 @@ Legitimasjonslagring er kanskje ikke aktivert."</string>
     <string name="wizard_back">Tilbake</string>
     <string name="wizard_finish">Fullfør</string>
     <string name="wizard_next">Neste</string>
+    <string name="wlan_scanner_unresizeble">Kan ikke vise Wi-Fi-innstillinger i modus for delt skjerm</string>
     <string name="words_title">Tekst</string>
     <string name="work_alarm_ringtone_title">Standard alarmlyd for jobb</string>
     <string name="work_mode_label">Jobbprofil</string>
@@ -8609,8 +8773,10 @@ Når du slår av «Ikke forstyrr», kan du finne varsler du gikk glipp av, ved �
     <string name="zone_auto_summaryOn">Bruk tiden som er gitt av transportnettverket</string>
     <string name="zone_auto_title">Bruk nettverkets tidssone</string>
     <string name="zone_change_to_from_dst">%1$s starter %2$s.</string>
+    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Bruker %1$s (%2$s starter %3$s).</string>
     <string name="zone_info_footer_no_dst">Bruker %1$s. Ingen sommertid.</string>
+    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Sorter alfabetisk</string>
     <string name="zone_list_menu_sort_by_timezone">Sorter etter tidssone</string>
     <string name="zone_menu_by_offset">Velg etter forskjell fra UTC</string>

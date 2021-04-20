@@ -125,6 +125,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="gradienter_title">Vater</string>
     <string name="guide_toast">Beveg enheten din som vist under for å kalibrere.</string>
     <string name="latitude">BRE</string>
     <string name="location_east">ØL</string>
@@ -218,6 +219,8 @@
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Trykk</string>
     <string name="pressure_unit">hPa</string>
+    <string name="remove_icon_description_content">Kompass er en systemapp. Du kan ikke bruke den til å sjekke retninger, koordinater, lufttrykk og gjeldende høyde etter at du har fjernet snarveien på startskjermen.</string>
+    <string name="remove_icon_description_title">Fjerne «Kompass» fra startskjermen?</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>

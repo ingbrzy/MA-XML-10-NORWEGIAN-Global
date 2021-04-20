@@ -26,6 +26,18 @@
         <item>Back up important settings, including WLAN and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_china_v2">
+        <item>Sync your contacts, messages, notes, calendar, and more</item>
+        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Back up important settings, including WLAN and display</item>
+        <item>"Lock your device remotely if it's lost"</item>
+    </string-array>
+    <string-array name="micloud_entrance_subtitleArray_v2">
+        <item>Synkroniser kontakter, meldinger, notater, kalender og mer</item>
+        <item>Sikkerhetskopier apper, oppsett til Hjem-skjerm og bakgrunner</item>
+        <item>Sikkerhetskopier viktige innstillinger, inkludert Wi-Fi og visning</item>
+        <item>Lås enheten din eksternt hvis den blir borte</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkroniser app-data</item>
         <item>Sikkerhetskopier oppsett til Hjem-skjerm</item>
@@ -95,6 +107,11 @@
         <item>Musikk;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
+        <item>Synkroniser notater med Xiaomi Cloud</item>
+        <item>Skru på synkronisering</item>
+        <item>Notater;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_notes_v2">
         <item>Synkroniser notater med Xiaomi Cloud</item>
         <item>Skru på synkronisering</item>
         <item>Notater;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>

@@ -97,6 +97,8 @@
     <string name="alert_dialog_download_prepare">Forbereder nedlastingen…</string>
     <string name="alert_dialog_download_progress">"Laster ned appen: "</string>
     <string name="all">Vis alle</string>
+    <string name="app_description_content">Mi Video er en systemapp som inneholder en lokal videospiller. Du kan fortsatt spille av videofiler etter at du har fjernet snarveien på startskjermen.</string>
+    <string name="app_description_title">Fjerne «Mi Video» fra startskjermen?</string>
     <string name="app_name">Mi Video</string>
     <string name="auth_again">Godta</string>
     <string name="auth_fail_warning">Økten er utløpt. Logg inn på nytt.</string>
@@ -126,6 +128,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">DIREKTE</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
@@ -243,11 +246,24 @@
     <string name="diagnosis_log_sent_format">"Logger er sendt.
 ID:%s
 Send denne koden til den overordnede."</string>
+    <string name="dialog_disagree_privacychange_info">Du kan ikke bruke Mi Videos nettbaserte strømmetjenester hvis du ikke godtar personvernerklæringen. Trykk på «Avbryt» for å gå tilbake, eller «Ikke godta» for å fortsette og bare bruke Mi Video som lokal avspiller.</string>
+    <string name="dialog_disagree_privacychange_title">Ikke godta?</string>
+    <string name="dialog_privacy_change_info">Vi har oppdatert personvernerklæringen for Mi Video på grunn av justeringene i tjenestene vi tilbyr. Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår før du bruker appen for å fullt ut forstå rettighetene dine som bruker samt måtene vi bruker dataene dine på.</string>
+    <string name="dialog_privacy_change_title">Oppdatering av personvernerklæring</string>
     <string name="dialog_privacy_info_new2">For å kunne bruke tjenestene, må du godta at %1$s innhenter, behandler og bruker personopplysningene dine. Det anses at du har lest og godtatt &lt;a href=%2$s>personvernerklæringen&lt;/a> når du trykker på \"Godta\" nedenfor.</string>
     <string name="dialog_privacy_info_new3">For å bruke denne tjenesten må du tillate %1$s å samle inn, behandle og bruke personopplysningene dine i henhold til personvernerklæringen. Ved å trykke på Godta nedenfor, samtykker du i Xiaomis &lt;a href=%2$s>personvernerklæring&lt;/a> og &lt;a href=%3$s>brukeravtale&lt;/a>. &lt;br/>&lt;br/>Å trykke på Godta gir også Mi Video tilgang til listen over apper som er installert på enheten. Med denne tillatelsen kan Mi Video dele elementer, forstå om en app er installert på enheten, hvilken versjon av appen som er installert og om appen er sikker.</string>
-    <string name="dialog_privacy_title">Autorisasjon</string>
+    <string name="dialog_privacy_info_new4">Velkommen til Mi Video! Denne appen tilbyr følgende tjenester:&lt;br>&lt;/br> – Nettbaserte strømmetjenester&lt;br>&lt;/br>– En lokal videospiller&lt;br>&lt;/br>Mi Video må innhente nødvendige personopplysninger for å kunne tilby deg de grunnleggende tjenestene. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i personvernerklæringen vår. Du kan endre tilknyttede innstillinger under Innstillinger > Passord og sikkerhet.&lt;br>&lt;/br>Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> før du bruker Mi Video.</string>
+    <string name="dialog_privacy_revoke_cancel">Avbryt</string>
+    <string name="dialog_privacy_revoke_count_down">Tilbakekall (%1$ds)</string>
+    <string name="dialog_privacy_revoke_description">Ved å slå av bryteren trekker du tilbake samtykket til personvernreglene til Mi Video. Vi vil slutte å samle inn din personlige informasjon. Den personlige informasjonen som allerede er samlet inn og oppbevart, vil bli slettet innen den spesifikke perioden som kreves av gjeldende lover. Ditt tilbaketrekning av samtykke til personvernreglene vil bli ansett som å nekte å godta onlinetjenestene sine basert på innsamlet personlig informasjon.</string>
+    <string name="dialog_privacy_revoke_fail">Enheten din må koble til nettverket for at du skal kunne tilbakekalle samtykket. Kontroller nettverksinnstillingene og prøv igjen.</string>
+    <string name="dialog_privacy_revoke_ok">Tilbakekall</string>
+    <string name="dialog_privacy_revoke_success">Tilbakekalt</string>
+    <string name="dialog_privacy_revoking">Tilbakekaller samtykke…</string>
+    <string name="dialog_privacy_title">Vilkår og betingelser</string>
     <string name="dialog_revoke_privacy_info_new2">Etter at du har tilbakekalt autorisasjonen, slutter appen å innhente data, og alle relaterte data slettes fra serverne våre. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel?</string>
     <string name="dialog_revoke_privacy_title">Tilbakekaller autorisasjonen</string>
+    <string name="disagree">Ikke godta</string>
     <string name="diy_channels_tips">Du kan tilpasse listen over kanalene nå.</string>
     <string name="do_not_show_again">Ikke vis igjen</string>
     <string name="download">Last ned</string>
@@ -657,6 +673,7 @@ for videoer"</string>
     <string name="next_step">Neste</string>
     <string name="nick_name">Kallenavn</string>
     <string name="no_account">Ikke logget inn</string>
+    <string name="no_history">Ingen elementer her</string>
     <string name="no_longer_prompt">Ikke vis igjen</string>
     <string name="no_more_content">Det var alt for nå</string>
     <string name="no_network_tips">Kan ikke bruke denne funksjonen nå. Nettverkstilgangen er begrenset.</string>
@@ -684,6 +701,7 @@ for videoer"</string>
     <string name="ok">OK</string>
     <string name="on_tip_firework_recommend">Du vil motta personlig tilpassede innholdsanbefalinger fra Firework</string>
     <string name="open_settings">Innstillinger</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Nylige abonnement</string>
     <string name="order_recently_updated">Nylig oppdatert</string>
     <string name="ovp_alert_dialog_download_install_task">Laster ned HD-plug-in…</string>
@@ -718,7 +736,7 @@ for videoer"</string>
     <string name="ovp_detail_v_variety_episode_count">Oppdatert til sesong %s</string>
     <string name="ovp_episode_suffix">"Ep. %d "</string>
     <string name="ovp_favor">Favoritter</string>
-    <string name="ovp_favor_null">Ingen enheter her.</string>
+    <string name="ovp_favor_null">Ingen elementer her.</string>
     <string name="ovp_feedback_title">Mi Video-tilbakemelding</string>
     <string name="ovp_home_folder_is_null_jump_upfolder_tip">Kunne ikke finne mediafilen. Hoppet til mappen i det øvre nivået.</string>
     <string name="ovp_home_item_camera">Galleri</string>
@@ -1020,6 +1038,8 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_sort_type_time">Tid</string>
     <string name="plus_tab_gallery">Mapper</string>
     <string name="plus_tab_time">Tidslinje</string>
+    <string name="privacy_revoke_setting">Ved å skru bryteren av trekker du tilbake samtykket ditt til personvernerklæringen for Mi Video.</string>
+    <string name="privacy_revoke_title">Tilbakekalling av samtykke</string>
     <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="psw_hint">Passord</string>
     <string name="psw_sign_in">Logg på med passord</string>
@@ -1085,6 +1105,8 @@ Bedre tilpasse tjenestene for enheten din
     <string name="screenrecord_cancel">Kompatibilitetsproblemer</string>
     <string name="screenrecord_nosupport_record">Skjermopptakeren støttes for øyeblikket ikke på denne enheten.</string>
     <string name="search">Søk</string>
+    <string name="search_bar_hint">Søk i videoer</string>
+    <string name="search_bar_video_download_hint">Søk eller angi URL-adresse</string>
     <string name="search_choose_language">Angi språk</string>
     <string name="search_choose_voice_language">Velg språk brukt for stemmesøk</string>
     <string name="search_hot_words">Populært</string>
@@ -1115,6 +1137,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sns_sign_in">Andre måter å logge inn på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Lagt til i køen. Sjekk fremdriften under Profil > Nedlastinger.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Intern lagring</string>
     <string name="submit">Send inn</string>
@@ -1224,7 +1247,19 @@ Bedre tilpasse tjenestene for enheten din
     <string name="v_txt_login">Logg inn for å synkronisere favorittene dine</string>
     <string name="v_update">Oppdater</string>
     <string name="video_already_download_tip">Du har allerede lastet ned dette elementet</string>
+    <string name="video_download_btn">Last ned</string>
     <string name="video_download_fail">Kunne ikke laste ned video</string>
+    <string name="video_download_fail_hint">Kunne ikke laste ned</string>
+    <string name="video_download_floating_guide">Last ned videoer gratis</string>
+    <string name="video_download_forbidden">Kan ikke laste ned fra dette nettstedet</string>
+    <string name="video_download_network_error">Nettverksfeil</string>
+    <string name="video_download_play_video_guide">Spill av videoen først.</string>
+    <string name="video_download_play_video_guide2">Trykk deretter på knappen for å laste ned.</string>
+    <string name="video_download_site_search">URL-adresse</string>
+    <string name="video_download_source">Webnedlasting</string>
+    <string name="video_download_start">Laster ned…</string>
+    <string name="video_download_storage_error">Ikke nok lagringsplass</string>
+    <string name="video_downloading">Laster ned…</string>
     <string name="video_live_over">Denne økten er over</string>
     <string name="video_noyet_download_tip">Denne videoen lastes fortsatt ned</string>
     <string name="video_offline">Dette elementet er ikke tilgjengelig lenger</string>
@@ -1247,4 +1282,12 @@ Bedre tilpasse tjenestene for enheten din
     <string name="vp_upcoming_title">Neste</string>
     <string name="wednesday">Onsdag</string>
     <string name="yesterday">I går</string>
+    <string name="ytb_account">Kontoer</string>
+    <string name="ytb_author_video">Videoer</string>
+    <string name="ytb_login">Logg inn</string>
+    <string name="ytb_login_btn">Logg inn</string>
+    <string name="ytb_login_hint">Logg inn for å se YouTube-abonnementene dine</string>
+    <string name="ytb_logout">Logg ut</string>
+    <string name="ytb_play_next">Neste</string>
+    <string name="ytb_subscribed">Abonnementer</string>
 </resources>

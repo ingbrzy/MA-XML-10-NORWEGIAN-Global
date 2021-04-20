@@ -75,6 +75,7 @@ Prøv igjen"</string>
     <string name="btn_retry">Sjekk igjen</string>
     <string name="btn_skip">Hopp over dette trinnet</string>
     <string name="button_cancel">Avbryt</string>
+    <string name="button_confirm">Skjønner</string>
     <string name="button_delete">Slett</string>
     <string name="button_next">Neste</string>
     <string name="can_not_backup_in_lite_mode">Kan ikke sikkerhetskopiere i Lite-modus</string>
@@ -178,7 +179,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="expand_button_title">Avansert</string>
     <string name="get_device_id_error">Kunne ikke hente enhetens ID</string>
     <string name="help_and_feedback">Hjelp og tilbakemelding</string>
-    <string name="hint_restore_cross_space">Oppsettet på startskjermen vises kanskje ikke på riktig måte hvis du overfører elementer mellom områder.</string>
     <string name="home_hint_global_launcher">POCO-starter</string>
     <string name="home_hint_other_launcher">Annen starter</string>
     <string name="home_restore_error">Kunne ikke gjenopprette startskjermen</string>
@@ -192,7 +192,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="menu_item_sort">Sorter etter</string>
     <string name="menu_item_sort_name">Navn</string>
     <string name="menu_item_sort_size">Størrelse</string>
-    <string name="msg_alert_cancel_restore">Gjenoppretter elementer. Stoppe nå?</string>
+    <string name="msg_alert_cancel_restore">Elementer blir gjenopprettet fra Xiaomi Cloud. Avbryte nå?</string>
     <string name="msg_alert_restore_error">Kunne ikke gjenopprette elementer fra Xiaomi Cloud. Prøv igjen.</string>
     <string name="msg_restore_start_with_metered_network">"Hjem-skjermen din vil bli restartet. Sikkerhetskopierte apper vil bli lastet ned automatisk. &lt;br />&lt;b>&lt;font color='red'>%s av filer vil bli lastet ned.&lt;/font>&lt;/b>"</string>
     <string name="msg_restore_with_metered_network_hint">Hvis du fortsetter gjenoppretting av disse elementene, vil mobildata bli brukt til nedlasting.</string>
@@ -206,12 +206,18 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
+    <string name="pc_mode_not_support_restore_warning">Kan ikke gjenopprette elementer i PC-modus. Deaktiver PC-modus og prøv igjen.</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
+    <string name="provision_back">Tilbake</string>
     <string name="provision_background_restore_more_data">Gjenopprett flere elementer i bakgrunnen</string>
     <string name="provision_error_connect_msg">Test nettverket og prøv igjen. Sikkerhetskopier er ikke tilgjengelige når enheten er offline.</string>
     <string name="provision_error_connect_title">Kan ikke koble til</string>
+    <string name="provision_next">Neste</string>
     <string name="provision_restore_data">Gjenoppretter elementer</string>
+    <string name="provision_skip_underline">Hopp over</string>
     <string name="query_restore_description">Gjenopprett startskjermapper og innstillinger med denne sikkerhetskopieringen. Da overskrives appdata dersom flere like apper allerede er installert på enheten. Apper som ikke er inkluder i sikkerhetspopieringen flyttes til den siste startskjermen.</string>
     <string name="query_restore_summary">Fant en sikkerhetskopi for denne enheten i Xiaomi Cloud. Gjenopprette apper på startskjermen og innstillinger, eller bruke den som en ny enhet og fjerne tidligere sikkerhetskopier i Xiaomi Cloud?</string>
     <string name="recover_home_settings">Gjenopprett innstillinger for startskjerm</string>
@@ -248,14 +254,14 @@ Sjekk nettverksinnstillingene dine og prøv igjen."</string>
     <string name="restore_home_failed">Kunne ikke gjenopprette startskjermen.</string>
     <string name="restore_home_screen_apps">Gjenopprett fra sikkerhetskopi i skyen</string>
     <string name="restore_init_description">Start gjenopprettingen</string>
-    <string name="restore_network_pause">%s (Trykk for å fortsette)</string>
+    <string name="restore_network_pause">Satt på pause for å spare mobildata. Trykk for å fortsette.</string>
     <string name="restore_network_unconnect">%s (Venter på tilkobling)</string>
     <string name="restore_task_cancelling">Avbryter…</string>
     <string name="restore_task_in_process">Gjenoppretter…</string>
     <string name="restore_task_unfinished">Kunne ikke gjenopprette</string>
     <string name="restore_unfinished">Gjenoppretter, prøv igjen senere</string>
     <string name="restoring_data">Gjenoppretter data…</string>
-    <string name="restoring_file_title_no_progress">Gjenoppretter filer…</string>
+    <string name="restoring_file_title_no_progress">Gjenoppretter apper…</string>
     <string name="restoring_home_screen_apps">Gjenoppretter fra Xiaomi Cloud…</string>
     <string name="restoring_settings">Gjenoppretter innstillinger…</string>
     <string name="retry">Prøv igjen</string>

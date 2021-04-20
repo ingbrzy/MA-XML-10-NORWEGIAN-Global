@@ -104,6 +104,10 @@
         <item quantity="other">%d ganger</item>
         <item quantity="one">%d gang</item>
     </plurals>
+    <plurals name="usage_state_unlock_count_new">
+        <item quantity="other">Snitt %.2f ganger</item>
+        <item quantity="one">Snitt %.2f gang</item>
+    </plurals>
     <plurals name="usage_state_week_day_hour">
         <item quantity="other">Helger: %d timer</item>
         <item quantity="one">Helger: %d time</item>
