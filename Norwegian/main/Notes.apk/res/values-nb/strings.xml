@@ -396,7 +396,6 @@
     <string name="note_sort_way">Sorter</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
-    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Notater er en systemapp. Du kan ikke bruke denne appen etter at du har avinstallert den.</string>
     <string name="notes_description_title">Avinstallere Notater?</string>
     <string name="notification_content_add_todo_from_other_app">Du la til en ny oppgave. Trykk for å se.</string>
