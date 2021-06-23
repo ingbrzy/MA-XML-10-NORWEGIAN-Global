@@ -128,6 +128,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">DIREKTE</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
@@ -245,13 +246,13 @@
     <string name="diagnosis_log_sent_format">"Logger er sendt.
 ID:%s
 Send denne koden til den overordnede."</string>
-    <string name="dialog_disagree_privacychange_info">"You won't be able to use Mi Video online streaming services if you don't agree to our Privacy Policy. Tap \"Cancel\" to go back or \"Don't agree\" to continue and use Mi Video as a local player only."</string>
-    <string name="dialog_disagree_privacychange_title">"Don't agree?"</string>
-    <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustmets in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
-    <string name="dialog_privacy_change_title">Privacy Policy update</string>
+    <string name="dialog_disagree_privacychange_info">Du kan ikke bruke Mi Videos nettbaserte strømmetjenester hvis du ikke godtar personvernerklæringen. Trykk på «Avbryt» for å gå tilbake, eller «Ikke godta» for å fortsette og bare bruke Mi Video som lokal avspiller.</string>
+    <string name="dialog_disagree_privacychange_title">Ikke godta?</string>
+    <string name="dialog_privacy_change_info">Vi har oppdatert personvernerklæringen for Mi Video på grunn av justeringene i tjenestene vi tilbyr. Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår før du bruker appen for å fullt ut forstå rettighetene dine som bruker samt måtene vi bruker dataene dine på.</string>
+    <string name="dialog_privacy_change_title">Oppdatering av personvernerklæring</string>
     <string name="dialog_privacy_info_new2">For å kunne bruke tjenestene, må du godta at %1$s innhenter, behandler og bruker personopplysningene dine. Det anses at du har lest og godtatt &lt;a href=%2$s>personvernerklæringen&lt;/a> når du trykker på \"Godta\" nedenfor.</string>
     <string name="dialog_privacy_info_new3">For å bruke denne tjenesten må du tillate %1$s å samle inn, behandle og bruke personopplysningene dine i henhold til personvernerklæringen. Ved å trykke på Godta nedenfor, samtykker du i Xiaomis &lt;a href=%2$s>personvernerklæring&lt;/a> og &lt;a href=%3$s>brukeravtale&lt;/a>. &lt;br/>&lt;br/>Å trykke på Godta gir også Mi Video tilgang til listen over apper som er installert på enheten. Med denne tillatelsen kan Mi Video dele elementer, forstå om en app er installert på enheten, hvilken versjon av appen som er installert og om appen er sikker.</string>
-    <string name="dialog_privacy_info_new4">"Welcome to Mi Video! This app provides the following services:&lt;br>&lt;/br> - Online streaming services&lt;br>&lt;/br>- A local video player&lt;br>&lt;/br>Mi Video needs to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our Privacy Policy. You'll be able change the related settings in Settings > Passwords &amp;amp; security.&lt;br>&lt;/br>Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using Mi Video."</string>
+    <string name="dialog_privacy_info_new4">Velkommen til Mi Video! Denne appen tilbyr følgende tjenester:&lt;br>&lt;/br> – Nettbaserte strømmetjenester&lt;br>&lt;/br>– En lokal videospiller&lt;br>&lt;/br>Mi Video må innhente nødvendige personopplysninger for å kunne tilby deg de grunnleggende tjenestene. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i personvernerklæringen vår. Du kan endre tilknyttede innstillinger under Innstillinger > Passord og sikkerhet.&lt;br>&lt;/br>Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> før du bruker Mi Video.</string>
     <string name="dialog_privacy_revoke_cancel">Avbryt</string>
     <string name="dialog_privacy_revoke_count_down">Tilbakekall (%1$ds)</string>
     <string name="dialog_privacy_revoke_description">Ved å slå av bryteren trekker du tilbake samtykket til personvernreglene til Mi Video. Vi vil slutte å samle inn din personlige informasjon. Den personlige informasjonen som allerede er samlet inn og oppbevart, vil bli slettet innen den spesifikke perioden som kreves av gjeldende lover. Ditt tilbaketrekning av samtykke til personvernreglene vil bli ansett som å nekte å godta onlinetjenestene sine basert på innsamlet personlig informasjon.</string>
@@ -259,10 +260,10 @@ Send denne koden til den overordnede."</string>
     <string name="dialog_privacy_revoke_ok">Tilbakekall</string>
     <string name="dialog_privacy_revoke_success">Tilbakekalt</string>
     <string name="dialog_privacy_revoking">Tilbakekaller samtykke…</string>
-    <string name="dialog_privacy_title">Terms and conditions</string>
+    <string name="dialog_privacy_title">Vilkår og betingelser</string>
     <string name="dialog_revoke_privacy_info_new2">Etter at du har tilbakekalt autorisasjonen, slutter appen å innhente data, og alle relaterte data slettes fra serverne våre. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel?</string>
     <string name="dialog_revoke_privacy_title">Tilbakekaller autorisasjonen</string>
-    <string name="disagree">"Don't agree"</string>
+    <string name="disagree">Ikke godta</string>
     <string name="diy_channels_tips">Du kan tilpasse listen over kanalene nå.</string>
     <string name="do_not_show_again">Ikke vis igjen</string>
     <string name="download">Last ned</string>

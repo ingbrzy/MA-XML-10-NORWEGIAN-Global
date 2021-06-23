@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="fast_connect_headset_reset">
-        <item quantity="other">Trykk og hold inne knappen på boksen i %1$d sekunder</item>
-        <item quantity="one">Trykk og hold inne knappen på boksen i %1$d sekund</item>
+        <item quantity="other">Trykk på og hold inne knappen på etuiet i %1$d sekunder</item>
+        <item quantity="one">Trykk på og hold inne knappen på etuiet i %1$d sekund</item>
     </plurals>
     <plurals name="fast_connect_reset_air2_se">
         <item quantity="other">Trykk og hold på et hvilket som helst berøringsfølsomt område på øretelefonene i %1$d sekunder</item>

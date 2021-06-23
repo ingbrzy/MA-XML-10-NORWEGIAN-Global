@@ -112,12 +112,17 @@
     <string name="feedback_custom_hint">Beskriv problemene du har opplevd her. Hvis du gir forslag, ville vi satt pris på flere detaljer!</string>
     <string name="find_device">Finn enhet</string>
     <string name="find_device_dspt_provision">Hvis du mister enheten din, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for å finne, låse eller tilbakestille den. Du kan når som helst skru denne funksjonen på eller av under Innstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Kontroller internettforbindelsen din og prøv igjen.</string>
     <string name="find_device_error_server">Serverfeil</string>
     <string name="find_device_gdpr_prompt">Ved å skru på Finn enhet, samtykker du i vår <a href="app://com.miui.cloudservice.gdpr.license"><u>Personvernerklæring</u></a>. Hvis du trenger å tilbakekalle autorisasjonen din, må du slå av denne funksjonen.</string>
     <string name="find_device_operation_failure_rpc">Kunne ikke gjennomføre denne operasjonen grunnet en RPC-feil.</string>
     <string name="find_device_send_sms_alert">Hvis du bytter SIM-kort, vil enda en SMS automatisk sendes for å aktivere denne funksjonen på nytt.</string>
     <string name="find_device_service_title">Finn enhet</string>
+    <string name="find_device_status_summary">Lokalisere og låse enheten din, samt slette data eksternt</string>
+    <string name="find_device_status_title_pad">Finn enhet</string>
+    <string name="find_device_status_title_phone">Finn enhet</string>
     <string name="finddevice_miservice_notification_content">Lås enheten din eksternt hvis den blir borte</string>
     <string name="finddevice_miservice_notification_title">Aktiver Finn enhet</string>
     <string name="forget_password"><u>Glemt passord</u></string>
@@ -175,6 +180,8 @@
     <string name="loading">Et øyeblikk…</string>
     <string name="loading_enable_keybag">Aktiverer Passordbehandler…</string>
     <string name="loading_server_key_info">Laster elementer…</string>
+    <string name="low_battery_locate_summary">Rapporter plasseringsinfo automatisk når batteriet er lavt</string>
+    <string name="low_battery_locate_title">Rapporter plassering når batteriet er lavt</string>
     <string name="master_alert_notif_content">Sikkerhetskopier elementer med jevne mellomrom for å ikke miste noe viktig.</string>
     <string name="master_alert_notif_title">Aktiver Xiaomi Cloud</string>
     <string name="member_entrance_title_free_high_case_a">Få mer lagringsplass</string>
@@ -277,14 +284,18 @@ Finn og lås enheten din hvis den mistes."</string>
     <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat anbefaler at du skrur på Finn enhet</string>
     <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay anbefaler at du skrur på Finn enhet</string>
     <string name="micloud_find_device_guide_progress">Skrur på Finn enhet…</string>
+    <string name="micloud_find_device_guide_title">Logg inn på &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> med Mi-kontoen din for å lokalisere og låse enheten din, merke den som tapt eller slette data eksternt. Se detaljer &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice>her&lt;/a>.</string>
     <string name="micloud_find_device_open_fail">Kunne ikke skru på Finn enhet</string>
     <string name="micloud_find_device_opened">Finn enhet på</string>
     <string name="micloud_find_device_opened_content">Finn enheten din på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">En utgående SMS-melding kan være nødvendig for å aktivere denne tjenesten. Operatøren din vil belaste deg for denne meldingen. Når du bytter SIM-kort, vil det automatisk sendes en melding for å aktivere denne funksjonen på nytt.</string>
     <string name="micloud_find_device_verify_button">Aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_verify_close">Skru av Finn enhet</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_verify_progress">Aktiverer Finn enhet på nytt…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkroniseringen ble avbrutt. Prøv igjen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Sikkerhetskopi av startskjerm</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Systeminnstillinger og oppsett på startskjermen</string>
@@ -478,6 +489,9 @@ Denne funksjonen krypterer og sender ID-en til enhetene dine til Mis servere."</
     <string name="picker_list_empty">Ingen kontakter her</string>
     <string name="picker_search_empty">Kunne ikke finne kontakter</string>
     <string name="picker_search_hint">Søk</string>
+    <string name="power_off_locate_summary">"Rapporter plasseringsinfo ved å trykke og holde Av/på-knappen.
+Plasseringsinfo rapporteres kanskje ikke når tilkoblingen til nettverker er dårlig."</string>
+    <string name="power_off_locate_title">Rapporter plassering før du slår av</string>
     <string name="pre_privacy_policy">Retningslinjer for personvern</string>
     <string name="pre_user_agreement">Brukeravtale</string>
     <string name="pref_summary_sync_display_photo_on_wifi_only">Synkroniser kun profilbildene til kontaktene når du er koblet til et Wi-Fi-nettverk</string>

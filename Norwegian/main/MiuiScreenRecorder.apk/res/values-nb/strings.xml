@@ -31,10 +31,10 @@
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
     <string name="app_name">Skjermopptaker</string>
-    <string name="app_notification_channel_record_complete">Notifications about finished recordings</string>
+    <string name="app_notification_channel_record_complete">Varsler om fullførte opptak</string>
     <string name="app_notification_info">Skjermopptaker kjører i bakgrunnen</string>
-    <string name="app_notification_record_complete">"Saved screen recording to Gallery
-Tap to view"</string>
+    <string name="app_notification_record_complete">"Lagret skjermopptak i Galleri
+Trykk for å se"</string>
     <string name="app_notification_title">Skjermopptaker</string>
     <string name="auto_stop_title">Video lagret</string>
     <string name="battery_not_allowed" formatted="false">Kan ikke ta opp med batterikapasitet på under 3 %. Batteriet må ha minst 20 % kapasitet.</string>
@@ -316,6 +316,7 @@ Tap to view"</string>
     <string name="using_record_confirm_ok">Tillat</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="view_recorded_file">Trykk for å se innspilt fil</string>
     <string name="warning_recording_when_a2dp_connect">Enheten din støtter ikke opptak av systemlyder mens Bluetooth-hodetelefonene er i bruk.</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>

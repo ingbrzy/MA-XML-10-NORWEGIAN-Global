@@ -244,6 +244,10 @@
         <item quantity="other">%d lagt til</item>
         <item quantity="one">%d lagt til</item>
     </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">Wi-Fi slås på automatisk når enheten oppdager lagrede nettverk i nærheten og slås av etter %d minutter hvis ingen forbindelse er opprettet</item>
+        <item quantity="one">Wi-Fi slås på automatisk når enheten oppdager lagrede nettverk i nærheten og slås av etter %d minutt hvis ingen forbindelse er opprettet</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM-kort</item>
         <item quantity="one">%1$d SIM-kort</item>

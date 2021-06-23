@@ -128,16 +128,16 @@
         <item>map14</item>
     </string-array>
     <string-array name="bluetooth_map_versions">
-        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.2 (Standard)</item>
         <item>MAP 1.3</item>
         <item>MAP 1.4</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Deaktivert</item>
-        <item>Filtered</item>
+        <item>Filtrert</item>
         <item>Aktivert</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
+        <item>Overskrifter filtrert</item>
+        <item>Mediapakker filtrert</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Forbedrede farger</item>

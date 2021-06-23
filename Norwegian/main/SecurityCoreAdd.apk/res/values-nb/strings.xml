@@ -279,7 +279,6 @@ Du kan også laste dem ned separat."</string>
     <string name="notificationTitle">Meldingsskygge-snarvei</string>
     <string name="notification_from_owner_user">Vis varsler fra Første område</string>
     <string name="notification_from_second_user">Vis varsler fra Andre område</string>
-    <string name="notification_recommend_title">De 12 beste appene for Andre område</string>
     <string name="notification_setting_second_space">Sett opp Andre område</string>
     <string name="notification_setting_second_space_desc">Legg til passord for Andre område og flytt data</string>
     <string name="ok_button">OK</string>
@@ -488,10 +487,14 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="xspace_disable">Ikke opprettet</string>
     <string name="xspace_enable">Opprettet</string>
     <string name="xspace_facebook_title">Facebook</string>
-    <string name="xspace_guide_des">Bruk 2 kontoer uten å skifte</string>
-    <string name="xspace_guide_title">Opprett en dobbeltapp</string>
+    <string name="xspace_guide_content_bound">Tilgjengelige apper</string>
+    <string name="xspace_guide_des">Dobbeltapper gjør at du kan bruke to kontoer samtidig uten å bytte mellom dem</string>
+    <string name="xspace_guide_description">"Hver konto
+fortjener sin egen app"</string>
+    <string name="xspace_guide_title">Prøv dobbeltapper</string>
     <string name="xspace_header">Doblbeltapper</string>
     <string name="xspace_instagram_title">Instagram</string>
+    <string name="xspace_install_complete">&lt;font>Dobbeltapp opprettet. &lt;/font>&lt;font color=#0D84FF>Åpne nå&lt;/font>.</string>
     <string name="xspace_install_completed">Ikon lagt til startskjermbildet</string>
     <string name="xspace_install_completed_global">Ikonet er lagt til skuffen</string>
     <string name="xspace_install_failed">Kunne ikke opprette</string>
@@ -500,11 +503,13 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="xspace_label">Doble apper</string>
     <string name="xspace_loading_msg">Laster apper…</string>
     <string name="xspace_notification">Dobbeltapp-varsler</string>
+    <string name="xspace_notification_button">Prøv</string>
     <string name="xspace_notification_error">Logg inn på dobbel WeChat og prøv igjen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Slett dobbeltappkontoer</string>
     <string name="xspace_setting_label">Innstillinger for dobbeltapp</string>
     <string name="xspace_settins">Angi</string>
+    <string name="xspace_start">Opprett</string>
     <string name="xspace_uninstall_completed">Dobbeltapp avinstallert</string>
     <string name="xspace_uninstall_dialog_content">Avinstallering av dobbelapp vil fjerne alle appdata.</string>
     <string name="xspace_uninstall_dialog_title">Avinstaller dobbeltapp</string>

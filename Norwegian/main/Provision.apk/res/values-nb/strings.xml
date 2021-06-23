@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Gå opp</string>
+    <string name="abc_action_menu_overflow_description">Flere alternativer</string>
+    <string name="abc_action_mode_done">Ferdig</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Velg en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Funksjon+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellomrom</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meny+</string>
+    <string name="abc_search_hint">Søk</string>
+    <string name="abc_searchview_description_clear">Slett søket</string>
+    <string name="abc_searchview_description_query">Søkeord</string>
+    <string name="abc_searchview_description_search">Søk</string>
+    <string name="abc_searchview_description_submit">Utfør søket</string>
+    <string name="abc_searchview_description_voice">Talesøk</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="accessibility_enabled">Tilgjengelighet tillatt</string>
     <string name="agree">Enig</string>
     <string name="agree_and_next">Godta</string>
@@ -20,6 +47,8 @@
     <string name="application_permissions">Apptillatelser</string>
     <string name="back">Tilbake</string>
     <string name="backup_introduction">Du kan bruke denne appen til å sikkerhetskopiere og gjenopprette elementer på enheten.</string>
+    <string name="boot_video_replay">Spill igjen</string>
+    <string name="boot_video_skip">Hopp over</string>
     <string name="calculator_introduction">Du kan bruke denne appen til beregninger, konvertering av enheter og valutaer og til å estimere nedbetaling av boliglån.</string>
     <string name="camera_introduction">Du kan bruke Kamera til å ta bilder og spille inn videoer.</string>
     <string name="carrier_introduction">For å kunne tilby deg bedre tjenester, kan enheten periodevis sende deg informasjon om enhetsversjon, data om enhetsidentifikasjon (inkludert IMEI-/IMSI-/MSISDN-/MAC-adresse, MEID/ICCID) og omtrentlig plasseringsinformasjon (inkludert basestasjon-ID) til operatøren via Wi-Fi, mobildatanettverk eller kostnadsfri SMS. Operatøren lover å bare analysere relevant informasjon for å forbedre kvaliteten på tjenester eller for å tilby tilpassede tjenester og teknologier, og kommer ikke til å utlevere relevant informasjon til tredjeparter i noen form som identifiserer deg personlig. Den spesifikke operatørerklæringen er gjeldende. Ta kontakt med operatøren din angående kostnaden for bruk av denne tjenesten.</string>
@@ -32,7 +61,6 @@
     <string name="congratulation_swipe">Dra opp for å åpne systemet</string>
     <string name="congratulation_title">Oppsettet er fullført</string>
     <string name="content_description_complete">Fullført</string>
-    <string name="content_description_miui_version">MIUI 12</string>
     <string name="content_description_start">Start</string>
     <string name="content_introduction">Innholdssenter samler innhold og tjenester fra flere kanaler. Her kan du lese artikler, se på videoer, se daglige fremhevede elementer og motta innholdsanbefalinger.</string>
     <string name="continue_to_enable_accessibility">Hold to fingre nede for å tillate tilgjengelighet.</string>
@@ -77,6 +105,7 @@
     <string name="item_contents_wwarning">Hvis enheten går tapt, vil du ikke kunne hindre andre mot å bruke den og få tilgang til dine data, med mindre du har aktivert en skjermlås. Vil du fortsatt ignorere dette?</string>
     <string name="item_fingerprint">Fingeravtrykk</string>
     <string name="item_lock_screen_password">Kun skjermlås</string>
+    <string name="item_lock_screen_password_only">Skjermlås</string>
     <string name="item_return">Angi</string>
     <string name="item_skip">Hopp over</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
@@ -100,6 +129,8 @@
     <string name="move_data_dialog_cancel">Avbryt</string>
     <string name="move_data_dialog_title">Du kan begrense mobildatatilkobling under Innstillinger senere</string>
     <string name="move_data_dialog_use">Bruk</string>
+    <string name="msim_setting_default_data">Data-SIM</string>
+    <string name="msim_setting_default_voice">Standard SIM-kort for anrop</string>
     <string name="multisim_settings_category">Innstillinger for SIM-kort</string>
     <string name="multisim_settings_title">2 SIM-kort funnet</string>
     <string name="navigation_picker_gesture_guide">Bevegelses-veiledning</string>
@@ -108,7 +139,7 @@
     <string name="next">Neste</string>
     <string name="next_fingerprint">Neste</string>
     <string name="note_introduction">Denne appen gjør at du kan opprette, se og redigere notater.</string>
-    <string name="other_settings">Ekstra innstillinger</string>
+    <string name="other_settings">Tilleggsinnstillinger</string>
     <string name="other_settings_ad_dialog_agree">Aktiver</string>
     <string name="other_settings_ad_dialog_content">Når personlig tilpasset annonseanbefaling er deaktivert, ser du fortsatt samme antall annonser som når funksjonen er aktivert. Men annonsene vil da ikke være relevante siden de ikke er basert på dine personlige preferanser.</string>
     <string name="other_settings_ad_dialog_disagree">Deaktiver</string>
@@ -186,12 +217,16 @@
     <string name="pref_title_voice_slot">Foretrukket stemme-SIM-kort</string>
     <string name="privacy_policy">Personvernerklæring</string>
     <string name="protect_persoanl_info_statement">Vi beskytter personopplysningene dine i henhold til relevante lover, forskrifter og personvernerklæringer.</string>
+    <string name="provision_back">Tilbake</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Vis &lt;a href=%1$s>Personvernerklæringen&lt;/a > for ditt valgte tastatur.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Personvernerklæring</string>
+    <string name="provision_next">Neste</string>
+    <string name="provision_skip_underline">Hopp over</string>
     <string name="recorder_introduction">Du kan bruke denne appen til å ta opp lyd og sikkerhetskopiere opptak til skyen.</string>
     <string name="require_authority_statement">For å gi oss tillatelse til å tilby deg grunnleggende tjenester, må du gi oss følgende tillatelser for at vi skal kunne innhente personopplysningene dine:</string>
     <string name="require_network_authority_statement">For å gi oss tillatelse til å tilby deg grunnleggende tjenester, må du koble til internett og gi oss følgende tillatelser for at vi skal kunne innhente personopplysningene dine:</string>
     <string name="screen_recording_introduction">Denne appen gjør at du kan ta opp det som skjer på skjermen.</string>
+    <string name="search_menu_title">Søk</string>
     <string name="security_introduction">Du kan bruke denne appen til å fjerne alt søppel på enheten, finne og nøytralisere virus, optimalisere ytelsen for spill, spare batteri, behandle apper, tillatelser og mer.</string>
     <string name="security_mobile_account_introduction">For å logge inn og administrere systemkontoer</string>
     <string name="service_agreement">Jeg har lest og godtatt vilkårene og betingelsene.</string>
@@ -220,13 +255,14 @@
     <string name="service_policy">&lt;Data>Les og godta &lt;a href=%1$s>personvernerklæringen&lt;/a > vår.&lt;/Data></string>
     <string name="service_policy_download">&lt;Data>Før du bruker tjenestene våre, må du lese og godta &lt;a href=%1$s>personvernerklæringen til Xunlei&lt;/a >.&lt;/Data></string>
     <string name="service_privacy_index">Personvernerklæring</string>
+    <string name="service_security_over_r">&lt;Data>Les og godta vår &lt;a href=%1$s>Personvernerklæring&lt;/a > før du bruker Sikkerhet.&lt;br/>&lt;br/>I henhold til Android 11-standardene vil en engangstillatelse bli trukket tilbake innen 5 sekunder etter at den tilsvarende appen slutter å kjøre. Hvis du åpner appen i løpet av denne korte tidsperioden, trekkes tillatelsen tilbake.&lt;/Data></string>
     <string name="servicestate_title">Erklæring om grunnleggende tjenester</string>
     <string name="setting_locale">Innstilling av region…</string>
     <string name="shut_down">Lukk</string>
     <string name="sim_card_detecting">Ser etter SIM-kort…</string>
     <string name="sim_card_detecting_check">Finner ikke SIM-kortet. Kontroller at SIM-kortet er riktig installert og at du har dekning på saldoen.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">Tillate å koble til mobildatanettverk? Hvis du gjør dette, vil SIM-kortet som du har satt inn brukes til å koble til mobildatanettverk.</string>
-    <string name="sim_card_detecting_title">Ser etter SIM-kort</string>
+    <string name="sim_card_detecting_title">Ser etter SIM-kort…</string>
     <string name="sim_card_detection">Sett inn SIM-kort</string>
     <string name="sim_card_detection_info">Les instruksjonene som ble levert sammen med enheten din for å finne ut hvordan du setter inn SIM-kort.</string>
     <string name="sim_card_detection_mobile_not_available">SIM-kort kunne ikke koble til nettverk</string>
@@ -239,6 +275,7 @@
     <string name="skip_gesture_guide_dialog_title">Fullskjermbevegelser</string>
     <string name="skip_underline">Hopp over dette trinnet</string>
     <string name="start_up_slogan">Yours alone</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_not_set">Ikke satt</string>
     <string name="system_navigation_mode">Systemnavigeringsmodus</string>
     <string name="terms_of_use">Vilkår og betingelser</string>

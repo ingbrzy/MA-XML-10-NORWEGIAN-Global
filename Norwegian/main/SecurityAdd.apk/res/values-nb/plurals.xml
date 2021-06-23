@@ -60,6 +60,10 @@
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
+    </plurals>
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
         <item quantity="one">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>

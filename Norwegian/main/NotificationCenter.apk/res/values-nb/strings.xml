@@ -53,6 +53,8 @@
     <string name="feedback_tip_cancel">Varslingsdata samles ikke inn.</string>
     <string name="feedback_tip_msg">For å gruppere varsler på en mer nøyaktig måte, trenger vi å samle inn appnavn, varslingstittel og beskrivelse, og tidspunktet varselet ble sendt på. Sende inn tilbakemeldingen?</string>
     <string name="feedback_tip_title">Tilbakemelding på varslingskategorier</string>
+    <string name="float_notification_snooze_strategy">Skjul midlertidig</string>
+    <string name="float_notification_snooze_summary">Sveip opp på et flytende varsel for å midlertidig skjule de som kommer opp</string>
     <string name="float_notifications">Flytende varsler</string>
     <string name="float_notifications_short">Flytende</string>
     <string name="fold_importance_default">Anbefalt</string>
@@ -77,6 +79,10 @@
     <string name="menu_setting_tip_show_in_home">Varsler fra %s blir ikke gruppert</string>
     <string name="menu_setting_tip_unfold">Alle varsler fra denne appen blir sett på som viktige</string>
     <string name="menu_setting_unfold">Viktige</string>
+    <string name="miui_snooze_always_float">Ikke skjul</string>
+    <string name="miui_snooze_cancel">Avbryt</string>
+    <string name="miui_snooze_default_time">I %d minutt</string>
+    <string name="miui_snooze_until_unlock_screen">Til låst</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
@@ -96,6 +102,11 @@
     <string name="notification_aggregate_title">Grupper varsler</string>
     <string name="notification_display_setting">Varslingsskygge</string>
     <string name="notification_display_style">Varselsstil</string>
+    <string name="notification_fold_description1">Varslingsmappen ble introdusert i MIUI 9. Denne funksjonen filtrerer ut uviktige varsler og plasserer dem i en separat mappe.</string>
+    <string name="notification_fold_description2">MIUI vil huske hvilke varsler du trykker på, og bruker så flere kriterier for å fastslå om de er viktige.</string>
+    <string name="notification_fold_description3">Hvis varslene du ser på som viktige fortsatt blir plassert i varslingsmappen, må du rapportere problemet til oss. Vi setter pris på tilbakemeldingen din.</string>
+    <string name="notification_fold_footer_icon_summary">Vis app-ikoner når ubetydelige varsler er gruppert</string>
+    <string name="notification_fold_footer_icon_title">Vis app-ikoner</string>
     <string name="notification_fold_summary">Grupper uviktige varsler automatisk</string>
     <string name="notification_fold_title">Grupper varsler</string>
     <string name="notification_keyguard_hide_content">Vis varsler, men skjul innhold</string>
@@ -113,6 +124,7 @@
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>
     <string name="show_badge_notifications">Varselmerker</string>
     <string name="show_badge_notifications_short">Merker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_aggregate_default">Kampanje- og innholdsrelaterte pushvarsler blir gruppert</string>
     <string name="summary_aggregate_home">Pushvarsler blir ikke gruppert</string>

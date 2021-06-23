@@ -164,6 +164,10 @@
         <item quantity="other">%1$d kontakter med delvis identisk informasjon</item>
         <item quantity="one">%1$d kontakter med delvis identisk informasjon</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
+    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d valgt</item>
         <item quantity="one">%1$d valgt</item>

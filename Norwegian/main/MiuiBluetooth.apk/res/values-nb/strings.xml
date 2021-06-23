@@ -302,7 +302,7 @@ Trykk på «Slett og konverter…'» for å fortsette."</string>
     <string name="fast_connect_anti_lost_content">"Konfigurer et varsel som vises når én av hodetelefonene mangler.
 Se Innstillinger for mer informasjon."</string>
     <string name="fast_connect_device_battery">Batteri</string>
-    <string name="fast_connect_device_box">Boks</string>
+    <string name="fast_connect_device_box">Etui</string>
     <string name="fast_connect_device_box_name">%1$s Boks</string>
     <string name="fast_connect_device_connect_cancel">Avbryt</string>
     <string name="fast_connect_device_connect_ok">Koble til</string>
@@ -311,7 +311,7 @@ Se Innstillinger for mer informasjon."</string>
     <string name="fast_connect_device_connect_success">Ferdig</string>
     <string name="fast_connect_device_headset_l">Venstre</string>
     <string name="fast_connect_device_headset_r">Høyre</string>
-    <string name="fast_connect_device_headset_reset">Hold knappen på boksen nede</string>
+    <string name="fast_connect_device_headset_reset">Trykk på og hold inne knappen på etuiet</string>
     <string name="fast_connect_device_title_connect_fail">Kunne ikke koble til %1$s</string>
     <string name="fast_connect_device_title_connecting">Kobler til…</string>
     <string name="fast_connect_device_title_find_headset">Finn %1$s</string>
@@ -349,6 +349,7 @@ Raskere tilkoblingsprotokoll."</string>
     <string name="headset_device_error_box_close">Ladeetuiet er deaktivert</string>
     <string name="headset_device_error_disconnect">Begge hodetelefonene koblet fra. Lukk ladeetuiet og åpne det igjen for å starte oppdateringen på nytt.</string>
     <string name="headset_device_error_failed">Kan ikke oppdatere</string>
+    <string name="headset_device_error_multconnect">Kan ikke oppdatere når flere enheter er tilkoblet</string>
     <string name="headset_device_error_no_device">Det mangler minst én hodetelefon i ladeetuiet</string>
     <string name="headset_device_error_single_device">Kan ikke oppdatere én hodetelefon. Sammekoble på nytt.</string>
     <string name="headset_device_sync_donot_move_device">Synkroniserer… Vent til synkroniseringen er fullført før du bruker hodetelefonene.</string>
