@@ -189,14 +189,14 @@ Sjekk nettverkstilkoblingene dine og prøv igjen."</string>
     <string name="er">Målmappe</string>
     <string name="es">Valgt</string>
     <string name="et">Valgte filer: %1$d | Totalt: %2$s</string>
-    <string name="eu">4–16 tegn, bokstaver, og siffer, og skill mellom store og små bokstaver</string>
+    <string name="eu">Brukernavn og passord inneholder både store og små bokstaver og de må bestå av %1$d-%2$d tegn. Du kan kombinere bokstaver fra A–Z, spesialsymboler og tall.</string>
     <string name="ev">Logg inn anonymt</string>
     <string name="ew">Brukernavnet eller passordet er feil</string>
     <string name="ex">Kunne ikke åpne port. Sjekk nettverkstilkoblingen eller tilbakestill portnummer.</string>
     <string name="ey">Passord</string>
     <string name="ez">Portnummer</string>
     <string name="f0">Sikkerhet</string>
-    <string name="f1">Logg inn</string>
+    <string name="f1">Lag et brukernavn og passord</string>
     <string name="f2">Brukernavn</string>
     <string name="f3">Windows standardkoding for forenklet kinesisk</string>
     <string name="f4">GBK</string>

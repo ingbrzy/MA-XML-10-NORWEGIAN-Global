@@ -32,6 +32,10 @@
         <item>Back up important settings, including WLAN and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_pad">
+        <item>Synkroniser bilder, notater, opptak og mer</item>
+        <item>Lås enheten din eksternt hvis den blir borte</item>
+    </string-array>
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Synkroniser kontakter, meldinger, notater, kalender og mer</item>
         <item>Sikkerhetskopier apper, oppsett til Hjem-skjerm og bakgrunner</item>
@@ -42,6 +46,10 @@
         <item>Synkroniser app-data</item>
         <item>Sikkerhetskopier oppsett til Hjem-skjerm</item>
         <item>Sikkerhetskopier systeminnstillinger</item>
+        <item>Finn enhet</item>
+    </string-array>
+    <string-array name="micloud_entrance_titleArray_pad">
+        <item>Synkroniser app-data</item>
         <item>Finn enhet</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
@@ -136,12 +144,22 @@
         <item>Gjenopprett kontakter, bilder, meldinger og mer</item>
         <item>Søppel;Slettede elementer;Søppelbøtte;Gjenopprett;Skytjenester;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_recycle_bin_pad">
+        <item>Slettede enheter i Xiaomi Cloud</item>
+        <item>Gjenopprett bilder, notater og mer</item>
+        <item>Søppel;Slettede elementer;Søppelbøtte;Gjenopprett;Skytjenester;Xiaomi Cloud</item>
+    </string-array>
     <string-array name="settings_search_restore_device">
         <item>Gjenopprett elementer fra Xiaomi Cloud</item>
         <item>Last ned sikkerhetskopierte elementer til enheten din</item>
         <item>Sky;Sikkerhetskopi;Sikkerhetskopi;Gjenoppprett;Skytjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
+        <item>Sikkerhetssynkronisering med skyen</item>
+        <item>Skru på synkronisering</item>
+        <item>Sikkerhet;Sky;Xiaomi Cloud;Synkroniser;Skytjenester</item>
+    </string-array>
+    <string-array name="settings_search_security_pad">
         <item>Sikkerhetssynkronisering med skyen</item>
         <item>Skru på synkronisering</item>
         <item>Sikkerhet;Sky;Xiaomi Cloud;Synkroniser;Skytjenester</item>
@@ -159,6 +177,11 @@
     <string-array name="settings_search_sync_manage">
         <item>Xiaomi Cloud. Alle Mi-tjenestene på ett sted.</item>
         <item>Få tilgang til bilder, kontakter, meldinger, og enheter hvor som helst</item>
+        <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkronisering;Skytjenester;Xiaomi Cloud;Søppel;Slettede elementer;Sikkerhet</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage_pad">
+        <item>Xiaomi Cloud. Alle Mi-tjenestene på ett sted.</item>
+        <item>Få tilgang til bilder, notater, og enheter hvor som helst</item>
         <item>Ikke nok lagringsplass;Medlemskap;Lagring;Lagringsplass;Sky;Synkronisering;Skytjenester;Xiaomi Cloud;Søppel;Slettede elementer;Sikkerhet</item>
     </string-array>
     <string-array name="settings_search_wlan">

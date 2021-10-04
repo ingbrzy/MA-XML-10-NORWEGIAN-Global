@@ -31,7 +31,6 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
-    <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="account_bind_secure_email_title">Legg til e-post for gjenoppretting</string>
     <string name="account_bind_secure_phone_title">Legg til telefonnummer for gjenoppretting</string>
     <string name="account_crop_user_avatar">Beskjær bilde</string>
@@ -74,6 +73,8 @@
     <string name="ad_download">Last ned</string>
     <string name="ad_join">Bli med i samfunnet</string>
     <string name="ad_more">Mer</string>
+    <string name="add_local_shortcut_add">Legg til</string>
+    <string name="add_local_shortcut_des">Legg til «Mine videoer» på startskjermen for å få tilgang til lokale videofiler med ett trykk.</string>
     <string name="add_search_channel_link">Nettadresse</string>
     <string name="add_search_channel_name">Navn</string>
     <string name="add_search_channel_tip">Søk etter «%s» på målnettstedet og kopier og lim inn URL-adressen her.</string>
@@ -108,6 +109,7 @@
     <string name="auto_play_next_off">Automatisk avspilling er deaktivert</string>
     <string name="auto_play_next_on">Automatisk avspilling er aktivert</string>
     <string name="back_to_mainpage">Oppdag</string>
+    <string name="background_playback_enabled">Avspilling i bakgrunnen er aktivert</string>
     <string name="before_yestoday">2 dager siden</string>
     <string name="bind_sign_in_title">Legg til Mi-konto</string>
     <string name="cancel">Avbryt</string>
@@ -131,6 +133,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">DIREKTE</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
@@ -162,6 +165,7 @@
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nei, jeg vil opprette en</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
+    <string name="click_to_open_pip">Trykk for å bytte bilde-i-bilde</string>
     <string name="click_to_reload_more">Trykk for å laste mer</string>
     <string name="click_to_retry">Prøv igjen</string>
     <string name="close">Lukk</string>
@@ -171,6 +175,8 @@
     <string name="cloud_online_switch_close_time">Du kan skru på personlig tilpassede innholdsanbefalinger i %s</string>
     <string name="cloud_online_switch_open_time">Vis personlig tilpassede innholdsanbefalinger</string>
     <string name="collect_diagnosis_log">Hent logger</string>
+    <string name="columbus_ad_flag_text">ANNONSE</string>
+    <string name="columbus_skip_ad">Hopp over</string>
     <string name="com_facebook_device_auth_instructions">Gå til &lt;b>facebook.com/device&lt;/b> og skriv inn koden som vises over.</string>
     <string name="com_facebook_image_download_unknown_error">Det oppstod en uvented feil under nedlasting av et bilde.</string>
     <string name="com_facebook_internet_permission_error_message">WebView-innlogging krever INTERNETT-tillatelse</string>
@@ -259,6 +265,12 @@ Mi Video-teamet"</string>
     <string name="diagnosis_log_sent_format">"Logger er sendt.
 ID:%s
 Send denne koden til den overordnede."</string>
+    <string name="dialog_app_comment_cancel">Avbryt</string>
+    <string name="dialog_app_comment_default_content">Hva tenker du om Mi Video?</string>
+    <string name="dialog_app_comment_ok">OK</string>
+    <string name="dialog_app_comment_select_feedback">Ønsker du å gi oss en tilbakemelding i tillegg?</string>
+    <string name="dialog_app_comment_select_praise">Flott! Vil du også vurdere Mi Video i Play Store?</string>
+    <string name="dialog_app_comment_title">Vurder appen vår</string>
     <string name="dialog_disagree_privacychange_info">Du kan ikke bruke Mi Videos nettbaserte strømmetjenester hvis du ikke godtar personvernerklæringen. Trykk på «Avbryt» for å gå tilbake, eller «Ikke godta» for å fortsette og bare bruke Mi Video som lokal avspiller.</string>
     <string name="dialog_disagree_privacychange_title">Ikke godta?</string>
     <string name="dialog_privacy_change_info">Vi har oppdatert personvernerklæringen for Mi Video på grunn av justeringene i tjenestene vi tilbyr. Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår før du bruker appen for å fullt ut forstå rettighetene dine som bruker samt måtene vi bruker dataene dine på.</string>
@@ -284,6 +296,8 @@ Send denne koden til den overordnede."</string>
     <string name="download_complete">Lastet ned</string>
     <string name="download_delete_tip">Slette valgte elementer?</string>
     <string name="download_delete_title">Slett</string>
+    <string name="download_guide_click_icon_to_website_or_enter_url">Trykk på en snarvei for å åpne et nettsted eller angi URL-adresse</string>
+    <string name="download_guide_known">Skjønner</string>
     <string name="download_paused">Satt på pause</string>
     <string name="download_pending">Venter…</string>
     <string name="download_power_off_tips">Denne funksjonen er ikke tilgjengelig nå</string>
@@ -340,6 +354,7 @@ Send denne koden til den overordnede."</string>
     <string name="failed_dup_secure_phone_number">Dette telefonnummeret er allerede knyttet til en annen Mi-konto</string>
     <string name="failed_to_fetch_data">Kunne ikke laste inn informasjon.</string>
     <string name="failure">Kunne ikke laste ned</string>
+    <string name="favor_movie">Filmer</string>
     <string name="favor_online_video">Videoer</string>
     <string name="favor_playlist">Spillelister</string>
     <string name="favorite">Favoritter</string>
@@ -463,6 +478,12 @@ Send denne koden til den overordnede."</string>
     <string name="galleryplus_network_connect_confirm">Koble til Wi-Fi for å aktivere mobildata under nettverksinnstillinger.</string>
     <string name="galleryplus_network_error">Kunne ikke koble til nettverket</string>
     <string name="galleryplus_network_not_wifi">Bruk av mobildata til å strømme videoer kan generere ekstra operatørkostnader</string>
+    <string name="galleryplus_notification_linkvideo_subtitle1" formatted="false">Administrer filer %$s Legg til undertekster %$s Cast videoer %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle2">Beskytt de private videoene dine med et passord %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle3">Last ned videoer fra TikTok, Instagram og Twitter %$s</string>
+    <string name="galleryplus_notification_linkvideo_title1">%$s Sjekk ut alle de kule funksjonene i Mi Video!</string>
+    <string name="galleryplus_notification_linkvideo_title2">%$s Trykk for å administrere videoene dine</string>
+    <string name="galleryplus_notification_linkvideo_title3">%1$s Last ned videoer gratis %2$s Administrer filer</string>
     <string name="galleryplus_online_cta">Mi Video må koble til internett for å fungere som normalt. Godta?</string>
     <string name="galleryplus_online_cta_agree">Godta</string>
     <string name="galleryplus_online_cta_disagree">Ikke godta</string>
@@ -471,13 +492,14 @@ Send denne koden til den overordnede."</string>
     <string name="galleryplus_orientation_lock">Retning låst</string>
     <string name="galleryplus_orientation_unlock">Skjermretning er låst opp</string>
     <string name="galleryplus_permission_content">Gi Mi Video de påkrevde tillatelsene for å kunne bruke denne funksjonen.</string>
-    <string name="galleryplus_permission_content2">"For å kunne bruke denne funksjonen, gå til Innstillinger > Apper > Mi Video > App-tillatelser og tillat Mi Video å gjøre følgende:
-
-1. Få tilgang til lagring
-2. Få tilgang til enhets-ID"</string>
+    <string name="galleryplus_permission_content_opt">Mi Video må ha tillatelser for å fungere som normalt. Slett alle appdata under Innstillinger og åpne appen på nytt.</string>
+    <string name="galleryplus_permission_content_xms">Mi Video må ha tillatelser for å fungere som normalt. Gå til Innstillinger og gi Mi Video de nødvendige tillatelsene.</string>
     <string name="galleryplus_permission_open_settings">Innstillinger</string>
-    <string name="galleryplus_permission_refuse">Nei takk</string>
-    <string name="galleryplus_permission_retry">Tillatelser</string>
+    <string name="galleryplus_permission_refuse">Avbryt</string>
+    <string name="galleryplus_permission_retry">Innstillinger</string>
+    <string name="galleryplus_permission_storage_content_reshowable_video_player">For å kunne bruke den lokale videospilleren må du gi appen tilgang til lagring først.</string>
+    <string name="galleryplus_permission_storage_content_unreshowable_video_player">For å kunne bruke den lokale videospilleren må du gi appen tilgang til lagring i delen Tillatelser under Innstillinger.</string>
+    <string name="galleryplus_permission_storage_title">Lagringstilgang kreves</string>
     <string name="galleryplus_permission_title">Merk</string>
     <string name="galleryplus_restore_play_speed">Spiller i den normale hastigheten nå</string>
     <string name="galleryplus_save_cancel_toast">Trykk på «Tilbake» for å avbryte lagring av video</string>
@@ -523,7 +545,6 @@ Send denne koden til den overordnede."</string>
     <string name="history_local_video">Lokal</string>
     <string name="history_online_video">På nett</string>
     <string name="hot">Populært</string>
-    <string name="i_know">Skjønner</string>
     <string name="identity">Identifisering</string>
     <string name="inconsistent_pwd">Passordene samsvarer ikke</string>
     <string name="init_channels">Gjenopprett standardinnstillingene</string>
@@ -549,11 +570,14 @@ for videoer"</string>
     <string name="live_title">Live</string>
     <string name="live_tv_title">Live-TV</string>
     <string name="loading">Et øyeblikk…</string>
+    <string name="local_empty_guide">The videos you film will appear here</string>
     <string name="local_play_tip">Spiller av lokal video</string>
+    <string name="local_push_setting_power_tag">Varsler om lokale videoer</string>
     <string name="local_push_title">Populært i dag</string>
     <string name="local_video_create_a_new_playlist">Ny spilleliste</string>
     <string name="local_video_date">Dato</string>
     <string name="local_video_dialog_default">Standard</string>
+    <string name="local_video_edit_playlist">Rediger spilleliste</string>
     <string name="local_video_from_a_to_z">A til Z</string>
     <string name="local_video_from_big_to_small">Store til små</string>
     <string name="local_video_from_long_to_short">Lange til korte</string>
@@ -566,6 +590,7 @@ for videoer"</string>
     <string name="local_video_notification_btn">Se i Mi Video</string>
     <string name="local_video_notification_title">En ny lokal video funnet</string>
     <string name="local_video_number_of_selected">%1$d/%2$d valgt</string>
+    <string name="local_video_shortcut_name">Mine videoer</string>
     <string name="local_video_size">Størrelse</string>
     <string name="local_video_space">Opptatt: %s</string>
     <string name="local_video_time">Varighet</string>
@@ -575,6 +600,9 @@ for videoer"</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Logg ut</string>
     <string name="logout_account">Logg ut</string>
+    <string name="long_video_no_more_content">Det var alt for nå</string>
+    <string name="long_video_watch_on">Se på</string>
+    <string name="long_video_you_may_also_like">Du liker kanskje også</string>
     <string name="lp_base_folder">SD-kort</string>
     <string name="lp_play_mode_list_loop">Gjenta alle</string>
     <string name="lp_play_mode_pause">Spill av én</string>
@@ -804,9 +832,7 @@ for videoer"</string>
     <string name="my_feedback_title">Min tilbakemelding</string>
     <string name="need_update_app">Oppdater Mi Video for å kunne bruke alle funksjonene</string>
     <string name="network_connect_info">Kunne ikke koble til nettverket.</string>
-    <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
     <string name="network_failed">Kunne ikke koble til nettverket</string>
-    <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="new_channel_tip">Ta en titt på nye kanaler!</string>
     <string name="next">Neste</string>
     <string name="next_step">Neste</string>
@@ -844,9 +870,10 @@ for videoer"</string>
     <string name="off_tip_firework_recommend">Du vil ikke motta personlig tilpassede innholdsanbefalinger fra Firework</string>
     <string name="ok">OK</string>
     <string name="on_tip_firework_recommend">Du vil motta personlig tilpassede innholdsanbefalinger fra Firework</string>
-    <string name="open_settings">Innstillinger</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Nylige abonnement</string>
     <string name="order_recently_updated">Nylig oppdatert</string>
+    <string name="out_of_memory_background_playback_is_suspended">Satte avspilling i bakgrunnen på pause på grunn av utilstrekkelig minne</string>
     <string name="ovp_alert_dialog_download_install_task">Laster ned HD-plug-in…</string>
     <string name="ovp_buffering_video_netplay_label_v5">Bufrer…</string>
     <string name="ovp_category">Kategorier</string>
@@ -881,6 +908,8 @@ for videoer"</string>
     <string name="ovp_favor">Favoritter</string>
     <string name="ovp_favor_null">Ingen elementer her.</string>
     <string name="ovp_feedback_title">Mi Video-tilbakemelding</string>
+    <string name="ovp_hint_new">Nye</string>
+    <string name="ovp_hint_the_latest_version">Oppdatert</string>
     <string name="ovp_home_folder_is_null_jump_upfolder_tip">Kunne ikke finne mediafilen. Hoppet til mappen i det øvre nivået.</string>
     <string name="ovp_home_item_camera">Galleri</string>
     <string name="ovp_home_item_download">Nedlastinger</string>
@@ -896,6 +925,7 @@ for videoer"</string>
     <string name="ovp_local_videos_title">Lokale videoer</string>
     <string name="ovp_navigation_category">Kategori</string>
     <string name="ovp_navigation_content">Samarbeid om innhold</string>
+    <string name="ovp_navigation_darkmode">Mørk modus</string>
     <string name="ovp_navigation_favorites">Favoritter</string>
     <string name="ovp_navigation_feedback">Tilbakemelding</string>
     <string name="ovp_navigation_history">Historikk</string>
@@ -903,8 +933,10 @@ for videoer"</string>
     <string name="ovp_navigation_language">Språk</string>
     <string name="ovp_navigation_localvideo">Lokal</string>
     <string name="ovp_navigation_notice">Varsler</string>
+    <string name="ovp_navigation_score">Vurder appen vår</string>
     <string name="ovp_navigation_setting">Innstillinger</string>
     <string name="ovp_navigation_subscribe">Abonnement</string>
+    <string name="ovp_navigation_version_update">Se etter oppdateringer</string>
     <string name="ovp_player_cached_error_btn">Videoer på nett</string>
     <string name="ovp_player_cached_error_hint_info">Kan ikke spille av lokale videoer nå</string>
     <string name="ovp_player_plugin_dlg_neg_btn">Lukk</string>
@@ -945,7 +977,6 @@ Oppdater Mi Video til den nyeste versjonen først."</string>
     <string name="passport_area_code_title">Retningsnummer</string>
     <string name="passport_bad_authentication">Ugyldig brukernavn og passord</string>
     <string name="passport_barcode_add_account_prompt">For å legge til en konto må du skanne QR-koden på nytt etter pålogging.</string>
-    <string name="passport_can_not_receive_verification_code">Kan du ikke motta bekreftelseskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Sjekker passord…</string>
     <string name="passport_close">Lukk</string>
@@ -1182,9 +1213,9 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_tab_gallery">Mapper</string>
     <string name="plus_tab_time">Tidslinje</string>
     <string name="pm">PM</string>
+    <string name="popup_click_for_download_video">Last ned video</string>
     <string name="privacy_revoke_setting">Ved å skru bryteren av trekker du tilbake samtykket ditt til personvernerklæringen for Mi Video.</string>
     <string name="privacy_revoke_title">Tilbakekalling av samtykke</string>
-    <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="psw_hint">Passord</string>
     <string name="psw_sign_in">Logg på med passord</string>
     <string name="pull_to_refresh_from_bottom_pull_label">Trekk opp for å oppdatere…</string>
@@ -1196,6 +1227,14 @@ Bedre tilpasse tjenestene for enheten din
     <string name="push_message_switch">Push-varsler</string>
     <string name="push_message_tips">Slå på for å motta push-varsler</string>
     <string name="pw_channels">Kanaler</string>
+    <string name="question_click_bottom_tab">Du kan også trykke på en snarvei for å åpne et nettsted.</string>
+    <string name="question_click_with_light">Trykk på nedlastingsknappen etter at den lyser opp.</string>
+    <string name="question_edit_url_here">Søk eller angi URL-adresse her.</string>
+    <string name="question_how_to_download_video">Hvordan kan jeg laste ned videoer?</string>
+    <string name="question_known">Skjønner</string>
+    <string name="question_look_video_here">Nedlastede videoer blir lagret her.</string>
+    <string name="question_next">Neste</string>
+    <string name="question_step">Hopp over</string>
     <string name="read_and_agree">Enig</string>
     <string name="recommend_channels">Anbefalte kanaler</string>
     <string name="recommend_online_switch">Anbefalinger på nett</string>
@@ -1210,6 +1249,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="remaining_space_not_enough">Kan ikke laste ned grunnet utilstrekkelig lagringsplass</string>
     <string name="reminder">Merk</string>
     <string name="rename">Gi nytt navn</string>
+    <string name="rename_word_out">This filename is too long</string>
     <string name="report">Rapporter</string>
     <string name="report_content_dislike">Vold eller upassende oppførsel</string>
     <string name="report_content_fakement">Søppelpost eller svindel</string>
@@ -1222,7 +1262,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="report_content_violence">Hatefulle ytringer</string>
     <string name="report_fail">Kunne ikke rapportere. Prøv igjen.</string>
     <string name="report_success">Rapportert</string>
-    <string name="request_camera_permission_message">Vi beskytter personopplysningene dine i henhold til relevante lover og forskrifter. Denne appen trenger følgende tillatelser for å fungere som normalt:&lt;br>&lt;br>&lt;b>Bruk av kamera (for å angi profilbilde)&lt;/b>&lt;br>&lt;br>Hvis du ikke samtykker i å gi slike tillatelser, kan du ikke bruke enkelte funksjoner i appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig for deg. Du kan alltids begrense tillatelser eller tilbakekalle autorisasjonen din under Innstillinger.</string>
     <string name="resend_active_email">Send på nytt</string>
     <string name="resend_email_reach_limit_message">Du har bedt om for mange e-poster for bekreftelse. Kontroller at e-post for bekreftelse ikke har havnet i innboksens søppelpostmappe.</string>
     <string name="resend_email_reach_limit_title">For mange forsøk</string>
@@ -1285,6 +1324,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sns_sign_in">Andre måter å logge inn på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Lagt til i køen. Sjekk fremdriften under Profil > Nedlastinger.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Intern lagring</string>
     <string name="submit">Send inn</string>
@@ -1305,7 +1345,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sync_favorites_limit">Det er mer enn 500 videoer blant favorittene dine. Vi må slette noen av de tidligere videoene for å fortsette synkroniseringen.</string>
     <string name="sync_favorites_message">Synkronisere favoritter fra denne enheten til kontoen din? Elementer som ikke er tilgjengelige lenger fjernes.</string>
     <string name="sync_favorites_title">Synkroniser favoritter</string>
-    <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="t_check_hide_file">Velg elementer å skjule</string>
     <string name="t_check_unhide_file">Velg elementer å vise</string>
     <string name="t_downloading">Laster ned:</string>
@@ -1326,6 +1365,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="t_password_null">Passord kan ikke stå tomt</string>
     <string name="t_password_wrong">Du har tastet inn feil passord. Prøv igjen.</string>
     <string name="t_start_download">Begynner nedlastingen:</string>
+    <string name="tab_name_download">Nedlastinger</string>
     <string name="tab_name_local">Lokal</string>
     <string name="tab_name_me">Profil</string>
     <string name="tab_name_moment">Øyeblikk</string>
@@ -1349,6 +1389,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="the_forth_day">Fjerde dagen av kinesisk nyttår</string>
     <string name="the_hksar_establishment_day">Etableringsdag for Hong Kong SAR</string>
     <string name="the_international_womens_day">Kvinnedagen</string>
+    <string name="the_item_choosed_tint">%s valgt</string>
     <string name="the_laba_festival">Laba-festen</string>
     <string name="the_labour_day">Arbeidernes dag</string>
     <string name="the_lantern_festival">Lanternefesten</string>
@@ -1397,6 +1438,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="tool_bar_notification_setting_title">Meldingsskygge-verktøylinje</string>
     <string name="top_bar_game_desc">Oppdag massevis av nye spill her</string>
     <string name="top_bar_game_title">Spillekanal</string>
+    <string name="trending_scroll_load_more">Sveip opp for flere videoer</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
@@ -1404,9 +1446,9 @@ Bedre tilpasse tjenestene for enheten din
     <string name="type_issue">Problem</string>
     <string name="type_suggestion">Forslag</string>
     <string name="ugc_no_net">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
+    <string name="ui_common_title_back">Tilbake</string>
     <string name="ui_log_tip">Trykk på dette området for å skjule, og trykk ned og hold for å slette gamle logger. Dra logger manuelt.</string>
     <string name="unknow">Ukjent</string>
-    <string name="unknown_error_info">Ukjent feil</string>
     <string name="update">Oppdater</string>
     <string name="update_email_address_dialog_message">Du må bekrefte identiteten din før du kan oppdatere e-post for gjenoppretting.</string>
     <string name="update_email_address_dialog_title">Oppdater e-post for gjenoppretting</string>
@@ -1448,14 +1490,20 @@ Bedre tilpasse tjenestene for enheten din
     <string name="video_download_fail">Kunne ikke laste ned video</string>
     <string name="video_download_fail_hint">Kunne ikke laste ned</string>
     <string name="video_download_floating_guide">Last ned videoer gratis</string>
+    <string name="video_download_folder_title">Mi Video-nedlastinger</string>
     <string name="video_download_forbidden">Kan ikke laste ned fra dette nettstedet</string>
+    <string name="video_download_login_guide">Logg på %s for å kunne laste ned videoer</string>
     <string name="video_download_network_error">Nettverksfeil</string>
     <string name="video_download_play_video_guide">Spill av videoen først.</string>
     <string name="video_download_play_video_guide2">Trykk på knappen når den lyser for å starte nedlastingen.</string>
+    <string name="video_download_play_video_step1">Trinn %1$d</string>
+    <string name="video_download_play_video_step2">Trinn %2$d</string>
     <string name="video_download_site_search">URL-adresse</string>
     <string name="video_download_source">Webnedlasting</string>
     <string name="video_download_start">Laster ned…</string>
     <string name="video_download_storage_error">Ikke nok lagringsplass</string>
+    <string name="video_download_title">Last ned videoer</string>
+    <string name="video_download_youtube_copyright_forbidden">Kan ikke laste ned YouTube-videoer på grunn av begrensninger i opphavsretten</string>
     <string name="video_downloading">Laster ned…</string>
     <string name="video_live_over">Denne økten er over</string>
     <string name="video_noyet_download_tip">Denne videoen lastes fortsatt ned</string>

@@ -85,27 +85,30 @@
     <string name="bugreport_tool_log_dumping_title">Oppretter feilrapport</string>
     <string name="catch_full_log_action_cancel">Avbryt</string>
     <string name="catch_full_log_action_complete">Fullfør og last opp</string>
-    <string name="catch_full_log_action_start">Generer logg</string>
+    <string name="catch_full_log_action_start">Start</string>
     <string name="catch_full_log_add_original_photo">Legg til opprinnelig bilde eller kort video</string>
     <string name="catch_full_log_add_photo">Legg til bilde</string>
     <string name="catch_full_log_add_photo_dialog_content">Hvis problemet du rapporterer er knyttet til kameraets bildekvalitet, kan du legge til et opprinnelig prøvebilde (ubeskåret) for å hjelpe oss med å lokalisere problemet. Legge til et bilde nå?</string>
+    <string name="catch_full_log_category">Loggtyper</string>
     <string name="catch_full_log_dialog_confirm_text">Gå til startskjerm</string>
-    <string name="catch_full_log_dialog_content">MIUI genererer en logg. Dette kan påvirke ytelsen til enheten din. Hvis du ikke kan reprodusere problemet du vil rapportere, kan du gå tilbake til logger og trykke på \"Avbryt\".</string>
+    <string name="catch_full_log_dialog_content">Dette kan påvirke ytelsen til enheten din. Hvis du ikke kan reprodusere problemet du vil rapportere, kan du gå tilbake til logger og trykke på «Avbryt».</string>
+    <string name="catch_full_log_dialog_title">Genererer logger…</string>
     <string name="catch_full_log_dump_hprof_failed">Kunne ikke generere logg som henger etter</string>
     <string name="catch_full_log_item_content_catch_direct">"1. Gå tilbake til funksjonen du vil rapportere og gjennomfør den på nytt.
  Kom tilbake til denne siden og trykk på «Fullfør og last opp»."</string>
-    <string name="catch_full_log_item_content_need_open">"1. Trykk på «Generer logg».
-2. Gå tilbake til funksjonen du vil rapportere og gjennomfør den på nytt.
-3. Kom tilbake til denne siden og trykk på «Fullfør og last opp»."</string>
-    <string name="catch_full_log_item_content_title">Steg</string>
-    <string name="catch_full_log_item_title_audio">Lyd, lydopptak og anropslyd</string>
+    <string name="catch_full_log_item_content_catching">Genererer logger…</string>
+    <string name="catch_full_log_item_content_need_open">"%1$d. Trykk på «Start» for å starte generering av logger.
+%2$d. Gjenskap problemet du har støtt på.
+%3$d. Kom tilbake til denne siden og trykk på «Fullfør og last opp»."</string>
+    <string name="catch_full_log_item_content_title">Slik genererer du logger</string>
+    <string name="catch_full_log_item_title_audio">Lyd, anropslyd og lydopptak</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Henger etter</string>
     <string name="catch_full_log_item_title_gps">Stedtjenester</string>
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
     <string name="catch_full_log_item_title_signal">Telefon, signal og mobile nettverk</string>
-    <string name="catch_full_log_item_title_wifi">Wi-Fi og ShareMe</string>
-    <string name="catch_full_log_item_title_wifi_china">WLAN and ShareMe</string>
+    <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
+    <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_notification_content">Trykk for å gå tilbake til logger</string>
     <string name="catch_full_log_notification_title">Genererer logg…</string>
     <string name="catch_full_log_privacy_content_audio">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde informasjon om lyden på enheten, inkludert avspillings- og opptakslogg. Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>

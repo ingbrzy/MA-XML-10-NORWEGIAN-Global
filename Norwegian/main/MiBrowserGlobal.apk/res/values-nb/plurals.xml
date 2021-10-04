@@ -176,41 +176,13 @@
         <item quantity="other">%d populære sanger</item>
         <item quantity="one">%d populære sang</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Spill av video om %1$d sekunder</item>
-        <item quantity="one">Spill av video om %1$d sekund</item>
-    </plurals>
     <plurals name="v5_edit_mode_title">
-        <item quantity="other">%1$d selected</item>
-        <item quantity="one">%1$d valgt</item>
+        <item quantity="other">Valgte %1$d elementer</item>
+        <item quantity="one">Valgt %1$d element</item>
     </plurals>
     <plurals name="video_collection_reminder_view">
         <item quantity="other">Du har ikke sett %d favorittvideoer på lang tid.</item>
         <item quantity="one">Du har ikke sett %d favorittvideo på lang tid.</item>
-    </plurals>
-    <plurals name="video_download_clear_info">
-        <item quantity="other">Fjernet %1$d videoer suksessfult.</item>
-        <item quantity="one">Fjernet %1$d video suksessfult.</item>
-    </plurals>
-    <plurals name="video_download_clear_prompt">
-        <item quantity="other">Fjern %1$d videoer?</item>
-        <item quantity="one">Fjern %1$d video?</item>
-    </plurals>
-    <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d elementer slettet fra historikk.</item>
-        <item quantity="one">%1$d element slettet fra historikk.</item>
-    </plurals>
-    <plurals name="video_history_clear_prompt">
-        <item quantity="other">Delete %1$d items from history?</item>
-        <item quantity="one">Slette %1$d enheter fra historikk?</item>
-    </plurals>
-    <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d oppdateringer er tilgjengelige.</item>
-        <item quantity="one">%1$d oppdatering er tilgjengelig.</item>
-    </plurals>
-    <plurals name="video_subtitle_last_message">
-        <item quantity="other">%d minutter gjenstår</item>
-        <item quantity="one">%d minutt gjenstår</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Sjekk ut %1$d nye videoer</item>

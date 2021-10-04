@@ -223,7 +223,6 @@ Slå av for å stoppe synkronisering."</string>
     <string name="card_game_title_1">Daglige anbefalinger</string>
     <string name="card_game_title_2">Populære denne uken</string>
     <string name="card_game_title_3">Mints valg</string>
-    <string name="cast_video">Cast video</string>
     <string name="category">Kategorier</string>
     <string name="category_album">Album</string>
     <string name="category_all">Alle filer</string>
@@ -263,7 +262,6 @@ Slå av for å stoppe synkronisering."</string>
     <string name="clear_history">Tøm historikk</string>
     <string name="clear_most_visited">Nylig historikk</string>
     <string name="clear_search_history">Tøm historikk</string>
-    <string name="clear_video_download">Fjern videoer</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="click_always">Trykk «Alltid»</string>
     <string name="click_to_refresh">Stoppet opp her sist gang. Klikk for å oppdatere</string>
@@ -285,7 +283,6 @@ Slå av for å stoppe synkronisering."</string>
     <string name="cloud_time_tips">Siste synkronisering</string>
     <string name="cloud_up_to_loading_tips">Slipp for å synkronisere</string>
     <string name="collect_diagnosis_log">Hent logger</string>
-    <string name="collect_video">Samle video</string>
     <string name="collection_articles">Artikler</string>
     <string name="collection_videos">Videoer</string>
     <string name="com_facebook_device_auth_instructions">Gå til &lt;b>facebook.com/device&lt;/b> og skriv inn koden som vises over.</string>
@@ -386,15 +383,6 @@ Sider du besøker vil ikke vises i historikken."</string>
     <string name="dark_mode">Mørk modus</string>
     <string name="data_error">Datafeil</string>
     <string name="data_format_ymd">dd/MM/yyyy</string>
-    <string name="data_traffic_continue">Spill uansett</string>
-    <string name="data_traffic_download_cancel">Avbryt</string>
-    <string name="data_traffic_download_prompt">Du kan bare laste ned denne videoen når enheten din er koblet til Wi-Fi.</string>
-    <string name="data_traffic_download_setting">Innstillinger</string>
-    <string name="data_traffic_goto">Datapakke</string>
-    <string name="data_traffic_prompt_free_data">Bruk av mobildata til å streame videoer kan generere ytterligere datakostnader. Prøv å bruke en beregnet datapakke.</string>
-    <string name="data_traffic_prompt_message">Bruk av din mobildataforbindelse til å bla gjennom videoer vil øke databruken din. Hvis du går over abonnementsgrensen for dataforbruk, kan operatøren belaste deg med ytterligere kostnader.</string>
-    <string name="data_traffic_prompt_title">Du bruker mobildata</string>
-    <string name="data_traffic_stop">Stopp</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -533,7 +521,6 @@ Send denne koden til den overordnede."</string>
     <string name="download_title">Nedlastinger</string>
     <string name="download_unknown_title">Ukjent</string>
     <string name="download_update_background">Nedlasting av oppdateringer i bakgrunnen</string>
-    <string name="download_video">Last ned video</string>
     <string name="download_video_from_social_site">Last ned videoer fra sosiale medier</string>
     <string name="download_videos_from_here">Du kan laste ned videoer fra disse tjenestene</string>
     <string name="download_wait_connect">Venter på å koble til</string>
@@ -577,7 +564,6 @@ Send denne koden til den overordnede."</string>
     <string name="exit_clear_dialog_btn_cancel">Avslutt</string>
     <string name="exit_clear_dialog_btn_ok">Tøm og avslutt</string>
     <string name="exit_clear_dialog_msg">Tømme historikk før du avslutter?</string>
-    <string name="exit_fullscreen">Avslutt fullskjerm</string>
     <string name="exit_game">Lukk</string>
     <string name="exo_controls_fastforward_description">Spol forover</string>
     <string name="exo_controls_fullscreen_description">Fullskjermmodus</string>
@@ -807,7 +793,7 @@ Send denne koden til den overordnede."</string>
     <string name="list_menu_rename_result_fail">Kunne ikke endre navn</string>
     <string name="list_menu_rename_result_repeat">Fil med dette navnet eksisterer allerede</string>
     <string name="load_more">Se mer</string>
-    <string name="loading">Et øyeblikk…</string>
+    <string name="loading">Bare et øyeblikk…</string>
     <string name="loading_tips">Trekk ned for å oppdatere</string>
     <string name="local_apps">Lokale apper</string>
     <string name="local_bookmarks">Mi</string>
@@ -830,15 +816,6 @@ Send denne koden til den overordnede."</string>
     <string name="make_private_msg_2">Skjule disse filene?</string>
     <string name="max_tabs_warning">Kan ikke åpne flere faner</string>
     <string name="maximum_input_alert">Kan ikke skrive inn mer enn 2048 tegn</string>
-    <string name="media_error_action_refresh">Oppdater</string>
-    <string name="media_error_action_replace_video_source">Kunne ikke endre kilde</string>
-    <string name="media_error_failure">Kan ikke spille av video</string>
-    <string name="media_error_format">Videoformatet støttes ikke</string>
-    <string name="media_error_network_unreachable">Kunne ikke koble til nettverket</string>
-    <string name="media_error_nomemory">Ikke nok minne</string>
-    <string name="media_error_source">Kunne ikke finne kilde</string>
-    <string name="media_error_timeout">Nettverkstilkobling er utgått på tid</string>
-    <string name="media_error_video_not_exist">Videoen finnes ikke</string>
     <string name="menu_addtodesk">Legg til startskjerm</string>
     <string name="menu_exit_nightmode">Avslutt</string>
     <string name="menu_hv_swap">V/H-skjerm</string>
@@ -934,6 +911,8 @@ Send denne koden til den overordnede."</string>
     <string name="more_option">Flere valg</string>
     <string name="more_recommend">Flere anbefalinger</string>
     <string name="morning">Morgen</string>
+    <string name="most_visited_sites">Mest besøkt</string>
+    <string name="most_visited_sites_switch">Vis mest besøkte sider på startsiden</string>
     <string name="move_bookmark">Flytt</string>
     <string name="msn_ad_identification">Annonse</string>
     <string name="msn_privacy">Personvernerklæring for Microsoft</string>
@@ -953,6 +932,7 @@ Send denne koden til den overordnede."</string>
     <string name="mw_actionbar_textselection_title">Velg tekst</string>
     <string name="mw_actionbar_web_search">Nettsøk</string>
     <string name="mw_autofill_popup_content_description">Viser autofyll-popup</string>
+    <string name="mw_chip_remove_icon_content_description">Remove \"%1$s\"</string>
     <string name="mw_color_picker_button_black">Sort</string>
     <string name="mw_color_picker_button_blue">Blå</string>
     <string name="mw_color_picker_button_cancel">Avbryt</string>
@@ -968,7 +948,7 @@ Send denne koden til den overordnede."</string>
     <string name="mw_color_picker_hue">Farge</string>
     <string name="mw_color_picker_saturation">Metning</string>
     <string name="mw_color_picker_value">Verdi</string>
-    <string name="mw_common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som mangler på enheten din.</string>
+    <string name="mw_common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
     <string name="mw_copy_to_clipboard_failure_message">Klarte ikke å kopiere til utklippstavlen.</string>
     <string name="mw_data_traffic_prompt_change">Bruk av mobildataforbindelsen for å streame videoer øker databruken din. Hvis du går over abonnementsgrensen for databruk, vil operatøren belaste deg tilleggsutgifter.</string>
@@ -992,6 +972,7 @@ Forlat denne siden nå?"</string>
     <string name="mw_js_dialog_title_default">JavaScript</string>
     <string name="mw_last_month">Siste måned</string>
     <string name="mw_license_activity_title">System WebView-lisens</string>
+    <string name="mw_link_copied">Copied URL successfully</string>
     <string name="mw_low_memory_error">Kunne ikke fullføre forrige operasjon pga. lite minne.</string>
     <string name="mw_miui_content_copy">Kopier</string>
     <string name="mw_miui_content_cut">Klipp ut</string>
@@ -1096,6 +1077,7 @@ Forlat denne siden nå?"</string>
     <string name="mw_save_password_never">Aldri</string>
     <string name="mw_save_password_notnow">Ikke nå</string>
     <string name="mw_save_password_remember">Husk</string>
+    <string name="mw_speech_recognition_service_not_found">"Couldn't find Google speech engine"</string>
     <string name="mw_status_bar_notification_info_overflow">999+</string>
     <string name="mw_time_picker_dialog_am">AM</string>
     <string name="mw_time_picker_dialog_hour_minute_separator" />
@@ -1103,7 +1085,6 @@ Forlat denne siden nå?"</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator" />
     <string name="mw_time_picker_dialog_title">Angi tid</string>
-    <string name="mw_url_copied">URL kopiert</string>
     <string name="mw_video_buffering_percent">Bufrer</string>
     <string name="mw_video_download_no_permission">Tillatelser er nødvendig for å laste ned elementer</string>
     <string name="mw_video_float_drag_scale_msg">Dra for å skalere</string>
@@ -1302,7 +1283,6 @@ Forlat denne siden nå?"</string>
     <string name="password">Passord</string>
     <string name="per_month">Pr. måned</string>
     <string name="permission_agree_service">Jeg har lest og godtatt alle de følgende vilkårene og betingelsene.</string>
-    <string name="permission_alert_window">For å kunne bruke denne funksjonen må du tillate visning av pop-up-vinduer i Innstillinger.</string>
     <string name="permission_contacts">Kontakter</string>
     <string name="permission_dialog_msg_camera">%s vil bruke kameraet ditt</string>
     <string name="permission_dialog_msg_camera_mic">%s vil bruke kameraet ditt og mikrofonen din</string>
@@ -1326,7 +1306,6 @@ Forlat denne siden nå?"</string>
     <string name="permission_open_storage">Gi Mi Browser tilgang til intern lagring under Innstillinger først</string>
     <string name="permission_service">Vilkår og betingelser</string>
     <string name="permission_storage">Lagring</string>
-    <string name="permission_unknown">Ukjent feil</string>
     <string name="permission_use">Tillatelser</string>
     <string name="personalized_content_services">Tilpassede innholdstjenester</string>
     <string name="personalized_services">Tilpassede tjenester</string>
@@ -1352,12 +1331,9 @@ Forlat denne siden nå?"</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
     <string name="pick_file">Velg filer</string>
     <string name="ping_test_title">Nettverksforsinkelse</string>
-    <string name="play_pause_video">Spill av eller sett video på pause</string>
-    <string name="play_video">Spill av video</string>
     <string name="players_still_play">&lt;font color=\"#ff2458\">%s&lt;/font> av spillerne liker også disse</string>
     <string name="pm">PM</string>
     <string name="popular_game_video">Popular Game Video</string>
-    <string name="popup_video">Popup-video</string>
     <string name="popup_window_attempt">Tillat dette nettstedet å åpne pop-up vindu?</string>
     <string name="positive_confirm_message">Skru av uansett</string>
     <string name="pref_accessibility">Tilgjengelighet</string>
@@ -1536,8 +1512,8 @@ Forlat denne siden nå?"</string>
     <string name="privacy_authorize_summary">Slå bryteren av og på for å gi eller tilbakekalle din autorisasjon</string>
     <string name="privacy_authorize_title">Autorisasjon</string>
     <string name="privacy_btn_more">Mer</string>
-    <string name="privacy_improve_performance">Hjelp til med å forbedre ytelsen til Mi Browser</string>
-    <string name="privacy_improve_performance_desc">Send aggregerte data og krasjrapporter til Mi Browser automatisk</string>
+    <string name="privacy_improve_performance">Brukeropplevelsesprogram</string>
+    <string name="privacy_improve_performance_desc">Gi Xiaomi tillatelse til å samle inn og analysere brukerdata for å forbedre produktene og tjenestene våre.</string>
     <string name="privacy_message">Før du bruker Nettleser, må du godta vår &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Brukeravtale&lt;/a>&lt;/font> og &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Personvernerklæring&lt;/a>&lt;/font>.</string>
     <string name="privacy_message_main_tips_first">Mi Browser må innhente nødvendige personopplysninger for å tilby deg de grunnleggende tjenestene. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">personvernerklæringen&lt;/a>&lt;/font>&lt;/font> vår. Du kan alltid trekke tilbake samtykket ditt til Mi Browsers personvernerklæring under Innstillinger > Personvern og sikkerhet. Les og godta &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">brukeravtalen&lt;/a>&lt;/a>&lt;/font> og &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">personvernerklæringen&lt;/a>&lt;/font> vår før du bruker Mi Browser.</string>
     <string name="privacy_message_main_tips_second">For å kunne søke etter apper på denne enheten og vite hvilke apper som er installert må Mi Browser ha tilgang til informasjon om appinstallasjon, som ikke lagres lokalt eller lastes opp i noen som helst form.</string>
@@ -1545,6 +1521,7 @@ Forlat denne siden nå?"</string>
     <string name="privacy_message_welcome_tip_first">– Rask og sikker surfing på nett</string>
     <string name="privacy_message_welcome_tip_second">– Nedlasting av bilder og videoer på plattformer for sosiale medier</string>
     <string name="privacy_policy">Personvernerklæring</string>
+    <string name="privacy_reset_fail">Kunne ikke tilbakestille. Prøv igjen.</string>
     <string name="privacy_sub_title">Vilkår og betingelser</string>
     <string name="privacy_title">Velkommen til Mi Browser</string>
     <string name="private_title">Skjulte filer</string>
@@ -1724,10 +1701,10 @@ Forlat denne siden nå?"</string>
     <string name="setting_app_language">Språk for nettleser</string>
     <string name="setting_feed_language">Språk for Innholdsstrøm</string>
     <string name="setting_privacy_password">Angi opplåsingsmønster</string>
+    <string name="setting_swipe_up">Sveip opp på startskjermen</string>
     <string name="share_image_text">Se hva jeg delte! @MIUI</string>
     <string name="share_page_text">Se hva jeg delte: %1$s @MIUI| %2$s</string>
     <string name="share_slide_video_text">Se hva jeg delte: %1$s</string>
-    <string name="share_video">Del video</string>
     <string name="sign_in">Logger inn</string>
     <string name="sign_in_by_others">Andre måter å logge inn på</string>
     <string name="sign_in_by_xiaommi">Logg inn med Mi-konto</string>
@@ -1877,8 +1854,6 @@ Forlat denne siden nå?"</string>
     <string name="traffic_fail_free_no_left">Du er tom for trafikk. Abonner for å fortsette.</string>
     <string name="traffic_fail_no_left">Du er tom for VPN-trafikk</string>
     <string name="traffic_fail_upload">Det oppstod en feil. Aktiver VPN på nytt.</string>
-    <string name="transfer_prompt_0">Spill av video</string>
-    <string name="transfer_restart">Start på nytt</string>
     <string name="translate">Oversett</string>
     <string name="translate_cur_page">Oversette denne siden?</string>
     <string name="translate_into">Oversett til</string>
@@ -1932,9 +1907,7 @@ Du kan når som helst slutte å delta i Innstillinger > Personvern og sikkerhet.
     <string name="user_guide_read_info_tips">For å inkludere apper i søkeresultater må Mi Browser få tilgang til listen over apper installert på enheten.</string>
     <string name="user_id_hint">E-post/Telefon/Mi-konto-ID</string>
     <string name="username">Navn</string>
-    <string name="v5_deselect_all">Fjern alle valg</string>
-    <string name="v5_edit_mode_title_empty">0 valgt</string>
-    <string name="v5_select_all">Velg alle</string>
+    <string name="v5_edit_mode_title_empty">Velg elementer</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="v_code_title">Tast inn bekreftelseskode</string>
@@ -1954,59 +1927,18 @@ Du kan når som helst slutte å delta i Innstillinger > Personvern og sikkerhet.
     <string name="version_dialog_buttion_update">Oppdater</string>
     <string name="version_update_file_download_toast">Laster ned</string>
     <string name="version_update_file_not_found">Finner ingen oppdateringer</string>
-    <string name="video_activity_name">Favoritter</string>
-    <string name="video_buffering_percent_string">Bufring</string>
-    <string name="video_collect_cancel">Fjern fra favoritter</string>
-    <string name="video_collect_success">Lagt til i favoritter</string>
     <string name="video_collection_click_view">Videoene du la til i favoritter er her</string>
     <string name="video_collection_empty">Ingen videoer her enda</string>
     <string name="video_collection_known">Skjønner</string>
     <string name="video_collection_view">Se</string>
-    <string name="video_download_complete">Nedlastingen var vellykket</string>
-    <string name="video_download_empty">Ingen videoer</string>
-    <string name="video_download_error">Feil</string>
-    <string name="video_download_error_http_gone">Kunne ikke finne filen</string>
-    <string name="video_download_exists">Nedlasting eksisterer allerede.</string>
-    <string name="video_download_fail">Kunne ikke laste ned</string>
-    <string name="video_download_failed">Kunne ikke laste ned</string>
-    <string name="video_download_finding_address">Får tak i nedlastingsadresse</string>
-    <string name="video_download_pause">Satt på vent</string>
-    <string name="video_download_start">Laster ned…</string>
-    <string name="video_download_success">Nedlastingen var vellykket</string>
-    <string name="video_download_unknown_name">Ukjent video</string>
-    <string name="video_download_unknown_size">Ukjent størrelse</string>
-    <string name="video_download_unsupport">Ikke støttet</string>
-    <string name="video_download_wait_for_wifi">Venter på Wi-Fi</string>
-    <string name="video_downloaded_group">Nedlastet</string>
+    <string name="video_download_complete">Lastet ned video</string>
     <string name="video_downloader_edit_hint">"Lim inn en link for å laste ned en video. For eksempel:
 https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="video_downloader_fail">Kunne ikke laste ned dette elementet</string>
     <string name="video_downloader_retry">Prøv igjen</string>
-    <string name="video_downloading_group">Laster ned</string>
-    <string name="video_edit">Rediger</string>
-    <string name="video_float_window_text">Pop-up-video</string>
-    <string name="video_fragment_name_collections">Favoritter</string>
-    <string name="video_fragment_name_download">Frakoblet video</string>
-    <string name="video_fragment_name_historys">Historikk</string>
-    <string name="video_fragment_name_offine">Frakoblet</string>
-    <string name="video_group_noupdates_list">Ingen oppdateringer tilgjengelig</string>
-    <string name="video_group_updates_list">Oppdateringer</string>
-    <string name="video_history_empty">Ingen historikk</string>
-    <string name="video_manager_action_bar_end_view">Videoer på nett</string>
     <string name="video_play_next">Neste</string>
-    <string name="video_project_button">Stopp</string>
-    <string name="video_project_msg">Videocasting til %s</string>
-    <string name="video_project_title">Videocasting</string>
-    <string name="video_push_multi_title">Oppdatering er tilgjengelig</string>
-    <string name="video_push_single_message">Trykk for å oppdatere til %1$d.</string>
     <string name="video_replay_btn">Spill av på nytt</string>
     <string name="video_retry_btn">Prøv igjen</string>
-    <string name="video_service_notification_title">Spiller av pop-up-video…</string>
-    <string name="video_subtitle_last_message1">Mindre enn 1 minutt gjenstår</string>
-    <string name="video_subtitle_prefix1">Sett</string>
-    <string name="video_subtitle_prefix2">"Sett "</string>
-    <string name="video_title_prefix_message">"Frakoblet: "</string>
-    <string name="video_unknown_duration">Ukjent varighet</string>
     <string name="view_certificate">Se sertifikat</string>
     <string name="view_document_downloaded_files">Se nedlastede filer i Nedlastinger</string>
     <string name="voice_check_network">Sjekk nettverksinnstillingene dine og prøv igjen.</string>
@@ -2053,7 +1985,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="welcome_to_mi_browser">Velkommen til Mi Browser!</string>
     <string name="what_is_new">Oppdater appen for å få tilgang til de nye funksjonene</string>
     <string name="whatsapp_downloadpage_tips">WhatsApp statussparer</string>
     <string name="whatsapp_file_saved_success">Lagret</string>

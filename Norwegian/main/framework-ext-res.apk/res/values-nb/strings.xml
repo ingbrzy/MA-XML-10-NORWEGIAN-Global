@@ -163,6 +163,7 @@
     <string name="open_close_tip_content">Trykk på handlingsfeltet, hold inne og sveip opp for å lukke det flytende vinduet</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
+    <string name="other_ime">Andre tastaturer</string>
     <string name="package_delete_confirm_step_1">Avinstallere %s?</string>
     <string name="package_delete_confirm_step_2">Hvis du avinstallerer denne appen, kan systemet bli ustabilt.</string>
     <string name="package_delete_confirm_step_3">Du vil ikke kunne åpne appen etter at du har avinstallert den.</string>

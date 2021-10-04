@@ -176,6 +176,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">Søk i %d apper</item>
         <item quantity="one">Søk i %d app</item>
     </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d personvern-relaterte risikoer</item>
+        <item quantity="one">%d personvern-relatert risiko</item>
+    </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer krever optimalisering</item>
         <item quantity="one">%1$d problem krever optimalisering</item>
@@ -231,6 +235,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Sjekket inn %d ganger på rad</item>
         <item quantity="one">Sjekket inn %d gang</item>
+    </plurals>
+    <plurals name="gb_toolbox_guide_known">
+        <item quantity="other">Skjønner (%d s)</item>
+        <item quantity="one">Skjønner (%d s)</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Prøv Stemmeskifter nå

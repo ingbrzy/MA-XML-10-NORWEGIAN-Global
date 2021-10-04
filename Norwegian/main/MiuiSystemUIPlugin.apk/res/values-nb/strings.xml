@@ -38,7 +38,7 @@
     <string name="afternoon">Ettermiddag</string>
     <string name="already_in_small_freeform">Noen apper åpnes i flytende vinduer</string>
     <string name="am">AM</string>
-    <string name="app_name">systemui-controls</string>
+    <string name="app_name">System UI Plug-in</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="controls_confirmation_message">Confirm change for %s</string>
     <string name="controls_dialog_confirmation">Controls updated</string>
@@ -90,6 +90,7 @@
     <string name="disabled">Utilgjengelig</string>
     <string name="dnd_popup_close_message">Skjønner</string>
     <string name="dnd_popup_message">Du kan skru på DND-modus for å dempe anrop og varsler uten å skru av medialyder.</string>
+    <string name="dolby_atoms_sound_effect_label">Dolby Atmos</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
@@ -135,9 +136,20 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="hearing_assist_bluetooth_enable_tips_cancle">Avbryt</string>
+    <string name="hearing_assist_bluetooth_enable_tips_start">Aktiver</string>
+    <string name="hearing_assist_bluetooth_enable_tips_summary">Live in-ear-monitor fungerer når Bluetooth er aktivert. Aktivere Bluetooth nå?</string>
+    <string name="hearing_assist_bluetooth_enable_tips_title">Aktiver Bluetooth</string>
+    <string name="hearing_assist_transmission_label">Live in-ear-monitor</string>
+    <string name="hearing_assist_transmission_tips_cancel">Avbryt</string>
+    <string name="hearing_assist_transmission_tips_continue">Aktiver</string>
+    <string name="hearing_assist_transmission_tips_summary">Live in-ear-monitor overfører lyden fra telefonens mikrofon til tilkoblede Bluetooth-øretelefoner. Aktivere nå?</string>
+    <string name="hearing_assist_transmission_tips_title">Live in-ear-monitor</string>
+    <string name="kddi_miui_toast_zen_standard_to_off">Stillemodus er deaktivert nå. Anrop og varsler blir ikke dempet.</string>
+    <string name="kddi_miui_toast_zen_to_standard">Byttet til stillemodus. Anrop og varsler blir dempet nå.</string>
     <string name="loading">Status ukjent</string>
     <string name="midnight">Natt</string>
-    <string name="miui_dnd_count_down">Ikke forstyrr-timer</string>
+    <string name="miui_dnd_count_down">Skyv for å angi tidtaker</string>
     <string name="miui_dnd_count_down_time">"Ikke forstyrr-timer
 %s"</string>
     <string name="miui_guide_dialog_button_negative_text">Innstillinger</string>
@@ -152,9 +164,11 @@
     <string name="miui_ringer_total">Ikke forstyrr</string>
     <string name="miui_ringer_total_description">Demp lyder og slå av vibrering for alle elementer, unntatt alarmklokke</string>
     <string name="miui_toast_zen_dnd_to_off">Anrop og varslinger vil ikke lenger bli dempet</string>
+    <string name="miui_toast_zen_dnd_to_off_T">Varsler er ikke lenger dempet</string>
     <string name="miui_toast_zen_standard_to_off">Stillemodus er av</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Stillemodus er deaktivert nå. Ringetoner, samt lyder for varsler og media, blir spilt av.</string>
     <string name="miui_toast_zen_to_dnd">Anrop og varslinger vil bli dempet</string>
+    <string name="miui_toast_zen_to_dnd_T">Varsler blir dempet</string>
     <string name="miui_toast_zen_to_dnd_when_lock">Anrop og varslinger vil bli dempet når enheten er låst</string>
     <string name="miui_toast_zen_to_standard">Stillemodus er på</string>
     <string name="miui_toast_zen_to_standard_when_shield_media">Byttet til Stillemodus. Ringetoner, samt lyder for varsler og media, er nå dempet.</string>
@@ -233,6 +247,7 @@
     <string name="quick_settings_pcmode_turn_off_description">Telefonens skjerm vises på den eksterne skjermen. Deaktivere PC-modus?</string>
     <string name="quick_settings_pcmode_turn_on_description">Datamaskinens skjerm vises på den eksterne skjermen. Aktivere PC-modus?</string>
     <string name="quick_settings_scanner_label">Skanner</string>
+    <string name="quick_settings_uwbsh_label">Xiaomi Magic Control</string>
     <string name="quick_settings_wireless_label">Omvendt trådløs lading</string>
     <string name="reboot_info_auto_boot">Kommende alarm: %s</string>
     <string name="reboot_info_shutdown_alarm">Alarm for avslått: %s</string>
@@ -318,6 +333,9 @@ Lang eksponering for høy lyd kan forårsake hørselsproblemer."</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="wireless_charging_connected_message">Kan ikke bruke omvendt trådløs lading når enheten lader trådløst.</string>
+    <string name="wireless_charging_fg_control_cancel">Avbryt</string>
+    <string name="wireless_charging_fg_control_messgae">Omvendt trådløs lading ble deaktivert fordi det er mindre enn %d %% batteri igjen. Du kan justere innstillingene for å tillate at omvendt trådløs lading fungerer lenger.</string>
+    <string name="wireless_charging_fg_control_ok">Juster</string>
     <string name="wireless_charging_low_battery_level_message">Kan ikke bruke trådløs lading når batteriet er mindre enn %d %% ladet opp.</string>
     <string name="wireless_charging_ok">Skjønner</string>
     <string name="wireless_charging_saver_cancel">Deaktiver</string>

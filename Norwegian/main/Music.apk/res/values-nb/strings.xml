@@ -51,7 +51,7 @@
     <string name="action_item_download">Last ned</string>
     <string name="action_item_favorite">Favoritt</string>
     <string name="action_item_hide">Gjem</string>
-    <string name="action_item_hifi">Høretelefoner &amp; lydeffekter</string>
+    <string name="action_item_hifi">Hodetelefoner</string>
     <string name="action_item_play_all">Stokk alle</string>
     <string name="action_item_play_next">Spill senere</string>
     <string name="action_item_play_video">Spill av musikkvideo</string>
@@ -62,7 +62,8 @@
     <string name="ad_close">Lukk</string>
     <string name="ad_data_exception">Legg til datafeil</string>
     <string name="ad_recommend">Vis annonser</string>
-    <string name="ad_setting">Additional settings</string>
+    <string name="ad_setting">Tilleggsinnstillinger</string>
+    <string name="add">Legg til</string>
     <string name="add_music">Legg til sanger</string>
     <string name="add_to_last_of_playlist">Legg til i slutten av spillelisten</string>
     <string name="add_to_playlist">Legg til i kø</string>
@@ -206,6 +207,7 @@
     <string name="dialog_cannot_resume">Nedlasting avbrutt. Den kan ikke restartes.</string>
     <string name="dialog_clear_history">Tøm listen over nylig avspilte sanger?</string>
     <string name="dialog_confirm_delete_checkbox_message">Slett lokale filer også</string>
+    <string name="dialog_continue">OK</string>
     <string name="dialog_failed_body">Prøve å laste ned senere, eller fjerne filen fra køen?</string>
     <string name="dialog_file_already_exists">Kan ikke laste ned. Filen eksisterer allerede.</string>
     <string name="dialog_file_missing_body">Fant ikke den nedlastede filen.</string>
@@ -241,6 +243,7 @@
     <string name="dialog_song_view_type_artist">Etter artist</string>
     <string name="dialog_song_view_type_folder">Etter mappe</string>
     <string name="dialog_song_view_type_song">Etter sang</string>
+    <string name="dialog_stop_audio_in">Avspillings-timer</string>
     <string name="dialog_subtitle_make_playlist_public">Offentlige spillelister er tilgjengelig for andre personer. Private spillelister er bare synlige for deg på alle synkroniserte enheter.</string>
     <string name="dialog_title_clearlist_tracks">Fjern fra kø</string>
     <string name="dialog_title_delete_tracks">Slett</string>
@@ -287,7 +290,9 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_queued">I kø</string>
@@ -375,7 +380,9 @@
     <string name="exo_media_action_repeat_all_description">Gjenta alle</string>
     <string name="exo_media_action_repeat_off_description">Ikke gjenta noen</string>
     <string name="exo_media_action_repeat_one_description">Gjenta én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -606,6 +613,7 @@
     <string name="mulit_choice_management">Administrer flere elementer</string>
     <string name="music_browser_label">Musikk</string>
     <string name="music_filter">Filtrer lydfiler</string>
+    <string name="music_quality">Lydkvalitet</string>
     <string name="music_recommendation">Anbefalte sanger</string>
     <string name="music_service">Musikktjeneste</string>
     <string name="music_settings">Musikk</string>
@@ -638,6 +646,7 @@
     <string name="no_local_songs_selected">Kan ikke sende sanger, siden de ikke er lastet ned</string>
     <string name="no_local_source_find">Fant ikke sang</string>
     <string name="no_longer_prompt">Ikke vis igjen</string>
+    <string name="no_lyrics">Ingen sangtekster</string>
     <string name="no_results_return">Ingen søkeresultater</string>
     <string name="no_scanned_songs">Tøm</string>
     <string name="no_song_downloaded">Fant ikke noen sanger å laste ned</string>
@@ -757,12 +766,14 @@
     <string name="privacy_authorize_revoking">Tilbakekaller autorisasjonen…</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musikk må samle inn nødvendige personopplysninger for å levere strømmetjenester på nett til deg. Du kan finne ut mer om hvordan vi håndterer informasjonen vi samler inn i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Mi Musikk under Innstillinger.
 Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du bruker Mi Musikk.
 Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Velkommen til Mi Music! Denne appen gir deg følgende tjenester:
 – En lokal lydavspiller
 – Strømmetjenester på nett"</string>
+    <string name="privacy_request_subtitle_offline">Velkommen til Mi Musikk! Denne appen tilbyr en lokal avspiller for lydfiler.</string>
     <string name="privacy_request_title">Vilkår og betingelser</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi-telefon</string>
@@ -901,6 +912,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Spill</string>
     <string name="start_update">Installerer ny versjon…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -958,6 +970,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="toast_download_in_process">Nedlasting i gang</string>
     <string name="toast_favorite_has_been_added">Lagt til i spilleliste</string>
     <string name="toast_follow_success">Fulgt</string>
+    <string name="toast_hungama_vip_song">Denne sangen er bare tilgjengelig for PRO/medlemmer. Bli abonnent for å laste ned denne sangen.</string>
     <string name="toast_is_pro">Du er allerede et PRO-medlem.</string>
     <string name="toast_my_playlist_illegal_name">Tittelen på denne spillelisten er ikke gyldig. Lag et nytt navn på denne spillelisten.</string>
     <string name="toast_my_playlist_set_to_private">Spillelisten er nå privat. Andre personer kan ikke se den.</string>
@@ -998,6 +1011,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="upload_playlist_to_hungama_title">Synkroniser sanger på nett med Hungama for å kunne få tilgang til dem på andre enheter du bruker Mi-kontoen på.</string>
     <string name="upload_playlist_to_hungama_toast">Sanger på nett synkroniseres med Hungama</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="user_playlist_plaza">Spillelister</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
     <string name="user_privacy_dialog_positive_count_down_text">Trekk tilbake (%ss)</string>

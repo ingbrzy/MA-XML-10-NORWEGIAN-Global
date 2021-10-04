@@ -36,9 +36,11 @@
     <string name="app_ver_name">1.0</string>
     <string name="casting_tips">Strømmer…</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
+    <string name="close">Lukk</string>
     <string name="close_hotspot_hint">Deaktiver flyttbar hotspot før casting</string>
     <string name="close_slave_wifi_hint">Koble fra sekundære Wi-Fi-nettverk før casting</string>
     <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="console_guide_btn_got_it">Skjønner</string>
     <string name="console_guide_subtitle_hang_up">Du kan fortsette å strømme når skjermen på enheten din er skrudd av. Denne funksjonen reduserer strømforbruket.</string>
     <string name="console_guide_subtitle_private">Ikke vis flytende varsler, innkommende anrop og andre private elementer på eksterne skjermer</string>
@@ -48,6 +50,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
+    <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="device_desc_trust">Klarerte enheter</string>
     <string name="dialog_can_not_find_device">Kunne ikke finne enheter i nærheten</string>
     <string name="dialog_cancle">Avbryt</string>
@@ -57,6 +60,8 @@
     <string name="dialog_connect_verify_perssion_fail">Kunne ikke godkjenne strømming på TV-en. Vent et minutt eller to og prøv igjen.</string>
     <string name="dialog_connected">Tilkoblet</string>
     <string name="dialog_connecting">Kobler til…</string>
+    <string name="dialog_location_permission_message">Denne appen må få tilgang til plasseringen din for å kunne finne eksterne skjermer i nærheten. Velg «Alltid tillat» når du gir denne tillatelsen for å unngå mulige feil.</string>
+    <string name="dialog_location_permission_title">Tillatelser er nødvendig</string>
     <string name="dialog_miplay_permission_message">Gi Casting tillatelse til å ta opp lyd, få tilgang til filer på intern lagring og få tilgang til plasseringen din, for å kunne bruke denne funksjonen som normalt. Trykk på «Innstillinger» og velg «Apptillatelser» for å fortsette.</string>
     <string name="dialog_miplay_permission_positive">Innstillinger</string>
     <string name="dialog_miplay_permission_title">Tillatelser er nødvendig</string>
@@ -78,6 +83,8 @@ Se hjelp hvis du har problemer med å koble til."</string>
 2. On some TV models, this feature is only available when screen mirroring is on. View \"Help\" to learn more."</string>
     <string name="dialog_scanning_device">Søker etter enheter i nærheten…</string>
     <string name="dialog_scanning_precondition">Aktiver Wi-Fi og Bluetooth på telefonen for å bruke trådløs skjerm.</string>
+    <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
+    <string name="dialog_scanning_precondition_new_global">Aktiver Wi-Fi, Bluetooth og andre stedstjenester for å kunne bruke casting. Aktivere nå?</string>
     <string name="dialog_select_tv">Velg enhet (%d)</string>
     <string name="dialog_show_help">Hjelp</string>
     <string name="disconnect">Stopp strømming</string>
@@ -127,6 +134,14 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="global_privacy">Vilkår og betingelser</string>
+    <string name="global_privacy_detail">&lt;Data>Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår før du bruker denne appen.&lt;br> Hvis du ikke samtykker i å bruke de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data></string>
+    <string name="global_privacy_explain">Velkommen til Casting! Denne appen tilbyr følgende tjenester:</string>
+    <string name="global_privacy_feature">Bruk av minimerte vinduer, casting med skjermen av og skjuling av private elementer.</string>
+    <string name="global_privacy_main">Projisering av elementer fra telefonens skjerm til en større ekstern skjerm.</string>
+    <string name="global_privacy_negative">Ikke godta</string>
+    <string name="global_privacy_positive">Godta</string>
+    <string name="global_privacy_tip">&lt;Data>Vi må innhente nødvendig personlig informasjon for å tilby deg grunnleggende tjenester og optimere castingprosessen. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i &lt;a href=%1$s>personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen, under Innstillinger.&lt;/Data></string>
     <string name="hang_up">Strøm med skjermen av</string>
     <string name="hang_up_alert_dialog_content">Fortsett å strømme når enhetens skjerm er avslått. Denne funksjonen reduserer strømforbruket. Trykk på Av/på-knappen for å slå skjermen på igjen.</string>
     <string name="hang_up_alert_dialog_neg">Avbryt</string>
@@ -208,9 +223,28 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="help_page_text_end">Hvis merket på enheten din ikke er oppført her, kan du kontakte produsenten for å finne ut mer om strømmefunksjonalitet.</string>
     <string name="keyguard_security_setting_privacy_policy">Personvernerklæring</string>
     <string name="midnight">Natt</string>
-    <string name="miuix_appcompat_cloud_state_disabled">Synkronisering med skyen er deaktivert</string>
-    <string name="miuix_appcompat_cloud_state_finished">Synkronisert med skyen</string>
-    <string name="miuix_appcompat_cloud_state_syncing">Synkroniserer med skyen…</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
+    <string name="miuix_appcompat_cancel_description">Avbryt</string>
+    <string name="miuix_appcompat_confirm_description">Bekreft</string>
+    <string name="miuix_appcompat_delete_description">Slett</string>
+    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
+    <string name="miuix_appcompat_search_input_description">Søk</string>
+    <string name="miuix_appcompat_select_all">Velg alle</string>
+    <string name="miuix_appcompat_select_all_description">Velg alle</string>
+    <string name="miuix_appcompat_select_item">Velg elementer</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slipp for å oppdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det var alt for nå</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Et øyeblikk…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke laste inn elementer</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
@@ -331,6 +365,7 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="screen_projection_sample_title">Demoer</string>
     <string name="screen_projection_title">Strøm</string>
     <string name="search_menu_title">Søk</string>
+    <string name="send">Send</string>
     <string name="small_window">Minimer vindu</string>
     <string name="small_window_not_supported">Kan ikke minimere denne appen mens den castes</string>
     <string name="status_bar_in_casting">Strømmer…</string>
