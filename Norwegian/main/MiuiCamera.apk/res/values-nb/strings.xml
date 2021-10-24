@@ -628,7 +628,6 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="edit_smile">Smil</string>
     <string name="edit_solid">Kontur</string>
     <string name="emoticon">Klistremerkepakke</string>
-    <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="error_fail_to_start_audio_capture">Kunne ikke starte lydopptak</string>
@@ -1217,7 +1216,6 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifisering</string>
     <string name="pref_camera_auxiliary_focus_peak">Markering av overeksponert område</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
