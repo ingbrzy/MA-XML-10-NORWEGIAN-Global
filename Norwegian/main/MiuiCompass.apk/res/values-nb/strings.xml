@@ -30,6 +30,7 @@
     <string name="actionbar_button_up_description">Tilbake</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="allow">Tillat</string>
+    <string name="allowed">Gitt</string>
     <string name="altitude">%.1f</string>
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="altitude_title">Høyde</string>
@@ -142,6 +143,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="get_location">Tilgang til plassering</string>
     <string name="gradienter_title">Vater</string>
     <string name="guide_toast">Beveg enheten din som vist under for å kalibrere.</string>
     <string name="latitude">BRE</string>
@@ -157,6 +159,7 @@
     <string name="location_west">VL</string>
     <string name="longitude">LEN</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
@@ -222,17 +225,25 @@
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgen</string>
+    <string name="new_cta_v2_app_purpose">Viser retninger, koordinater, lufttrykk og nåværende høyde</string>
+    <string name="new_permission_camera_desc">For kalibrering</string>
+    <string name="new_permission_location_desc">For visning av koordinater</string>
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
+    <string name="not_allowed">Ikke gitt</string>
     <string name="not_set">Ikke angitt</string>
+    <string name="open_camera">Bruk kamera</string>
     <string name="open_perm_msg">Kompass trenger tilgang til posisjonsinformasjon og kameraet. Dette er nødvendig å angi koordinater og gi direkte forhåndsvisninger. Tillate?</string>
     <string name="open_perm_msg_no_camera">Kompass må få tilgang til plasseringsinformasjon for å kunne fastslå koordinater. Tillate?</string>
     <string name="open_perm_title">Tillatelser er nødvendig</string>
     <string name="permission_camera_desc">For visning av azimuth i live forhåndsvisning</string>
+    <string name="permission_description">Detaljer for tillatelser</string>
     <string name="permission_location_desc">For visning av koordinater</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preference_other">Annet</string>
+    <string name="preference_privacy_policy">Vis personvernerklæring</string>
+    <string name="preference_privacy_setting">Personvern</string>
     <string name="preference_privacy_title">Personvernerklæring</string>
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Trykk</string>

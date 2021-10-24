@@ -21,16 +21,16 @@
         <item>Lås enheten din eksternt hvis den blir borte</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synkroniser kontakter, meldinger, notater, kalender og mer</item>
+        <item>Sikkerhetskopier apper, oppsett til Hjem-skjerm og bakgrunner</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Lås enheten din eksternt hvis den blir borte</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china_v2">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synkroniser kontakter, meldinger, notater, kalender og mer</item>
+        <item>Sikkerhetskopier apper, oppsett til Hjem-skjerm og bakgrunner</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Lås enheten din eksternt hvis den blir borte</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_pad">
         <item>Synkroniser bilder, notater, opptak og mer</item>
@@ -49,7 +49,7 @@
         <item>Finn enhet</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray_pad">
-        <item>Synkroniser app-data</item>
+        <item>Synkroniser appdata</item>
         <item>Finn enhet</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">

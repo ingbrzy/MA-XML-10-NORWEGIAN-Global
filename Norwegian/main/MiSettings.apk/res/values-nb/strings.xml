@@ -141,6 +141,8 @@
     <string name="created_successfully">Opprettet</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Angi</string>
+    <string name="customize_radio_btn_summary">Foretrekk valgte oppdateringsfrekvens</string>
+    <string name="customize_radio_btn_title">Tilpasset</string>
     <string name="dall_sheep">Dall sheep</string>
     <string name="dart_frog_info">Its bright blue skin and poisonous glands are defense mechanisms to potential predators.</string>
     <string name="date_picker_label_day" />
@@ -150,9 +152,17 @@
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="dc_light_hint_enable_title">Obs</string>
     <string name="dc_light_hint_normal">DC dimming kan påvirke hvordan noen av elementene vises.</string>
+    <string name="dc_light_hint_normal_anit">Antiflimmer-modus kan påvirke hvordan noen av elementene vises.</string>
+    <string name="dc_light_hint_normal_other">Antiflimmer-modus kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
     <string name="dc_light_hint_other">DC dimming kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
+    <string name="dc_light_hint_unnormal_low">Dårlig lys og antiflimmer-modus kan påvirke hvordan noen av elementene vises.</string>
+    <string name="dc_light_hint_unnormal_other">Dårlig lys og antiflimmer-modus kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
     <string name="dc_lignt_enable_hint">Antiflimmermodus setter skjermens oppdateringsfrekvens til 60 Hz. Bytt til antiflimmermodus?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
+    <string name="desktop_widget_authorization">Trykk for å gi tillatelser for å kunne se statistikk</string>
+    <string name="desktop_widget_not_support">"Statistikk for skjermtid
+genereres ikke i Andre område"</string>
+    <string name="desktop_widget_screen_use_time">Skjermtid</string>
     <string name="display_description">Større ikoner, større tekst, færre visuelle forstyrrelser</string>
     <string name="display_title">Større elementer</string>
     <string name="dynamic_ringtone_desc">"We've explored different ecosystems and recreated their distinct sounds. Start exploring the sounds of nature with us!"</string>
@@ -284,13 +294,19 @@
     <string name="focus_mode_timer_pick_dialog_title">Angi varighet</string>
     <string name="focus_time_exception_tip">Det ser ut til at systemtiden har endret seg. Deaktiverte fokusmodus.</string>
     <string name="follow_sim1">Bruk SIM 1-innstillinger</string>
+    <string name="fps_high">Høy</string>
     <string name="fps_nature_summary">Maksimal oppdateringsfrekvens holder alt skarpt og tydelig</string>
     <string name="fps_nature_title">Maksimal</string>
+    <string name="fps_normal">Standard</string>
+    <string name="fps_radio_btn_title">Oppdateringsfrekvens</string>
+    <string name="fps_save_battery_tips">Batterisparer er på. Oppdateringsfrekvens er satt til %d Hz.</string>
     <string name="fps_smooth_summary">Høy oppdateringsfrekvens gjør detaljer klarere</string>
     <string name="fps_smooth_title">Høy</string>
     <string name="fps_standard_summary">Standard oppdateringsfrekvens sparer batteri</string>
     <string name="fps_standard_title">Standard</string>
     <string name="fps_user_tip">- Disse demoanimasjonene spilles av i lav hastighet for referanse. Faktisk ytelse kan se annerledes ut basert på varierende faktorer.</string>
+    <string name="fps_user_tip_footer">"%1$d. For at du skal forstå forskjellen mellom høyere og lavere oppdateringshastigheter, spilles demoer saktere her. Det kan være vanskeligere for deg å merke forskjellen ved vanlig bruk.
+%2$d. I noen tilfeller kan oppdateringshastigheten justeres dynamisk basert på hvilke elementer som vises."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -316,11 +332,14 @@
     <string name="healthy_use_phone">Administrer skjermtid</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Høy oppdateringsfrekvens for skjerm. Høyere strømforbruk.</string>
+    <string name="high_fps_tip_footer">Ved å bruke høyere oppdateringshastigheter blir visningsopplevelsen jevnere, men bruker mer strøm.</string>
     <string name="hippopotamus">Hippo</string>
     <string name="hsv_space_color">HSV-fargeområde</string>
     <string name="hsv_space_color_hue">Fargetone</string>
     <string name="hsv_space_color_saturation">Metning</string>
     <string name="hsv_space_color_value">Verdi</string>
+    <string name="intelligent_radio_btn_summary">Juster oppdateringsfrekvensen dynamisk basert på scenarier for å balansere ytelse med strømforbruk</string>
+    <string name="intelligent_radio_btn_title">Auto (anbefalt)</string>
     <string name="intelligent_recognition_item_summary">Bruk en bestemt ringetone for anrop fra leverings- og taxitjenester. Denne funksjonen fungerer når %s er angitt som standard ringetone.</string>
     <string name="intelligent_recognition_item_title">Identifiser tjenester</string>
     <string name="item_anura">Anura</string>
@@ -361,6 +380,8 @@
     <string name="lion_info">Lions are fierce and powerful predators. They live in groups and have a strong sense of territory.</string>
     <string name="lock_summary">Beskytt personopplysningene dine</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
+    <string name="low_flicker_mode">Dårlig lys</string>
+    <string name="low_flicker_mode_summary">Forhindre flimmer under dårlige lysforhold for å redusere belastningen på øynene</string>
     <string name="low_fps_description">Lav oppdateringsfrekvens for skjerm. Lavere strømforbruk.</string>
     <string name="low_light_preview">Forhåndsvisning i lite lys</string>
     <string name="lynx">Lynx</string>
@@ -370,6 +391,7 @@
     <string name="masked_palm_civet">Masked palm civet</string>
     <string name="medium_tree_finch">Medium tree finch</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
@@ -462,6 +484,7 @@
     <string name="noon">Midt på dagen</string>
     <string name="normal_mode">Vanlig</string>
     <string name="normal_mode_summary">Ikke reduser flimmer i lite lys</string>
+    <string name="normal_mode_summary_new">Tillat flimring under dårlige lysforhold</string>
     <string name="north_white_rhinoceros">White rhinoceros</string>
     <string name="norway_lemmings">Norway lemmings</string>
     <string name="norway_lemmings_info">The Norway lemming dwells in tundra and fells, and prefers to live near water.</string>
@@ -477,7 +500,7 @@
     <string name="p3_color_region_summary">Vis alt skjerminnhold i P3-fargeskala</string>
     <string name="pallas_s_cat">"Pallas's cat"</string>
     <string name="parasitic_jaeger">Parasitic jaeger</string>
-    <string name="personality_hint_ringtone">Personalized sounds</string>
+    <string name="personality_hint_ringtone">Tilpassede lyder</string>
     <string name="petaurus_breviceps">Sugar glider</string>
     <string name="phoebastria_irrorata">Waved albatross</string>
     <string name="pied_butcherbird">Pied butcherbird</string>
@@ -541,7 +564,7 @@
     <string name="several_days_use_time">Skjermtid: %2$s</string>
     <string name="short_eared_owl">Short-eared owl</string>
     <string name="shortcut_created">Snarveien finnes allerede</string>
-    <string name="silent_ringtone_hint">Lyden er dempet nå. Øk volumet og prøv igjen.</string>
+    <string name="silent_ringtone_hint">Slå av stillemodus først</string>
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
@@ -553,6 +576,8 @@
     <string name="snowy_owl">Snowy owl</string>
     <string name="southern_elephant_seal">Southern elephant seal</string>
     <string name="southern_ground_hornbill">Ground hornbill</string>
+    <string name="split_page_authorization">Velkommen til Skjermtid! Her kan du angi grenser for skjermtid og se statistikk. Trykk på «Start» for å aktivere denne funksjonen.</string>
+    <string name="split_page_start">Start</string>
     <string name="spotted_hyaena">Spotted hyena</string>
     <string name="spotted_hyaena_info">Hyenas are nocturnal predators with the most complex social behaviours.</string>
     <string name="spur_winged_plover">Spur-winged lapwing</string>
@@ -653,6 +678,7 @@
     <string name="unlock_times_per_day">"Daglig gjennomsnitt: "</string>
     <string name="unlock_times_per_hour">"Opplåsinger per time: "</string>
     <string name="usage_agree">Godta</string>
+    <string name="usage_app_desktop_widget_limit">%s gjenstår</string>
     <string name="usage_app_get_it">Skjønner</string>
     <string name="usage_app_holiday_limit">Fridager</string>
     <string name="usage_app_limit_alter_summary">Det ser ut til at tidsgrensen er kortere enn tiden du har brukt denne appen i dag. Sette grense likevel?</string>
@@ -806,7 +832,7 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_state_focus_level1">Kommende stjerne</string>
     <string name="usage_state_focus_level_summary">Gjeldende nivå: %s</string>
     <string name="usage_state_focus_mode_experience_warning_message">Fokusmodus gjør at du bare kan bruke kamera og utføre nødanrop. Du kan ikke deaktivere fokusmodus for tidlig.</string>
-    <string name="usage_state_focus_mode_experience_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_experience_warning_message_pad">Fokusmodus gjør at du bare kan bruke kamera og utføre nødanrop. Du kan ikke deaktivere fokusmodus for tidlig.</string>
     <string name="usage_state_focus_mode_experience_warning_message_sim_pad">Fokusmodus gjør at du bare kan bruke kamera og utføre nødanrop. Du kan ikke deaktivere fokusmodus for tidlig.</string>
     <string name="usage_state_focus_mode_summary">Begrens alle funksjoner unntatt nødsamtaler og kamera</string>
     <string name="usage_state_focus_mode_summary1">Vel begynt er halvt fullendt</string>
@@ -814,14 +840,14 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_state_focus_mode_summary3">Det krever en innsats å holde seg fokusert</string>
     <string name="usage_state_focus_mode_title">Fokusmodus</string>
     <string name="usage_state_focus_mode_warning_message">Fokusmodus gjør at du bare kan bruke kamera og utføre nødanrop. Du kan ikke deaktivere fokusmodus for tidlig.</string>
-    <string name="usage_state_focus_mode_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_warning_message_pad">Fokusmodus tillater bare bruk av kamera. Du kan ikke deaktivere fokusmodus for tidlig.</string>
     <string name="usage_state_focus_mode_warning_message_sim_pad">Fokusmodus gjør at du bare kan bruke kamera og utføre nødanrop. Du kan ikke deaktivere fokusmodus for tidlig.</string>
     <string name="usage_state_focus_mode_warning_title">Merk</string>
     <string name="usage_state_focus_success">Utfordring fullført</string>
     <string name="usage_state_focus_take_photo">Kamera</string>
     <string name="usage_state_focus_warning_text">Fokuser på noe viktig</string>
     <string name="usage_state_focus_weak_summary">Legg bort telefonen</string>
-    <string name="usage_state_focus_weak_summary_pad">Put your device away</string>
+    <string name="usage_state_focus_weak_summary_pad">Legg bort enheten</string>
     <string name="usage_state_friday">Fre</string>
     <string name="usage_state_go_more">Flere apper</string>
     <string name="usage_state_holiday_day_hour_minute">Fridager: %1$s %2$s</string>

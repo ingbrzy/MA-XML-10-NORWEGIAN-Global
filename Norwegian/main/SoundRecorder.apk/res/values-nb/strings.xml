@@ -28,6 +28,8 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="actionbar_button_up_description">Tilbake</string>
+    <string name="add_remark_hint">Skriv merknaden din her</string>
+    <string name="add_remark_tip">Trykk for å tilføye en merknad</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="agree_description">Gi denne appen tillatelse til å koble til Internett for å kunne bruke alle funksjonene.</string>
     <string name="alert_message_clear_records">Slette valgte opptak?</string>
@@ -88,6 +90,7 @@
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="empty_recognition_tip">Tøm</string>
+    <string name="empty_tips">Trykk på knappen for å starte opptak</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="err_msg_abandon">Ordren ble forlatt</string>
@@ -113,6 +116,7 @@
     <string name="error_filename_illegal_char">Filnavnet inneholder ugyldige tegn.</string>
     <string name="error_filename_too_long">Filnavnet er for langt</string>
     <string name="error_icon_content_description">Feil</string>
+    <string name="error_remark_too_long">Merknaden må være kortere</string>
     <string name="error_sdcard_access">Får ikke tilgang til SD-kort</string>
     <string name="error_sdcard_unmounted">Sett inn SD-kort nå</string>
     <string name="evening">Ettermiddag</string>
@@ -289,6 +293,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -326,6 +331,7 @@
     <string name="no_file">Tøm</string>
     <string name="no_network">Kunne ikke koble til nettverket</string>
     <string name="no_playback_file">Velg et opptak for å se detaljer</string>
+    <string name="no_records">Fortsatt ingen opptak her</string>
     <string name="noon">Midt på dagen</string>
     <string name="normal_settings_pref_title">Generelle innstillinger</string>
     <string name="not_set">Ikke angitt</string>
@@ -446,6 +452,9 @@
     <string name="record_downloading_notification_complete">Nedlasting ferdig</string>
     <string name="record_downloading_notification_count">%d nedlastet</string>
     <string name="record_format_preference_title">Opptaksformat</string>
+    <string name="record_item_title_multi_choice">Velg</string>
+    <string name="record_item_title_remark">Legg til merknad</string>
+    <string name="record_item_title_send">Del</string>
     <string name="record_list">Opptak</string>
     <string name="record_list_app">App-opptak</string>
     <string name="record_list_call">Innspilte samtaler</string>
@@ -532,6 +541,10 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="tab_all">Alle</string>
+    <string name="tab_apps">Apper</string>
+    <string name="tab_call">Anrop</string>
+    <string name="tab_fm">FM</string>
     <string name="tap_to_record">Trykk på knappen for å starte opptak</string>
     <string name="text_btn_backward_3_seconds">3 sekunder bakover</string>
     <string name="text_btn_complete">Stopp</string>

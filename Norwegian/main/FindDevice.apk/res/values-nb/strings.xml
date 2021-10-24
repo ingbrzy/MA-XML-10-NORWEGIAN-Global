@@ -36,6 +36,7 @@
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Kunne ikke låse opp. %s.</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
+    <string name="close">Lukk</string>
     <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -45,22 +46,26 @@
     <string name="default_debt_msg_words">"Denne enheten er låst på grunn av en installerings-betaling som er forfalt.
 Kontakt din salgsagent for detaljer."</string>
     <string name="default_lock_msg_words">Denne enheten er tilknyttet en eksisterende Mi Account. For sikkerhetsgrunner, du må skrive inn passordet for å verifisere denne enheten.</string>
-    <string name="default_lock_msg_words_with_phone">Hei! Jeg mistet telefonen min. Kan du vennligst ta kontakt med meg? Takk!</string>
+    <string name="default_lock_msg_words_with_phone">Hei! Jeg mistet denne enheten. Kan du ta kontakt med meg? Takk!</string>
     <string name="device_locked">Denne enheten er låst</string>
     <string name="device_lost">Denne enheten er mistet</string>
-    <string name="disable_find_device_error">"Kan ikke skru av 'Finn enhet'. %1$s"</string>
+    <string name="disable_find_device_error">Kunne ikke deaktivere Finn enhet. %1$s</string>
     <string name="disable_find_device_success">Finn enhet er slått av</string>
     <string name="doing_extra_login_steps">Verifiserer innlogging…</string>
     <string name="early_morning">Morgen</string>
     <string name="emergency_call">Nødanrop</string>
     <string name="empty" />
-    <string name="enable_find_device_error">"Kan ikke skru på 'Finn enhet'. %1$s"</string>
-    <string name="enable_find_device_success">Finn enhet på</string>
+    <string name="enable_find_device_error">Kunne ikke aktivere Finn enhet. %1$s</string>
+    <string name="enable_find_device_success">Finn enheten er slått på</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
     <string name="expand_button_title">Avansert</string>
     <string name="find_device">Finn enhet</string>
+    <string name="find_device_capture_done_notification_content">View the photo on i.mi.com</string>
+    <string name="find_device_capture_done_notification_title">Find device took a photo remotely</string>
+    <string name="find_device_capture_notification_content">A request to take a photo remotely with this device was submitted by your account</string>
+    <string name="find_device_capture_notification_title">Find device is about to take a photo</string>
     <string name="find_device_crash">"'Finn enhet' avsluttet uforventet."</string>
     <string name="find_device_error_access_denied">Tilgang avslått.</string>
     <string name="find_device_error_account_sys_timeout">"Kunne ikke koble til Mi Account. "</string>
@@ -71,14 +76,16 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="find_device_error_server">Serverfeil (%s).</string>
     <string name="find_device_error_unknown">Ukjent feil (%s).</string>
     <string name="find_device_noise_title">Finn enhetens alarm</string>
-    <string name="find_device_notice">Gå til &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> for å finne, låse eller gjenopprette enheten din.</string>
+    <string name="find_device_notice">Gå til &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> for å lokalisere og låse enheten, markere den som mistet, slette data eller ta bilder eksternt.</string>
     <string name="find_device_notice_sms_alert_with_common_charge_hint">For å oppdatere SIM-statusen og sørge for at alle tjenestene fungerer som normalt blir det sendt én &lt;font color=#0097FF>&lt;b>betalt tekstmelding&lt;/b>&lt;/font> etter at du bytter SIM-kort. Du blir belastet for denne meldingen av operatøren din.</string>
     <string name="find_device_notice_sms_alert_with_domestic_charge_hint">For å oppdatere SIM-statusen og sørge for at alle tjenestene fungerer som normalt blir det sendt én &lt;font color=#0097FF>&lt;b>innenlandsk betalt tekstmelding&lt;/b>&lt;/font> etter at du bytter SIM-kort. Du blir belastet for denne meldingen av operatøren din.</string>
     <string name="find_device_notice_sms_alert_with_internal_charge_hint">For å oppdatere SIM-statusen og sørge for at alle tjenestene fungerer som normalt blir det sendt én &lt;font color=#0097FF>&lt;b>internasjonal betalt tekstmelding&lt;/b>&lt;/font> etter at du bytter SIM-kort. Du blir belastet for denne meldingen av operatøren din.</string>
     <string name="find_device_stop_noise">Trykk OK for å sette på lydløst</string>
     <string name="find_device_storage_corrupted">"'Finn enhet' lagring er skadet. Din enhet er utrygg nå."</string>
-    <string name="find_device_success_title">Finn enhet</string>
+    <string name="find_device_success_title">Finn enheten er slått på</string>
     <string name="find_device_telephony_fault">Finn enhet: Telefonfeil (%s).</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">dd. MMMM</string>
@@ -94,7 +101,11 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="fmt_date_short_month_day">dd.MM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
@@ -113,8 +124,18 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -208,6 +229,7 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
     <string name="search_menu_title">Søk</string>
+    <string name="send">Send</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha kan ikke stå tomt</string>
     <string name="stop_on_empty_password">Passord kan ikke stå tomt</string>
@@ -282,7 +304,7 @@ Kontakt din salgsagent for detaljer."</string>
     <string name="unlock_error_passport_sdk_timeout">Mi Account SDK svarer ikke</string>
     <string name="unlock_error_rpc">RPC-feil</string>
     <string name="unlock_error_server">Serverfeil</string>
-    <string name="unlock_error_ssl_hand_shake">Kan ikke koble til server, prøv å sette dato og tid manuelt.</string>
+    <string name="unlock_error_ssl_hand_shake">Kunne ikke koble til serveren. Prøv å angi dato og tid manuelt.</string>
     <string name="unlock_error_unknown">Kan ikke logge inn</string>
     <string name="unlock_error_user_name">Ugyldig brukernavn</string>
     <string name="unlock_error_wrong_vcode">Koden du har skrevet inn er feil</string>

@@ -437,6 +437,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -483,6 +484,7 @@
     <string name="note_gesture_guide_step3">Trykk på og hold inne et notat og dra det over en mappe for å flytte notatet dit</string>
     <string name="note_header_first_enter_guide">Dra ned for å se mer</string>
     <string name="note_invalid_mindnote_hint">Tankekart er ikke tilgjengelige i denne versjonen. Oppdater appen for å bruke denne funksjonen.</string>
+    <string name="note_item_default_title">Tomt notat</string>
     <string name="note_link_email">Skriv e-post</string>
     <string name="note_link_other">Åpne ved hjelp av kart-app</string>
     <string name="note_link_select">Velg tekst</string>
@@ -496,6 +498,7 @@
     <string name="note_sort_way">Sorter</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Notater er en systemapp. Du kan ikke bruke denne appen etter at du har avinstallert den.</string>
     <string name="notes_description_title">Avinstallere Notater?</string>
     <string name="notification_content_add_todo_from_other_app">Du la til en ny oppgave. Trykk for å se.</string>
@@ -554,6 +557,12 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Sveip opp med to fingre for å slette notater uten bekreftelse</string>
     <string name="pref_desc_todo_float_mode">Sveip fra kanten av skjermen for å åpne verktøykassen for oppgaver</string>
     <string name="pref_excerpt_link_float">Motta en påminnelse om å opprette et utdrag når en URL-adresse er kopiert</string>
+    <string name="pref_permission_allowed">Gitt</string>
+    <string name="pref_permission_manage">Detaljer for tillatelser</string>
+    <string name="pref_permission_manage_key_contact">Tilgang til kontakter</string>
+    <string name="pref_permission_manage_key_recording">Ta opp lyd</string>
+    <string name="pref_permission_manage_key_storage">Tilgang til lagring</string>
+    <string name="pref_permission_not_allowed">Ikke gitt</string>
     <string name="pref_quick_note_desc">Bruk snarveien i kanten av skjermen til å opprette notater og oppgaver, samt til å lagre kopierte URL-adresser, tekst og bilder i Notater.</string>
     <string name="pref_remind_type_summary">Spill av lyd for påminnelse i stillemodus</string>
     <string name="pref_remind_type_summary_new">Ignorer stillemodus og fortsett å spille av lyd helt til alarmen er slått av</string>
@@ -870,6 +879,9 @@ Tillat Notater å spille inn lyd."</string>
     <string name="widget_size_item_2x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x4">%1$d×%2$d</string>
+    <string name="widget_size_item_big">Stor</string>
+    <string name="widget_size_item_medium">Middels</string>
+    <string name="widget_size_item_small">Liten</string>
     <string name="widget_take_notes_title">Notater</string>
     <string name="yesterday">I går</string>
 </resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="toast_channel_searched">
-        <item quantity="other">%1$d stasjoner skannet</item>
-        <item quantity="one">%1$d stasjon skannet</item>
-    </plurals>
-</resources>
