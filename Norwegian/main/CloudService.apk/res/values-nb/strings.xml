@@ -138,6 +138,8 @@
     <string name="feedback_custom_hint">Beskriv problemene du har opplevd her. Hvis du gir forslag, ville vi satt pris på flere detaljer!</string>
     <string name="find_device">Finn enhet</string>
     <string name="find_device_dspt_provision">Hvis du mister enheten din, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for å finne, låse eller tilbakestille den. Du kan når som helst skru denne funksjonen på eller av under Innstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Ved å aktivere Finn enhet, samtykker du i <a href="app://com.miui.cloudservice.gdpr.license"><u>personvernerklæringen</u></a> vår. Hvis du ønsker å trekke tilbake samtykket, må du deaktivere denne funksjonen.</string>
     <string name="find_device_operation_failure_rpc">Kunne ikke gjennomføre denne operasjonen grunnet en RPC-feil.</string>
     <string name="find_device_send_sms_alert">Hvis du bytter SIM-kort, vil enda en SMS automatisk sendes for å aktivere denne funksjonen på nytt.</string>
@@ -360,10 +362,13 @@
     <string name="micloud_find_device_open_fail">Kunne ikke skru på Finn enhet</string>
     <string name="micloud_find_device_opened">Finn enheten er slått på</string>
     <string name="micloud_find_device_opened_content">Finn enheten din på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_button">Aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_verify_close">Skru av Finn enhet</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke aktivere Finn enhet</string>
     <string name="micloud_find_device_verify_progress">Aktiverer Finn enhet på nytt…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkroniseringen ble avbrutt. Prøv igjen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Sikkerhetskopier</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Systeminnstillinger og oppsett på startskjermen</string>
@@ -520,6 +525,10 @@
     <string name="micloud_upgrade_member">Få mer lagring</string>
     <string name="micloud_upgrade_storage">Oppgrader lagringsabonnementet</string>
     <string name="micloud_user_space_title">Lagringsplass</string>
+    <string name="micloud_warn_full_sum">Nye elementer vil ikke synkroniseres med Xiaomi Cloud.</string>
+    <string name="micloud_warn_full_title">Tom for plass</string>
+    <string name="micloud_warn_low_sum">Din Xiaomi Cloud er 90% full.</string>
+    <string name="micloud_warn_low_title">Nesten tom for plass</string>
     <string name="micloud_web_discription_place_holder">Besøk %1$s på datamaskinen din for å administrere dataene dine.</string>
     <string name="micloud_wipe_data_confirm_label">Slette synkroniserte elementer fra denne enheten?</string>
     <string name="micloud_wipe_data_confirm_title">Noen elementer fra følgende apper er synkronisert med Xiaomi Cloud. Du kan slette dem fra denne enheten og fortsatt bevare dem i skyen.</string>

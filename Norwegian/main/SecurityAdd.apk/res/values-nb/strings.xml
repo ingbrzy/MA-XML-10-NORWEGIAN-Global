@@ -58,6 +58,7 @@
     <string name="dual_app_title">Doble apper</string>
     <string name="dual_app_words">Hver konto fortjener sin egen app</string>
     <string name="early_morning">Morgen</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
@@ -236,7 +237,6 @@
     <string name="gb_pannel_control_mode_power_saving">Energisparende</string>
     <string name="gb_weixinpay_can_not_complete">Kan ikke fullføre betalingen. Installer for å fortsette.</string>
     <string name="gdpr_msg">&lt;Data>For å kunne bruke de grunnleggende funksjonene i Sikkerhet, må du godta at Xiaomi samler inn, behandler og bruker personopplysningene dine, inkludert informasjon om hvordan du bruker funksjonene i Sikkerhet (f.eks. statistikk for mobildatabruk, informasjon om skadelig programvare, samt grunnleggende informasjon om enheten din) og annen informasjon som er spesifisert i &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">personvernerklæringen&lt;/a> vår.&lt;/Data></string>
-    <string name="hybrid_provider">Levert av %1$s</string>
     <string name="install_success">%s Install Success</string>
     <string name="lucky_result_title">Røde konvolutter</string>
     <string name="main_toolbar_purchase">Fyll på</string>
@@ -313,7 +313,6 @@
     <string name="net_booster_overdue_notification_tip">Nettverk speed boost-økt utløper snart. Fornye økt?</string>
     <string name="network_not_available">Kan ikke koble til nettverket</string>
     <string name="night">Kveld</string>
-    <string name="no_network">Kan ikke koble til nettverket</string>
     <string name="no_network_btn">Prøv igjen</string>
     <string name="noon">Midt på dagen</string>
     <string name="not_set">Ikke angitt</string>
@@ -339,6 +338,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
@@ -427,9 +427,6 @@
     <string name="usage_sorted_loading_text">Et øyeblikk…</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
-    <string name="web_sso_login_fail">Du må logge inn på nytt</string>
-    <string name="web_sso_login_message">Logger inn…</string>
-    <string name="webview_reload">Prøv igjen</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>

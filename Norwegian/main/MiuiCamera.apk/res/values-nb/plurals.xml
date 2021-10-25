@@ -56,14 +56,6 @@
         <item quantity="other">Du kan lage opptil %d kloner om gangen.</item>
         <item quantity="one">Du kan lage opptil %d klone om gangen.</item>
     </plurals>
-    <plurals name="exit_camera_hint">
-        <item quantity="other">&lt;Data>Kan ikke koble til kameraet.&lt;br>Denne appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Vent ett minutt eller to etter dette og prøv igjen.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Kan ikke koble til kameraet.&lt;br>Denne appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Vent ett minutt eller to etter dette og prøv igjen.&lt;/Data></item>
-    </plurals>
-    <plurals name="exit_thermal_hint">
-        <item quantity="other">&lt;Data>Enheten er for varm nå.&lt;br>Denne appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nåværende fremdrift ble lagret automatisk.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Enheten er for varm nå.&lt;br>Denne appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nåværende fremdrift ble lagret automatisk.&lt;/Data></item>
-    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d min</item>
         <item quantity="one">%1$d min</item>

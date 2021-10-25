@@ -359,6 +359,7 @@ Send denne koden til den overordnede."</string>
     <string name="sns_access_token_expired_warning">Økten er utløpt. Logg inn på nytt for å koble til kontoen på nytt.</string>
     <string name="sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
     <string name="sns_sign_in">Andre måter å logge inn på</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>

@@ -37,7 +37,7 @@
     <string name="autoconnect">Automatisk tilkobling</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
-    <string name="copyright">Copyright</string>
+    <string name="copyright">Opphavsrett</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -104,7 +104,7 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="ime_privacy_policy">Velg tastatur</string>
-    <string name="instruction">Important safety information</string>
+    <string name="instruction">Viktig sikkerhetsinformasjon</string>
     <string name="license_host_unreachable">"Kunne ikke koble til nettverket. For å se denne informasjonen nå,
 gå til %s på en annen tilkoblet enhet."</string>
     <string name="loading">Et øyeblikk…</string>
@@ -185,9 +185,9 @@ gå til %s på en annen tilkoblet enhet."</string>
     <string name="poco_privacy_policy">Personvernpolicyen og brukeravtalen til POCO-oppstarteren</string>
     <string name="policy_name">Protokoll: %s</string>
     <string name="pre_installed_apps">Forhåndsinstallerte apper</string>
-    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy">Personvernerklæring</string>
     <string name="privacy_station_title">Personvern hos Xiaomi</string>
-    <string name="sar">RF Exposure Information</string>
+    <string name="sar">RF Exposure-informasjon</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
@@ -264,9 +264,9 @@ gå til %s på en annen tilkoblet enhet."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
-    <string name="user_agreement">Terms of Service</string>
-    <string name="user_experience_program">User Experience Program</string>
-    <string name="user_manual">User guide</string>
+    <string name="user_agreement">Vilkår for bruk</string>
+    <string name="user_experience_program">Brukeropplevelsesprogram</string>
+    <string name="user_manual">Brukerveiledning</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>

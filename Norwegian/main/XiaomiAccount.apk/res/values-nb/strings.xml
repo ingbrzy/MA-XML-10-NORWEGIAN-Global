@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_device_info">Se opplysninger om enheten</string>
+    <string name="accept">Tillat</string>
     <string name="access_token_expired_warning">Weibo-kontoen er utløpt</string>
     <string name="access_token_invalid_warning">Weibo-kontoen er ugyldig</string>
     <string name="account">Konto</string>
@@ -107,6 +108,7 @@
     <string name="binded_description" formatted="false">"%s har blitt koblet til din Mi-konto.
 Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="button_unbind">Frakoble</string>
+    <string name="cancel">Avbryt</string>
     <string name="change_activate_email">Endre e-postadresse</string>
     <string name="change_email_address">Endre e-postadresse</string>
     <string name="change_password">Endre passord</string>
@@ -179,6 +181,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="delete_device_btn">Fjern</string>
     <string name="delete_device_failed">Kan ikke fjerne enhet</string>
     <string name="delete_device_notice">Når enheten er fjernet, vil den automatisk bli logget ut av din Mi-konto. Du kan ikke bruke denne enheten til å få tilgang til bildene, meldingene eller annet innhold som er lagret på kontoen din.</string>
+    <string name="deny">Avvis</string>
     <string name="device_delete_success_message">Hvis du ikke logget på denne enheten, endre passordet ditt umiddelbart.</string>
     <string name="device_delete_success_title">Logget ut</string>
     <string name="device_list__header">Mine enheter</string>
@@ -192,6 +195,7 @@ Send denne koden til den overordnede."</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="empty_device_list_notice">Ingen enheter</string>
+    <string name="enable">Innstillinger</string>
     <string name="ep_unsupported">Kan ikke logge inn på Mi-kontoen på enheten din</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
@@ -300,6 +304,7 @@ Send denne koden til den overordnede."</string>
     <string name="get_phone_verifycode_exceed_limit">For mange bekreftelseskoder har blitt sendt til dette nummeret. Vent 24 timer og prøv igjen.</string>
     <string name="google">Google</string>
     <string name="google_login">Logg inn med Google</string>
+    <string name="goto_accept">OK</string>
     <string name="guest_account_label">Mi-gjestekonto</string>
     <string name="health_action_activate">Aktiver</string>
     <string name="health_action_install">Installer</string>
@@ -324,9 +329,11 @@ Send denne koden til den overordnede."</string>
     <string name="kr_permission_sms_desc">For automatisk utfylling av verifiseringskoder</string>
     <string name="kr_permission_storage_desc">For å lagre diagnostikk</string>
     <string name="loading_micloud_sync_data">Et øyeblikk…</string>
+    <string name="login_3rd_app_with_system_account">Logg inn på %s</string>
     <string name="login_check_find_device">Henter enhetens sikkerhetsinformasjon…</string>
     <string name="login_check_find_device_failed_title">Kunne ikke sjekke informasjon om enhetens sikkerhet</string>
     <string name="login_find_device_bind">Denne enheten er knyttet til en eksisterende Mi-konto-ID (%s).</string>
+    <string name="login_with_other">Flere valg</string>
     <string name="logout_account">Logg ut</string>
     <string name="logout_failed">Kan ikke logge av</string>
     <string name="mi_account_identity_title">Bekreft din identitet</string>
@@ -458,7 +465,6 @@ Send denne koden til den overordnede."</string>
     <string name="passport_activing_account">Aktiverer…</string>
     <string name="passport_adding_account">Legger til konto…</string>
     <string name="passport_area_code_hot">OFTE BRUKT</string>
-    <string name="passport_area_code_others">Bruk et annet prefiks</string>
     <string name="passport_area_code_title">Landskode</string>
     <string name="passport_auto_generate_pwd">Generer sikkert passord</string>
     <string name="passport_back">Tilbake</string>
@@ -685,10 +691,14 @@ Send denne koden til den overordnede."</string>
     <string name="passport_yes">Ja</string>
     <string name="password_view_hide_password">Skjul passord</string>
     <string name="password_view_show_password">Vis passord</string>
+    <string name="permission_desc_read_sms">For automatisk utfylling av verifiseringskoder</string>
+    <string name="permission_desc_write_external_storage">For opplasting av logger for tilbakemelding</string>
     <string name="permission_group_contacts">Kontakter</string>
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Lagring</string>
+    <string name="permission_read_sms">Tilgang til meldinger</string>
+    <string name="permission_write_external_storage">Tilgang til og lagre elementer i lagring</string>
     <string name="personal_info_desc">Bilde, kallenavn og mer</string>
     <string name="phone_num_use_for">Telefonnummer brukes for:</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
@@ -707,6 +717,12 @@ Send denne koden til den overordnede."</string>
     <string name="recycle_phone_notification_title">Mi-konto sikkerhetsrisiko</string>
     <string name="removing_account">Logger av…</string>
     <string name="replace_binded_phone">Bytt telefonnummer</string>
+    <string name="request_open_permission">Tillatelser er nødvendig</string>
+    <string name="request_use_camera_message">Gi Mi-konto tilgang til telefonens kamera?</string>
+    <string name="request_use_camera_title">Tilgang til kamera</string>
+    <string name="request_use_gallery_message">Gi Mi-konto tilgang til Galleri?</string>
+    <string name="request_use_gallery_title">Tilgang til Galleri</string>
+    <string name="request_use_writing_clipboard_message">For å kopiere Mi-konto-ID-en din må du gi Mi-konto tillatelse til å lagre elementer på utklippstavlen.</string>
     <string name="resend_active_email">Send på nytt</string>
     <string name="resend_email_reach_limit_message">Du har bedt om for mange bekreftelses-e-poster. Kontroller at bekreftelses-e-posten ikke er havnet i innboksens søppelpostmappe.</string>
     <string name="resend_email_reach_limit_title">Kan ikke sende e-post</string>
@@ -839,6 +855,10 @@ Send denne koden til den overordnede."</string>
     <string name="used_cloud_storage_info">Brukt %s</string>
     <string name="user_avatar_update_title">Endre profilbilde</string>
     <string name="user_avatar_uploading">Et øyeblikk…</string>
+    <string name="user_instruction_all_purpose">Velkommen til Mi-konto! Du kan bruke kontoen din til å få tilgang til tjenester levert av Xiaomi og tilknyttede selskaper, for eksempel Mi.com, Xiaomi Cloud og GetApps. Du kan få Mi Coins, kjøpe virtuelle varer og få glede av tilleggstjenester, inkludert spill, temaer og e-bøker.</string>
+    <string name="user_instruction_tip">For å kunne logge på må du lese og godta vilkår og betingelser.</string>
+    <string name="user_license_with_3rd_app">&lt;Data>Ved å logge inn med en Mi-konto bekrefter jeg at jeg har lest og godtar &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernregler&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_app">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="vip_account_settings">VIP-innstillinger</string>
