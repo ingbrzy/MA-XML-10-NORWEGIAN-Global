@@ -486,7 +486,6 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 10 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="sleep_analysis">Statistikk</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -530,7 +529,6 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_reset_notification">Stoppeklokke ble nullstilt</string>
     <string name="stopwatch_running_notification">Stoppeklokke</string>
@@ -539,7 +537,6 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
-    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Gi denne appen tillatelse til å koble til Internett for å få tilgang til alle funksjonene.</string>
     <string name="system_permission_main_purpose">Visningstid, angi alarmer og tidtakere, bruk av stoppeklokke</string>
     <string name="system_permission_purpose">Oppretter alarmer for ukedager og angir tilpassede ringetoner</string>
