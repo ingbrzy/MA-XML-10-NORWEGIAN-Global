@@ -144,8 +144,6 @@
     <string name="feedback_custom_hint">Beskriv problemene du har opplevd her. Hvis du gir forslag, ville vi satt pris på flere detaljer!</string>
     <string name="find_device">Finn enhet</string>
     <string name="find_device_dspt_provision">Hvis du mister enheten din, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for å finne, låse eller tilbakestille den. Du kan når som helst skru denne funksjonen på eller av under Innstillinger.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Ved å aktivere Finn enhet, samtykker du i <a href="app://com.miui.cloudservice.gdpr.license"><u>personvernerklæringen</u></a> vår. Hvis du ønsker å trekke tilbake samtykket, må du deaktivere denne funksjonen.</string>
     <string name="find_device_operation_failure_rpc">Kunne ikke gjennomføre denne operasjonen grunnet en RPC-feil.</string>
     <string name="find_device_privacy_policy_update_msg">Personvernerklæring for Finn enhet ble oppdatert:&lt;br/>%1$s&lt;br/>Les og godta den nye versjonen av &lt;a href=%2$s>&lt;u>personvernerklæringen&lt;/u>&lt;/a> før du fortsetter.</string>
@@ -374,13 +372,10 @@
     <string name="micloud_find_device_open_fail">Kunne ikke skru på Finn enhet</string>
     <string name="micloud_find_device_opened">Finn enheten er slått på</string>
     <string name="micloud_find_device_opened_content">Finn enheten din på %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_button">Aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_verify_close">Skru av Finn enhet</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke aktivere Finn enhet</string>
     <string name="micloud_find_device_verify_progress">Aktiverer Finn enhet på nytt…</string>
-    <string name="micloud_footer_international_url">mi.com/micloud</string>
-    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkroniseringen ble avbrutt. Prøv igjen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Sikkerhetskopier</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Systeminnstillinger og oppsett på startskjermen</string>

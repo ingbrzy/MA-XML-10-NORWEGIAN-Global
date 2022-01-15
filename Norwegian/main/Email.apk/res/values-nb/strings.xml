@@ -256,7 +256,6 @@
     <string name="back">Tilbake</string>
     <string name="bank_card_detail">Kredittkortdetaljer</string>
     <string name="bcc">Blindkopi</string>
-    <string name="bcc_heading">"Blindkopi: "</string>
     <string name="bill_center_setting">Fakturainnstillinger</string>
     <string name="bill_center_setting_head">Importer informasjon fra disse kontoene</string>
     <string name="bill_cycle_text">Faktureringssyklus</string>
@@ -278,7 +277,6 @@
     <string name="cancel_pop3_attchemt_downloading">Kan ikke avbryte pågående nedlastinger for vedlegg i POP3-kontoer</string>
     <string name="cant_move_or_change_labels">Kan ikke flytte elementer fra flere kontoer.</string>
     <string name="cc">Kopi</string>
-    <string name="cc_attribution">Kopi: %1$s&lt;br></string>
     <string name="cc_bcc">Kopi/Blindkopi</string>
     <string name="cc_heading">"Kopi: "</string>
     <string name="certificate_add_failed">Kunne ikke legge til «%s»-sertifikatet</string>
@@ -308,7 +306,6 @@
     <string name="click_to_reload">Trykk på skjermen og prøv igjen</string>
     <string name="close">Lukk</string>
     <string name="collapse_recipient_details">Kollaps mottakerdetaljer</string>
-    <string name="colon">:</string>
     <string name="compose">Skriv ny</string>
     <string name="compose_event">Invitasjon</string>
     <string name="compose_paste_address_oob">For mange tegn</string>
@@ -628,7 +625,6 @@
     <string name="go_to_mail_content">Se e-post</string>
     <string name="have_auth_code">Jeg har en kode</string>
     <string name="header_category_account">Kontoer</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">Generelt</string>
     <string name="help_and_info">Hjelp</string>
     <string name="help_me_get_qq_auth">Få kode</string>
@@ -651,7 +647,6 @@
     <string name="invalid_recipient">Adressen %s er ugyldig.</string>
     <string name="invalid_recipient_title">Mottakerfeil</string>
     <string name="kilobytes">%s  KB</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">Ingen e-poster ennå.</string>
     <string name="load_from_remote">Søk etter postkasse på serveren</string>
     <string name="load_more">Last inn mer</string>
@@ -1176,7 +1171,6 @@ Vent til den er fullstendig synkronisert, eller se meldingen på datamaskinen di
 %s"</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -1186,7 +1180,6 @@ Vent til den er fullstendig synkronisert, eller se meldingen på datamaskinen di
     <string name="size_tera_byte">TB</string>
     <string name="smtp_password_error">Passordet for den utgående e-postserveren er feil</string>
     <string name="sort_attachment">Sorter etter</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Velg alle</string>
     <string name="str_select_none">Fjern alle valg</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>
