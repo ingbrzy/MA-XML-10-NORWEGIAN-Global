@@ -44,6 +44,42 @@ total %2$d sang"</item>
         <item quantity="other">%d lignende sanger</item>
         <item quantity="one">%d lignende sang</item>
     </plurals>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">om %d min</item>
+        <item quantity="one">om 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d kommentarer</item>
         <item quantity="one">%d kommentar</item>
@@ -70,6 +106,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">Slett %d songs?</item>
         <item quantity="one">Slett %d song?</item>
     </plurals>
+    <plurals name="dialog_request_delete_permission_descript">
+        <item quantity="other">%d av de valgte sangene lagres i en ekstern mappe. Gi de nødvendige tillatelsene for å slette dem.</item>
+        <item quantity="one">%d av de valgte sangene lagres i en ekstern mappe. Gi de nødvendige tillatelsene for å slette den.</item>
+    </plurals>
     <plurals name="download_finished">
         <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> lastet ned</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> lastet ned</item>
@@ -86,6 +126,30 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">%d gratis nedlastninger igjen</item>
         <item quantity="one">%d gratis nedlastning igjen</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om 1 minutt</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
     <plurals name="list_header_fans_count">
         <item quantity="other">%d følgere</item>
         <item quantity="one">%d følger</item>
@@ -93,6 +157,14 @@ Merk: Filen vil også slettes fra denne enheten."</item>
     <plurals name="list_header_follow_count">
         <item quantity="other">Følger %d personer</item>
         <item quantity="one">Følger %d person</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d enheter valgt</item>
@@ -105,6 +177,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
     <plurals name="notification_download_failed_more">
         <item quantity="other">Kunne ikke laste ned %1$d elementer</item>
         <item quantity="one">Kunne ikke laste ned %1$d element</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
     </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d følgere</item>

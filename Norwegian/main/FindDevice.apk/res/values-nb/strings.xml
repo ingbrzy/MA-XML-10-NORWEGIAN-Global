@@ -37,6 +37,9 @@
     <string name="change_find_device_status_failed">Kunne ikke låse opp. %s.</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="copy">Kopiér</string>
+    <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">For å få tilgang til telefonnummeret for å finne denne enheten når den ikke er koblet til Internett</string>
+    <string name="custom_define_permission_desc_android.permission.SEND_SMS">For å finne denne enheten når den ikke er koblet til Internett</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">For å lokalisere enheten og bytte til mistet-modus</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />

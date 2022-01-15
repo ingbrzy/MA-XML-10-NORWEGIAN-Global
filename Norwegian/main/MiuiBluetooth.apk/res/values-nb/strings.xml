@@ -352,7 +352,6 @@ Raskere tilkoblingsprotokoll."</string>
     <string name="headset_device_error_multconnect">Kan ikke oppdatere når flere enheter er tilkoblet</string>
     <string name="headset_device_error_no_device">Det mangler minst én hodetelefon i ladeetuiet</string>
     <string name="headset_device_error_single_device">Kan ikke oppdatere én hodetelefon. Sammekoble på nytt.</string>
-    <string name="headset_device_sync">Synkroniserer…</string>
     <string name="headset_device_sync_donot_move_device">Synkroniserer… Vent til synkroniseringen er fullført før du bruker hodetelefonene.</string>
     <string name="headset_device_sync_wait_connect">Synkroniserer… Vent til tilkoblingen er etablert automatisk før du bruker hodetelefonene.</string>
     <string name="headset_download_failed">Kunne ikke laste ned</string>
@@ -366,7 +365,6 @@ Raskere tilkoblingsprotokoll."</string>
     <string name="headset_fw_file_position_failed">Fikk ikke tilgang til fil</string>
     <string name="headset_fw_file_readfailed">Kunne ikke hente oppdateringsinfo</string>
     <string name="headset_loss_notify_summary">Det ser ut til at minst én av øretelefonene dine ikke er i ladeetuiet. Se deg rundt!</string>
-    <string name="headset_loss_notify_summary1">Det ser ikke ut til at øretelefonene dine er i etuiet. Legg dem tilbake for å lade dem.</string>
     <string name="headset_loss_notify_title">Alarm for manglende øretelefon</string>
     <string name="headset_read_fw_state">Kunne ikke hente oppdateringsinfo</string>
     <string name="headset_update_failed">Kunne ikke oppdatere</string>

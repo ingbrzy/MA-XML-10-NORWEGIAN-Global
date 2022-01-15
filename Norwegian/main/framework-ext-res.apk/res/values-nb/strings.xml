@@ -79,10 +79,14 @@
     <string name="device_status_success">Sendt</string>
     <string name="device_status_waiting">Venter…</string>
     <string name="device_type_pc">Datamaskin</string>
+    <string name="disable_nfc">Deaktiverte NFC for trådløs lading</string>
+    <string name="disable_nfc_reverse">Deaktiverte NFC for omvendt trådløs lading</string>
     <string name="eighthours">8 timer</string>
     <string name="enable_livetalk_summary">Spar 70 % av ringekostnadene</string>
     <string name="enable_livetalk_title">Aktiver påfyllingspakke</string>
     <string name="enable_midrop">Skru på</string>
+    <string name="enable_nfc">Lading har stoppet. NFC er aktivert igjen.</string>
+    <string name="enable_nfc_reverse">Omvendt lading har stoppet. NFC er aktivert igjen.</string>
     <string name="fc_dialog_body">Vil du sende feilrapport til Mi for analyse? Rapporten kan inneholde personlig identifiserbar informasjon. Rapporten vil bli brukt til å fikse denne feilen og vil aldri deles i kommersiell sammenheng.</string>
     <string name="fc_dialog_jump_to_preview">Vis sammendrag</string>
     <string name="file_cannot_print">Kan ikke skrive ut dette elementet.</string>
@@ -159,7 +163,6 @@
     <string name="open_close_tip_content">Trykk på handlingsfeltet, hold inne og sveip opp for å lukke det flytende vinduet</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
-    <string name="other_ime">Andre tastaturer</string>
     <string name="package_delete_confirm_step_1">Avinstallere %s?</string>
     <string name="package_delete_confirm_step_2">Hvis du avinstallerer denne appen, kan systemet bli ustabilt.</string>
     <string name="package_delete_confirm_step_3">Du vil ikke kunne åpne appen etter at du har avinstallert den.</string>

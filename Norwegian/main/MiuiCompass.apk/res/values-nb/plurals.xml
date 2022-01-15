@@ -36,6 +36,10 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
+    <plurals name="current_page_number">
+        <item quantity="other">Viser side %d</item>
+        <item quantity="one">Viser side %d</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
@@ -67,5 +71,9 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="total_pages">
+        <item quantity="other">Totalt %d sider</item>
+        <item quantity="one">Totalt %d side</item>
     </plurals>
 </resources>

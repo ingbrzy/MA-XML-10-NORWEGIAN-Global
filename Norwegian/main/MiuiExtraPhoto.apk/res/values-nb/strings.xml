@@ -81,6 +81,5 @@
     <string name="refocus_type_relighting_small_face">Studiolys fungerer på bilder hvor ansiktet tar mer plass enn her.</string>
     <string name="refocus_type_static">Uskarpt</string>
     <string name="refocus_type_video">Lysstriper</string>
-    <string name="save">Lagre</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

@@ -72,24 +72,6 @@
     <string name="close">Lukk</string>
     <string name="combine_loan">Kombinert lån</string>
     <string name="commercial_loan">Kommersielt lån</string>
-    <string name="common_google_play_services_enable_button">Slå på</string>
-    <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
-    <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
-    <string name="common_google_play_services_install_button">Installer</string>
-    <string name="common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din.</string>
-    <string name="common_google_play_services_install_title">Installer Google Play-tjenester</string>
-    <string name="common_google_play_services_notification_channel_name">Google Play Tjenester-tilgjengelighet</string>
-    <string name="common_google_play_services_notification_ticker">Google Play Tjenester-feil</string>
-    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din.</string>
-    <string name="common_google_play_services_update_button">Oppdater</string>
-    <string name="common_google_play_services_update_text">%1$s kjører ikke med mindre du oppdaterer Google Play Tjenester.</string>
-    <string name="common_google_play_services_update_title">Oppdater Google Play-tjenester</string>
-    <string name="common_google_play_services_updating_text">%1$s kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå.</string>
-    <string name="common_google_play_services_wear_update_text">Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund.</string>
-    <string name="common_open_on_phone">Åpne på telefonen</string>
-    <string name="common_signin_button_text">Logg på</string>
-    <string name="common_signin_button_text_long">Logg på med Google</string>
     <string name="convert_currency">Valutakonverterer</string>
     <string name="convertion_unit">Enhetskonverterer</string>
     <string name="convertion_unit_area">Områdekonverterer</string>
@@ -478,7 +460,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="name_split">Delbeløp</string>
     <string name="negDesc">Bytt mellom minusgrader og plussgrader</string>
     <string name="network_confirm_content">Valutakonverterer, og skatte- og boligkalkulatorer trenger å koble til internett og få tilgang til stedtjenester for å fungere normalt.</string>
-    <string name="network_confirm_title">Nødvendig med tillatelse</string>
+    <string name="network_confirm_title">Tillatelser er nødvendig</string>
     <string name="network_purpose">Velkommen til Kalkulator! Kalkulator gir deg muligheten til å konvertere valutaer, beregne tilbakebetaling på boliglån og mer.</string>
     <string name="new_privacy_string">&lt;Data>Velkommen til Kalkulator!&lt;br/>Denne appen inneholder følgende funksjoner:&lt;br/>• Grunnleggende kalkulator&lt;br/>• Vitenskapelig kalkulator&lt;br/>• Universell konverterer (f.eks. valuta, måleenheter osv.)&lt;br/>• Beregningsmaler for lån, investering, EMI og mer&lt;br/>Kalkulator må samle inn nødvendige personopplysninger for å gi deg grunnleggende tjenester. Du kan finne ut mer om hvordan vi håndterer informasjonen vi samler inn i &lt;a href= \"%1$s\">personvernerklæringen&lt;/a>. Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%3$s\">personvernerklæringen&lt;/a> før du bruker Kalkulator. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Kalkulator under Innstillinger. Hvis du ikke godtar personvernerklæringen vår, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data></string>
     <string name="night">Kveld</string>
@@ -712,6 +694,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviterussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadiske dollar</string>
     <string name="unit_data_display_currency_cdf">Kongolesisk franc</string>
     <string name="unit_data_display_currency_chf">Sveitsiske franc</string>
@@ -1054,12 +1037,15 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_calculator_delete_description">Kalkulator er en systemapp. Du vil ikke kunne bruke flere omformere og tilleggsfunksjoner etter at du har avinstallert appen.</string>
     <string name="xiaomi_calculator_delete_title">Avinstallere Kalkulator?</string>
     <string name="xiaomi_calculator_remove_icon_description">Kalkulator er en systemapp. Du vil ikke kunne bruke flere konverteringsverktøy og tilleggsfunksjoner etter at du har fjernet snarveien på startskjermen.</string>
     <string name="xiaomi_calculator_remove_icon_title">Fjerne «Kalkulator» fra startskjermen?</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s

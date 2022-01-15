@@ -69,6 +69,7 @@ vil denne funksjonen bli lagt til Andre område automatisk."</string>
     <string name="close_second_space">Slettet Andre område</string>
     <string name="close_second_space_success">Slettet Andre område</string>
     <string name="closed">Av</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="complete_setting">Ferdig</string>
     <string name="complete_setting_sub_title">Du kan også komme tilbake senere for å justere innstillingene.</string>
     <string name="complete_setting_title">Du er klar!</string>

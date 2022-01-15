@@ -51,6 +51,7 @@
     <string name="calibrate_success">Kalibrert</string>
     <string name="calibrate_tip">Vipp enheten din for å trille ballen rundt sirkelen</string>
     <string name="calibrate_title">Kalibrer kompass</string>
+    <string name="calibrating">Kalibrerer kompass</string>
     <string name="cancel">Avbryt</string>
     <string name="cannot_get_location">--</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
@@ -225,6 +226,7 @@
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgen</string>
+    <string name="new_cta_app_purpose">vis retninger og koordinater</string>
     <string name="new_cta_v2_app_purpose">Viser retninger, koordinater, lufttrykk og nåværende høyde</string>
     <string name="new_permission_camera_desc">For kalibrering</string>
     <string name="new_permission_location_desc">For visning av koordinater</string>
@@ -236,6 +238,7 @@
     <string name="open_perm_msg">Kompass trenger tilgang til posisjonsinformasjon og kameraet. Dette er nødvendig å angi koordinater og gi direkte forhåndsvisninger. Tillate?</string>
     <string name="open_perm_msg_no_camera">Kompass må få tilgang til plasseringsinformasjon for å kunne fastslå koordinater. Tillate?</string>
     <string name="open_perm_title">Tillatelser er nødvendig</string>
+    <string name="pageIndicator">%1$s. %2$s.</string>
     <string name="permission_camera_desc">For visning av azimuth i live forhåndsvisning</string>
     <string name="permission_description">Detaljer for tillatelser</string>
     <string name="permission_location_desc">For visning av koordinater</string>

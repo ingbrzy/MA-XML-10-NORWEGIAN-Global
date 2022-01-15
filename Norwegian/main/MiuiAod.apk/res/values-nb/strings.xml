@@ -236,8 +236,8 @@ dd. MM"</string>
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
     <string name="not_set">Ikke angitt</string>
-    <string name="notification_anim_pulse">Puls</string>
-    <string name="notification_anim_rhythm">Rytme</string>
+    <string name="notification_anim_pulse">Pulserende (rød)</string>
+    <string name="notification_anim_rhythm">Pulserende (blå)</string>
     <string name="notification_anim_star">Stjernelys</string>
     <string name="notification_nothing">Ingen</string>
     <string name="notification_screen_on">Lys opp skjermen</string>
@@ -283,6 +283,7 @@ dd. MM"</string>
 fantastisk er i ferd med å skje"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Skritteller leveres av Xiaomi Helse. Godta vilkår og betingelser for Xiaomi Helse for å fortsette.</string>
     <string name="step_component_info_desc">Skritteller endres til et trofé når du har nådd målet ditt. Skritteller leveres av Xiaomi Helse.</string>
     <string name="step_component_info_tip">Skritteller leveres av Xiaomi Helse. Installer eller oppdater Xiaomi Helse og godta vilkår og betingelser for å fortsette.</string>
@@ -293,6 +294,7 @@ fantastisk er i ferd med å skje"</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
     <string name="temporary_style">I 10 sekunder etter å ha trykt</string>
+    <string name="temporary_style_5">I 5 sekunder etter trykk</string>
     <string name="temporary_style_summary">Anbefalt</string>
     <string name="text_color">Tekstfarge</string>
     <string name="text_length_exceed_limit_alert">*Teksten du skrev inn er for lang</string>

@@ -67,6 +67,7 @@
     <string name="alert_vibrate_enable_summary">Vibrer når alarmen går</string>
     <string name="alert_volume">Ringetonevolum</string>
     <string name="alert_volume_summary">Angi ringetonevolum for alarmer og tidtakere</string>
+    <string name="alert_xiaoai_ringtone_desc">Mi AI snakker…</string>
     <string name="already_exist">Denne tidtakeren eksisterer allerede</string>
     <string name="am">AM</string>
     <string name="analog_gadget">Analog klokke</string>
@@ -110,6 +111,7 @@
     <string name="channel_name_timer">Tidtaker</string>
     <string name="check_theme_app_install">Sørg for at Themes-appen er installert på enheten din.</string>
     <string name="check_voice_assist_app_version">Oppdater Mi AI til siste versjon.</string>
+    <string name="cities_show_limit_desc">Kan ikke vise flere klokker</string>
     <string name="city_time_contrast_desc">Trykk for å sammeligne tid i forskjellige byer</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="clock_bg_button_setting_summary_common">Velg bakgrunnsfarge for Klokke-appen</string>
@@ -444,6 +446,7 @@
     <string name="repeat_count_value_ten">10</string>
     <string name="repeat_count_value_three">3</string>
     <string name="repeat_count_value_two">2</string>
+    <string name="repeat_type">Gjenta</string>
     <string name="reset">Tilbakestill</string>
     <string name="revert">Tilbakestill</string>
     <string name="ringtone_all">Alle ringetoner</string>
@@ -463,7 +466,9 @@
     <string name="search_stopwatch_keywords">Stoppeklokke</string>
     <string name="search_timer_keywords">Tidtaker</string>
     <string name="search_worldclock_keywords">Tid;Verdensklokke;Klokke</string>
+    <string name="select_all">Velg alle</string>
     <string name="select_operation">Velg</string>
+    <string name="selected">Valgt</string>
     <string name="send">Send</string>
     <string name="set_alarm">Velg tid</string>
     <string name="set_alarm_choose_ringtone">Velge ringetone</string>
@@ -486,6 +491,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 10 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="sleep_analysis">Statistikk</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -529,6 +535,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_reset_notification">Stoppeklokke ble nullstilt</string>
     <string name="stopwatch_running_notification">Stoppeklokke</string>
@@ -537,6 +544,7 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Gi denne appen tillatelse til å koble til Internett for å få tilgang til alle funksjonene.</string>
     <string name="system_permission_main_purpose">Visningstid, angi alarmer og tidtakere, bruk av stoppeklokke</string>
     <string name="system_permission_purpose">Oppretter alarmer for ukedager og angir tilpassede ringetoner</string>
@@ -643,6 +651,11 @@
     <string name="tuesday_shortest">Tir</string>
     <string name="turn_off_a_repeat_alarm">Skru av en gjentakende alarm</string>
     <string name="turn_off_this_repeat_alarm">Skru av denne repeterende alarmen</string>
+    <string name="tv_blank_list_other_text">Ingenting her enda</string>
+    <string name="tv_blank_list_show_text">Ingenting her enda. Søk etter et sted og legg det til verdensklokken din.</string>
+    <string name="tv_world_clock_edit_title1">Steder vist på Startskjerm</string>
+    <string name="tv_world_clock_edit_title2">Andre lagrede steder</string>
+    <string name="unselect_all">Velg ingen</string>
     <string name="upcoming_alarm">Kommende alarm: %s</string>
     <string name="upcoming_alarm_hint">Du kan slå av denne alarmen nå</string>
     <string name="update_health_app">Oppdater Xiaomi Helse</string>
@@ -670,8 +683,10 @@
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="week_ringtone_recommend_desc">Naturalarmen spiller av ulike lyder avhengig av datoen. Angi den som standardalarm?</string>
+    <string name="white_noise">Omgivelsesstøy</string>
     <string name="white_noise_selector">Velg lyd</string>
     <string name="workday_alarm_clock">Jobbalarm</string>
+    <string name="worldclock_edit_label">Verdensklokke</string>
     <string name="worldclock_empty_text">Ingen klokker</string>
     <string name="worldclock_input_hint_text">Søk etter et land eller by</string>
     <string name="worldclock_local_time">Lokaltid</string>
@@ -689,5 +704,6 @@
     <string name="worldcolock_timezone_date">d. MMM</string>
     <string name="worldcolock_timezone_gap">%s T</string>
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>
+    <string name="xiaoai_ringtone_title">Mi AI-ringetoner</string>
     <string name="yesterday">I går</string>
 </resources>

@@ -235,7 +235,7 @@ Slå av for å stoppe synkronisering."</string>
     <string name="category_folder">Mapper</string>
     <string name="category_installed_app">Installerte apper</string>
     <string name="category_midrive">Mi Drive</string>
-    <string name="category_move_limit_notice">Du kan flytte fra 3 til 7 elementer til den øvre delen av skjermen</string>
+    <string name="category_move_limit_notice">Du kan flytte fra %1$d til %2$d elementer til øverst på skjermen</string>
     <string name="category_music">Musikk</string>
     <string name="category_other">Annet</string>
     <string name="category_photo">Bilder</string>
@@ -373,6 +373,9 @@ Slå av for å stoppe synkronisering."</string>
     <string name="copy">Kopiér</string>
     <string name="copy_url">Kopier lenke</string>
     <string name="could_not_load_data">Kunne ikke laste inn data. Oppdater og prøv igjen</string>
+    <string name="crash_page_button">Prøv igjen</string>
+    <string name="crash_page_description">Noe gikk galt med visningen av denne nettsiden.</string>
+    <string name="crash_page_title">Åh nei, et problem!</string>
     <string name="create_qr_code">QR-kode</string>
     <string name="current_version_pad">Nettbrett</string>
     <string name="current_version_pc">Skrivebord</string>
@@ -431,7 +434,7 @@ Send denne koden til den overordnede."</string>
     <string name="download_btn_select_none">Fjern alle valg</string>
     <string name="download_business_app_new_version">Siste versjon av denne appen er allerede installert</string>
     <string name="download_business_app_update_install">Klar til å installere oppdatering.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 valgte</string>
+    <string name="download_business_v5_edit_mode_title_empty">Velg elementer</string>
     <string name="download_change_dir">Endre mappe</string>
     <string name="download_complete">Nedlastingen er vellykket</string>
     <string name="download_completed">Nedlastet</string>
@@ -452,7 +455,7 @@ Send denne koden til den overordnede."</string>
     <string name="download_dialog_failed_body">Prøve igjen senere eller fjerne denne filen fra nedlastingskøen​?</string>
     <string name="download_dialog_file_already_exists">Du har allerede lastet ned denne filen</string>
     <string name="download_dialog_file_length_hint_txt">"Filstørrelse: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Mindre enn 1 KB</string>
+    <string name="download_dialog_file_length_lessthan1kb">Mindre enn %1$dKB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Kunne ikke laste ned</string>
     <string name="download_dialog_file_length_nolength_txt">Et øyeblikk…</string>
     <string name="download_dialog_file_missing_body">Kunne ikke finne fil. Har du flyttet eller slettet den?</string>
@@ -693,6 +696,8 @@ Send denne koden til den overordnede."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="game_center_recommend_play">Spill</string>
+    <string name="game_center_recommend_title">Anbefalt for deg</string>
     <string name="game_played">Nylige</string>
     <string name="gcm_fallback_notification_channel_label">Diverse</string>
     <string name="geolocation_permissions_prompt_dont_share">Avvis</string>
@@ -804,9 +809,9 @@ Send denne koden til den overordnede."</string>
     <string name="lockpattern_need_to_unlock_wrong">Prøv igjen</string>
     <string name="lockpattern_pattern_confirmed_header">Her er ditt opplåsningsmønster:</string>
     <string name="lockpattern_pattern_entered_header">Ferdig!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Prøv igjen. Forbind minst 4 prikker.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Prøv igjen. Koble minst %1$d prikker.</string>
     <string name="lockpattern_recording_inprogress">Slipp når mønsteret ditt er fullført</string>
-    <string name="lockpattern_recording_intro_header">Forbind minst 4 prikker</string>
+    <string name="lockpattern_recording_intro_header">Koble minst %1$d prikker</string>
     <string name="lockpattern_retry_button_text">Tilbakestill</string>
     <string name="login_failed_toast">Kunne ikke logge inn. Oppdater og prøv igjen</string>
     <string name="login_or_register">eller</string>
@@ -817,7 +822,7 @@ Send denne koden til den overordnede."</string>
     <string name="make_private_msg_1">Skjule denne filen?</string>
     <string name="make_private_msg_2">Skjule disse filene?</string>
     <string name="max_tabs_warning">Kan ikke åpne flere faner</string>
-    <string name="maximum_input_alert">Kan ikke skrive inn mer enn 2048 tegn</string>
+    <string name="maximum_input_alert">Kan ikke angi mer enn %1$d tegn</string>
     <string name="menu_addtodesk">Legg til startskjerm</string>
     <string name="menu_exit_nightmode">Avslutt</string>
     <string name="menu_hv_swap">V/H-skjerm</string>
@@ -1329,7 +1334,7 @@ Forlat denne siden nå?"</string>
     <string name="pf_guide_msg_if_has_downloading">Kan ikke legge til pågående nedlastinger i privat mappe</string>
     <string name="pf_move_out">Fjern fra privat mappe</string>
     <string name="pf_move_out_dialog_btn_confirm">Fjern</string>
-    <string name="pf_move_out_dialog_content">Fjernede elementer vil bli lagret på sin originale plassering.</string>
+    <string name="pf_move_out_dialog_content">Fjernede elementer vises blant nylige filer.</string>
     <string name="pf_move_out_dialog_title">Fjerner fra privat mappe</string>
     <string name="pf_toast_add_success">Flyttet til privat mappe</string>
     <string name="phone">Lagring</string>
@@ -1620,7 +1625,7 @@ Forlat denne siden nå?"</string>
     <string name="rlv_pull_to_refresh">Trekk ned for å oppdatere</string>
     <string name="rlv_refreshing">Oppdaterer…</string>
     <string name="rlv_release_to_refresh">Slipp for å oppdatere</string>
-    <string name="rlz_access_point">Y1</string>
+    <string name="rlz_access_point">Y%1$d</string>
     <string name="root_folder_lable">Ingen</string>
     <string name="router_download_exist">Denne filen finnes allerede</string>
     <string name="router_download_failed">Kunne ikke laste ned</string>
@@ -1678,7 +1683,7 @@ Forlat denne siden nå?"</string>
     <string name="search_google">Google</string>
     <string name="search_hint">Søk</string>
     <string name="search_menu_title">Søk</string>
-    <string name="search_s139">139</string>
+    <string name="search_s139">%1$d</string>
     <string name="search_settings_description">Bokmerker og nettleserhistorikk</string>
     <string name="search_shipin">Video</string>
     <string name="search_sm">SM</string>
@@ -1977,8 +1982,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">Brukt %2$s av %1$s</string>
     <string name="vpn_detail_guide1">Lås opp alle servere for å gjøre forbindelsen raskere</string>
     <string name="vpn_detail_guide2">Abonner på VPN-tjenester for å få tilgang til flere nettsteder</string>
-    <string name="vpn_detail_guide3">Du er nesten tom for trafikk. Prøv vår 12-månederspakke! Trykk for å lese om alternativene.</string>
-    <string name="vpn_detail_guide4">Du er tom for trafikk. Prøv vår 12-månederspakke! Trykk for å lese om alternativene.</string>
+    <string name="vpn_detail_guide3">Du er nesten tom for trafikk. Prøv vår %1$d-månderspakke! Trykk for å lese mer om alternativene dine.</string>
+    <string name="vpn_detail_guide4">Du er tom for trafikk. Prøv vår %1$d-månderspakke! Trykk for å lese mer om alternativene dine.</string>
     <string name="vpn_detail_guide5">Du er nesten tom for trafikk</string>
     <string name="vpn_detail_guide6">Du er tom for trafikk</string>
     <string name="vpn_detail_subscribe">Abonner</string>
@@ -2009,7 +2014,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">Slik fungerer det</string>
     <string name="whatsapp_intro_dialog_title">Ny funksjon</string>
     <string name="whatsapp_no_status_tips">Ingen bilder eller videoer ennå. Se dine statusoppdateringer i WhatsApp og kom tilbake hit igjen.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp lagrer bilder og videoer som du blar gjennom i en skjult mappe. Disse elementene forsvinner etter 24 timer. Nå kan du bruke Mi Browser til å lagre dem.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp lagrer bilder og videoer som du blar gjennom i en skjult mappe. Disse elementene forsvinner etter %1$d timer. Nå kan du bruke Mi Browser til å lagre dem.</string>
     <string name="whatsapp_principle_page_title">Du kan lagre bilder og videoer fra WhatsApp-statuser ved hjelp av Mi Browser</string>
     <string name="whatsapp_principle_step_1">Bla gjennom bilder og videoer fra «Status»-fanen i WhatsApp.</string>
     <string name="whatsapp_principle_step_2">Kom tilbake hit for å lagre dem.</string>

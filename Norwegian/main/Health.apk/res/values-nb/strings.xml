@@ -63,6 +63,8 @@ You'll be able to track your workouts and activity."</string>
     <string name="am">AM</string>
     <string name="audio_permission_dialog_desc">To analyze your sleep cycle and record talking and snoring, Xiaomi Health needs permission to record audio.</string>
     <string name="audio_permission_dialog_title">Allow recording audio</string>
+    <string name="audio_permission_subtitle">For detecting snoring and talking</string>
+    <string name="audio_permission_title">Record audio</string>
     <string name="audio_record_perm_description">For recording snoring and talking while analyzing sleep cycle</string>
     <string name="audio_record_permission_description">For recording talking and snoring while analyzing your sleep cycle</string>
     <string name="auto_start_fail">Kunne ikke gi tillatelse</string>
@@ -103,9 +105,13 @@ You'll be able to track your workouts and activity."</string>
     <string name="bg_control_dialog_go_set">Innstillinger</string>
     <string name="bg_control_dialog_msg">Gi Xiaomi Helse tillatelse til å starte opp automatisk</string>
     <string name="bg_control_dialog_title">Bakgrunnsbegrensninger</string>
+    <string name="body_sport_permission_subtitle">For tracking your steps</string>
+    <string name="body_sport_permission_title">Access health and activity data</string>
     <string name="breaststroke">Breaststroke</string>
     <string name="butterfly_stroke">Butterfly</string>
     <string name="button_record_menstruation">Record</string>
+    <string name="camera_permission_subtitle">For obtaining blood flow changes for heart rate detection and setting profile photos</string>
+    <string name="camera_permission_title">Use camera</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_edit">Forkast endringer</string>
     <string name="cancel_mark_end">Menstruasjonsperioden er ikke over</string>
@@ -126,6 +132,8 @@ You'll be able to track your workouts and activity."</string>
     <string name="complete_preference_basic_info">Complete your profile</string>
     <string name="complete_progress">Progress</string>
     <string name="completed">"Completed "</string>
+    <string name="contact_permission_subtitle">For setting emergency contacts</string>
+    <string name="contact_permission_title">Access contacts</string>
     <string name="copy">Kopiér</string>
     <string name="copy_done">Kopiert</string>
     <string name="copyright_statement">Opphavsrett © Xiaomi Inc. Alle rettigheter er forbeholdt.</string>
@@ -323,6 +331,8 @@ You can select a different data source in More > Data sources."</string>
     <string name="exit_running_tips_title">Finish workout</string>
     <string name="expand_all">Show all</string>
     <string name="expand_button_title">Avansert</string>
+    <string name="external_storage_permission_subtitle">For setting profile photos</string>
+    <string name="external_storage_permission_title">Access and save items to storage</string>
     <string name="fall_sleep_hard">Trouble falling asleep</string>
     <string name="falling_duration">Falling asleep</string>
     <string name="falling_duration_hard_description">"Falling asleep is the period between the start of your sleep and falling asleep completely. If it takes you longer than 30 minutes to fall asleep, this might be a sign of insomnia.
@@ -476,6 +486,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
     <string name="loading">Just a sec…</string>
     <string name="location_perm_description">For registrering av treningsøkter og ruter utendørs</string>
+    <string name="location_permission_subtitle">For tracking outdoor workouts and recording routes</string>
+    <string name="location_permission_title">Access location</string>
     <string name="low">Lav</string>
     <string name="low_intensity">Low</string>
     <string name="low_intensity_description">Normal respirasjonsfrekvens som gjør at du kan holde en samtale</string>
@@ -932,6 +944,9 @@ søvndata"</string>
     <string name="snore_record_audio_delete_title">Delete recording?</string>
     <string name="snore_section">Snoring %1$s</string>
     <string name="snore_write_description">For saving audio recordings to your device</string>
+    <string name="sport_data_use_subtitle">To track your workouts and fitness progress, we collect and process your information including workout routes, sleep data, heart rate, and weight.</string>
+    <string name="sport_data_use_tip">"Read and agree to our &lt;font color=\"#0D84FF\">&lt;a href=%1$s>Health and Activity Data Use Policy&lt;/a>&lt;/font> to better understand how we collect and process your information. You won't be able to use this service if you don't consent to our collection and processing."</string>
+    <string name="sport_data_use_title">Data permissions</string>
     <string name="sport_type">Workout type</string>
     <string name="standard_format">(standard: %1s)</string>
     <string name="state_agree">Godta</string>
@@ -964,6 +979,7 @@ søvndata"</string>
     <string name="swim_type">Style</string>
     <string name="swipe_right_to_end">Swipe right to end</string>
     <string name="swipe_up_to_end">Swipe up to end</string>
+    <string name="system_permission">Permissions details</string>
     <string name="tb_mens_mark_success">Marked successfully</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>

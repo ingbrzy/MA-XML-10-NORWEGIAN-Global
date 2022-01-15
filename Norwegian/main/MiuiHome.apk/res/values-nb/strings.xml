@@ -206,6 +206,13 @@
     <string name="copy">Kopiér</string>
     <string name="current_preview">Forhåndsvisning</string>
     <string name="current_wallpaper">Nåværende</string>
+    <string name="custom_define_permission_desc_android.permission.CALL_PHONE">For å foreta anrop til nødkontakter i Lite-modus</string>
+    <string name="custom_define_permission_desc_android.permission.READ_CONTACTS">For å vise nødkontakter i Lite-modus</string>
+    <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">For å vise enhetens status</string>
+    <string name="custom_define_permission_desc_android.permission_group.CALENDAR">For å vise Kalender-widgets</string>
+    <string name="custom_define_permission_desc_android.permission_group.CAMERA">For å vise Galleri-widgets</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">For å få tilgang til WLAN-widgetens navn i Android Q</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">For å få tilgang til og lagre startskjermdata</string>
     <string name="custom_wallpaper_picker">Se gjennom</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -428,13 +435,13 @@
     <string name="lock_screen_success_message">Lagt til Låseskjermen</string>
     <string name="lock_screen_wallpaper">Låseskjermens bakgrunn</string>
     <string name="maml_download_dialog_cancel_text">Vent på Wi-Fi</string>
-    <string name="maml_download_dialog_cancel_text_china">Wait for WLAN</string>
-    <string name="maml_download_dialog_checkbox_text">Ikke vis igjen</string>
+    <string name="maml_download_dialog_cancel_text_china">Vent på WLAN</string>
+    <string name="maml_download_dialog_checkbox_text">Ikke vis igjen på %d minutter</string>
     <string name="maml_download_dialog_confirm_text">Last ned</string>
     <string name="maml_download_dialog_message">%s MB mobildata blir brukt til å laste ned dette elementet. Laste ned likevel?</string>
     <string name="maml_download_dialog_title">Advarsel om databruk</string>
     <string name="maml_download_tip_wait_wifi">Dette elementet blir lastet ned når du kobler til Wi-Fi</string>
-    <string name="maml_download_tip_wait_wifi_china">This item will be downloaded when you connect to WLAN</string>
+    <string name="maml_download_tip_wait_wifi_china">Dette elementet blir lastet ned når du kobler til WLAN</string>
     <string name="manager_group_settings">Administrer appkategorier</string>
     <string name="memory_clear_nothing_result">Ingenting å tømme i hurtigbufferen</string>
     <string name="memory_clear_result">%1$sB tømt</string>
@@ -581,7 +588,7 @@
     <string name="online_wallpaper">På nett</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå av</string>
-    <string name="open_personal_assistant_dialog_desc">Du vil ikke kunne bruke App-hvelv og motta oppdateringer. Slå av nå?</string>
+    <string name="open_personal_assistant_dialog_desc">Etter at du har slått av Apphvelv, kan du ikke se eller bruke widgets for Apphvelv. Deres oppdaterte versjoner vil heller ikke være tilgjengelig for deg. Slå av likevel?</string>
     <string name="open_personal_assistant_dialog_desc_international">Du vil ikke kunne bruke App valut cards (Aksjer, Snarveier, osv.) eller motta oppdateringer etter at du har slått av denne funksjonen.</string>
     <string name="open_personal_assistant_dialog_title">Slå av App-hvelv</string>
     <string name="open_personal_assistant_settings">Innstillinger for apphvelv</string>
@@ -724,6 +731,7 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />

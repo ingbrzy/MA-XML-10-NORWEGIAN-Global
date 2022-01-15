@@ -107,6 +107,9 @@
     <string name="binded">Tilkoblet</string>
     <string name="binded_description" formatted="false">"%s har blitt koblet til din Mi-konto.
 Du kan logge in på din Mi-konto gjennom %s nå."</string>
+    <string name="button_agree">Godta</string>
+    <string name="button_close">Lukk</string>
+    <string name="button_refuse">Ikke godta</string>
     <string name="button_unbind">Frakoble</string>
     <string name="cancel">Avbryt</string>
     <string name="change_activate_email">Endre e-postadresse</string>
@@ -465,6 +468,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_activing_account">Aktiverer…</string>
     <string name="passport_adding_account">Legger til konto…</string>
     <string name="passport_area_code_hot">OFTE BRUKT</string>
+    <string name="passport_area_code_others">Bruk et annet prefiks</string>
     <string name="passport_area_code_title">Landskode</string>
     <string name="passport_auto_generate_pwd">Generer sikkert passord</string>
     <string name="passport_back">Tilbake</string>
@@ -697,13 +701,19 @@ Send denne koden til den overordnede."</string>
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Lagring</string>
+    <string name="permission_instructions">Bruk av tillatelser</string>
     <string name="permission_read_sms">Tilgang til meldinger</string>
+    <string name="permission_withdraw">Trekk tilbake</string>
     <string name="permission_write_external_storage">Tilgang til og lagre elementer i lagring</string>
     <string name="personal_info_desc">Bilde, kallenavn og mer</string>
     <string name="phone_num_use_for">Telefonnummer brukes for:</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
+    <string name="privacy_policy_reject_confirm_msg">Du vil ikke kunne fortsette å bruke Mi-kontoen med mindre du samtykker til den nye versjonen av kontoens personvernerklæring. Godta Mi-kontoens oppdaterte &lt;a href=%1$s>personvernerklæring&lt;/a> nå?</string>
+    <string name="privacy_policy_reject_confirm_title">Kan ikke bruke Mi-kontoen</string>
+    <string name="privacy_policy_update_msg">Mi-kontoens personvernerklæring har blitt oppdatert:&lt;br/>%1$s&lt;br/>Les og samtykk til den nye versjonen av &lt;a href=%2$s>&lt;u>personvernerklæringen&lt;/u>&lt;/a> før du fortsetter.</string>
+    <string name="privacy_policy_update_title">Oppdatert personvernerklæring</string>
     <string name="provision_back">Tilbake</string>
     <string name="provision_next">Neste</string>
     <string name="provision_skip_underline">Hopp over</string>
@@ -730,6 +740,11 @@ Send denne koden til den overordnede."</string>
     <string name="restart_action">Start på nytt</string>
     <string name="restart_phone_bind_message">Det kan ta litt tid å motta SMS. Start på nytt likevel?</string>
     <string name="restart_phone_bind_title">Endre gjenopprettingstelefonnummer</string>
+    <string name="revoke_privacy_policy">Tilbakekalling av samtykke</string>
+    <string name="revoke_privacy_policy_instructions">"Ved å fortsette trekker du tilbake ditt samtykke til personvernerklæringen for Mi-kontoen. Vi vil ikke lenger innhente personopplysninger fra deg. Personopplysniner vi allerede har innhentet og innehar vil bli slettet innen den spesifikke perioden i sasmsvar med gjeldende lover og regler, med mindre annet er påkrevd.
+Siden Mi-kontoen leverer tjenestene sine med utgangspunkt i innhenting av nødvendige personopplysninger, vil din tilbaketrekking av samtykke anses som at du nekter å motta Mi-konto-tjenestene.
+Trekke tilbake samtykket nå?"</string>
+    <string name="revoke_privacy_policy_title">Tilbakekalling av samtykke</string>
     <string name="risky_pwd_not_allow">Nytt passord er ikke sikkert. Angi et nytt.</string>
     <string name="same_new_and_old_pwd">Nytt passord må være forskjellig fra det gamle</string>
     <string name="saturday">Lørdag</string>
@@ -858,7 +873,15 @@ Send denne koden til den overordnede."</string>
     <string name="user_instruction_all_purpose">Velkommen til Mi-konto! Du kan bruke kontoen din til å få tilgang til tjenester levert av Xiaomi og tilknyttede selskaper, for eksempel Mi.com, Xiaomi Cloud og GetApps. Du kan få Mi Coins, kjøpe virtuelle varer og få glede av tilleggstjenester, inkludert spill, temaer og e-bøker.</string>
     <string name="user_instruction_tip">For å kunne logge på må du lese og godta vilkår og betingelser.</string>
     <string name="user_license_with_3rd_app">&lt;Data>Ved å logge inn med en Mi-konto bekrefter jeg at jeg har lest og godtar &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernregler&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_mobile">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_no_operator">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_telcom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæringen&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for kontoverifiseringstjenestene fra eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_unicom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringtjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_out_3rd_app_no_operator">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>.&lt;/Data></string>
     <string name="user_license_without_3rd_app">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_mobile">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, same &lt;a href=%3$s>brukervilkårene for verifikasjonstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_telcom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for kontoverifiseringstjenstene for eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_unicom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for verifiseringstjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="vip_account_settings">VIP-innstillinger</string>

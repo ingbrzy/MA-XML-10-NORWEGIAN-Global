@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="account_bind_secure_email_title">Legg til e-post for gjenoppretting</string>
     <string name="account_bind_secure_phone_title">Legg til telefonnummer for gjenoppretting</string>
     <string name="account_crop_user_avatar">Beskjær bilde</string>
@@ -79,6 +80,7 @@
     <string name="confirm_bundled_phone_dialog_title">Bekreft tilknyttet telefonnummer</string>
     <string name="confirm_new_pwd">Bekreft det nye passordet</string>
     <string name="confirm_unbundled_phone_dialog_message">Dette telefonnummeret ble tilknyttet Mi-konto %2$s på %1$s. Det vil ikke lenger være tilknyttet Mi-konto %3$s hvis du fortsetter. Fortsette?</string>
+    <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -88,6 +90,9 @@
     <string name="diagnosis_log_sent_format">"Logger er sendt.
 ID:%s
 Send denne koden til den overordnede."</string>
+    <string name="doing_login">Logger inn…</string>
+    <string name="doing_query_account">Kontrollerer kontoinformasjon…</string>
+    <string name="doing_register">Oppretter konto…</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
@@ -96,6 +101,7 @@ Send denne koden til den overordnede."</string>
     <string name="error_invalid_bind_address">E-postadressen du skrev inn er ugyldig.</string>
     <string name="evening">Ettermiddag</string>
     <string name="exceed_binded_phone_times_notice">Dette telefonnummeret er allerede knyttet til en annen Mi-konto.</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="failed_dup_secure_phone_number">Dette telefonnummeret er allerede knyttet til en annen Mi-konto</string>
     <string name="find_psw">Glemt passord</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -159,13 +165,20 @@ Send denne koden til den overordnede."</string>
     <string name="get_phone_bind_exceed_limit">Du kan knytte opptil 3 Mi-kontoer til et telefonnummer. Kan ikke legge til nye kontoer.</string>
     <string name="get_phone_verifycode_exceed_limit">For mange bekreftelseskoder har blitt sendt til dette nummeret. Vent 24 timer og prøv igjen.</string>
     <string name="goto_sign_up">Opprett konto</string>
+    <string name="i_know">Skjønner</string>
     <string name="identity">Identifisering</string>
     <string name="inconsistent_pwd">Passordene samsvarer ikke</string>
     <string name="input_email_address_notice">Vi bruker denne e-posten til å bekrefte kontoen din</string>
+    <string name="input_length_exceeds_limit">Teksten du skrev inn er for lang</string>
     <string name="input_new_pwd">Tast inn nytt passord</string>
     <string name="isornot_your_mi_account">Er dette din Mi-konto?</string>
     <string name="just_a_second">Et øyeblikk…</string>
     <string name="loading">Et øyeblikk…</string>
+    <string name="login_by_local_phone_long_text">Logg på nå</string>
+    <string name="login_by_local_phone_short_text">Logg inn</string>
+    <string name="login_other">En annen Mi-konto</string>
+    <string name="login_register_by_local_phone_long_text">Opprett konto</string>
+    <string name="login_with_sns">Andre måter å logge inn</string>
     <string name="logout_account">Logg ut</string>
     <string name="midnight">Natt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
@@ -231,12 +244,16 @@ Send denne koden til den overordnede."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgen</string>
+    <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="nick_name">Kallenavn</string>
     <string name="night">Kveld</string>
     <string name="no_account">Ikke logget inn</string>
     <string name="no_phone">Telefonnummer mangler</string>
     <string name="noon">Midt på dagen</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="ok">OK</string>
+    <string name="open_settings">Innstillinger</string>
     <string name="passport_access_denied">Tilgang avslått</string>
     <string name="passport_account_label">Mi-konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -244,6 +261,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_area_code_title">Retningsnummer</string>
     <string name="passport_bad_authentication">Ugyldig brukernavn og passord</string>
     <string name="passport_barcode_add_account_prompt">For å legge til en konto må du skanne QR-koden på nytt etter pålogging.</string>
+    <string name="passport_can_not_receive_verification_code">Kan du ikke motta bekreftelseskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Sjekker passord…</string>
     <string name="passport_close">Lukk</string>
@@ -332,8 +350,19 @@ Send denne koden til den overordnede."</string>
     <string name="phone_number">Telefonnummer</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
     <string name="pm">PM</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
+    <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="psw_hint">Passord</string>
     <string name="psw_sign_in">Logg på med passord</string>
+    <string name="register_by_local_phone_long_text">Opprett konto</string>
+    <string name="register_by_local_phone_short_text">Opprett konto</string>
+    <string name="request_agree">Gi tilgang</string>
+    <string name="request_camera_permission_message">Vi beskytter personopplysningene dine i henhold til relevante lover og forskrifter. Denne appen trenger følgende tillatelser for å fungere som normalt:&lt;br>&lt;br>&lt;b>Bruk av kamera (for å angi profilbilde)&lt;/b>&lt;br>&lt;br>Hvis du ikke samtykker i å gi slike tillatelser, kan du ikke bruke enkelte funksjoner i appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig for deg. Du kan alltids begrense tillatelser eller tilbakekalle autorisasjonen din under Innstillinger.</string>
+    <string name="request_cancel">Avbryt</string>
+    <string name="request_error_invalid_token">Kunne ikke bekrefte</string>
+    <string name="request_error_network">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="request_error_unknown">Det oppstod en systemfeil. Gå tilbake og prøv igjen.</string>
+    <string name="request_gallery_permission_message">Gi tilgang til Galleri:&lt;br />For å angi profilbilder</string>
     <string name="resend_active_email">Send på nytt</string>
     <string name="resend_email_reach_limit_message">Du har bedt om for mange e-poster for bekreftelse. Kontroller at e-post for bekreftelse ikke har havnet i innboksens søppelpostmappe.</string>
     <string name="resend_email_reach_limit_title">For mange forsøk</string>
@@ -355,13 +384,17 @@ Send denne koden til den overordnede."</string>
     <string name="sign_in">Logger inn</string>
     <string name="sign_in_progress">Logger inn…</string>
     <string name="sign_in_title">Logg inn med din Mi Account</string>
+    <string name="skip_query_account">Hopp over</string>
     <string name="sms_send_success">Sendt</string>
     <string name="sns_access_token_expired_warning">Økten er utløpt. Logg inn på nytt for å koble til kontoen på nytt.</string>
     <string name="sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
     <string name="sns_sign_in">Andre måter å logge inn på</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="temporary_not_available">Denne funksjonen er enda ikke tilgjengelig</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
     <string name="the_anti_aggression_day">Antivoldsdagen</string>
@@ -417,13 +450,26 @@ Send denne koden til den overordnede."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
+    <string name="unknown_error_info">Ukjent feil</string>
     <string name="update_email_address_dialog_message">Du må bekrefte identiteten din før du kan oppdatere e-post for gjenoppretting.</string>
     <string name="update_email_address_dialog_title">Oppdater e-post for gjenoppretting</string>
     <string name="update_phone_notice">Endre sikkerhetsinnstillinger</string>
     <string name="upload_error_log">Last opp logg</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæringen&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for kontoverifiseringstjenestene fra eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringtjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Vi oppretter en konto automatisk hvis du bruker telefonnummeret ditt for første gang.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, same &lt;a href=%3$s>brukervilkårene for verifikasjonstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for kontoverifiseringstjenstene for eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for verifiseringstjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
     <string name="user_avatar_update_title">Endre profilbilde</string>
     <string name="user_avatar_uploading">Et øyeblikk…</string>
     <string name="user_id_hint">E-post/Telefon/Mi-konto-ID</string>
+    <string name="user_name_phone_number">Telefonnummer</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="v_code_title">Tast inn bekreftelseskode</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>

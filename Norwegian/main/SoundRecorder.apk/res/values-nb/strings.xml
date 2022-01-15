@@ -37,6 +37,7 @@
     <string name="alert_message_delete_record">Om du sletter opptaket på enheten, sletter du det også fra Xiaomi Cloud. Slette nå?</string>
     <string name="alert_message_delete_record_title">Slette opptak?</string>
     <string name="all_record">Alle opptak</string>
+    <string name="allowed">Gitt</string>
     <string name="am">AM</string>
     <string name="app_name">Opptaker</string>
     <string name="app_record">App-opptak</string>
@@ -184,6 +185,7 @@
     <string name="head_set_tip_dialog_title">Bruk intern mikrofon</string>
     <string name="icon_content_description">Dialogboksikon</string>
     <string name="invalid_argument">Ugyldig argument</string>
+    <string name="invisible_mode_error_tip">Slå av Inkognito-modus i Innstillinger for å kunne bruke mikrofonen.</string>
     <string name="item_view_role_description">Fane</string>
     <string name="keywords_search_call_record">Spill inn anrop;Ta opp anrop;Anropsopptak;Spille inn anrop</string>
     <string name="keywords_search_record">Nytt opptak;Legg til opptak;Opptak;Spill inn;Transkripsjon;Transkribere;Opptaker;Taleopptaker;Lydopptakerr;Opptaker app;Opptak app;Hvordan spille inn;Hvordan spille inn lyd;Hvor er opptakeren;MIUI opptaker</string>
@@ -221,6 +223,7 @@
     <string name="mi_account_ok">Logg inn</string>
     <string name="mi_account_title">Logg inn med Mi Account</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
@@ -293,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -333,6 +337,7 @@
     <string name="no_records">Fortsatt ingen opptak her</string>
     <string name="noon">Midt på dagen</string>
     <string name="normal_settings_pref_title">Generelle innstillinger</string>
+    <string name="not_allowed">Ikke gitt</string>
     <string name="not_set">Ikke angitt</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse</string>
     <string name="notification_playback">Spiller…</string>
@@ -378,6 +383,15 @@
     <string name="pay_error_cancel">Betalingen ble avbrutt</string>
     <string name="pay_error_null">Kunne ikke fullføre betalingen. Sjekk kontoen din.</string>
     <string name="pay_error_unknown">Ukjent feil</string>
+    <string name="permission_desc">Detaljer for tillatelser</string>
+    <string name="permission_dialog_cancel">Avbryt</string>
+    <string name="permission_dialog_ok">Innstillinger</string>
+    <string name="permission_record">Ta opp lyd</string>
+    <string name="permission_record_description">For å tilby tjenester for lydopptak</string>
+    <string name="permission_storage">Tilgang til lagring</string>
+    <string name="permission_storage_description">For å administrere opptak og laste dem ned fra skyen</string>
+    <string name="permission_storage_description_for_download">For å laste ned opptak fra skyen</string>
+    <string name="permission_storage_description_for_manage_files">For administrering av opptak</string>
     <string name="play_speed">%1$.1fX hastighet</string>
     <string name="playback_delete_records">Slett opptak</string>
     <string name="playback_share_records">Del opptak</string>
@@ -390,7 +404,7 @@
     <string name="preference_led_indicator_prompt">Vis en blå indikator på låseskjermen og blinkende LED-lys under opptak</string>
     <string name="preference_online_orders">Ordre på nett</string>
     <string name="preference_recog_faqs">Transkribering på nett – OSS</string>
-    <string name="preference_recog_terms">Tjenestevilkår</string>
+    <string name="preference_recog_terms">Vilkår for bruk</string>
     <string name="preference_record_desktop_indicator_summary">Vis en blå indikator på startskjermen under opptak</string>
     <string name="preference_record_desktop_indicator_title">Startskjermindikator</string>
     <string name="preference_record_scenes_dialog_title">Velg opptakstype</string>
@@ -399,6 +413,8 @@
     <string name="preference_status_bar_indicator_prompt">Vis en blå indikator på låseskjermen under opptak</string>
     <string name="preference_tip_rename">Gi opptak navn manuelt</string>
     <string name="privacy_policy_title">Personvernerklæring</string>
+    <string name="privacy_settings">Personvern</string>
+    <string name="progress">Fremdriftslinje for avspilling</string>
     <string name="recognition_button_add_to_queue">Legg til kø</string>
     <string name="recognition_button_cancel">Ikke nå</string>
     <string name="recognition_button_start">Transkriber</string>
@@ -438,7 +454,7 @@
     <string name="recognize_choose_dialog_online_free_duration">Få de første 60 minuttene gratis</string>
     <string name="recognize_choose_dialog_online_price">%s CNY/time</string>
     <string name="recognize_choose_dialog_service_desp">Transkriberingstjenester er gitt av iflyrec.com</string>
-    <string name="recognize_choose_dialog_service_intruction">Tjenestevilkår</string>
+    <string name="recognize_choose_dialog_service_intruction">Vilkår for bruk</string>
     <string name="recognize_choose_dialog_title">Velg transkriberingsmetode</string>
     <string name="recognize_extra_price_desp">(Eksklusivt tilbud for Mi-brukere)</string>
     <string name="record">Opptak</string>
@@ -466,6 +482,7 @@
     <string name="record_mark_point">Marker %s</string>
     <string name="record_name_hour">.</string>
     <string name="record_name_minute">​</string>
+    <string name="record_permission_dialog_title">Mikrofontillatelser påkrevd</string>
     <string name="record_quliaty_preference_title">Opptakskvalitet</string>
     <string name="record_resotre">Gjenopprett opptak</string>
     <string name="recorder_record">Lyd</string>
@@ -498,6 +515,11 @@
     <string name="rename_no_more_tip">Ikke vis igjen</string>
     <string name="retry">Prøv igjen</string>
     <string name="runtime_permission_ungranted">Kan ikke bruker Opptaker på grunn av uinnvilgede tillatelser</string>
+    <string name="saf_permission_dialog_content">På grunn av Android-begrensninger trenger Opptaker tilgang til opptak laget av andre apper. Gi Opptaker tilgang til disse opptakene for å kunne vise dem.</string>
+    <string name="saf_permission_dialog_grant_permission_immediately">Innstillinger</string>
+    <string name="saf_permission_dialog_later">Nei takk</string>
+    <string name="saf_permission_dialog_no_more_tip">Ikke vis igjen</string>
+    <string name="saf_permission_dialog_title">Tillatelser er nødvendig</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
@@ -516,6 +538,7 @@
     <string name="search_tip_rename">Gi innspillinger navn manuelt</string>
     <string name="send">Send</string>
     <string name="service_instructions">Om iflyrec.com</string>
+    <string name="settings_saf_permission">Filadministrasjonstillatelser</string>
     <string name="share">Del</string>
     <string name="share_dialog_title">Del ved hjelp av</string>
     <string name="shortcut_records">Opptak</string>
@@ -536,6 +559,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Tar opp…</string>
     <string name="status_bar_recording_pause">Opptaker på pause</string>
+    <string name="storage_permission_dialog_title">Lagringstillatelser påkrevd</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
@@ -625,6 +649,7 @@
     <string name="user_feedback">Tilbakemelding</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
+    <string name="view_privacy">Vis personvernerklæring</string>
     <string name="webview_check_network">Nettverksinnstillinger</string>
     <string name="webview_data_error">En feil oppstod</string>
     <string name="webview_locating_fail">Kunne ikke finne plasseringen din</string>

@@ -72,7 +72,7 @@ Trykk for å se"</string>
     <string name="evening">Ettermiddag</string>
     <string name="expand_button_title">Avansert</string>
     <string name="first_using_mic_dialog_message">Skjermopptaker behøver tilgang til din mikrofon for å ta opp lyd. Tillat?</string>
-    <string name="first_using_mic_dialog_title">Nødvendig med tillatelse</string>
+    <string name="first_using_mic_dialog_title">Tillatelser er nødvendig</string>
     <string name="fixed_frame_rate">Fast bildefrekvens</string>
     <string name="fixed_frame_rate_summary">Å ta opp bilder med fast bildefrekvens forbedrer avspillingen på sosiale media-plattformer og reduserer batteritiden.</string>
     <string name="fmt_chinese_date">N月e</string>

@@ -176,4 +176,12 @@
         <item quantity="other">Undertekster har forsinkelse på %.1f sekunder</item>
         <item quantity="one">Undertekster har forsinkelse på %.1f sekund</item>
     </plurals>
+    <plurals name="toast_bookmark_max_size">
+        <item quantity="other">Legg til opptil %d bokmerker</item>
+        <item quantity="one">Legg til opptil %d bokmerke</item>
+    </plurals>
+    <plurals name="video_view_count">
+        <item quantity="other">%d visninger</item>
+        <item quantity="one">%d visning</item>
+    </plurals>
 </resources>

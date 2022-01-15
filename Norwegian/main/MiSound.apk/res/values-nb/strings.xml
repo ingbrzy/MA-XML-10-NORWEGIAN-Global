@@ -61,6 +61,9 @@
     <string name="dolby_dax_setting">Dolby-effekter</string>
     <string name="dolby_dax_title">Surround-lyd</string>
     <string name="early_morning">Morgen</string>
+    <string name="effect_3dsurround">Surround-lyd</string>
+    <string name="effect_3dsurround_summary">Forbedre dybden i lydgjengivelsen for øretelefoner og høyttalere</string>
+    <string name="effect_3dsurround_summary_headphone">Forbedre dybden i lydgjengivelsen for øretelefoner</string>
     <string name="empty" />
     <string name="end_wireless_transmission">Stopp</string>
     <string name="eq_auto">Tilpasset</string>
@@ -264,6 +267,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
