@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">om %d min</item>
+        <item quantity="one">om 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
     <plurals name="comment_model_watch_reply">
         <item quantity="other">Se %d svar</item>
         <item quantity="one">Se %d svar</item>
@@ -11,6 +47,42 @@
     <plurals name="follower">
         <item quantity="other">%d følgere</item>
         <item quantity="one">%d følger</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om 1 minutt</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="local_video_floder">
+        <item quantity="other">%d mapper</item>
+        <item quantity="one">%d mappe</item>
+    </plurals>
+    <plurals name="long_video_minute">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="long_video_season">
+        <item quantity="other">%d sesonger</item>
+        <item quantity="one">%d sesong</item>
     </plurals>
     <plurals name="lv_subtitle_offset_advance_times">
         <item quantity="other">Undertekster vil vises %.1f sekunder senere</item>
@@ -28,9 +100,25 @@
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="mangotv_feature_list_title1">
+        <item quantity="other">%1$1d av %2$2d episoder tilgjengelig</item>
+        <item quantity="one">%1$1d av %2$2d episode tilgjengelig</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title2">
+        <item quantity="other">%1$1d av %2$2d episoder tilgjengelig</item>
+        <item quantity="one">%1$1d av %2$2d episode tilgjengelig</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title_all">
+        <item quantity="other">%d episoder totalt</item>
+        <item quantity="one">%d episode totalt</item>
+    </plurals>
     <plurals name="mediation_animate_close_after">
         <item quantity="other">%s sek igjen</item>
         <item quantity="one">%s sek igjen</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Innholdet ditt inneholder elementer (%1$s) som bryter med standardene i samfunnet vårt. Kontoen din er suspendert i %2$d dager til %3$s.</item>
@@ -39,6 +127,10 @@
     <plurals name="notification_close_tip">
         <item quantity="other">Denne funksjonen blir deaktivert i %s dager</item>
         <item quantity="one">Denne funksjonen blir deaktivert i %s dag</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
     </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d videoer</item>
@@ -95,5 +187,13 @@
     <plurals name="subtitle_offset_delay_times">
         <item quantity="other">Undertekster har forsinkelse på %.1f sekunder</item>
         <item quantity="one">Undertekster har forsinkelse på %.1f sekund</item>
+    </plurals>
+    <plurals name="toast_bookmark_max_size">
+        <item quantity="other">Legg til opptil %d bokmerker</item>
+        <item quantity="one">Legg til opptil %d bokmerke</item>
+    </plurals>
+    <plurals name="video_view_count">
+        <item quantity="other">%d visninger</item>
+        <item quantity="one">%d visning</item>
     </plurals>
 </resources>

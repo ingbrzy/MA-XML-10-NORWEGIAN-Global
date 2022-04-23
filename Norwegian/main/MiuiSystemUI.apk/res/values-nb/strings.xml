@@ -131,6 +131,7 @@
     <string name="accessibility_keyguard_face_unlock_view">Ansiktsopplåsning</string>
     <string name="accessibility_left_control_center_button">Snarvei</string>
     <string name="accessibility_left_lock_screen_magazine_button">Bakgrunnskarusell</string>
+    <string name="accessibility_left_xmyzl_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Aktive stedsforespørsler</string>
     <string name="accessibility_long_click_tile">Åpne innstillingene</string>
     <string name="accessibility_manage_notification">Administrer varsler</string>
@@ -164,7 +165,7 @@
     <string name="accessibility_phone_two_bars">Telefon – to stolper.</string>
     <string name="accessibility_qs_edit_add_tile_label">%1$s. Dobbelttrykk for å legge til.</string>
     <string name="accessibility_qs_edit_move_tile">Flytt %1$s</string>
-    <string name="accessibility_qs_edit_position_label">Posisjon %1$d . Dobbelklikk for å velge.</string>
+    <string name="accessibility_qs_edit_position_label">Posisjon %1$d. Dobbelklikk for å velge.</string>
     <string name="accessibility_qs_edit_remove_tile">Fjern %1$s</string>
     <string name="accessibility_qs_edit_tile_add">Legg til %1$s i posisjon %2$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s er lagt til posisjon %2$d</string>
@@ -282,6 +283,7 @@
     <string name="accessor_expires_text">Leieavtale utløper om %s</string>
     <string name="accessor_info_title">Apper som deler data</string>
     <string name="accessor_no_description_text">Ingen beskrivelser levert av appen.</string>
+    <string name="actionbar_button_up_description">Tilbake</string>
     <string name="activate_usb_message">For å aktivere denne funksjonen, sett inn SIM-kortet ditt.</string>
     <string name="activate_usb_title">Aktiver USB</string>
     <string name="active_input_method_subtypes">Aktive inndatametoder</string>
@@ -319,6 +321,7 @@
     <string name="adbwifi_warning_title">Tillat trådløs feilsøking?</string>
     <string name="add_tile">Legg til felt</string>
     <string name="adjust_button_width">Juster bredden på knappen</string>
+    <string name="afternoon">Ettermiddag</string>
     <string name="airplane_mode">Flymodus</string>
     <string name="alarm_template">kl. %1$s</string>
     <string name="alarm_template_far">%1$s</string>
@@ -326,6 +329,7 @@
     <string name="allow_mock_location_summary">Tillat falske plasseringer</string>
     <string name="always_use_accessory">Åpne alltid %1$s når %2$s er koblet til</string>
     <string name="always_use_device">Åpne alltid %1$s når %2$s er koblet til</string>
+    <string name="am">AM</string>
     <string name="animator_duration_scale_title">Varighetsskala for animator</string>
     <string name="apn_settings_not_available">Access Point Name-innstillinger er ikke tilgjengelig for denne brukeren</string>
     <string name="app_accessed_mic">%1$s fikk tilgang til mikrofonen din</string>
@@ -560,6 +564,7 @@ Valg"</string>
     <string name="cell_data_off">Av</string>
     <string name="cell_data_off_content_description">Mobildata er slått av</string>
     <string name="charge_length_format">%1$s siden</string>
+    <string name="choose_clock_dual_clock_hint_text">Kan ikke endre format når Dobbel klokke er aktivert</string>
     <string name="choose_clock_panel_title">Oppsett på låseskjerm</string>
     <string name="choose_clock_third_theme_hint_text">Låseskjerm fra det nåværende brukte temaet</string>
     <string name="choose_clock_title_left_top">Venstrejustert</string>
@@ -568,6 +573,7 @@ Valg"</string>
     <string name="choose_profile">Velg profil</string>
     <string name="clear_adb_keys">Inndra USB-feilsøkingsautorisasjoner</string>
     <string name="clear_all_notifications_text">Fjern alt</string>
+    <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="click_to_enter_text">Trykk for å se</string>
     <string name="clipboard">Utklippstavle</string>
     <string name="clock">Klokke</string>
@@ -577,6 +583,7 @@ Valg"</string>
     <string name="clock_title_analog">Analog</string>
     <string name="clock_title_bubble">Boble</string>
     <string name="clock_title_default">Standard</string>
+    <string name="close">Lukk</string>
     <string name="compat_mode_off">Strekk for å fylle skjerm</string>
     <string name="compat_mode_on">Zoom for å fylle skjermen</string>
     <string name="confirm">OK</string>
@@ -671,6 +678,11 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="data_usage_ota">Systemoppdateringer</string>
     <string name="data_usage_uninstalled_apps">Slettede apper</string>
     <string name="data_usage_uninstalled_apps_users">Slettede apper og brukere</string>
+    <string name="date_picker_label_day" />
+    <string name="date_picker_label_month" />
+    <string name="date_picker_label_year" />
+    <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
+    <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="debug_app">Velg feilsøkingsapp</string>
     <string name="debug_app_not_set">Feilsøkingsapp er ikke angitt</string>
     <string name="debug_app_set">Feilsøkingsapplikasjon: %1$s</string>
@@ -703,6 +715,9 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="development_settings_not_available">Utvikleralternativer er ikke tilgjengelig for denne brukeren</string>
     <string name="development_settings_summary">Angi alternativer for apputvikling</string>
     <string name="development_settings_title">Utvikleralternativer</string>
+    <string name="device_locked_without_biometric">Kan ikke låse opp enheten med fingeravtrykk eller ansiktsdata når du bruke en skjermlås fra en tredjepart</string>
+    <string name="device_locked_without_biometric_face">Kan ikke låse opp enheten med ansiktsdata når du bruke en skjermlås fra en tredjepart</string>
+    <string name="device_locked_without_biometric_finger">Kan ikke låse opp enheten med fingeravtrykk når du bruke en skjermlås fra en tredjepart</string>
     <string name="device_services">Enhetstjenester</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Merk: Etter en omstart kan ikke denne appen startes opp før du låser opp enheten.</string>
@@ -717,8 +732,8 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="dnd_is_off">Ikke forstyrr er av</string>
     <string name="dnd_notification_warnings_title">Ikke forstyrr er aktivert. Varsler er dempet og vibrering er deaktivert.</string>
     <string name="dnd_suppressing_shade_text">Varsler er satt på pause av «Ikke forstyrr»</string>
-    <string name="do_disclosure_generic">This device belongs to your organization</string>
-    <string name="do_disclosure_with_name">This device belongs to %s</string>
+    <string name="do_disclosure_generic">Denne enheten tilhører organisasjonen din</string>
+    <string name="do_disclosure_with_name">Denne enheten tilhører %s</string>
     <string name="do_not_silence">Ikke slå av lyden</string>
     <string name="do_not_silence_block">Ikke slå av lyden eller blokkér anrop</string>
     <string name="dock_alignment_not_charging">Juster telefonen for å lade trådløst</string>
@@ -730,7 +745,9 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="drag_to_rearrange_tiles">Hold og dra for å flytte på rutene</string>
     <string name="drag_to_remove_disabled">Du trenger minst %1$d infobrikker</string>
     <string name="drag_to_remove_tiles">Dra hit for å fjerne</string>
+    <string name="early_morning">Morgen</string>
     <string name="emergency_call_string">Nødssituasjon</string>
+    <string name="empty" />
     <string name="empty_shade_text">Ingen varsler</string>
     <string name="enable_adb">USB-feilsøking</string>
     <string name="enable_adb_summary">Bytt til feilsøkingsmodus når USB er tilkoblet</string>
@@ -752,9 +769,12 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="enabled_by_admin">Aktivert av administratoren</string>
     <string name="enhanced_connectivity">Forbedret tilkobling</string>
     <string name="enhanced_connectivity_summary">Aktiverer funksjonen for forbedret tilkobling.</string>
+    <string name="eras_ad">e.Kr.</string>
+    <string name="eras_bc">f.Kr.</string>
     <string name="error_disable_esim_msg">E-SIM-kortet kan ikke deaktiveres på grunn av en feil.</string>
     <string name="error_disable_esim_title">Kan ikke deaktivere e-SIM-kortet</string>
     <string name="ethernet_label">Ethernet</string>
+    <string name="evening">Ettermiddag</string>
     <string name="expand_button_title">Avansert</string>
     <string name="expanded_header_battery_charged">Oppladet</string>
     <string name="expanded_header_battery_charging">Lader</string>
@@ -778,20 +798,86 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="face_unlock_pin_and_fingerprint">Skriv inn PIN-kode eller bruk fingeravtrykk for å låse opp</string>
     <string name="face_unlock_reveal_eye">Gjør øynene dine synlige</string>
     <string name="face_unlock_reveal_mouth">Gjør leppene dine synlige</string>
+    <string name="face_unlock_success">Låst opp</string>
+    <string name="face_unlock_swipe_up_retry">Sveip opp for å prøve igjen</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åpne innstillinger for %1$s</string>
     <string name="fingerprint_add_text">Fingeravtrykkgrensesnittet ble oppdatert. Legg til fingeravtrykket ditt på ny.</string>
     <string name="fingerprint_add_title">Legg til fingeravtrykk</string>
     <string name="fingerprint_again_identified_msg">Ditt fingeravtrykk er aktivt nå. Bruk det til å låse opp enheten, eller skriv inn passordet.</string>
+    <string name="fingerprint_again_identified_msg_password">"Fingeravtrykket er aktivt nå.
+Bruk det til å låse opp enheten, eller angi passordet."</string>
+    <string name="fingerprint_again_identified_msg_pattern">"Fingeravtrykket er aktivt nå.
+Bruk det til å låse opp enheten, eller tegn mønsteret ditt."</string>
+    <string name="fingerprint_again_identified_msg_pin">"Fingeravtrykket er aktivt nå.
+Bruk det til å låse opp enheten, eller angi PIN-koden."</string>
     <string name="fingerprint_dialog_touch_sensor">Trykk på fingeravtrykkssensoren</string>
     <string name="fingerprint_enter_second_psw_msg">Skriv inn passordet for den sekundære lagringsplassen etter at du har startet enheten din på ny, for å kunne bruke fingeravtrykk-gjenkjennelse</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Kan ikke gå inn på sekundær lagringsplass mens man er i Lite-modus</string>
     <string name="fingerprint_enter_second_psw_title">Skriv inn passord for sekundært lagringssted</string>
     <string name="fingerprint_not_identified_msg">For mange mislykkede forsøk. Skriv inn passord nå eller prøv å bruke fingeravtrykket igjen om noen få sekunder.</string>
     <string name="fingerprint_not_identified_msg_lock">For mange mislykkede forsøk. Tast inn passordet nå.</string>
+    <string name="fingerprint_not_identified_msg_password">"For mange mislykkede forsøk.
+Angi passord for å låse opp."</string>
+    <string name="fingerprint_not_identified_msg_pattern">"For mange mislykkede forsøk.
+Tegn mønsteret ditt for å låse opp."</string>
+    <string name="fingerprint_not_identified_msg_pin">"For mange mislykkede forsøk.
+Angi PIN-kode for å låse opp."</string>
     <string name="fingerprint_not_identified_title">Tast inn passord</string>
     <string name="fingerprint_try_again_msg">Kunne ikke verifisere fingeravtrykk, prøv igjen.</string>
     <string name="fingerprint_try_again_text">Prøv igjen</string>
     <string name="float_notification_snooze_strategy">Skjul flytende varsler midlertidig</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">dd</string>
+    <string name="fmt_date_long_month">MMMM</string>
+    <string name="fmt_date_long_month_day">dd. MMMM</string>
+    <string name="fmt_date_long_year_month">MMMM yyyy</string>
+    <string name="fmt_date_long_year_month_day">dd. MMMM yyyy</string>
+    <string name="fmt_date_numeric_day">dd</string>
+    <string name="fmt_date_numeric_month">MM</string>
+    <string name="fmt_date_numeric_month_day">dd.MM</string>
+    <string name="fmt_date_numeric_year">yyyy</string>
+    <string name="fmt_date_numeric_year_month">MM.yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
+    <string name="fmt_date_short_month">MM</string>
+    <string name="fmt_date_short_month_day">dd.MM</string>
+    <string name="fmt_date_short_year_month">MMM yyyy</string>
+    <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
+    <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">hh</string>
+    <string name="fmt_time_12hour_minute">hh:mm</string>
+    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
+    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
+    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S aa</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss aa</string>
+    <string name="fmt_time_12hour_pm">hh aa</string>
+    <string name="fmt_time_24hour">H</string>
+    <string name="fmt_time_24hour_minute">HH:mm</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
+    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
+    <string name="fmt_time_millis">S</string>
+    <string name="fmt_time_minute">m</string>
+    <string name="fmt_time_minute_second">m:s</string>
+    <string name="fmt_time_minute_second_millis">m:s.S</string>
+    <string name="fmt_time_second">s</string>
+    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_long">EEEE</string>
+    <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="force_allow_on_external">Tving tiillatelse for apper å skrive på ekstern lagringsplass</string>
     <string name="force_allow_on_external_summary">Kvalifiserer alle apper til å skrives til ekstern lagring, uavhengig av manifest-verdier</string>
     <string name="force_msaa">Tving 4x MSAA</string>
@@ -802,10 +888,14 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="force_rtl_layout_all_locales_summary">Tving skjermoppsettretning til RTL for alle områder</string>
     <string name="forced_resizable_secondary_display">Appen fungerer kanskje ikke på en sekundær skjerm.</string>
     <string name="forget_password_string">Glemt passord</string>
+    <string name="friday">Fredag</string>
+    <string name="friday_short">Fre</string>
+    <string name="friday_shortest">Fre</string>
     <string name="fs_gesture_back_home_summary">Trekk raskt fra bunnen</string>
     <string name="fs_gesture_back_ready_title">Gå tilbake</string>
     <string name="fs_gesture_final_over">Jeg er ferdig</string>
     <string name="fs_gesture_final_restart">En gang til</string>
+    <string name="fs_gesture_final_see_more">Se flere demoer under Innstillinger > Startskjerm > Systemnavigasjon</string>
     <string name="fs_gesture_final_summary">Du kan skifte tilbake til å bruke knapper i Innstillinger > Fullskjermvisning</string>
     <string name="fs_gesture_final_title">Du er klar!​</string>
     <string name="fs_gesture_finish">Bra!</string>
@@ -836,28 +926,6 @@ Hvis du fortsetter, kan avgifter for databruk påløpe."</string>
     <string name="guest_wipe_session_wipe">Start på nytt</string>
     <string name="gxzw_area">Fingeravtrykk-skanner</string>
     <string name="gxzw_press_harder">Trykk litt hardere</string>
-    <string name="gxzw_quick_close">Lukk</string>
-    <string name="gxzw_quick_open_add_event">Legg til hendelse</string>
-    <string name="gxzw_quick_open_add_event_sub">Kalender</string>
-    <string name="gxzw_quick_open_alipay_pay">Betalingskode</string>
-    <string name="gxzw_quick_open_alipay_pay_sub">AliPay</string>
-    <string name="gxzw_quick_open_alipay_scan">Skanner</string>
-    <string name="gxzw_quick_open_alipay_scan_sub">AliPay</string>
-    <string name="gxzw_quick_open_qr_code">QR-kode</string>
-    <string name="gxzw_quick_open_qr_code_sub">Skanner</string>
-    <string name="gxzw_quick_open_search">Søk</string>
-    <string name="gxzw_quick_open_search_sub">Nettleser</string>
-    <string name="gxzw_quick_open_skip_teach">Hopp over veiledningen</string>
-    <string name="gxzw_quick_open_title">Åpnet snarveimeny</string>
-    <string name="gxzw_quick_open_wechat_pay">Betalingskode</string>
-    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
-    <string name="gxzw_quick_open_wechat_scan">Skanner</string>
-    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
-    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
-    <string name="gxzw_quick_open_xiaoai_title1">Si navnet på appen du vil åpne</string>
-    <string name="gxzw_quick_open_xiaoai_title2">Si navnet på funksjonen du vil bruke</string>
-    <string name="gxzw_quick_tip_press">Fortsett å trykke…</string>
-    <string name="gxzw_quick_tip_slide">Ikke løft opp fingeren din. Sveip for å velge.</string>
     <string name="gxzw_try_again">Prøv igjen</string>
     <string name="gxzw_try_more_again">Prøv igjen</string>
     <string name="gxzw_use_password">Bruk passordet ditt til å låse opp</string>
@@ -898,7 +966,7 @@ Telefonen kommer til å kjøre som normalt, når den har kjølt seg ned."</strin
     <string name="ims_reg_status_not_registered">Ikke registrert</string>
     <string name="ims_reg_status_registered">Registrert</string>
     <string name="ims_reg_title">IMS-registreringsstatus</string>
-    <string name="imsi_protection_warning">Dette nettverket mottar en unik ID som kan brukes til å spore enhetsposisjonen. <annotation id="url">Finn ut mer</annotation></string>
+    <string name="imsi_protection_warning">Dette nettverket mottar en SIM-ID som kan brukes til å spore enhetsposisjonen. <annotation id="url">Finn ut mer</annotation></string>
     <string name="inactive_app_active_summary">Aktiv. Trykk for å veksle.</string>
     <string name="inactive_app_inactive_summary">Inaktiv. Trykk for å veksle.</string>
     <string name="inactive_apps_title">Inaktive apper</string>
@@ -926,13 +994,15 @@ Vil du fortsette å vise dem?"</string>
     <string name="input_lockscreen_password_hint_text">Skriv inn passord</string>
     <string name="input_lockscreen_pattern_hint_text">Tegn et mønster</string>
     <string name="input_lockscreen_pin_hint_text">Skriv inn PIN-kode</string>
-    <string name="input_password_after_boot_msg">For å låse opp enheten, skriv inn passordet ditt</string>
+    <string name="input_password_after_boot_msg">Det er nødvendig å angi passordet når enheten starter på nytt</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Kan ikke bytte sted under en telefonsamtale</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke bytte mellom områder mens foreldrekontrollen er skrudd på</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Kan ikke bytte mellom områder når ‘Ultrabatterisparer’ er på</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Du må gå inn på det Første lagringsstedet etter at enheten er omstartet</string>
     <string name="input_password_hint_text">Skriv inn passord</string>
+    <string name="input_pattern_after_boot_msg">Det er nødvendig å tegne mønsteret når enheten starter på nytt</string>
     <string name="input_pattern_hint_text">Tegn ditt opplåsningsmønster</string>
+    <string name="input_pin_after_boot_msg">Det er nødvendig å angi PIN-koden når enheten starter på nytt</string>
     <string name="input_pin_code">Skriv inn PIN-kode</string>
     <string name="input_puk_code">Oppgi PUK</string>
     <string name="install_other_apps">Installer ukjente apper</string>
@@ -1011,7 +1081,8 @@ Prioritet"</string>
     <string name="keyguard_charged">Oppladet</string>
     <string name="keyguard_charging_back_to_lockscreen">Tilbake til låst skjerm</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
-    <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
+    <string name="keyguard_charging_double_fast_and_level_tip">Øker ladehastigheten med %s</string>
+    <string name="keyguard_charging_info_last_charge_time">dd.MM H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">I går %s</string>
     <string name="keyguard_charging_normal_and_level_tip">Lader %d%%</string>
@@ -1029,6 +1100,7 @@ Prioritet"</string>
     <string name="keyguard_indication_trust_unlocked_plugged_in">"%1$s
 %2$s"</string>
     <string name="keyguard_instructions_when_pattern_disabled">Trykk på menyknappen for å låse opp.</string>
+    <string name="keyguard_invalid_sim_puk_hint">PUK-koden må inneholde %1$d sifre.</string>
     <string name="keyguard_left_mi_wallet">Mi Wallet</string>
     <string name="keyguard_left_torch">Lommelykt</string>
     <string name="keyguard_left_view_lock_wallpaper">Bakgrunnskarusell</string>
@@ -1037,6 +1109,7 @@ Prioritet"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort mangler eller er uleselig. Sett inn et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Telefonen mangler SIM-kort.</string>
     <string name="keyguard_missing_sim_message_short">SIM-kort mangler</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nettverket er låst</string>
     <string name="keyguard_password_enter_password_code">Skriv inn passordet for å låse opp</string>
     <string name="keyguard_password_enter_pin_code">Skriv inn PIN-koden</string>
@@ -1078,7 +1151,7 @@ Ta kontakt med leverandøren av trådløstjenesten for å få et nytt SIM-kort."
     <string name="kg_invalid_confirm_pin_hint">PIN-kodene stemmer ikke overens</string>
     <string name="kg_invalid_puk">Skriv inn den riktige PUK-koden på nytt. Gjentatte forsøk deaktiverer SIM-kortet permanent.</string>
     <string name="kg_invalid_sim_pin_hint">Skriv inn en PIN-kode på fire til åtte sifre.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK-koden må inneholde 8 siffer.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-koden skal være på åtte eller flere sifre.</string>
     <string name="kg_login_too_many_attempts">For mange forsøk på tegning av mønster</string>
     <string name="kg_password_instructions">Skriv inn passordet</string>
     <string name="kg_password_pin_failed">PIN-koden for SIM-kortet ble avvist.</string>
@@ -1172,6 +1245,7 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="local_backup_password_toast_confirmation_mismatch">Passord samsvarer ikke</string>
     <string name="local_backup_password_toast_success">Nytt sikkerhetskopipassord er angitt</string>
     <string name="local_backup_password_toast_validation_failure">Kan ikke angi sikkerhetskopipassord</string>
+    <string name="lock_screen_access_to_5G">Tilgang til 5G</string>
     <string name="lock_screen_carrier_airplane_mode_on">Flymodus</string>
     <string name="lock_screen_date">EEEE d. MMMM</string>
     <string name="lock_screen_date_12">EEEE d. MMMM</string>
@@ -1222,6 +1296,7 @@ d. MMMM"</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="menu_ime">Bytteknapp for tastatur</string>
     <string name="mic_active">Mikrofonen er aktiv</string>
+    <string name="midnight">Natt</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst opp av Bluetooth-enhet</string>
     <string name="miui_notification_menu_aggregate_feedback">Tilbakemelding</string>
     <string name="miui_notification_menu_allow">Tillat</string>
@@ -1230,10 +1305,12 @@ d. MMMM"</string>
     <string name="miui_notification_menu_more_setting">Mer</string>
     <string name="miui_notification_menu_msg_fold">Grupper alle varsler fra %1$s sammen?</string>
     <string name="miui_notification_menu_msg_not_allow">Begrense alle varsler fra %1$s?</string>
+    <string name="miui_notification_menu_msg_unfold">Vise varsler for %1$s separat?</string>
     <string name="miui_notification_menu_setting_success">Ferdig</string>
     <string name="miui_notification_menu_snooze">Utsett</string>
     <string name="miui_notification_menu_title_not_allow">Begrens</string>
-    <string name="miui_screen_rotation_freeze_message">Skjermretningen er låst i landskapsmodus</string>
+    <string name="miui_notification_menu_unfold">Marker som viktig</string>
+    <string name="miui_screen_rotation_freeze_message">Låst skjermretning i landskapsmodus</string>
     <string name="miui_snooze_always_float">Ikke skjul</string>
     <string name="miui_snooze_cancel">Avbryt</string>
     <string name="miui_snooze_default_time">I %d minutt</string>
@@ -1241,8 +1318,24 @@ d. MMMM"</string>
     <string name="miui_snooze_toast_hint_default">"Kommende varsler blir skjult i %d minutt. "</string>
     <string name="miui_snooze_toast_hint_until_unlock_screen">"Kommende varsler blir skjult til enheten er låst. "</string>
     <string name="miui_snooze_until_unlock_screen">Til låst</string>
-    <string name="miui_snooze_user_set_fail">Gi til Innstillinger > Varsler &amp; Kontrollsenter for flere alternativer</string>
-    <string name="miui_snooze_user_set_success">Lagt til. Gi til Innstillinger > Varsler &amp; Kontrollsenter for flere alternativer.</string>
+    <string name="miui_snooze_user_set_fail">Gi til Innstillinger > Varsler og Kontrollsenter for flere alternativer</string>
+    <string name="miui_snooze_user_set_success">Lagt til. Gi til Innstillinger > Varsler og Kontrollsenter for flere alternativer.</string>
+    <string name="miui_unimportant_notifications">Uviktige varsler</string>
+    <string name="miuix_access_state_desc">Valgt</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
+    <string name="miuix_appcompat_cancel_description">Avbryt</string>
+    <string name="miuix_appcompat_confirm_description">Bekreft</string>
+    <string name="miuix_appcompat_delete_description">Slett</string>
+    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
+    <string name="miuix_appcompat_search_input_description">Søk</string>
+    <string name="miuix_appcompat_select_all">Velg alle</string>
+    <string name="miuix_appcompat_select_all_description">Velg alle</string>
+    <string name="miuix_appcompat_select_item">Velg elementer</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
@@ -1262,6 +1355,9 @@ d. MMMM"</string>
     <string name="mock_location_app">Velg app for falsk plassering</string>
     <string name="mock_location_app_not_set">Ingen valgt app for falsk plassering</string>
     <string name="mock_location_app_set">App for falsk plassering: %1$s</string>
+    <string name="monday">Mandag</string>
+    <string name="monday_short">Man</string>
+    <string name="monday_shortest">Man</string>
     <string name="monitoring_button_view_policies">Se retningslinjer</string>
     <string name="monitoring_description_app">Enheten er koblet til %1$s, som kan overvåke nettverksaktiviteten din, inkludert e-post, apper og nettsteder.</string>
     <string name="monitoring_description_app_personal">Enheten er koblet til %1$s, som kan overvåke den personlige nettverksaktiviteten din, inkludert e-post, apper og nettsteder.</string>
@@ -1272,12 +1368,14 @@ Du er også koblet til %3$s, som kan overvåke den personlige nettverksaktivitet
 
 Ta kontakt med administratoren hvis du vil ha mer informasjon."</string>
     <string name="monitoring_description_ca_cert_settings">Åpne pålitelig legitimasjon</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En sertifiseringsinstans er installert på denne enheten. Den sikre nettverkstrafikken din kan overvåkes eller endres.</string>
     <string name="monitoring_description_do_body">Administratoren din kan overvåke og administrere innstillinger, bedriftstilgang, apper, data som er tilknyttet denne enheten, og enhetens posisjonsinformasjon.</string>
     <string name="monitoring_description_do_body_vpn">Enheten er koblet til %1$s, som kan overvåke nettverksaktiviteten din, inkludert e-post, apper og nettsteder.</string>
     <string name="monitoring_description_do_header_generic">Enheten din administreres av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruker %2$s til å administrere enheten din.</string>
     <string name="monitoring_description_do_learn_more">Finn ut mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisasjonen din installerte en sertifiseringsinstans i jobbprofilen din. Den sikre nettverkstrafikken din kan overvåkes eller endres.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Jobbprofilen din er koblet til %1$s, som kan overvåke nettverksaktiviteten din, inkludert e-poster, apper og nettsteder.</string>
     <string name="monitoring_description_management">"Denne enheten tilhører organisasjonen din.
@@ -1309,12 +1407,51 @@ Kontakt administratoren for mer informasjon.
 
 Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</string>
     <string name="monitoring_description_vpn_settings">Åpne VPN-innstillingene</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-sertifikater</string>
     <string name="monitoring_subtitle_network_logging">Loggføring av nettverk</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
     <string name="monitoring_title">Nettverksovervåking</string>
     <string name="monitoring_title_device_owned">Enhetsadministrasjon</string>
     <string name="monitoring_title_profile_owned">Profilovervåking</string>
+    <string name="month_april">April</string>
+    <string name="month_april_short">Apr</string>
+    <string name="month_april_shortest">Apr</string>
+    <string name="month_august">August</string>
+    <string name="month_august_short">Aug</string>
+    <string name="month_august_shortest">Aug</string>
+    <string name="month_december">Desember</string>
+    <string name="month_december_short">Des</string>
+    <string name="month_december_shortest">Des</string>
+    <string name="month_february">Februar</string>
+    <string name="month_february_short">Feb</string>
+    <string name="month_february_shortest">Feb</string>
+    <string name="month_january">Januar</string>
+    <string name="month_january_short">Jan</string>
+    <string name="month_january_shortest">Jan</string>
+    <string name="month_july">Juli</string>
+    <string name="month_july_short">Jul</string>
+    <string name="month_july_shortest">Jul</string>
+    <string name="month_june">Juni</string>
+    <string name="month_june_short">Jun</string>
+    <string name="month_june_shortest">Jun</string>
+    <string name="month_march">Mars</string>
+    <string name="month_march_short">Mar</string>
+    <string name="month_march_shortest">Mar</string>
+    <string name="month_may">Mai</string>
+    <string name="month_may_short">Mai</string>
+    <string name="month_may_shortest">Mai</string>
+    <string name="month_november">November</string>
+    <string name="month_november_short">Nov</string>
+    <string name="month_november_shortest">Nov</string>
+    <string name="month_october">Oktober</string>
+    <string name="month_october_short">Okt</string>
+    <string name="month_october_shortest">Okt</string>
+    <string name="month_september">September</string>
+    <string name="month_september_short">Sep</string>
+    <string name="month_september_shortest">Sep</string>
+    <string name="more">Mer</string>
+    <string name="morning">Morgen</string>
     <string name="mr_button_content_description">Cast-ikonet</string>
     <string name="mr_cast_button_connected">Cast-ikonet. Tilkoblet</string>
     <string name="mr_cast_button_connecting">Cast-ikonet. Kobler til</string>
@@ -1339,13 +1476,17 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="mr_dialog_transferable_header">Spill i en gruppe</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Enheter</string>
+    <string name="msim_set_sub_not_supported_phone_in_call">Kan ikke angi under anrop</string>
     <string name="music_controls_no_title">Ingen tittel</string>
     <string name="nav_bar">Navigasjonsrad</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Oppsett</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
+    <string name="night">Kveld</string>
     <string name="no_application">Ingen</string>
     <string name="no_auto_saver_action">Nei takk</string>
     <string name="no_shortcut">%1$s støtter ikke samtalefunksjoner</string>
+    <string name="noon">Midt på dagen</string>
     <string name="not_default_data_content_description">Ikke konfigurert til å bruke data</string>
     <string name="not_set">Ikke angitt</string>
     <string name="notification_alert_title">Standard</string>
@@ -1414,6 +1555,7 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="open_lock_screen_magazine_hint_text">Sveip til høyre for flere alternativer</string>
     <string name="open_remote_center_hint_text">Sveip høyre for å se kontroller</string>
     <string name="open_saver_setting_action">Innstillinger</string>
+    <string name="open_xmyzl_hint_text">Sveip til høyre for å åpne Xiaomi Magic Control</string>
     <string name="orb_search_action">Søkehandling</string>
     <string name="osu_completing_sign_up">Fullfører registrering…</string>
     <string name="osu_connect_failed">Kan ikke koble til</string>
@@ -1431,6 +1573,8 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="overlay_display_devices_title">Simuler sekundære skjermer</string>
     <string name="overview">Oversikt</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Joes Android</string>
+    <string name="pad_zen_mode_warnings_all_time_content">Varsler blir dempet</string>
+    <string name="pad_zen_mode_warnings_keyguard_content">Varsler blir dempet når enheten er låst</string>
     <string name="phone_hint">Sveip ikonet for å åpne telefon</string>
     <string name="phone_label">åpne telefonen</string>
     <string name="phone_locked_foget_password">Glemt passord?</string>
@@ -1439,10 +1583,12 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="phone_locked_foget_password_method_content">&lt;Data>Du må &lt;font color=#a5220e>slette alle data &lt;/font>på din enhet, inkludert bilder og kontakter, og deretter velge et nytt passord for låseskjermen.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Neste</string>
     <string name="phone_locked_foget_password_ok">Skjønner</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Skru av enheten din, trykk og hold &lt;font color=#a5220e>Startknappen&lt;/font> og &lt;font color=#a5220e>Volum opp-knappen&lt;/font> samtidig til du ser Mi-logoen.&lt;/Data></string>
-    <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Velg &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> og vent til enheten startes på ny.&lt;/Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Slå av enheten og trykk på og hold inne &lt;font color=#e6e6e6>[Av/på]&lt;/font>- og &lt;font color=#e6e6e6>[Volum+]&lt;/font>-knappen til du ser &lt;img src=\"\">.&lt;/Data></string>
+    <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Velg &lt;font color=#a5220e>\"Wipe og Reset\"&lt;/font> og vent til enheten startes på ny.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Hvordan slette data?</string>
     <string name="phone_locked_string">Denne enheten er låst</string>
+    <string name="phone_locked_string_owner_user">For mange mislykkede forsøk på å angi passord for Første område. Enheten er låst nå.</string>
+    <string name="phone_locked_string_second_user">For mange mislykkede forsøk på å angi passord for Andre område. Enheten er låst nå.</string>
     <string name="picture_color_mode">Bildefargemodus</string>
     <string name="picture_color_mode_desc">Bruk sRGB</string>
     <string name="pip_close">Lukk PIP</string>
@@ -1460,6 +1606,7 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="pip_play">Spill av</string>
     <string name="pip_skip_to_next">Hopp til neste</string>
     <string name="pip_skip_to_prev">Hopp til forrige</string>
+    <string name="pm">PM</string>
     <string name="pointer_location">Pekerposisjon</string>
     <string name="pointer_location_summary">Skjermoverlegg viser nåværende berøringsdata</string>
     <string name="power_discharge_by">Bør vare til omtrent %1$s (%2$s)</string>
@@ -1525,6 +1672,7 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="private_dns_mode_provider">Privat DNS-leverandør vertsnavn</string>
     <string name="private_dns_mode_provider_failure">Kan ikke koble til</string>
     <string name="private_dns_mode_provider_hostname_hint">Skriv inn vertsnavn på DNS-leverandør</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Problemer med å koble til. Slå av og på enheten</string>
     <string name="profile_info_settings_title">Profilinfo</string>
     <string name="profile_owned_footer">Profilen kan overvåkes</string>
@@ -1658,7 +1806,7 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="quick_settings_rotation_locked_landscape_label">Landskap</string>
     <string name="quick_settings_rotation_locked_portrait_label">Stående</string>
     <string name="quick_settings_rotation_unlocked_label">Rotér automatisk</string>
-    <string name="quick_settings_rotationlock_label">Rotering av</string>
+    <string name="quick_settings_rotationlock_label">Lås retning</string>
     <string name="quick_settings_rssi_emergency_only">Bare nødanrop</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screen_record_label">Skjermopptak</string>
@@ -1679,13 +1827,16 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="quick_settings_user_new_user">Ny bruker</string>
     <string name="quick_settings_user_title">Bruker</string>
     <string name="quick_settings_vibrate_label">Vibrer</string>
+    <string name="quick_settings_vowifi_label">WiFi-anrop</string>
+    <string name="quick_settings_vowifi_sim1_label">WiFi-anrop SIM1</string>
+    <string name="quick_settings_vowifi_sim2_label">WiFi-anrop SIM2</string>
     <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Øker hastighet</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Avbryt</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Bekreft</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_not_remind">Ikke spørr igjen</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_prompt">Bytter mellom nettverk</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_summary">Hastighetsøkning for dual band Wi-Fi må bruke to ulike Wi-Fi-bånd. Hvis du kobler til et annet hovednettverk mister du den sekundære tilkoblingen.</string>
-    <string name="quick_settings_wifi_detail_empty_text">Ingen tilgjengelige Wi-Fi-nettverk</string>
+    <string name="quick_settings_wifi_detail_empty_text">Ingen Wi-Fi-nettverk tilgjengelig</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_no_network">Ingen nettverk</string>
     <string name="quick_settings_wifi_not_connected">Ikke tilkoblet</string>
@@ -1716,6 +1867,9 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="running_process_item_user_label">Bruker: %1$s</string>
     <string name="runningservices_settings_summary">Se og kontroller tjenester som kjører for øyeblikket</string>
     <string name="runningservices_settings_title">Kjørende tjenester</string>
+    <string name="saturday">Lørdag</string>
+    <string name="saturday_short">Lør</string>
+    <string name="saturday_shortest">Lør</string>
     <string name="save">Lagre</string>
     <string name="saved_network">Lagret av %1$s</string>
     <string name="screen_pinning_can_open_other_apps">Den festede appen kan åpne andre apper.</string>
@@ -1791,6 +1945,7 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="select_webview_provider_dialog_title">Angi nettvisningsimplementering</string>
     <string name="select_webview_provider_title">Nettvisningsimplementering</string>
     <string name="select_webview_provider_toast_text">Dette valget er ikke lenger gyldig. Prøv igjen.</string>
+    <string name="send">Send</string>
     <string name="sensor_privacy_mode">Sensorer er av</string>
     <string name="shared_data_delete_failure_text">Det oppstod en feil under sletting av delte data.</string>
     <string name="shared_data_no_accessors_dialog_text">Det er ikke innhentet noen leieavtaler for disse delte dataene. Vil du slette dem?</string>
@@ -1816,6 +1971,8 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="show_silently">Vis varsler uten lyd</string>
     <string name="show_touches">Vis trykk</string>
     <string name="show_touches_summary">Vis visuell tilbakemelding for trykk</string>
+    <string name="shut_down_password_forget_password_suggesstion_one_content">&lt;Data>Trykk på og hold inne knappene &lt;font color=#e6e6e6>[Power]&lt;/font> og &lt;font color=#e6e6e6>[Volume +]&lt;/font> frem til du ser &lt;img src=\"\">&lt;/Data></string>
+    <string name="shut_down_password_forget_password_suggesstion_two_content">&lt;Data>Velg &lt;font color=#e6e6e6>[Slett data]&lt;/font> og trykk deretter på &lt;font color=#e6e6e6>[Reboot]&lt;/font>.&lt;/Data></string>
     <string name="sim_state_locked_dialog_title">Ugyldig SIM-kort</string>
     <string name="sim_state_locked_puk_dialog_message">Du har angitt feil PUK-kode minst %d ganger. SIM-kortet er ugyldig nå. Erstatt dette SIM-kortet med et annet.</string>
     <string name="simulate_color_space">Simuler fargeplass</string>
@@ -1837,21 +1994,24 @@ Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</strin
     <string name="ssl_ca_cert_warning">"Nettverket kan
 være overvåket"</string>
     <string name="standby_bucket_summary">App standby status: %s</string>
+    <string name="start_camera_error_try_again">Kunne ikke starte Kamera. Prøv igjen.</string>
     <string name="start_dreams">Skjermsparer</string>
     <string name="status_bar">Statusrad</string>
     <string name="status_bar_airplane">Flymodus</string>
     <string name="status_bar_alarm">Alarm</string>
     <string name="status_bar_clear_all_button">Fjern</string>
-    <string name="status_bar_clock_date_format">E, d MMM</string>
-    <string name="status_bar_clock_date_format_12">E, d MMM</string>
-    <string name="status_bar_clock_date_time_format">H:mm E, d, MMM</string>
-    <string name="status_bar_clock_date_time_format_12">h:mm aa, E, d, MMM</string>
-    <string name="status_bar_clock_date_weekday_format">EEEE dd. MMMM</string>
-    <string name="status_bar_clock_date_weekday_format_12">EEEE dd. MMMM</string>
+    <string name="status_bar_clock_date_format">E d. MMM</string>
+    <string name="status_bar_clock_date_format_12">E d. MMM</string>
+    <string name="status_bar_clock_date_time_format">H:mm, E d. MMM</string>
+    <string name="status_bar_clock_date_time_format_12">h:mm aa, E d. MMM</string>
+    <string name="status_bar_clock_date_weekday_format">EEEE d. MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12">EEEE d. MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
-MMM d"</string>
+d. MMM"</string>
     <string name="status_bar_date_format_12">"E
-d MMM"</string>
+d. MMM"</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_input_method_settings_configure_input_methods">Konfigurer inndatametoder</string>
     <string name="status_bar_latest_events_title">Varsler</string>
@@ -1886,6 +2046,9 @@ d MMM"</string>
     <string name="structure_face_data_input_error_overly_light">Bakgrunnsbelysningen er for sterk nå</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_separator">" / "</string>
+    <string name="sunday">Søndag</string>
+    <string name="sunday_short">Søn</string>
+    <string name="sunday_shortest">Søn</string>
     <string name="switch_bar_off">Av</string>
     <string name="switch_bar_on">På</string>
     <string name="switch_system_user">Tilbake til Første område</string>
@@ -1900,6 +2063,46 @@ d MMM"</string>
     <string name="tethering_hardware_offload">Binder sammen hardvareakslerasjon</string>
     <string name="tethering_hardware_offload_summary">Bruk sammenbinding av hardvareakslerasjon hvis tilgjengelig</string>
     <string name="tethering_settings_not_available">Delingsinnstillinger er ikke tilgjengelig for denne brukeren</string>
+    <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
+    <string name="the_anti_aggression_day">Antivoldsdagen</string>
+    <string name="the_arbor_day">Arbor Day</string>
+    <string name="the_armed_forces_day">De væpnede styrkers dag</string>
+    <string name="the_armys_day">PLA-dagen</string>
+    <string name="the_childrens_day">Barnas dag</string>
+    <string name="the_chinese_youth_day">Ungdomsdagen</string>
+    <string name="the_christmas_day">Jul</string>
+    <string name="the_double_ninth_festival">Den doble niende festen</string>
+    <string name="the_dragon_boat_festival">Dragebåtfesten</string>
+    <string name="the_easter_day">Påske</string>
+    <string name="the_eve_of_the_spring_festival">Kinesisk nyttårsaften</string>
+    <string name="the_fifth_day">Femte dagen av kinesisk nyttår</string>
+    <string name="the_fools_day">1. april</string>
+    <string name="the_forth_day">Fjerde dagen av kinesisk nyttår</string>
+    <string name="the_hksar_establishment_day">Etableringsdag for Hong Kong SAR</string>
+    <string name="the_international_womens_day">Kvinnedagen</string>
+    <string name="the_laba_festival">Laba-festen</string>
+    <string name="the_labour_day">Arbeidernes dag</string>
+    <string name="the_lantern_festival">Lanternefesten</string>
+    <string name="the_mid_autumn_festival">Midthøstfesten</string>
+    <string name="the_national_day">Nasjonaldagen</string>
+    <string name="the_national_father_day">Sun Yat-sens fødselsdag</string>
+    <string name="the_new_years_day">Nyttår</string>
+    <string name="the_night_of_sevens">Qixi-festen</string>
+    <string name="the_partys_day">CPC-dagen</string>
+    <string name="the_peace_day">Minnedagen</string>
+    <string name="the_retrocession_day">Retrocesjonsdagen</string>
+    <string name="the_second_day">Andre dagen av kinesisk nyttår</string>
+    <string name="the_seventh_day">Syvende dagen av kinesisk nyttår</string>
+    <string name="the_sixth_day">Sjette dagen av kinesisk nyttår</string>
+    <string name="the_spirit_festival">Spøkelsesfesten</string>
+    <string name="the_spring_festival">Kinesisk nyttår</string>
+    <string name="the_teachers_day">Lærernes dag</string>
+    <string name="the_third_day">Tredje dagen av kinesisk nyttår</string>
+    <string name="the_tw_childrens_day">Barnas dag</string>
+    <string name="the_tw_youth_day">Ungdomsdagen</string>
+    <string name="the_united_nations_day">FN-dagen</string>
+    <string name="the_valentines_day">Valentinsdagen</string>
+    <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
     <string name="thermal_shutdown_dialog_message">"Telefonen din var for varm, så den ble slått av for å kjøles ned. Telefonen din kjører nå som normalt.
 
 Telefonen kan blir for varm hvis du:
@@ -1908,10 +2111,18 @@ Telefonen kan blir for varm hvis du:
 \u0009• bruker telefonen ved høy temperatur"</string>
     <string name="thermal_shutdown_message">Telefonen din kjører nå som normalt</string>
     <string name="thermal_shutdown_title">Telefon ble slått av pga varme</string>
+    <string name="thursday">Torsdag</string>
+    <string name="thursday_short">Tor</string>
+    <string name="thursday_shortest">Tor</string>
     <string name="tile_unavailable">Utilgjengelig</string>
+    <string name="time_picker_dialog_title">Angi tid</string>
+    <string name="time_picker_label_hour">T</string>
+    <string name="time_picker_label_minute">M</string>
     <string name="time_unit_just_now">Akkurat nå</string>
     <string name="title_convert_fbe">Konverterer til filbasert kryptering…</string>
     <string name="title_usb_accessory">USB-enhet</string>
+    <string name="today">I dag</string>
+    <string name="tomorrow">I morgen</string>
     <string name="torch_high_temperature_warning">Enheten er overopphetet. Kan ikke bruke lommelykten nå.</string>
     <string name="touch_filtered_warning">Fordi en app skjuler tillatelsesforespørselen, kan ikke Innstillinger bekrefte svaret ditt.</string>
     <string name="track_frame_time">Profiler GPU-gjengivelse</string>
@@ -1944,6 +2155,9 @@ Telefonen kan blir for varm hvis du:
     <string name="tts_status_ok">%1$s er fullt støttet</string>
     <string name="tts_status_requires_network">%1$s krever en nettverkstilgang</string>
     <string name="tts_status_title">Standard språkstatus</string>
+    <string name="tuesday">Tirsdag</string>
+    <string name="tuesday_short">Tir</string>
+    <string name="tuesday_shortest">Tir</string>
     <string name="tuner_app">%1$s-appen</string>
     <string name="tuner_circle">Sirkel</string>
     <string name="tuner_full_importance_settings">Effektive varselinnstillinger</string>
@@ -2091,11 +2305,15 @@ Alle brukere kan oppdatere apper for alle andre brukere."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Heksadesimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="wednesday">Onsdag</string>
+    <string name="wednesday_short">Ons</string>
+    <string name="wednesday_shortest">Ons</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunkt er midlertidig fullt</string>
     <string name="wifi_auto_sel_wapi_cert">Velg automatisk</string>
     <string name="wifi_cant_connect">Kan ikke koble til</string>
     <string name="wifi_cant_connect_to_ap">"Kan ikke koble til %1$s'"</string>
     <string name="wifi_check_password_try_again">Sjekk passord og prøv igjen</string>
+    <string name="wifi_connected_low_quality">Lav kvalitet</string>
     <string name="wifi_connected_mac_randomization">Tilkoblet MAC Randomization</string>
     <string name="wifi_connected_no_internet">Ingen internettilkobling</string>
     <string name="wifi_coverage_extend">Skru på utvidet dekning for Wi-Fi</string>
@@ -2167,6 +2385,7 @@ Legitimasjonslagring er kanskje ikke aktivert."</string>
     <string name="wireless_charge_reset_device_detail">Forsikre deg om at enheten er riktig plassert på ladebasen</string>
     <string name="wireless_charge_stop">Trådløs lading stoppet</string>
     <string name="wrong_password">Feil passord</string>
+    <string name="yesterday">I går</string>
     <string name="zen_alarm_warning">Du hører ikke neste innstilte alarm %1$s</string>
     <string name="zen_alarm_warning_indef">Du hører ikke neste innstilte alarm %1$s med mindre du slår dette av i forkant</string>
     <string name="zen_alarms_introduction">Du blir ikke forstyrret av lyder og vibrasjoner, med unntak av alarmer. Du kan fremdeles høre alt du velger å spille av, for eksempel musikk, videoer og spill.</string>

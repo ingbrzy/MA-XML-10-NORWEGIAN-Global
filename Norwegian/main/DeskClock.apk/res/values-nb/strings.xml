@@ -37,6 +37,7 @@
     <string name="add_clock">Legg til klokke</string>
     <string name="add_common_timer">Legg til tidsur</string>
     <string name="add_timer">Hyppig timer</string>
+    <string name="add_timer_dialog_title">Legg til tidsur</string>
     <string name="add_timezone_title">Legg til tidssone</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="agree">Godta</string>
@@ -439,6 +440,10 @@
     <string name="reach_upper_limit">Kan ikke legge til flere tidtakere</string>
     <string name="read_external_storage_permission_desc">For å bruke tilpassede ringelyder</string>
     <string name="read_internal_storage">Tilgang til lagring</string>
+    <string name="read_phone_state">Tilgang til enhetsinfo</string>
+    <string name="read_phone_state_desc">Få tilgang til anropsstatus når alarmen ringer</string>
+    <string name="read_phone_state_desc_when_request">For å få tilgang til automatisk pause for alarmer når du mottar anrop</string>
+    <string name="remark_hint">Angi etikett</string>
     <string name="remind_ringtone">Ringetone</string>
     <string name="repeat_count">Ganger</string>
     <string name="repeat_count_value_five">5</string>
@@ -483,6 +488,8 @@
     <string name="shortcut_new_alarm">Still alarm</string>
     <string name="shortcut_start_timer">Start tidtaker</string>
     <string name="shortcut_stop_watch">Start stoppeklokke</string>
+    <string name="show_life_post_desc">Morgenrapporter vises ikke hvis du slår denne funksjonen av</string>
+    <string name="show_life_post_lable">Vis morgenrapport</string>
     <string name="shut_down_keep_screen">Skjermen vil ikke holdes på</string>
     <string name="shutdown_alarm_alert_enable_summary">Alarmer som slås av går av minst 10 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_alert_enable_summary_new">Aktiver for å utløse angitte alarmer når enheten er avslått. Bare alarmer som er angitt minst %d minutter etter at du har slått av enheten, utløses.</string>
@@ -491,10 +498,12 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 10 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="sleep_analysis">Statistikk</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
     <string name="sleep_date_provider_text">Søvndata levert av Xiaomi Helse</string>
+    <string name="sleep_date_provider_text_new">Søvndat leveres av Mi Fitness</string>
     <string name="sleep_duration">"Søvnvarighet: "</string>
     <string name="sleep_duration_avg_text_diff">Gjennomsnittlig søvnvarighet (%1$s-%2$s)</string>
     <string name="sleep_duration_desc">Sov i %1$s %2$s</string>
@@ -510,6 +519,7 @@
     <string name="sleep_record">Registrer søvn</string>
     <string name="sleep_record_desc">Aktiver for å starte registrering av søvndata</string>
     <string name="sleep_record_desc_detailed">Funksjonalitet for søvnregistrering er levert av Xiaomi Helse. Når Xiaomi Helse er aktivert registrerer den automatisk søvnen din basert på telefonbruk, aktivitetsstatistikk, samt tiden du angir for å falle i søvn og våkne opp, og viser deg statistikk i form av diagrammer. Gi Xiaomi Helse tillatelse til å starte opp automatisk for å registrere søvnen på en mer nøyaktig måte. Alle relaterte data blir lagret lokalt på enheten, slik at du enkelt kan administrere dem.</string>
+    <string name="sleep_record_desc_detailed_new">Søvnregistrering leveres av søvnfunksjonen i Mi Fitness. Hvis du aktiverer denne funksjonen, vil Mi Fitness automatisk innhente og vise data om søvnmønsteret ditt basert på telefonbruk, aktivitet og din angitte leggetid og våknetid. For å registrere søvn mer nøyaktiv kan du tillate automatisk oppstart av Mi Fitness.</string>
     <string name="sleep_record_no_data">Statistikken din vil vises her når Xiaomi Helse har analysert nok data</string>
     <string name="sleep_remind">Påminnelse om leggetid</string>
     <string name="sleep_time">Fall i søvn</string>
@@ -534,6 +544,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_reset_notification">Stoppeklokke ble nullstilt</string>
     <string name="stopwatch_running_notification">Stoppeklokke</string>
@@ -542,6 +553,7 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Gi denne appen tillatelse til å koble til Internett for å få tilgang til alle funksjonene.</string>
     <string name="system_permission_main_purpose">Visningstid, angi alarmer og tidtakere, bruk av stoppeklokke</string>
     <string name="system_permission_purpose">Oppretter alarmer for ukedager og angir tilpassede ringetoner</string>
@@ -609,6 +621,7 @@
     <string name="timer_alert_type_beach">Strand</string>
     <string name="timer_alert_type_forest">Skog</string>
     <string name="timer_alert_type_mute">Standard</string>
+    <string name="timer_alert_type_no">Ingen</string>
     <string name="timer_alert_type_rain">Yr</string>
     <string name="timer_alert_type_spring_rain">Sommerregn</string>
     <string name="timer_alert_type_stove_fire">Fyr i ovnen</string>
@@ -620,14 +633,18 @@
     <string name="timer_continue">Fortsett</string>
     <string name="timer_continue_timer">Gjenoppta tidtaker</string>
     <string name="timer_created">Timer lagt til</string>
+    <string name="timer_desc_use_brush_teeth">Børst tenner</string>
+    <string name="timer_desc_use_facial_mask">Ansiktsmaske</string>
+    <string name="timer_desc_use_sleep">Lur</string>
     <string name="timer_end_time">Timer vil stoppe på %s</string>
-    <string name="timer_end_time_format">HH:mm dd. MMM</string>
+    <string name="timer_end_time_format">HH:mm d. MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">OK</string>
     <string name="timer_got_it_new">Stillhet</string>
     <string name="timer_is_paused">Tidtaker er satt på pause</string>
     <string name="timer_item_delete">Slett</string>
     <string name="timer_item_duration_display">%1$d min %2$d sek</string>
+    <string name="timer_item_edit">Rediger</string>
     <string name="timer_item_label_hint">Navn på tidsur</string>
     <string name="timer_item_picker_hour">T</string>
     <string name="timer_item_picker_minute">M</string>
@@ -657,6 +674,8 @@
     <string name="upcoming_alarm_hint">Du kan slå av denne alarmen nå</string>
     <string name="update_health_app">Oppdater Xiaomi Helse</string>
     <string name="update_health_app_desc">Funksjonalitet for søvnregistrering er levert av Xiaomi Helse. Oppdater Xiaomi Helse til den nyeste versjonen for å få tilgang til relaterte funksjoner.</string>
+    <string name="update_health_app_desc_new">Søvnregistreringsfunksjonen er levert av Mi Fitness. Oppdater Mi Fitness til nyeste versjon for å få tilgang til relaterte funksjoner.</string>
+    <string name="update_health_app_new">Oppdater Mi Fitness</string>
     <string name="update_it">Oppdater</string>
     <string name="update_notification_info">Oppdaterer data i bakgrunnen…</string>
     <string name="usage_start">Start</string>
@@ -681,6 +700,7 @@
     <string name="wednesday_shortest">Ons</string>
     <string name="week_ringtone_recommend_desc">Naturalarmen spiller av ulike lyder avhengig av datoen. Angi den som standardalarm?</string>
     <string name="white_noise">Omgivelsesstøy</string>
+    <string name="white_noise_guide_desc">Legg til en bakgrunnslyd for å holde deg fokusert</string>
     <string name="white_noise_selector">Velg lyd</string>
     <string name="workday_alarm_clock">Jobbalarm</string>
     <string name="worldclock_edit_label">Verdensklokke</string>
@@ -692,12 +712,13 @@
     <string name="worldclock_search_city">Velg en by</string>
     <string name="worldclock_second_time">Tid i %s</string>
     <string name="worldclock_second_time_desc">"%s: "</string>
+    <string name="worldclock_second_time_new">%s</string>
     <string name="worldclock_title">Klokke</string>
     <string name="worldclock_world_time">Tidssone</string>
     <string name="worldcolock_date_display_prefix">Gjeldende: </string>
     <string name="worldcolock_time_date">dd.MM.yyyy</string>
     <string name="worldcolock_timezone_current">Nåværende: %1$s</string>
-    <string name="worldcolock_timezone_current_date">dd/MM/yyyy</string>
+    <string name="worldcolock_timezone_current_date">dd.MM.yyyy</string>
     <string name="worldcolock_timezone_date">d. MMM</string>
     <string name="worldcolock_timezone_gap">%s T</string>
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>

@@ -99,7 +99,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Skjønner</string>
     <string name="icon_add_description">Legg til en snarvei på startskjermen</string>
     <string name="icon_remove_confirm">Fjern</string>
     <string name="icon_remove_description_content">«Tjenester og tilbakemelding» er en systemapp. Du kan fortsatt bruke den via Innstillinger etter at du har fjernet snarveien på startskjermen.</string>
@@ -185,6 +185,9 @@
     <string name="miui_feedback_edit_toast_screenshot_too_large">Kan ikke laste opp bilder eller videoer større enn 100 MB</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Fyll inn navn på app</string>
     <string name="miui_feedback_main_answer_title">Det finnes et svar på dette spørsmålet</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicetelefon: 0120-300-521
+Kontortid: 9:00 - 18:00 (unntatt offentlige og planlagte helligdager)
+E-post: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_frequent_question_title">Ofte stilte spørsmål</string>
     <string name="miui_feedback_main_item_catch_full_log">Hent logger</string>
     <string name="miui_feedback_main_item_customer_service">Tjenester etter salg</string>
@@ -340,10 +343,10 @@
     <string name="permission_user_protocol">Brukeravtale (obligatorisk)</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
-    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+    <string name="privacy_policy_update_hint">"%1$s Personvernerklæringen ble oppdatert:
 %2$s
-Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+Les og godta den nye versjonen av %3$s før du fortsetter."</string>
+    <string name="privacy_policy_update_title">Oppdatert personvernerklæring</string>
     <string name="public_authorize_now">Innstillinger</string>
     <string name="public_loading_text">Et øyeblikk…</string>
     <string name="public_net_error_retry">Prøv igjen</string>
@@ -413,16 +416,16 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Merk</string>
+    <string name="user_must_known_content">Du vil ikke kunne fortsette å bruke tjenestene våre med mindre du godtar den nye versjonen av %s. Vil du godta den oppdaterte personvernerklæringen nå?</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Kunne ikke trekke tilbake samtykke</string>
+    <string name="withdraw_consent_failed_hint">En serverfeil oppstod. Vent et minutt eller to og prøv igjen.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Enheten din må koble til nettverket for at du skal kunne trekke tilbake samtykket. Kontroller nettverksinnstillingene og prøv igjen.</string>
+    <string name="withdrawing">Trekker tilbake samtykke…</string>
     <string name="yesterday">I går</string>
 </resources>

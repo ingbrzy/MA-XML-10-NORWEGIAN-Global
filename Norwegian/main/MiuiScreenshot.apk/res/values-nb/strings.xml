@@ -35,8 +35,10 @@
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
     <string name="app_name">Skjermbilde</string>
+    <string name="can_drag">Dra for å sette inn eller sende</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">For å lagre skjermbilder</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -102,12 +104,16 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="long_screenshot_error">Det oppstod en feil. Prøv igjen.</string>
     <string name="long_screenshot_guide_text">"Trykk for å ta
 et rullende skjermbilde"</string>
+    <string name="long_screenshot_intercepted_error">Kunne ikke ta skjermbilde. Prøv igjen.</string>
     <string name="long_screenshot_out_of_memory_error">Bildet er for stort</string>
     <string name="long_screenshot_processing">Behandler…</string>
+    <string name="long_screenshot_processing_description_accessibility">Behandler</string>
     <string name="long_screenshot_stop">Ferdig</string>
     <string name="long_screenshot_top_msg">Oppretter skjermbilde…</string>
+    <string name="long_screenshot_top_msg_description_accessibility">Oppretter skjermbilde</string>
     <string name="long_screenshot_top_msg_manual">Beskjær skjermbildet og trykk på knappen for å fullføre</string>
     <string name="midnight">Natt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
@@ -187,11 +193,13 @@ et rullende skjermbilde"</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
+    <string name="save_success">Lagret</string>
     <string name="screenshot_edit">Rediger</string>
     <string name="screenshot_failed_in_landscape_mode">Kan ikke lage rullende skjermbilder i landskapsmodus</string>
     <string name="screenshot_feedback_txt">Tilbakemelding</string>
     <string name="screenshot_insert_failed">Kunne ikke laste skjermbildet. Ta et nytt eller se bildet i Galleri.</string>
     <string name="screenshot_long_screenshot">Rull</string>
+    <string name="screenshot_save">Lagre</string>
     <string name="screenshot_send">Send</string>
     <string name="screenshot_thumbnail">Miniatyrbilde for skjermbilde</string>
     <string name="search_menu_title">Søk</string>

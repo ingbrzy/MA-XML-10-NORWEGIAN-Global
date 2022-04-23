@@ -147,6 +147,7 @@
     <string name="calllog_menu_blacklist">Blokker</string>
     <string name="calllog_menu_edit_before_call">Rediger</string>
     <string name="calllog_menu_send_sms">Send en melding</string>
+    <string name="calllog_record_none_toast">Ingen anropsopptak å vise</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d m %2$d s</string>
     <string name="callrecordview_item_op_time_missed">Koblet ikke til</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min.</string>
@@ -502,6 +503,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Selskap</string>
@@ -627,6 +629,7 @@
     <string name="menu_sync_remove">Fjern synkronisert gruppe</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Endre profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -720,6 +723,12 @@
     <string name="name_phonetic_middle">Fonetisk mellomnavn</string>
     <string name="name_prefix">Forstavelse på navn</string>
     <string name="name_suffix">Etterstavelse på navn</string>
+    <string name="new_saf_permission_dialog_content">"Kontakter-tillatelsene ble oppdatert. Gi Kontakter adgang til opptak av anrop.
+
+Slik gir du tillatelse
+Trykk på «%1$s» og velg deretter «%2$s»."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Neste</string>
+    <string name="new_saf_permission_dialog_title"><b>Tillatelser er nødvendig</b></string>
     <string name="next">Neste</string>
     <string name="next_birthday">Neste bursdag: %s</string>
     <string name="nfc_vcard_file_name">Kontakt mottatt over NFC</string>
@@ -777,6 +786,7 @@
     <string name="permission_retry_dialog_msg_pad">For å kunne bruke SIM-kort med denne appen og redigere kontaktene dine, må du la enheten få tilgang til og redigere kontaktene og anropshistorikken din, samt å få tilgang til enhetsinformasjon.</string>
     <string name="permission_retry_setting">Innstillinger</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummeret er for langt</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Ingen bilder er tilgjengelige på enheten.</string>
@@ -834,7 +844,7 @@
     <string name="preference_privacy_settings_title">Personvern</string>
     <string name="preference_remove_duplicate">Sammenslå duplikatkontakter</string>
     <string name="preference_show_firewall_calllog">Vis blokkerte samtaler i samtaleloggen</string>
-    <string name="preference_show_yellowpage_tab_description">Gule sider fungerer kanskje ikke skikkelig når denne funksjonen er slått av.</string>
+    <string name="preference_show_yellowpage_tab_description">Gule sider og tilhørende tjenester vises ikke hvis du deaktiverer denne funksjonen</string>
     <string name="preference_show_yellowpage_tab_title">Vis Gule sider</string>
     <string name="preference_simple_mode_title">Vis bilder og informasjon</string>
     <string name="preference_smart_group_company_summary">Grupper etter selskap</string>
@@ -845,6 +855,7 @@
     <string name="preference_smart_group_location_title">Steder</string>
     <string name="preference_smart_group_title">Smart-grupper</string>
     <string name="preference_tone_title">Toner</string>
+    <string name="preference_yellowpage_function_setting">Innstillinger for gule sider</string>
     <string name="previous">Forrige</string>
     <string name="privacy_password_message1">Personvernpassord fungerer for bilder, notater og skjulte mapper.</string>
     <string name="privacy_password_message2">Bruk personvernpassord. Det fungerer for bilder, notater og skjulte mapper.</string>
@@ -854,6 +865,7 @@
     <string name="privacy_password_title2">Bruk personvernpassord</string>
     <string name="privacy_password_title3">Oppgrader passordet</string>
     <string name="privacy_password_title4">Passord oppgradert</string>
+    <string name="privacy_settings_blue_scan_connect">Koble til enheter i nærheten</string>
     <string name="privacy_settings_call_phone">Ring</string>
     <string name="privacy_settings_call_phone_description">For å foreta anrop gjennom startskjermens snarveier</string>
     <string name="privacy_settings_call_phone_description_for_pad">For å foreta anrop i tredjepartsapper</string>
@@ -1017,6 +1029,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Selskaper</string>
     <string name="smart_group_company_unavailable">Ingen selskapsinformasjon</string>
     <string name="smart_group_frequency_1">I løpet av den siste måneden</string>
@@ -1058,6 +1071,7 @@
     <string name="starred_contacts">Favoritter</string>
     <string name="status_available">Tilgjengelig</string>
     <string name="status_away">Borte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Opptatt</string>
     <string name="strequentList">Favoritter</string>
     <string name="success_message_import_from_account">Kontakt importert</string>
@@ -1116,6 +1130,7 @@
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Valentinsdagen</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="this_folder">Bruk denne mappen</string>
     <string name="three_letter">DEF</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
@@ -1133,6 +1148,7 @@
     <string name="toast_for_failed_saving_nickname">Kunne ikke lagre kallenavn</string>
     <string name="toast_for_saving_nickname">Kallenavnet er lagret</string>
     <string name="toast_join_with_empty_contact">Tast inn kontaktnavn før du sammenslår den med en annen</string>
+    <string name="toast_not_show_blue_scan_connect_perm_req">Tillat denne funksjonen å koble til enheter i nærheten via Bluetooth for å kunne importere kontakter fra andre enheter.</string>
     <string name="toast_not_show_camera_perm_req">For å kunne bruke kameraet til å ta profilbilder må du først tillate denne appen å ta bilder og videoopptak.</string>
     <string name="toast_not_show_location_perm_req">For å kunne importere kontakter fra andre enheter via Bluetooth må du først la denne appen få tilgang til plasseringen din.</string>
     <string name="toast_not_show_read_calllogs_perm_req">For å kunne vise anropshistorikk må du gi denne appen tilgang til anropshistorikk først.</string>

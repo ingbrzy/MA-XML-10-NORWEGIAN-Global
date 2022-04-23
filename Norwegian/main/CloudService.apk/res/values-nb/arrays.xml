@@ -52,30 +52,10 @@
         <item>Synkroniser appdata</item>
         <item>Finn enhet</item>
     </string-array>
-    <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
-        <item>For identifisering av enheten</item>
-        <item>For å lokalisere enheten og bytte til mistet-modus</item>
-    </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
         <item>For å lokalisere enheten og bytte til mistet-modus</item>
         <item>For å finne denne enheten når den ikke er koblet til Internett</item>
         <item>For å få tilgang til telefonnummeret for å finne denne enheten når den ikke er koblet til Internett</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_desc">
-        <item>For synkronisering av hendelser</item>
-        <item>For synkronisering av meldinger</item>
-        <item>For synkronisering av meldinger</item>
-        <item>For synkronisering av kontakter</item>
-        <item>For synkronisering av kontakter</item>
-        <item>For å lagre elementer på enheten (f.eks. bilder, videoer, sanger)</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_title">
-        <item>Få tilgang til kalenderhendelser</item>
-        <item>Send SMS</item>
-        <item>Les MMS</item>
-        <item>Få tilgang til kontakter</item>
-        <item>Rediger og slett kontakter</item>
-        <item>Få tilgang til bilder og filer på enheten</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Sikkerhetskopier</item>
@@ -121,11 +101,6 @@
         <item>Synkroniser Galleri med Xiaomi Cloud</item>
         <item>Skru på/innstillinger for synkronisering</item>
         <item>Galleri;Bilder;Sky;Synkroniser;Skytjenster;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_music">
-        <item>Synkroniser musikk med Xiaomi Cloud</item>
-        <item>Skru på synkronisering</item>
-        <item>Musikk;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
         <item>Synkroniser notater med Xiaomi Cloud</item>
@@ -206,9 +181,5 @@
         <item>Sync WLAN settings with Xiaomi Cloud</item>
         <item>Turn on sync</item>
         <item>WLAN;wifi;Wi-Fi;Cloud;Sync;Cloud services;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="user_detail_fixed_items">
-        <item>Vis synkroniserte elementer</item>
-        <item>Lagringsdetaljer</item>
     </string-array>
 </resources>

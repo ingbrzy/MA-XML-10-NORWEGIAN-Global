@@ -48,6 +48,7 @@
     <string name="alert_message_delete_excerpt">Slette dette notatet? Utdraget blir også slettet.</string>
     <string name="alert_message_delete_note">Slette dette notatet?</string>
     <string name="alert_message_edit_anyway">Dersom du redigerer dette notatet, kan deler av innholdet gå tapt.</string>
+    <string name="alert_message_edit_anyway_new">Dette notatet inneholder ikke-støttet innhold. Hvis du redigerer den, kan det føre til formatendringer eller tap av data.</string>
     <string name="alert_message_restore">Kunne ikke åpne dette notatet. Gjenopprett det for å redigere innholdet.</string>
     <string name="alert_title_delete">Slett notat</string>
     <string name="alert_title_edit_anyway">Dette notatet inneholder ustøttet innhold</string>
@@ -68,7 +69,7 @@
     <string name="audio_create_will_cancel_state">Slipp for å avbryte</string>
     <string name="audio_dialog_mode_meeting">Møtemodus (beta)</string>
     <string name="audio_dialog_mode_meeting_exit">Nei takk</string>
-    <string name="audio_dialog_mode_meeting_sum">Møtemodus gjør at du kan gjenkjenne stemmene til opptil fire ulike personer. Noen gjenkjenningsfeil kan oppstå i betaversjonen.</string>
+    <string name="audio_dialog_mode_meeting_sum">Møtemodus lar deg gjenkjenne stemmene til %1$d-%2$d ulike personer. Det kan forekomme gjenkjennelsesfeil i Beta-versjonen.</string>
     <string name="audio_dialog_mode_meeting_use">Start</string>
     <string name="audio_panel_time_counter_default">00:00</string>
     <string name="audio_toast_file_invalid">Lydfil er ugyldig</string>
@@ -202,6 +203,7 @@
     <string name="error_send_empty_note">Kan ikke sende et tomt notat</string>
     <string name="error_send_empty_note_to_weibo">Kan ikke sende et tomt notat til Weibo</string>
     <string name="error_unsupport_content">Dette notatet inneholder ustøttet innhold. Trykk her for å oppdatere</string>
+    <string name="error_unsupport_content_format">Dette notatet inneholder ikke-støttet innhold. Oppdater til versjon %1$s eller nyere.</string>
     <string name="error_widget_exist_for_send_to_desktop">Dette notatet ligger allerede på Startskjermen din</string>
     <string name="evening">Ettermiddag</string>
     <string name="exceed_todo_text_limitation">Oppgavebeskrivelsen er for lang.</string>
@@ -336,6 +338,7 @@
     <string name="menu_create_folder">Ny mappe</string>
     <string name="menu_delete">Slett</string>
     <string name="menu_delete_forever">Slett permanent</string>
+    <string name="menu_edit">Rediger</string>
     <string name="menu_folders">Mapper</string>
     <string name="menu_group">Opprett mappe</string>
     <string name="menu_hide">Skjul</string>
@@ -493,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -549,10 +553,12 @@
     <string name="note_mindnote_entrance_hint_newversion">"Begynn å skrive "</string>
     <string name="note_mindnote_entrance_icon_text">Opprett et tankekart</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Opprett et tankekart</string>
+    <string name="note_module_name">Notater</string>
     <string name="note_not_text_stub">Ingen tekst</string>
     <string name="note_sort_way">Sorter</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Notater er en systemapp. Du kan ikke bruke denne appen etter at du har avinstallert den.</string>
     <string name="notes_description_title">Avinstallere Notater?</string>
     <string name="notification_content_add_todo_from_other_app">Du la til en ny oppgave. Trykk for å se.</string>
@@ -674,7 +680,7 @@
     <string name="repeat_mode_set_item_week_detail">%s</string>
     <string name="repeat_mode_set_item_year">Hvert år (%s)</string>
     <string name="repeat_mode_set_item_year_detail">%s</string>
-    <string name="repeat_mode_set_item_year_detail_day">dd. MMM</string>
+    <string name="repeat_mode_set_item_year_detail_day">d. MMM</string>
     <string name="repeat_mode_set_title">Gjenta</string>
     <string name="repeat_mode_week">Hver uke</string>
     <string name="repeat_mode_year">Hvert år</string>
@@ -710,6 +716,13 @@
     <string name="select_account_prompt">Synkroniser notater</string>
     <string name="send">Send</string>
     <string name="set_alarm_description">Still alarm</string>
+    <string name="setting_big_screen_layout_columns">Sidelinje</string>
+    <string name="setting_big_screen_layout_flat">Fliser</string>
+    <string name="setting_big_screen_layout_title">Storskjerm-utforming</string>
+    <string name="setting_cloud_service">Nettskytjenester</string>
+    <string name="setting_layout">Utforming</string>
+    <string name="setting_micloud_sync_title">Xiaomi Cloud</string>
+    <string name="setting_note_list_layout_title">Utforming</string>
     <string name="setting_other">ANNET</string>
     <string name="setting_privacy">Personvernerklæring</string>
     <string name="single_link_excerpt_saving">Lagrer elementer…</string>
@@ -851,7 +864,7 @@ Tillat Notater å spille inn lyd."</string>
     <string name="todo_alert_title_delete">Slett fullførte oppgaver</string>
     <string name="todo_audio_default_content">"[Voice task] "</string>
     <string name="todo_custom_remind_tag_pattern_with_md">dd/MM HH:mm</string>
-    <string name="todo_custom_remind_tag_pattern_with_ymd">dd/MM/yyyy HH:mm</string>
+    <string name="todo_custom_remind_tag_pattern_with_ymd">dd.MM.yyyy HH:mm</string>
     <string name="todo_edit_audio_hint">Si oppgaven din</string>
     <string name="todo_edit_btn_cancel_remind">Avbryt påminnelse</string>
     <string name="todo_edit_btn_custom">Sett påminnelse</string>
@@ -889,7 +902,7 @@ Tillat Notater å spille inn lyd."</string>
     <string name="todo_schedule_time_expired">" (Utløpt)"</string>
     <string name="todo_schedule_time_for_picker_hm">H mm</string>
     <string name="todo_schedule_time_hm">HH:mm</string>
-    <string name="todo_schedule_time_md">dd/MM</string>
+    <string name="todo_schedule_time_md">dd.MM</string>
     <string name="todo_schedule_time_mdhm">dd/MM HH:mm</string>
     <string name="todo_schedule_time_repeat_day">, hver dag</string>
     <string name="todo_schedule_time_repeat_month">, hver måned</string>
@@ -899,7 +912,7 @@ Tillat Notater å spille inn lyd."</string>
     <string name="todo_schedule_time_today">I dag</string>
     <string name="todo_schedule_time_tomorrow">I morgen</string>
     <string name="todo_schedule_time_yesterday">I går</string>
-    <string name="todo_schedule_time_ymdhm">dd/MM/yyyy HH:mm</string>
+    <string name="todo_schedule_time_ymdhm">dd.MM.yyyy HH:mm</string>
     <string name="todo_search_hint">Søk etter oppgaver</string>
     <string name="todo_time_picker_title">Sett påminnelse</string>
     <string name="todo_user_guide_fw_pop">Legg til snarvei på startskjermen</string>
@@ -933,6 +946,15 @@ Tillat Notater å spille inn lyd."</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="view_all_notes">Se alle</string>
+    <string name="warn_cannot_add_new_bullet">Kan ikke legge til ny punktliste fordi notatet er for langt</string>
+    <string name="warn_cannot_add_new_checkbox">Kan ikke legge ny til avkryssingsboks siden notatet er for langt</string>
+    <string name="warn_cannot_add_new_doodle">Kan ikke legge til ny drodling fordi notatet er for langt</string>
+    <string name="warn_cannot_add_new_element">Kan ikke legge til nytt element fordi notatet er for langt</string>
+    <string name="warn_cannot_add_new_link_card">Kan ikke legge til ny lenke fordi notatet er for langt</string>
+    <string name="warn_cannot_add_new_picture">Kan ikke legge til nytt bilde fordi notatet er for langt</string>
+    <string name="warn_cannot_add_new_style">Kan ikke legge til nytt format fordi notatet er for langt</string>
+    <string name="warn_disable_edit_in_browse_mode">Du kan ikke redigere notater i skrivebeskyttet modus</string>
+    <string name="warn_enter_browse_mode">Du er i skrivebeskyttet modus</string>
     <string name="web_sso_login_fail">Du må logge inn på nytt</string>
     <string name="web_sso_login_message">Logger inn…</string>
     <string name="webview_reload">Prøv igjen</string>

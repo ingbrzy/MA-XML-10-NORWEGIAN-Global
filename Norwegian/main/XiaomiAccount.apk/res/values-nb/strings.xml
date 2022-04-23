@@ -82,6 +82,7 @@
     <string name="account_verify_guide_bind_mail_desc">Legg til e-postadresse for gjenoppretting</string>
     <string name="account_verify_guide_bind_phone_desc">Legg til telefonnummer for gjenoppretting</string>
     <string name="account_verify_guide_set_password_desc">Angi et passord</string>
+    <string name="account_verify_guide_verify_phone_desc">Bekreft gjenopprettingstelefonnummer</string>
     <string name="account_xiaomi_service">Tjenester</string>
     <string name="action_add_phone">Legg til telefonnummer</string>
     <string name="action_retry">Prøv igjen</string>
@@ -121,6 +122,10 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="cloud_description_closed">Opptatt | Synkronisering er av</string>
     <string name="cloud_description_normal">Opptatt</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_status_backup_not_open">Sikkerhetskopiering er deaktivert</string>
+    <string name="cloud_service_status_cloud_not_open">Av</string>
+    <string name="cloud_service_status_storage_full">Lagringen er full</string>
+    <string name="cloud_service_status_storage_not_enough">Ikke nok plass</string>
     <string name="collect_diagnosis_log">Genererer diagnostikklogg</string>
     <string name="com_facebook_device_auth_instructions">Gå til &lt;b>facebook.com/device&lt;/b> og skriv inn koden som vises over.</string>
     <string name="com_facebook_image_download_unknown_error">Det oppstod en uvented feil under nedlasting av et bilde.</string>
@@ -440,6 +445,8 @@ Send denne koden til den overordnede."</string>
     <string name="notify_network_restricted_content_hidden_state">Mi-kontoens bakgrunnsaktivitet er begrenset. Trykk for å tillate.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi-kontoens internettilgang er begrenset. Trykk for å tillate.</string>
     <string name="notify_network_restricted_title">Mi-kontoen kunne ikke koble til nettverket</string>
+    <string name="notify_verify_again_security_phone">Bekreft</string>
+    <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_get_scopes_failed">Kunne ikke hente kontoinformasjon</string>
     <string name="oauth_getting_scopes">Verifiserer kontoen…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> vil bli gitt følgende tillatelser:&lt;br> &lt;br> %3$s</string>
@@ -649,7 +656,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_sms_verification_code_login">Logg på med SMS</string>
     <string name="passport_sms_verification_code_login_or_register">Logg på eller opprett en konto via SMS</string>
     <string name="passport_sync_account_data">Synkroniserer kontoinformasjon…</string>
-    <string name="passport_sync_account_data_failed_warning">Kontoinformasjonen synkroniseres nå. Du kan logge på med Mi-kontoidentifikasjonen din. Hvis du vil logge på med telefonnummer eller e-post, må du vente til all infoen er synkronisert.</string>
+    <string name="passport_sync_account_data_failed_warning">Kontoinformasjonen synkroniseres nå. Du kan logge på med Mi-konto-ID din. Hvis du vil logge på med telefonnummer eller e-post, må du vente til all infoen er synkronisert.</string>
     <string name="passport_talkback_image_captcha">Bildeverifiseringskode</string>
     <string name="passport_talkback_switch_image_captcha">Bytt till bildeverifiseringskode</string>
     <string name="passport_talkback_switch_voice_captcha">Bytt til stemmeverifiseringskode</string>
@@ -677,7 +684,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_user_agreement">Brukeravtale</string>
     <string name="passport_user_agreement_link">&lt;Data>Jeg har lest og godtatt Xiaomis &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
     <string name="passport_user_agreement_required">Brukeravtale (obligatorisk)</string>
-    <string name="passport_user_id_notice">Din Mi-kontoidentifikasjon er %s.</string>
+    <string name="passport_user_id_notice">Din Mi-konto-ID er %s.</string>
     <string name="passport_user_reg_region">Land/Område</string>
     <string name="passport_user_reg_region_warning">Du vil ikke kunne endre land/region etter at kontoen er opprettet.</string>
     <string name="passport_vcode_notification_title">Påloggingsverifiseringen er ufullstendig</string>
@@ -703,7 +710,7 @@ Send denne koden til den overordnede."</string>
     <string name="permission_group_storage">Lagring</string>
     <string name="permission_instructions">Bruk av tillatelser</string>
     <string name="permission_read_sms">Tilgang til meldinger</string>
-    <string name="permission_withdraw">Trekk tilbake</string>
+    <string name="permission_withdraw">Tilbakekall</string>
     <string name="permission_write_external_storage">Tilgang til og lagre elementer i lagring</string>
     <string name="personal_info_desc">Bilde, kallenavn og mer</string>
     <string name="phone_num_use_for">Telefonnummer brukes for:</string>

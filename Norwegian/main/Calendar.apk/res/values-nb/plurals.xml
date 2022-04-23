@@ -60,6 +60,10 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
+    <plurals name="after_num_minutes">
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
+    </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s dager</item>
         <item quantity="one">%1$s dag</item>
@@ -188,6 +192,10 @@
         <item quantity="other">" dager"</item>
         <item quantity="one">" dag"</item>
     </plurals>
+    <plurals name="other_num_events">
+        <item quantity="other">%d flere hendelser</item>
+        <item quantity="one">%d hendelse til</item>
+    </plurals>
     <plurals name="repeat_custom_prompt">
         <item quantity="other">hver %1$s på %2$s</item>
         <item quantity="one">hver %1$s på %2$s</item>
@@ -236,6 +244,10 @@
         <item quantity="other">Estimert dag %1$d av menstruasjonsperioden</item>
         <item quantity="one">Estimert dag %1$d av menstruasjonsperioden</item>
     </plurals>
+    <plurals name="today_has_num_event">
+        <item quantity="other">%d hendelser i dag</item>
+        <item quantity="one">%d hendelse i dag</item>
+    </plurals>
     <plurals name="travel_eta_advice">
         <item quantity="other">%2$s minutters kjøretur til %1$s.</item>
         <item quantity="one">%2$s minutts kjøretur til %1$s.</item>
@@ -243,6 +255,30 @@
     <plurals name="weekN">
         <item quantity="other">UKE %d</item>
         <item quantity="one">UKE %d</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">%1$s dager</item>
+        <item quantity="one">%1$s dag</item>
+    </plurals>
+    <plurals name="widget_custom_unit_day">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_going_counts">
+        <item quantity="other">%d hendelser pågår</item>
+        <item quantity="one">%d hendelse pågår</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_next_minutes">
+        <item quantity="other">Neste hendelse om %d min</item>
+        <item quantity="one">Neste hendelse om %d min</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_tomorrow_total">
+        <item quantity="other">%d hendelser i morgen</item>
+        <item quantity="one">%d hendelse i morgen</item>
+    </plurals>
+    <plurals name="widget_weekN">
+        <item quantity="other">Uke %d</item>
+        <item quantity="one">Uke %d</item>
     </plurals>
     <plurals name="work_days">
         <item quantity="other">%d arbeidsdager</item>

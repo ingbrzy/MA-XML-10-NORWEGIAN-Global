@@ -100,6 +100,18 @@
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="mangotv_feature_list_title1">
+        <item quantity="other">%1$1d av %2$2d episoder tilgjengelig</item>
+        <item quantity="one">%1$1d av %2$2d episode tilgjengelig</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title2">
+        <item quantity="other">%1$1d av %2$2d episoder tilgjengelig</item>
+        <item quantity="one">%1$1d av %2$2d episode tilgjengelig</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title_all">
+        <item quantity="other">%d episoder totalt</item>
+        <item quantity="one">%d episode totalt</item>
+    </plurals>
     <plurals name="mediation_animate_close_after">
         <item quantity="other">%s sek igjen</item>
         <item quantity="one">%s sek igjen</item>
@@ -107,6 +119,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Innholdet ditt inneholder elementer (%1$s) som bryter med standardene i samfunnet vårt. Kontoen din er suspendert i %2$d dager til %3$s.</item>

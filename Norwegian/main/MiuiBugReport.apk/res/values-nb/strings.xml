@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="account_bind_secure_email_title">Legg til e-post for gjenoppretting</string>
     <string name="account_bind_secure_phone_title">Legg til telefonnummer for gjenoppretting</string>
     <string name="account_crop_user_avatar">Beskjær bilde</string>
@@ -104,12 +105,12 @@
     <string name="catch_full_log_item_title_audio">Lyd, anropslyd og lydopptak</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_camera">Kamera</string>
-    <string name="catch_full_log_item_title_charge">Charge</string>
+    <string name="catch_full_log_item_title_charge">Lader</string>
     <string name="catch_full_log_item_title_dump_heap">Henger etter</string>
     <string name="catch_full_log_item_title_gps">Stedtjenester</string>
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
     <string name="catch_full_log_item_title_signal">Telefon, signal og mobile nettverk</string>
-    <string name="catch_full_log_item_title_trace">Jank</string>
+    <string name="catch_full_log_item_title_trace">Forsinkelse</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
     <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_notification_content">Trykk for å gå tilbake til logger</string>
@@ -117,11 +118,11 @@
     <string name="catch_full_log_privacy_content_audio">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde informasjon om lyden på enheten, inkludert avspillings- og opptakslogg. Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
     <string name="catch_full_log_privacy_content_bt">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde enhetsbruksinformasjon for Bluetooth (inkludert anropslogg, meldinger, overførte filer osv.) Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
     <string name="catch_full_log_privacy_content_camera">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde enhetsbruksinformasjon for Kamera (inkludert prosessorfrekvens, systemanrop, minnebruk osv.). Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
-    <string name="catch_full_log_privacy_content_charge">"You're generating logs and saving them on your device. The logs may contain Charge info. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+    <string name="catch_full_log_privacy_content_charge">Du genererer logger og lagrer dem på enheten din. Loggene kan inneholde lagestatistikk. Vær forsiktig og unngå å dele disse loggene med andre. Ved å trykke på \"Godta\" nedenfor, godtar du at vi innhenter de ovennevnte dataene under generering av logger og deretter laster opp loggene til våre servere for å kunne finne og løse problemene du rapporterer om.</string>
     <string name="catch_full_log_privacy_content_gps">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde personopplysninger og plasseringsinformasjon. Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
     <string name="catch_full_log_privacy_content_sensor">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde informasjon samlet inn av sensorene på enheten (inkludert omgivelseslyssensor, barometer, skritteller, magnetometer osv.) Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
     <string name="catch_full_log_privacy_content_signal">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde meldinger, anropslogg, nettverksinfo og kommunikasjonsdata. Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
-    <string name="catch_full_log_privacy_content_trace">"You're generating logs and saving them on your device. The logs may contain Program running record (including CPU frequency, system call, memory usage etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+    <string name="catch_full_log_privacy_content_trace">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde statistikk om bruken av enheten (inkludert prosessorfrekvens, systemanrop, minnebruk osv.). Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
     <string name="catch_full_log_privacy_content_wifi">Du genererer logger og lagrer dem på enheten. Loggene kan inneholde personopplysninger, plasseringsinformasjon, samt enhetens IP- og MAC-adresse. Hvis du er koblet til et ukryptert Wi-Fi-nettverk, kan vi også få tilgang til deler av kommunikasjonsdataene. Pass på at du ikke viser disse loggene til andre personer. Ved å trykke «Godta» nedenfor, aksepterer du at vi samler inn ovennevnte data under generering av logger, og så laster opp loggene til serverne våre for å finne og løse problemene du rapporterer om.</string>
     <string name="catch_full_log_privacy_content_wifi_china">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted WLAN network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_start_dump_hprof">Genererer logg som henger etter</string>
@@ -161,6 +162,9 @@ Send denne koden til den overordnede."</string>
     <string name="discard_draft_dialog_button_discard">Forkast</string>
     <string name="discard_draft_dialog_content">Alle endringer du har gjort på denne rapporten vil gå tapt.</string>
     <string name="discard_draft_dialog_title">Forkast utkast?</string>
+    <string name="doing_login">Logger inn…</string>
+    <string name="doing_query_account">Kontrollerer kontoinformasjon…</string>
+    <string name="doing_register">Oppretter konto…</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
@@ -363,10 +367,12 @@ Send denne koden til den overordnede."</string>
     <string name="goon_feedback_main">Fortsett</string>
     <string name="goto_sign_up">Opprett konto</string>
     <string name="hint_feedback_main">Forklar problemet</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Skjønner</string>
+    <string name="i_know">Skjønner</string>
     <string name="identity">Identifisering</string>
     <string name="inconsistent_pwd">Passordene samsvarer ikke</string>
     <string name="input_email_address_notice">Vi bruker denne e-posten til å bekrefte kontoen din</string>
+    <string name="input_length_exceeds_limit">Teksten du skrev inn er for lang</string>
     <string name="input_new_pwd">Tast inn nytt passord</string>
     <string name="isornot_your_mi_account">Er dette din Mi-konto?</string>
     <string name="issue_search">Søk</string>
@@ -392,6 +398,11 @@ Send denne koden til den overordnede."</string>
     <string name="kr_authorization_user_protocol">Brukeravtale (obligatorisk)</string>
     <string name="loading">Et øyeblikk…</string>
     <string name="loading_apps">Laster inn liste…</string>
+    <string name="login_by_local_phone_long_text">Logg på nå</string>
+    <string name="login_by_local_phone_short_text">Logg inn</string>
+    <string name="login_other">En annen Mi-konto</string>
+    <string name="login_register_by_local_phone_long_text">Opprett konto</string>
+    <string name="login_with_sns">Andre måter å logge inn</string>
     <string name="logo_title">Tilbakemelding</string>
     <string name="logout_account">Logg ut</string>
     <string name="menu_copy">Kopier</string>
@@ -435,10 +446,10 @@ Send denne koden til den overordnede."</string>
     <string name="modem_tool_log_finish_desc">Loggen er lagret som %s</string>
     <string name="modem_tool_log_finish_title">Modem-logg er fanget</string>
     <string name="module_communication">Kommunikasjon</string>
-    <string name="module_data">Lagring &amp; Dual-apper</string>
-    <string name="module_default_json">[{\"packageName\":\"com.miui.device.reboot\",\"problemType\":12,\"isForceShow\":1,\"parentType\":0,\"title\":\"Krasjer &amp; omstart\",\"categoryId\":1,\"order\":1},{\"packageName\":\"com.miui.Theraml\",\"problemType\":274,\"isForceShow\":1,\"parentType\":0,\"title\":\"Oppvarming\",\"categoryId\":1,\"order\":2},{\"packageName\":\"com.miui.device.signal\",\"problemType\":14,\"isForceShow\":1,\"parentType\":0,\"title\":\"Mobile nettverks\",\"categoryId\":2,\"order\":1},{\"packageName\":\"com.miui.device.wifi\",\"problemType\":15,\"isForceShow\":1,\"parentType\":0,\"title\":\"Wi-Fi\",\"categoryId\":2,\"order\":2},{\"packageName\":\"com.miui.device.other\",\"problemType\":17,\"isForceShow\":1,\"parentType\":0,\"title\":\"Andre feil\",\"categoryId\":10,\"order\":2}]</string>
+    <string name="module_data">Lagring og Dual-apper</string>
+    <string name="module_default_json">[{\"packageName\":\"com.miui.device.reboot\",\"problemType\":12,\"isForceShow\":1,\"parentType\":0,\"title\":\"Krasjer og omstart\",\"categoryId\":1,\"order\":1},{\"packageName\":\"com.miui.Theraml\",\"problemType\":274,\"isForceShow\":1,\"parentType\":0,\"title\":\"Oppvarming\",\"categoryId\":1,\"order\":2},{\"packageName\":\"com.miui.device.signal\",\"problemType\":14,\"isForceShow\":1,\"parentType\":0,\"title\":\"Mobile nettverks\",\"categoryId\":2,\"order\":1},{\"packageName\":\"com.miui.device.wifi\",\"problemType\":15,\"isForceShow\":1,\"parentType\":0,\"title\":\"Wi-Fi\",\"categoryId\":2,\"order\":2},{\"packageName\":\"com.miui.device.other\",\"problemType\":17,\"isForceShow\":1,\"parentType\":0,\"title\":\"Andre feil\",\"categoryId\":10,\"order\":2}]</string>
     <string name="module_desktop">Hjem-skjerm &amp; innstillinger</string>
-    <string name="module_finance">Finans &amp; Mi Wallet</string>
+    <string name="module_finance">Finans og Mi Wallet</string>
     <string name="module_google_apps">Google apper</string>
     <string name="module_item_less">Gjem</string>
     <string name="module_item_more">Mer</string>
@@ -493,6 +504,8 @@ Send denne koden til den overordnede."</string>
     <string name="morning">Morgen</string>
     <string name="net_error_info">Ingen nettverkstilkobling. Trykk her for å gå til Innstillinger</string>
     <string name="network_err">Kan ikke koble til nettverket.</string>
+    <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="network_unavailable_dialog_button_ok">OK</string>
     <string name="network_unavailable_dialog_content">Rapporten din vil bli sendt når du oppretter en dataforbindelse.</string>
     <string name="network_unavailable_dialog_title">Kan ikke koble til nettverket</string>
@@ -506,6 +519,7 @@ Send denne koden til den overordnede."</string>
     <string name="nothing">--</string>
     <string name="ok">OK</string>
     <string name="open_feedback_main">Mer</string>
+    <string name="open_settings">Innstillinger</string>
     <string name="passport_access_denied">Tilgang avslått</string>
     <string name="passport_account_label">Mi-konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -513,6 +527,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_area_code_title">Retningsnummer</string>
     <string name="passport_bad_authentication">Ugyldig brukernavn og passord</string>
     <string name="passport_barcode_add_account_prompt">For å legge til en konto må du skanne QR-koden på nytt etter pålogging.</string>
+    <string name="passport_can_not_receive_verification_code">Kan du ikke motta bekreftelseskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Sjekker passord…</string>
     <string name="passport_close">Lukk</string>
@@ -581,8 +596,8 @@ Send denne koden til den overordnede."</string>
     <string name="passport_unknow_error">En ukjent feil oppstod</string>
     <string name="passport_unknow_host_network_error">Sjekk nettverksinnstillingene dine og prøv igjen</string>
     <string name="passport_unknow_network_error">En nettverksfeil oppstod</string>
-    <string name="passport_user_agreement_link">&lt;Data>Jeg har lest og godtatt Xiaomis &lt;a href=\"%1$s\">brukeravtale&lt;/a> og &lt;a href=\"%2$s\">personvernerklæring&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_link_more">&lt;Data>Jeg har lest og samtykket i følgende dokumenter: Xiaomis &lt;a href=\"%1$s\">brukeravtale&lt;/a> og &lt;a href=\"%4$s\">personvernerklæring&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link">&lt;Data>Jeg har lest og godtatt Xiaomis &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link_more">&lt;Data>Jeg har lest og samtykket i følgende dokumenter: Xiaomis &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
     <string name="passport_user_id_intro">Oppgi passordet for: %1$s</string>
     <string name="passport_v_code_error">Verifiseringskode er feil</string>
     <string name="passport_vcode_notification_title">Påloggingsverifiseringen er ufullstendig</string>
@@ -605,19 +620,29 @@ Send denne koden til den overordnede."</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="privacy_category_title">Personvern</string>
     <string name="privacy_policy_title">Personvernerklæring</string>
-    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+    <string name="privacy_policy_update_hint">"%1$s Personvernerklæringen ble oppdatert:
 %2$s
-Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+Les og godta den nye versjonen av %3$s før du fortsetter."</string>
+    <string name="privacy_policy_update_title">Oppdatert personvernerklæring</string>
+    <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="psw_hint">Passord</string>
     <string name="psw_sign_in">Logg på med passord</string>
     <string name="refresh">Oppdater</string>
+    <string name="register_by_local_phone_long_text">Opprett konto</string>
+    <string name="register_by_local_phone_short_text">Opprett konto</string>
     <string name="related_question_answer_details">Beslektet problem</string>
     <string name="reply_failed">Kunne ikke svare</string>
     <string name="reply_option_log_hint">Valgfritt</string>
     <string name="reply_select_log_hint">Velg logg</string>
     <string name="reply_successful">Svaret er sendt inn</string>
     <string name="report_miui">Rapporter feil</string>
+    <string name="request_agree">Gi tilgang</string>
+    <string name="request_camera_permission_message">Vi beskytter personopplysningene dine i henhold til relevante lover og forskrifter. Denne appen trenger følgende tillatelser for å fungere som normalt:&lt;br>&lt;br>&lt;b>Bruk av kamera (for å angi profilbilde)&lt;/b>&lt;br>&lt;br>Hvis du ikke samtykker i å gi slike tillatelser, kan du ikke bruke enkelte funksjoner i appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig for deg. Du kan alltids begrense tillatelser eller tilbakekalle autorisasjonen din under Innstillinger.</string>
+    <string name="request_cancel">Avbryt</string>
+    <string name="request_error_invalid_token">Kunne ikke bekrefte</string>
+    <string name="request_error_network">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="request_error_unknown">Det oppstod en systemfeil. Gå tilbake og prøv igjen.</string>
+    <string name="request_gallery_permission_message">Gi tilgang til Galleri:&lt;br />For å angi profilbilder</string>
     <string name="resend_active_email">Send på nytt</string>
     <string name="resend_email_reach_limit_message">Du har bedt om for mange e-poster for bekreftelse. Kontroller at e-post for bekreftelse ikke har havnet i innboksens søppelpostmappe.</string>
     <string name="resend_email_reach_limit_title">For mange forsøk</string>
@@ -642,6 +667,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="sign_in">Logger inn</string>
     <string name="sign_in_progress">Logger inn…</string>
     <string name="sign_in_title">Logg inn med din Mi Account</string>
+    <string name="skip_query_account">Hopp over</string>
     <string name="sms_send_success">Sendt</string>
     <string name="sns_access_token_expired_warning">Økten er utløpt. Logg inn på nytt for å koble til kontoen på nytt.</string>
     <string name="sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
@@ -655,6 +681,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="submit_dialog_confirm">Enig</string>
     <string name="submit_dialog_content">&lt;Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a> vår før du sender inn tilbakemelding. Problemene du rapporterer om med elementene du vedlegger (inkludert loggene som kan inneholde personopplysninger samt opplysninger om enheten og nettverket ditt) lastes opp til MIUIs servere. Dette hjelper oss med å lokalisere og løse problemene du rapporterer om. Hvis du rapporterer om problemer knyttet til flere enheter, vil loggene fra andre enheter der du bruker Mi-kontoen din også lastes opp.&lt;/Data></string>
     <string name="submit_dialog_content_global">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), vil bli sendt til MIUIs servere. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Din tilbakemelding, sammen med (eventuelle) vedlegg, logger (du kan velge bort de tilhørende boksene for elementer du ikke ønsker å laste opp), telefonnummer eller e-post (hvis aktuelt) sendes til MIUIs servere. Logger kan inneholde personopplysninger og stedsdataene dine. Ved å velge \"Godta\" bekrefter du at du har lest og godtatt vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_not_show_again">Ikke vis igjen</string>
     <string name="submit_dialog_title">Send rapport</string>
     <string name="submit_feedback_info_failed">Kunne ikke sende rapport</string>
@@ -668,6 +695,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
     <string name="system_app_select">Innebygde apper</string>
+    <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="tab_title_chat">OSS</string>
     <string name="tab_title_my_reports">Mine rapporter</string>
     <string name="tab_title_preferences">Innstillinger</string>
@@ -759,6 +787,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
+    <string name="unknown_error_info">Ukjent feil</string>
     <string name="update_dialog_cancel">Avbryt</string>
     <string name="update_dialog_confirm">Oppdater</string>
     <string name="update_dialog_content_log">"Dette er nytt:
@@ -771,11 +800,21 @@ Størrelse: %2$s"</string>
     <string name="update_phone_notice">Endre sikkerhetsinnstillinger</string>
     <string name="upload_error_log">Last opp logg</string>
     <string name="upload_log_failed">Kunne ikke sende logger</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæringen&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for kontoverifiseringstjenestene fra eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringtjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Vi oppretter en konto automatisk hvis du bruker telefonnummeret ditt for første gang.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, same &lt;a href=%3$s>brukervilkårene for verifikasjonstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for kontoverifiseringstjenstene for eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for verifiseringstjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
     <string name="user_avatar_update_title">Endre profilbilde</string>
     <string name="user_avatar_uploading">Et øyeblikk…</string>
     <string name="user_id_hint">E-post/Telefon/Mi-konto-ID</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Merk</string>
+    <string name="user_must_known_content">Du vil ikke kunne fortsette å bruke tjenestene våre med mindre du godtar den nye versjonen av %s. Vil du godta den oppdaterte personvernerklæringen nå?</string>
+    <string name="user_name_phone_number">Telefonnummer</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="v_code_title">Tast inn bekreftelseskode</string>
@@ -784,10 +823,10 @@ Størrelse: %2$s"</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="withdraw">Tilbakekall</string>
     <string name="withdraw_consent">Tilbakekalling av samtykke</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdraw_consent_hint">"If you continue, you'll withdraw your consent to the Privacy Policy of %1$s. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As %2$s provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept %3$s services. Withdraw consent now?"</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Kunne ikke trekke tilbake samtykke</string>
+    <string name="withdraw_consent_failed_hint">En serverfeil oppstod. Vent et minutt eller to og prøv igjen.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Enheten din må koble til nettverket for at du skal kunne trekke tilbake samtykket. Kontroller nettverksinnstillingene og prøv igjen.</string>
+    <string name="withdraw_consent_hint">Hvis du fortsetter, trekker du tilbake samtykket til personvernerklæringen for %1$s. Personopplysninger som allerede er innhentet og lagret, vil bli slettet innen den spesifikke tidsperioden i samsvar med gjeldende lover og forskrifter, med mindre annet kreves. Siden %2$s leverer tjenestene sine basert på innhenting av nødvendige personopplysninger, vil slik tilbaketrekking tolkes som at du nekter å godta %3$s tjenester. Vil du trekke tilbake samtykket nå?</string>
+    <string name="withdrawing">Trekker tilbake samtykke…</string>
     <string name="yesterday">I går</string>
 </resources>

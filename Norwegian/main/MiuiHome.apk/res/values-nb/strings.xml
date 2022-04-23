@@ -159,7 +159,7 @@
     <string name="auto_add_app_shortcut">Plasser nye apper på Startskjermen</string>
     <string name="auto_delete_category_dialog_content">Nåværende apper blir fjernet fra denne kategorien, og kategorien blir slettet. Slette denne kategorien nå?</string>
     <string name="auto_delete_category_dialog_title">Sletter kategori</string>
-    <string name="auto_disable_screenbuttons_summary">Dobbelttrykk på en navigasjonsknapp for å aktivere på ny</string>
+    <string name="auto_disable_screenbuttons_summary">Deaktiver navigasjonsknappene automatisk når statuslinjen ikke vises. Dobbelttrykk på en navigasjonsknapp for å reaktivere.</string>
     <string name="auto_disable_screenbuttons_title">Deaktiver navigasjonsknapper automatisk</string>
     <string name="back">Tilbake</string>
     <string name="backup_fail">Kunne ikke sikkerhetskopiere startprogram</string>
@@ -356,7 +356,7 @@
     <string name="fsg_mistake_touch_title">Bevegelsesbekreftelse</string>
     <string name="gadget_calculator_label">Kalkulator</string>
     <string name="gadget_calendar_label">Kalender</string>
-    <string name="gadget_clear_button_label">Rengjører</string>
+    <string name="gadget_clear_button_label">Renser</string>
     <string name="gadget_clock_12_label">Klokke 2x1</string>
     <string name="gadget_clock_14_label">Klokke 4x1</string>
     <string name="gadget_clock_24_label">Klokke 4x2</string>
@@ -383,7 +383,7 @@
     <string name="gadget_weather_loading">Ingen data</string>
     <string name="gadget_weather_low_temp">Lav temp</string>
     <string name="gadget_weather_theme_type">Innrettningstype</string>
-    <string name="gadget_weather_time_format">EEEE, d. MMMM</string>
+    <string name="gadget_weather_time_format">EEEE d. MMMM</string>
     <string name="gadget_weather_title">Vær</string>
     <string name="gadget_weather_title_14">Vær</string>
     <string name="gadget_weather_title_24">Vær</string>
@@ -422,7 +422,7 @@
     <string name="launcher_search_bar_value_enable">På</string>
     <string name="launcher_slide_up_title">Sveip opp på startskjermen</string>
     <string name="launcher_sliding_up_gesture">Sveip for å åpne Startskjermen og åpne søk</string>
-    <string name="launcher_title">Startskjerm &amp; Nylige</string>
+    <string name="launcher_title">Startskjerm og Nylige</string>
     <string name="like">Legg til i favoritter</string>
     <string name="liked">Lagt til i favoritter</string>
     <string name="loading_desktop">Et øyeblikk…</string>
@@ -460,6 +460,7 @@
     <string name="menu_launcher_setting">Launcher innstillinger</string>
     <string name="menu_lock">Lås Startskjermens layout</string>
     <string name="menu_more">Mer</string>
+    <string name="menu_no_word">Ikke vis tekst</string>
     <string name="menu_picktheme">Velg et tema</string>
     <string name="menu_reset_scene">Tilbakestill til standard oppsett</string>
     <string name="menu_search">Søk</string>
@@ -472,6 +473,7 @@
     <string name="midnight">Natt</string>
     <string name="minus_one_screen">Apphvelv</string>
     <string name="miui_screen_config_title">Innstillinger for startskjerm</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
@@ -664,6 +666,11 @@
     <string name="recents_title_market">Finn apper</string>
     <string name="recents_title_security_scan">Sikkerhetsskanning</string>
     <string name="recents_tv_small_window_text">Flytende vinduer</string>
+    <string name="recents_worldcirculate_text">Slipp for å velge</string>
+    <string name="recnets_worldcirculate_button_text">Mi Smart Hub</string>
+    <string name="recnets_worldcirculate_display_computer_info">Denne appen fungerer på %s.</string>
+    <string name="recnets_worldcirculate_display_default_info">Trykk for å ta den tilbake hit.</string>
+    <string name="recnets_worldcirculate_display_pad_info">Denne appen fungerer på %s.</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_app">App-forslag</string>
     <string name="recommend_apps_default_title">Tøm</string>
@@ -731,6 +738,7 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />

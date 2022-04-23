@@ -155,11 +155,12 @@
     <string name="dc_light_hint_normal_anit">Antiflimmer-modus kan påvirke hvordan noen av elementene vises.</string>
     <string name="dc_light_hint_normal_other">Antiflimmer-modus kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
     <string name="dc_light_hint_other">DC dimming kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
-    <string name="dc_light_hint_unnormal_low">Dårlig lys og antiflimmer-modus kan påvirke hvordan noen av elementene vises.</string>
-    <string name="dc_light_hint_unnormal_other">Dårlig lys og antiflimmer-modus kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
+    <string name="dc_light_hint_unnormal_low">Antiflimmermodus ved lite lys kan påvirke hvordan noen av elementene vises.</string>
+    <string name="dc_light_hint_unnormal_other">Antiflimmermodus ved lite lys kan påvirke oppdateringsfrekvensen og hvordan enkelte elementer vises.</string>
     <string name="dc_lignt_enable_hint">Antiflimmermodus setter skjermens oppdateringsfrekvens til 60 Hz. Bytt til antiflimmermodus?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Trykk for å gi tillatelser for å kunne se statistikk</string>
+    <string name="desktop_widget_authorization_new">Tapp for å se skjermtidstatistikk</string>
     <string name="desktop_widget_not_support">"Statistikk for skjermtid
 genereres ikke i Andre område"</string>
     <string name="desktop_widget_screen_use_time">Skjermtid</string>
@@ -339,7 +340,7 @@ genereres ikke i Andre område"</string>
     <string name="hsv_space_color_saturation">Metning</string>
     <string name="hsv_space_color_value">Verdi</string>
     <string name="intelligent_radio_btn_summary">Juster oppdateringsfrekvensen dynamisk basert på scenarier for å balansere ytelse med strømforbruk</string>
-    <string name="intelligent_radio_btn_title">Auto (anbefalt)</string>
+    <string name="intelligent_radio_btn_title">Standard (anbefalt)</string>
     <string name="intelligent_recognition_item_summary">Bruk en bestemt ringetone for anrop fra leverings- og taxitjenester. Denne funksjonen fungerer når %s er angitt som standard ringetone.</string>
     <string name="intelligent_recognition_item_title">Identifiser tjenester</string>
     <string name="item_anura">Anura</string>
@@ -694,14 +695,14 @@ genereres ikke i Andre område"</string>
     <string name="usage_app_over_content">Du har allerede brukt denne appen i %s i dag.</string>
     <string name="usage_app_over_summary">Du har nådd grensen din. Tiden er ute!</string>
     <string name="usage_app_set_limit_time">Angi grense</string>
-    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
+    <string name="usage_app_stop_desc">Alle data og tillatelser for Skjermtid, inkludert individuelle innstillinger, samt tilhørende elementer lagret lokalt, blir slettet når du deaktiverer denne funksjonen.​</string>
     <string name="usage_app_system_app_summary">Kan ikke begrense skjermtid for systemapper</string>
     <string name="usage_app_weekday_limit">Ukedager</string>
     <string name="usage_app_weekend_limit">Helger</string>
     <string name="usage_beat_fans">Bedre enn %s Mi Fans</string>
     <string name="usage_continuous_days">Streak</string>
     <string name="usage_creating_weekly_report">Oppretter ukentlig rapport…</string>
-    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+    <string name="usage_cta_desc">"Velkommen til Innstillinger! For å kunne gi deg statistikk over skjermtid og fokusmodus må denne appen innhente følgende data: Antall ganger du låser opp enheten, liste over appene dine med tilhørende bruksvarighet, antall ganger skjermen lyser opp og innstillinger for fokusmodus. De innhentede dataene lagres bare lokalt på denne enheten.
 "</string>
     <string name="usage_current_week_usage">%s i gjennomsnitt innen siste 7 dager</string>
     <string name="usage_device_limit_app_prolong">Legg til tid</string>
@@ -803,7 +804,7 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_runtime_summary">Disse tillatelsene er nødvendige for å gjøre de grunnleggende funksjonene og tjenestene i denne appen tilgjengelige.</string>
     <string name="usage_runtime_title">Obligatoriske tillatelser</string>
     <string name="usage_special_feature">Spesielle funksjoner</string>
-    <string name="usage_state_accurate_date">dd. MMMM yyyy</string>
+    <string name="usage_state_accurate_date">d. MMMM yyyy</string>
     <string name="usage_state_add_up_count">Økter</string>
     <string name="usage_state_add_up_days">Dager</string>
     <string name="usage_state_add_up_time">Total tid</string>

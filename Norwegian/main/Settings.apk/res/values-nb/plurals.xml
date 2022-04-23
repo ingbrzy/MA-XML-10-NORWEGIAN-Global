@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">om %d min</item>
+        <item quantity="one">om 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
     <plurals name="abc_slice_duration_days">
         <item quantity="other">For %d dager siden</item>
         <item quantity="one">For %d dag siden</item>
@@ -92,6 +128,10 @@
         <item quantity="other">%d tilgjengelige enheter</item>
         <item quantity="one">%d tilgjengelig enhet</item>
     </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">Every %d seconds</item>
+        <item quantity="one">Every %d second</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
         <item quantity="one">%d enhet</item>
@@ -148,13 +188,37 @@
         <item quantity="other">%1$d personer tilkoblet</item>
         <item quantity="one">%1$d person tilkoblet</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
     <plurals name="hours">
         <item quantity="other">%s timer</item>
         <item quantity="one">1 time</item>
     </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om 1 minutt</item>
+    </plurals>
     <plurals name="interact_across_profiles_number_of_connected_apps">
         <item quantity="other">%d apper er tilkoblet</item>
         <item quantity="one">%d app er tilkoblet</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d av %2$d apper har tilgang til posisjon</item>
@@ -248,6 +312,10 @@
         <item quantity="other">Wi-Fi slås på automatisk når enheten oppdager lagrede nettverk i nærheten og slås av etter %d minutter hvis ingen forbindelse er opprettet</item>
         <item quantity="one">Wi-Fi slås på automatisk når enheten oppdager lagrede nettverk i nærheten og slås av etter %d minutt hvis ingen forbindelse er opprettet</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM-kort</item>
         <item quantity="one">%1$d SIM-kort</item>
@@ -279,6 +347,10 @@
     <plurals name="notifications_sent_weekly">
         <item quantity="other">~%d varsler per uke</item>
         <item quantity="one">~%d varsel per uke</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
     </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktive apper</item>

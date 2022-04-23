@@ -37,7 +37,7 @@
 Trykk for å se"</string>
     <string name="app_notification_title">Skjermopptaker</string>
     <string name="auto_stop_title">Video lagret</string>
-    <string name="battery_not_allowed" formatted="false">Kan ikke ta opp med batterikapasitet på under 3 %. Batteriet må ha minst 20 % kapasitet.</string>
+    <string name="battery_not_allowed_warning">Kan ikke ta opp med batterikapasitet på under %1$s. Batteriet må ha minst %2$s kapasitet.</string>
     <string name="bit_rate">Videokvalitet</string>
     <string name="bit_rate_summary">Høyere kvalitet betyr større filstørrelse</string>
     <string name="bubble_text">Trykk for å starte opptak</string>
@@ -149,8 +149,8 @@ Trykk for å se"</string>
     <string name="low_battery_for_pad">Lad enheten før du starter opptak</string>
     <string name="low_battery_title">Lav batterikapasitet</string>
     <string name="low_battery_warning">Lavt batteri. Avsluttet opptak og lagret video.</string>
-    <string name="low_memory">Du har under 1 GB lagringsplass. Du kan ta opp opptil 20 minutter.</string>
     <string name="low_memory_for_pad">Du har mindre enn %1$d GB tilgjengelig lagringsplass. Du kan spille inn opptil %2$d minutter nå.</string>
+    <string name="low_memory_for_phone">Du har mindre enn %1$d GB tilgjengelig lagringsplass. Du kan spille inn opptil %2$d minutter nå.</string>
     <string name="low_memory_title">Ikke nok lagringsplass</string>
     <string name="low_momery_warning">Ikke nok lagringsplass. Avsluttet opptak og lagret video.</string>
     <string name="memory_not_allowed">Ingen lagringsplass tilgjengelig. Frigjør lagringsplass for å ta opp.</string>

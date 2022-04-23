@@ -93,13 +93,13 @@
     <string name="currency_update_updating">Oppdaterer kurser…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
-    <string name="date_format">dd. MMM yyyy</string>
+    <string name="date_format">d. MMM yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
-    <string name="dateformat">dd/MM/yyyy</string>
+    <string name="dateformat">dd.MM.yyyy</string>
     <string name="day">dag</string>
     <string name="degDesc">Vinkel</string>
     <string name="deleteDesc">slett</string>
@@ -346,6 +346,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="menuDesc">meny</string>
     <string name="midnight">Natt</string>
     <string name="minusDesc">minus</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
@@ -694,6 +695,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviterussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadiske dollar</string>
     <string name="unit_data_display_currency_cdf">Kongolesisk franc</string>
     <string name="unit_data_display_currency_chf">Sveitsiske franc</string>
@@ -1036,12 +1038,15 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_calculator_delete_description">Kalkulator er en systemapp. Du vil ikke kunne bruke flere omformere og tilleggsfunksjoner etter at du har avinstallert appen.</string>
     <string name="xiaomi_calculator_delete_title">Avinstallere Kalkulator?</string>
     <string name="xiaomi_calculator_remove_icon_description">Kalkulator er en systemapp. Du vil ikke kunne bruke flere konverteringsverktøy og tilleggsfunksjoner etter at du har fjernet snarveien på startskjermen.</string>
     <string name="xiaomi_calculator_remove_icon_title">Fjerne «Kalkulator» fra startskjermen?</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke koble til Nedlastinger. Kontroller om dette programmet har alle de nødvendige rettighetene under Innstillinger > Installerte apper.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s

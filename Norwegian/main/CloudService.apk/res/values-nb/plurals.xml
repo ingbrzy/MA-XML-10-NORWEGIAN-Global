@@ -36,10 +36,6 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
-    <plurals name="cloud_space_full_gallery_notification_content_title">
-        <item quantity="other">Kan ikke synkronisere %s elementer</item>
-        <item quantity="one">Kan ikke synkronisere %s element</item>
-    </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d blokkeringsliste-oppføringer</item>
         <item quantity="one">%d blokkeringsliste-oppføringer</item>
@@ -68,10 +64,6 @@
         <item quantity="other">%d meldinger</item>
         <item quantity="one">%d meldinger</item>
     </plurals>
-    <plurals name="dirty_music_count">
-        <item quantity="other">%d sanger</item>
-        <item quantity="one">%d sang</item>
-    </plurals>
     <plurals name="dirty_note_count">
         <item quantity="other">%d notater</item>
         <item quantity="one">%d notater</item>
@@ -92,10 +84,6 @@
         <item quantity="other">%d registreringer</item>
         <item quantity="one">%d registreringer</item>
     </plurals>
-    <plurals name="dirty_secretphoto_count">
-        <item quantity="other">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>
-        <item quantity="one">%d skjulte bilder er ikke synkronisert. Logg ut etter at alle elementene er synkronisert for å beholde dem; Ellers vil elementene slettes.</item>
-    </plurals>
     <plurals name="dirty_wlan_count">
         <item quantity="other">%d Wi-Fi-nettverk</item>
         <item quantity="one">%d Wi-Fi-nettverk</item>
@@ -104,9 +92,25 @@
         <item quantity="other">%d WLAN networks</item>
         <item quantity="one">%d WLAN network</item>
     </plurals>
+    <plurals name="error_retry_hour">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="error_retry_minute">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minutt</item>
+    </plurals>
+    <plurals name="error_retry_second">
+        <item quantity="other">%s sekunder</item>
+        <item quantity="one">%s sekund</item>
+    </plurals>
     <plurals name="error_screen_pwd_next_retry_time">
         <item quantity="other">Prøv igjen om %d sekunder</item>
         <item quantity="one">Prøv igjen om %d sekund</item>
+    </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_title">
+        <item quantity="other">Kunne ikke synkronisere %s elementer</item>
+        <item quantity="one">Kunne ikke synkronisere %s element</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
