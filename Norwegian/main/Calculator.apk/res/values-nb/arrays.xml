@@ -6,10 +6,6 @@
         <item>Fot</item>
         <item>Tommer</item>
     </string-array>
-    <string-array name="loan_rulers">
-        <item>@string/loan_type_summary_lpr</item>
-        <item>@string/loan_type_summary_base</item>
-    </string-array>
     <string-array name="mortgage_repayment">
         <item>Like avdrag</item>
         <item>Avtakende avdrag</item>
