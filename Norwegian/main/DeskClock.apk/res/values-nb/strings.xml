@@ -36,6 +36,7 @@
     <string name="add_alarm">Legg til alarm</string>
     <string name="add_clock">Legg til klokke</string>
     <string name="add_common_timer">Legg til tidsur</string>
+    <string name="add_new_sound">Legg til ringetone</string>
     <string name="add_timer">Hyppig timer</string>
     <string name="add_timer_dialog_title">Legg til tidsur</string>
     <string name="add_timezone_title">Legg til tidssone</string>
@@ -64,6 +65,7 @@
     <string name="alarmclock_empty_text">Ingen alarmer</string>
     <string name="alarmclock_silent_hint">Alarmen er dempet</string>
     <string name="alert">Ringetone</string>
+    <string name="alert_page_desc">Trykk og hold inne, og sveip opp for å deaktivere alarmen</string>
     <string name="alert_ringtone">Alarmringetone</string>
     <string name="alert_vibrate_enable_summary">Vibrer når alarmen går</string>
     <string name="alert_volume">Ringetonevolum</string>
@@ -125,6 +127,7 @@
     <string name="common_timer_selector">Velg tidtaker</string>
     <string name="confirm">Bekreft</string>
     <string name="confirm_abort">Forkast</string>
+    <string name="confirm_remove_custom_ringtone">Hvis du sletter denne ringetonen, vil alarmer og tidtakere som bruker den i stedet bruke standardringetonen. Vil du slette nå?</string>
     <string name="content_desc_keep_screen">\"Hold skjermen på\"-knapp</string>
     <string name="continue_operation">Fortsett</string>
     <string name="continue_step">Neste</string>
@@ -132,6 +135,7 @@
     <string name="control_set_alarm_with_existing">Alarmen er satt på: %s</string>
     <string name="copy">Kopiér</string>
     <string name="current_stopwatch_time">Nåværende tidsinnstilling</string>
+    <string name="custom_ringtone_lost_permissions">Får ikke tilgang til denne lyden.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -147,6 +151,7 @@
     <string name="delete_timer_item_title">Slett tidsuroppgave</string>
     <string name="delete_timezone_title">Slett tidssone</string>
     <string name="deskclock_sleep_no_disturbance">Klokke – Administrer leggetid – Ikke forstyrr-modus</string>
+    <string name="device_sounds">Enhetens lyder</string>
     <string name="dialog_confirm_abort">Forkast endringer?</string>
     <string name="dialog_legal_off_day">&lt;Data>Det ser ut til at du bruker alarmer for fridager. Denne funksjonen må koble til internett for å fungere som den skal. Før du bruker denne funksjonen, må du godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
     <string name="dialog_legal_off_day_desc">Klokke har ikke tillatelse til å koble til internett for å oppdatere info om fridager. Alarmer for fridager vil gå av lørdag og søndag.</string>
@@ -156,8 +161,8 @@
     <string name="dialog_legal_workday_desc">Klokke har ikke tillatelse til å koble til internett for å oppdatere info om arbeidsdager. Alarmer for ukedager vil gå av fra mandag til fredag.</string>
     <string name="dialog_message_agree">Enig</string>
     <string name="dialog_message_for_contact_permission">For å gjøre bursdagsalarmer tilgjengelig, trenger Klokke tilgang til kontaktene. Enig?</string>
-    <string name="dialog_message_negative">Ikke enig</string>
-    <string name="dialog_message_not_remind">Ikke spørr igjen</string>
+    <string name="dialog_message_negative">Ikke godta</string>
+    <string name="dialog_message_not_remind">Ikke vis igjen</string>
     <string name="dialog_net_permission_in_repeat_type">&lt;Data>Denne funksjonen må koble til internett for å fungere som den skal. Før du bruker denne funksjonen, må du godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår. Godta?&lt;/Data></string>
     <string name="dialog_privacy_content">Klokke må koble til internett for å få relevant info om lokale offentlige helligdager, justere alarmer og tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
     <string name="dialog_privacy_content_global">Klokke må koble til internett for å tilby tilpassede tjenester. Før du bruker Klokke, må du også lese og godta vår %1$s og %2$s. Godta?</string>
@@ -498,6 +503,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil gå av hvis den stilles inn på minst 10 minutter etter at du slår av enheten</string>
     <string name="shutdown_alarm_title">Skru av alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="sleep_analysis">Statistikk</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -543,6 +549,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ingen runder</string>
     <string name="stopwatch_reset_notification">Stoppeklokke ble nullstilt</string>
     <string name="stopwatch_running_notification">Stoppeklokke</string>
@@ -551,6 +558,7 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Gi denne appen tillatelse til å koble til Internett for å få tilgang til alle funksjonene.</string>
     <string name="system_permission_main_purpose">Visningstid, angi alarmer og tidtakere, bruk av stoppeklokke</string>
     <string name="system_permission_purpose">Oppretter alarmer for ukedager og angir tilpassede ringetoner</string>
@@ -666,7 +674,8 @@
     <string name="tv_blank_list_show_text">Ingenting her enda. Søk etter et sted og legg det til verdensklokken din.</string>
     <string name="tv_world_clock_edit_title1">Steder vist på Startskjerm</string>
     <string name="tv_world_clock_edit_title2">Andre lagrede steder</string>
-    <string name="unselect_all">Velg ingen</string>
+    <string name="unknown_ringtone_title">Ukjent</string>
+    <string name="unselect_all">Fjern alle valg</string>
     <string name="upcoming_alarm">Kommende alarm: %s</string>
     <string name="upcoming_alarm_hint">Du kan slå av denne alarmen nå</string>
     <string name="update_health_app">Oppdater Xiaomi Helse</string>
@@ -698,6 +707,8 @@
     <string name="week_ringtone_recommend_desc">Naturalarmen spiller av ulike lyder avhengig av datoen. Angi den som standardalarm?</string>
     <string name="white_noise">Omgivelsesstøy</string>
     <string name="white_noise_guide_desc">Legg til en bakgrunnslyd for å holde deg fokusert</string>
+    <string name="white_noise_not_selected">Ikke valgt</string>
+    <string name="white_noise_selected">Valgt</string>
     <string name="white_noise_selector">Velg lyd</string>
     <string name="workday_alarm_clock">Jobbalarm</string>
     <string name="worldclock_edit_label">Verdensklokke</string>
@@ -721,4 +732,5 @@
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>
     <string name="xiaoai_ringtone_title">Mi AI-ringetoner</string>
     <string name="yesterday">I går</string>
+    <string name="your_sounds">Mine lyder</string>
 </resources>

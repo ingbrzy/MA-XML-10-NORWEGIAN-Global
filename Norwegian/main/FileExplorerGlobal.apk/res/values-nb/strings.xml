@@ -37,6 +37,7 @@
     <string name="add_private_files">Legg til filer</string>
     <string name="add_remote">Legge til ekstern enhet</string>
     <string name="agree_all">Jeg har lest og godtatt alle de følgende vilkårene og betingelsene.</string>
+    <string name="agree_privacy_policy">Godta personvernerklæringen</string>
     <string name="all">Alle</string>
     <string name="already_latest_version">Den nåværende versjonen er oppdatert.</string>
     <string name="anonymous">Anonym</string>
@@ -207,6 +208,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feedback_desc">Beskriv problemet du har støtt på</string>
     <string name="feedback_send_email_body_extra_info">Ikke slett den følgende informasjonen. Det vil hjelpe oss med å lokalisere problemet.</string>
+    <string name="feeling_ok">Nøytral</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Lesbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
@@ -232,6 +234,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="ftp_username_hint">Brukernavn</string>
     <string name="gbk_summary">Windows standardkoding for forenklet kinesisk</string>
     <string name="gigabyteShort">GB</string>
+    <string name="great">Svært fornøyd</string>
     <string name="grid_order">Rutenettvisning</string>
     <string name="homepage_tab_recent">Nylig</string>
     <string name="host">Vert</string>
@@ -277,7 +280,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="menu_item_usb">USB</string>
     <string name="mi_router_label">Router</string>
     <string name="mode">Modus</string>
-    <string name="month_day_format">dd MMM</string>
+    <string name="month_day_format">d. MMM</string>
     <string name="more">Mer</string>
     <string name="more_option">Flere valg</string>
     <string name="move_failed">Kan ikke flytte</string>
@@ -307,6 +310,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="not_connect_user">Kan ikke koble til: %1$s og %2$s</string>
     <string name="not_installed_documentsui">DocumentsUI er ikke installert</string>
     <string name="not_support_documentui">DokumentUI er ikke støttet på denne enheten</string>
+    <string name="not_very_dissatisfied">Misfornøyd</string>
     <string name="notif_server_starting">Starter FTP-server…</string>
     <string name="notif_title">FTP-server kjører</string>
     <string name="notification_wechat_expired_empty">WeChat har allerede slettet disse videoklippene.</string>
@@ -387,7 +391,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="port">Port</string>
     <string name="port_range">Portnummer må være mellom 1024–65535</string>
     <string name="possible_permissions">Valgfrie tillatelser</string>
-    <string name="privacy_accept">Godta &amp; fortsett</string>
+    <string name="privacy_accept">Samtykk og fortsett</string>
     <string name="privacy_cancel"><u>Ikke enig</u></string>
     <string name="privacy_desc">Velkommen til Filbehandler! I tillegg til grunnleggende funksjonalitet, gir denne appen også følgende tjenester:</string>
     <string name="privacy_experience_statement">Bli med i brukeropplevelsesprogrammet for å dele brukerdata med oss og bidra til å forbedre produktene og tjenestene våre.</string>
@@ -439,6 +443,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="s5">Opprett kalenderaktivitet</string>
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
     <string name="s7">Testannonse</string>
+    <string name="satisfied">Fornøyd</string>
     <string name="save_seven_day">Fjern én gang i uken</string>
     <string name="scan_code_download_from_play">Skann denne QR-koden for å laste ned fra Play-butikken</string>
     <string name="search_description">Søk alle filer på enheten</string>
@@ -494,7 +499,9 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="storage_warning">Kan ikke bruke ekstern lagring</string>
     <string name="str_clean">Rydd</string>
-    <string name="tab_common_app">Apps &amp; mapper</string>
+    <string name="switch_to_grid_mode">Bytt til rutenettvisning</string>
+    <string name="switch_to_list_mode">Bytt til listevisning</string>
+    <string name="tab_common_app">Apps og mapper</string>
     <string name="tab_more">Mer</string>
     <string name="terabyteShort">TB</string>
     <string name="terms_conditions">Vilkår og betingelser</string>
@@ -528,13 +535,14 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="user_notice_term_of_service">Brukeravtale</string>
     <string name="utf8_summary">System-FTP standardkoding</string>
     <string name="version_name">Versjon</string>
+    <string name="very_dissatisfied">Svært misfornøyd</string>
     <string name="view_by_document">Vis i Filer</string>
     <string name="wechat_video">Video på %s</string>
     <string name="whatsapp_cache_garbage">Hurtigbuffer</string>
     <string name="whatsapp_cache_garbage_cleanup">Tøm</string>
     <string name="whatsapp_cache_garbage_tip">Du sletter ikke noe viktig ved å tømme hurtigbufferen. Du kan bruke appen som normalt etterpå.</string>
     <string name="wifi_state">Wi-Fi-status</string>
-    <string name="year_month_day_format">dd MMM, yyyy</string>
+    <string name="year_month_day_format">d. MMM yyyy</string>
     <string name="yes">Ja</string>
     <string name="yesterday">I går</string>
 </resources>

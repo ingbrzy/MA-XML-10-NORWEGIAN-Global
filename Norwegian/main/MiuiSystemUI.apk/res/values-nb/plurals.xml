@@ -73,7 +73,7 @@
         <item quantity="one">om 1 minutt</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
-        <item quantity="other">Feil PIN-kode, %d forsøk gjenstår</item>
+        <item quantity="other">Fil PIN-kode, %d forsøk gjenstår</item>
         <item quantity="one">Feil PIN-kode, %d forsøk gjenstår</item>
     </plurals>
     <plurals name="incorrect_pukcode_remaining_attempts">
@@ -82,7 +82,7 @@
     </plurals>
     <plurals name="input_password_after_timeout_msg">
         <item quantity="other">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
-        <item quantity="one">Skriv inn passordet ditt minst én gang hver %d time for å alltid huske det</item>
+        <item quantity="one">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
         <item quantity="other">Skriv inn passordet ditt minst én gang hver %d. time for å alltid huske det</item>
@@ -93,8 +93,8 @@
         <item quantity="one">Omtrent %d time igjen</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
-        <item quantity="other">Omtrent%d minutter igjen</item>
-        <item quantity="one">Omtrent%d minutt igjen</item>
+        <item quantity="other">Omtrent %d minutter igjen</item>
+        <item quantity="one">Ca. %d minutter igjen</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
         <item quantity="other">Omtrent %1$d h %2$d m igjen</item>
@@ -102,11 +102,11 @@
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%d timer</item>
-        <item quantity="one">%d time</item>
+        <item quantity="one">%d timer</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_min_time_format">
         <item quantity="other">%d minutter</item>
-        <item quantity="one">%d minutt</item>
+        <item quantity="one">%d minutter</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
         <item quantity="other">%1$d t %2$d m</item>
@@ -117,12 +117,12 @@
         <item quantity="one">Gjenstår %d time</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
-        <item quantity="other">Gjenstår %d minutter</item>
+        <item quantity="other">Gjenstår %d minutt</item>
         <item quantity="one">Gjenstår %d minutt</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_time_text">
-        <item quantity="other">Gjenstår %1$d t %2$d m</item>
-        <item quantity="one">Gjenstår %1$d t %2$d m</item>
+        <item quantity="other">Gjenstår %1$d h %2$d m</item>
+        <item quantity="one">Gjenstår %1$d h %2$d m</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
         <item quantity="other">Skriv inn PIN-koden for SIM-kortet. Du har %d forsøk igjen.</item>
@@ -164,9 +164,13 @@
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d nye varsler</item>
-        <item quantity="one">%d nye varsel</item>
+        <item quantity="one">%d nytt varsel</item>
     </plurals>
     <plurals name="notification_group_overflow_description">
         <item quantity="other">%s andre varsler i gruppen.</item>
@@ -201,7 +205,7 @@
         <item quantity="one">Du kan bare opprette én bruker.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheter tilkoblet</item>
-        <item quantity="one">%1$d enhet tilkoblet</item>
+        <item quantity="other">%1$d enheter er tilkoblet</item>
+        <item quantity="one">%1$d enhet er tilkoblet</item>
     </plurals>
 </resources>

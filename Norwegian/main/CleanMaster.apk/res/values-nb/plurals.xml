@@ -36,9 +36,127 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">Ikke brukt på %d dager</item>
+        <item quantity="one">Ikke brukt på %d dag</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">Ikke brukt på %d måneder</item>
+        <item quantity="one">Ikke brukt på %d måneder</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">Ikke brukt på %d år</item>
+        <item quantity="one">Ikke brukt på %d år</item>
+    </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"Renser %1$d filer (%2$d%%)
+"</item>
+        <item quantity="one">"Renser %1$d fil (%2$d%%)
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d enheter per sekund | Gjenstående tid: %2$s</item>
+        <item quantity="one">%1$d enhet per sekund | Gjenstående tid: %2$s</item>
+    </plurals>
+    <plurals name="dc_group_title_normal">
+        <item quantity="other">Ta %1$d trinn for å frigjøre %2$s</item>
+        <item quantity="one">Ta %1$d trinn for å frigjøre %2$s</item>
+    </plurals>
+    <plurals name="dc_item_summary_apk">
+        <item quantity="other">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> installasjonspakker&lt;/Data></item>
+        <item quantity="one">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> installasjonspakke&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_app_data">
+        <item quantity="other">&lt;Data>Du kan fjerne data for &lt;font color=#0097FF>%d&lt;/font> apper&lt;/Data></item>
+        <item quantity="one">&lt;Data>Du kan fjerne data for &lt;font color=#0097FF>%d&lt;/font> app&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_image">
+        <item quantity="other">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> unødvendige bilder&lt;/Data></item>
+        <item quantity="one">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> unødvendig bilde&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_large_file">
+        <item quantity="other">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> store filer&lt;/Data></item>
+        <item quantity="one">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> stor fil&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_uninstall_app">
+        <item quantity="other">&lt;Data>Du kan avinstallere &lt;font color=#0097FF>%d&lt;/font> sjeldent brukte apper&lt;/Data></item>
+        <item quantity="one">&lt;Data>Du kan avinstallere &lt;font color=#0097FF>%d&lt;/font> sjeldent brukt app&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_video">
+        <item quantity="other">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> videoer&lt;/Data></item>
+        <item quantity="one">&lt;Data>Du kan slette &lt;font color=#0097FF>%d&lt;/font> video&lt;/Data></item>
+    </plurals>
+    <plurals name="deepclean_apk_summary">
+        <item quantity="other">Fant %d APKer, du kan slette disse.</item>
+        <item quantity="one">Fant %d APK, du kan slette denne.</item>
+    </plurals>
+    <plurals name="deepclean_app_summary">
+        <item quantity="other">%d apper installert, du kan slette disse</item>
+        <item quantity="one">%d app installert, du kan slette denne</item>
+    </plurals>
+    <plurals name="deepclean_cache_summary">
+        <item quantity="other">Du kan tømme uviktige data for %d apper</item>
+        <item quantity="one">Du kan tømme uviktige data for %d apper</item>
+    </plurals>
+    <plurals name="deepclean_install_info_desc1">
+        <item quantity="other">%d apper installert</item>
+        <item quantity="one">%d app installert</item>
+    </plurals>
+    <plurals name="deepclean_large_summary">
+        <item quantity="other">Fant %d store filer, du kan slette disse</item>
+        <item quantity="one">Fant %d stor fil, du kan slette denne</item>
+    </plurals>
+    <plurals name="deepclean_similar_summary">
+        <item quantity="other">Fant %d bilder, du kan slette duplikater og overflødige bilder</item>
+        <item quantity="one">Fant %d bilde, du kan slette duplikater og overflødige bilder</item>
+    </plurals>
+    <plurals name="deepclean_video_summary">
+        <item quantity="other">Fant %d videoer, du kan slette disse</item>
+        <item quantity="one">Fant %d video, du kan slette denne.</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_confirm">
+        <item quantity="other">Slette %d bilder?</item>
+        <item quantity="one">Slette %d bilde?</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_from_all_devices_confirm">
+        <item quantity="other">Slette %1$s bilder fra alle enheter?</item>
+        <item quantity="one">Slette %1$s bilde fra alle enheter?</item>
+    </plurals>
+    <plurals name="every_x_day">
+        <item quantity="other">Hver %d. dag</item>
+        <item quantity="one">Hver %d. dag</item>
+    </plurals>
+    <plurals name="global_wa_clean_finish_audio">
+        <item quantity="other">&lt;Data>Frigjorde &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (nok til &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> sanger)&lt;/Data></item>
+        <item quantity="one">&lt;Data>Frigjorde &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (nok til &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> sang)&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_clean_finish_picture">
+        <item quantity="other">&lt;Data>Frigjorde &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (nok til &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> bilder)&lt;/Data></item>
+        <item quantity="one">&lt;Data>Frigjorde &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (nok til &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> bilde)&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_image">
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="global_wa_video">
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="global_wa_voice">
+        <item quantity="other">&lt;Data>Fant &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> talemeldinger&lt;/Data></item>
+        <item quantity="one">&lt;Data>Fant &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> talemelding&lt;/Data></item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">%d grupper</item>
+        <item quantity="one">%d gruppe</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d timer</item>
+        <item quantity="one">%1$d time</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 time</item>
@@ -56,9 +174,25 @@
         <item quantity="other">om %d minutter</item>
         <item quantity="one">om 1 minutt</item>
     </plurals>
+    <plurals name="install_find_application">
+        <item quantity="other">Søk i %d apper</item>
+        <item quantity="one">Søk i %d app</item>
+    </plurals>
+    <plurals name="install_find_application_num">
+        <item quantity="other">Fant %d apper</item>
+        <item quantity="one">Fant %d app</item>
+    </plurals>
+    <plurals name="last_x_day">
+        <item quantity="other">Siste %d dager</item>
+        <item quantity="one">Siste %d dager</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d minutter</item>
+        <item quantity="one">%1$d minutt</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d elementer valgt</item>
@@ -67,5 +201,49 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">Lastet ned av %1$d personer</item>
+        <item quantity="one">Lastet ned av %1$d personer</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">Lastet ned av %1$d personer</item>
+        <item quantity="one">Lastet ned av %1$d personer</item>
+    </plurals>
+    <plurals name="resutl_function_install_app_summary">
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> apper har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> app har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$s visninger</item>
+        <item quantity="one">%1$s visning</item>
+    </plurals>
+    <plurals name="wechat_copy_video_failed_dialog_msg">
+        <item quantity="other">Kunne ikke eksportere %d videoer. Frigjør lagringsplass og prøv igjen.</item>
+        <item quantity="one">Kunne ikke eksportere %d video. Frigjør lagringsplass og prøv igjen.</item>
+    </plurals>
+    <plurals name="wechat_empty_files">
+        <item quantity="other">(%1$d tommer filer)</item>
+        <item quantity="one">(%1$d tommer fil)</item>
+    </plurals>
+    <plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="whatsapp_delete_files">
+        <item quantity="other">Slette %1$d elementer?</item>
+        <item quantity="one">Slette %1$d element?</item>
+    </plurals>
+    <plurals name="whatsapp_file_audio_dec">
+        <item quantity="other">%1$s lydfiler</item>
+        <item quantity="one">%1$s lydfil</item>
     </plurals>
 </resources>

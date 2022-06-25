@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_process_mode">
+        <item>Gi beskjed</item>
+        <item>Rens</item>
+        <item>Tøm og meld fra</item>
+    </string-array>
+    <string-array name="cache_sort_type">
+        <item>Størrelse</item>
+        <item>Navn</item>
+    </string-array>
+    <string-array name="installed_app_sort_type">
+        <item>Ofte brukt</item>
+        <item>Størrelse</item>
+    </string-array>
+    <string-array name="large_file_sort_type">
+        <item>Størrelse</item>
+        <item>Navn</item>
+    </string-array>
+    <string-array name="uninstalled_app_sort_type">
+        <item>Størrelse</item>
+        <item>Bruksfrekvens</item>
+        <item>Installasjonstid</item>
+    </string-array>
+    <string-array name="wechat_sort">
+        <item>Dato</item>
+        <item>Størrelse</item>
+    </string-array>
+</resources>

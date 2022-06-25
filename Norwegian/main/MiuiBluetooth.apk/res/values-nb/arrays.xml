@@ -83,11 +83,6 @@
         <item>Qualcomm® aptX™-lyd</item>
         <item>Qualcomm® aptX™ HD-lyd</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive-lyd</item>
-        <item>Qualcomm® aptX™ TWS+ lyd</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Bruk systemvalg (Standard)</item>
@@ -96,13 +91,6 @@
         <item>Qualcomm® aptX™-lyd</item>
         <item>Qualcomm® aptX™ HD-lyd</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive-lyd</item>
-        <item>Qualcomm® aptX™ TWS+ lyd</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>Aktiver valgfrie kodeker</item>
-        <item>Deaktiver valgfrie kodeker</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -136,8 +124,6 @@
         <item>Deaktivert</item>
         <item>Filtrert</item>
         <item>Aktivert</item>
-        <item>Overskrifter filtrert</item>
-        <item>Mediapakker filtrert</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Forbedrede farger</item>
@@ -294,6 +280,20 @@
         <item>Mislykket</item>
         <item>Blokkert</item>
         <item>Unngår midlertidig en dårlig forbindelse</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skanner …</item>
+        <item>Kobler til …</item>
+        <item>Autentiserer …</item>
+        <item>Henter IP-adresse …</item>
+        <item>Tilkoblet</item>
+        <item>Sperret midlertidig</item>
+        <item>Kobler fra …</item>
+        <item>Frakoblet</item>
+        <item>Mislykket</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig tilkobling midlertidig</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animasjon av</item>

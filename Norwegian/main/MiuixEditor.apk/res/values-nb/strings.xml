@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_frequent_phrases">Legg til ofte brukte setninger</string>
+    <string name="edit_frequent_phrases">Rediger ofte brukte setninger</string>
+    <string name="frequent_phrases">Ofte brukte uttrykk</string>
+    <string name="query">Søk</string>
+    <string name="select">Velg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

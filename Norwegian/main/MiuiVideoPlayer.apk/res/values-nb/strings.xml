@@ -110,13 +110,14 @@
     <string name="auto_play_next_on">Automatisk avspilling er aktivert</string>
     <string name="back_to_mainpage">Oppdag</string>
     <string name="background_playback_enabled">Avspilling i bakgrunnen er aktivert</string>
-    <string name="before_yestoday">2 dager siden</string>
     <string name="before_yestoday_new">%d dager siden</string>
     <string name="bind_sign_in_title">Legg til Mi-konto</string>
+    <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
     <string name="box_title_gallery">Video-verktøykasse</string>
     <string name="box_title_mivideo">Tilleggsfunksjoner</string>
     <string name="btn_clear_history">Tøm historikk</string>
     <string name="btn_empty_go_to_download">Last ned</string>
+    <string name="btn_playlist_play_all">Spill av</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_choose">Avmarker</string>
     <string name="cancel_subscribe_tips">Slutte å følge nå?</string>
@@ -138,6 +139,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">DIREKTE</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
@@ -164,10 +166,13 @@
     <string name="cast_unmute">Slå på lyden</string>
     <string name="change_activate_email">Endre e-postadresse</string>
     <string name="change_password">Endre passord</string>
+    <string name="character_counter_content_description">%1$d av %2$d tegn er skrevet inn</string>
+    <string name="character_counter_overflowed_content_description">Tegngrensen er overskredet – %1$d av %2$d</string>
     <string name="check_nothing">Du har ikke valgt noen elementer ennå</string>
     <string name="choose">Velg</string>
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nei, jeg vil opprette en</string>
+    <string name="clear_text_end_icon_content_description">Fjern teksten</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="click_to_open_pip">Trykk for å bytte bilde-i-bilde</string>
     <string name="click_to_play_video_push_context">Trykk for å spille av video</string>
@@ -177,7 +182,6 @@
     <string name="cloud_auto_pip_play_switch">Bruk bilde-i-bilde automatisk</string>
     <string name="cloud_online_player">Spiller</string>
     <string name="cloud_online_switch">Tilpassede anbefalinger</string>
-    <string name="cloud_online_switch_close_time">Du kan skru på personlig tilpassede innholdsanbefalinger i %s</string>
     <string name="cloud_online_switch_open_time">Vis personlig tilpassede innholdsanbefalinger</string>
     <string name="collect_diagnosis_log">Hent logger</string>
     <string name="columbus_ad_flag_text">ANNONSE</string>
@@ -320,6 +324,8 @@ Send denne koden til den overordnede."</string>
     <string name="dialog_set_default_later">Nei, takk</string>
     <string name="dialog_set_default_set">Angi</string>
     <string name="dialog_set_default_text">Bruke Mi Video som standard videospiller?</string>
+    <string name="dialog_title_delete_folder">Hvis du sletter denne amppen, vil alle filene i mappen slettes permanent. Vil du slette mappen nå?</string>
+    <string name="dialog_title_hidden_folder">Hvis du skjuler denne mappen, vil ikke filene vises blant videoene dine. Vil du skjule mappen?</string>
     <string name="dialog_video_change">Endre</string>
     <string name="dialog_video_download_tip">I kø</string>
     <string name="dialog_video_download_view">Vis</string>
@@ -352,6 +358,7 @@ Send denne koden til den overordnede."</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="error_dup_binded_email">Denne e-postadressen er allerede knyttet til en annen Mi-konto.</string>
+    <string name="error_icon_content_description">Feil</string>
     <string name="error_invalid_bind_address">E-postadressen du skrev inn er ugyldig.</string>
     <string name="evening">Ettermiddag</string>
     <string name="exceed_binded_phone_times_notice">Dette telefonnummeret er allerede knyttet til en annen Mi-konto.</string>
@@ -394,6 +401,7 @@ Send denne koden til den overordnede."</string>
     <string name="expand_button_title">Avansert</string>
     <string name="explore">Oppdag</string>
     <string name="explore_on_mi_video">Finn mer på Mi Video</string>
+    <string name="exposed_dropdown_menu_content_description">Vis rullegardinmenyen</string>
     <string name="failed_dup_secure_phone_number">Dette telefonnummeret er allerede knyttet til en annen Mi-konto</string>
     <string name="failed_to_fetch_data">Kunne ikke laste inn informasjon.</string>
     <string name="failure">Kunne ikke laste ned</string>
@@ -517,7 +525,7 @@ Send denne koden til den overordnede."</string>
     <string name="galleryplus_double_tap_to_higher_definition">Dobbelttrykk igjen for å åpne HD-forhåndsvisning</string>
     <string name="galleryplus_fr_unsupport_restore_speed">Bildefrekvens ikke støttet. Byttet tilbake til normal hastighet.</string>
     <string name="galleryplus_gallery_fold_tags">Skjul merker</string>
-    <string name="galleryplus_gallery_video_adjust_hint">Bare videoer med 960 fps er støttet</string>
+    <string name="galleryplus_gallery_video_adjust_hint">Bare videoer med %dbps støttes</string>
     <string name="galleryplus_gallery_video_adjust_text">Juster</string>
     <string name="galleryplus_gallery_video_default_music_text">Automatisk</string>
     <string name="galleryplus_gallery_video_item3_default_text">Følelser</string>
@@ -528,9 +536,9 @@ Send denne koden til den overordnede."</string>
     <string name="galleryplus_gallery_video_music_format_error">Kan ikke legge til lydspor i valgte video</string>
     <string name="galleryplus_gallery_video_music_text">Lydspor</string>
     <string name="galleryplus_gallery_video_no_music_text">Ingen</string>
-    <string name="galleryplus_gallery_video_operate_text">Justeringer for saktegående</string>
+    <string name="galleryplus_gallery_video_operate_text">Justeringer av sakte film</string>
     <string name="galleryplus_gallery_video_save_video">Oppretter video…</string>
-    <string name="galleryplus_gallery_video_slow_edit">Saktegående</string>
+    <string name="galleryplus_gallery_video_slow_edit">Sakte film</string>
     <string name="galleryplus_gallery_view_tags">Vis merker</string>
     <string name="galleryplus_is_higher_definition">HD-forhåndsvisning</string>
     <string name="galleryplus_network_connect_check">Kunne ikke koble til nettverket</string>
@@ -626,7 +634,6 @@ Dette vil ikke påvirke bildene i galleriet ditt."</string>
     <string name="got_it">Skjønner</string>
     <string name="goto_sign_up">Opprett konto</string>
     <string name="have_learned">Skjønner</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hidden_channels">Følgende kanaler vises ikke på hjemmesiden.</string>
     <string name="hide">Skjul</string>
     <string name="hint_icon_ad_title">Anbefalt</string>
@@ -635,12 +642,12 @@ Dette vil ikke påvirke bildene i galleriet ditt."</string>
     <string name="history_local_video">Lokal</string>
     <string name="history_online_video">På nett</string>
     <string name="hot">Populært</string>
+    <string name="icon_content_description">Dialogboksikon</string>
     <string name="identity">Identifisering</string>
     <string name="inconsistent_pwd">Passordene samsvarer ikke</string>
     <string name="init_channels">Gjenopprett standardinnstillingene</string>
     <string name="input_email_address_notice">Vi bruker denne e-posten til å bekrefte kontoen din</string>
     <string name="input_new_pwd">Tast inn nytt passord</string>
-    <string name="input_size_tips">Du kan skrive inn opptil 1000 tegn</string>
     <string name="input_size_tips_new">Du kan angi opptil %d tegn</string>
     <string name="isornot_your_mi_account">Er dette din Mi-konto?</string>
     <string name="issue">Problem</string>
@@ -653,6 +660,8 @@ Dette vil ikke påvirke bildene i galleriet ditt."</string>
     <string name="item_download_path">Nedlastingssted</string>
     <string name="item_download_path_setting">Nedlastingsstedsinnstillinger</string>
     <string name="item_setting_go_back">Tilbakekalling av samtykke</string>
+    <string name="item_title_unknown">Ukjent tittel</string>
+    <string name="item_view_role_description">Fane</string>
     <string name="just_a_second">Et øyeblikk…</string>
     <string name="language_later_setting_tips">Du kan endre språkinnstillingene dine under Profil > Språk.</string>
     <string name="language_select_tips">"Velg det foretrukne språket
@@ -667,10 +676,14 @@ for videoer"</string>
     <string name="local_diversion_close_recommend">Lukk</string>
     <string name="local_diversion_download_more_video">Flere videoer</string>
     <string name="local_diversion_manage_local_video">Administrer filer</string>
-    <string name="local_diversion_open_mivideo">"Vis i Mi Video
-for beste brukeropplevelse."</string>
+    <string name="local_diversion_open_mivideo">*Bytt til Mi Video, en kraftig, multifunksjonell videospiller</string>
     <string name="local_diversion_recommend_title">Populær</string>
     <string name="local_empty_guide">Videoer du tar opp vises her</string>
+    <string name="local_folder_select_count">Valgt %s</string>
+    <string name="local_hide_folder_dialog_content">Skjulte videoer vises ikke i spillelistene dine</string>
+    <string name="local_hide_folder_dialog_title">Skjulte videoer</string>
+    <string name="local_hide_folder_setting_goto">Innstillinger</string>
+    <string name="local_hide_folder_setting_tip">Du kan administrere de skjulte videoene i Profil > Innstillinger > Administrer skjulte videoer.</string>
     <string name="local_play_tip">Spiller av lokal video</string>
     <string name="local_push_setting_power_tag">Varsler om lokale videoer</string>
     <string name="local_push_title">Populært i dag</string>
@@ -735,9 +748,8 @@ for beste brukeropplevelse."</string>
     <string name="lv_audio_track">Lydspor</string>
     <string name="lv_auto_update">Oppdater senere</string>
     <string name="lv_brightness">Lysstyrke</string>
-    <string name="lv_cast">Cast</string>
+    <string name="lv_cast">Strøm</string>
     <string name="lv_check_delete_file">Velg elementer å slette</string>
-    <string name="lv_check_send_file">Du kan kun sende 1 fil om gangen</string>
     <string name="lv_check_send_file_new">Du kan bare sende %d fil om gangen</string>
     <string name="lv_confirm_delete_history">Slette valgte enheter?</string>
     <string name="lv_confirm_delete_videos">Slette elementer?</string>
@@ -800,14 +812,10 @@ for beste brukeropplevelse."</string>
     <string name="lv_subtitle_manual_add_sub">Undertekster lagt til</string>
     <string name="lv_subtitle_no_subtitle">Undertekster er ikke tilgjengelig</string>
     <string name="lv_subtitle_non_subtitle_file">Ingen undertekstfil er tilgjengelig</string>
-    <string name="lv_subtitle_offset_add_1s">+1 s</string>
     <string name="lv_subtitle_offset_add_1s_new">+%ds</string>
-    <string name="lv_subtitle_offset_add_dot5s">+0.5s</string>
     <string name="lv_subtitle_offset_add_dot5s_new">+%fs</string>
     <string name="lv_subtitle_offset_normal">Ikke flytt undertekster</string>
-    <string name="lv_subtitle_offset_sub_1s">-1s</string>
     <string name="lv_subtitle_offset_sub_1s_new">-%ds</string>
-    <string name="lv_subtitle_offset_sub_dot5s">-0.5s</string>
     <string name="lv_subtitle_offset_sub_dot5s_new">-%fs</string>
     <string name="lv_subtitle_onlinesub_language">Språk: %s</string>
     <string name="lv_subtitle_onlinesub_loading">Laster undertekster…</string>
@@ -821,7 +829,6 @@ for beste brukeropplevelse."</string>
     <string name="lv_subtitle_onlinesub_size_string_b">Størrelse: %sB</string>
     <string name="lv_subtitle_onlinesub_title">Undertekster på nett</string>
     <string name="lv_subtitle_open_subtitle_file_title">Finn undertekst-filer</string>
-    <string name="lv_subtitle_preoffset_max">Kan ikke flytte lenger enn 5s</string>
     <string name="lv_subtitle_preoffset_max_new">Kan ikke flytte mer enn %ds</string>
     <string name="lv_subtitle_subonline_non_network">Kunne ikke koble til nettverket. Koble til og prøv igjen.</string>
     <string name="lv_subtitle_synchronization_title">Synkroniser</string>
@@ -840,6 +847,18 @@ for beste brukeropplevelse."</string>
     <string name="mangotv_feature_more">Mer</string>
     <string name="mangotv_feature_title1">Episoder</string>
     <string name="mangotv_feature_title2">Episoder</string>
+    <string name="material_clock_toggle_content_description">Velg AM eller PM</string>
+    <string name="material_hour_selection">Velg time</string>
+    <string name="material_hour_suffix">%1$s null-null</string>
+    <string name="material_minute_selection">Angi minutter</string>
+    <string name="material_minute_suffix">%1$s minutter</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Bytt til klokkemodus for tidsinndata.</string>
+    <string name="material_timepicker_hour">Time</string>
+    <string name="material_timepicker_minute">Minutt</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Velg tidspunkt</string>
+    <string name="material_timepicker_text_input_mode_description">Bytt til tekstinndatamodus for tidsinndata.</string>
     <string name="mediation_ad_can_not_share">Kan ikke dele denne videoen</string>
     <string name="mi_video">Mi Video</string>
     <string name="midnight">Natt</string>
@@ -944,6 +963,41 @@ for beste brukeropplevelse."</string>
     <string name="mr_controller_volume_slider">Glidebryter for volum</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Enheter</string>
+    <string name="mtrl_badge_numberless_content_description">Nytt varsel</string>
+    <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Flere enn %1$d nye varsler</string>
+    <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
+    <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
+    <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Velg dato</string>
+    <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolonne for dager: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ugyldig format.</string>
+    <string name="mtrl_picker_invalid_format_example">Eksempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Bruk: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ugyldig område.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naviger til år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Utenfor rekkevidde: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdato – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – sluttdato</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Velg periode</string>
+    <string name="mtrl_picker_range_header_unselected">Startdato–sluttdato</string>
+    <string name="mtrl_picker_save">Lagre</string>
+    <string name="mtrl_picker_text_input_date_hint">Dato</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Sluttdato</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdato</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Bytt til kalenderinndatamodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Trykk for å bytte til å velge dag</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Bytt til tekstinndatamodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Trykk for å bytte til å velge år</string>
+    <string name="music_new_user_dialog_got_it">Skjønner</string>
+    <string name="music_new_user_dialog_tip">Velkommen til Mi Video! Denne appen har en lokal videospiller og nettbaserte musikk- og videostrømmetjenester.</string>
     <string name="my_favorite_channels">Mine favorittkanaler</string>
     <string name="my_feedback_title">Min tilbakemelding</string>
     <string name="need_update_app">Oppdater Mi Video for å kunne bruke alle funksjonene</string>
@@ -1061,6 +1115,7 @@ for beste brukeropplevelse."</string>
     <string name="ovp_navigation_language">Språk</string>
     <string name="ovp_navigation_localvideo">Lokal</string>
     <string name="ovp_navigation_notice">Varsler</string>
+    <string name="ovp_navigation_playlist">Spillelister</string>
     <string name="ovp_navigation_score">Vurder appen vår</string>
     <string name="ovp_navigation_setting">Innstillinger</string>
     <string name="ovp_navigation_subscribe">Abonnement</string>
@@ -1187,6 +1242,7 @@ Oppdater Mi Video til den nyeste versjonen først."</string>
     <string name="passport_wrong_phone_number_format">Telefonnummeret du tastet inn er i et ugyldig format</string>
     <string name="passport_wrong_vcode">Koden du har tastet inn er feil</string>
     <string name="passport_wrong_voice">Koden du har skrevet inn er feil</string>
+    <string name="password_toggle_content_description">Vis passordet</string>
     <string name="permission_continue">Fortsett</string>
     <string name="permission_info">"Mi Video trenger tilgang IMEI-nummeret på enheten din for å gjøre følgende:
  
@@ -1207,6 +1263,18 @@ Bedre tilpasse tjenestene for enheten din
     <string name="phone_number">Telefonnummer</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
     <string name="pip">PiP</string>
+    <string name="play_list_delete_title">Slette denne spilelisten nå?</string>
+    <string name="play_list_detial_add">Legg til videoer</string>
+    <string name="play_list_detial_delete">Slett</string>
+    <string name="play_list_detial_play">Spill av</string>
+    <string name="play_list_detial_rename">Gi nytt navn</string>
+    <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
+    <string name="play_list_save_dialog_create">Opprett spilleliste</string>
+    <string name="play_list_save_dialog_title">Legg til i spilleliste</string>
+    <string name="play_list_sign_in_dialog_message">Logg på med Google-kontoen din for å vise alle spillelistene dine.</string>
+    <string name="play_list_skeleton_file">mnc_live_tv_list_skeleton.json</string>
+    <string name="play_list_user_local">Lokal</string>
+    <string name="play_list_user_online">På nett</string>
     <string name="playlist_create">Opprett</string>
     <string name="playlist_detail_recomm_title">Anbefalte spillelister</string>
     <string name="playlist_finish">Ferdig</string>
@@ -1230,7 +1298,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_gallery_mediatype_aimusic">Lydspor</string>
     <string name="plus_gallery_mediatype_changtu">Lange bilder</string>
     <string name="plus_gallery_mediatype_fangtu">Kvadratiske bilder</string>
-    <string name="plus_gallery_mediatype_fastslowvideo">Tidsforkortelse og sakte film</string>
+    <string name="plus_gallery_mediatype_fastslowvideo">Time-lapse og slo-mo</string>
     <string name="plus_gallery_mediatype_gif">GIF-er</string>
     <string name="plus_gallery_mediatype_hidded">Skjulte elementer</string>
     <string name="plus_gallery_mediatype_longvideo">Lange videoer</string>
@@ -1251,7 +1319,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_mine_gallery">Mine album</string>
     <string name="plus_mine_videos">Mine videoer</string>
     <string name="plus_player_8k_video_not_support">Kan ikke spille av 8K-videoer på denne enheten</string>
-    <string name="plus_player_8k_video_not_support_new">Kan ikke spille av %dK-videoer på denne enheten</string>
     <string name="plus_player_audio_track">Lydspor</string>
     <string name="plus_player_detail_file_location">"Plassering: "</string>
     <string name="plus_player_detail_file_name">"Filnavn: "</string>
@@ -1379,7 +1446,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="read_and_agree">Enig</string>
     <string name="recommend_channels">Anbefalte kanaler</string>
     <string name="recommend_online_switch">Anbefalinger på nett</string>
-    <string name="recommend_online_switch_open_time">Denne funksjonen aktiveres automatisk %s</string>
     <string name="recommend_online_tips">Slå på for å motta online videoanbefalinger</string>
     <string name="recommend_page_replay">SPILL AV PÅ NYTT</string>
     <string name="recommend_switch_alert">Gå til innstillinger i Mi Video for å fjerne denne delen</string>
@@ -1449,6 +1515,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sending">Sender…</string>
     <string name="service_error">Serverfeil</string>
     <string name="set_success">Endret</string>
+    <string name="settings_manager_hidden_folder">Administrer skjulte videoer</string>
     <string name="share">Del</string>
     <string name="share_fail">Kunne ikke dele. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="share_success">Delt</string>
@@ -1463,6 +1530,10 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sign_in_title">Logg inn med din Mi Account</string>
     <string name="slid_fail_message">Kunne ikke lagre</string>
     <string name="slide_save_message">Genererer video…</string>
+    <string name="small_video_cancel_button">Avbryt</string>
+    <string name="small_video_download_button">Last ned</string>
+    <string name="small_video_snack_download_description">Last ned SnackVideo for å vise de nyeste videoene fra favorittene dine.</string>
+    <string name="small_video_snack_download_title">SnackVideo</string>
     <string name="sms_send_success">Sendt</string>
     <string name="sns_access_token_expired_warning">Økten er utløpt. Logg inn på nytt for å koble til kontoen på nytt.</string>
     <string name="sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
@@ -1498,7 +1569,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sure_to_logout">Logge ut nå?</string>
     <string name="switch_ratio_pause">Avspillingshastigheten er ustabil. Bytt tilbake til standardhastigheten.</string>
     <string name="symbol_rmb">¥</string>
-    <string name="sync_favorites_limit">Det er mer enn 500 videoer blant favorittene dine. Vi må slette noen av de tidligere videoene for å fortsette synkroniseringen.</string>
     <string name="sync_favorites_limit_new">Det er mer enn %d videoer blant favorittene dine. Vi må slette noen av de tidligere videoene for å fortsette synkroniseringen.</string>
     <string name="sync_favorites_message">Synkronisere favoritter fra denne enheten til kontoen din? Elementer som ikke er tilgjengelige lenger fjernes.</string>
     <string name="sync_favorites_title">Synkroniser favoritter</string>
@@ -1511,7 +1581,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="t_lv_check_unhide_file">Velg videoer for å vise skjulte</string>
     <string name="t_lv_downloading_new_version">Laster ned oppdateringer…</string>
     <string name="t_lv_no_new_version">Mi Video er oppdatert.</string>
-    <string name="t_lv_password_limit">Passordet må inneholde minst 4 tegn</string>
     <string name="t_lv_password_limit_new">Passord må inneholde minst %d tegn</string>
     <string name="t_lv_password_null">Passordet kan ikke være tomt</string>
     <string name="t_lv_password_wrong">Passordet er feil. Prøv igjen.</string>
@@ -1519,7 +1588,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="t_lv_subtitle_padding_default_hint">Justerer undertekster…</string>
     <string name="t_network_error">En nettverksfeil oppstod.</string>
     <string name="t_ovp_check_delete_favor">Velg elementer som skal fjernes</string>
-    <string name="t_password_limit">Passordet må inneholde minst 4 tegn</string>
     <string name="t_password_limit_new">Passordet må inneholde minst %d tegn</string>
     <string name="t_password_null">Passord kan ikke stå tomt</string>
     <string name="t_password_wrong">Du har tastet inn feil passord. Prøv igjen.</string>
@@ -1528,8 +1596,11 @@ Bedre tilpasse tjenestene for enheten din
     <string name="tab_name_local">Lokal</string>
     <string name="tab_name_me">Profil</string>
     <string name="tab_name_moment">Øyeblikk</string>
+    <string name="tab_name_movies">Filmer</string>
     <string name="tab_name_trending">Trender</string>
     <string name="tab_name_video">Videoer</string>
+    <string name="tab_playlist_local">Lokal</string>
+    <string name="tab_playlist_online">På nett</string>
     <string name="talkback_ad_clicked">Annonse</string>
     <string name="talkback_background_playback">Avspilling i bakgrunnen</string>
     <string name="talkback_voice_search">Stemmesøk</string>
@@ -1592,6 +1663,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="tip_enter_the_website">%d. Åpne en nettside eller app</string>
     <string name="tip_local_long_press_for_manager">Trykk og hold inne for å administere videoer</string>
     <string name="tip_local_manager_here">Administrer filene dine her</string>
+    <string name="tip_login_for_your_online_playlist">Logg inn for å vise spillelistene dine.</string>
     <string name="tip_play_a_video">%d. Spill av en video</string>
     <string name="tip_pop">&lt;com.miui.video.biz.livetv.data.mnc.information.Data>Innhold fra Moments leveres av Firework. For å forbedre visningsopplevelsen og motta flere relevante innholdsanbefalinger må du gi Firework tillatelse til å samle inn, behandle og bruke personopplysningene dine i henhold til personvernerklæringen deres. Les og godta &lt;a href=\"%1$s\">Fireworks personvernerklæring&lt;/a> før du bruker tjenestene deres.&lt;/com.miui.video.biz.livetv.data.mnc.information.Data></string>
     <string name="tip_storage_used_space" formatted="false">Brukte %.2f GB/%.2f GB</string>
@@ -1614,8 +1686,11 @@ Bedre tilpasse tjenestene for enheten din
     <string name="toast_bookmark_success_to_add">Bokmerke lagt til</string>
     <string name="toast_bookmark_success_to_delete">Bokmerke slettet</string>
     <string name="toast_bookmark_url_error">Skriv inn en gyldig URL</string>
+    <string name="toast_fail_to_delete">Kunne ikke slette. Prøv igjen.</string>
+    <string name="toast_fail_to_rename">Kunne ikke gi nytt navn. Prøv igjen.</string>
     <string name="toast_m3u8_download_path_tip">Kan ikke endre nedlastingsbane for innhold i m3u8-format</string>
     <string name="toast_no_data">Dette elementet er ikke tilgjengelig nå. Kom tilbake senere.</string>
+    <string name="toast_play_error_tip">Kan ikke spille av denne filen</string>
     <string name="toast_request_too_frequently">Ikke så fort!</string>
     <string name="toast_share_failed">Kunne ikke dele. Vent et minutt eller to, og prøv igjen.</string>
     <string name="today">I dag</string>
@@ -1624,7 +1699,6 @@ Bedre tilpasse tjenestene for enheten din
     <string name="tool_bar_notification_setting_title">Meldingsskygge-verktøylinje</string>
     <string name="top_bar_game_desc">Oppdag massevis av nye spill her</string>
     <string name="top_bar_game_title">Spillekanal</string>
-    <string name="trending_scroll_load_more">Sveip opp for flere videoer</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>

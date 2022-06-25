@@ -256,6 +256,10 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="other">Avinstaller %2$d spill (inkludert %1$s)</item>
         <item quantity="one">Avinstaller %2$d spill (inkludert %1$s)</item>
     </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">Ta opp viktige øyeblikk automatisk og generer videoer med økthøydepunkter. Du kan velge å lagre dem permanent etter hver gaming-økt. Ulagrede videoer slettes automatisk etter %1$d dager.</item>
+        <item quantity="one">Ta opp viktige øyeblikk automatisk og generer videoer med økthøydepunkter. Du kan velge å lagre dem permanent etter hver gaming-økt. Ulagrede videoer slettes automatisk etter %1$d dag.</item>
+    </plurals>
     <plurals name="gb_game_video_ai_record_finish_tips">
         <item quantity="other">Lagret %d AI-opptak i Spillturbo</item>
         <item quantity="one">Lagret %d AI-opptak i Spillturbo</item>

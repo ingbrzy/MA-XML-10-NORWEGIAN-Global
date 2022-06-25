@@ -29,6 +29,7 @@
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_device_info">Se opplysninger om enheten</string>
     <string name="accept">Tillat</string>
+    <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="access_token_expired_warning">Weibo-kontoen er utløpt</string>
     <string name="access_token_invalid_warning">Weibo-kontoen er ugyldig</string>
     <string name="account">Konto</string>
@@ -95,6 +96,8 @@
     <string name="agreement_and_privacy">Vilkår og betingelser</string>
     <string name="am">AM</string>
     <string name="app_name">Mi-konto</string>
+    <string name="area_code_no_search_result">Kunne ikke finne resultater</string>
+    <string name="area_code_search_hint">Søk etter et land eller region</string>
     <string name="auth_fail_warning">Økten utløpt, logg på igjen senere</string>
     <string name="authorize_title">Autorisasjon</string>
     <string name="bind_facebook">Koble til din Facebook-konto</string>
@@ -428,7 +431,10 @@ Send denne koden til den overordnede."</string>
     <string name="multi_user_not_show_sync_activity_title">Ikke slå på synkronisering med skyen</string>
     <string name="my_device_title">Nåværende enhet</string>
     <string name="need_install_wechat">Installer WeChat først</string>
+    <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="night">Kveld</string>
+    <string name="no_account_or_forget_password">Opprette konto eller glemt passord?</string>
     <string name="no_install">Ikke installert</string>
     <string name="no_network_btn">Oppdater</string>
     <string name="no_network_title">Kan ikke koble til nettverket.</string>
@@ -663,7 +669,9 @@ Send denne koden til den overordnede."</string>
     <string name="passport_talkback_voice_captcha">Spill av stemmeverifiseringskode</string>
     <string name="passport_ticket_login_select_sim_card">Velg SIM-kort</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
+    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
+    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Avbryt</string>
     <string name="passport_title_reg">Opprett en konto</string>
     <string name="passport_trust_device">Legg denne enheten til bekreftede enheter</string>
@@ -721,6 +729,7 @@ Send denne koden til den overordnede."</string>
     <string name="privacy_policy_reject_confirm_title">Kan ikke bruke Mi-kontoen</string>
     <string name="privacy_policy_update_msg">Mi-kontoens personvernerklæring har blitt oppdatert:&lt;br/>%1$s&lt;br/>Les og samtykk til den nye versjonen av &lt;a href=%2$s>&lt;u>personvernerklæringen&lt;/u>&lt;/a> før du fortsetter.</string>
     <string name="privacy_policy_update_title">Oppdatert personvernerklæring</string>
+    <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="provision_back">Tilbake</string>
     <string name="provision_next">Neste</string>
     <string name="provision_skip_underline">Hopp over</string>
@@ -802,6 +811,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="system_ad_summary">"Aktiver denne funksjonen for å tillate at det vises noen få annonser i systemapper. Disse annonsene bidrar til at vi utvikler oss og forbedrer produktene og tjenestene våre. Du kan deaktivere denne funksjonen når som helst. Takk for at du støtter oss! "</string>
     <string name="system_ad_switch">Annonser i systemapper</string>
     <string name="system_ad_switch_failed">Kunne ikke ta i bruk innstilling</string>
+    <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="talkback_scan_barcode">Skann QR-kode</string>
     <string name="temporary_not_available">Denne funksjonen er enda ikke tilgjengelig.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
@@ -866,6 +876,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="two_factor_auth_need_code_summary">Du vil se en kode på andre tilknyttede Mi-enheter. Tast inn denne koden på en ny enhet for å logge inn.</string>
     <string name="two_factor_auth_summary">Når du prøver å logge inn på en ny enhet eller på en ny plassering, blir du varslet om dette på andre tilknyttede enheter. Du må bekrefte om slike påloggingsforsøk er godkjente av deg.</string>
     <string name="unbind_sns_description">Når du har koblet fra denne kontoen, kan du ikke bruke din %s Kontoinformasjon til å logge på Mi-kontoen din.</string>
+    <string name="unknown_error_info">Ukjent feil</string>
     <string name="unlock_help_notice">"Hjelp:
 · Hvis du har glemt passordet ditt, gå til id.mi.com for å tilbakestille det.
 2. Hvis du ikke kan tilbakestille passordet eller noen har låst enheten din, gå til i.mi.com for å låse den opp.

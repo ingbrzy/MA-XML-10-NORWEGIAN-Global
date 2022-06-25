@@ -48,8 +48,8 @@
     <string name="add_field">Legg til et annet felt</string>
     <string name="add_field_toast">Ingen flere felt å legge til.</string>
     <string name="add_new_account">Legg til en ny kontakt</string>
-    <string name="add_xiaomi_account_dialog_btn">Bruk Mi Account</string>
-    <string name="add_xiaomi_account_dialog_msg">Sikkerhetskopier kontaktene dine til din Mi Account for å få tilgang til dem fra hvor som helst!</string>
+    <string name="add_xiaomi_account_dialog_btn">Bruk Mi-konto</string>
+    <string name="add_xiaomi_account_dialog_msg">Sikkerhetskopier kontaktene dine til din Mi-konto for å få tilgang til dem fra hvor som helst!</string>
     <string name="add_xiaomi_account_dialog_title">Velg konto</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="aggregation_suggestion_edit_dialog_message">Bytt til å redigere kontakter med samme navn? Informasjon som du så langt har fylt inn vil kopieres.</string>
@@ -148,6 +148,7 @@
     <string name="calllog_menu_edit_before_call">Rediger</string>
     <string name="calllog_menu_send_sms">Send en melding</string>
     <string name="calllog_record_none_toast">Ingen anropsopptak å vise</string>
+    <string name="calllog_record_searching_toast">Søker i samtaleopptak…</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d m %2$d s</string>
     <string name="callrecordview_item_op_time_missed">Koblet ikke til</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min.</string>
@@ -503,6 +504,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Selskap</string>
@@ -559,7 +561,7 @@
     <string name="import_to_xiaomi_account_confirm">Importer</string>
     <string name="import_to_xiaomi_account_progress_finish">Kontakter importert</string>
     <string name="import_to_xiaomi_account_progress_message">Importerer…</string>
-    <string name="import_to_xiaomi_account_title">Importer til Mi Account</string>
+    <string name="import_to_xiaomi_account_title">Importer til Mi-kontoen</string>
     <string name="import_vcard_dialog_message">Importere vCard?</string>
     <string name="importing_sim_contacts_miui">Importerer kontakter fra SIM-kort…</string>
     <string name="importing_sim_contacts_miui_prepare">Forbereder kontakter…</string>
@@ -568,6 +570,11 @@
     <string name="importing_vcard_finished_title">Importering av vCard %s er fullført</string>
     <string name="insertContactDescription">Opprett kontakt</string>
     <string name="invalidContactMessage">Kontakten finnes ikke</string>
+    <string name="invisible_mode_dialog_cancel">Avbryt</string>
+    <string name="invisible_mode_dialog_to_close">Deaktiver</string>
+    <string name="invisible_mode_title">Du er inkognito</string>
+    <string name="invisible_mode_unable_connect_camera">Deaktiver inkognitomodus for å kunne bruke kameraet. Deaktivere nå?</string>
+    <string name="invisible_mode_unable_get_location">Deaktiver inkognitomodus for å kunne bruke stedstjenester og importere kontakter far andre tjenester via Bluetooth. Deaktivere nå?</string>
     <string name="item_offical">Offisiell</string>
     <string name="keep_local">Ikke synkroniser</string>
     <string name="keep_local_btn">Bruk enhetens internminne</string>
@@ -594,6 +601,9 @@
     <string name="low_memory_toast">Kan ikke bruke denne funksjonen grunnet lavt minne.</string>
     <string name="lunarBirthdayLabelsGroup">Månebursdag</string>
     <string name="make_primary">Husk dette valget</string>
+    <string name="manage_external_storage_dialog_message">Gi denne appen tillatelse til å få tilgang til alle filer for å administrere samtaleopptak.</string>
+    <string name="manage_external_storage_dialog_positive">Innstillinger</string>
+    <string name="manage_external_storage_dialog_title">Tillatelser er nødvendig</string>
     <string name="map_custom">Se %s-adresse</string>
     <string name="map_home">Se hjemmeadresse</string>
     <string name="map_other">Se adresse</string>
@@ -628,6 +638,7 @@
     <string name="menu_sync_remove">Fjern synkronisert gruppe</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Endre profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -784,6 +795,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="permission_retry_dialog_msg_pad">For å kunne bruke SIM-kort med denne appen og redigere kontaktene dine, må du la enheten få tilgang til og redigere kontaktene og anropshistorikken din, samt å få tilgang til enhetsinformasjon.</string>
     <string name="permission_retry_setting">Innstillinger</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummeret er for langt</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Ingen bilder er tilgjengelige på enheten.</string>
@@ -817,9 +829,9 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="pref_key_sim_manage">SIM-kort</string>
     <string name="pref_key_sim_manage1">Sett opp SIM-kort 1</string>
     <string name="pref_key_sim_manage2">Sett opp SIM-kort 2</string>
-    <string name="pref_summary_import_from_account">Overfør kontakter fra Google- og Exchange-kontoer til Mi Account</string>
+    <string name="pref_summary_import_from_account">Overfør kontakter fra Google- og Exchange-kontoer til Mi-kontoen</string>
     <string name="pref_title_account_import">Importer kontakter</string>
-    <string name="pref_title_import_from_account">Importer til Mi Account</string>
+    <string name="pref_title_import_from_account">Importer til Mi-kontoen</string>
     <string name="preference_contacts">Kontakter</string>
     <string name="preference_contacts_filter">Konfigurer kontaktliste</string>
     <string name="preference_contacts_more">Organiser kontakter</string>
@@ -1026,6 +1038,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Selskaper</string>
     <string name="smart_group_company_unavailable">Ingen selskapsinformasjon</string>
     <string name="smart_group_frequency_1">I løpet av den siste måneden</string>
@@ -1067,6 +1080,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="starred_contacts">Favoritter</string>
     <string name="status_available">Tilgjengelig</string>
     <string name="status_away">Borte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Opptatt</string>
     <string name="strequentList">Favoritter</string>
     <string name="success_message_import_from_account">Kontakt importert</string>
@@ -1170,6 +1184,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="unknown_contact_name">Ukjent kontakt</string>
     <string name="unknown_details_add_to_contact">Eksisterende</string>
     <string name="unknown_details_new_contact">Ny</string>
+    <string name="unshow_qr_code_in_narrow_screen_split">Kan ikke vise QR-koder mens delt skjerm brukes</string>
     <string name="update_sim_contact_photo_toast">Kan ikke konfigurere profilbilder for SIM-kontakter</string>
     <string name="upgrade_in_progress">Kontaktlisten oppdateres</string>
     <string name="upgrade_out_of_memory">"Kontaktene holder på å oppgraderes. 

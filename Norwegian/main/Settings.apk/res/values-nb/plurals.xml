@@ -68,6 +68,18 @@
         <item quantity="other">Kort (%1$s sekunder)</item>
         <item quantity="one">Kort (%1$s sekund)</item>
     </plurals>
+    <plurals name="app_launch_supported_links_title">
+        <item quantity="other">%d støttede linker</item>
+        <item quantity="one">%d støttet link</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_message">
+        <item quantity="other">Disse linkene er bekreftet og åpnes automatisk i denne appen.</item>
+        <item quantity="one">Denne linken er bekreftet og åpnes automatisk i denne appen.</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_title">
+        <item quantity="other">%d bekreftede linker</item>
+        <item quantity="one">%d bekreftet link</item>
+    </plurals>
     <plurals name="app_link_open_always_summary">
         <item quantity="other">Appen hevder at den håndterer %d linker</item>
         <item quantity="one">Appen hevder at den håndterer %d link</item>
@@ -87,6 +99,10 @@
     <plurals name="auto_startup_count">
         <item quantity="other">%d apper har tillatelse til å starte automatisk</item>
         <item quantity="one">%d app har tillatelse til å starte automatisk</item>
+    </plurals>
+    <plurals name="autofill_passwords_count">
+        <item quantity="other">%1$d passord</item>
+        <item quantity="one">%1$d passord</item>
     </plurals>
     <plurals name="battery_manager_app_restricted">
         <item quantity="other">%1$d apper er begrenset</item>
@@ -129,8 +145,8 @@
         <item quantity="one">%d tilgjengelig enhet</item>
     </plurals>
     <plurals name="color_game_led_freq_entries">
-        <item quantity="other">Every %d seconds</item>
-        <item quantity="one">Every %d second</item>
+        <item quantity="other">Hvert %d sekund</item>
+        <item quantity="one">Hvert %d sekund</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
@@ -213,8 +229,8 @@
         <item quantity="one">om 1 minutt</item>
     </plurals>
     <plurals name="interact_across_profiles_number_of_connected_apps">
-        <item quantity="other">%d apper er tilkoblet</item>
-        <item quantity="one">%d app er tilkoblet</item>
+        <item quantity="other">%d apper er tilknyttet</item>
+        <item quantity="one">%d app er tilknyttet</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
@@ -257,36 +273,36 @@
         <item quantity="one">Må inneholde minst én stor bokstav</item>
     </plurals>
     <plurals name="lockpassword_password_too_long">
-        <item quantity="other">Du kan skrive inn opptil %d tegn</item>
-        <item quantity="one">Du kan skriv inn opptil %d tegn</item>
+        <item quantity="other">Du kan angi opptil %d tegn</item>
+        <item quantity="one">Du kan angi opptil %d tegn</item>
     </plurals>
     <plurals name="lockpassword_password_too_short">
-        <item quantity="other">Skriv inn minst %d tegn</item>
-        <item quantity="one">Skriv inn minst %d tegn</item>
+        <item quantity="other">Angi minst %d tegn</item>
+        <item quantity="one">Angi minst %d tegn</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN-koden må være på %d siffer</item>
-        <item quantity="one">PIN-koden må være på %d siffer</item>
+        <item quantity="other">PIN-koden må inneholde %d sifre</item>
+        <item quantity="one">PIN-koden må inneholde %d siffer</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">Du kan fylle inn opptil %d siffer</item>
-        <item quantity="one">Du kan fylle inn opptil %d siffer</item>
+        <item quantity="other">Du kan angi opptil %d sifre</item>
+        <item quantity="one">Du kan angi opptil %d siffer</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">Skriv inn minst %d sifre</item>
-        <item quantity="one">Skriv inn minst %d siffer</item>
+        <item quantity="other">Angi minst %d sifre</item>
+        <item quantity="one">Angi minst %d siffer</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Koble minst %d prikker. Prøv igjen.</item>
-        <item quantity="one">Koble minst %d prikk. Prøv igjen.</item>
+        <item quantity="other">Tegn en strek mellom minst %d prikker. Prøv igjen.</item>
+        <item quantity="one">Tegn en strek mellom minst %d prikker. Prøv igjen.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">For mange feilaktige forsøk. Prøv igjen om %d sekund.</item>
-        <item quantity="one">For mange feilaktige forsøk. Prøv igjen om %d sekund.</item>
+        <item quantity="other">For mange forsøk. Prøv igjen om %d sekunder.</item>
+        <item quantity="one">For mange forsøk. Prøv igjen om %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Vent i %d sekunder og prøv igjen.</item>
-        <item quantity="one">Vent i %d sekund og prøv igjen.</item>
+        <item quantity="one">Vent i %d sekunder og prøv igjen.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d apper kan lese varsler</item>
@@ -319,6 +335,10 @@
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM-kort</item>
         <item quantity="one">%1$d SIM-kort</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
     </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d begrensninger</item>
@@ -355,6 +375,10 @@
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktive apper</item>
         <item quantity="one">%d aktiv app</item>
+    </plurals>
+    <plurals name="number_of_urls">
+        <item quantity="other">%d nettadresser</item>
+        <item quantity="one">%d nettadresse</item>
     </plurals>
     <plurals name="permission_bar_chart_label">
         <item quantity="other">%s apper</item>
@@ -405,11 +429,11 @@
         <item quantity="one">1 sekund</item>
     </plurals>
     <plurals name="security_settings_fingerprint_preference_summary">
-        <item quantity="other">%1$d fingeravtrykk er registrert</item>
-        <item quantity="one">%1$d fingeravtrykk er registrert</item>
+        <item quantity="other">%1$d fingeravtrykk er lagt til</item>
+        <item quantity="one">Fingeravtrykk er lagt til</item>
     </plurals>
     <plurals name="see_all_apps_title">
-        <item quantity="other">Se alle %1$d appene</item>
+        <item quantity="other">Se alle de %1$d appene</item>
         <item quantity="one">Se alle appene</item>
     </plurals>
     <plurals name="settings_suggestion_header_summary_hidden_items">
@@ -483,6 +507,10 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
     <plurals name="switch_headset_anti_lost_summary">
         <item quantity="other">Få et varsel når én av øretelefonene er borte fra øret eller ladeetuiet i mer enn %d minutter</item>
         <item quantity="one">Få et varsel når én av øretelefonene er borte fra øret eller ladeetuiet i mer enn %d minutt</item>
+    </plurals>
+    <plurals name="unused_apps_summary">
+        <item quantity="other">%d ubrukte apper</item>
+        <item quantity="one">%d ubrukt app</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d elementer</item>
@@ -583,38 +611,6 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
     <plurals name="wrong_pin_code">
         <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
         <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
-    </plurals>
-    <plurals name="zen_mode_bypassing_apps_subtext">
-        <item quantity="other">%s kan forstyrre</item>
-        <item quantity="one">%s kan forstyrre</item>
-    </plurals>
-    <plurals name="zen_mode_contacts_count">
-        <item quantity="other">%d kontakter</item>
-        <item quantity="one">1 kontakt</item>
-    </plurals>
-    <plurals name="zen_mode_conversations_count">
-        <item quantity="other">%d samtaler</item>
-        <item quantity="one">1 samtale</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d timer</item>
-        <item quantity="one">1 time</item>
-    </plurals>
-    <plurals name="zen_mode_other_sounds_summary">
-        <item quantity="other">%s kan forstyrre</item>
-        <item quantity="one">%s kan forstyrre</item>
-    </plurals>
-    <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d tidsplaner er angitt</item>
-        <item quantity="one">1 tidsplan er angitt</item>
-    </plurals>
-    <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d tidsplaner kan slås på automatisk</item>
-        <item quantity="one">1 tidsplan kan slås på automatisk</item>
-    </plurals>
-    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
-        <item quantity="other">%d andre</item>
-        <item quantity="one">1 annen</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour">
         <item quantity="other">Bytt til Bare alarmer i %1$d timer til %2$s</item>

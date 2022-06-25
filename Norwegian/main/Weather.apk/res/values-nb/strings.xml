@@ -95,7 +95,7 @@
     <string name="aqi_top_pollution">Betydelige forurensninger</string>
     <string name="button_allow">OK</string>
     <string name="button_confirm">Enig</string>
-    <string name="button_exit">Ikke enig</string>
+    <string name="button_exit">Ikke godta</string>
     <string name="button_settings_cancel">Avbryt</string>
     <string name="button_settings_confirm">Tilbakekall</string>
     <string name="button_settings_confirm_to_revoke_msg">Ved å skru bryteren av trekker du tilbake samtykket ditt til personvernerklæringen for Vær. Vi slutter å samle inn personopplysninger. Personopplysningene som allerede er samlet inn og bevart, slettes innen den bestemte perioden som er nødvendig etter gjeldende lover. Vær må samle inn nødvendige personopplysninger for å gi deg grunnleggende tjenester. Hvis du trekker tilbake samtykket til personvernerklæringen, anses det som at du ikke aksepterer tjenestene som er basert på innsamling av personopplysninger.</string>
@@ -162,6 +162,7 @@
     <string name="dynamic_weather">Vær</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Oppdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke koble til nettverket</string>
     <string name="empty_view_refresh">Prøv igjen</string>
@@ -271,13 +272,17 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nå</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">dd.MM</string>
     <string name="index_item_experience_now">Installer nå</string>
     <string name="indices_title_chance_of_rain">Muligheter for regn</string>
     <string name="indices_title_feel">Føles som</string>
     <string name="indices_title_pressure">Trykk</string>
     <string name="indices_title_wind_speed">Vindhastighet</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-indeks</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Skru på stedtjenester</string>
     <string name="location_tag">Lokaliser</string>
     <string name="manager_city_option_add_home">Legg til startside</string>
@@ -437,6 +442,7 @@
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI-værr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke ta skjermbilde</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timersvarsel</string>

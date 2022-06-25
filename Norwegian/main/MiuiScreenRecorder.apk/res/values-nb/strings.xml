@@ -141,6 +141,7 @@ Trykk for å se"</string>
     <string name="hint_volume_down">Senk volum</string>
     <string name="hint_volume_up">Øk volum</string>
     <string name="home_title_none">Velg elementer</string>
+    <string name="invisible_mode_error_tip">Du er inkognito. Kan ikke ta opp lyd.</string>
     <string name="is_checked">Valgt</string>
     <string name="is_go_home">Gå tilbake til skjermopptaker</string>
     <string name="is_go_home_summary">Åpne skjermopptakerens startside etter du stopper opptaket</string>

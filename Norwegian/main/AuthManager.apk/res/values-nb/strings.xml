@@ -166,6 +166,7 @@
     <string name="clipboard_read_allow_once">%1$s fikk tilgang til elementer på utklippstavlen</string>
     <string name="clipboard_read_deny_dialog_title">Begrenset tilgang til utklippstavlen for %1$s</string>
     <string name="close">Lukk</string>
+    <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -177,6 +178,7 @@
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -323,6 +325,7 @@
     <string name="night">Kveld</string>
     <string name="no">Nei</string>
     <string name="noon">Midt på dagen</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="notification_click_tip">Trykk for å se detaljer</string>
     <string name="ok">OK</string>
     <string name="perm_action_allow">Tillat</string>
@@ -366,6 +369,7 @@
     <string name="permission_warning_template_ask">Tillat %1$s følgende tillatelser?</string>
     <string name="permisson_reject_notice_toast_text2">har ikke tillatelse til å %1$s.</string>
     <string name="pm">PM</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="real_location_off">Omtrentlig plassering er aktivert</string>
     <string name="real_location_on">Omtrentlig plassering er deaktivert</string>
     <string name="saturday">Lørdag</string>
@@ -390,6 +394,7 @@
     <string name="storage_policy_notify_gallery_title">%1$s har ikke tillatelse til å få tilgang til Galleri</string>
     <string name="storage_policy_notify_sociality_title">%1$s har ikke tillatelse til å få tilgang til meldinger i apper for sosiale medier</string>
     <string name="storage_policy_notify_title">%1$s har ikke tillatelse til å få tilgang til Galleri.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
@@ -444,6 +449,8 @@
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="virtual_reject_notice_content">Et tomt svar ble sendt til appen for å beskytte personopplysningene dine</string>
     <string name="virtual_reject_notice_title_calendar">Får tilgang til kalender av %1$s</string>
     <string name="virtual_reject_notice_title_calllog">Får tilgang til anropshistorikk av %1$s</string>

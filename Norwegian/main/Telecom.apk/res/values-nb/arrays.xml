@@ -77,8 +77,6 @@
         <item>Qualcomm® aptX™-lyd</item>
         <item>Qualcomm® aptX™ HD-lyd</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive-lyd</item>
-        <item>Qualcomm® aptX™ TWS+-lyd</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Bruk systemvalg (standard)</item>
@@ -87,8 +85,6 @@
         <item>Qualcomm® aptX™-lyd</item>
         <item>Qualcomm® aptX™ HD-lyd</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive-lyd</item>
-        <item>Qualcomm® aptX™ TWS+-lyd</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -180,7 +176,7 @@
         <item>256K per loggbuffer</item>
         <item>1M per loggbuffer</item>
         <item>4M per loggbuffer</item>
-        <item>16M per loggbuffer</item>
+        <item>8M per loggbuffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Av</item>
@@ -188,7 +184,7 @@
         <item>256K</item>
         <item>1M</item>
         <item>4M</item>
-        <item>16M</item>
+        <item>8M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Av</item>
@@ -265,6 +261,20 @@
         <item>Kobler fra %1$s …</item>
         <item>Frakoblet</item>
         <item>Mislyktes</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig tilkobling midlertidig</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skanner …</item>
+        <item>Kobler til …</item>
+        <item>Autentiserer …</item>
+        <item>Henter IP-adresse …</item>
+        <item>Tilkoblet</item>
+        <item>Sperret midlertidig</item>
+        <item>Kobler fra …</item>
+        <item>Frakoblet</item>
+        <item>Mislykket</item>
         <item>Blokkert</item>
         <item>Unngår dårlig tilkobling midlertidig</item>
     </string-array>

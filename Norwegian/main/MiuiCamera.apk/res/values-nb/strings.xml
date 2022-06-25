@@ -465,7 +465,7 @@ og justere innstillinger automatisk"</string>
     <string name="color_effect_entry_blackgold">Gode vibrasjoner</string>
     <string name="color_effect_entry_blackgold_describe">Dette filteret med høy kontrast beholder bare gule og mørkeblå farger. Bruk det på godt opplyste gater i en by om natten.</string>
     <string name="color_effect_entry_blackice">Ishålke</string>
-    <string name="color_effect_entry_blackwhite">B&amp;W</string>
+    <string name="color_effect_entry_blackwhite">Svart og hvitt</string>
     <string name="color_effect_entry_classic">Klassisk</string>
     <string name="color_effect_entry_cookie">Kjeks</string>
     <string name="color_effect_entry_delicacy">Gourmet</string>
@@ -496,7 +496,7 @@ og justere innstillinger automatisk"</string>
     <string name="color_effect_entry_warm">Søn</string>
     <string name="color_effect_live_blue">Orkidé</string>
     <string name="color_effect_live_contrast">Xpro</string>
-    <string name="color_effect_live_deepblack">B&amp;W</string>
+    <string name="color_effect_live_deepblack">Svart og hvitt</string>
     <string name="color_effect_live_fair">Blek</string>
     <string name="color_effect_live_hongkong">Bauhinia</string>
     <string name="color_effect_live_mousse">Mousse</string>
@@ -587,7 +587,7 @@ og justere innstillinger automatisk"</string>
     <string name="dirty_tip_toast">Linsen er skitten. Tørk den ren.</string>
     <string name="do_not_remind_me">Ikke vis igjen</string>
     <string name="doc_shortcut_short">Dokumenter</string>
-    <string name="document_blackwhite">S/H</string>
+    <string name="document_blackwhite">Svart og hvitt</string>
     <string name="document_mode_use_hint_text_body">"Still opp og forbedre
 skannede dokumenter automatisk"</string>
     <string name="document_mode_use_hint_text_title">Skann dokumenter</string>
@@ -666,6 +666,7 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="edit_smile">Smil</string>
     <string name="edit_solid">Kontur</string>
     <string name="emoticon">Klistremerkepakke</string>
+    <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="error_fail_to_start_audio_capture">Kunne ikke starte lydopptak</string>
@@ -874,6 +875,9 @@ i portrettmodus"</string>
     <string name="live_sticker_updating">Oppdaterer…</string>
     <string name="live_workspace_title">Utkast</string>
     <string name="live_workspace_title_edit">Velg elementene du ønsker å slette</string>
+    <string name="live_workspace_title_pause">Stopp</string>
+    <string name="live_workspace_title_play">Spill av</string>
+    <string name="live_workspace_title_pre_edit">Velg elementene du ønsker å slette</string>
     <string name="location_access_allow">Godta</string>
     <string name="location_fromkeyguard_not_permission">Kameraet har ikke tillatelse til å få tilgang til plasseringen din nå. Lås opp enheten først.</string>
     <string name="location_permission_des">Husk plasseringer for bilder og videoer</string>
@@ -1069,6 +1073,10 @@ i portrettmodus"</string>
     <string name="module_name_multi_camera">Multikamera</string>
     <string name="module_name_new_slow_motion">Saktegående</string>
     <string name="module_name_panorama">Panorama</string>
+    <string name="module_name_pixel_108m">108MP</string>
+    <string name="module_name_pixel_48m">48 MP</string>
+    <string name="module_name_pixel_50m">50MP</string>
+    <string name="module_name_pixel_64m">64 MP</string>
     <string name="module_name_portrait">Portrett</string>
     <string name="module_name_professional">Pro</string>
     <string name="module_name_scanner">Skanner</string>
@@ -1205,7 +1213,8 @@ i portrettmodus"</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-forskjønn</string>
     <string name="popup_tips_near_range_mode">Nært fokus</string>
     <string name="popup_tips_privacy_watermark_edit">Rediger vannmerke</string>
-    <string name="portait_effect_entry_blackwhite">B&amp;W</string>
+    <string name="portait_effect_entry_blackwhite">Svart og hvitt</string>
+    <string name="portait_effect_entry_cold_white">Stjernelys</string>
     <string name="portait_effect_entry_cool">Mynte</string>
     <string name="portait_effect_entry_dusk">Skumring</string>
     <string name="portait_effect_entry_fairytale">Barndom</string>
@@ -1223,6 +1232,7 @@ i portrettmodus"</string>
     <string name="portait_effect_entry_riddle">Godteri</string>
     <string name="portait_effect_entry_romance">Romanse</string>
     <string name="portait_effect_entry_sepia">Sepia</string>
+    <string name="portait_effect_entry_shallots">Solstråle</string>
     <string name="portait_effect_entry_story">Historie</string>
     <string name="portait_effect_entry_tea">Te</string>
     <string name="portrait_bokeh_first_tips">"Bruk portrettmodus for å tåkelegge
@@ -1285,13 +1295,14 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifisering</string>
     <string name="pref_camera_auxiliary_focus_peak">Markering av overeksponert område</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beauty">Forskjønn</string>
     <string name="pref_camera_beauty_deep">Forskjønning Pro</string>
     <string name="pref_camera_coloreffect_entry_big_face">Spredning</string>
-    <string name="pref_camera_coloreffect_entry_blackwhite">B&amp;W</string>
+    <string name="pref_camera_coloreffect_entry_blackwhite">Svart og hvitt</string>
     <string name="pref_camera_coloreffect_entry_fisheye">Fiskeøye</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Fargefokus</string>
     <string name="pref_camera_coloreffect_entry_instagram_crema">Rustikk</string>
@@ -1380,12 +1391,12 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_jpegquality_entry_low">Lav</string>
     <string name="pref_camera_jpegquality_entry_normal">Standard</string>
     <string name="pref_camera_jpegquality_title">Bildekvalitet</string>
-    <string name="pref_camera_long_press_shutter_feature_title">Trykk &amp; hold inne avløserknappen</string>
+    <string name="pref_camera_long_press_shutter_feature_title">Trykk og hold inne avløserknappen</string>
     <string name="pref_camera_long_press_viewfinder_title">Søkerinnstillinger</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Ta bilde i burst-modus</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_focus">Fokuser</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_record">Ta opp video</string>
-    <string name="pref_camera_long_pressing_shutter_title">Trykk &amp; hold inne avløserknappen for å låse AE/AF/AWB</string>
+    <string name="pref_camera_long_pressing_shutter_title">Trykk og hold inne avløserknappen for å låse AE/AF/AWB</string>
     <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
     <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE-/AF-lås</string>
     <string name="pref_camera_lying_summary">Informer om nåværende orientering når telefonen er parallell med bakken</string>
@@ -1414,8 +1425,8 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_portrait_mode_entry_off">Portrettmodus er av</string>
     <string name="pref_camera_portrait_mode_entry_on">Portrettmodus er på</string>
     <string name="pref_camera_portrait_mode_title">Portrettmodus</string>
-    <string name="pref_camera_predictive_shutter_description">Spor bevegelse for å sikre tydelige bilder av barn, kjæledyr og andre subjekter i aktivitet</string>
-    <string name="pref_camera_predictive_shutter_title">Spor bevegelse</string>
+    <string name="pref_camera_predictive_shutter_description">Følg bevegelser for å minimere uskarphet på bilder av barn, kjæledyr og andre aktive objekter</string>
+    <string name="pref_camera_predictive_shutter_title">Motion capture</string>
     <string name="pref_camera_proximity_lock_summary">Lås berøringshandlinger når plassert i en lomme</string>
     <string name="pref_camera_proximity_lock_title">Lommemodus</string>
     <string name="pref_camera_quick_settings">Hurtiginnstillinger</string>
@@ -1450,7 +1461,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_settings_category">Kamerainnstillinger</string>
     <string name="pref_camera_settings_title">Innstillinger</string>
     <string name="pref_camera_sharpness_title">Skarphet</string>
-    <string name="pref_camera_show_gender_age_config_title">Alder &amp; kjønn</string>
+    <string name="pref_camera_show_gender_age_config_title">Alder og kjønn</string>
     <string name="pref_camera_show_gender_age_entry_alias">Vis alder når forskjønning er på</string>
     <string name="pref_camera_show_gender_age_entry_off">Av</string>
     <string name="pref_camera_show_gender_age_entry_on">Vis alder og kjønn når forskjønning er på</string>
@@ -1477,10 +1488,12 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_tip_id_card">ID-skanner</string>
     <string name="pref_camera_touchafaec_entry_off">Av</string>
     <string name="pref_camera_touchafaec_entry_on">På</string>
-    <string name="pref_camera_track_focus_intro_description">When you take photos or shoot videos with moving subjects, this feature detects people, cats, and dogs, and keeps them in focus automatically. Additionally, you can also double tap any subject to track movement.</string>
-    <string name="pref_camera_track_focus_intro_goto">Turn on</string>
+    <string name="pref_camera_track_eye_preferred_description">Følg øyebevegelser for å holde øynene i fokus når én person er i bilderammen</string>
+    <string name="pref_camera_track_eye_preferred_title">Øyesporingsfokus</string>
+    <string name="pref_camera_track_focus_intro_description">Når du tar bilder eller video med objekter som er i bevegelse, vil denne funksjonen oppdage mennesker, katter og hunder og holde dem i fokus automatisk. I tillegg kan du dobbeltklikke på objekter for å spore bevegelsene deres.</string>
+    <string name="pref_camera_track_focus_intro_goto">Slå på</string>
     <string name="pref_camera_track_focus_preferred_description">Hold personer, katter og hunder i bevegelse automatisk i fokus eller dobbelttrykk på et objekt for å følge det</string>
-    <string name="pref_camera_track_focus_preferred_title">Fokussporing</string>
+    <string name="pref_camera_track_focus_preferred_title">Motion tracking-fokus</string>
     <string name="pref_camera_ubifocus_title">Refokusering</string>
     <string name="pref_camera_ultra_wide_ldc_description">Korriger forvrengte objekter automatisk</string>
     <string name="pref_camera_ultra_wide_ldc_title">Korriger forvrengning i ultra-vide bilder</string>
@@ -1496,6 +1509,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_video_tag_description">Trykk på «Tag» når du spiller inn en video for å kunne gå tilbake til merkede øyeblikk under avspilling</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Lukker</string>
     <string name="pref_camera_volumekey_function_entry_timer">Utløsernedteller</string>
+    <string name="pref_camera_volumekey_function_entry_timer_new">Timer (%ds)</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volum</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
     <string name="pref_camera_volumekey_function_title">Volumknappfunksjoner</string>
@@ -1549,6 +1563,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_hdr10_hdr10plus_video_mode_description">Gjør videoopptak med høy oppløsning i HDR10+/HDR10 for å optimere farger og dynamisk rekkevidde. Videoopptakene kan bare spilles av på HDR10+/HDR10-kompatible enheter.</string>
     <string name="pref_hdr10_video_mode_description">Optimer farger og kontrast for 4K- og 8K-video automatisk. Optimerte videoer kan bare spilles av på HDR10-kompatible enheter.</string>
     <string name="pref_hdr10plus_video_mode_description">Optimaliser farger og juster kontrast for 4K- og 8K-videoer. Denne funksjonen fungerer bare på enheter som er kompatible med HDR10+.</string>
+    <string name="pref_hybrid_video_mode_description">Bruk HLG-teknologi for å forbedre farger og dynamisk rekkevidde for videoer spilt inn med høy oppløsning</string>
     <string name="pref_i_n_r_b">Smart reduksjon av støy</string>
     <string name="pref_k_h">Live in-ear-monitor</string>
     <string name="pref_k_s_i">Overvåk lyd som er tatt opp ved hjelp av kablede hodetelefoner når de er tilkoblet</string>
@@ -1927,7 +1942,7 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="video_cast_service_name">Dobbelt telefon</string>
     <string name="video_cast_state_exited">Dobbelt telefonopptak avsluttet</string>
     <string name="video_cast_state_paused">Satt på pause</string>
-    <string name="video_effect_entry_blackwhite">B&amp;W</string>
+    <string name="video_effect_entry_blackwhite">Svart og hvitt</string>
     <string name="video_effect_entry_bygone">Forgangen</string>
     <string name="video_effect_entry_central">Central</string>
     <string name="video_effect_entry_color_retention">Fargefokus</string>

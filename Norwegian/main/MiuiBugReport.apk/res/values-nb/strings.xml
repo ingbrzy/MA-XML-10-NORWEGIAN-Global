@@ -697,7 +697,7 @@ Les og godta den nye versjonen av %3$s før du fortsetter."</string>
     <string name="system_app_select">Innebygde apper</string>
     <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="tab_title_chat">OSS</string>
-    <string name="tab_title_my_reports">Mine rapporter</string>
+    <string name="tab_title_my_reports">Min tilbakemelding</string>
     <string name="tab_title_preferences">Innstillinger</string>
     <string name="tab_title_report">Tilbakemelding</string>
     <string name="temporary_not_available">Denne funksjonen er enda ikke tilgjengelig</string>

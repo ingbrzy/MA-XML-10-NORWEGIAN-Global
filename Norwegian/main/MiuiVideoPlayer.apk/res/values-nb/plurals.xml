@@ -120,6 +120,10 @@
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Innholdet ditt inneholder elementer (%1$s) som bryter med standardene i samfunnet vårt. Kontoen din er suspendert i %2$d dager til %3$s.</item>
         <item quantity="one">Innholdet ditt inneholder elementer (%1$s) som bryter med standardene i samfunnet vårt. Kontoen din er suspendert i %2$d dag til %3$s.</item>

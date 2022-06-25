@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Icon_name_classic_mode">Innstillinger for startskjerm</string>
     <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
@@ -40,7 +41,9 @@
     <string name="accessibility_recent_task_exit">Nylige lukket</string>
     <string name="accessibility_recent_task_locked_state">Låst</string>
     <string name="accessibility_recent_task_memory_info">Total RAM: %2$s | Tilgjengelig RAM: %1$s. Dobbeltklikk for å fjerne.</string>
+    <string name="accessibility_recent_task_show_menu">Flere alternativer</string>
     <string name="accessibility_recent_task_unlocked_state">Låst opp</string>
+    <string name="accessibility_recents_item_dismissed">%1$s klarert</string>
     <string name="accessibility_recents_item_open_app_info">Åpne appinfo for %s.</string>
     <string name="accessibility_splite_screen_primary">Lagt til som hovedapp på delt skjerm</string>
     <string name="accessibility_splite_screen_secondary">Lagt til som sekundær app på delt skjerm</string>
@@ -50,8 +53,10 @@
     <string name="activity_not_unlocked">Vent til din enhet er fullstendig omstartet før du åpner applikasjoner</string>
     <string name="add_custom_category">Egendefinert</string>
     <string name="add_screen">Legg til skjerm</string>
+    <string name="add_to_workspace">Legg til startskjerm</string>
     <string name="added_all_category">Alle appene er lagt til</string>
     <string name="afternoon">Ettermiddag</string>
+    <string name="agree_button">Godta</string>
     <string name="alexa_notification_add">Legg til</string>
     <string name="alexa_notification_cancel">Ikke nå</string>
     <string name="alexa_notification_content">Legge til Alexa-snarvei i Kontrollsenter?</string>
@@ -90,6 +95,7 @@
     <string name="all_apps_slide_up_tips">Sveiping opp er reservert for åpning av app-skuffen. Bytt til vanlig startskjermmodus og prøv igjen.</string>
     <string name="all_apps_suggestions">App-forslag</string>
     <string name="am">AM</string>
+    <string name="animation_rate_title">Animasjonshastighet</string>
     <string name="announce_for_app_move_in_folder">Flyttet til posisjon %1$d i mappen</string>
     <string name="announce_for_checked">%1$s, merket av</string>
     <string name="announce_for_choose_default_screen">Sett skjerm %1$d som standard startskjerm</string>
@@ -142,6 +148,13 @@
     <string name="app_category_tools">Verktøyer</string>
     <string name="app_category_travel">Reise</string>
     <string name="app_category_vr">VR</string>
+    <string name="app_drawer_double_confirm_description">Dette vil endre Startskjermens utseende. Du vil kunne reversere disse endringene i Innstillinger senere.</string>
+    <string name="app_drawer_double_confirm_title">Oppmerksomhet</string>
+    <string name="app_drawer_feature_description">App-skuff er et perfekt verktøy for å organisere appene. Kategoriser appene automatisk og finn alt du trenger med en gang!</string>
+    <string name="app_drawer_guide_description">Finn det du er på jakt etter i dine favorittapper</string>
+    <string name="app_drawer_guide_title">App-skuff</string>
+    <string name="app_drawer_tip_title">Vi har erstattet Innholdsfeed med App-skuff.</string>
+    <string name="app_install_state">Installert</string>
     <string name="app_name">smallWindow</string>
     <string name="application_name">Systemstarter</string>
     <string name="apply">Sett</string>
@@ -164,8 +177,35 @@
     <string name="back">Tilbake</string>
     <string name="backup_fail">Kunne ikke sikkerhetskopiere startprogram</string>
     <string name="bad_wallpaper_source_prompt">Kunne ikke laste bakgrunn</string>
+    <string name="branch_feature_description">I tillegg til apper kan Hurtigfinner finne innhold i apper og elementer på nett.</string>
+    <string name="branch_guide_attention">Bruk av forbedret søk krever at du deler søkeforespørsler, Google Ads-ID og IP-adresse med Branch Metrics Inc. Les og godta <font color="#B3000000"><a href="http://url1">vilkår for Discovery for sluttbruker</a></font> og <font color="#B3000000"><a href="http://url2">personvernerklæring for Branch Discovery</a></font> før du bruker denne funksjonen.</string>
+    <string name="branch_guide_description_one">Vi plasserer alle appene i App-skuffen. Startskjermen vil se ryddig og organisert ut.</string>
+    <string name="branch_guide_description_three">Med innebygd søk kan du finne alt du trenger med en gang!</string>
+    <string name="branch_guide_description_two">App-skuff kategoriserer apper automatisk.</string>
+    <string name="branch_guide_tip_title">Hver app på sitt eget sted</string>
+    <string name="branch_guide_title">Møt App-skuff</string>
+    <string name="branch_guide_type_four_desc">Du kan gå tilbake til den gamle layouten med to enkle trinn</string>
+    <string name="branch_guide_type_four_main">I innstillingene går du til Startskjerm > Startskjerm og velger \"Klassisk\".</string>
+    <string name="branch_guide_type_four_step_one">Åpne innstillinger</string>
+    <string name="branch_guide_type_four_step_two">Velg Startskjerm</string>
+    <string name="branch_guide_type_one_desc">Administrer appene dine med App-skuff</string>
+    <string name="branch_guide_type_one_main">Legg appene dine i App-skuffen, slik at startskjermen blir ren og organisert.</string>
+    <string name="branch_new_feature">Ny funksjon</string>
+    <string name="branch_privacy_policy">Personvernerklæring</string>
+    <string name="branch_search_guide_description">Søkeresultatene våre er mye mer omfattende nå</string>
+    <string name="branch_search_guide_privacy">Denne tjenesten drives av Branch Metrics Inc. Plasseringsinformasjon, søkespørringer og Google Ads ID deles med Branch. Les og godta Branchs <font color="#B3000000"><a href="http://url1">vilkår og betingelser</a></font> og <font color="#B3000000"><a href="http://url2">personvernerklæring</a></font> før du bruker denne tjenesten.</string>
+    <string name="branch_search_guide_title">Finn det du er på jakt etter i dine favorittapper</string>
+    <string name="branch_terms_condition">Vilkår og betingelser</string>
+    <string name="branch_tip_title">Med Hurtigfinner kan du finne alt du trenger med en gang.</string>
+    <string name="btn_agree">Godta</string>
+    <string name="btn_cancel">Avbryt</string>
+    <string name="btn_close">Skru av</string>
+    <string name="btn_open">Skru på</string>
+    <string name="btn_request_permission">Gi tillatelser</string>
+    <string name="btn_set_right_now">Gi tillatelser</string>
     <string name="buffering">Bufrer…</string>
     <string name="cancel_action">Avbryt</string>
+    <string name="cancel_botton">Avbryt</string>
     <string name="cancel_btn_label">Avbryt</string>
     <string name="cant_edit_lock_screen">Kan ikke endre låseskjermens stil</string>
     <string name="cant_remove_folder">Kan ikke fjerne mappe</string>
@@ -187,7 +227,10 @@
     <string name="chooser_wallpaper">Velg en ny bakgrunn</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
+    <string name="close_multi_finger_slide_summary">Disse håndbevegelsene ignoreres i enkelte scenarioer (f.eks. ved avspilling av spill og video)</string>
+    <string name="close_multi_finger_slide_title">Ikke reager på håndbevegelser med tre eller fire fingre</string>
     <string name="cloud_app_restore_title">Avventer</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="common_home_search_delete">Fjerner søkefelt</string>
     <string name="common_home_search_delete_cancle">Avbryt</string>
     <string name="common_home_search_delete_confirm">Fjern</string>
@@ -242,6 +285,7 @@
     <string name="deselect_all">Fjern alle valg</string>
     <string name="disable_wallpaper_scroll">Skru av siderulling</string>
     <string name="download_action">Last ned</string>
+    <string name="drag_icon_to_homescreen_guide">Trykk og hold på et app-ikon, deretter dra for å legge det til som snarvei på startskjermen</string>
     <string name="drag_multiple_item_name" />
     <string name="drag_single_item_name" />
     <string name="drawer_background">Bakgrunner</string>
@@ -273,9 +317,11 @@
     <string name="emptyplaylist">Trykk for å legge til sanger</string>
     <string name="enable_wallpaper_scroll">Skru på siderulling</string>
     <string name="encryption">Kryptering</string>
+    <string name="enter_search_setting_title">Åpne søk etter åpning av App-skuff</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
+    <string name="exit_overview_because_task_stack_changed">Lukket nylige pga. endringer i bakgrunnen.</string>
     <string name="expand_button_title">Avansert</string>
     <string name="failed_to_delete_temporary">Kan ikke fjerne</string>
     <string name="failed_to_drop">Kan ikke flytte</string>
@@ -333,6 +379,8 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_long_click">Trykk og hold inne for å legge til startskjermen</string>
+    <string name="fold_pair_installed_shortcut_launcher">Denne snarveien finnes allerede</string>
     <string name="folder_name">Mappe</string>
     <string name="frame_load_failed">Kan ikke laste ramme</string>
     <string name="free_style_apps_title">Velg app</string>
@@ -388,11 +436,14 @@
     <string name="gadget_weather_title_14">Vær</string>
     <string name="gadget_weather_title_24">Vær</string>
     <string name="global_search_hint">Søk</string>
+    <string name="got_it_botton">Skjønner</string>
     <string name="group_folder">Ny mappe</string>
     <string name="group_live_folders">Mapper</string>
     <string name="group_shortcuts">Snarveier</string>
     <string name="guide_install_app_msg">Denne appen er ikke installert på enheten. Finne og installere appen nå?</string>
     <string name="guide_install_app_title">Finn og installer app?</string>
+    <string name="guide_permission_title">Tillatelser er nødvendig</string>
+    <string name="guide_privacy_dialog_title">Vilkår for bruk</string>
     <string name="guide_tips_editing_mode">Trykk &amp; hold for å plukke opp en widget</string>
     <string name="home_gesture_content_center">Innholdssenter</string>
     <string name="home_gesture_global_search">Søk</string>
@@ -423,6 +474,9 @@
     <string name="launcher_slide_up_title">Sveip opp på startskjermen</string>
     <string name="launcher_sliding_up_gesture">Sveip for å åpne Startskjermen og åpne søk</string>
     <string name="launcher_title">Startskjerm og Nylige</string>
+    <string name="layout_guide_description">Hvis du ikke liker App-skuff, kan du alltids gå tilbake til den klassiske startskjermen. Du kan bare bruke «Innstillinger for startskjerm» og bytte mellom de to modusene.</string>
+    <string name="layout_guide_tip_title">Du kan gå tilbake til den gamle måten med et enkelt trykk</string>
+    <string name="layout_guide_title">Slik fjerner du App-skuff</string>
     <string name="like">Legg til i favoritter</string>
     <string name="liked">Lagt til i favoritter</string>
     <string name="loading_desktop">Et øyeblikk…</string>
@@ -540,8 +594,12 @@
     <string name="mtzgadget_missing_text">Widget var ikke tilgjengelig</string>
     <string name="multi_selecting_tips">For å plukke opp en app, sveip dens ikon og slipp den her.</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">Sveip opp fra bunnen av skjermen og sveip deretter til venstre eller høyre</string>
+    <string name="navigation_guide_app_quick_switch_hide_line_summary_pad">Sveip til venstre eller høyre nederst på skjermen</string>
     <string name="navigation_guide_app_quick_switch_summary">Sveip til venstre eller høyre fra fullskjermindikatoren eller fra bunnen av skjermen</string>
+    <string name="navigation_guide_app_quick_switch_summary_pad">Sveip til venstre eller høyre fra fullskjermindikatoren eller fra bunnen av skjermen</string>
+    <string name="navigation_guide_app_quick_switch_summary_spec_pad">Sveip til venstre eller høyre fra nederst på skjermen</string>
     <string name="navigation_guide_app_quick_switch_title">Bytt mellom apper</string>
+    <string name="navigation_guide_app_quick_switch_title_spec_with_quotation_pad">Bytt mellom apper</string>
     <string name="navigation_guide_app_summary">Sveip til venstre eller høyre fra kanten på øvre del av skjermen</string>
     <string name="navigation_guide_app_title">Utløserhandling for app</string>
     <string name="navigation_guide_appswitch_anim_summary">Sveip over skjermen fra kanten for å gå tilbake til forrige app</string>
@@ -550,24 +608,46 @@
     <string name="navigation_guide_appswitch_summary">Sveip til venstre eller høyre fra kanten av skjermen og hold en stund</string>
     <string name="navigation_guide_appswitch_title">Bytt til tidligere app</string>
     <string name="navigation_guide_back_summary">Sveip til venstre eller høyre fra kanten av skjermen</string>
+    <string name="navigation_guide_back_summary_pad">Sveip fra siden og til midten av skjermen</string>
+    <string name="navigation_guide_back_summary_spec_pad">Sveip fra kanten og til midten av skjermen</string>
     <string name="navigation_guide_back_title">Gå tilbake</string>
+    <string name="navigation_guide_back_title_spec_with_quotation_pad">Gå tilbake</string>
     <string name="navigation_guide_dialog_dont_show_again">Ikke vis igjen</string>
     <string name="navigation_guide_dialog_ok">Lær</string>
     <string name="navigation_guide_dialog_skip">Ikke nå</string>
     <string name="navigation_guide_dialog_summary">Lær hvilke bevegelser du kan bruke for systemnavigering.</string>
     <string name="navigation_guide_dialog_title">Lær bevegelser</string>
+    <string name="navigation_guide_dock_summary_pad">Skyv opp fra bunnen av skjermen</string>
+    <string name="navigation_guide_dock_summary_spec_pad">Skyv opp fra den nedre skjermkanten</string>
+    <string name="navigation_guide_dock_title_pad">Vis appdokk</string>
+    <string name="navigation_guide_dock_title_spec_pad">Vis appdokk i en app</string>
+    <string name="navigation_guide_dock_title_spec_with_quotation_pad">Vis appdokk i en app</string>
     <string name="navigation_guide_finish_text">Skjønner</string>
     <string name="navigation_guide_gesture_line_dialog_summary">En ny bevegelse for å bytte mellom apper blir brukt etter at du skjuler fullskjermsindikatoren. Vil du lære denne bevegelsen nå?</string>
     <string name="navigation_guide_gesture_line_dialog_title">Lær en ny bevegelse</string>
     <string name="navigation_guide_hide_gesture_line_summary">Ikke vis fullskjermindikator når du bruker fullskjermbevegelser</string>
     <string name="navigation_guide_hide_gesture_line_title">Skjul fullskjermindikator</string>
     <string name="navigation_guide_home_summary">Sveip opp fra bunnen av skjermen</string>
+    <string name="navigation_guide_home_summary_spec_pad">Sveip opp fra den nedre skjermkanten</string>
     <string name="navigation_guide_home_title">Gå til startskjerm</string>
+    <string name="navigation_guide_home_title_spec_with_quotation_pad">Gå til startskjerm</string>
+    <string name="navigation_guide_next_spec_pad">Neste</string>
+    <string name="navigation_guide_prev_spec_pad">Tilbake</string>
     <string name="navigation_guide_prohibit_gesture_hint">Kan ikke bruke fullskjermbevegelser når du ser på demoer</string>
+    <string name="navigation_guide_provision_see_more_pad">Se flere demoer under Innstillinger > Startskjerm > Fullskjermbevegelser</string>
     <string name="navigation_guide_provision_see_more_pad_with_virtual_key">Se flere demoer under Innstillinger > Startskjerm > Systemnavigasjon</string>
+    <string name="navigation_guide_provision_title_pad">Fullskjermbevegelser</string>
     <string name="navigation_guide_recent_summary">Sveip opp fra bunnen av skjermen og stans</string>
+    <string name="navigation_guide_recent_summary_pad">Sveip opp fra bunnen av skjermen og sett på pause</string>
+    <string name="navigation_guide_recent_summary_spec_pad">Sveip opp fra den nedre skjermkanten, sett på pause og løft fingeren</string>
     <string name="navigation_guide_recent_title">Åpne Nylige</string>
+    <string name="navigation_guide_recent_title_spec_with_quotation_pad">Åpne Nylige</string>
     <string name="navigation_guide_settings">Bevegelses-demoer</string>
+    <string name="navigation_position_center">Midten</string>
+    <string name="navigation_position_left">Venstre</string>
+    <string name="navigation_position_right">Høyre</string>
+    <string name="navigation_position_summary">Egendefinerte posisjoner for navigasjonsknapper kan bare brukes på startskjermen</string>
+    <string name="navigation_position_title">Navigasjonsknappenes posisjon</string>
     <string name="navigation_set_miui_home_as_default_dialog_cancel">Avbryt</string>
     <string name="navigation_set_miui_home_as_default_dialog_message">Kan ikke bruke fullskjermbevegelser med tredjeparts startprogram. Bytte til systemets startprogram og aktivere fullskjermbevegelser?</string>
     <string name="navigation_set_miui_home_as_default_dialog_ok">OK</string>
@@ -576,9 +656,11 @@
     <string name="navigation_type_title">Systemnavigasjon</string>
     <string name="navigation_type_virtual_key">Knapper</string>
     <string name="network_error">Kunne ikke koble til nettverket. Prøv igjen.</string>
+    <string name="new_feature_title">Hva er nytt</string>
     <string name="night">Kveld</string>
     <string name="no_detail_page">Ingen detaljer side</string>
     <string name="no_space_toast">Ikke nok plass</string>
+    <string name="no_space_toast_fold">Ikke nok lagringsplass her</string>
     <string name="no_space_toast_when_click_widget">Ikke nok ledig plass på siden. Prøv å dra elementet til en annen side.</string>
     <string name="noon">Midt på dagen</string>
     <string name="normal_wallpaper">Bakgrunn</string>
@@ -599,6 +681,7 @@
     <string name="ota_layout_adjustment_content">Indre og ytre startskjemoppsett ble synkronisert i den nye versjonen.</string>
     <string name="ota_layout_adjustment_title">Startskjemoppsett</string>
     <string name="out_of_space">Ikke mer ledig plass på Startskjermen</string>
+    <string name="pair_icon_name">%1$s | %2$s</string>
     <string name="perfect_icons_switch_summary">Gjengi animasjoner på ikoner for tredjepartsapper</string>
     <string name="perfect_icons_switch_title">Globale ikonanimasjoner</string>
     <string name="permdesc_install_shortcut">Tillater en app å legge til snarveier uten brukerintervensjon.</string>
@@ -618,6 +701,7 @@
     <string name="photo_load_failed">Kan ikke laste foto</string>
     <string name="please_slide_agian">Skyv igjen</string>
     <string name="pm">PM</string>
+    <string name="popular_search">Populære</string>
     <string name="pref_cell_layout_size">App-ikonlayout</string>
     <string name="pref_enable_drawing_cache_summary">Skru av for å frigjøre minne. Dette kan føre til treigere utførelse.</string>
     <string name="pref_enable_drawing_cache_title">Tegnebuffer</string>
@@ -638,6 +722,14 @@
     <string name="privacy_thumbnail_blur_summary">Blur app-forhåndsvisninger i «Nylige»</string>
     <string name="privacy_thumbnail_blur_title">Blur app-forhåndsvisninger</string>
     <string name="quick_app">Hurtigapper</string>
+    <string name="quick_finder_feature_description">Hurtigfinner gjør at du kan finne apper, innhold i apper og elementer på nett raskere. Du kan deaktivere denne funksjonen under Innstillinger.</string>
+    <string name="quick_finder_tip_title">Finn alt du trenger raskere</string>
+    <string name="quick_search_all_app_desc">Vis alle apper i App-skuffen</string>
+    <string name="quick_search_desc">Åpne søk etter åpning av App-skuff</string>
+    <string name="quick_search_guide_all_apps">Alle apper</string>
+    <string name="quick_search_guide_ok_btn">OK</string>
+    <string name="quick_search_guide_quick_search">Hurtigsøk</string>
+    <string name="quick_search_guide_title">Velg standard modus</string>
     <string name="recent_apps">Nylige</string>
     <string name="recent_menu_item_info">Informasjon</string>
     <string name="recent_menu_item_lock">Lås</string>
@@ -659,7 +751,7 @@
     <string name="recents_smallwindow_drag_text">Dra hit for å feste</string>
     <string name="recents_smallwindow_text">Slipp for å legge til</string>
     <string name="recents_task_screening">Casting</string>
-    <string name="recents_title_app_manager">Administrer apper</string>
+    <string name="recents_title_app_manager">Behandle apper</string>
     <string name="recents_title_game">Spill</string>
     <string name="recents_title_garbage_cleanup">Renser</string>
     <string name="recents_title_garbage_deepclean">Dyprens</string>
@@ -667,6 +759,7 @@
     <string name="recents_title_security_scan">Sikkerhetsskanning</string>
     <string name="recents_tv_small_window_text">Flytende vinduer</string>
     <string name="recents_worldcirculate_text">Slipp for å velge</string>
+    <string name="recnets_relay_device_info">Fra %s</string>
     <string name="recnets_worldcirculate_button_text">Mi Smart Hub</string>
     <string name="recnets_worldcirculate_display_computer_info">Denne appen fungerer på %s.</string>
     <string name="recnets_worldcirculate_display_default_info">Trykk for å ta den tilbake hit.</string>
@@ -688,6 +781,8 @@
     <string name="remove_invalidate_gadget_tips">En av widgetene du bruker er ikke lenger tilgjengelig. Du kan legge til en annen.</string>
     <string name="remove_sys_app_content">Du kan legge til snarveien på startskjermen igjen under Innstillinger > Apper > Administrer snarveier på startskjermen. Fjerne nå?</string>
     <string name="remove_sys_app_title">Fjerne snarveien på startskjermen?</string>
+    <string name="request_permission_msg">POCO-programvelgeren trenger noen tillatelser for å gi deg tilgang til alle funksjonaliteter.</string>
+    <string name="request_permission_title">Tillatelser er nødvendig</string>
     <string name="reset_cate_tip_content">Hvis du fortsetter, blir alle appgrupper gjenopprettet. Fortsette likevel?</string>
     <string name="reset_cate_tip_title">Gjenopprett standardgrupper</string>
     <string name="reset_description_first_time">Du kan gjenopprette oppsettet fra %1$s innen 2 timer</string>
@@ -703,6 +798,8 @@
     <string name="screen_cells_config_title">Startskjem-layout</string>
     <string name="screen_locked_toast">Startskjermoppsettet er låst.</string>
     <string name="screen_number">%d skjerm</string>
+    <string name="search_bar_hint_content">Søk etter apper og innhold</string>
+    <string name="search_guide_btn">Skjønner</string>
     <string name="search_in_apps_store">Søk etter «%1$s» i %2$s</string>
     <string name="search_menu_title">Søk</string>
     <string name="search_no_result">Kunne ikke finne resultater</string>
@@ -711,6 +808,7 @@
     <string name="select_photo">Foto</string>
     <string name="send">Send</string>
     <string name="server_error">En serverfeil oppstod. Vent et minutt eller to og prøv igjen.</string>
+    <string name="service_double_attention">Funksjonalitet for forbedret søk leveres av Branch Metrics Inc. For at denne funksjonen skal fungere må vi dele søkeforespørslene, Google Ads-ID-en og IP-adressen din med Branch Metrics Inc. Les og godta <font color="#B3000000"><a href="http://url1">vilkår for Discovery for sluttbruker</a></font> og <font color="#B3000000"><a href="http://url2">personvernerklæring for Branch Discovery</a></font> før du bruker denne funksjonen.</string>
     <string name="setting_wallpaper_tip">Klyp eller sveip for å justere</string>
     <string name="settings">Innstillinger</string>
     <string name="settings_shortcut">Innstillinger</string>
@@ -726,6 +824,7 @@
     <string name="show_most_popular_apps_you_used">Vis de mest brukte appene i skuffen</string>
     <string name="show_recents_recommend_title">Vis forslag</string>
     <string name="slide_to_open_newhome">Sveip opp for å åpne Innholdssenter</string>
+    <string name="small_window">Flytende vindu</string>
     <string name="small_window_button_complete">Ferdig</string>
     <string name="small_window_edit_content">Du kan legge til opptil %d apper</string>
     <string name="small_window_edit_title">Aktuelle apper</string>
@@ -738,6 +837,7 @@
     <string name="sort_by_not_defined">Auto-sorter</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />
@@ -747,12 +847,14 @@
     <string name="status_installing">Installering</string>
     <string name="status_paused">Satt på vent</string>
     <string name="status_pending">Venter</string>
+    <string name="suggestions">Forslag</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
     <string name="swipe_the_desktop_to_the_left">Sveip til venstre på startskjermen</string>
     <string name="swipe_the_desktop_to_the_right">Sveip til høyre på startskjermen</string>
+    <string name="switch_on_button">Skru på</string>
     <string name="switch_personal_assistant_app_vault">Apphvelv</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ingen</string>
@@ -763,6 +865,10 @@
     <string name="system_shortcuts_remove">Fjern</string>
     <string name="system_text">Automatisk</string>
     <string name="task_access_locked_app_msg">Applås aktivert</string>
+    <string name="term_of_service">Vilkår og betingelser</string>
+    <string name="terms_of_services_one">Velkommen til App drawer og Quick Finder. Quick Finder lar deg finne apper, app-innhold, og varer på nett raskere. Les og godta Xiaomis <font color="#B3000000"><a href="http://url1">Personvernerklæring</a></font> før du bruker disse funksjonene.</string>
+    <string name="terms_of_services_three">Du kan skru av denne funksjonen i Innstillinger.</string>
+    <string name="terms_of_services_two">For å kunne bruke forbedret søk er det nødvendig å dele personlig informasjon, inkludert søk, Google Advertising ID og IP-adresse, med Branch Metrics Inc. Branch vil behandle din personlige informasjon i samsvar med <font color="#B3000000"><a href="http://url1">Branch Discovery Personvernerklæring</a></font>. Les og godta <font color="#B3000000"><a href="http://url2">Discovery Sluttbrukervilkår &amp; Betingelser</a></font> og <font color="#B3000000"><a href="http://url3">Branch Discovery Personvernerklæring</a></font> før du bruker denne funksjonen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
     <string name="the_anti_aggression_day">Antivoldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -829,6 +935,11 @@
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
+    <string name="uni_search_permission_content">Aktiver funksjoner for nettsøk (søketjenester tilbys av Branch).</string>
+    <string name="uni_search_permission_msg">Tillat at POCO Launcher får tilgang til din plassering og dine kontakter for å forbedre søkeresultater.</string>
+    <string name="uni_search_permission_title">Forbedret søk</string>
+    <string name="uni_search_setting_summary">Finn innhold i appen direkte</string>
+    <string name="uni_search_setting_title">Spørringsmodus i appen</string>
     <string name="uninstall">Avinstaller</string>
     <string name="uninstall_dialog_message">Avinstallering vil fjerne alle app-data.</string>
     <string name="uninstall_dialog_title_format">Avinstaller %s?</string>
@@ -839,6 +950,7 @@
     <string name="uninstall_xspace_dialog_title_format">Avinstaller dobbel \"%s\"?</string>
     <string name="unknown_artist_name">Ukjent artist</string>
     <string name="unnamed_folder_name">Mappe</string>
+    <string name="upgrade_remove_small_window_in_recents">Du kan bruke sidelinjene til å åpne apper i flytende vindu</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="wallpaper">Bakgrunn</string>

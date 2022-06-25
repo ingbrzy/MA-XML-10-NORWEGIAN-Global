@@ -652,6 +652,7 @@ genereres ikke i Andre område"</string>
     <string name="time_picker_dialog_title">Angi tid</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="time_placeholder">--</string>
     <string name="title_activity_easy_mode">Lite-modus</string>
     <string name="title_mix_match_sound">Nature mix</string>
     <string name="title_mix_match_tips">Tap animals to listen to demos. You can add up to 5 animals to the mix.</string>

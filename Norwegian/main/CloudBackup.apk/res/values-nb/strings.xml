@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_to_recover">Et øyeblikk…</string>
+    <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="actionbar_button_up_description">Tilbake</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
@@ -364,6 +365,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="msg_restore_with_metered_network_hint">Hvis du fortsetter gjenoppretting av disse elementene, vil mobildata bli brukt til nedlasting.</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> av filer vil bli lastet ned."</string>
     <string name="network_error">Koble til nettverk</string>
+    <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="night">Kveld</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhetskopier i Xiaomi Cloud.</string>
@@ -374,10 +377,13 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Kan ikke gjenopprette elementer i PC-modus. Deaktiver PC-modus og prøv igjen.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="process_whole_recovery">Gjenoppretter \"%s\"</string>
+    <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="provision_back">Tilbake</string>
     <string name="provision_background_restore_more_data">Gjenopprett flere elementer i bakgrunnen</string>
     <string name="provision_error_connect_msg">Test nettverket og prøv igjen. Sikkerhetskopier er ikke tilgjengelige når enheten er offline.</string>
@@ -457,6 +463,7 @@ Sjekk nettverksinnstillingene dine og prøv igjen."</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
     <string name="the_anti_aggression_day">Antivoldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -514,6 +521,7 @@ Sjekk nettverksinnstillingene dine og prøv igjen."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
+    <string name="unknown_error_info">Ukjent feil</string>
     <string name="unselected">Ikke valgt</string>
     <string name="unsupported_home">Oppdater til siste versjon av MIUI.</string>
     <string name="v7_preference_off">AV</string>

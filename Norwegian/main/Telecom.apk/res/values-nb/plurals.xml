@@ -64,6 +64,10 @@
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
     <plurals name="notification_missedCallTitle_miui">
         <item quantity="other">Tapt anrop</item>
         <item quantity="one">Tapt anrop</item>

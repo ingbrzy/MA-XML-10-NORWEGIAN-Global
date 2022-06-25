@@ -59,6 +59,7 @@
     <string name="copies_increase">Pluss én kopi</string>
     <string name="copy">Kopiér</string>
     <string name="could_not_create_file">Kunne ikke opprette filen</string>
+    <string name="current_page_template">%1$d/%2$d</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -262,6 +263,7 @@
     <string name="printer_busy">Skriver er opptatt</string>
     <string name="printer_error">Skriverfeil</string>
     <string name="printer_error_msg">Skriverfeil: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer informasjon om denne printeren</string>
     <string name="printer_notification_error_title">Kunne ikke skrive ut %1$s</string>
     <string name="printer_unavailable">Skriver er ikke tilgjengelig</string>
