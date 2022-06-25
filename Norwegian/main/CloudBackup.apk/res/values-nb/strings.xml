@@ -377,8 +377,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Kan ikke gjenopprette elementer i PC-modus. Deaktiver PC-modus og prøv igjen.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
