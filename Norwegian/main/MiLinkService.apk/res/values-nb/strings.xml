@@ -35,13 +35,13 @@
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
+    <string name="cast_image_des">Strømmer opplæring</string>
     <string name="casting_tips">Strømmer…</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
     <string name="close_hotspot_hint">Deaktiver flyttbar hotspot før casting</string>
     <string name="close_slave_wifi_hint">Koble fra sekundære Wi-Fi-nettverk før casting</string>
     <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
-    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
     <string name="connect_device_fail">Kunne ikke koble til enhet</string>
@@ -89,7 +89,7 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="dialog_scanning_device">Søker etter enheter i nærheten…</string>
     <string name="dialog_scanning_precondition">Aktiver Wi-Fi og Bluetooth på telefonen for å bruke trådløs skjerm.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
-    <string name="dialog_scanning_precondition_new_global">Aktiver Wi-Fi, Bluetooth og andre stedstjenester for å kunne bruke casting. Aktivere nå?</string>
+    <string name="dialog_scanning_precondition_new_global">Aktiver Wi-Fi og stedstjenester for å kunne bruke casting. Aktivere nå?</string>
     <string name="dialog_select_tv">Velg enhet (%1$d)</string>
     <string name="dialog_show_help">Hjelp</string>
     <string name="disconnect">Stopp strømming</string>
@@ -164,6 +164,7 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="global_privacy_main">Projisering av elementer fra telefonens skjerm til en større ekstern skjerm.</string>
     <string name="global_privacy_negative">Ikke godta</string>
     <string name="global_privacy_positive">Godta</string>
+    <string name="global_privacy_screencast">Under opptak eller casting kan tjenesten som tilbyr denne funksjonen, fange opp sensitiv informasjon som vises på skjermen eller spilles av fra enheten, inkludert sensitiv informasjon som lyd, passord, betalingsinformasjon, bilder og meldinger.</string>
     <string name="global_privacy_tip">&lt;Data>Vi må innhente nødvendig personlig informasjon for å tilby deg grunnleggende tjenester og optimere castingprosessen. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i &lt;a href=%1$s>personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen, under Innstillinger.&lt;/Data></string>
     <string name="hang_up">Strøm med skjermen av</string>
     <string name="hang_up_alert_dialog_content">Fortsett å strømme når enhetens skjerm er avslått. Denne funksjonen reduserer strømforbruket. Trykk på Av/på-knappen for å slå skjermen på igjen.</string>
@@ -367,6 +368,8 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="privacy_permission_nfc_desc">For sammenkobling av enheter ved hjelp av NFC</string>
     <string name="privacy_permission_optional">Valgfrie tillatelser</string>
     <string name="privacy_permission_optional_desc">Brukt til tilleggsfunksjoner når du bruker dem</string>
+    <string name="privacy_permission_screencast">Få tilgang til informasjon på skjermen</string>
+    <string name="privacy_permission_screencast_desc">Under opptak eller casting kan tjenesten som tilbyr denne funksjonen, fange opp sensitiv informasjon som vises på skjermen eller spilles av fra enheten, inkludert sensitiv informasjon som lyd, passord, betalingsinformasjon, bilder og meldinger</string>
     <string name="privacy_permission_wlan">Aktivere og deaktivere Wi-Fi</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">For å finne tilgjengelige enheter i nærheten</string>

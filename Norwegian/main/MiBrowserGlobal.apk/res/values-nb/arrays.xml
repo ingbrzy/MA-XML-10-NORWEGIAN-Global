@@ -62,6 +62,19 @@
         <item>iPhone</item>
         <item>iPad</item>
     </string-array>
+    <string-array name="pref_web_permissions">
+        <item>Begrense</item>
+        <item>Spør</item>
+        <item>Tillat</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_one">
+        <item>Begrens</item>
+        <item>Spør</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_two">
+        <item>Begrens</item>
+        <item>Tillat</item>
+    </string-array>
     <string-array name="setting_swipe_up_target">
         <item>Søk</item>
         <item>Nyheter</item>
@@ -75,7 +88,7 @@
         <item>Følg</item>
     </string-array>
     <string-array name="shortcut_dialog_title">
-        <item>Melding fra nettleser</item>
+        <item>Melding fra Nettleser</item>
         <item>Følg OL med Mi</item>
     </string-array>
     <string-array name="speed_result_tips">

@@ -87,6 +87,10 @@
         <item>Denne, og fremtidige hendelser</item>
         <item>Alle hendelser</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>Tvillingene</item>
@@ -137,6 +141,11 @@
         <item>pisces</item>
         <item>Fiskene</item>
         <item>19/2 - 20/3</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_popup_new">
+        <item>Av</item>
+        <item>For alle hendelser</item>
+        <item>For tidssensitive hendelser</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>

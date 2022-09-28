@@ -122,6 +122,14 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> laster ned</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> laster ned</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder fremover</item>
+        <item quantity="one">Spol %d sekund fremover</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder bakover</item>
+        <item quantity="one">Spol %d sekund bakover</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d gratis nedlastninger igjen</item>
         <item quantity="one">%d gratis nedlastning igjen</item>
@@ -205,6 +213,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
     <plurals name="sound_fade_duration_in_seconds">
         <item quantity="other">Krysstoning mellom sanger: %d sekunder</item>
         <item quantity="one">Krysstoning mellom sanger: %d sekund</item>
+    </plurals>
+    <plurals name="task_guide">
+        <item quantity="other">Tjen %1$d mynter i dag</item>
+        <item quantity="one">Tjen %1$d mynt i dag</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">Videoer</item>

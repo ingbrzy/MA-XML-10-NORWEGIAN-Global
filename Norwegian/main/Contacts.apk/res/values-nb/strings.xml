@@ -179,6 +179,7 @@
     <string name="callrecordview_menu_show_missed">Ubesvarte anrop</string>
     <string name="callrecordview_menu_show_sim">%s anrop</string>
     <string name="callrecordview_menu_show_stranger">Anrop fra ukjente nummer</string>
+    <string name="callrecordview_menu_xiaoaiphone">Mi AI ringeassistent</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_confirmation_dialog_message">Forkaste endringer?</string>
     <string name="cancel_confirmation_dialog_title">Avbryt</string>
@@ -504,6 +505,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Selskap</string>
@@ -637,6 +639,7 @@
     <string name="menu_sync_remove">Fjern synkronisert gruppe</string>
     <string name="midnight">Natt</string>
     <string name="miprofile_account_type">Kontaktkort</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Endre profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -793,6 +796,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="permission_retry_dialog_msg_pad">For å kunne bruke SIM-kort med denne appen og redigere kontaktene dine, må du la enheten få tilgang til og redigere kontaktene og anropshistorikken din, samt å få tilgang til enhetsinformasjon.</string>
     <string name="permission_retry_setting">Innstillinger</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummeret er for langt</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Ingen bilder er tilgjengelige på enheten.</string>
@@ -862,6 +866,9 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="preference_smart_group_title">Smart-grupper</string>
     <string name="preference_tone_title">Toner</string>
     <string name="preference_yellowpage_function_setting">Innstillinger for gule sider</string>
+    <string name="presentation_payphone">Telefonautomat</string>
+    <string name="presentation_private">Privat nummer</string>
+    <string name="presentation_unknown">Ukjent nummer</string>
     <string name="previous">Forrige</string>
     <string name="privacy_password_message1">Personvernpassord fungerer for bilder, notater og skjulte mapper.</string>
     <string name="privacy_password_message2">Bruk personvernpassord. Det fungerer for bilder, notater og skjulte mapper.</string>
@@ -938,7 +945,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="remove_duplicate">"MIUI vil hjelpe deg med å finne og sammenslå duplikate kontakter.
 
  Trykk på Sammenslå-ikonet nederst på skjermen din for å begynne."</string>
-    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE</string>
+    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE;android.permission.POST_NOTIFICATIONS</string>
     <string name="restore_app_btn_cancel">Avbryt</string>
     <string name="restore_app_btn_restore">OK</string>
     <string name="restore_app_description_content">Legg til en snarvei på startskjermen for å få tilgang til kontaktene dine raskere.</string>
@@ -1035,6 +1042,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Selskaper</string>
     <string name="smart_group_company_unavailable">Ingen selskapsinformasjon</string>
     <string name="smart_group_frequency_1">I løpet av den siste måneden</string>
@@ -1076,6 +1084,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="starred_contacts">Favoritter</string>
     <string name="status_available">Tilgjengelig</string>
     <string name="status_away">Borte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Opptatt</string>
     <string name="strequentList">Favoritter</string>
     <string name="success_message_import_from_account">Kontakt importert</string>
@@ -1200,6 +1209,7 @@ Velg én av de følgende valgene:"</string>
     <string name="video_chat">Videochat</string>
     <string name="viewContactDesription">Se kontakt</string>
     <string name="viewContactTitle">Kontaktdetaljer</string>
+    <string name="view_more_call_logs">Se mer</string>
     <string name="view_updates_from_group">Se oppdateringer</string>
     <string name="voicemail">Telefonsvarer</string>
     <string name="websiteLabelsGroup">Nettsted</string>

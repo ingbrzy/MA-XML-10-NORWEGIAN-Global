@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="action_collapse">Skjul</string>
     <string name="action_expand">Vis mer</string>
     <string name="action_folder_description">Se mapper</string>
@@ -137,6 +138,7 @@
     <string name="dlg_hide_message">Skjuling…</string>
     <string name="dlg_info_creating_message">Oppretter bilde…</string>
     <string name="dlg_info_save_to_gallery_message">Lagrer bilde til Galleri…</string>
+    <string name="dlg_info_save_to_local_message">Lagrer…</string>
     <string name="dlg_message_password_reset">Passordet for skjulte notater vil bli erstattet med passordet for personvernbeskyttelse som fungerer for meldinger, bilder og skjulte mapper</string>
     <string name="dlg_message_set_password">Passordet for personvernbeskyttelse fungerer for meldinger, bilder og skjulte mapper</string>
     <string name="dlg_message_use_privacy_password">Bruk personvernpassord. Det fungerer for meldinger, bilder og skjulte mapper.</string>
@@ -496,6 +498,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -522,6 +525,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Trykk for å bytte til å velge dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Bytt til tekstinndatamodus</string>
     <string name="mtrl_picker_toggle_to_year_selection">Trykk for å bytte til å velge år</string>
+    <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="new_app_name">Mi Notater</string>
     <string name="new_audio_create_cancel_talkback_des">Avbrutt</string>
     <string name="new_audio_create_done_talkback_des">Opprettet</string>
@@ -552,11 +557,14 @@
     <string name="note_mindnote_entrance_hint_newversion">"Begynn å skrive "</string>
     <string name="note_mindnote_entrance_icon_text">Opprett et tankekart</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Opprett et tankekart</string>
+    <string name="note_mindnote_not_support_in_phone_model">Kan ikke redigere tankekart på denne enheten</string>
     <string name="note_module_name">Notater</string>
     <string name="note_not_text_stub">Ingen tekst</string>
     <string name="note_sort_way">Sorter</string>
+    <string name="note_write_hint">Start skriving</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Notater er en systemapp. Du kan ikke bruke denne appen etter at du har avinstallert den.</string>
     <string name="notes_description_title">Avinstallere Notater?</string>
     <string name="notification_content_add_todo_from_other_app">Du la til en ny oppgave. Trykk for å se.</string>
@@ -619,6 +627,8 @@
     <string name="permission_phone_state_desc">For å avslutte opptak av talenotater under samtaler</string>
     <string name="permission_read_contact_desc">Tilknytte notater oppretter under samtaler med kontakter</string>
     <string name="permission_storage_desc">For å lagre notater som bilder</string>
+    <string name="permission_storage_desc_new_v12">For å legge til bilder i notater og lagre notater som bilder</string>
+    <string name="permission_storage_desc_pad_new_v12">For å legge til bilder i notater og lagre notater som bilder</string>
     <string name="permission_storage_desc_pad_v12">For å legge til bilder i notater og lagre notater som bilder</string>
     <string name="permission_storage_desc_v12">For å legge til bilder i notater og lagre notater som bilder</string>
     <string name="permission_xiaoai_desc">&lt;Data>Mi AI samler inn taleopptakene og enhets-ID-en din for å transkribere lyd og opprette talenotater. Finn ut mer i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> til Mi AI.&lt;/Data></string>
@@ -656,6 +666,7 @@
     <string name="privacy_note_content_empty">Ingen elementer her ennå.</string>
     <string name="private_entry_available">Slipp for å åpne privat mappe</string>
     <string name="private_entry_default">Dra ned for å åpne privat mappe</string>
+    <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="quick_note_link_default_text">URL-adresse</string>
     <string name="quick_note_new_user_guide">Hurtignotater gjør at du kan opprette notater og utdrag</string>
     <string name="recover_notes_hint">Det oppsto en feil, gå til i.mi.com for å gjenopprette notater.</string>
@@ -704,6 +715,9 @@
     <string name="save_to_gallery_failure_message">Kunne ikke lagre</string>
     <string name="save_to_gallery_icon_name">Lagre i Galleri</string>
     <string name="save_to_gallery_success_message">Lagret</string>
+    <string name="save_to_local_failure_message">Kunne ikke lagre</string>
+    <string name="save_to_local_icon_name">Lagre</string>
+    <string name="save_to_local_success_message">Lagret</string>
     <string name="search">Notater</string>
     <string name="search_hint">Søker notater</string>
     <string name="search_keyword_notes">Notater;Memo</string>
@@ -765,6 +779,7 @@
     <string name="sync_note_folder">%1$s og %2$s</string>
     <string name="sync_note_todo">%1$s og %2$s</string>
     <string name="sync_tips">Trykk for å synkronisere notater med skyen.</string>
+    <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
     <string name="the_anti_aggression_day">Antivoldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -940,6 +955,7 @@ Tillat Notater å spille inn lyd."</string>
     <string name="tuesday_shortest">Tir</string>
     <string name="unclassfied_folder_name">Ukategorisert</string>
     <string name="undo">Angre</string>
+    <string name="unknown_error_info">Ukjent feil</string>
     <string name="unknown_source">Ukjent kilde</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>

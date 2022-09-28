@@ -466,7 +466,9 @@ Raskere tilkoblingsprotokoll."</string>
     <string name="hdcp_checking_dialog_title">Angi oppførsel for HDCP-sjekk</string>
     <string name="hdcp_checking_title">HDCP-sjekk</string>
     <string name="headset_battery_fw_failed">Lad enheten først</string>
+    <string name="headset_battery_low">Lavt batterinivå. Lade hodetelefonene nå.</string>
     <string name="headset_connect_device">Koble til enhet</string>
+    <string name="headset_connect_timeout">Tilkoblingen ble tidsavbrutt. Start på nytt.</string>
     <string name="headset_device_check_failed">Kunne ikke se etter oppdateringer</string>
     <string name="headset_device_donot_move">Hold enheten i nærheten</string>
     <string name="headset_device_enter_upgrade_failed">Kunne ikke starte oppdateringen</string>
@@ -492,6 +494,7 @@ Raskere tilkoblingsprotokoll."</string>
     <string name="headset_loss_notify_summary">Det ser ut til at minst én av øretelefonene dine ikke er i ladeetuiet. Se deg rundt!</string>
     <string name="headset_loss_notify_summary1">Det ser ikke ut til at øretelefonene dine er i etuiet. Legg dem tilbake for å lade dem.</string>
     <string name="headset_loss_notify_title">Alarm for manglende øretelefon</string>
+    <string name="headset_not_in_case">Legg begge hodetelefonene i etuiet og begynn på nytt.</string>
     <string name="headset_read_fw_state">Kunne ikke hente oppdateringsinfo</string>
     <string name="headset_update_failed">Kunne ikke oppdatere</string>
     <string name="headset_update_ok">Ferdig</string>
@@ -683,6 +686,7 @@ Raskere tilkoblingsprotokoll."</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>

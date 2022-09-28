@@ -55,6 +55,8 @@
     <string name="agenda_tomorrow">I MORGEN, %1$s</string>
     <string name="agenda_view">Hendelser</string>
     <string name="alarm_label">Avvis</string>
+    <string name="alarm_open_reminder">Aktiver påminnelse</string>
+    <string name="alarm_reminder_already">Påminnelse er aktivert</string>
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Utløpt</string>
     <string name="alert_title">Kalendervarsler</string>
@@ -90,6 +92,7 @@
     <string name="birthday_term">fødselsdag</string>
     <string name="button_record_menstruation">Registrer</string>
     <string name="calendar_permission_desc">Administrere hendelser</string>
+    <string name="calendar_privacy_policy">Personvernerklæring</string>
     <string name="can_not_create_long_event">Navnet på hendelsen er for lang</string>
     <string name="can_not_modify_allday_event">Kan ikke endre heldagshendelse</string>
     <string name="can_not_modify_event">Kan ikke endre hendelse</string>
@@ -145,7 +148,7 @@
     <string name="countdown_notify_title">Nedtelling: %1$s</string>
     <string name="countdown_secondary_tag">Nedtelling</string>
     <string name="countdown_today">I dag</string>
-    <string name="create_an_account_desc">"Kalender fungerer bedre med en Mi Account.
+    <string name="create_an_account_desc">"Kalender fungerer bedre med en Mi-konto.
 
 • Få tilgang fra en hviklen som helst nettleser.
 • Ta sikre sikkerhetskoper av hendelsene dine."</string>
@@ -177,11 +180,13 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="date_today">" (i dag)"</string>
     <string name="date_view">Dato</string>
     <string name="day">Dag</string>
     <string name="day_view_new_event_hint">Ny hendelse</string>
+    <string name="default_reminder_later_time">Standard intervall for \"Påminn senere\"</string>
     <string name="default_reminder_mode">Påminnelser</string>
     <string name="delete_menstruation_record_confirm">Slette denne oppføringen?</string>
     <string name="delete_recurring_event_title">Slette %s?</string>
@@ -212,8 +217,10 @@
     <string name="edit_event_label">Detaljer</string>
     <string name="edit_event_no_reminder_value">Ikke påminn</string>
     <string name="edit_event_reminder_3_days_before">Legg til påminndelse %d dager før</string>
+    <string name="edit_event_reminder_3_days_before_time">Påminn også %d dager før</string>
     <string name="edit_event_reminder_summary">På den dagen kl. %1$s</string>
     <string name="edit_event_reminder_summary_3_days_before">%2$d dager før og samme dag kl %1$s</string>
+    <string name="edit_event_reminder_summary_3_days_before_today">%1$d ager før og kl. %1$s på en angitt dag</string>
     <string name="edit_event_reminder_text">På %1$s kl. %2$s</string>
     <string name="edit_event_reminder_time">Påminnelsestid</string>
     <string name="edit_event_reminder_with_another_day_text">På %1$s, %2$s kl. %3$s</string>
@@ -222,6 +229,14 @@
     <string name="edit_event_tab_birthday">Fødselsdag</string>
     <string name="edit_event_tab_countdown">Nedtelling</string>
     <string name="edit_event_tab_event">Hendelse</string>
+    <string name="edit_event_title_create_agenda">Opprett hendelse</string>
+    <string name="edit_event_title_create_anniversary">Opprett jubileum</string>
+    <string name="edit_event_title_create_birthday">Opprett bursdag</string>
+    <string name="edit_event_title_create_countdown">Opprett nedtelling</string>
+    <string name="edit_event_title_edit_agenda">Rediger hendelse</string>
+    <string name="edit_event_title_edit_anniversary">Rediger jubileum</string>
+    <string name="edit_event_title_edit_birthday">Rediger bursdag</string>
+    <string name="edit_event_title_edit_countdown">Rediger nedtelling</string>
     <string name="edit_event_to_label">Til</string>
     <string name="edit_your_long_holidays">Redig ferier</string>
     <string name="ee_dd_short_month">EEE dd. MMM</string>
@@ -390,7 +405,9 @@
     <string name="item_num_selected">%1$d valgt</string>
     <string name="language_change_confirmation">Endret. Du kan endre språket i kalenderinnstillinger.</string>
     <string name="launch_weather_comment">Trykk her for å få værinformasjon</string>
-    <string name="load_more_hint">Last inn hendelser fra %1$d</string>
+    <string name="load_more_events">Vis %d hendelser</string>
+    <string name="load_more_events_default">Vis neste års hendelser</string>
+    <string name="load_more_hint">Vis %1$d hendelser</string>
     <string name="loading">Et øyeblikk…</string>
     <string name="local_calendar_display_name">Lokal kalender</string>
     <string name="local_owner_account_name">Lagret til denne enheten</string>
@@ -543,6 +560,7 @@
     <string name="no_internet_dialog_message">Enheten din må koble til nettverket for at du skal kunne trekke tilbake samtykket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="no_internet_dialog_title">En feil oppstod</string>
     <string name="no_long_holidays">Ingen kommende lange ferier</string>
+    <string name="no_more_events">Ingen flere hendelser å vise</string>
     <string name="no_network">"Kunne ikke koble til nettverket.
 Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="no_network_btn">Prøv igjen</string>
@@ -596,6 +614,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="panchang_yog">Yog</string>
     <string name="partner_compatibility">Partnerkompatibilitet</string>
     <string name="path_calendar_settings">Systemapper/Kalender/Innstillinger</string>
+    <string name="permission_description">Detaljer for tillatelser</string>
     <string name="picker_day">Valgt dag: %1$d. Sveip vertikalt for å velge.</string>
     <string name="picker_month">Valgt måned: %1$d. Sveip vertikalt for å velge.</string>
     <string name="picker_year">Valgt år: %1$d. Sveip vertikalt for å velge.</string>
@@ -609,14 +628,20 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="pref_title_notification_remind">Varselspåminnere</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preferences_additional_cal_default">0</string>
+    <string name="preferences_alarms_category_title">Alarmpåminnelser</string>
+    <string name="preferences_alarms_sound">Lyd</string>
+    <string name="preferences_alarms_vibrateWhen">Vibrer</string>
     <string name="preferences_alerts_ringtone_title">Lyd</string>
     <string name="preferences_alerts_vibrateWhen_title">Vibrer</string>
     <string name="preferences_alerts_vibrate_title">Vibrering og ringetone</string>
+    <string name="preferences_allow_remind">Tillat påminnelser</string>
     <string name="preferences_default_allday_reminder_title">Standard heldags påminnelsestid</string>
     <string name="preferences_default_reminder_dialog">Standard påminnelsestid</string>
     <string name="preferences_default_reminder_title">Standard påminnelsestid</string>
     <string name="preferences_home_tz_title">Hjemmetidssone</string>
     <string name="preferences_notification_ringtone_title">Lyd</string>
+    <string name="preferences_popup_alert_smart_summary_new">Tidssensitive hendelser er hendelser med et nøyaktig tidspunkt</string>
+    <string name="preferences_popup_alert_title">Popup-påminnelser</string>
     <string name="preferences_show_indic_date_title">Vis Indic Calendar</string>
     <string name="preferences_title">Kalender</string>
     <string name="preferences_use_home_tz_descrip">Vis alltid kalendere og tidshendelser i din hjemmetidssone når du reiser</string>
@@ -624,12 +649,18 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Ukestart</string>
     <string name="preferences_week_start_day_title">Ukestart</string>
+    <string name="privacy_and_permissions">Personvern og tillatelser</string>
     <string name="privacy_card_description">Godta våre Retningslinjer for personvern for å få tilgang til alle funksjonene.</string>
     <string name="privacy_policy_dialog_agree">Godta</string>
     <string name="privacy_policy_dialog_dont_agree">Ikke godta</string>
     <string name="privacy_policy_dialog_message">&lt;Data>Velkommen til Kalender!&lt;br/>Du kan bruke denne appen til å opprette og administrere hendelser, sette påminnelser og motta tilleggsinformasjon for din bestemte plassering.&lt;br/>Kalender må samle inn nødvendige personopplysninger for å gi deg grunnleggende tjenester. Du kan finne ut mer om hvordan vi håndterer informasjonen vi samler inn i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a>.&lt;br/>Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%3$s\">personvernerklæringen&lt;/a> før du bruker Kalender. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Kalender under Innstillinger.&lt;br/> Hvis du ikke godtar personvernerklæringen vår, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data></string>
     <string name="privacy_policy_dialog_title">Vilkår og betingelser</string>
     <string name="privacy_revoke_switch_text">Tilbakekalling av samtykke</string>
+    <string name="pull_refresh_events">Vis %d hendelser</string>
+    <string name="pull_refresh_events_default">Vis forårets hendelser</string>
+    <string name="pull_refresh_progress_load_finish">Lastet inn</string>
+    <string name="pull_refresh_progress_loading">Et øyeblikk…</string>
+    <string name="pull_refresh_progress_release_to_load">Slipp for å laste inn</string>
     <string name="pull_to_refresh_hint">Dra for å laste inn hendelser fra %1$d</string>
     <string name="recorded_menstruation">Registrert menstruasjonsperiode</string>
     <string name="refresh">Oppdater</string>
@@ -686,6 +717,8 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="search_calendar">Dato;Solforhold;Lunar;Almanakk;Skjebne;Agenda;Møte;Påminnelse;Ferie;Helligdag;Fødseldag;2016;2017;Vår Festival;Nyttår;Internasjonal arbeiderdag;Midt-høstfestival</string>
     <string name="search_calendar_edit_event">Møte;Påminnelse;Agenda</string>
     <string name="search_calendar_settings">Kalender;Agenda;Påminner</string>
+    <string name="search_events">Søkehendelser</string>
+    <string name="search_history">Søkehistorikk</string>
     <string name="search_menu_title">Søk</string>
     <string name="second_saturday_holiday">Annenhver lørdag er en fridag</string>
     <string name="select_date">Hopp til dato</string>
@@ -705,7 +738,9 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="setting_features_title">Funksjonsinnstillinger</string>
     <string name="setting_holiday_display_desc">Kort til høytidsdagene kan bli funnet under agendaen din på hjemmesiden</string>
     <string name="setting_holiday_reminder">Påminner for høytidsdager</string>
+    <string name="setting_import_events">Importer hendelser</string>
     <string name="setting_others">Flere</string>
+    <string name="setting_show_reject_agenda">Vis avviste hendelser</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Vis høytidsdager</string>
     <string name="setting_title_import_todo">Importer oppgaver</string>
@@ -768,6 +803,10 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="tab_title_day">Dag</string>
     <string name="tab_title_month">Måned</string>
     <string name="tab_title_week">Uke</string>
+    <string name="tab_view_day">Dag</string>
+    <string name="tab_view_month">Måned</string>
+    <string name="tab_view_week">Uke</string>
+    <string name="tab_view_year">År</string>
     <string name="talk_back_read_date">%1$s (%2$s i henhold til månekalenderen).</string>
     <string name="talk_back_setting">Innstillinger</string>
     <string name="talk_back_tab_switch">Bytt mellom visninger</string>
@@ -939,7 +978,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Kalender er en systemapp som lar deg opprette og administrere hendelser. Noen av funksjonene vil fremdeles være tilgjengelige etter at du fjerner snarveien på startskjermen.</string>
     <string name="xiaomi_calendar_delete_title">Fjerne «Kalender» fra startskjermen?</string>
-    <string name="xiaomi_calendar_display_name">Mi Account-kalender</string>
+    <string name="xiaomi_calendar_display_name">Mi-kontokalender</string>
     <string name="year">År</string>
     <string name="yearly">Årlig (hver %s)</string>
     <string name="yearly_plain">Årlig</string>

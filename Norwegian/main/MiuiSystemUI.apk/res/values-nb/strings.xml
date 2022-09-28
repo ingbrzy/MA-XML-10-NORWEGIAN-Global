@@ -1219,6 +1219,7 @@ Prioritet"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kort mangler eller er uleselig. Sett inn et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Telefonen mangler SIM-kort.</string>
     <string name="keyguard_missing_sim_message_short">SIM-kort mangler</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Nettverket er låst</string>
     <string name="keyguard_password_enter_password_code">Skriv inn passordet for å låse opp</string>
     <string name="keyguard_password_enter_pin_code">Skriv inn PIN-koden</string>
@@ -1528,12 +1529,14 @@ Du er også koblet til %3$s, som kan overvåke den personlige nettverksaktivitet
 
 Ta kontakt med administratoren hvis du vil ha mer informasjon."</string>
     <string name="monitoring_description_ca_cert_settings">Åpne pålitelig legitimasjon</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">En sertifiseringsinstans er installert på denne enheten. Den sikre nettverkstrafikken din kan overvåkes eller endres.</string>
     <string name="monitoring_description_do_body">Administratoren din kan overvåke og administrere innstillinger, bedriftstilgang, apper, data som er tilknyttet denne enheten, og enhetens posisjonsinformasjon.</string>
     <string name="monitoring_description_do_body_vpn">Enheten er koblet til %1$s, som kan overvåke nettverksaktiviteten din, inkludert e-post, apper og nettsteder.</string>
     <string name="monitoring_description_do_header_generic">Enheten din administreres av %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruker %2$s til å administrere enheten din.</string>
     <string name="monitoring_description_do_learn_more">Finn ut mer</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Organisasjonen din installerte en sertifiseringsinstans i jobbprofilen din. Den sikre nettverkstrafikken din kan overvåkes eller endres.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Jobbprofilen din er koblet til %1$s, som kan overvåke nettverksaktiviteten din, inkludert e-poster, apper og nettsteder.</string>
     <string name="monitoring_description_managed_profile_network_logging">Administratoren din har slått på loggføring av nettverk, som overvåker trafikken i jobbprofilen din, men ikke i den personlige profilen din.</string>
@@ -1567,6 +1570,7 @@ Kontakt administratoren for mer informasjon.
 
 Du er også tilkoblet en VPN som kan overvåke nettverksaktiviteten din."</string>
     <string name="monitoring_description_vpn_settings">Åpne VPN-innstillingene</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s kan ha tilgang til data som er knyttet til denne enheten, kan administrere apper og kan endre enhetsinnstillingene.
 
 Hvis du har spørsmål, kan du kontakte %2$s."</string>
@@ -1647,6 +1651,7 @@ Hvis du har spørsmål, kan du kontakte %2$s."</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1677,6 +1682,7 @@ Hvis du har spørsmål, kan du kontakte %2$s."</string>
     <string name="nav_bar">Navigasjonsrad</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Oppsett</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s har sendt et bilde</string>
     <string name="new_notification_text_content_description">%1$s har sendt en melding: %2$s</string>
     <string name="new_status_content_description">%1$s har en statusoppdatering: %2$s</string>
@@ -1900,6 +1906,7 @@ Hvis du har spørsmål, kan du kontakte %2$s."</string>
     <string name="private_dns_mode_provider">Vertsnavn for privat DNS-leverandør</string>
     <string name="private_dns_mode_provider_failure">Kunne ikke koble til</string>
     <string name="private_dns_mode_provider_hostname_hint">Skriv inn DNS-leverandørens vertsnavn</string>
+    <string name="process_kernel_label">Android-operativsystem</string>
     <string name="profile_connect_timeout_subtext">Tilkoblingsproblemer. Slå enheten av og på igjen</string>
     <string name="profile_info_settings_title">Profilinformasjon</string>
     <string name="profile_owned_footer">Profilen kan overvåkes</string>
@@ -2269,6 +2276,8 @@ være overvåket"</string>
     <string name="status_bar_clock_date_time_format_12">t:mm a, E, MMM d</string>
     <string name="status_bar_clock_date_weekday_format">EEEE d. MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE d. MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d. MMM"</string>
     <string name="status_bar_date_format_12">"E

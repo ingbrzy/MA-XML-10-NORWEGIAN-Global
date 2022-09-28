@@ -127,6 +127,7 @@
     <string name="content_desc_activity_main_add_city">Legg til by</string>
     <string name="content_desc_activity_main_add_city_manage">Administrer byer</string>
     <string name="content_desc_activity_main_more_settings">Flere innstillinger</string>
+    <string name="content_desc_activity_main_page">Side %1$d av %2$d</string>
     <string name="content_desc_back_button">Tilbake</string>
     <string name="content_desc_city_manage_del">Slett</string>
     <string name="content_desc_close_button">Lukk</string>
@@ -162,6 +163,7 @@
     <string name="dynamic_weather">Vær</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Oppdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke koble til nettverket</string>
     <string name="empty_view_refresh">Prøv igjen</string>
@@ -271,13 +273,22 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nå</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">dd.MM</string>
     <string name="index_item_experience_now">Installer nå</string>
     <string name="indices_title_chance_of_rain">Muligheter for regn</string>
     <string name="indices_title_feel">Føles som</string>
     <string name="indices_title_pressure">Trykk</string>
+    <string name="indices_title_uv">UV</string>
     <string name="indices_title_wind_speed">Vindhastighet</string>
+    <string name="indices_wind_direction_east">Ø</string>
+    <string name="indices_wind_direction_north">N</string>
+    <string name="indices_wind_direction_south">S</string>
+    <string name="indices_wind_direction_west">V</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-indeks</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Skru på stedtjenester</string>
     <string name="location_tag">Lokaliser</string>
     <string name="manager_city_option_add_home">Legg til startside</string>
@@ -377,7 +388,7 @@
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">For høy</string>
     <string name="permission_device_info">Enhetsinformasjon</string>
-    <string name="permission_device_introduce">For å gjenkjenne enhets-ID basert på enhetsmodell og IMEI, og for å tilby lokaliserte tjenester basert på språkinnstillinger</string>
+    <string name="permission_device_introduce">For å gjenkjenne enheter basert på enhetsmodell og for å tilby lokaliserte tjenester basert på språkinnstillinger</string>
     <string name="permission_exit">Avslutt</string>
     <string name="permission_privacy">Personvernerklæring (obligatorisk)</string>
     <string name="permission_select_all">Velg alle</string>
@@ -426,6 +437,8 @@
     <string name="send">Send</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
+    <string name="setting_notification_manager">Varsler</string>
+    <string name="setting_used_to_push_reminder">Få værmeldinger og -varsler</string>
     <string name="settings">Innstillinger</string>
     <string name="settings_atmospheric_pressure_atm">Standardatmosfære (atm)</string>
     <string name="settings_atmospheric_pressure_hpa">Hektopascal (hPa)</string>
@@ -437,6 +450,7 @@
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI-værr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke ta skjermbilde</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timersvarsel</string>

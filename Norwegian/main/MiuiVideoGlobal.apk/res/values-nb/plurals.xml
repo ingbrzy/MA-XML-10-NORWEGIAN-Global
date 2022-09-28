@@ -98,6 +98,14 @@ Bare tilgjengelig i dag"</item>
         <item quantity="other">Du har sett %d minutter i dag</item>
         <item quantity="one">Du har sett %d minutt i dag</item>
     </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Delt. Du har fått %d poeng.</item>
+        <item quantity="one">Delt. Du har fått %d poeng.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Abonnert. Du har fått %d poeng.</item>
+        <item quantity="one">Abonnert. Du har fått %d poeng.</item>
+    </plurals>
     <plurals name="incentive_task_watchvideo_begin">
         <item quantity="other">Få %d poeng!</item>
         <item quantity="one">Få %d poeng!</item>
