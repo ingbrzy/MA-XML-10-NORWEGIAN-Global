@@ -330,17 +330,12 @@ et rullende skjermbilde"</string>
     <string name="screen_editor_btn_save">Lagre</string>
     <string name="screen_editor_btn_shell_off">Fjern enhetsramme</string>
     <string name="screen_editor_btn_shell_on">Legg til enhetsramme</string>
-    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Slette denne skjermdumpen?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Slette dette bildet nå?</string>
-    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Ferdig</string>
-    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
-    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Kan ikke legge til enhetsramme på skjermbilder som er beskåret</string>
     <string name="screen_editor_shell_net_error">Koble til nettverket for å laste ned enhetsramme</string>
     <string name="screen_editor_shell_res_downloading">Laster ned enhetsramme…</string>
-    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Avbryt</string>
     <string name="screen_save_dialog_btn_delete">Slett skjermbilde</string>
     <string name="screen_save_dialog_btn_save">Lagre i Galleri</string>

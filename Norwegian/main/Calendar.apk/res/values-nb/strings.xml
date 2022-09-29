@@ -180,7 +180,6 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="date_today">" (i dag)"</string>
     <string name="date_view">Dato</string>
