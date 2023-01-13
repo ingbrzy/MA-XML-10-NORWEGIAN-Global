@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_device_info">Se opplysninger om enheten</string>
+    <string name="about_mi_account">Om Mi-konto</string>
     <string name="accept">Tillat</string>
     <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="access_token_expired_warning">Weibo-kontoen er utløpt</string>
@@ -65,6 +66,7 @@
  Din konto-ID: %s"</string>
     <string name="account_token_expired_title">Kunne ikke autentisere</string>
     <string name="account_user_avatar">Profilbilde</string>
+    <string name="account_user_avatar_activity_not_found">Kunne ikke åpne galleri</string>
     <string name="account_user_avatar_from_album">Velg bilde</string>
     <string name="account_user_avatar_from_camera">Ta bilde</string>
     <string name="account_user_base_info">Personlig informasjon</string>
@@ -100,6 +102,7 @@
     <string name="area_code_search_hint">Søk etter et land eller region</string>
     <string name="auth_fail_warning">Økten utløpt, logg på igjen senere</string>
     <string name="authorize_title">Autorisasjon</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
     <string name="bind_facebook">Koble til din Facebook-konto</string>
     <string name="bind_google">Koble til din Google-konto</string>
     <string name="bind_qq">QQ</string>
@@ -120,11 +123,26 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="change_email_address">Endre e-postadresse</string>
     <string name="change_password">Endre passord</string>
     <string name="change_phone_number">Endre telefonnummer</string>
+    <string name="check_apk_update">Se etter oppdateringer</string>
+    <string name="child_account_system_ad_disable_hint">Denne funksjonen er ikke tilgjengelig for barnekontoer</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
     <string name="cloud_description_closed">Opptatt | Synkronisering er av</string>
     <string name="cloud_description_normal">Opptatt</string>
+    <string name="cloud_member">Medlemskap</string>
+    <string name="cloud_member_status_expired">Utløpt</string>
+    <string name="cloud_member_status_expired_soon">Utløper snart</string>
+    <string name="cloud_member_status_non_vip">Oppgrader</string>
+    <string name="cloud_member_vipname_free">Gratis</string>
+    <string name="cloud_member_vipname_mega">Mega</string>
+    <string name="cloud_member_vipname_premium">Premium</string>
+    <string name="cloud_member_vipname_ultra">Ultra</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_cloud_open">Aktiver</string>
+    <string name="cloud_service_space_full">Lagringsplass full</string>
+    <string name="cloud_service_space_not_enough">Ikke nok lagringsplass</string>
+    <string name="cloud_service_space_used">Opptatt</string>
+    <string name="cloud_service_state_error">Kunne ikke laste</string>
     <string name="cloud_service_status_backup_not_open">Sikkerhetskopiering er deaktivert</string>
     <string name="cloud_service_status_cloud_not_open">Av</string>
     <string name="cloud_service_status_storage_full">Lagringen er full</string>
@@ -180,6 +198,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="confirm_unbundled_phone_dialog_message">Telefonnummeret %1$s er knyttet til Mi-konto %2$s. Det vil ikke lenger være knyttet til Mi-konto %3$s hvis du fortsetter. Fortsette?</string>
     <string name="continue_action">Fortsett</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_link">Kopier nettadresse</string>
     <string name="copy_to_clipboard_successful">Kopiert</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -202,6 +221,8 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="diagnosis_log_sent_format">"Loggen er sendt.
 ID:%s
 Send denne koden til den overordnede."</string>
+    <string name="dind_device_service_not_open">Av</string>
+    <string name="dind_device_service_opened">På</string>
     <string name="download_file">Laster ned %s…</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
@@ -217,11 +238,11 @@ Send denne koden til den overordnede."</string>
     <string name="exit">Avslutt</string>
     <string name="expand_button_title">Avansert</string>
     <string name="facebook">Facebook</string>
-    <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Logg inn med Facebook</string>
     <string name="failed_dup_secure_phone_number">Dette telefonnummeret er allerede knyttet til en annen Mi-konto</string>
+    <string name="family_service">Familietjenester</string>
+    <string name="family_service_not_open">Inviter medlemmer</string>
     <string name="family_share">Familiedeling</string>
-    <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Finn enhet</string>
     <string name="find_device_access_denied">Kan ikke få status, tilgang nektet</string>
     <string name="find_device_account_error">Kan ikke få status på grunn av kontofeil</string>
@@ -251,6 +272,7 @@ Send denne koden til den overordnede."</string>
     <string name="find_device_title">Finn enhet</string>
     <string name="find_device_unknown_error">Kan ikke hente enhetsstatus. Vent et minutt eller to og prøv igjen.</string>
     <string name="find_equipment">Finn enhet</string>
+    <string name="find_new_apk_version">Oppdatering er tilgjengelig</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -317,6 +339,7 @@ Send denne koden til den overordnede."</string>
     <string name="google_login">Logg inn med Google</string>
     <string name="goto_accept">OK</string>
     <string name="guest_account_label">Mi-gjestekonto</string>
+    <string name="has_no_new_version">Oppdatert</string>
     <string name="health_action_activate">Aktiver</string>
     <string name="health_action_install">Installer</string>
     <string name="health_action_update">Oppdater</string>
@@ -344,14 +367,18 @@ Send denne koden til den overordnede."</string>
     <string name="login_check_find_device">Henter enhetens sikkerhetsinformasjon…</string>
     <string name="login_check_find_device_failed_title">Kunne ikke sjekke informasjon om enhetens sikkerhet</string>
     <string name="login_find_device_bind">Denne enheten er knyttet til en eksisterende Mi-konto-ID (%s).</string>
+    <string name="login_notification_button_text">Logg inn</string>
+    <string name="login_notification_desc">Få nettskytjenester, lagringsplass for familien m.m.</string>
+    <string name="login_notification_title">Logg inn på din Mi-konto</string>
     <string name="login_with_other">Flere valg</string>
     <string name="logout_account">Logg ut</string>
     <string name="logout_failed">Kan ikke logge av</string>
+    <string name="mi_account">Min konto</string>
     <string name="mi_account_identity_title">Bekreft din identitet</string>
     <string name="mi_finance">Min økonomi</string>
     <string name="mi_finance_info">Bonuser for nye brukere</string>
     <string name="mi_health">Xiaomi Helse</string>
-    <string name="mi_member">Mi Samfunnet</string>
+    <string name="mi_member">Xiaomi Community</string>
     <string name="mi_vip_info">Se fordeler</string>
     <string name="midnight">Natt</string>
     <string name="mipay">Betal</string>
@@ -431,8 +458,11 @@ Send denne koden til den overordnede."</string>
     <string name="multi_user_not_show_sync_activity_title">Ikke slå på synkronisering med skyen</string>
     <string name="my_device_title">Nåværende enhet</string>
     <string name="need_install_wechat">Installer WeChat først</string>
+    <string name="network_error">En nettverksfeil oppstod.</string>
+    <string name="network_error_hint">Sjekk nettstedsadressen og prøv igjen, eller kopier nettstedsadressen og åpne den i nettleseren din.</string>
     <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
     <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
+    <string name="new_version">Ny versjon</string>
     <string name="night">Kveld</string>
     <string name="no_account_or_forget_password">Opprette konto eller glemt passord?</string>
     <string name="no_install">Ikke installert</string>
@@ -458,6 +488,7 @@ Send denne koden til den overordnede."</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> vil bli gitt følgende tillatelser:&lt;br> &lt;br> %3$s</string>
     <string name="oauth_title">Logg inn med Mi-konto</string>
     <string name="ok">OK</string>
+    <string name="operator_broadnet">China Broadnet</string>
     <string name="operator_mobile">China Mobile</string>
     <string name="operator_mobile_agreement">Verifikasjonstjenester levert av China Mobile</string>
     <string name="operator_other">Telefonnummer</string>
@@ -466,9 +497,10 @@ Send denne koden til den overordnede."</string>
     <string name="operator_unicom">China Unicom</string>
     <string name="operator_unicom_agreement">Verifikasjonstjenester levert av China Unicom</string>
     <string name="optional_permissions">Valgfrie tillatelser</string>
+    <string name="page_load_failed">Kan ikke åpne side</string>
     <string name="passport_Resend">Send på nytt</string>
     <string name="passport_access_denied">Nektet tilgang</string>
-    <string name="passport_account_hint_text">E-post/telefonnummer/Mi-kontoidentifikasjon</string>
+    <string name="passport_account_hint_text">E-post/Telefonnummer/Mi-kontoidentifikasjon</string>
     <string name="passport_account_identity_title">Bekreft din identitet</string>
     <string name="passport_account_label">Mi-konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -504,7 +536,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_delete_account">Logg ut</string>
     <string name="passport_downlink_reg">Telefonnummer</string>
     <string name="passport_email">E-postadresse</string>
-    <string name="passport_email_or_id_hint_text">E-post/Mi-kontoidentifikasjon</string>
+    <string name="passport_email_or_id_hint_text">E-post/Mi konto-ID</string>
     <string name="passport_email_reg_success_summary">%1$s ble funnet på kontoen din. Du kan bruke den til å logge på eller tilbakestille passordet.</string>
     <string name="passport_error_auth_fail">Økten utløpt, logg på igjen senere</string>
     <string name="passport_error_device_id">Kan ikke finne enhetens ID</string>
@@ -574,7 +606,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_login_prompt">Alle Mi-tjenester. Én Mi-konto.</string>
     <string name="passport_login_recycle_account_no">Nei</string>
     <string name="passport_login_recycle_account_yes">Ja</string>
-    <string name="passport_login_title">Logg inn på din Mi Account</string>
+    <string name="passport_login_title">Logg inn på din Mi-konto</string>
     <string name="passport_login_using_other_ways">Andre måter å logge inn</string>
     <string name="passport_message_dialog_title">SMS med bekreftelseskoder</string>
     <string name="passport_new_user_register">Opprett en konto</string>
@@ -669,9 +701,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_talkback_voice_captcha">Spill av stemmeverifiseringskode</string>
     <string name="passport_ticket_login_select_sim_card">Velg SIM-kort</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
-    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
-    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Avbryt</string>
     <string name="passport_title_reg">Opprett en konto</string>
     <string name="passport_trust_device">Legg denne enheten til bekreftede enheter</string>
@@ -687,7 +717,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_uplink_sms_sending">Sender betalt melding…</string>
     <string name="passport_uplink_suggest_dialog_msg">Kunne ikke motta kode. Bruke en betalt uplink-SMS i stedet?</string>
     <string name="passport_uplink_suggest_dialog_title">Merk</string>
-    <string name="passport_use_generated_pwd_message">Sørg for å huske passordet. Du kan bruke det til å logge deg på andre Mi-tjenester.</string>
+    <string name="passport_use_generated_pwd_message">Sørg for å huske passordet. Du kan bruke det til å logge deg på andre Xiaomi-tjenester.</string>
     <string name="passport_use_generated_pwd_title">Husk passordet ditt.</string>
     <string name="passport_user_agreement">Brukeravtale</string>
     <string name="passport_user_agreement_link">&lt;Data>Jeg har lest og godtatt Xiaomis &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
@@ -698,6 +728,7 @@ Send denne koden til den overordnede."</string>
     <string name="passport_vcode_notification_title">Påloggingsverifiseringen er ufullstendig</string>
     <string name="passport_vcode_prompt_long">Tast inn bekreftelseskode</string>
     <string name="passport_vcode_sms_send_prompt">Send bekreftelseskode til %s</string>
+    <string name="passport_vcode_what_app_send_prompt">Bekreftelseskoden din på WhatsApp vil bli levert til gjenopprettelsestelefonen din &lt;font color=#1F93FF>%s&lt;/font></string>
     <string name="passport_verification_failed">Kunne ikke verifisere kontoen</string>
     <string name="passport_verify">Bekreft</string>
     <string name="passport_verifying_activator_phone">Verifiserer telefonens sikkerhet…</string>
@@ -722,6 +753,7 @@ Send denne koden til den overordnede."</string>
     <string name="permission_write_external_storage">Tilgang til og lagre elementer i lagring</string>
     <string name="personal_info_desc">Bilde, kallenavn og mer</string>
     <string name="phone_num_use_for">Telefonnummer brukes for:</string>
+    <string name="phone_register">Bruk telefonnummer</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
@@ -739,6 +771,11 @@ Send denne koden til den overordnede."</string>
     <string name="push_notify_dialog_title">Kontobekreftelse</string>
     <string name="pwd_width_phone_number_or_mail_num">Passordet kan ikke inneholde telefonnummeret, e-postadressen eller Mi-konto-ID-en din</string>
     <string name="qq">QQ</string>
+    <string name="qrcode_login_entry_text">&lt;Data>Innlogget på en annen enhet? Bruk &lt;a href=>rask pålogging&lt;/a>&lt;/Data></string>
+    <string name="qrcode_login_load_refresh">&lt;Data>Denne QR-koden er utløpt. Trykk for å &lt;a href=>oppdatere&lt;/a>.&lt;/Data></string>
+    <string name="qrcode_login_load_retry">&lt;Data>Kunne ikke laste inn. &lt;a href=>Prøv igjen&lt;/a>.&lt;/Data></string>
+    <string name="qrcode_login_message">Skann med Xiaomi-telefonen eller nettbrettets skanner-app, Xiaomi Home eller en annen Xiaomi-enhet for å logge inn</string>
+    <string name="qrcode_login_title">Skann for å logge inn</string>
     <string name="recycle_phone_notification_msg">Virker som telefonnummeret ditt har blitt gjenbrukt. Trykk for å oppdatere.</string>
     <string name="recycle_phone_notification_title">Mi-konto sikkerhetsrisiko</string>
     <string name="removing_account">Logger av…</string>
@@ -788,7 +825,6 @@ Trekke tilbake samtykket nå?"</string>
     <string name="send_diagnosis_log">Send diagnoselogg</string>
     <string name="send_email_activate_message">Bekreftelses-e-post sendt</string>
     <string name="sending">Sender…</string>
-    <string name="server_client_id">29336734752-hkhmuft60qa4qn1ual7etmp6pfo0ib54.apps.googleusercontent.com</string>
     <string name="service_error">Servicefeil</string>
     <string name="set_success">Endringen var vellykket</string>
     <string name="sign_in">Pålogging</string>
@@ -876,30 +912,51 @@ Trekke tilbake samtykket nå?"</string>
     <string name="two_factor_auth_need_code_summary">Du vil se en kode på andre tilknyttede Mi-enheter. Tast inn denne koden på en ny enhet for å logge inn.</string>
     <string name="two_factor_auth_summary">Når du prøver å logge inn på en ny enhet eller på en ny plassering, blir du varslet om dette på andre tilknyttede enheter. Du må bekrefte om slike påloggingsforsøk er godkjente av deg.</string>
     <string name="unbind_sns_description">Når du har koblet fra denne kontoen, kan du ikke bruke din %s Kontoinformasjon til å logge på Mi-kontoen din.</string>
+    <string name="unit_gb">" GB"</string>
+    <string name="unit_mb">" MB"</string>
     <string name="unknown_error_info">Ukjent feil</string>
     <string name="unlock_help_notice">"Hjelp:
 · Hvis du har glemt passordet ditt, gå til id.mi.com for å tilbakestille det.
 2. Hvis du ikke kan tilbakestille passordet eller noen har låst enheten din, gå til i.mi.com for å låse den opp.
 3 Ditt opplåsningsnummer: %s"</string>
+    <string name="update_apk_version_later">Ikke nå</string>
+    <string name="update_apk_version_now">Oppdater</string>
     <string name="update_email_address_dialog_message">Du må bekrefte identiteten din før du kan oppdatere e-post.</string>
     <string name="update_email_address_dialog_title">Oppdater e-postl</string>
     <string name="update_phone_notice">Endre sikkerhetsinnstillinger</string>
     <string name="update_phone_number_notice_message">Du må bekrefte identiteten din før du kan oppdatere telefonnummeret.</string>
     <string name="used_cloud_storage_info">Brukt %s</string>
+    <string name="user_agreement_device_permission_desc">For å sikre sikkerheten til påloggingsmiljøet</string>
+    <string name="user_agreement_device_permission_title">Tilgang til enhetsinfo</string>
+    <string name="user_agreement_must_permission_msg">Obligatoriske tillatelser (brukt for grunnleggende funksjoner og tjenester i denne appen)</string>
+    <string name="user_agreement_network_permission_msg">Denne appen må koble til internett og krever følgende tillatelser for å fungere som normalt:</string>
+    <string name="user_agreement_permission_summary_msg">Mi-kontoen gir deg adgang til alle tjenestene som leveres av Xiaomi. Denne appen må være tilkoblet Internett og krever følgende tillatelser for å kunne fungere normalt.</string>
+    <string name="user_agreement_use_account_msg">Med Mi-konto får du tilgang til alle tjenestene som leveres av Xiaomi.</string>
+    <string name="user_agreement_wifi_permission_title">Aktiver og deaktiver Wi-Fi</string>
+    <string name="user_agreement_wlan_permission_desc">For å kontrollere påloggingsmiljøet for sikkerhetsproblemer</string>
+    <string name="user_agreement_wlan_permission_title_china">Aktiver og deaktiver WLAN</string>
     <string name="user_avatar_update_title">Endre profilbilde</string>
     <string name="user_avatar_uploading">Et øyeblikk…</string>
     <string name="user_instruction_all_purpose">Velkommen til Mi-konto! Du kan bruke kontoen din til å få tilgang til tjenester levert av Xiaomi og tilknyttede selskaper, for eksempel Mi.com, Xiaomi Cloud og GetApps. Du kan få Mi Coins, kjøpe virtuelle varer og få glede av tilleggstjenester, inkludert spill, temaer og e-bøker.</string>
     <string name="user_instruction_tip">For å kunne logge på må du lese og godta vilkår og betingelser.</string>
     <string name="user_license_with_3rd_app">&lt;Data>Ved å logge inn med en Mi-konto bekrefter jeg at jeg har lest og godtar &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernregler&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_mobile">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_no_operator">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_telcom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæringen&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for kontoverifiseringstjenestene fra eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_unicom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringtjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_out_3rd_app_no_operator">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_app">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_mobile">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, same &lt;a href=%3$s>brukervilkårene for verifikasjonstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_telcom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for kontoverifiseringstjenstene for eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_unicom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for verifiseringstjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_mobile">"&lt;Data>Jeg har lest og godtatt denne appens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale &lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for China Mobile-bekreftelse&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_no_operator">"&lt;Data>Jeg har lest og godtar denne appens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_telcom">"&lt;Data>Jeg har lest og godtatt denne appens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale &lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for China Telecom-bekreftelse&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_unicom">"&lt;Data>Jeg har lest og godtatt denne appens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale &lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for China Unicom-bekreftelse&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_out_3rd_app_no_operator">"&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_app">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_mobile">"&lt;Data>Jeg har lest og godtatt Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>,samt &lt;a href=%3$s>tjenestevilkårene for China Mobile-bekreftelse&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_telcom">"&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>tjenestevilkårene for China Telecom-bekreftelse&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_unicom">"&lt;Data>Jeg har lest og godtatt Mi-kontoens &lt;a href=%1$s>brukeravtale &lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>tjenestevilkårene for China Unicom-bekreftelse&lt;/a>.
+&lt;/Data>"</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="vip_account_settings">VIP-innstillinger</string>
@@ -910,5 +967,6 @@ Trekke tilbake samtykket nå?"</string>
     <string name="weixin">WeChat</string>
     <string name="weixin_login">Logg på med WeChat</string>
     <string name="xiao_mi_vip">Mi VIP</string>
+    <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="yesterday">I går</string>
 </resources>

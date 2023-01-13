@@ -28,8 +28,6 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="access_sd_fail">Kunne ikke få tilgang til SD-kort.</string>
-    <string name="accessibility_8k_off">8K er deaktivert</string>
-    <string name="accessibility_8k_on">8K er aktivert</string>
     <string name="accessibility_add">Legg til</string>
     <string name="accessibility_ai_identify">Gjenkjen</string>
     <string name="accessibility_ai_scene_off">AI camera is off</string>
@@ -37,6 +35,7 @@
     <string name="accessibility_ai_watermark_panel_on">AI-vannmerkepanel</string>
     <string name="accessibility_ambilight_panel_on">Åpne panelet for lang lukkertid</string>
     <string name="accessibility_back_preview_status">Forhåndsvisning av hovedkameraet</string>
+    <string name="accessibility_beauty_compare">Vis bildet med og uten Beautify</string>
     <string name="accessibility_beauty_function_button">Forskjønne</string>
     <string name="accessibility_beauty_function_panel_on">Forskjønne-panel</string>
     <string name="accessibility_beauty_panel_closed">Forskjønningsmenyen er skjult</string>
@@ -59,11 +58,9 @@
     <string name="accessibility_camera_switch_capture_recording">Bytt mellom bilde- og videomodus</string>
     <string name="accessibility_camera_ultra_wide_bokeh_off">Fullkroppsmodus er av</string>
     <string name="accessibility_camera_ultra_wide_bokeh_on">Fullkroppsmodus er på</string>
-    <string name="accessibility_camera_video_960fps_120">120FPS</string>
-    <string name="accessibility_camera_video_960fps_240">240FPS</string>
-    <string name="accessibility_camera_video_960fps_960">960FPS</string>
-    <string name="accessibility_camera_video_fps_120">120FPS</string>
-    <string name="accessibility_camera_video_fps_30">30FPS</string>
+    <string name="accessibility_camera_video_960fps_120">%dBPS</string>
+    <string name="accessibility_camera_video_960fps_240">%dBPS</string>
+    <string name="accessibility_camera_video_960fps_960">%dBPS</string>
     <string name="accessibility_camera_video_slow_motion_fps">%dFPS</string>
     <string name="accessibility_closed">Av</string>
     <string name="accessibility_color">Farge</string>
@@ -329,13 +326,12 @@ og justere innstillinger automatisk"</string>
     <string name="audio_focus_exit_button_text">Skru av lydfokusering</string>
     <string name="audio_map_summary_tip">Overvåk volumet for høyre og venstre kanal i sanntid og juster det ved hjelp av glidebryteren</string>
     <string name="auto_hibernation_enter_tip">Om å skru av skjermen…</string>
-    <string name="autozoom_click_hint">Trykk på et objekt for å holde det i fokus mens det beveger seg. Stå minst 3 meter i fra, for best mulig effekt.</string>
+    <string name="autozoom_click_hint">Trykk på et objekt for å fokusere mens det er i bevegelse. Hold deg minst %d meter unna for best effekt.</string>
     <string name="autozoom_disabled_hint">Sluttet å spore bevegende objekt</string>
     <string name="autozoom_hint">Sporer bevegende objekt</string>
     <string name="auxiliary_close_status">Tilleggseffekter er deaktivert</string>
     <string name="auxiliary_exposure_feedback_status">Eksponeringsverifisering er aktivert</string>
     <string name="auxiliary_focus_peak_status">Markering av overeksponert område er aktivert</string>
-    <string name="back_bokeh_use_hint">Hold motivet innen 1,5 meter for best effekt</string>
     <string name="background">Bakgrunn</string>
     <string name="beauty_body">Figur</string>
     <string name="beauty_body_body">Slank</string>
@@ -353,6 +349,7 @@ og justere innstillinger automatisk"</string>
     <string name="beauty_fragment_tab_name_beauty">Forskjønne</string>
     <string name="beauty_fragment_tab_name_makeup">Avansert</string>
     <string name="beauty_fragment_tab_name_makeups">Sminke</string>
+    <string name="beauty_fx_makeup_cv">Retusjer</string>
     <string name="beauty_lens">Stor blenderåpning</string>
     <string name="beauty_lens_1">Mennesker</string>
     <string name="beauty_lens_1_description">Opprett bokeh i profesjonell grad og gjør bildene dine om til merkverdige portretter.</string>
@@ -366,15 +363,25 @@ og justere innstillinger automatisk"</string>
     <string name="beauty_lens_none">Uskarpt</string>
     <string name="beauty_lens_use_hint">Bruk stor blenderåpning for å gjøre bakgrunnen uskarp og elementene i forgrunnen fremtredende.</string>
     <string name="beauty_makeups_bluefemale">Frost</string>
+    <string name="beauty_makeups_danyan">Naken</string>
     <string name="beauty_makeups_gentleman">Sølv</string>
     <string name="beauty_makeups_nude">Naken</string>
     <string name="beauty_makeups_pinkfemale">Kronblad</string>
+    <string name="beauty_makeups_qianjin">Kastanjebrun</string>
+    <string name="beauty_makeups_ruanmei">Tenåring</string>
     <string name="beauty_makeups_solid">Kontur</string>
+    <string name="beauty_makeups_subeffect_filter">Filtre</string>
+    <string name="beauty_makeups_subeffect_makeup">Sminke</string>
     <string name="beauty_makeups_toughman">Bronse</string>
+    <string name="beauty_makeups_xiazhi">Nedre øyeskygge</string>
+    <string name="beauty_makeups_yanku">Isdronning</string>
+    <string name="beauty_makeups_yuanqi">Frisk</string>
     <string name="beauty_mo_fe">Naturlig</string>
     <string name="beauty_mo_ma">Klassisk</string>
     <string name="beauty_mo_or">Original</string>
+    <string name="beauty_mo_pr_cv">Teksturer</string>
     <string name="beauty_mode_reset_toast">Remodelleringseffektene er fjernet</string>
+    <string name="beauty_mutex_toast_tip">&lt;a href=>Deaktiver&lt;/a> sminkeeffekter først</string>
     <string name="beauty_ne">Original</string>
     <string name="beauty_no_t">Forskjønning er deaktivert</string>
     <string name="beauty_origin_skincolor">Opprinnelig</string>
@@ -390,6 +397,7 @@ og justere innstillinger automatisk"</string>
     <string name="beauty_skincolor_wheat">Hvete</string>
     <string name="beauty_skincolor_white">Elfenben</string>
     <string name="beauty_sm_or">Skin</string>
+    <string name="beauty_sm_texture_cv">Hud</string>
     <string name="beauty_tab_name_live_beauty">Forskjønning</string>
     <string name="beauty_tab_name_live_filter">Filtre</string>
     <string name="bokeh_use_hint">Dybdeeffekt</string>
@@ -397,11 +405,14 @@ og justere innstillinger automatisk"</string>
     <string name="button_fisheye_camera_title">Fiskeøye</string>
     <string name="button_front_camera_title">Lag en selfie</string>
     <string name="button_normal_video_title">Ta opp video</string>
-    <string name="camcorder_tip_8k_max_video_duration">Du kan ta opp inntil 6 minutter i 8K</string>
+    <string name="camcorder_tip_8k_max_video_duration">Du kan ta opp opptil %1$d minutter i 8K</string>
     <string name="camcorder_tip_current_max_video_duration">Du kan spille inn opptil %d minutter med video med nåværende oppløsning</string>
+    <string name="camcorder_tip_isp_super_night_video_max_video_duration">Du kan ta opp opptil %d minutter</string>
+    <string name="camcorder_tip_super_night_video_1080P_max_video_duration">1080P最长可录制%d分钟</string>
+    <string name="camcorder_tip_super_night_video_4k_max_video_duration">Du kan ta opp opptil %d minutter i 4K</string>
     <string name="camera_disabled">Kameraet har blitt deaktivert</string>
     <string name="camera_error_title">Kamerafeil</string>
-    <string name="camera_fastmotion_title">Tidsforkortelsesvideoer</string>
+    <string name="camera_fastmotion_title">Time-lapse-videoer</string>
     <string name="camera_label">Kamera</string>
     <string name="camera_liveshot_off_tip">Skrudde av dynamiske bilder</string>
     <string name="camera_liveshot_on_tip">Dynamiske bilder</string>
@@ -411,6 +422,7 @@ og justere innstillinger automatisk"</string>
     <string name="camera_newcta_message">"Velkommen til Kamera! Du kan bruke denne appen til å ta bilder og videoopptak. "</string>
     <string name="camera_newcta_other_message">For å tilby deg tilleggstjenester når du bruker appen, trenger vi kanskje følgende tillatelser for å få tilgang til plasseringen din.</string>
     <string name="camera_newcta_storage_message">For å lagre og vise bilder og videoer</string>
+    <string name="camera_newcta_storage_message_1">For å lagre og vise bilder, videoer og filer</string>
     <string name="camera_setting">Kamera</string>
     <string name="camera_settings_category_development">Eksperimentelle funksjoner</string>
     <string name="camera_settings_label">Kamera</string>
@@ -458,6 +470,7 @@ og justere innstillinger automatisk"</string>
     <string name="clone_video_mode">Video</string>
     <string name="close">Lukk</string>
     <string name="close_back_flash_toast">Deaktiverte blits på grunn av overoppheting</string>
+    <string name="close_flash_toast">Kan ikke bruke blits pga. lav batteri</string>
     <string name="close_front_flash_toast">Enheten er overopphetet. Kan ikke bruke blits nå.</string>
     <string name="close_night_algo_toast_low_power">Lad opp enheten for å kunne angi eksponering</string>
     <string name="close_night_algo_toast_thermal">Avkjøl enheten for å kunne angi eksponering</string>
@@ -465,7 +478,7 @@ og justere innstillinger automatisk"</string>
     <string name="color_effect_entry_blackgold">Gode vibrasjoner</string>
     <string name="color_effect_entry_blackgold_describe">Dette filteret med høy kontrast beholder bare gule og mørkeblå farger. Bruk det på godt opplyste gater i en by om natten.</string>
     <string name="color_effect_entry_blackice">Ishålke</string>
-    <string name="color_effect_entry_blackwhite">Svart og hvitt</string>
+    <string name="color_effect_entry_blackwhite">Svart-hvitt</string>
     <string name="color_effect_entry_classic">Klassisk</string>
     <string name="color_effect_entry_cookie">Kjeks</string>
     <string name="color_effect_entry_delicacy">Gourmet</string>
@@ -486,6 +499,7 @@ og justere innstillinger automatisk"</string>
     <string name="color_effect_entry_new_5">Carmen</string>
     <string name="color_effect_entry_new_5_describe">Brunaktige fargetoner og middels kontrast skaper en varm atmosfære for utendørsscener i naturlig lys.</string>
     <string name="color_effect_entry_new_bbp_describe">Høy kontrast og lav metning gir de fleste scener en filmatisk følelse.</string>
+    <string name="color_effect_entry_noraml_cv">Leica Standard</string>
     <string name="color_effect_entry_orange">Lime</string>
     <string name="color_effect_entry_orange_describe">Et klassisk filmtriks som gjør mørke områder kaldere og lyse varmere. Dette filteret frisker opp både den urbane jungelen og naturen,</string>
     <string name="color_effect_entry_quiet">Rolig</string>
@@ -496,7 +510,7 @@ og justere innstillinger automatisk"</string>
     <string name="color_effect_entry_warm">Søn</string>
     <string name="color_effect_live_blue">Orkidé</string>
     <string name="color_effect_live_contrast">Xpro</string>
-    <string name="color_effect_live_deepblack">Svart og hvitt</string>
+    <string name="color_effect_live_deepblack">Svart-hvitt</string>
     <string name="color_effect_live_fair">Blek</string>
     <string name="color_effect_live_hongkong">Bauhinia</string>
     <string name="color_effect_live_mousse">Mousse</string>
@@ -543,6 +557,7 @@ og justere innstillinger automatisk"</string>
     <string name="cta_perm_voice">Bruk av mikrofon</string>
     <string name="cta_perm_voice_desc">For å ta opp lyd når du spiller inn videoer</string>
     <string name="cta_user_tips">&lt;Data>Les og godta &lt;a href =%1$s>brukeravtalen&lt;/a> og &lt;a href =%2$s>personvernerklæringen&lt;/a> vår, slik at du fullt ut forstår hvilke rettigheter du har som bruker og hvordan vi bruker dataene dine.&lt;/Data></string>
+    <string name="custom_content_unavailable_alert">Kan ikke bruke teksten du anga. Prøv heller noe annet.</string>
     <string name="custom_sound_art">Retro</string>
     <string name="custom_sound_default">Standard</string>
     <string name="custom_sound_modern">Moderne</string>
@@ -554,13 +569,25 @@ og justere innstillinger automatisk"</string>
     <string name="custom_tint_color_select">Tilpass farger</string>
     <string name="custom_tint_color_sky_blue">Blå</string>
     <string name="custom_tint_color_sky_cyan">Cyan</string>
-    <string name="custom_watermark_contains_senstive_words">Vannmerker kan ikke inneholde begrensede uttrykk (%1$s)</string>
-    <string name="custom_watermark_tips">Denne teksten vil dukke opp i andre linje av vannmerket ditt. Det kan inneholde opptil 18 bokstaver eller 14 kinesiske tegn.</string>
     <string name="custom_watermark_tips_gen2">Opptil %1$d kinesiske tegn eller %2$d bokstaver.</string>
     <string name="custom_watermark_too_many_words">Teksten du skrev inn er for lang</string>
     <string name="custom_watermark_words">Tilpasset vannmerke</string>
     <string name="custom_watermark_words_input_hint">Skriv inn tekst</string>
     <string name="custom_watermark_words_save_success">Lagret</string>
+    <string name="cv_lens_35mm">%d mm</string>
+    <string name="cv_lens_50mm">%d mm</string>
+    <string name="cv_lens_90mm">%d mm</string>
+    <string name="cv_lens_black_white">Svart og hvitt</string>
+    <string name="cv_lens_msg">Ta praktfulle bilder med profflinser</string>
+    <string name="cv_lens_rotary_focus">Swirly bokeh</string>
+    <string name="cv_lens_soft_focus">Mykfokus</string>
+    <string name="cv_lens_title">Profflinser</string>
+    <string name="cvtype_btn_select">Bruk \"%1$s\"</string>
+    <string name="cvtype_hint_title">Velg stil</string>
+    <string name="cvtype_item_btn_title1">Leica Authentic</string>
+    <string name="cvtype_item_btn_title2">Leica Vibrant</string>
+    <string name="cvtype_item_title1">Naturlig og realistisk</string>
+    <string name="cvtype_item_title2">Frisk og levende</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -577,7 +604,6 @@ og justere innstillinger automatisk"</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_reject">Avvis</string>
     <string name="dialog_button_scan">Søk etter enheter</string>
-    <string name="dialog_google_lens_option_0">Google Lens (Anbefalt)</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_ok_time">OK (%ds)</string>
     <string name="dialog_privacy_watermark_button_cancel">Avbryt</string>
@@ -587,7 +613,7 @@ og justere innstillinger automatisk"</string>
     <string name="dirty_tip_toast">Linsen er skitten. Tørk den ren.</string>
     <string name="do_not_remind_me">Ikke vis igjen</string>
     <string name="doc_shortcut_short">Dokumenter</string>
-    <string name="document_blackwhite">Svart og hvitt</string>
+    <string name="document_blackwhite">Svart-hvitt</string>
     <string name="document_mode_use_hint_text_body">"Still opp og forbedre
 skannede dokumenter automatisk"</string>
     <string name="document_mode_use_hint_text_title">Skann dokumenter</string>
@@ -630,7 +656,6 @@ skannede dokumenter automatisk"</string>
     <string name="dual_camera_lens_covered_toast">Linsen er dekket.</string>
     <string name="dual_camera_lowlight_toast">Det ser ut som det er for mørkt.</string>
     <string name="dual_camera_too_close_toast">Kameraet er for nærme objektet.</string>
-    <string name="dual_camera_use_hint">Pass på at objektet er mindre enn 2 meter fra deg.</string>
     <string name="dual_video_record_merged">Kombinert</string>
     <string name="dual_video_record_remote">Dobbelt telefonopptak</string>
     <string name="dual_video_record_standalone">Separert</string>
@@ -646,6 +671,7 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="dual_video_user_guide_standalone_content_new">Videoer som er innspilt samtidig kan også skilles og lagres som to filer.</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_blusher">Rouge</string>
+    <string name="edit_cheekbone">Kinnbein</string>
     <string name="edit_chin">Kinn</string>
     <string name="edit_color_skin">Hudfarge</string>
     <string name="edit_eye_large">Store øyne</string>
@@ -653,11 +679,14 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="edit_face_ruddy">Rødmusset</string>
     <string name="edit_face_slender">Slank</string>
     <string name="edit_hairline">Hårfeste</string>
+    <string name="edit_head_narrow">Hodestørrelse</string>
+    <string name="edit_jaw">Underkjeve</string>
     <string name="edit_jelly_lips">Lipgloss</string>
     <string name="edit_lips">Lepper</string>
     <string name="edit_makeup">Sminke</string>
     <string name="edit_neck">Hals</string>
     <string name="edit_nose">Nese</string>
+    <string name="edit_nose_tip">Nesetipp</string>
     <string name="edit_pupil_line">Eyeliner</string>
     <string name="edit_risorius">Lattermuskel</string>
     <string name="edit_skin_smooth">Glatt</string>
@@ -665,7 +694,10 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="edit_slim_nose">Nese</string>
     <string name="edit_smile">Smil</string>
     <string name="edit_solid">Kontur</string>
+    <string name="edit_temple">Tinninger</string>
+    <string name="edit_touch_up">Sminke</string>
     <string name="emoticon">Klistremerkepakke</string>
+    <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="error_fail_to_start_audio_capture">Kunne ikke starte lydopptak</string>
@@ -686,18 +718,6 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="face_analyze_info_female">Kvinne</string>
     <string name="face_analyze_info_male">Mann</string>
     <string name="face_beauty_advanced">Pro</string>
-    <string name="face_beauty_age_alias_female_0_7">Kvinne 0-7</string>
-    <string name="face_beauty_age_alias_female_18_30">Kvinne 18-30</string>
-    <string name="face_beauty_age_alias_female_31_44">Kvinne 31-44</string>
-    <string name="face_beauty_age_alias_female_45_60">Kvinne 45-60</string>
-    <string name="face_beauty_age_alias_female_60_m">Kvinne 60+</string>
-    <string name="face_beauty_age_alias_female_8_17">Kvinne 8-17</string>
-    <string name="face_beauty_age_alias_male_0_7">Mann 0-7</string>
-    <string name="face_beauty_age_alias_male_18_30">Mann 18-30</string>
-    <string name="face_beauty_age_alias_male_31_44">Mann 31-44</string>
-    <string name="face_beauty_age_alias_male_45_60">Mann 45-60</string>
-    <string name="face_beauty_age_alias_male_60_m">Mann 60+</string>
-    <string name="face_beauty_age_alias_male_8_17">Mann 8-17</string>
     <string name="face_beauty_close">Av</string>
     <string name="face_beauty_intelligent_level_0">Av</string>
     <string name="face_beauty_intelligent_level_1">Lav</string>
@@ -719,6 +739,7 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="film_video_c">Tidsfrysning</string>
     <string name="film_video_d">Nattetidsforkortelse</string>
     <string name="film_video_e">Parallell verden</string>
+    <string name="film_video_f">Tilbake i tid</string>
     <string name="film_video_tip">Bruk et stativ</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -772,7 +793,7 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="fps960_toast">Opptak i sakte tempo vi begynne på siste fjerdedel av opptaket</string>
+    <string name="fps960_toast">Opptak i sakte film vi begynne på siste fjerdedel av opptaket</string>
     <string name="fragment_tab_name_bokeh">Bokeh</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
@@ -781,6 +802,7 @@ Dobbelt telefonopptak gjør også at du kan koble til en annen enhet i nærheten
     <string name="front_camera_hint_text_place">"Å ta selfier er lettere
 hvis du roterer telefonen din"</string>
     <string name="front_camera_hint_text_rotate">Roter telefonen din</string>
+    <string name="guide_pop_window_msg_cv_lens">Trykk for å prøve profflinser</string>
     <string name="hand_gesture_open_tip">Vis håndflaten til kameraet for å starte timeren</string>
     <string name="hand_gesture_tip">Håndflatelukker</string>
     <string name="hibernate_hint">Trykk på skjermen for å vekke kameraet</string>
@@ -883,6 +905,7 @@ i portrettmodus"</string>
     <string name="location_permission_not_ask_again">Tillat Kamera å få tilgang til din plassering i Innstillingene.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Tillat</string>
     <string name="log_format">LOG</string>
+    <string name="low_battery_to_save_video">Det ser ut til at enhetens batteri er for lavt nå. Avslutt opptaket og lagre videoen før enheten slår seg av.</string>
     <string name="lpl_dialog_item_name_burst">Trykk og hold inne for å ta bilder i burst-modus</string>
     <string name="lpl_dialog_item_name_record">Trykk og hold inne for å ta opp video</string>
     <string name="lpl_dialog_title">Velg funksjon for lukkeren</string>
@@ -901,7 +924,6 @@ i portrettmodus"</string>
     <string name="lunch_storge_permission_not_ask_again">Gi denne appen tilgang til lagringsplass for å kunne bruke denne funksjonen.</string>
     <string name="lying_direct_hint">Nåværende orientering</string>
     <string name="macro_mode">Makro</string>
-    <string name="macro_mode_tip">Avstand mellom linsen og objektet bør ikke være over 10 cm</string>
     <string name="macro_mode_use_hint_text_body">"Bruk Makro-modus for å få små objekter
  til å se større ut på bilder"</string>
     <string name="macro_mode_use_hint_text_title">Makro</string>
@@ -1026,6 +1048,7 @@ i portrettmodus"</string>
     <string name="mimoji_tab_cartoon">Tegneserie</string>
     <string name="mimoji_tab_human">Person</string>
     <string name="mimoji_tips">Trykk for å ta et bilde. Trykk og hold inne for å ta opp en video.</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
@@ -1072,6 +1095,7 @@ i portrettmodus"</string>
     <string name="module_name_multi_camera">Multikamera</string>
     <string name="module_name_new_slow_motion">Saktegående</string>
     <string name="module_name_panorama">Panorama</string>
+    <string name="module_name_pixel">Ultra HD</string>
     <string name="module_name_pixel_108m">108MP</string>
     <string name="module_name_pixel_48m">48 MP</string>
     <string name="module_name_pixel_50m">50MP</string>
@@ -1083,6 +1107,12 @@ i portrettmodus"</string>
     <string name="module_name_super_moon">Supermåne</string>
     <string name="module_name_video">Video</string>
     <string name="module_name_vlog">VLOG</string>
+    <string name="moiton_detection_960_fps_video_tip" formatted="false">%1dfps videos can be up to %2d seconds long</string>
+    <string name="moiton_detection_tip">Detecting motion… Keep device steady.</string>
+    <string name="moiton_detection_video_3840fps_3840">%dFPS</string>
+    <string name="moiton_detection_video_electric_quantity_tip">Charge your device to be able to use this feature</string>
+    <string name="moiton_detection_video_temperature_stop_tip">Your device is overheated. Recording will stop in %d seconds.</string>
+    <string name="moiton_detection_video_temperature_tip">Cool down your device to be able to use this feature</string>
     <string name="moive_frame">Filmramme</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
@@ -1141,6 +1171,8 @@ i portrettmodus"</string>
     <string name="network_connection_prerequisites_china">Turn on Bluetooth and WLAN in Control center to be able to use Dual phone recording.</string>
     <string name="network_connection_rejected">Avvist</string>
     <string name="network_connection_timed_out">Tilkoblingen ble tidsavbrutt</string>
+    <string name="new_bie_dialog_cancel">Lukk funksjonsbeskrivelse</string>
+    <string name="new_bie_dialog_desc">Funksjonsbeskrivelse</string>
     <string name="newbie_privacy_watermark_msg">Bruk vannmerker til å beskytte dokumentene dine mot uautorisert kopiering</string>
     <string name="newbie_privacy_watermark_title">Beskytt dokumentene dine</string>
     <string name="night">Kveld</string>
@@ -1199,7 +1231,7 @@ i portrettmodus"</string>
     <string name="parameter_peak_raw_description">Dette bildeformatet fanger alle bildedata registrert av sensoren når du tar et bilde. Ikke komprimert data gir deg flere muligheter i etterbehandlingen.</string>
     <string name="parameter_peak_raw_title">RAW-format</string>
     <string name="parameter_videos_title">Filmeffekter</string>
-    <string name="parameter_wb_description">Foruten om forhåndsinnstillingene for hvitbalanse (hvitglødende, dagslys, fluorescerende, skyet), kan du også angi hvitbalansen til en egendefinert verdi innen området 2000–8000 kelvin.</string>
+    <string name="parameter_wb_description">I tillegg til de faste innstillingene for hvitbalanse (hvitglødende, dagslys, fluorescerende, skyet) kan du ogs stille hvitbalansen til en brukerdefinert verdi innenfor %1$d-%2$d kelvin.</string>
     <string name="parameter_wb_title">Hvitbalanse</string>
     <string name="parameter_zoom_slider_description">Dra zoom-glidebryteren horisontalt for å endre bildet jevnt fra et bilde langt unna til et nærbilde.</string>
     <string name="parameter_zoom_slider_title">Zoom</string>
@@ -1208,11 +1240,12 @@ i portrettmodus"</string>
     <string name="pic_flaw_blink_more">Det ser ut til at noen i rammen lukket øynene</string>
     <string name="pic_flaw_blink_one">Det ser ut til at personen i rammen lukket øynene</string>
     <string name="pic_flaw_cover">Det ser ut til at linsen er delvis dekket</string>
+    <string name="pixel_mode_capture_hint">Sørg for at området er godt opplyst</string>
     <string name="pm">PM</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-forskjønn</string>
     <string name="popup_tips_near_range_mode">Nært fokus</string>
     <string name="popup_tips_privacy_watermark_edit">Rediger vannmerke</string>
-    <string name="portait_effect_entry_blackwhite">Svart og hvitt</string>
+    <string name="portait_effect_entry_blackwhite">Svart-hvitt</string>
     <string name="portait_effect_entry_cold_white">Stjernelys</string>
     <string name="portait_effect_entry_cool">Mynte</string>
     <string name="portait_effect_entry_dusk">Skumring</string>
@@ -1237,7 +1270,6 @@ i portrettmodus"</string>
     <string name="portrait_bokeh_first_tips">"Bruk portrettmodus for å tåkelegge
 bakgrunnen på bildene dine"</string>
     <string name="portrait_bokeh_text">Portrettmodus</string>
-    <string name="portrait_bokeh_tips">Plasser objektet innenfor 1,5 meter</string>
     <string name="portrait_india_effect_entry_memory">Minne</string>
     <string name="portrait_india_effect_entry_mono">Mono</string>
     <string name="portrait_india_effect_entry_pink">Rosa</string>
@@ -1252,12 +1284,10 @@ bakgrunnen på bildene dine"</string>
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_lowlight_hint">Det er for mørkt nå</string>
     <string name="portrait_mode_too_close_hint">Flytt deg lenger fra objektet</string>
-    <string name="portrait_mode_too_far_hint">Plasser objektet innenfor 2 meter</string>
     <string name="portrait_mode_use_hint">"Portrettmodus lager bakgrunnen tåkete
 og bringer frem mennesker som er foran."</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrettmodus.
 Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
-    <string name="pref_960_watermark_title">960FPS vannmerke</string>
     <string name="pref_a_c_f">Sonograf</string>
     <string name="pref_advance_settings">Tilleggsinnstillinger</string>
     <string name="pref_ai_detect">AI-gjenkjenning</string>
@@ -1268,6 +1298,10 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_audio_focus_title">Lydfokusering</string>
     <string name="pref_auto_boot">Automatisk oppstart</string>
     <string name="pref_auto_boot_summary">Gjør kamera mer følsomt ved å tillate automatisk oppstart. Du kan administere tillatelser for automatisk oppstart i appdetaljene.</string>
+    <string name="pref_beauty_me_mp_switch_desc">Juster sminkeeffekter for menn på gruppebilder</string>
+    <string name="pref_beauty_me_mp_switch_title">Juster sminkeeffekter for menn</string>
+    <string name="pref_beauty_nvs_wp_desc">Fjern føflekker når hudutjevningseffekter brukes</string>
+    <string name="pref_beauty_nvs_wp_title">Fjern føflekker</string>
     <string name="pref_burst_shoot_title">Ta bilde i burst-modus</string>
     <string name="pref_camcorder_settings">Video</string>
     <string name="pref_camcorder_settings_category">Kamerainnstillinger</string>
@@ -1294,13 +1328,14 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_auxiliary_close">Av</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifisering</string>
     <string name="pref_camera_auxiliary_focus_peak">Markering av overeksponert område</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høy</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Middels</string>
     <string name="pref_camera_beauty">Forskjønn</string>
     <string name="pref_camera_beauty_deep">Forskjønning Pro</string>
     <string name="pref_camera_coloreffect_entry_big_face">Spredning</string>
-    <string name="pref_camera_coloreffect_entry_blackwhite">Svart og hvitt</string>
+    <string name="pref_camera_coloreffect_entry_blackwhite">Svart-hvitt</string>
     <string name="pref_camera_coloreffect_entry_fisheye">Fiskeøye</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Fargefokus</string>
     <string name="pref_camera_coloreffect_entry_instagram_crema">Rustikk</string>
@@ -1344,7 +1379,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_fastmotion_speed_30x">Gate</string>
     <string name="pref_camera_fastmotion_speed_750x">Skumring</string>
     <string name="pref_camera_fastmotion_speed_90x">Skyer</string>
-    <string name="pref_camera_fastmotion_speed_description">Tidsforkortelsesvideoer spilt inn med høyere hastighet er kortere og mer kompakte. Disse hastighetsverdiene passer til ulike scener:</string>
+    <string name="pref_camera_fastmotion_speed_description">Time-lapse-videoer som tas opp med høyere hastighet er kortere og mer kondenserte. Her er hastighetsverdiene som passer til ulike scener:</string>
     <string name="pref_camera_first_tag_tips">Tagget</string>
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Mykt lys</string>
@@ -1354,7 +1389,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_flashmode_entry_torch">Lommelykt</string>
     <string name="pref_camera_flashmode_title">Blitsmodus</string>
     <string name="pref_camera_focus_shoot_summary">Trykk for å fokusere, og trykk deretter igjen for å ta et bilde.</string>
-    <string name="pref_camera_focus_shoot_title">Fokuser &amp; film</string>
+    <string name="pref_camera_focus_shoot_title">Fokuser og film</string>
     <string name="pref_camera_focusmode_entry_auto">AUTO</string>
     <string name="pref_camera_focusmode_entry_infinity">Uendelig</string>
     <string name="pref_camera_focusmode_entry_macro">Makro</string>
@@ -1374,10 +1409,8 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_hdr_entry_off">Av</string>
     <string name="pref_camera_heic_image_format_description">Bilder i høyeffektivt bildeformat krever mindre lagringsplass, men støttes ikke av enkelte apper</string>
     <string name="pref_camera_heic_image_format_description2">High Efficiency Image-filformatet sparer lagringsplass, men støttes ikke an enkelte tredjepartsapper. Du kan ikke ta dynamiske bilder og fjerne vannmerker i HEIF.</string>
+    <string name="pref_camera_heic_image_format_description_global">High Efficiency Image-filformatet sparer lagringsplass, men støttes ikke an enkelte tredjepartsapper. Du kan fjerne vannmerker i HEIF.</string>
     <string name="pref_camera_heic_image_format_title">HEIF-format</string>
-    <string name="pref_camera_hfr_entry_2x">60</string>
-    <string name="pref_camera_hfr_entry_3x">90</string>
-    <string name="pref_camera_hfr_entry_4x">120</string>
     <string name="pref_camera_hfr_entry_off">Av</string>
     <string name="pref_camera_high_quality_preferred_description">Forbedre bildekvaliteten ved hjelp av smartalgoritmen. Det kan gå tregere å ta bilder når denne funksjonen er aktivert. Nattmodus blir automatisk aktivert når omgivelser med lite lys oppdages.</string>
     <string name="pref_camera_high_quality_preferred_title">Forbedre bildekvalitet</string>
@@ -1388,15 +1421,13 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_jpegquality_entry_high">Høy</string>
     <string name="pref_camera_jpegquality_entry_low">Lav</string>
     <string name="pref_camera_jpegquality_entry_normal">Standard</string>
+    <string name="pref_camera_jpegquality_entry_super">Super</string>
     <string name="pref_camera_jpegquality_title">Bildekvalitet</string>
     <string name="pref_camera_long_press_shutter_feature_title">Trykk og hold inne avløserknappen</string>
-    <string name="pref_camera_long_press_viewfinder_title">Søkerinnstillinger</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Ta bilde i burst-modus</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_focus">Fokuser</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_record">Ta opp video</string>
     <string name="pref_camera_long_pressing_shutter_title">Trykk og hold inne avløserknappen for å låse AE/AF/AWB</string>
-    <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
-    <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE-/AF-lås</string>
     <string name="pref_camera_lying_summary">Informer om nåværende orientering når telefonen er parallell med bakken</string>
     <string name="pref_camera_lying_title">Informer om orientering</string>
     <string name="pref_camera_magic_mirror_title">Magisk speil</string>
@@ -1418,7 +1449,6 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_peak_entry_off">Av</string>
     <string name="pref_camera_peak_entry_on">På</string>
     <string name="pref_camera_peak_title">Markering av overeksponert område</string>
-    <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
     <string name="pref_camera_picturesize_title_simple_mode">Kamerabilde</string>
     <string name="pref_camera_portrait_mode_entry_off">Portrettmodus er av</string>
     <string name="pref_camera_portrait_mode_entry_on">Portrettmodus er på</string>
@@ -1477,11 +1507,13 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="pref_camera_stereo_mode_title">Justering av fokus</string>
     <string name="pref_camera_super_resolution_title">Slå på superoppløsning (SR)</string>
+    <string name="pref_camera_suspend_shutter_button_summary">Dra lukkerknappen opp for å opprette en ekstra svevende lukker</string>
+    <string name="pref_camera_suspend_shutter_button_title">Ekstra lukker</string>
     <string name="pref_camera_tap_shoot_summary">Trykk på forhåndsvisningsskjermen for å ta et bilde</string>
     <string name="pref_camera_tap_shoot_title">Trykk for å ta et bilde</string>
     <string name="pref_camera_tilt_shift_entry_circle">Sirkel</string>
     <string name="pref_camera_tilt_shift_entry_parallel">Parallell</string>
-    <string name="pref_camera_tilt_shift_title">Tilt-og-shift-objektiv</string>
+    <string name="pref_camera_tilt_shift_title">Tilt-shift</string>
     <string name="pref_camera_tip_doc">Dokumentskanner</string>
     <string name="pref_camera_tip_id_card">ID-skanner</string>
     <string name="pref_camera_touchafaec_entry_off">Av</string>
@@ -1499,15 +1531,12 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_camera_video_ai_scene_title">AI-kamera</string>
     <string name="pref_camera_video_bokeh_off">Video bokeh er av</string>
     <string name="pref_camera_video_bokeh_on">Video bokeh</string>
-    <string name="pref_camera_video_duration_entry_10">10 minutter</string>
     <string name="pref_camera_video_duration_entry_120">Ingen begrensning</string>
-    <string name="pref_camera_video_duration_entry_30">30 minutter</string>
-    <string name="pref_camera_video_duration_entry_mms">30 sekunder (MMS)</string>
     <string name="pref_camera_video_tag">Tillat tagging av videoer</string>
     <string name="pref_camera_video_tag_description">Trykk på «Tag» når du spiller inn en video for å kunne gå tilbake til merkede øyeblikk under avspilling</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Lukker</string>
     <string name="pref_camera_volumekey_function_entry_timer">Utløsernedteller</string>
-    <string name="pref_camera_volumekey_function_entry_timer_new">Timer (%ds)</string>
+    <string name="pref_camera_volumekey_function_entry_timer_new">Tidtaker (%d s)</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volum</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
     <string name="pref_camera_volumekey_function_title">Volumknappfunksjoner</string>
@@ -1540,6 +1569,8 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_custom_tint_title">Farger</string>
     <string name="pref_customization_style">Tilpasset stil</string>
     <string name="pref_customization_title">Tilpass</string>
+    <string name="pref_cv_watermark_summary">Forhåndsvisninger er kun til referanse. Leica-vannmerket vises på bilder tatt i \"foto-\" og \"portrett\"-modus.</string>
+    <string name="pref_cv_watermark_title">Leica-vannmerke</string>
     <string name="pref_document_mode">Dokumenter</string>
     <string name="pref_dual_camera_video">Dobbel video</string>
     <string name="pref_e_c_t_j">Original lyd</string>
@@ -1547,6 +1578,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_e_p_s_n">Ta opp lyd via ekstern mikrofon når Bluetooth-hodetelefoner med mikrofon er tilkoblet</string>
     <string name="pref_face_beauty_title">Forskjønne</string>
     <string name="pref_fingerprint_capture_title">Fingeravtrykksutløser</string>
+    <string name="pref_focus_view_bg_tip">AE/AF låst</string>
     <string name="pref_front_denoise_summary">Reduser støy generert bak frontkameraet</string>
     <string name="pref_front_denoise_title">Støyfilter for selfie</string>
     <string name="pref_front_mirror_entry_auto">Når ansikt er oppdaget</string>
@@ -1555,12 +1587,8 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_front_mirror_label_auto">Auto</string>
     <string name="pref_front_mirror_title">Speil frontkamera</string>
     <string name="pref_google_lens">Google Lens</string>
-    <string name="pref_google_lens_summary">Pek kameraet mot kontaktinfo, URL-er og QR-koder for å vise tilgjengelige valg</string>
-    <string name="pref_google_lens_title">Anbefalinger av linser</string>
     <string name="pref_groupshot_with_primitive_title">Lagre også de opprinnelige bildene</string>
     <string name="pref_hdr10_hdr10plus_video_mode_description">Gjør videoopptak med høy oppløsning i HDR10+/HDR10 for å optimere farger og dynamisk rekkevidde. Videoopptakene kan bare spilles av på HDR10+/HDR10-kompatible enheter.</string>
-    <string name="pref_hdr10_video_mode_description">Optimer farger og kontrast for 4K- og 8K-video automatisk. Optimerte videoer kan bare spilles av på HDR10-kompatible enheter.</string>
-    <string name="pref_hdr10plus_video_mode_description">Optimaliser farger og juster kontrast for 4K- og 8K-videoer. Denne funksjonen fungerer bare på enheter som er kompatible med HDR10+.</string>
     <string name="pref_hybrid_video_mode_description">Bruk HLG-teknologi for å forbedre farger og dynamisk rekkevidde for videoer spilt inn med høy oppløsning</string>
     <string name="pref_i_n_r_b">Smart reduksjon av støy</string>
     <string name="pref_k_h">Live in-ear-monitor</string>
@@ -1572,13 +1600,12 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_menu_ultra_pixel_photography">%s Ultra HD</string>
     <string name="pref_module_settings">Moduser</string>
     <string name="pref_more_mode_style_title">Kameramoduser</string>
+    <string name="pref_motioon_detection">Motion detection</string>
     <string name="pref_multi_camera_dual_video_front">Frontkamera</string>
     <string name="pref_multi_camera_dual_video_remote">Dobbelt telefonopptak</string>
     <string name="pref_n_s_a">Lydinnstillinger</string>
     <string name="pref_n_s_o_l">Aktivert</string>
     <string name="pref_n_s_o_m">Deaktivert</string>
-    <string name="pref_new_slow_motion_video_quality_240_720only">Du kan bare ta opp 720p-videoer med 240fps</string>
-    <string name="pref_new_slow_motion_video_quality_960_720only">Du kan bare ta opp 720p-videoer med 960 fps</string>
     <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
     <string name="pref_p_d_e">Pro-funksjoner</string>
@@ -1592,6 +1619,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_privacy_watermark_edit">Egendefinert tekst</string>
     <string name="pref_privacy_watermark_edit_clear_history">Tøm historikk</string>
     <string name="pref_privacy_watermark_edit_history">Historikk</string>
+    <string name="pref_privacy_watermark_edit_title">Rediger vannmerke</string>
     <string name="pref_privacy_watermark_entry">Beskyttende vannmerke</string>
     <string name="pref_privacy_watermark_switch">Vis vannmerkebryter</string>
     <string name="pref_qc_focus_position_title">F</string>
@@ -1621,6 +1649,9 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_smart_guide_title">Smartforslag</string>
     <string name="pref_super_night_se_summary">Oppdag omgivelser med lite lys og forbedre bildekvaliteten automatisk</string>
     <string name="pref_super_night_se_title">Automatisk nattmodus</string>
+    <string name="pref_true_colour_video_mode_description">Record videos with Dolby Vision to capture lifelike details, stunning colors, and striking contrast (this feature might not be compatible with some third party apps)</string>
+    <string name="pref_true_colour_video_mode_introduction">Stunning visual experience, lifelike details, and striking contrast</string>
+    <string name="pref_true_colour_video_mode_title">Dolby Vision</string>
     <string name="pref_userdefine_watermark_title">Tilpasset vannmerke</string>
     <string name="pref_video_ai_audio_effect_comparation_3d">3D</string>
     <string name="pref_video_ai_audio_effect_comparation_3d_i">3D-lyd</string>
@@ -1640,36 +1671,34 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="pref_video_focusmode_entry_continuous">CAF</string>
     <string name="pref_video_focusmode_title">Fokusmodus</string>
     <string name="pref_video_hfr_title">Bildefrekvens</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
-    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, 60fps</string>
-    <string name="pref_video_quality_entry_480p">SD 480p, 30fps</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
-    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-    <string name="pref_video_quality_entry_720p">HD 720p, 30fps</string>
-    <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
-    <string name="pref_video_quality_entry_8k_24fps_uhd">UHD 8K, 24fps</string>
-    <string name="pref_video_quality_entry_8kuhd">UHD 8K, 30fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080p, %dbps</string>
+    <string name="pref_video_quality_entry_1080p_24fps">Full høydefinisjon, 1080p, 24 bilder pr. sekund</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, %dbps</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, %dbps</string>
+    <string name="pref_video_quality_entry_4kuhd_24fps">Ultra-høy definisjon, 4K, 24 bilder pr. sekund</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, %dbps</string>
+    <string name="pref_video_quality_entry_720p">HD 720p, %dbps</string>
     <string name="pref_video_quality_hfr_title">Bildefrekvens og bildekvalitet</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_speed_entry_fast">Raskt</string>
     <string name="pref_video_speed_entry_normal">Standard</string>
     <string name="pref_video_speed_entry_slow">Sakte</string>
-    <string name="pref_video_speed_fast_title">Tidsforløp</string>
-    <string name="pref_video_speed_slow_title">Saktegående</string>
+    <string name="pref_video_speed_fast_title">Time-lapse</string>
+    <string name="pref_video_speed_slow_title">Sakte film</string>
     <string name="pref_video_subtitle">Undertekster</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_10">10X (0,03-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_120">120X (4-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_150">150X (5-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_1800">1800X (60-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0,06-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_240">240X (8-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (1-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_300">300X (10-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_4">4X (0,12-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_450">450X (15-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_60">60X (2-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-sekunders intervall)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10">10X (%.1f sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_120">120X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_150">150X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1800">1800X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2">2X (%.2f sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_240">240X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_300">300X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_4">4X (%.2f sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_450">450X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_60">60X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_90">90X (%d sekunders intervall)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_900">900X (%d sekuners intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_title">Intervallopptak</string>
     <string name="pref_watermark_off">Deaktivert</string>
     <string name="pref_watermark_on">Aktivert</string>
@@ -1691,6 +1720,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="process_tips_1">Ikke brett enheten før videoen er lagret</string>
     <string name="process_tips_2">Ikke brett ut enheten før videoen er lagret</string>
     <string name="professional_shortcut_short">Pro</string>
+    <string name="qvga_shelter_tip_text">"Don't cover the lense"</string>
     <string name="recommend_macro_mode">Prøv Makromodus</string>
     <string name="recommend_portrait">Prøv Portrettmodus</string>
     <string name="recommend_soft_light_tip">Skru på blitz</string>
@@ -1737,7 +1767,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="simple_mode_button_text_color_effect">Skru av filter</string>
     <string name="simple_mode_button_text_delay_capture">Skru av tidtaker</string>
     <string name="simple_mode_button_text_face_beauty">Skru av forskjønning</string>
-    <string name="simple_mode_button_text_fast_video">Skru av saktegående-funksjonen</string>
+    <string name="simple_mode_button_text_fast_video">Deaktiver sakte film</string>
     <string name="simple_mode_button_text_gradienter">Skru av rette-funksjon</string>
     <string name="simple_mode_button_text_groupshot">Skru av Gruppe-selfie</string>
     <string name="simple_mode_button_text_hand_night">Skru av HHT</string>
@@ -1745,7 +1775,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="simple_mode_button_text_manual">Skru av manual</string>
     <string name="simple_mode_button_text_panorama">Skru av panorama</string>
     <string name="simple_mode_button_text_scene">Skru av scene-modus</string>
-    <string name="simple_mode_button_text_slow_video">Skru av tidsforløp</string>
+    <string name="simple_mode_button_text_slow_video">Deaktiver time-lapse</string>
     <string name="simple_mode_button_text_square">Skru av kvadrat</string>
     <string name="simple_mode_button_text_stereo_mode">Skru av justering av fokus</string>
     <string name="simple_mode_button_text_tilt_shift">Skru av Tilt-shift</string>
@@ -1761,12 +1791,13 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="snap_confirmed">Erstatt</string>
     <string name="spaceIsLow_content_external_storage_priority">SD-kortet er i ferd med å gå tom for plass</string>
     <string name="spaceIsLow_content_primary_storage_priority">USB-lagringen er i ferd med å gå tom for plass</string>
-    <string name="speech_shutter_open_tip">Si \"拍照\" eller \"茄子\" for å ta et bilde</string>
+    <string name="speech_shutter_open_tip">Si \"Cheese!\" for å ta et foto</string>
     <string name="speech_shutter_tip">Talelukker</string>
     <string name="start_capture">OK</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sticker_tab1">Søt</string>
     <string name="sticker_tab2">Morsom</string>
+    <string name="stop_save_low_battery">Lagre (%ds)</string>
     <string name="subtitle_network_exception_tips">Kunne ikke koble til nettverket. Kan ikke transkribere nå.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
@@ -1851,7 +1882,7 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="time_freeze_action_start_tip">Trykk på knappen for å fryse bakgrunnen</string>
     <string name="time_freeze_adjust_button_title">Juster</string>
     <string name="time_freeze_clipbox_tint">Frys</string>
-    <string name="time_lapse_error">Kan ikke bruke denne videostørrelsen for tidsforløpsopptak</string>
+    <string name="time_lapse_error">Kan ikke bruke denne videostørrelsen til time-lapse-opptak</string>
     <string name="time_picker_dialog_title">Angi tid</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
@@ -1874,11 +1905,11 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="toast_start_audio_capture">Lag en lyd for å ta et bilde</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
+    <string name="too_low_battery">Lavt batteri</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
     <string name="ubi_focus_capture_fail">Kunne ikke ta bilde</string>
-    <string name="ubifocus_capture_warning_message">For de beste resultatene bør bildet ditt inneholde objekter som er nære (mindre enn 1 meter fra linsen) og langt borte</string>
     <string name="ultra_ai_pixel_photography_close_tip">AI %s Ultra HD er deaktivert</string>
     <string name="ultra_ai_pixel_photography_open_tip">AI %s Ultra HD</string>
     <string name="ultra_pixel_100mp">100MP</string>
@@ -1891,9 +1922,6 @@ Hold motivet skarpt, mens du gjør bakgrunnen uskarp."</string>
     <string name="ultra_pixel_photography_open_tip">%s Ultra HD er aktivert</string>
     <string name="ultra_pixel_portrait_hint">Portrett med lav belysning</string>
     <string name="ultra_pixel_zoom_no_support_tip">Zoom fungerer ikke i %s Ultra HD-modus</string>
-    <string name="ultra_tele_use_hint_text_body">"Bruk 50X zoom for å ta opp fjerne objekter
-mer detaljert"</string>
-    <string name="ultra_tele_use_hint_text_title">50X zoom</string>
     <string name="ultra_wide_bokeh_close_tip">Fullkroppsmodus er av</string>
     <string name="ultra_wide_bokeh_open_tip">Fullkroppsmodus</string>
     <string name="ultra_wide_close_tip">Ultra-vid vinkel-modus er av</string>
@@ -1909,7 +1937,7 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="unknow_error">Ukjent feil</string>
     <string name="unsupported_microphones_3d_record_tips">3D-lyd støtter ikke eksterne mikrofoner</string>
     <string name="unsupported_microphones_audio_zoom_tips">Lydzoom støtter ikke eksterne mikrofoner</string>
-    <string name="update_loading">Lastet ned %1$d %%</string>
+    <string name="update_loading">Lastet ned %1$s</string>
     <string name="update_start">Oppdater %1$s</string>
     <string name="user_agree">Enig</string>
     <string name="user_define_watermark_cancel">Avbryt</string>
@@ -1940,7 +1968,7 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="video_cast_service_name">Dobbelt telefon</string>
     <string name="video_cast_state_exited">Dobbelt telefonopptak avsluttet</string>
     <string name="video_cast_state_paused">Satt på pause</string>
-    <string name="video_effect_entry_blackwhite">Svart og hvitt</string>
+    <string name="video_effect_entry_blackwhite">Svart-hvitt</string>
     <string name="video_effect_entry_bygone">Forgangen</string>
     <string name="video_effect_entry_central">Central</string>
     <string name="video_effect_entry_color_retention">Fargefokus</string>
@@ -1960,6 +1988,7 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="video_effect_entry_summer_day">Sommer</string>
     <string name="video_effect_entry_summer_day_describe">Lav kontrast og lyse fargetoner fungerer bra når du vil bevare hudnyanser. Dette filteret passer for solfylte utendørsscener.</string>
     <string name="video_effect_entry_wind_sing">Bris</string>
+    <string name="video_low_battery_tip_content">Reduserte bildehastigheten pga. lavt batteri</string>
     <string name="video_overheat_tip_content">Det ser ut til at enheten er for varm. Prøv å spille inn video med lavere oppløsning.</string>
     <string name="video_reach_size_limit">Størrelsesgrensen eer nådd.</string>
     <string name="video_shortcut_short">Video</string>
@@ -1967,9 +1996,14 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Se personvernerklæring</string>
+    <string name="vlog_pro_cancel_reset_record_hint" />
+    <string name="vlog_pro_change_video_name_hint" />
+    <string name="vlog_pro_first_into_vlog_dumy_hint" />
+    <string name="vlog_pro_reset_record_hint" />
     <string name="vv_duartion_hint">%1$s | Segment %2$d | %3$ss</string>
     <string name="vv_hint">Du kan bare ta opp vlogger i landskapsmodus</string>
     <string name="vv_stability_hint">Hold enheten din stabil</string>
+    <string name="vv_stability_newTip">Lagrer elementer…</string>
     <string name="vv_start">Ta opp vlog</string>
     <string name="vv_use_hint_text_body">"Vlog-modus tillater deg
 å ta opp og redigere videoer på farten"</string>
@@ -1992,5 +2026,14 @@ Ultra vidvinkel-modus er hjelpsomt når du ikke kan flytte deg lenger vekk fra s
     <string name="wideselfie_rotate_to_front">Tilt telefonen framover</string>
     <string name="wideselfie_rotate_to_left_slowly">Roter telefonen til venstre</string>
     <string name="wideselfie_rotate_to_right_slowly">Roter telefonen til høyre</string>
+    <string name="widget_camera_filter_description">Fire sett med Leica-filtre</string>
+    <string name="widget_camera_filter_talk_back">Leica-filtre</string>
+    <string name="widget_camera_label">Leica-filtre</string>
+    <string name="widget_camera_lens_35mm_description">Trettifem millimeter</string>
+    <string name="widget_camera_lens_50mm_description">Femti millimeter</string>
+    <string name="widget_camera_lens_90mm_description">Nitti millimeter</string>
+    <string name="widget_camera_lens_description">Eksperimernter med fokallengde</string>
+    <string name="widget_camera_lens_none_description">En femti-millimeterlinse for portrettfotografering</string>
+    <string name="widget_camera_lens_talk_back">Profflinser</string>
     <string name="yesterday">I går</string>
 </resources>

@@ -36,6 +36,10 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
+    <plurals name="category_limit_notify_content">
+        <item quantity="other">%2$d minutter igjen for \"%1$s\" i dag</item>
+        <item quantity="one">%2$d minutt igjen for \"%1$s\" i dag</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
@@ -76,9 +80,21 @@
         <item quantity="other">Du har brukt enheten din i %d minutter uten forstyrrelser</item>
         <item quantity="one">Du har brukt enheten din i %d minutt uten forstyrrelser</item>
     </plurals>
+    <plurals name="steady_on_screen_rest_time">
+        <item quantity="other">Hvil i %d minutter</item>
+        <item quantity="one">Hvil i %d minutt</item>
+    </plurals>
     <plurals name="steady_on_screen_time_pick">
         <item quantity="other">%d min</item>
         <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="steady_on_screen_tip_title">
+        <item quantity="other">Du har brukt denne enheten i %d minutter allerede</item>
+        <item quantity="one">Du har brukt denne enheten i %d minutt allerede</item>
+    </plurals>
+    <plurals name="tip_most_unavailable_period">
+        <item quantity="other">Du kan legge til opptil %d pauser</item>
+        <item quantity="one">Du kan legge til opptil %d pause</item>
     </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Skjermtid i dag tilsvarer din %d-dagers gjennomsnitt</item>

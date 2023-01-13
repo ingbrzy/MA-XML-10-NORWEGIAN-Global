@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="all_month_str">
-        <item>Jan</item>
-        <item>Feb</item>
-        <item>Mar</item>
-        <item>Apr</item>
-        <item>Mai</item>
-        <item>Jun</item>
-        <item>Jul</item>
-        <item>Aug</item>
-        <item>Sep</item>
-        <item>Okt</item>
-        <item>Nov</item>
-        <item>Des</item>
-    </string-array>
     <string-array name="calendar_remind_string_array">
         <item>I kveld</item>
         <item>I morgen</item>
@@ -22,29 +8,12 @@
         <item>Neste måned</item>
         <item>Velg dato</item>
     </string-array>
-    <string-array name="general_preference_text_zoom_summary_array">
-        <item>Veldig liten</item>
-        <item>Liten</item>
-        <item>Normal</item>
-        <item>Stor</item>
-        <item>Diger</item>
-    </string-array>
     <string-array name="menu_att_mgr_sort_string_array">
         <item>Nylig sett</item>
         <item>Formater</item>
         <item>Navn</item>
         <item>Avsender</item>
         <item>Mottatt dato</item>
-    </string-array>
-    <string-array name="moveto_folder_sections">
-        <item>System</item>
-        <item>Hyppig brukt</item>
-        <item>Alle mapper</item>
-    </string-array>
-    <string-array name="prefEntries_autoAdvance">
-        <item>Nyere melding</item>
-        <item>Eldre melding</item>
-        <item>Innboks</item>
     </string-array>
     <string-array name="prefEntries_contact_add">
         <item>Alle</item>

@@ -120,7 +120,7 @@
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="error_checking_client_tip">Kunne ikke kontrollere aktiveringsmiljøet. Trykk for å prøve igjen.</string>
-    <string name="error_network_io_tip">Kontroller nettverksinnstillingene og prøv igjen</string>
+    <string name="error_network_io_tip">Sjekk nettverksinnstillingene dine og prøv igjen</string>
     <string name="error_no_get_send_sms_permission">Gi SIM %d tillatelse til å sende SMS først.</string>
     <string name="error_no_get_send_sms_permission_one_sim">Tillat sending av SMS først.</string>
     <string name="error_sim_not_in_service_tip">SIM %d kan ikke koble til nettverket. Kontroller at SIM-kortet fungerer som det skal og prøv igjen.</string>
@@ -260,6 +260,7 @@
     <string name="search_menu_title">Søk</string>
     <string name="send">Send</string>
     <string name="sim_activate_failed">Kunne ikke aktivere tjeneste</string>
+    <string name="sim_activate_notificat_channel">Aktivereringsvarsler</string>
     <string name="sim_activate_prepare">Aktiver tjeneste</string>
     <string name="sim_activated_failed_msg">Kunne ikke aktivere tjeneste. Trykk for å prøve igjen.</string>
     <string name="sim_unactivated_feature_title">\"%s\" ble ikke aktivert</string>

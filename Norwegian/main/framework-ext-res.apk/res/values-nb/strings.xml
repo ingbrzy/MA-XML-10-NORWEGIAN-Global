@@ -13,6 +13,7 @@
     <string name="android_ringtone_default_with_actual">Standardringetone (%1$s)</string>
     <string name="android_ringtone_silent">Ingen</string>
     <string name="android_ringtone_unknown">Ukjent ringetone</string>
+    <string name="app_continuity_channel_name">Justering av app-layout</string>
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">Kunne ikke åpne Alipay-betalingskode</string>
     <string name="application_cannot_open_alipay_scanner">Kunne ikke åpne Alipay-skanner</string>
@@ -44,7 +45,7 @@
     <string name="autofill">Automatisk utfylling</string>
     <string name="autofill_save_message">Tillate MIUI å lagre kontoer og passord?</string>
     <string name="autofill_save_ok">Tillat</string>
-    <string name="autofill_save_sub_message">Du kan se og administrere passord under Innstillinger > Passord &amp; Sikkerhet > %s.</string>
+    <string name="autofill_save_sub_message">Du kan se og administrere passord under Innstillinger > Passord og Sikkerhet > %s.</string>
     <string name="autofill_save_title">Lagre passord automatisk</string>
     <string name="autofill_service_name">Administrer passord</string>
     <string name="battery_authentic_failed_button">Skjønner</string>
@@ -111,6 +112,10 @@
     <string name="crystal">Krystall</string>
     <string name="cut">Klipp</string>
     <string name="dance">Dans</string>
+    <string name="dark_mode_enable">Aktiver</string>
+    <string name="dark_mode_suggest_message">Du kan bytte til mørk modus automatisk når solen går ned for å få en mer komfortabel visningsopplevelse</string>
+    <string name="dark_mode_suggest_title">Det mørkner</string>
+    <string name="dark_mode_suggest_toast">Mørk modus aktiveres automatisk når solen går ned og deaktiveres når solen står opp fra nå av</string>
     <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="daydream">Dagdrøm</string>
     <string name="default_device_name">Ukjent enhet</string>
@@ -130,6 +135,7 @@
     <string name="dewdrops">Morgendugg</string>
     <string name="digitaluniverse">Digitalt univers (stereo)</string>
     <string name="disable_nfc">Deaktiverte NFC for trådløs lading</string>
+    <string name="disable_nfc_haptic_reverse">Deaktiverte NFC og vibrering for omvendt trådløs lading</string>
     <string name="disable_nfc_reverse">Deaktiverte NFC for omvendt trådløs lading</string>
     <string name="echo">Ekko</string>
     <string name="eighthours">8 timer</string>
@@ -137,6 +143,7 @@
     <string name="enable_livetalk_title">Aktiver påfyllingspakke</string>
     <string name="enable_midrop">Skru på</string>
     <string name="enable_nfc">Lading har stoppet. NFC er aktivert igjen.</string>
+    <string name="enable_nfc_haptic_reverse">Stoppet omvendt lading. NFC og vibrering er aktivert igjen.</string>
     <string name="enable_nfc_reverse">Omvendt lading har stoppet. NFC er aktivert igjen.</string>
     <string name="expect">Begeistring</string>
     <string name="fadein">Inntoning</string>
@@ -154,6 +161,7 @@
     <string name="flip_screen_camera_tip">Snu enheten rundt for å bruke kamera</string>
     <string name="flute">Fløyte</string>
     <string name="fm_record_smaple_prefix_miui">FM-opptak</string>
+    <string name="fold_small_not_split">Delt skjerm støttes ikke på ytre skjerm</string>
     <string name="force_exit_message">Tving lukking %1$s</string>
     <string name="force_exit_skip_message">Kan ikke lukke %1$s fordi systemet krever den.</string>
     <string name="fourhours">2 timer</string>
@@ -163,9 +171,10 @@
     <string name="fp_nav_center_action_choose_dlg_title">Trykk på hurtigtrykk</string>
     <string name="freeform_exchange_tip">Slipp for å åpne app</string>
     <string name="freeform_exchange_tip2">Dra til hjørnet for å avbryte</string>
+    <string name="freeform_exchange_tip3">Åpne flytende vinduer i fullskjermmodus</string>
     <string name="frenchchic">Chic</string>
     <string name="frequent_email">Ofte brukt e-post</string>
-    <string name="frequent_phrases">Ofte brukte uttrykk</string>
+    <string name="frequent_phrases">Ofte brukte setninger</string>
     <string name="fresh">Frisk</string>
     <string name="frog">Frosk</string>
     <string name="functions_are_being_developed">Denne funksjonen vil bli tilgjengelig snart. Følg med!</string>
@@ -204,6 +213,13 @@
     <string name="international_livetalk_enable">Bruker påfyllingspakke for utenrikssamtaler</string>
     <string name="key_btn_ok">OK</string>
     <string name="key_btn_space">Mellomrom</string>
+    <string name="keyboard_connect_failed">Kunne ikke koble til tastatur. Tilknytt på nytt.</string>
+    <string name="keyboard_identity_reject_confirm">Skjønner</string>
+    <string name="keyboard_identity_reject_message">Det ser ut til at tastaturet ditt ikke er kompatibelt med denne enheten.</string>
+    <string name="keyboard_identity_transfer_error_message">Kunne ikke koble til tastatur. Prøv på nytt.</string>
+    <string name="keyboard_upgrade_failed">Kunne ikke oppdatere tastatur</string>
+    <string name="keyboard_upgrade_start">Oppdaterer tastatur…</string>
+    <string name="keyboard_upgrade_success">Tastaturet ble oppdatert</string>
     <string name="kungfu">Kung fu</string>
     <string name="leisure">Fritid</string>
     <string name="livetalk_not_enable">Påfyllingspakke av</string>
@@ -235,6 +251,8 @@
     <string name="miremix">Mi (Remix)</string>
     <string name="miui_forbid_poweroff_when_device_locked">Kan ikke skrue av, enheten er låst.</string>
     <string name="miui_multiwindow_not_support_cvw">Kan ikke justere vindusstørrelsen til denne appen</string>
+    <string name="miui_multiwindow_not_support_small_window">%1$s støtter ikke flytende vinduer</string>
+    <string name="miui_multiwindow_not_support_split">%1$s støtter ikke delt skjerm</string>
     <string name="miui_screen_ratio_hint">Problemer med sideforholdet</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Ikke vis igjen</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Gå til innstillinger</string>
@@ -262,6 +280,7 @@
     <string name="oneplus_phone">OnePlus</string>
     <string name="open_close_tip_action">Skjønner</string>
     <string name="open_close_tip_content">Trykk på handlingsfeltet, hold inne og sveip opp for å lukke det flytende vinduet</string>
+    <string name="open_miui_optimization">Aktiver MIUI-optimalisering først</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orange">Oransje</string>
@@ -309,8 +328,19 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_action">Start på nytt</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Husk valget mitt</string>
+    <string name="relaunch_dialog_button_cancel">Avbryt</string>
+    <string name="relaunch_dialog_button_confirm">Start på nytt</string>
+    <string name="relaunch_dialog_message">Størrelsen på denne appen kan bare endres etter omstart. Alle ulagrede endringer går tapt hvis du starter appen på nytt nå. Starte på nytt likevel?</string>
+    <string name="relaunch_dialog_title">Starte \"%s\" på nytt nå?</string>
+    <string name="relaunch_fold_notification_content">Denne appen vises kanskje ikke riktig på denne skjermen. Start appen på nytt for å justere layouter.</string>
+    <string name="relaunch_notification_title">Start \"%s\" på nytt</string>
+    <string name="relaunch_unfold_notification_content">Denne appen vises kanskje ikke riktig på denne skjermen. Start appen på nytt for å justere layouter.</string>
     <string name="remain">Gjenstår: %s</string>
     <string name="replace">Erstatt</string>
+    <string name="rescuepartyplus_config_reset_context">Enkelte data kan ha blitt tømt. Trykk for å vise detaljer.</string>
+    <string name="rescuepartyplus_config_reset_title">Systemreparering fullført</string>
     <string name="resolver_app_recommend_flag">Anbefal</string>
     <string name="resolver_checkbox_always">Alltid</string>
     <string name="resolver_checkbox_once">En gang</string>
@@ -325,6 +355,11 @@
     <string name="rog_phone">ROG</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Samsung-telefon</string>
+    <string name="sc_notification_warning_content">Hvis appen ikke vises riktig, kan du gjenopprette standardvisningen eller endre appvisningsinnstillingene i Innstillinger.</string>
+    <string name="sc_notification_warning_restore">Gjenopprett</string>
+    <string name="sc_notification_warning_settings">Innstillinger</string>
+    <string name="sc_notification_warning_title">Appvisningsinnstillinger</string>
+    <string name="sc_relaunch_dialog_message">Denne appen vises kanskje ikke riktig på denne skjermen. Start appen på nytt for å justere layouter.</string>
     <string name="scanning_device_tips">Søker etter enheter i nærheten… Forsikre deg om at den andre enheten er i synlig modus.</string>
     <string name="screen_button_notification_text">For å slå dem på, trykk samtidig på Hjem og På-knappene.</string>
     <string name="screen_button_notification_title">Navigasjonsknappene er slått av</string>
@@ -357,6 +392,7 @@
     <string name="set_password_action">Opprett passord</string>
     <string name="set_password_message">Angi et passord for å kunne bruke denne funkjsonen.</string>
     <string name="set_password_title">Angi et passord</string>
+    <string name="shortcut_no_support_on_pc_mode">Denne bevegelsen støttes ikke i PC-modus</string>
     <string name="shutdown_confirm_title">Slå av enheten nå?</string>
     <string name="shutdown_progress">Slår av…</string>
     <string name="silence_mode">Stillemodus</string>
@@ -413,6 +449,8 @@
     <string name="status_bar_toggle_wifi_ap">Hotspot</string>
     <string name="stoneskimming_preview">Lette trinn</string>
     <string name="stop_operate_camera_frequently">Du åpner frontkameraet for ofte.</string>
+    <string name="stylus_pen_mask_screenshot">Trykk på skjermen for å ta et skjermbilde</string>
+    <string name="stylus_pen_mask_text">Trykk på skjermen for å begynne å skrive</string>
     <string name="subinfo_default_name">SIM %d</string>
     <string name="sunlight_notification_content">Juster lysstyrke til sterkt omgivelseslys automatisk</string>
     <string name="sunlight_notification_title">Aktiver Sollysmodus</string>
@@ -441,6 +479,7 @@
     <string name="unknown_caller">Ukjent nummer</string>
     <string name="unrecognized_manufacture">Ukjent</string>
     <string name="unrecognized_model">Ukjent enhet</string>
+    <string name="unreplace_freeform_count_max">Kan ikke åpne flere flytende vinduer</string>
     <string name="user_authentication_failed">AUTENTISERINGSFEIL -29-</string>
     <string name="user_switching_dialog_switch_into_kid_space">Bytt til barneområde…</string>
     <string name="user_switching_dialog_switch_out_kid_space">Forlater barneområde…</string>

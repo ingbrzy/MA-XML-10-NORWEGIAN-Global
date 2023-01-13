@@ -32,7 +32,8 @@
     <string name="am">AM</string>
     <string name="cancel">Avbryt</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
-    <string name="close">Lukk</string>
+    <string name="close">Av</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -125,7 +126,13 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="grant_permission_go_and_set_2">Innstillinger</string>
+    <string name="grant_permission_item">%s</string>
+    <string name="grant_permission_remind_title">Tillatelser er nødvendig</string>
+    <string name="grant_permission_storage">Gi denne appen tilgang til lagring.</string>
+    <string name="grant_permission_text">Galleriredigering trenger følgende tillatelse for å fungere som normalt: %s.</string>
     <string name="midnight">Natt</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
@@ -204,6 +211,7 @@
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
     <string name="ok">OK</string>
+    <string name="open">På</string>
     <string name="pm">PM</string>
     <string name="refocus_discard_confirm_message">Lagre endringer?</string>
     <string name="refocus_discard_negative_btn">Forkast</string>
@@ -246,6 +254,14 @@
     <string name="refocus_type_relighting_small_face">Studiolys fungerer på bilder hvor ansiktet tar mer plass enn her.</string>
     <string name="refocus_type_static">Uskarpt</string>
     <string name="refocus_type_video">Lysstriper</string>
+    <string name="saf_operation_guide_1">"Gallery Editor trenger din tillatelse for å kunne beskytte og administrere dataene dine. "</string>
+    <string name="saf_operation_guide_2">Gi tillatelse ved å trykke på \"%1$s\" og deretter velge \"%2$s\".</string>
+    <string name="saf_operation_guide_param1">Neste</string>
+    <string name="saf_operation_guide_param2">Gå til denne mappen</string>
+    <string name="saf_requester_cancel">Avbryt</string>
+    <string name="saf_requester_title">Tillat Galleri Editor tilgang til \"%s\"</string>
+    <string name="saf_secret_album">Privat album</string>
+    <string name="saf_secret_album_guide">Denne appen trenger tillatelser for å vise elementer fra ditt private album.</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>

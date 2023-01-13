@@ -150,7 +150,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="four_note">Testen vil ta rundt 3 minutter å fullføre.</string>
+    <string name="four_note">Det vil ta omtrent %d minutter å fullføre testen.</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -270,6 +270,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -307,7 +308,7 @@
     <string name="music_audio_effect_settings">Effektinnstillinger</string>
     <string name="music_audio_visual_wake_lock">Hold skjermen på</string>
     <string name="music_audio_visual_wake_lock_summary">Ikke slå av skjermen når visuelle effekter vises</string>
-    <string name="music_below_thirty_years">Opptil 30 år gammel</string>
+    <string name="music_below_thirty_years">Opptil %d år gammel</string>
     <string name="music_customized_sound_summary">Tilpass volum i henhold til din auditive oppfatning</string>
     <string name="music_customized_sound_title">Volumjustering</string>
     <string name="music_delete">Slett</string>
@@ -404,10 +405,10 @@
     <string name="music_sound_num">Tilpasset forhåndsinnstilling %s</string>
     <string name="music_sound_sample">Systemets forhåndsinnstillinger</string>
     <string name="music_sure_to_delete_sound_msg">Slette valgte forhåndsinnstillinger nå?</string>
-    <string name="music_thirty_to_sixty_years">30-60 år gammel</string>
+    <string name="music_thirty_to_sixty_years" formatted="false">%d-%d år gammel</string>
     <string name="music_title_dolby_control">Dolby Digital Plus</string>
     <string name="music_unsupport_effect_summary">USB-hodetelefoner støttes ikke</string>
-    <string name="music_upper_sixty_years">Mer enn 60 år gammel</string>
+    <string name="music_upper_sixty_years">Over %d år gammel</string>
     <string name="name">Navn</string>
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
@@ -512,7 +513,8 @@
     <string name="sound_transmission_start">Start</string>
     <string name="sound_transmission_stop">Pause</string>
     <string name="sound_transmission_title">Trådløs mikrofon</string>
-    <string name="spatial_audio_summary">Juster fordypende lyd basert på hodebevegelse</string>
+    <string name="spatial_audio">Fordypende lyd</string>
+    <string name="spatial_audio_summary">Opplev fordypende lyd og en romlig følelse når lyd spilles av gjennom hodetelefonene</string>
     <string name="speaker_scenario_resume">Gjenopprett opprinnelige effekter</string>
     <string name="start_test_sound">Start test</string>
     <string name="status_bar_notification_info_overflow">999+</string>

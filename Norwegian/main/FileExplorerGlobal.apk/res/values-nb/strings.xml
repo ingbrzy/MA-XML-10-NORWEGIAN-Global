@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Gå til startsiden</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
     <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
@@ -10,7 +10,7 @@
     <string name="abc_capital_on">PÅ</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_delete_shortcut_label">slett</string>
     <string name="abc_menu_enter_shortcut_label">enter</string>
     <string name="abc_menu_function_shortcut_label">Funksjon+</string>
     <string name="abc_menu_meta_shortcut_label">Meta+</string>
@@ -18,7 +18,7 @@
     <string name="abc_menu_space_shortcut_label">mellomrom</string>
     <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Meny+</string>
-    <string name="abc_search_hint">Søk …</string>
+    <string name="abc_search_hint">Søk</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
     <string name="abc_searchview_description_query">Søkeord</string>
     <string name="abc_searchview_description_search">Søk</string>
@@ -104,7 +104,7 @@
     <string name="click_to_switch_volume_pad">Trykk for å veksle mellom internlagring og SD-kort</string>
     <string name="columbus_ad_flag_text">ANNONSE</string>
     <string name="columbus_skip_ad">Hopp over</string>
-    <string name="common_google_play_services_enable_button">Slå på</string>
+    <string name="common_google_play_services_enable_button">Aktivér</string>
     <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
     <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
     <string name="common_google_play_services_install_button">Installer</string>
@@ -131,9 +131,11 @@
     <string name="confirm_know">OK</string>
     <string name="connection_error">Kunne ikke koble til</string>
     <string name="connection_lost">Frakoblet</string>
+    <string name="copy">Kopiér</string>
     <string name="copy_failed">Kunne ikke kopierer</string>
     <string name="copy_to">Kopier til…</string>
     <string name="copy_to_internal_storage_first">Kopier først elementer til intern lagring.</string>
+    <string name="copy_toast_msg">Linken er kopiert til utklippstavlen</string>
     <string name="dark_mode">Mørk modus</string>
     <string name="dark_mode_notice_message">Mørkt tema er tilgjengelig nå!</string>
     <string name="decompress_cancel">Avbryt</string>
@@ -172,6 +174,7 @@
     <string name="display_name">Vis navn</string>
     <string name="domain">Domene</string>
     <string name="download_success">Lastet ned</string>
+    <string name="drag_not_support_with_dir">Kan ikke dra og sende mapper</string>
     <string name="empty_by_forbid_access">Inneholdet i denne mappen kan ikke vises her på grunn av begrensninger i Android.</string>
     <string name="enable_documentsui">Skru på %s i Innstillinger > Installerte apper først</string>
     <string name="enable_sd_card">SD-kortet er skadet eller frakoblet</string>
@@ -194,12 +197,16 @@
     <string name="error_invalid_path">Feil sti</string>
     <string name="error_not_support">Ikke støttet</string>
     <string name="error_open_file_failed_no_app_found">Fant ikke apper som kan åpne denne filen.</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="explicit">Eksplisitt</string>
     <string name="extended_storage_file_can_not_open">Kan ikke åpne filen. Kopier den til intern lagringsplass.</string>
     <string name="extract">Pakk ut</string>
     <string name="fail_to_create_folder_unknown">Kunne ikke opprette mappe grunnet en ukjent feil</string>
     <string name="failed_not_access_sd_card">Tillat tilgang til SD-kort først</string>
     <string name="failed_obtain_permissions">Fikk ikke tillatelser</string>
+    <string name="fallback_menu_item_copy_link">Kopiér linken</string>
+    <string name="fallback_menu_item_open_in_browser">Åpne i nettleseren</string>
+    <string name="fallback_menu_item_share_link">Del link</string>
     <string name="favorite_notice_message">"Du kan legge til flere mapper i favoritter nå.
 Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="favorite_photo">Bilder</string>
@@ -309,6 +316,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="not_connect">Kan ikke koble til</string>
     <string name="not_connect_user">Kan ikke koble til: %1$s og %2$s</string>
     <string name="not_installed_documentsui">DocumentsUI er ikke installert</string>
+    <string name="not_set">Ikke angitt</string>
     <string name="not_support_documentui">DokumentUI er ikke støttet på denne enheten</string>
     <string name="not_very_dissatisfied">Misfornøyd</string>
     <string name="notif_server_starting">Starter FTP-server…</string>
@@ -391,6 +399,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="port">Port</string>
     <string name="port_range">Portnummer må være mellom 1024–65535</string>
     <string name="possible_permissions">Valgfrie tillatelser</string>
+    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="privacy_accept">Samtykk og fortsett</string>
     <string name="privacy_cancel"><u>Ikke enig</u></string>
     <string name="privacy_desc">Velkommen til Filbehandler! I tillegg til grunnleggende funksjonalitet, gir denne appen også følgende tjenester:</string>
@@ -499,6 +508,7 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="storage_warning">Kan ikke bruke ekstern lagring</string>
     <string name="str_clean">Rydd</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_grid_mode">Bytt til rutenettvisning</string>
     <string name="switch_to_list_mode">Bytt til listevisning</string>
     <string name="tab_common_app">Apps og mapper</string>
@@ -534,6 +544,8 @@ Trykk og hold på en mappe og trykk \"Mer\" for å legge til."</string>
     <string name="user_notice_privacy_policy">Personvernerklæring</string>
     <string name="user_notice_term_of_service">Brukeravtale</string>
     <string name="utf8_summary">System-FTP standardkoding</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="version_name">Versjon</string>
     <string name="very_dissatisfied">Svært misfornøyd</string>
     <string name="view_by_document">Vis i Filer</string>

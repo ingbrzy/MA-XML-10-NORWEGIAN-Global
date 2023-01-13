@@ -81,8 +81,10 @@
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="delete_download">Slett</string>
     <string name="dialog_btn_cancel">Avbryt</string>
+    <string name="dialog_btn_force_download">Last ned</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Nettverksinnstillinger</string>
+    <string name="dialog_btn_wait_wifi">Vent på Wi-Fi</string>
     <string name="dialog_clipboard_permission_message">Gi Nedlastinger tilgang til elementer på utklippstavlen for å legge til kopierte URL-er automatisk?</string>
     <string name="dialog_clipboard_permission_title">Tillatelser er nødvendig</string>
     <string name="dialog_confirm_delete_checkbox_message">Slett lokale filer også</string>
@@ -90,8 +92,11 @@
     <string name="dialog_file_missing_body">Kunne ikke finne filen, virker som den er slettet.</string>
     <string name="dialog_file_missing_title">Kan ikke åpne fil</string>
     <string name="dialog_msg_disabled_net">%1$s begrensede nedlastinger i nåværende nettverk. Trykk på Nettverksinnstillinger for å gå til Sikkerhetsappen.</string>
+    <string name="dialog_msg_net_disallowed_by_app">Denne nedlastingen starter automatisk når enheten din kobles til Wi-Fi. Vil du laste ned nå likevel?</string>
+    <string name="dialog_msg_net_slow">Det ser ut til at det kan ha tatt for lang tid å laste ned dette elementet med det aktuelle nettverket. Vil du laste ned likevel?</string>
     <string name="dialog_msg_recommend">Du vil ikke kunne se anbefalte kilder etter at du slår av.</string>
     <string name="dialog_title_disabled_net">Internett-tilgang</string>
+    <string name="dialog_title_download">Vent på Wi-Fi</string>
     <string name="dialog_title_recommend">Slå av anbefalte kilder</string>
     <string name="download_complete">Nedlastet</string>
     <string name="download_error">Kunne ikke laste ned</string>

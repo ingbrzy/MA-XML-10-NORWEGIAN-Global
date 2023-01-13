@@ -33,12 +33,10 @@
     <string name="access_terms">Se termer</string>
     <string name="account_management_disclaimer_header">Kontoen din administreres</string>
     <string name="account_management_disclaimer_subheader">IT-administratoren din bruker administrering av mobilenheter for å håndheve retningslinjene for sikkerhet</string>
-    <string name="admin_has_ability_to_monitor_device">"IT-administratoren din har evnen til å overvåke og administrere innstillinger, bedriftstilgang, apper, tillatelser og data knyttet til denne enheten, inkludert nettverksaktiviteten din samt enhetens posisjon, samtalelogg og søkelogg for kontakter.
+    <string name="admin_has_ability_to_monitor_device">"IT-administratoren din kan overvåke og administrere innstillinger, bedriftstilgang, apper, tillatelser og data knyttet til denne enheten, inkludert nettverksaktiviteten din samt enhetens posisjon, samtalelogg og søkelogg for kontakter.
 
-Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert organisasjonens personvernregler."</string>
-    <string name="admin_has_ability_to_monitor_profile">"IT-administratoren din har evnen til å overvåke og administrere innstillinger, bedriftstilgang, apper, tillatelser og data knyttet til denne profilen, inkludert nettverksaktiviteten din samt enhetens posisjon, samtalelogg og søkelogg for kontakter.
-
-Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert organisasjonens personvernregler."</string>
+Ta kontakt med IT-administratoren for å få mer informasjon, inkludert organisasjonens personvernregler."</string>
+    <string name="admin_has_ability_to_monitor_profile">IT-administratoren din kan overvåke og administrere innstillinger, bedriftstilgang, apper, tillatelser, data og nettverksaktivitet knyttet til denne profilen samt anropsloggen og søkeloggen din for kontakter. Kontakt IT-administratoren for å få mer informasjon og finne ut mer om personvernreglene til organisasjonen din.</string>
     <string name="app_label">Jobbkonfigurering</string>
     <string name="back">Tilbake</string>
     <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
@@ -55,18 +53,6 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="cant_replace_or_remove_work_profile">Kan ikke erstatte eller fjerne jobbprofilen</string>
     <string name="cant_set_up_device">Kan ikke konfigurere enheten</string>
     <string name="cant_set_up_profile">Kan ikke konfigurere profilen</string>
-    <string name="car_ui_alert_dialog_default_button">Lukk</string>
-    <string name="car_ui_preference_switch_off">Av</string>
-    <string name="car_ui_preference_switch_on">På</string>
-    <string name="car_ui_restricted_while_driving">Funksjonen er ikke tilgjengelig når du kjører</string>
-    <string name="car_ui_scrollbar_page_down_button">Rull ned</string>
-    <string name="car_ui_scrollbar_page_up_button">Rull opp</string>
-    <string name="car_ui_scrolling_limited_message">Rullefunksjonen er begrenset mens du kjører</string>
-    <string name="car_ui_toolbar_default_search_hint">Søk</string>
-    <string name="car_ui_toolbar_menu_item_overflow_title">Overflyt</string>
-    <string name="car_ui_toolbar_menu_item_search_title">Søk</string>
-    <string name="car_ui_toolbar_menu_item_settings_title">Innstillinger</string>
-    <string name="car_ui_toolbar_nav_icon_content_description">Tilbake</string>
     <string name="change_device_launcher">Bytt appoversikt på enheten</string>
     <string name="character_counter_content_description">%1$d av %2$d tegn er skrevet inn</string>
     <string name="character_counter_overflowed_content_description">Tegngrensen er overskredet – %1$d av %2$d</string>
@@ -78,7 +64,7 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="company_controls_workspace">Organisasjonen kontrollerer denne profilen og holder den sikker. Du styrer alt annet på enheten.</string>
     <string name="contact_device_provider">For å finne ut mer, kontakt %1$s.</string>
     <string name="contact_your_admin_for_help">Kontakt IT-administratoren din for å få hjelp</string>
-    <string name="contact_your_admin_for_more_info">Hvis du vil ha mer informasjon, inkludert organisasjonens personvernregler, kan du kontakte IT-administratoren din.</string>
+    <string name="contact_your_admin_for_more_info">Hvis du vil ha mer informasjon, inkludert organisasjonens personvernregler, kan du kontakte IT-administratoren.</string>
     <string name="continue_button">Fortsett</string>
     <string name="continue_provisioning_notify_text">Trykk for å fortsette konfigureringen av jobbprofilen din</string>
     <string name="continue_provisioning_notify_title">Krypteringen er fullført</string>
@@ -86,10 +72,9 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="cope_provisioning_step_2_header">Personlige apper er atskilte og skjules fra jobbapper</string>
     <string name="cope_provisioning_step_3_header">IT-administratoren kan sjekke enheten og blokkere noen apper</string>
     <string name="cope_provisioning_summary">Jobbappene oppbevares i jobbprofilen din og administreres av IT-administratoren. Personlige apper er atskilte og skjules fra jobbapper. IT-administratoren din kan kontrollere denne enheten og blokkere visse apper.</string>
-    <string name="copy">Kopiér</string>
     <string name="copying_certs">Konfigurerer CA-sertifikater</string>
     <string name="couldnt_set_up_device">Kunne ikke konfigurere enheten. Ta kontakt med IT-administratoren din for å få hjelp.</string>
-    <string name="default_managed_profile_name">Arbeidsprofil</string>
+    <string name="default_managed_profile_name">Jobbprofil</string>
     <string name="default_owned_device_username">Bruker av arbeidsenhet</string>
     <string name="delete_profile">Slett</string>
     <string name="delete_profile_title">Vil du slette den eksisterende profilen?</string>
@@ -103,7 +88,7 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="device_owner_info">Denne enheten blir administrert, overvåket og holdes sikker av %1$s. Vilkår gjelder. %2$s</string>
     <string name="device_owner_info_with_terms_headers">Denne enheten blir administrert, overvåket og holdes sikker av %1$s. Vilkårene fra %2$s gjelder. %3$s</string>
     <string name="dismiss">Lukk</string>
-    <string name="downloading_administrator_header">Forbereder til jobbkonfigurering …</string>
+    <string name="downloading_administrator_header">Klargjør for jobbkonfigurering …</string>
     <string name="encrypt">Kryptér</string>
     <string name="encrypt_device_text_for_device_owner_setup">For å konfigurere denne enheten må den krypteres først. Dette kan ta en stund.</string>
     <string name="encrypt_device_text_for_profile_owner_setup">For å konfigurere jobbprofilen din må enheten krypteres. Dette kan ta en stund.</string>
@@ -113,9 +98,11 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="error_icon_content_description">Feil</string>
     <string name="error_installation_failed">Kan ikke installere administratorappen</string>
     <string name="error_package_invalid">Kan ikke bruke admin-appen. Den mangler komponenter eller er skadet. Ta kontakt med IT-administratoren din for å få hjelp.</string>
+    <string name="error_role_holder_download_install_failed">Prøv på nytt senere, eller be IT-administratoren din om hjelp</string>
+    <string name="error_role_holder_hash_mismatch">Kan ikke konfigurere enheten. Kontakt IT-administratoren din, og oppgi feilmeldingen «ugyldig sjekksum».</string>
+    <string name="error_role_holder_package_invalid">Kan ikke konfigurere enheten. Kontakt IT-administratoren din, og oppgi feilmeldingen «komponenter mangler eller er skadet».</string>
     <string name="error_wifi">Kunne ikke koble til Wi-Fi</string>
     <string name="expand">Vis</string>
-    <string name="expand_button_title">Avansert</string>
     <string name="exposed_dropdown_menu_content_description">Vis rullegardinmenyen</string>
     <string name="financed_device_screen_header">Denne enheten leveres av %s</string>
     <string name="financed_make_payments_subheader_description">%1$s kan installere %2$s-appen, slik at du kan betale for denne enheten.</string>
@@ -129,18 +116,18 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="fully_managed_device_provisioning_accept_header">La oss konfigurere jobbenheten din</string>
     <string name="fully_managed_device_provisioning_permissions_header">Aktiviteten din og dataene dine</string>
     <string name="fully_managed_device_provisioning_permissions_secondary_header">Tillatelser for apper</string>
-    <string name="fully_managed_device_provisioning_permissions_secondary_subheader">IT-administratoren din kan angi tillatelser for apper på denne enheten, for eksempel mikrofon-, kamera- og posisjonstillatelser.</string>
-    <string name="fully_managed_device_provisioning_privacy_body">IT-administratoren din kan se dataene dine og aktiviteten din på denne enheten</string>
+    <string name="fully_managed_device_provisioning_permissions_secondary_subheader">IT-administratoren kan angi tillatelser for apper på denne enheten, for eksempel mikrofon-, kamera- og posisjonstillatelser.</string>
+    <string name="fully_managed_device_provisioning_privacy_body">IT-administratoren kan se dataene dine og aktiviteten din på denne enheten</string>
     <string name="fully_managed_device_provisioning_privacy_title">Personvernpåminnelse</string>
     <string name="fully_managed_device_provisioning_progress_label">Konfigurerer enheten din …</string>
-    <string name="fully_managed_device_provisioning_return_device_subheader">Gå tilbake til den forrige skjermen, eller tilbakestill denne enheten og returner den til IT-administratoren din.</string>
+    <string name="fully_managed_device_provisioning_return_device_subheader">Gå tilbake til den forrige skjermen, eller tilbakestill denne enheten og returner den til IT-administratoren.</string>
     <string name="fully_managed_device_provisioning_return_device_title">Returner denne enheten til ID-administratoren din</string>
     <string name="fully_managed_device_provisioning_step_1_header">Få enkel tilgang til jobbappene dine</string>
     <string name="fully_managed_device_provisioning_step_2_header">Denne enheten er ikke privat</string>
-    <string name="fully_managed_device_provisioning_step_2_subheader">IT-administratoren din kan se dataene dine og aktiviteten din på denne enheten.</string>
+    <string name="fully_managed_device_provisioning_step_2_subheader">IT-administratoren kan se dataene dine og aktiviteten din på denne enheten.</string>
     <string name="fully_managed_device_provisioning_summary">Bruk denne enheten for å få tilgang til jobbappene dine. Denne enheten er ikke privat, så IT-administratoren din kan se dataene dine og aktiviteten din.</string>
     <string name="fully_managed_device_reset_and_return_button">Tilbakestill og returner enheten</string>
-    <string name="fully_managed_device_with_permission_control_provisioning_summary">Bruk denne enheten for å få tilgang til jobbappene dine. Denne enheten er ikke privat, så IT-administratoren din kan se aktiviteten din og dataene dine. IT-administratoren din kan også angi tillatelser for apper på denne enheten, for eksempel mikrofon-, kamera- og posisjonstillatelser.</string>
+    <string name="fully_managed_device_with_permission_control_provisioning_summary">Bruk denne enheten for å få tilgang til jobbappene dine. Denne enheten er ikke privat, så IT-administratoren kan se aktiviteten din og dataene dine. IT-administratoren kan også angi tillatelser for apper på denne enheten, for eksempel mikrofon-, kamera- og posisjonstillatelser.</string>
     <string name="icon_content_description">Dialogboksikon</string>
     <string name="if_questions_contact_admin">Hvis du lurer på noe, kan du kontakte IT-administratoren din</string>
     <string name="info_anim_title_0">Endre måten du jobber på</string>
@@ -177,6 +164,7 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -205,14 +193,12 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="mtrl_picker_toggle_to_year_selection">Trykk for å bytte til å velge år</string>
     <string name="navigation_button_description">Gå opp</string>
     <string name="next">Neste</string>
-    <string name="not_set">Ikke angitt</string>
     <string name="ok_setup">OK</string>
     <string name="one_place_for_work_apps">Ett sted for jobbapper</string>
     <string name="opening_paragraph_delete_profile">Du har allerede en jobbprofil. Den administreres med følgende app:</string>
-    <string name="organization_admin">IT-administrator</string>
+    <string name="organization_admin">IT-administratoren</string>
     <string name="password_toggle_content_description">Vis passordet</string>
     <string name="pick_launcher">OK</string>
-    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="profile_benefits_description">Ved å bruke en jobbprofil kan du skille jobbdata fra personlige data</string>
     <string name="profile_owner_cancel_cancel">Nei</string>
     <string name="profile_owner_cancel_message">Vil du stoppe konfigureringen?</string>
@@ -232,6 +218,7 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="section_content">Delinnhold for %1$s: %2$s</string>
     <string name="section_heading">Deloverskrift: %1$s.</string>
     <string name="set_up_your_device">Konfigurer enheten din</string>
+    <string name="setting_up">Konfigurerer …</string>
     <string name="setting_up_workspace">Konfigurerer jobbprofilen …</string>
     <string name="setup_device">Konfigurer enheten din</string>
     <string name="setup_device_encryption">Konfigurer enheten din. Kryptering</string>
@@ -247,7 +234,6 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="something_went_wrong">Noe gikk galt</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_setup_reset_device_question">Vil du stoppe konfigureringen og tilbakestille enheten?</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sure_you_want_to_delete_profile">Hvis du fortsetter, blir alle appene og dataene i denne profilen slettet.</string>
     <string name="take_a_few_minutes">Dette kan ta noen minutter</string>
     <string name="terms">Vilkår</string>
@@ -258,8 +244,6 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="url_error">Kan ikke vise denne linken.</string>
     <string name="user_consent_msg">Jeg godtar</string>
     <string name="user_setup_incomplete">Brukerkonfigureringen er ikke fullført</string>
-    <string name="v7_preference_off">AV</string>
-    <string name="v7_preference_on">PÅ</string>
     <string name="view_terms">Les vilkårene</string>
     <string name="work_profile_cant_be_added_contact_admin">Jobbprofiler kan ikke legges til på denne enheten. Hvis du har spørsmål, kan du kontakte IT-administratoren din.</string>
     <string name="work_profile_description">Jobbappene dine oppbevares i denne profilen og administreres av organisasjonen din</string>
@@ -268,7 +252,7 @@ Ta kontakt med IT-administratoren din for å få mer informasjon, inkludert orga
     <string name="work_profile_provisioning_progress_label">Konfigurerer jobbprofilen din …</string>
     <string name="work_profile_provisioning_step_1_header">Jobbapper oppbevares i jobbprofilen din</string>
     <string name="work_profile_provisioning_step_2_header">Sett jobbapper på pause når du er ferdig for dagen</string>
-    <string name="work_profile_provisioning_step_3_header">Dataene i jobbprofilen din er synlige for IT-administratoren din</string>
+    <string name="work_profile_provisioning_step_3_header">Data i jobbprofilen din er synlige for IT-administratoren</string>
     <string name="work_profile_provisioning_summary">Jobbapper oppbevares i jobbprofilen din. Du kan sette jobbappene dine på pause når du er ferdig for dagen. Dataene i jobbprofilen din er synlige for IT-administratoren din.</string>
     <string name="work_profile_setup_later_message">Du kan konfigurere jobbprofilen din senere i appen for enhetsadministrering som brukes av organisasjonen din</string>
     <string name="work_profile_setup_later_title">Vil du stoppe konfigureringen av profilen?</string>

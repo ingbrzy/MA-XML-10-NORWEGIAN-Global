@@ -65,6 +65,7 @@
     <string name="australian_magpie">Australian magpie</string>
     <string name="authorization_btn_text">Start</string>
     <string name="authorization_tips">Tillatelser er nødvendig</string>
+    <string name="avalible_per_day">Øktvarighet</string>
     <string name="baboon_info">The olive baboon lives in groups with developed social ranking depending on the dominance of each individual.</string>
     <string name="back">Tilbake</string>
     <string name="bear_info">Bears are the largest land carnivores. They live in cold regions and are known for their keen sense of smell.</string>
@@ -114,6 +115,9 @@
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
+    <string name="category_limit_notify_title">Skjermtidsvarsel</string>
+    <string name="category_list_expand">Mer</string>
+    <string name="category_list_packup">Skjul</string>
     <string name="category_other">Annet</string>
     <string name="chacma_baboon">Chacma baboon</string>
     <string name="cheetah">Cheetah</string>
@@ -125,11 +129,14 @@
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="click_to_save">Tap \"Done\" to set a general ringtone.</string>
     <string name="close">Lukk</string>
+    <string name="closed_high_refresh_options">Apper uten høy oppdateringsfrekvens</string>
     <string name="color_gamut">Fargeskala</string>
     <string name="common_brushtail">Brushtail possum</string>
     <string name="common_ostrich">Ostrich</string>
+    <string name="compulsor_tip">Startskjerm</string>
     <string name="contact_description">Trykk på snarveier på startskjermen for å foreta anrop</string>
     <string name="contact_title">Kontakt-snarveier</string>
+    <string name="continue_time">Øktvarighet</string>
     <string name="contrast_ratio">Kontrast</string>
     <string name="control_center_title">Skjermtid i dag</string>
     <string name="control_center_title_new">Brukt i dag</string>
@@ -141,6 +148,8 @@
     <string name="created_successfully">Opprettet</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Angi</string>
+    <string name="customize_high_refresh_summary">Denne funksjonen støtter en oppdateringsfrekvens på opptil %d Hz. Passende oppdateringsfrekvens kan velges automatisk, basert på enhetens innstillinger.</string>
+    <string name="customize_high_refresh_title">Apper med høy oppdateringsfrekvens</string>
     <string name="customize_radio_btn_summary">Foretrekk valgte oppdateringsfrekvens</string>
     <string name="customize_radio_btn_title">Tilpasset</string>
     <string name="dall_sheep">Dall sheep</string>
@@ -164,6 +173,8 @@
     <string name="desktop_widget_not_support">"Statistikk for skjermtid
 genereres ikke i Andre område"</string>
     <string name="desktop_widget_screen_use_time">Skjermtid</string>
+    <string name="device_limit_enable">Aktivert</string>
+    <string name="device_limit_un_enable">Deaktivert</string>
     <string name="display_description">Større ikoner, større tekst, færre visuelle forstyrrelser</string>
     <string name="display_title">Større elementer</string>
     <string name="dynamic_ringtone_desc">"We've explored different ecosystems and recreated their distinct sounds. Start exploring the sounds of nature with us!"</string>
@@ -294,7 +305,11 @@ genereres ikke i Andre område"</string>
     <string name="focus_mode_timer_pick_dialog_summary" formatted="false">%d til %d minutter</string>
     <string name="focus_mode_timer_pick_dialog_title">Angi varighet</string>
     <string name="focus_time_exception_tip">Det ser ut til at systemtiden har endret seg. Deaktiverte fokusmodus.</string>
+    <string name="follow_apps_settings">Basert på appinnstillinger</string>
     <string name="follow_sim1">Bruk SIM 1-innstillinger</string>
+    <string name="force_rest">Bruk øktpauser</string>
+    <string name="force_rest_summary">Ta obligatoriske pauser når økter når en fastsatt grense</string>
+    <string name="force_rest_time">Pausevarighet</string>
     <string name="fps_high">Høy</string>
     <string name="fps_nature_summary">Maksimal oppdateringsfrekvens holder alt skarpt og tydelig</string>
     <string name="fps_nature_title">Maksimal</string>
@@ -327,6 +342,16 @@ genereres ikke i Andre område"</string>
     <string name="green_peafowl">Green peafowl</string>
     <string name="green_warbler_finch">Green warbler-finch</string>
     <string name="grey_headed_flying_fox">Grey-headed flying fox</string>
+    <string name="guard_item_app_summary">Avinstaller apper eksternt</string>
+    <string name="guard_item_app_title">Administrer apper</string>
+    <string name="guard_item_browser_summary">Kontroller adgang til apper og innhold</string>
+    <string name="guard_item_browser_title">Begrensninger</string>
+    <string name="guard_item_call_summary">Tillat spesifikke kontakter å foreta anrop</string>
+    <string name="guard_item_call_title">Kommunikasjon</string>
+    <string name="guard_item_eye_protect_summary">Overvåk holdning</string>
+    <string name="guard_item_eye_protect_title">Øyekomfort</string>
+    <string name="guard_range_from">Fra</string>
+    <string name="guard_range_to">Til</string>
     <string name="harp_seal">Harp seal</string>
     <string name="harpy_eagle">Harpy eagle</string>
     <string name="has_applied">Applied</string>
@@ -334,11 +359,14 @@ genereres ikke i Andre område"</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Høy oppdateringsfrekvens for skjerm. Høyere strømforbruk.</string>
     <string name="high_fps_tip_footer">Ved å bruke høyere oppdateringshastigheter blir visningsopplevelsen jevnere, men bruker mer strøm.</string>
+    <string name="high_refresh_options_title">Støttede apper</string>
     <string name="hippopotamus">Hippo</string>
+    <string name="holiday_limit">Fridager</string>
     <string name="hsv_space_color">HSV-fargeområde</string>
     <string name="hsv_space_color_hue">Fargetone</string>
     <string name="hsv_space_color_saturation">Metning</string>
     <string name="hsv_space_color_value">Verdi</string>
+    <string name="in_forbidden_period">Bruk er begrenset nå</string>
     <string name="intelligent_radio_btn_summary">Juster oppdateringsfrekvensen dynamisk basert på scenarier for å balansere ytelse med strømforbruk</string>
     <string name="intelligent_radio_btn_title">Standard (anbefalt)</string>
     <string name="intelligent_recognition_item_summary">Bruk en bestemt ringetone for anrop fra leverings- og taxitjenester. Denne funksjonen fungerer når %s er angitt som standard ringetone.</string>
@@ -379,6 +407,7 @@ genereres ikke i Andre område"</string>
     <string name="less_than_one">&lt; %d</string>
     <string name="lion">Lion</string>
     <string name="lion_info">Lions are fierce and powerful predators. They live in groups and have a strong sense of territory.</string>
+    <string name="loading_error">Kunne ikke laste inn elementer</string>
     <string name="lock_summary">Beskytt personopplysningene dine</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
     <string name="low_flicker_mode">Dårlig lys</string>
@@ -478,6 +507,8 @@ genereres ikke i Andre område"</string>
     <string name="nature_mix_summary">Create a custom mix</string>
     <string name="nazca_booby">Nazca booby</string>
     <string name="network_error">En nettverksfeil oppstod. Prøv igjen.</string>
+    <string name="new_customize_high_refresh_title">Høy oppdateringsfrekvens</string>
+    <string name="next_day">"(Neste dag) "</string>
     <string name="night">Kveld</string>
     <string name="nine_banded_armadillo">Armadillo</string>
     <string name="no_matching">Fant ikke en app til å åpne denne linken med</string>
@@ -493,6 +524,7 @@ genereres ikke i Andre område"</string>
     <string name="notification_sound">Varslingslyder</string>
     <string name="ocelot">Ocelot</string>
     <string name="olive_baboon">Olive baboon</string>
+    <string name="opened_high_refresh_options">Apper med høy oppdateringsfrekvens</string>
     <string name="orange_winged_amazon">Orange-winged amazon</string>
     <string name="orca">Killer whale</string>
     <string name="ostrich_info">Ostriches are large flightless birds of Africa who lay the largest eggs of any living land animal.</string>
@@ -558,6 +590,7 @@ genereres ikke i Andre område"</string>
     <string name="sea_otter">Sea otter</string>
     <string name="seal_info">Seals are marine mammals that can move quickly in deep waters, feeding on fish and shrimps.</string>
     <string name="search_app_name">Søk etter apper</string>
+    <string name="search_app_tips">Søk etter apper</string>
     <string name="search_empty">Ingen apper funnet</string>
     <string name="search_menu_title">Søk</string>
     <string name="send">Send</string>
@@ -569,6 +602,13 @@ genereres ikke i Andre område"</string>
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
+    <string name="size_byte">B</string>
+    <string name="size_giga_byte">GB</string>
+    <string name="size_kilo_byte">KB</string>
+    <string name="size_mega_byte">MB</string>
+    <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">TB</string>
     <string name="skywalker_hoolock_gibbon">Skywalker hoolock gibbon</string>
     <string name="small_ground_finch">Small ground finch</string>
     <string name="sms_delivered_sound_title">Levert melding</string>
@@ -589,6 +629,8 @@ genereres ikke i Andre område"</string>
     <string name="steady_on_screen_notification_title">Legg ned telefonen og ta en pause</string>
     <string name="steady_on_screen_notification_title_pad">Legg ned enheten og ta en pause</string>
     <string name="steady_on_screen_notify">Varsle om uforstyrret bruk</string>
+    <string name="steady_on_screen_notify_new">Ta en pause</string>
+    <string name="steady_on_screen_ntf_msg">Alle funksjoner vil være tilgjengelige igjen om %1$s</string>
     <string name="steady_on_screen_setting">Tidsgrense for uforstyrrede økter</string>
     <string name="steady_on_screen_summary">Tidsgrense for uforstyrrede økter</string>
     <string name="stop_app_timer">Deaktiver Skjermtid</string>
@@ -649,6 +691,12 @@ genereres ikke i Andre område"</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
+    <string name="time_over_back_home">Startskjerm</string>
+    <string name="time_over_delayed_use">Ignorer</string>
+    <string name="time_over_not_delayed_use">Skjønner</string>
+    <string name="time_over_today">"Ingen tid gjenstår
+for i dag"</string>
+    <string name="time_over_today_use">"Dagens økter: "</string>
     <string name="time_picker_dialog_title">Angi tid</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
@@ -677,6 +725,7 @@ genereres ikke i Andre område"</string>
     <string name="tuesday_shortest">Tir</string>
     <string name="two_toed_sloths">Two-toed sloth</string>
     <string name="two_toed_sloths_info">Two-toed sloths can easily travel from tree to tree in the canopies of the rainforests.</string>
+    <string name="unavailable_per_day">Pauser</string>
     <string name="unlock_times_per_day">"Daglig gjennomsnitt: "</string>
     <string name="unlock_times_per_hour">"Opplåsinger per time: "</string>
     <string name="usage_agree">Godta</string>
@@ -712,8 +761,10 @@ genereres ikke i Andre område"</string>
     <string name="usage_device_limit_app_prolong_time3">Legg til 60 minutter</string>
     <string name="usage_device_limit_app_prolong_time4">Ikke sett grense i dag</string>
     <string name="usage_device_limit_app_prolong_time5">Legg til tid én gang</string>
+    <string name="usage_device_limit_forbidden_period">Bruk er begrenset mellom %1$s og %2$s</string>
     <string name="usage_device_limit_notifation_summary_start">Du når din grense om %1$s</string>
     <string name="usage_device_limit_notifation_title">Gjenstående tid i dag</string>
+    <string name="usage_device_limit_start_forbidden_period">Bruk vil være begrenset mellom %1$s og %2$s (%3$s gjenstår)</string>
     <string name="usage_device_limit_time_over">Du har nådd dagens grense (%1$s)</string>
     <string name="usage_exit">Avslutt</string>
     <string name="usage_focus_focus_premission_main_summary">Denne appen trenger tilgang til kontoinformasjonen din for å registrere brukerstatistikken din i fokusmodus.</string>
@@ -745,6 +796,8 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_home_premission_second_summary_double_link_prefix">Vi beskytter personopplysningene dine i samsvar med relevante lover, forskrifter og personvernerklæringer. Hvis du ikke samtykker i å gi slike tillatelser eller dele og laste opp personopplysningene dine, kan du ikke bruke denne appen. Du kan tilbakekalle autorisasjonen din under Skjermtid > Innstillinger > Deaktiver Skjermtid.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Før du bruker denne appen må du lese og godta &lt;a href='%1s'>brukeravtalen&lt;/a> og &lt;a href='%2s'>personvernerklæringen&lt;/a> vår.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Vi beskytter personopplysningene dine i samsvar med relevante lover, forskrifter og personvernerklæringer. Hvis du ikke samtykker i å gi slike tillatelser eller dele og laste opp personopplysningene dine, kan du ikke bruke denne appen. Du kan tilbakekalle autorisasjonen din under Skjermtid > Innstillinger > Deaktiver Skjermtid. Hvis du har flere spørsmål om personvern, kan du kontakte oss på privacy@xiaomi.com.</string>
+    <string name="usage_new_category_limit_summary">Angi daglige brukstrenser for alle apper i denne kategorien</string>
+    <string name="usage_new_category_limit_title">Begrens bruk for appkategori</string>
     <string name="usage_new_home_app_limit_summary">Angi en daglig skjermtidsgrense for denne appen</string>
     <string name="usage_new_home_app_limit_title">Begrens skjermtid</string>
     <string name="usage_new_home_average">"Snitt "</string>
@@ -969,6 +1022,7 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="willow_grouse_info">The willow ptarmigan is herbivorous for most of its life and primarily occupies subalpine and subarctic habitats.</string>
     <string name="wolf">Wolf</string>
     <string name="wombat">Wombat</string>
+    <string name="workday_limit">Arbeidsdager</string>
     <string name="yellow_necked_spurfowl">Yellow-necked spurfowl</string>
     <string name="yellow_throated_marten">Yellow-throated marten</string>
     <string name="yesterday">I går</string>

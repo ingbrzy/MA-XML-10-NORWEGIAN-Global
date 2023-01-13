@@ -237,6 +237,7 @@ Trykk for å vise"</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="privacy_settings">Personvern</string>
     <string name="quit_recording">Avslutt Skjermopptaker</string>
+    <string name="record_time_too_short">Videoen som er tatt opp er for kort</string>
     <string name="recording_failure">Kunne ikke ta opp. Start på nytt</string>
     <string name="recording_max_size">Opptak ble stanset og lagret fordi videofilen nådde størrelsesgrensen. Start opptaket fra der du slapp hvis du ikke er ferdig.</string>
     <string name="recording_without_mic">Mikrofonen er i bruk, og mikrofonlyd kan ikke tas opp.</string>

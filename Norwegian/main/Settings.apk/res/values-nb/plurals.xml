@@ -41,8 +41,8 @@
         <item quantity="one">For %d dag siden</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">For %d min. siden</item>
-        <item quantity="one">For %d min. siden</item>
+        <item quantity="other">For %d min siden</item>
+        <item quantity="one">For %d min siden</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
         <item quantity="other">For %d år siden</item>
@@ -144,6 +144,10 @@
         <item quantity="other">%d tilgjengelige enheter</item>
         <item quantity="one">%d tilgjengelig enhet</item>
     </plurals>
+    <plurals name="clean_time">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
     <plurals name="color_game_led_freq_entries">
         <item quantity="other">Hvert %d sekund</item>
         <item quantity="one">Hvert %d sekund</item>
@@ -153,8 +157,8 @@
         <item quantity="one">%d enhet</item>
     </plurals>
     <plurals name="data_saver_unrestricted_summary">
-        <item quantity="other">%1$d apper kan bruke ubegrenset med data når Datasparing er på</item>
-        <item quantity="one">1 app kan bruke ubegrenset med data når Datasparing er på</item>
+        <item quantity="other">%1$d apper kan bruke ubegrenset data når datasparing er på</item>
+        <item quantity="one">1 app kan bruke ubegrenset data når datasparing er på</item>
     </plurals>
     <plurals name="default_camera_app_title">
         <item quantity="other">Kamera-apper</item>
@@ -312,6 +316,10 @@
         <item quantity="other">%d aktive pålitelige agenter</item>
         <item quantity="one">1 aktiv pålitelig agent</item>
     </plurals>
+    <plurals name="max_number_of_processes">
+        <item quantity="other">Maks %d prosesser</item>
+        <item quantity="one">Maks %d prosess</item>
+    </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d apper brukte minne i løpet av de siste %2$s</item>
         <item quantity="one">1 app brukte minne i løpet av de siste %2$s</item>
@@ -365,8 +373,8 @@
         <item quantity="one">~%d varsel per dag</item>
     </plurals>
     <plurals name="notifications_sent_weekly">
-        <item quantity="other">~%d varsler per uke</item>
-        <item quantity="one">~%d varsel per uke</item>
+        <item quantity="other">ca. %d varsler per uke</item>
+        <item quantity="one">ca. %d varsel per uke</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
@@ -453,7 +461,7 @@
         <item quantity="one">%1$d lagret høreapparat</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Du er %1$d trinn unna åpning av enhetsinfo.</item>
+        <item quantity="other">"You're %1$d steps away from opening device info."</item>
         <item quantity="one">Du er %1$d trinn unna åpning av enhetsinfo.</item>
     </plurals>
     <plurals name="show_rep_countdown">
@@ -468,22 +476,6 @@
         <item quantity="other">Stol på eller fjern sertifikatene</item>
         <item quantity="one">Stol på eller fjern sertifikatet</item>
     </plurals>
-    <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">"%s har installert sertifiseringsinstanser for jobbprofilen din. Dette kan gi disse instansene tillatelse til å overvåke nettverksaktiviteten på jobben, inkludert e-poster, apper og sikre nettsteder.
-
-Kontakt administratoren din hvis du vil ha mer informasjon om disse sertifikatene."</item>
-        <item quantity="one">"%s har installert en sertifiseringsinstans for jobbprofilen din. Dette kan gi denne instansen tillatelse til å overvåke nettverksaktiviteten på jobben, inkludert e-poster, apper og sikre nettsteder.
-
-Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet."</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">"%s har installert sertifiseringsinstanser på enheten din. Dette kan gi disse instansene tillatelse til å overvåke nettverksaktiviteten på enheten, inkludert e-poster, apper og sikre nettsteder.
-
-Kontakt administratoren din hvis du vil ha mer informasjon om disse sertifikatene."</item>
-        <item quantity="one">"%s har installert en sertifiseringsinstans på enheten din. Dette kan gi denne instansen tillatelse til å overvåke nettverksaktiviteten på enheten, inkludert e-poster, apper og sikre nettsteder.
-
-Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet."</item>
-    </plurals>
     <plurals name="ssl_ca_cert_settings_button">
         <item quantity="other">Sjekk sertifikatene</item>
         <item quantity="one">Sjekk sertifikatet</item>
@@ -495,6 +487,26 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d apper kan vise varsler</item>
         <item quantity="one">%d app kan vise varsler</item>
+    </plurals>
+    <plurals name="string_after_int_minute">
+        <item quantity="other">Etter %d minutter</item>
+        <item quantity="one">Etter %d minutt</item>
+    </plurals>
+    <plurals name="string_bits_per_sample">
+        <item quantity="other">%d bits/prøve</item>
+        <item quantity="one">%d bit/prøve</item>
+    </plurals>
+    <plurals name="string_int_hour">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="string_int_minute">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
+    <plurals name="string_int_second">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">+%1$d forslag</item>

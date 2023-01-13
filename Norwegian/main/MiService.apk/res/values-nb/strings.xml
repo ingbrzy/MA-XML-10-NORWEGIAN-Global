@@ -32,6 +32,7 @@
     <string name="am">AM</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -105,6 +106,7 @@
     <string name="icon_remove_description_content">«Tjenester og tilbakemelding» er en systemapp. Du kan fortsatt bruke den via Innstillinger etter at du har fjernet snarveien på startskjermen.</string>
     <string name="icon_remove_description_title">Fjerne «Tjenester og tilbakemelding» fra startskjermen?</string>
     <string name="mi_service_app_name">Tjenester og tilbakemelding</string>
+    <string name="mi_service_back">Tilbake</string>
     <string name="midnight">Natt</string>
     <string name="miservice_channel_update_notification_info">«Tjenester og tilbakemelding» ber om data på nett…</string>
     <string name="miservice_notification_boot_content">Finn ut mer om hva MIUI kan gjøre</string>
@@ -114,7 +116,7 @@
     <string name="miservice_notification_open_feedback_title">Vi presenterer «Tjenester og tilbakemelding»</string>
     <string name="miservice_notification_scan_content">Bruk Scanner for å oversette ord og uttrykk</string>
     <string name="miservice_notification_scan_title">Oversett på et blunk</string>
-    <string name="miui_feedback_answer_detail_community">Du kan finne svar på spørsmålene dine i Mi Community</string>
+    <string name="miui_feedback_answer_detail_community">Du finner svar på det du lurer på i Xiaomi Community</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Ja</string>
     <string name="miui_feedback_answer_detail_feedback_result">Takk for tilbakemeldingen!</string>
     <string name="miui_feedback_answer_detail_feedback_title">Var denne informasjonen til hjelp?</string>
@@ -182,7 +184,6 @@
     <string name="miui_feedback_edit_toast_module_required">Velg element</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Beskrivelsen bør være lengre</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Velg kategori</string>
-    <string name="miui_feedback_edit_toast_screenshot_too_large">Kan ikke laste opp bilder eller videoer større enn 100 MB</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Fyll inn navn på app</string>
     <string name="miui_feedback_main_answer_title">Det finnes et svar på dette spørsmålet</string>
     <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicetelefon: 0120-300-521
@@ -205,15 +206,6 @@ E-post: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_title">Tilbakemelding</string>
     <string name="miui_feedback_main_withdraw">Tilbakekall</string>
     <string name="miui_feedback_main_withdraw_consent_hint">Hvis du fortsetter, trekker du tilbake samtykket til personvernerklæringen for %1$s. Personopplysninger som allerede er innhentet og lagret, vil bli slettet innen den spesifikke tidsperioden i samsvar med gjeldende lover og forskrifter, med mindre annet kreves. Siden %2$s leverer tjenestene sine basert på innhenting av nødvendige personopplysninger, vil slik tilbaketrekking tolkes som at du nekter å godta %3$s tjenester. Vil du trekke tilbake samtykket nå?</string>
-    <string name="miui_guide_accessibility_image_desc">Bilde</string>
-    <string name="miui_guide_clear_db_service">«Tjenester og tilbakemelding» tømmer språkbufferen…</string>
-    <string name="miui_guide_footer_desc">Veiledningen for nybegynnere er utformet for å hjelpedeg med å finne ut mer om enheten din og MIUI. Noen bilder og videoer i guiden ble opprettet bare for referanseformål og kan avvike fra det faktiske produktet. Funksjonene som er beskrevet i denne veiledningen kan være forskjellig avhengig av enhetsmodell, MIUI-versjon og bruksmiljø.</string>
-    <string name="miui_guide_item_complete">Fullført</string>
-    <string name="miui_guide_item_new">Ny</string>
-    <string name="miui_guide_item_progress">%1$d/%2$d fullført</string>
-    <string name="miui_guide_menu_privacy">Personvernerklæring</string>
-    <string name="miui_guide_top_bar_sub_title">Finn ut hva MIUI kan gjøre</string>
-    <string name="miui_guide_top_bar_title">Veiledning for nybegynnere</string>
     <string name="miui_main_back">Tilbake</string>
     <string name="miui_main_bottom_bar_feedback">Tilbakemelding</string>
     <string name="miui_main_bottom_bar_guide">Veiledning for nybegynnere</string>
@@ -222,6 +214,10 @@ E-post: service.jp@xiaomi.com"</string>
     <string name="miui_main_control_center_desc">Eller bytt til den gamle versjonen under Innstillinger > Varsler &amp; Kontrollsenter</string>
     <string name="miui_main_control_center_open">Nytt Kontrollsenter</string>
     <string name="miui_main_control_center_title">Sveip for å bytte mellom Meldingsskygge og Kontrollsenter</string>
+    <string name="miui_main_icon_callback">Snarvei på startskjermen</string>
+    <string name="miui_main_icon_callback_create">Opprett</string>
+    <string name="miui_main_icon_callback_desc">Opprette en snarvei til startskjermen nå?</string>
+    <string name="miui_main_icon_callback_nocreate">Avbryt</string>
     <string name="miui_main_mirror_tab_desc1">Koble til automatisk</string>
     <string name="miui_main_mirror_tab_desc2">Vis bilder på en større skjerm</string>
     <string name="miui_main_mirror_tab_desc3">Del filer på et øyeblikk</string>

@@ -157,6 +157,8 @@
     <string name="audio_ad_pass">Hopp over annonse</string>
     <string name="audio_picker_title">Velg en sang</string>
     <string name="auth_fail_warning">Økten er utløpt. Logg inn på nytt.</string>
+    <string name="auto_play_switch">Automatisk avspilling av videoer</string>
+    <string name="auto_play_toast">Automatisk avspilling er aktivert. Du kan deaktivere den under Innstillinger.</string>
     <string name="auto_recommend">Automatisk (anbefalt)</string>
     <string name="auto_sound_quality">Auto</string>
     <string name="auto_update">Oppdater automatisk</string>
@@ -169,6 +171,7 @@
     <string name="back">Tilbake</string>
     <string name="back_confirm">Trykk igjen for å presse appen til bakgrunnen</string>
     <string name="best_experience">Beste opplevelse</string>
+    <string name="billion_char">%s B</string>
     <string name="bluetooth_device">Bluetooth lydenhet</string>
     <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
     <string name="btn_text_edit">Rediger</string>
@@ -202,12 +205,12 @@
     <string name="click_to_add_album_cover_and_lyric">Trykk for å legge til albumcover og sangtekster</string>
     <string name="click_to_shuffle">Trykk for å stokke</string>
     <string name="close">Lukk</string>
-    <string name="close_music_time">Gjenstående tid</string>
+    <string name="close_music_time">"Gjenstående tid "</string>
     <string name="collect_diagnosis_log">Hent logger</string>
     <string name="columbus_ad_flag_text">ANNONSE</string>
     <string name="columbus_skip_ad">Hopp over</string>
     <string name="comment_format" formatted="false">%s: %s</string>
-    <string name="common_google_play_services_enable_button">Slå på</string>
+    <string name="common_google_play_services_enable_button">Aktivér</string>
     <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
     <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
     <string name="common_google_play_services_install_button">Installer</string>
@@ -232,6 +235,7 @@
     <string name="connecting_apk">Kobler til…</string>
     <string name="content_failed_to_load">Kunne ikke laste inn innhold</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_toast_msg">Linken er kopiert til utklippstavlen</string>
     <string name="create_playlist">Opprett spilleliste</string>
     <string name="create_playlist_failure">Kunne ikke opprette spilleliste</string>
     <string name="create_playlist_input_hint">Angi navn på spilleliste</string>
@@ -287,11 +291,11 @@ Send denne koden til den overordnede."</string>
     <string name="dialog_my_playlist_online_changed_merge">Behold</string>
     <string name="dialog_my_playlist_online_changed_message">Det ser ut til at denne spillelisten er endret. Du kan erstatte den med en ny versjon eller ta vare på den gamle.</string>
     <string name="dialog_my_playlist_online_changed_replace">Erstatt</string>
-    <string name="dialog_my_playlist_set_to_public">Del denne spillelisten med alle brukere av Mi Musikk og Hungama music</string>
+    <string name="dialog_my_playlist_set_to_public">Del denne spillelisten med alle brukere av Mi Music og hungama Music</string>
     <string name="dialog_queued_body">Denne filen står i kø for fremtidlig nedlasting.</string>
     <string name="dialog_renew_failure">Beklager. Handlingen mislyktes</string>
-    <string name="dialog_renew_free_end">Din gratis prøveperiode er over. Abonnere på Hungama PRO?</string>
-    <string name="dialog_renew_positive_text">JA, JEG VIL ROCKE SOM EN PROFF</string>
+    <string name="dialog_renew_free_end">Den gratis prøveperioden er over. Abonnere på hungama Gold?</string>
+    <string name="dialog_renew_positive_text">Fornye Gold-medlemskapet mitt!</string>
     <string name="dialog_renew_success">Takk for bekreftelsen din</string>
     <string name="dialog_score_btn_good">Vurder</string>
     <string name="dialog_score_msg_score_explorer">Liker du Mi Musikk?</string>
@@ -360,7 +364,9 @@ Send denne koden til den overordnede."</string>
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne filen</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_queued">I kø</string>
@@ -404,7 +410,7 @@ Send denne koden til den overordnede."</string>
     <string name="empty_page_no_album">Ingen album.</string>
     <string name="empty_page_no_artist">Ingen artister.</string>
     <string name="enabled">Aktivert</string>
-    <string name="enjoy_hungama_pro">Nyt Hungama PRO</string>
+    <string name="enjoy_hungama_pro">Kos deg med hungama Gold</string>
     <string name="enroll_in">Delta</string>
     <string name="enter_garbage_clean">Rens intern lagringsplass</string>
     <string name="entertainment">Underholdning</string>
@@ -469,7 +475,9 @@ Send denne koden til den overordnede."</string>
     <string name="exo_media_action_repeat_all_description">Gjenta alle</string>
     <string name="exo_media_action_repeat_off_description">Ikke gjenta noen</string>
     <string name="exo_media_action_repeat_one_description">Gjenta én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -495,6 +503,9 @@ Send denne koden til den overordnede."</string>
     <string name="failed_obtain_permissions">Kunne ikke få tillatelser</string>
     <string name="failed_to_connect_hint">Sjekk nettverksinnstillingene dine og prøv igjen</string>
     <string name="failed_to_connect_text">Kunne ikke koble til nettverket</string>
+    <string name="fallback_menu_item_copy_link">Kopiér linken</string>
+    <string name="fallback_menu_item_open_in_browser">Åpne i nettleseren</string>
+    <string name="fallback_menu_item_share_link">Del link</string>
     <string name="fans">Følgere</string>
     <string name="fav_login_msg">Logg inn på din Mi-konto for å laste ned sanger</string>
     <string name="favorite_canceled">Fjernet fra favoritter</string>
@@ -504,7 +515,6 @@ Send denne koden til den overordnede."</string>
     <string name="favorite_to_playlist">Legg til i spilleliste</string>
     <string name="favorite_tracks">Favoritter</string>
     <string name="favorites">Favoritter</string>
-    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feed_back">Tilbakemelding</string>
     <string name="file_and_media_permissions_for_display">Adgang til filer: for skanning, visning og avspilling av lokale filer</string>
     <string name="file_not_found">Filen eksisterer ikke</string>
@@ -512,14 +522,14 @@ Send denne koden til den overordnede."</string>
     <string name="filter_by_duration">Etter lengde</string>
     <string name="filter_by_duration_max">%d min</string>
     <string name="filter_by_duration_min">%d sek</string>
-    <string name="filter_by_duration_prefix">Skjul filer som er kortere enn</string>
+    <string name="filter_by_duration_prefix">"Skjul filer som er kortere enn "</string>
     <string name="filter_by_duration_summary">Skjult korte lydfiler</string>
     <string name="filter_by_folder">Etter mappe</string>
     <string name="filter_by_folder_summary">Velg mapper å vise</string>
     <string name="filter_by_size">Etter størrelse</string>
     <string name="filter_by_size_max">%dMB</string>
     <string name="filter_by_size_min">%dKB</string>
-    <string name="filter_by_size_prefix">Skjul filer som er mindre enn</string>
+    <string name="filter_by_size_prefix">"Skjul filer som er mindre enn "</string>
     <string name="filter_by_size_summary">Skjult små lydfiler</string>
     <string name="filter_size_unit">%dKB</string>
     <string name="find_you_tunes">Finn låtene dine</string>
@@ -620,17 +630,17 @@ Send denne koden til den overordnede."</string>
     <string name="home_tab_recommend">På nett</string>
     <string name="home_tab_search">Søk</string>
     <string name="hot_icon_in_fast_indexer">H</string>
-    <string name="hungama_batch_download_alert_summary">Bare PRO-medlemmer kan laste ned flere sanger. Få et PRO-medlemskap nå?</string>
+    <string name="hungama_batch_download_alert_summary">Bare Gold-medlemmer kan laste ned flere sanger. Kjøpe Gold-medlemskap nå?</string>
     <string name="hungama_batch_download_alert_summary_toast">Få et abonnement for å laste ned hele spillelisten.</string>
-    <string name="hungama_download_subscription_toast">Abonner til Hungama Music for å laste ned denne sangen</string>
-    <string name="hungama_free_download_out_summary">Du kan ikke laste ned flere gratis sanger. Få et PRO-medlemskap for å kunne laste ned ubegrenset med sanger?</string>
+    <string name="hungama_download_subscription_toast">Abonner på hungama Music for å laste ned denne sangen</string>
+    <string name="hungama_free_download_out_summary">Du kan ikke laste ned flere gratis sanger. Kjøpe Gold-medlemskap for å laste ned ubegrenset med sanger?</string>
     <string name="hungama_free_download_out_summary_toast">Du har allerede lastet ned %d sanger. Få et abonnement for å laste ned flere.</string>
-    <string name="hungama_privacy_desc">Personvernerklæring for Hungama (valgfritt)</string>
-    <string name="hungama_privacy_tips_content">For å få tilgang til online innhold, må du godta <a href="/link/click">Hungama Personvernerklæring</a>.</string>
-    <string name="hungama_privacy_tips_title">Hungama Personvernerklæring</string>
-    <string name="hungama_subscribe_message">Kjøp PRO medlemskap for å laste ned musikk i høy kvalitet.</string>
-    <string name="hungama_subscribe_positive_button">Kjøp PRO medlemskap</string>
-    <string name="hungama_subscribe_title">PRO medlemskap</string>
+    <string name="hungama_privacy_desc">Personvernerklæring for hungama (valgfritt)</string>
+    <string name="hungama_privacy_tips_content">For å få tilgang til nettbasert innhold må du først godta <a href="/link/click">hungamas personvernerklæring</a>.</string>
+    <string name="hungama_privacy_tips_title">Personvernerklæring for hungama</string>
+    <string name="hungama_subscribe_message">Kjøp Gold-medlemskap for å laste ned musikk i høy kvalitet.</string>
+    <string name="hungama_subscribe_positive_button">Kjøp Gold-medlemskap</string>
+    <string name="hungama_subscribe_title">Gold-medlemskap</string>
     <string name="i_know">OK</string>
     <string name="icon_content_description">Dialogboksikon</string>
     <string name="imported">Importert</string>
@@ -775,6 +785,7 @@ Send denne koden til den overordnede."</string>
     <string name="middle_sound_quality">Standard</string>
     <string name="midnight">Natt</string>
     <string name="milink_unavaliable_please_update">"Mi Link isn't er ikke tilgjengelig. Oppdater MIUI."</string>
+    <string name="million_char">%s M</string>
     <string name="millions_songs">Millioner av sanger</string>
     <string name="missing_title">&lt;Ukjent></string>
     <string name="miuishare_account_login_ok">Logg inn</string>
@@ -866,6 +877,7 @@ Send denne koden til den overordnede."</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1003,7 +1015,7 @@ Send denne koden til den overordnede."</string>
     <string name="online_switch_confirm_title">Deaktivering av innholdstjenester på nett vil gjøre alle nettfunksjoner utilgjengelige. Deaktivere likevel?</string>
     <string name="online_switch_message">Å slå av internett-tjenester vil påvirke VIP-tjenester og anbefalinger. Slå av likevel?</string>
     <string name="online_switch_setting">Online innholdsinnstillinger</string>
-    <string name="only_pro_can_choose_hd_sound_quality">HD-lyd er bare tilgjengelig for PRO-medlemmer</string>
+    <string name="only_pro_can_choose_hd_sound_quality">HD-lyd er bare tilgjengelig for Gold-medlemmer</string>
     <string name="open_online_service">Du må skru på internett-tjenester for å bruke denne funksjonen. Skru på nå?</string>
     <string name="open_service">Skru på</string>
     <string name="open_settings">Innstillinger</string>
@@ -1111,7 +1123,7 @@ Send denne koden til den overordnede."</string>
     <string name="paused_waiting_for_network">Venter på tilkobling</string>
     <string name="paused_waiting_to_retry">Venter på å forsøke igjen</string>
     <string name="pay_now">Nåværende tjeneste</string>
-    <string name="payment_success_message">Takk! Betalingen har blitt behandlet. Nyt PRO-tjenestene.</string>
+    <string name="payment_success_message">Takk! Betalingen ble behandlet. Du kan nå bruke Gold-tjenestene.</string>
     <string name="payment_success_title">Gratulerer!</string>
     <string name="pending_apk">Avventer…</string>
     <string name="permission_declaration_message">Gi tilgang til lagring i Security > Permissions > Permissions > Storage > Music må kunne bruke Music normalt</string>
@@ -1150,6 +1162,7 @@ Send denne koden til den overordnede."</string>
     <string name="please_select_song">Velg en sang først</string>
     <string name="pm">PM</string>
     <string name="power_save_mode_dialog_msg">Batterisparer er på. Starte nedlasting nå?</string>
+    <string name="pre_watched">Sett</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="preset_music_playlist">Mi musikk-spilliste</string>
     <string name="priority_storage">Bruk eksternt SD-kort</string>
@@ -1160,6 +1173,7 @@ Send denne koden til den overordnede."</string>
     <string name="privacy_authorize_revoking">Tilbakekaller autorisasjonen…</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernerklæring</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musikk må samle inn nødvendige personopplysninger for å levere strømmetjenester på nett til deg. Du kan finne ut mer om hvordan vi håndterer informasjonen vi samler inn i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Mi Musikk under Innstillinger.
 Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du bruker Mi Musikk.
 Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data>"</string>
@@ -1168,7 +1182,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
 – Strømmetjenester på nett"</string>
     <string name="privacy_request_subtitle_offline">Velkommen til Mi Musikk! Denne appen tilbyr en lokal avspiller for lydfiler.</string>
     <string name="privacy_request_title">Vilkår og betingelser</string>
-    <string name="pro_member">PRO-medlem</string>
+    <string name="pro_member">Gold-medlem</string>
     <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Tillat endring av systeminnstillinger</string>
@@ -1179,7 +1193,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="pulluprefreshrecyclerview_loading_running">Laster…</string>
     <string name="qq_login_btn_content_description">Logg inn med QQ</string>
     <string name="queue_is_empty">Avspillingskøen er tom.</string>
-    <string name="read_and_agree_hungama_protocol">&lt;Data>Jeg har lest og godtar &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Hungamas personvernerklæring&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="read_and_agree_hungama_protocol">&lt;Data>Jeg har lest og godtar &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">hungamas personvernerklæring&lt;/a>&lt;/font>&lt;/Data></string>
     <string name="read_and_agree_joox_protocol">"&lt;Data>Jeg har lest og godtar &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">JOOX' personvernerklæring&lt;/a>&lt;/font>&lt;/Data>"</string>
     <string name="read_and_agree_mi_protocol">&lt;Data>Jeg har lest og godtar Xiaomis &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">brukeravtale&lt;/a>&lt;/font> og &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">personvernerklæring&lt;/a>&lt;/font>&lt;/Data></string>
     <string name="read_and_agree_protocol">Les og godta brukeravtalen og personvernerklæringen før du fortsetter.</string>
@@ -1189,6 +1203,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="recommend_songs_when_playing_audio_files">Få anbefalte sanger mens du hører på musikk</string>
     <string name="recommended_file_size_download_in_mobile">Bruke %s mobildata for å laste ned denne filen?</string>
     <string name="recommended_no_file_size_download_in_mobile">Bruke din mobile dataforbindelse for å laste ned denne filen?</string>
+    <string name="refresh">Oppdater</string>
     <string name="register_by_local_phone_long_text">Opprett konto</string>
     <string name="register_by_local_phone_short_text">Opprett konto</string>
     <string name="remove">Fjern</string>
@@ -1217,7 +1232,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="retry">Prøv igjen</string>
     <string name="retry_after_network_available">Kan ikke koble til nettverket. Kontroller tilkoblingen og prøv igjen.</string>
     <string name="retry_download">Prøv igjen</string>
-    <string name="revoke_upload_playlist_to_hungama_toast">Sanger på nett vil ikke synkroniseres med Hungama</string>
+    <string name="revoke_upload_playlist_to_hungama_toast">Sanger på nett synkroniseres ikke til hungama</string>
     <string name="ringtone_editing">Ringetoneredigerer</string>
     <string name="ringtone_not_support">Dette sangformatet støttes ikke</string>
     <string name="ringtone_selected">Valgt</string>
@@ -1253,6 +1268,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="search_instant_online_music">Online</string>
     <string name="search_menu_title">Søk</string>
     <string name="search_more">Mer</string>
+    <string name="search_recommend">Anbefalt</string>
     <string name="search_result_local_songs">Lokal</string>
     <string name="search_result_online_songs">Online</string>
     <string name="search_songs">Søk etter sanger</string>
@@ -1315,7 +1331,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="sleep_mode_canceled">Sovemodus er slått av</string>
     <string name="sleep_mode_summary">Stopp spilleren etter en gitt tid</string>
     <string name="sleep_mode_title">Innsovningsinnstilling</string>
-    <string name="sliding_pro_center">PRO-senter</string>
+    <string name="sliding_pro_center">hungama Gold</string>
     <string name="sns_access_token_expired_warning">Økten er utløpt. Logg inn på nytt for å koble til kontoen på nytt.</string>
     <string name="sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
     <string name="sns_sign_in">Andre måter å logge inn på</string>
@@ -1338,6 +1354,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Forbereder avspilling…</string>
     <string name="start_update">Installerer ny versjon…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -1430,6 +1447,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Valentinsdagen</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="thousand_char">%s K</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
@@ -1439,6 +1457,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
     <string name="time_to_upgrade">En oppdatering er tilgjengelig</string>
+    <string name="tips_click_here_to_continue">Trykk for å gjenoppta avspilling</string>
     <string name="title_online_fm_recommend">Utvalgt FM</string>
     <string name="title_online_recommend">Utvalgte spillelister</string>
     <string name="title_search_history">Søkelogg</string>
@@ -1451,8 +1470,8 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="toast_download_in_process">Nedlasting i gang</string>
     <string name="toast_favorite_has_been_added">Lagt til i spilleliste</string>
     <string name="toast_follow_success">Fulgt</string>
-    <string name="toast_hungama_vip_song">Denne sangen er bare tilgjengelig for PRO/medlemmer. Bli abonnent for å laste ned denne sangen.</string>
-    <string name="toast_is_pro">Du er allerede et PRO-medlem.</string>
+    <string name="toast_hungama_vip_song">Denne sangen er bare tilgjengelig for Gold-medlemmer. Kjøp abonnement for å laste ned denne sangen.</string>
+    <string name="toast_is_pro">Du er allerede Gold-medlem</string>
     <string name="toast_my_playlist_illegal_name">Tittelen på denne spillelisten er ikke gyldig. Lag et nytt navn på denne spillelisten.</string>
     <string name="toast_my_playlist_set_to_private">Spillelisten er nå privat. Andre personer kan ikke se den.</string>
     <string name="toast_my_playlist_set_to_public">Spillelisten er nå offentlig. Andre personer kan se den.</string>
@@ -1461,7 +1480,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="toast_new_playlist_name_too_long">Spillelistens navn er for langt</string>
     <string name="toast_normal_songs_for_download">Nedlastingskvalitet satt til Standard</string>
     <string name="toast_normal_songs_for_stream">Srømmekvalitet satt til Standard</string>
-    <string name="toast_not_pro">Denne funksjonen er bare tilgjengelig for PRO-medlemmer.</string>
+    <string name="toast_not_pro">Denne funksjonen er bare tilgjengelig for Gold-medlemmer</string>
     <string name="toast_playlist_has_been_added">Lagt til i kø</string>
     <string name="toast_playlist_has_been_private">Denne spillelisten er privat</string>
     <string name="toast_playlist_has_been_public">Denne spillelisten er offentlig</string>
@@ -1497,8 +1516,8 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="upload_favorite_setting_title">Synkroniser sanger</string>
     <string name="upload_playlist_to_hungama_negative_text">Ikke synkroniser</string>
     <string name="upload_playlist_to_hungama_positive_text">Synkroniser</string>
-    <string name="upload_playlist_to_hungama_title">Synkroniser sanger på nett med Hungama for å kunne få tilgang til dem på andre enheter du bruker Mi-kontoen på.</string>
-    <string name="upload_playlist_to_hungama_toast">Sanger på nett synkroniseres med Hungama</string>
+    <string name="upload_playlist_to_hungama_title">Synkroniser sanger på nett til hungama for å få tilgang til dem på andre enheter der du bruker Mi-kontoen din.</string>
+    <string name="upload_playlist_to_hungama_toast">Sanger på nett synkroniseres til hungama</string>
     <string name="user_agreement">Brukeravtale</string>
     <string name="user_agreement_hint_3rd_app">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> og Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-kontoens &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>, samt &lt;a href=%5$s>brukervilkårene for verifiseringstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
@@ -1509,6 +1528,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="user_agreement_hint_with_mobile">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, same &lt;a href=%3$s>brukervilkårene for verifikasjonstjenestene fra China Mobile&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_telecom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for kontoverifiseringstjenstene for eSurfing&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Jeg har lest og godtar Mi-kontoens &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>, samt &lt;a href=%3$s>brukervilkårene for verifiseringstjenestene fra China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="user_avatar_update_title">Endre profilbilde</string>
     <string name="user_avatar_uploading">Et øyeblikk…</string>
     <string name="user_experience_program_open">På grunn av opphavsrettsbegrensninger må du registrere deg i Brukeropplevelsesprogrammet for å kunne spille av nedlastede sanger. Det kan du gjøre i Innstillinger > Passord og sikkerhet > Personvern > Registrer deg i Brukeropplevelsesprogrammet.</string>
@@ -1530,7 +1550,7 @@ Hvis du ikke godtar de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i
     <string name="video_retry_btn">Prøv igjen</string>
     <string name="view_album">Vis album</string>
     <string name="vip_required">Få Premium Song Pack for å spille denne sangen. Hoppet over sangen nå.</string>
-    <string name="vip_required_with_song">%s er kun tilgjengelig for PRO-medlemmer. Denne sangen ble hoppet over for nå.</string>
+    <string name="vip_required_with_song">%s er bare tilgjengelig for Gold-medlemmer. Hopper over denne sangen for nå.</string>
     <string name="voice_search_first_hint">Prøv stemmesøk!</string>
     <string name="watch_video">Vis video</string>
     <string name="wednesday">Onsdag</string>
@@ -1546,5 +1566,16 @@ Trykk%s for å starte denne nedlastingen neste gang du er tilkoblet et Wi-Fi-net
     <string name="yesterday">I går</string>
     <string name="you_can_switch_mode_in_settings">Du kan bytte mellom moduser under Innstillinger</string>
     <string name="you_may_like">Kanskje du også vil like</string>
+    <string name="youtube_download_canl">Avbryt</string>
+    <string name="youtube_download_fail_net">Kunne ikke koble til nettverket. Kontrollér nettverksinnstillingene dine og prøv igjen.</string>
+    <string name="youtube_download_fail_source">En feil oppstod. Vent et minutt eller to og prøv igjen.</string>
+    <string name="youtube_download_fail_space">Kunne ikke laste ned. Ikke nok lagringsplass.</string>
+    <string name="youtube_download_fail_unknown">En feil oppstod. Vent et minutt eller to og prøv igjen.</string>
+    <string name="youtube_download_hint">Lyden fra denne videoen lagres på enheten din i MP3-format med videotittelen som filnavn. Laste ned nå?</string>
+    <string name="youtube_download_ing">Et øyeblikk…</string>
+    <string name="youtube_download_start">Last ned</string>
+    <string name="youtube_download_suc">Lastet ned</string>
     <string name="youtube_play_history">Avspillingshistorikk</string>
+    <string name="youtube_share_guide_tip">Du kan nå dele videoer med venner</string>
+    <string name="youtube_tab_explore">Oppdag</string>
 </resources>

@@ -30,9 +30,4 @@
         <item>Bakgrunn/Superbakgrunner</item>
         <item>Superbakgrunner;Bakgrunn;Dynamisk bakgrunn;3D-bakgrunn</item>
     </string-array>
-    <string-array name="settings_search_weather">
-        <item>Vær</item>
-        <item>Bakgrunn/Superbakgrunner/Vær</item>
-        <item>Vær;Værinfo;Superbakgrunn;Bakgrunn</item>
-    </string-array>
 </resources>

@@ -8,7 +8,7 @@
     <string name="cert_missing_error">Kunne ikke installere fordi sertifikatfilen ikke ble funnet.</string>
     <string name="cert_not_saved">Sertifikatet ble ikke installert.</string>
     <string name="cert_read_error">Kunne ikke installere fordi sertifikatfilen ikke kunne leses.</string>
-    <string name="cert_temp_error">Midlertidig feil. Prøv igjen senere.</string>
+    <string name="cert_temp_error">Midlertidig feil. Prøv på nytt senere.</string>
     <string name="cert_too_large_error">Kunne ikke installere fordi sertifikatet er for stort.</string>
     <string name="certificate">Sertifikat</string>
     <string name="certificate_capabilities_warning">Merk: Utstederen av dette sertifikatet kan inspisere all trafikk til og fra enheten.</string>

@@ -37,6 +37,12 @@
         <item>Mikrofon</item>
         <item>Systemlyder</item>
     </string-array>
+    <string-array name="screenrecorder_settings_sound_native">
+        <item>Ingen</item>
+        <item>Mikrofon</item>
+        <item>System</item>
+        <item>Begge</item>
+    </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>Intern lagring</item>
         <item>Ekstern lagring</item>

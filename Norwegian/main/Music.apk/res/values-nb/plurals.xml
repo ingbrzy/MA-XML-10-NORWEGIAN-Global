@@ -130,6 +130,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">Spol %d sekunder bakover</item>
         <item quantity="one">Spol %d sekund bakover</item>
     </plurals>
+    <plurals name="feed_play_times">
+        <item quantity="other">%s visninger</item>
+        <item quantity="one">%s visning</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d gratis nedlastninger igjen</item>
         <item quantity="one">%d gratis nedlastning igjen</item>

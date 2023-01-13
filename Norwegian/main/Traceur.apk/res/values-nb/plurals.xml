@@ -4,12 +4,4 @@
         <item quantity="other">%d nye varsler</item>
         <item quantity="one">%d nytt varsel</item>
     </plurals>
-    <plurals name="num_categories_selected">
-        <item quantity="other">%d er valgt</item>
-        <item quantity="one">%d er valgt</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheter er tilkoblet</item>
-        <item quantity="one">%1$d enhet er tilkoblet</item>
-    </plurals>
 </resources>

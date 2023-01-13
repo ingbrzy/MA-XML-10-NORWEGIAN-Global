@@ -56,6 +56,10 @@
         <item quantity="other">%1$d dager siden</item>
         <item quantity="one">%1$d dag siden</item>
     </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">Slette %1$d filer fra elle enhetene og nettskyen? Mi Drive-filer kan gjenopprettes fra nylig slettede elementer.</item>
+        <item quantity="one">Slette %1$d fil fra elle enhetene og nettskyen? Mi Drive-filer kan gjenopprettes fra nylig slettede elementer.</item>
+    </plurals>
     <plurals name="delete_files">
         <item quantity="other">Slette %1$d filer?</item>
         <item quantity="one">Slette %1$d fil?</item>
@@ -135,6 +139,18 @@
     <plurals name="more_gems">
         <item quantity="other">Samle &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> flere edelstener for å delta i trekningen.</item>
         <item quantity="one">Samle &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> flere edenstener for å delta i trekningen.</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">Kunne ikke synkronisere %1$s filer</item>
+        <item quantity="one">Kunne ikke synkronisere %1$s fil</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"Synkroniserte %1$s filer | "</item>
+        <item quantity="one">"Synkroniserte %1$s fil | "</item>
+    </plurals>
+    <plurals name="notification_title_syncing_with_count_no_network">
+        <item quantity="other">Venter på nettverkstilkobling. %1$s fil gjenstår.</item>
+        <item quantity="one">Venter på nettverkstilkobling. %1$s filer gjenstår.</item>
     </plurals>
     <plurals name="numSelectedFile">
         <item quantity="other">Valgte %1$d elementer</item>

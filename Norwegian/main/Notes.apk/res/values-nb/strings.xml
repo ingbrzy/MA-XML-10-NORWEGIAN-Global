@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
+    <string name="access_photos_and_videos">Få tilgang til bilder og videoer</string>
     <string name="action_collapse">Skjul</string>
     <string name="action_expand">Vis mer</string>
     <string name="action_folder_description">Se mapper</string>
@@ -61,6 +62,9 @@
     <string name="app_name">Notater</string>
     <string name="app_notification_info">Notater kjører i bakgrunnen</string>
     <string name="app_widget">Notater</string>
+    <string name="app_widget_name_create_note">Opprett notater</string>
+    <string name="app_widget_name_create_todo">Opprett oppgaver</string>
+    <string name="app_widget_name_fast_entry">Snarveier</string>
     <string name="app_widget_name_new">Notater</string>
     <string name="application_icon">App-ikon</string>
     <string name="audio_btn_mode_meeting">Møte</string>
@@ -498,6 +502,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -532,6 +537,7 @@
     <string name="new_audio_create_guide_tip">Trykk og hold for å opprette et talenotat</string>
     <string name="new_audio_create_talkback_des">Trykk for å opprette et talenotat. Trykk og hold for å opprette et talenotat. Slipp knappen for å avslutte opptaket og opprette notatet, eller skyv opp for å avbryte.</string>
     <string name="new_data_empty_note">Ingen elementer her enda</string>
+    <string name="new_lite_audio_create_talkback_des">Trykk for å opprette et notat</string>
     <string name="night">Kveld</string>
     <string name="no_network">Kan ikke koble til nettverket</string>
     <string name="noon">Midt på dagen</string>
@@ -563,6 +569,7 @@
     <string name="note_write_hint">Start skriving</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Notater er en systemapp. Du kan ikke bruke denne appen etter at du har avinstallert den.</string>
     <string name="notes_description_title">Avinstallere Notater?</string>
     <string name="notification_content_add_todo_from_other_app">Du la til en ny oppgave. Trykk for å se.</string>
@@ -623,6 +630,8 @@
     <string name="permission_microphone_desc">For å spille inn talenotater</string>
     <string name="permission_network_for_cloud_desc">For å synkronisere notater med skyen må du koble til internett. Mobildata kan bli brukt for å synkronisere elementer. Koble til nå?</string>
     <string name="permission_phone_state_desc">For å avslutte opptak av talenotater under samtaler</string>
+    <string name="permission_photos_desc">For å legge til bilder i notater</string>
+    <string name="permission_photos_desc_pad">For å legge til bilder i notater</string>
     <string name="permission_read_contact_desc">Tilknytte notater oppretter under samtaler med kontakter</string>
     <string name="permission_storage_desc">For å lagre notater som bilder</string>
     <string name="permission_storage_desc_new_v12">For å legge til bilder i notater og lagre notater som bilder</string>
@@ -725,6 +734,7 @@
     <string name="search_setting_description">Søk tekst i notatene dine</string>
     <string name="select_account_prompt">Synkroniser notater</string>
     <string name="send">Send</string>
+    <string name="send_notifications_for_reminder">For å sende påminnelser</string>
     <string name="set_alarm_description">Still alarm</string>
     <string name="setting_big_screen_layout_columns">Sidelinje</string>
     <string name="setting_big_screen_layout_flat">Fliser</string>
@@ -868,6 +878,7 @@ Tillat Notater å lese kontaktene dine og finne kontoer på enheten."</string>
 Tillat Notater å lese innholdet på SD-kortet."</string>
     <string name="toast_refuse_to_use_phone_state">"Telefontillatelser er begrenset.
 Tillat Notater å lese telefonstatus og identitet."</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt">Gi denne appen tilgang til bildene dine for å kunne legge til bilder i notater</string>
     <string name="toast_refuse_to_use_record_audio">"Mikrofontillatelser er begrenset.
 Tillat Notater å spille inn lyd."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Gi Notater tillatelse til å få tilgang til lagring for å kunne legge til bilder i notater</string>
@@ -974,6 +985,9 @@ Tillat Notater å spille inn lyd."</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
+    <string name="widget_all_notes_name">Alle notater</string>
+    <string name="widget_all_todo_name">Alle oppgaver</string>
+    <string name="widget_click_check">Trykk for å vise</string>
     <string name="widget_content_loading">Et øyeblikk…</string>
     <string name="widget_create_select_size">Velg størrelse</string>
     <string name="widget_empty_content">Trykk for å velge et notat</string>
@@ -990,5 +1004,7 @@ Tillat Notater å spille inn lyd."</string>
     <string name="widget_size_item_super_big">Ekstra stor</string>
     <string name="widget_size_not_support">Ekstra store miniprogrammer støttes ikke på denne enheten</string>
     <string name="widget_take_notes_title">Notater</string>
+    <string name="widget_total_notes">%1$d</string>
+    <string name="widget_total_todo">%1$d</string>
     <string name="yesterday">I går</string>
 </resources>

@@ -63,6 +63,10 @@
     <string name="account_user_phone">Telefonnummer for gjenoppretting</string>
     <string name="account_user_region">Område</string>
     <string name="action_add_phone">Legg til telefonnummer</string>
+    <string name="action_setting_ab_playing">Looper…</string>
+    <string name="action_setting_ab_reset">Tilbakestill</string>
+    <string name="action_setting_ab_set_end">Sett endepunkt</string>
+    <string name="action_setting_ab_set_start">Sett startpunkt</string>
     <string name="action_update_phone">Endre telefonnummer</string>
     <string name="actionbar_button_up_description">Tilbake</string>
     <string name="activate_email_notice">Sørg for å aktivere kontoen din innen 24 timer</string>
@@ -135,6 +139,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">DIREKTE</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
@@ -180,6 +185,7 @@
     <string name="cloud_online_player">Spiller</string>
     <string name="cloud_online_switch">Tilpassede anbefalinger</string>
     <string name="cloud_online_switch_open_time">Vis personlig tilpassede innholdsanbefalinger</string>
+    <string name="cmp_tier_privacy_policy">Personvernerklæringer for tredjeparter</string>
     <string name="collect_diagnosis_log">Hent logger</string>
     <string name="columbus_ad_flag_text">ANNONSE</string>
     <string name="columbus_skip_ad">Hopp over</string>
@@ -268,8 +274,11 @@ Send denne koden til den overordnede."</string>
     <string name="dialog_clearn_title">Tøm historikk</string>
     <string name="dialog_confirm">OK</string>
     <string name="dialog_delete_bookmarks_content">Slette bokmerke nå?</string>
+    <string name="dialog_disagree_continue">Fortsett</string>
+    <string name="dialog_disagree_info">Hvis du ikke godtar personvernerklæringen for Mi Video, vil du ikke kunne bruke våre nettbaserte tjenester, og du vil bare kunne vise videoer som er lagret på enheten din. Fortsette likevel?</string>
     <string name="dialog_disagree_privacychange_info">Du kan ikke bruke Mi Videos nettbaserte strømmetjenester hvis du ikke godtar personvernerklæringen. Trykk på «Avbryt» for å gå tilbake, eller «Ikke godta» for å fortsette og bare bruke Mi Video som lokal avspiller.</string>
     <string name="dialog_disagree_privacychange_title">Ikke godta?</string>
+    <string name="dialog_disagree_title">Personvernerklæring</string>
     <string name="dialog_edit_bookmarks">Rediger bokmerke</string>
     <string name="dialog_edit_hint_bookmarks_name">Bokmerkenavn</string>
     <string name="dialog_edit_hint_bookmarks_url">URL</string>
@@ -329,7 +338,6 @@ Send denne koden til den overordnede."</string>
     <string name="download_paused">Satt på pause</string>
     <string name="download_pending">Venter…</string>
     <string name="download_power_off_tips">Denne funksjonen er ikke tilgjengelig nå</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_retry">Prøv igjen</string>
     <string name="download_unable_tip">Kan ikke laste ned dette elementet</string>
     <string name="download_video">Laster ned video</string>
@@ -346,23 +354,39 @@ Send denne koden til den overordnede."</string>
     <string name="evening">Ettermiddag</string>
     <string name="exceed_binded_phone_times_notice">Dette telefonnummeret er allerede knyttet til en annen Mi-konto.</string>
     <string name="exit">Avslutt</string>
+    <string name="exo_controls_cc_disabled_description">Slå på undertekstene</string>
+    <string name="exo_controls_cc_enabled_description">Slå av undertekstene</string>
     <string name="exo_controls_fastforward_description">Spol forover</string>
-    <string name="exo_controls_fullscreen_description">Fullskjermmodus</string>
-    <string name="exo_controls_next_description">Neste spor</string>
+    <string name="exo_controls_fullscreen_enter_description">Se i fullskjerm</string>
+    <string name="exo_controls_fullscreen_exit_description">Avslutt fullskjerm</string>
+    <string name="exo_controls_hide">Skjul avspillingskontrollene</string>
+    <string name="exo_controls_next_description">Neste</string>
+    <string name="exo_controls_overflow_hide_description">Skjul flere innstillinger</string>
+    <string name="exo_controls_overflow_show_description">Vis flere innstillinger</string>
     <string name="exo_controls_pause_description">Sett på pause</string>
     <string name="exo_controls_play_description">Spill av</string>
-    <string name="exo_controls_previous_description">Forrige spor</string>
+    <string name="exo_controls_playback_speed">Hastighet</string>
+    <string name="exo_controls_playback_speed_normal">Normal</string>
+    <string name="exo_controls_previous_description">Forrige</string>
     <string name="exo_controls_repeat_all_description">Gjenta alle</string>
     <string name="exo_controls_repeat_off_description">Ikke gjenta noen</string>
     <string name="exo_controls_repeat_one_description">Gjenta én</string>
     <string name="exo_controls_rewind_description">Spol tilbake</string>
-    <string name="exo_controls_shuffle_description">Tilfeldig rekkefølge</string>
+    <string name="exo_controls_seek_bar_description">Avspillingsfremdrift</string>
+    <string name="exo_controls_settings_description">Innstillinger</string>
+    <string name="exo_controls_show">Vis avspillingskontrollene</string>
+    <string name="exo_controls_shuffle_off_description">Tilfeldig rekkefølge er av</string>
+    <string name="exo_controls_shuffle_on_description">Tilfeldig rekkefølge er på</string>
     <string name="exo_controls_stop_description">Stopp</string>
+    <string name="exo_controls_vr_description">VR-modus</string>
     <string name="exo_download_completed">Nedlastingen er fullført</string>
     <string name="exo_download_description">Last ned</string>
     <string name="exo_download_downloading">Laster ned</string>
     <string name="exo_download_failed">Nedlastingen mislyktes</string>
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
+    <string name="exo_download_paused">Nedlastinger er satt på pause</string>
+    <string name="exo_download_paused_for_network">Nedlastinger venter på nettverket</string>
+    <string name="exo_download_paused_for_wifi">Nedlastinger venter på Wi-FI-tilkobling</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_media_action_repeat_all_description">Gjenta alle</string>
@@ -371,6 +395,10 @@ Send denne koden til den overordnede."</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
     <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativt spor</string>
+    <string name="exo_track_role_closed_captions">Teksting</string>
+    <string name="exo_track_role_commentary">Kommentarer</string>
+    <string name="exo_track_role_supplementary">Tilleggsspor</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -390,6 +418,7 @@ Send denne koden til den overordnede."</string>
     <string name="fallback_menu_item_copy_link">Kopiér linken</string>
     <string name="fallback_menu_item_open_in_browser">Åpne i nettleseren</string>
     <string name="fallback_menu_item_share_link">Del link</string>
+    <string name="fast_channel_popular">Populære kanaler</string>
     <string name="favor_movie">Filmer</string>
     <string name="favor_online_video">Videoer</string>
     <string name="favor_playlist">Spillelister</string>
@@ -399,6 +428,18 @@ Send denne koden til den overordnede."</string>
     <string name="favorite_fail">Kunne ikke legge til i favoritter. Prøv igjen.</string>
     <string name="favorite_success">Lagt til i favoritter</string>
     <string name="fcm_push_title">Populære videoer</string>
+    <string name="fcmpts_dialog_continue">Se</string>
+    <string name="fcmpts_dialog_not_interested">Nei, takk</string>
+    <string name="fcmpts_dialog_two" formatted="false">Se %d flere sekunder med %d mer video for å få en Mi Store-kupong</string>
+    <string name="fcmpts_popup_final">Innløst! Trykk for å hente belønninger.</string>
+    <string name="fcmpts_popup_final_redeem">Løs inn</string>
+    <string name="fcmpts_popup_four" formatted="false">Innløst! Se %d sekunder med %d mer video for å få en Mi Store-kupong.</string>
+    <string name="fcmpts_popup_one" formatted="false">Se %d videoer i dag for [ få en Mi Store-kupong med %d poeng</string>
+    <string name="fcmpts_popup_one_cts">Se</string>
+    <string name="fcmpts_popup_three" formatted="false">Sett i %d skunder. Du har fått %d poeng!</string>
+    <string name="fcmpts_popup_three_claim">Innløs</string>
+    <string name="fcmpts_popup_three_login_claim">Logg på</string>
+    <string name="fcmpts_popup_two" formatted="false">Se denne videoen i %d sekunder for å få %d poeng</string>
     <string name="feedback">Tilbakemelding</string>
     <string name="feedback_activity_title">Tilbakemelding</string>
     <string name="feedback_contact_empty">Skriv inn kontaktinformasjonen din</string>
@@ -1029,6 +1070,7 @@ for videoer"</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1112,6 +1154,7 @@ for videoer"</string>
     <string name="online_play_start_ready_loading_tip_kb">Laster inn %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Laster inn %.2f MB/s</string>
     <string name="online_play_title">Skriv inn URL</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Nylige abonnement</string>
     <string name="order_recently_updated">Nylig oppdatert</string>
     <string name="out_of_memory_background_playback_is_suspended">Satte avspilling i bakgrunnen på pause på grunn av utilstrekkelig minne</string>
@@ -1463,6 +1506,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="plus_shortcut_existed">Snarveien finnes allerede</string>
     <string name="plus_sort_title">Sorter</string>
     <string name="plus_sort_type_default">Standard</string>
+    <string name="plus_sort_type_duration">Lengde</string>
     <string name="plus_sort_type_name">Navn</string>
     <string name="plus_sort_type_size">Størrelse</string>
     <string name="plus_sort_type_time">Tid</string>
@@ -1508,6 +1552,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="recommend_online_switch">Anbefalinger på nett</string>
     <string name="recommend_online_tips">Slå på for å motta online videoanbefalinger</string>
     <string name="recommend_page_replay">SPILL AV PÅ NYTT</string>
+    <string name="recommend_slide_to_more">Sveip for mer</string>
     <string name="recommend_switch_alert">Gå til innstillinger i Mi Video for å fjerne denne delen</string>
     <string name="recommend_to_you">Anbefalt til deg</string>
     <string name="reload_sub_title">Trykk for å prøve igjen.</string>
@@ -1609,6 +1654,7 @@ Bedre tilpasse tjenestene for enheten din
     <string name="sns_sign_in">Andre måter å logge inn på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Lagt til i køen. Sjekk fremdriften under Profil > Nedlastinger.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Intern lagring</string>
     <string name="submit">Send inn</string>
@@ -1741,12 +1787,14 @@ Bedre tilpasse tjenestene for enheten din
     <string name="tip_subscribe_guide_hint_a">Vis skapere fra dine Google-abonnementer</string>
     <string name="tip_subscribe_guide_hint_b">Vis oppdateringer fra YouTube-kanalene du har abonnert på uten annonser</string>
     <string name="tip_tap_download_button">%d. Trykk på \"Last ned\"</string>
+    <string name="title_ab_loop">A-B-loop</string>
     <string name="title_bookmarks">Bokmerker</string>
     <string name="title_continue_to_borwser">Åpne i nettleser</string>
     <string name="title_download_setting">Nedlastingsinnstillinger</string>
     <string name="title_history">Historikk</string>
     <string name="title_mangotv_history_sub" formatted="false">%s (Episode %d)</string>
     <string name="title_mangotv_subtitle_language">Undertekstspråk</string>
+    <string name="title_more_wonderful_smallvideo">Flere korte videoer</string>
     <string name="title_publisher">Skapere</string>
     <string name="title_select_directory">Velg mappe</string>
     <string name="title_selected">Valgt</string>
@@ -1879,6 +1927,11 @@ Bedre tilpasse tjenestene for enheten din
     <string name="welcome_tip_into_mivideo">Kom i gang</string>
     <string name="welcome_tip_skip">Hopp over</string>
     <string name="welcome_tip_title">Velkommen til Mi Video</string>
+    <string name="widget_add_dialog_button_add">Legg til</string>
+    <string name="widget_add_dialog_button_cancel">Avbryt</string>
+    <string name="widget_add_dialog_desc_local">Med denne widgeten kan du spille av lyd- og bildefiler som er lagret på enheten din med ett trykk fra startskjermen din. Legge til nå?</string>
+    <string name="widget_add_dialog_desc_online">Med denne widgeten kan du se dagens populære videoer med ett trykk fra startskjermen din. Legge til nå?</string>
+    <string name="widget_add_dialog_title">Legg til widget</string>
     <string name="widget_local_video">Lokale videoer</string>
     <string name="widget_local_video_click">Trykk for å vise videoer som er lagret på enheten din</string>
     <string name="widget_more_channel">Flere kanaler</string>

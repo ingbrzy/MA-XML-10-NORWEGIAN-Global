@@ -40,17 +40,33 @@
         <item quantity="other">Se %d svar</item>
         <item quantity="one">Se %d svar</item>
     </plurals>
+    <plurals name="dialog_app_rating_choose_star">
+        <item quantity="other">%s stjerner valgt</item>
+        <item quantity="one">%s stjerne valgt</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder fremover</item>
+        <item quantity="one">Spol %d sekund fremover</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder bakover</item>
+        <item quantity="one">Spol %d sekund bakover</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">Se %s flere sekunder av en video for å få poeng og innløse belønninger</item>
+        <item quantity="one">Se %s sekund til av en video for å få poeng og innløse belønninger</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Går tilbake til startside om %1$d sekunder…</item>
         <item quantity="one">Går tilbake til startside om %1$d sekund…</item>
     </plurals>
-    <plurals name="follower">
-        <item quantity="other">%d følgere</item>
-        <item quantity="one">%d følger</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s visninger</item>
+        <item quantity="one">%s visning</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 time</item>
@@ -68,9 +84,79 @@
         <item quantity="other">om %d minutter</item>
         <item quantity="one">om 1 minutt</item>
     </plurals>
+    <plurals name="incentive_dialog_congratulation_get_credits_title">
+        <item quantity="other">Du har fått %d poeng!</item>
+        <item quantity="one">Du har fått %d poeng!</item>
+    </plurals>
+    <plurals name="incentive_dialog_credits">
+        <item quantity="other">%d poeng</item>
+        <item quantity="one">%d poeng</item>
+    </plurals>
+    <plurals name="incentive_dialog_login_and_get_credits_message">
+        <item quantity="other">Logg på for å avhente og få %d ekstra poeng</item>
+        <item quantity="one">Logg på for å avhente og få %d ekstra poeng</item>
+    </plurals>
+    <plurals name="incentive_dialog_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="incentive_guide_all_time_tip">
+        <item quantity="other">Se %d minutter totalt for å få poeng! Fullføre oppgaven nå?</item>
+        <item quantity="one">Se %d minutt totalt for å få poeng! Fullføre oppgaven nå?</item>
+    </plurals>
+    <plurals name="incentive_guide_coins_tip">
+        <item quantity="other">"Du har %d poeng du kan avhente
+Bare tilgjengelig i dag"</item>
+        <item quantity="one">"Du har %d poeng du kan avhente
+Bare tilgjengelig i dag"</item>
+    </plurals>
+    <plurals name="incentive_guide_current_time_tip">
+        <item quantity="other">Du har sett %d minutter i dag</item>
+        <item quantity="one">Du har sett %d minutt i dag</item>
+    </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Delt. Du har fått %d poeng.</item>
+        <item quantity="one">Delt. Du har fått %d poeng.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Abonnert. Du har fått %d poeng.</item>
+        <item quantity="one">Abonnert. Du har fått %d poeng.</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_begin">
+        <item quantity="other">Få %d poeng!</item>
+        <item quantity="one">Få %d poeng!</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_finish">
+        <item quantity="other">Dagens oppgaver er fullført! Du har fått %d poeng.</item>
+        <item quantity="one">Dagens oppgaver er fullført! Du har fått %d poeng.</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_of_one">
+        <item quantity="other">Du har sett %1$1ds og tjent %2$2d poeng!</item>
+        <item quantity="one">Du har sett %1$1ds og tjent %2$2d poeng!</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip1">
+        <item quantity="other">Se en tilfeldig video for å få %d poeng</item>
+        <item quantity="one">Se en tilfeldig video for å få %d poeng</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip2">
+        <item quantity="other">Se %1$1d sekunder av en video for å tjene %2$2d poeng</item>
+        <item quantity="one">Se %1$1d sekunder av en video for å tjene %2$2d poeng</item>
+    </plurals>
+    <plurals name="incentive_toast_share_success">
+        <item quantity="other">Fikk %d poeng. Fortsett å dele for å få flere.</item>
+        <item quantity="one">Fikk %d poeng. Fortsett å dele for å få flere.</item>
+    </plurals>
+    <plurals name="incentive_toast_subscribe_success">
+        <item quantity="other">Fikk %d poeng. Fortsett å abonnere for å få flere.</item>
+        <item quantity="one">Fikk %d poeng. Fortsett å abonnere for å få flere.</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="local_diversion_video_number">
+        <item quantity="other">%d videoer</item>
+        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d mapper</item>
@@ -124,6 +210,18 @@
         <item quantity="other">%d nye varsler</item>
         <item quantity="one">%d nytt varsel</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d sanger</item>
+        <item quantity="one">%d sang</item>
+    </plurals>
+    <plurals name="new_incentive_toast_share_success">
+        <item quantity="other">Delt. Du har fått %d poeng. Hent dem i poengsenteret.</item>
+        <item quantity="one">Delt. Du har fått %d poeng. Hent det i poengsenteret.</item>
+    </plurals>
+    <plurals name="new_incentive_toast_subscribe_success">
+        <item quantity="other">Abonnement aktivert. Du har fått %d poeng. Hent dem i poengsenteret.</item>
+        <item quantity="one">Abonnement aktivert. Du har fått %d poeng. Hent det i poengsenteret.</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Innholdet ditt inneholder elementer (%1$s) som bryter med standardene i samfunnet vårt. Kontoen din er suspendert i %2$d dager til %3$s.</item>
         <item quantity="one">Innholdet ditt inneholder elementer (%1$s) som bryter med standardene i samfunnet vårt. Kontoen din er suspendert i %2$d dag til %3$s.</item>
@@ -151,6 +249,10 @@
     <plurals name="plus_edit_top_titletext">
         <item quantity="other">Valgte %s elementer</item>
         <item quantity="one">Valgte %s element</item>
+    </plurals>
+    <plurals name="plus_local_edit_delete_confirm_text">
+        <item quantity="other">Slette %s filer permanent nå?</item>
+        <item quantity="one">Slette %s fil permanent nå?</item>
     </plurals>
     <plurals name="plus_player_subtitle_online_size">
         <item quantity="other">Filstørrelse: %.2f Kb</item>
@@ -195,6 +297,14 @@
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Legg til opptil %d bokmerker</item>
         <item quantity="one">Legg til opptil %d bokmerke</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">Skjule %d valgte filer?</item>
+        <item quantity="one">Skjule %d valgt fil?</item>
+    </plurals>
+    <plurals name="video_like_text">
+        <item quantity="other">%s liker</item>
+        <item quantity="one">%s liker</item>
     </plurals>
     <plurals name="video_view_count">
         <item quantity="other">%d visninger</item>

@@ -68,7 +68,7 @@
         <item>Sky;Sikkerhetskopi;Skytjenester;Xiaomi Cloud;Startskjerm;Oppsett;Apper;Innstillinger;Sikkerhetskopieringsfrekvens;Administrer sikkerhetskopier;Gjenopprett</item>
     </string-array>
     <string-array name="settings_search_browser">
-        <item>Synkroniser nettleser med Xiaomi Cloud</item>
+        <item>Synkroniser Nettleser med Xiaomi Cloud</item>
         <item>Skru på synkronisering</item>
         <item>Nettleser;Sky;Synkroniser;Skytjenester;Xiaomi Cloud</item>
     </string-array>

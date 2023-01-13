@@ -43,6 +43,7 @@ vil denne funksjonen bli lagt til Andre område automatisk."</string>
     <string name="air_space_exit">Gå ut av område</string>
     <string name="air_space_setting">Områdeinnstillinger</string>
     <string name="airspace_users_full">Kunne ikke opprette nytt Arbeidsområde</string>
+    <string name="alwaysUsePrompt">Husk valgene mine</string>
     <string name="am">AM</string>
     <string name="appData">Installerte apper</string>
     <string name="app_name">Sikkerhetskjernekomponent</string>
@@ -167,7 +168,7 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="ent_next_step">Neste</string>
     <string name="ent_privacy_policy_notice">* Personlige data i denne modusen blir samlet inn i henhold til policyene som er etablert av selskapet ditt. Xiaomi samler ikke inn personlige data i denne modusen.</string>
     <string name="enter_air_space">Gå til Arbeidsområde</string>
-    <string name="enterprise_mode">Organisasjonsmodus</string>
+    <string name="enterprise_mode">Enterprise-modus</string>
     <string name="entrance_reopen_toast_msg">Viser snarvei til Andre område grunnet forskjellige passordtyper</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
@@ -264,8 +265,7 @@ Kontroller at navnet på selskapet er riktig. Les og godta de relaterte personve
     <string name="green_guard_title3">Behandle apper</string>
     <string name="greenguard_child_des">Administrer enhetene til venner og familie</string>
     <string name="greenguard_child_des_title">Skann QR-kode for å legge til enhet</string>
-    <string name="greenguard_functional_description">"Administrer enheter eksternt, se plasseringsinfo,
-kontroller installerte apper og begrens bruk"</string>
+    <string name="greenguard_functional_description">Administrer enheter eksternt, vis plasseringsinfo og kontroller installerte apper</string>
     <string name="greenguard_install_cancle">Nei takk</string>
     <string name="greenguard_install_confirm">Installer</string>
     <string name="greenguard_install_message">Familievakt er en system-app. Du trenger ikke internett for å installere den.</string>
@@ -692,6 +692,7 @@ for å gå inn i Andre område fra Låseskjerm"</string>
     <string name="xspace_guide_description">"Hver konto
 fortjener sin egen app"</string>
     <string name="xspace_guide_title">Prøv dobbeltapper</string>
+    <string name="xspace_head">Dobbeltapp</string>
     <string name="xspace_header">Doblbeltapper</string>
     <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_complete">&lt;font>Dobbeltapp opprettet. &lt;/font>&lt;font color=#0D84FF>Åpne nå&lt;/font>.</string>
@@ -707,6 +708,7 @@ fortjener sin egen app"</string>
     <string name="xspace_notification_error">Logg inn på dobbel WeChat og prøv igjen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Slett dobbeltappkontoer</string>
+    <string name="xspace_resolver_activity_title">Velg app</string>
     <string name="xspace_setting_label">Innstillinger for dobbeltapp</string>
     <string name="xspace_settins">Angi</string>
     <string name="xspace_start">Opprett</string>

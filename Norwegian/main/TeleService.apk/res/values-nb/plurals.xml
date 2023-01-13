@@ -36,20 +36,6 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
-    <plurals name="alert_dialog_exit_ecm">
-        <item quantity="other">Telefonen er i nødsamtalemodus i %s minutter. Når telefonen er i denne modusen, kan du ikke bruke apper som krever datatilkobling. Vil du avslutte nå?</item>
-        <item quantity="one">Telefonen er i nødsamtalemodus i %s minutt. Når telefonen er i denne modusen, kan du ikke bruke apper som krever datatilkobling. Vil du avslutte nå?</item>
-    </plurals>
-    <plurals name="alert_dialog_exit_ecm_without_data_restriction_hint">
-        <item quantity="other">"Telefonen kommer til å være i modus for tilbakeringing av nødanrop i %s minutter.
-Vil du avslutte nå?"</item>
-        <item quantity="one">"Telefonen kommer til å være i modus for tilbakeringing av nødanrop i %s minutt.
-Vil du avslutte nå?"</item>
-    </plurals>
-    <plurals name="alert_dialog_not_avaialble_in_ecm">
-        <item quantity="other">Den valgte handlingen er ikke tilgjengelig i nødsamtalemodus. Telefonen er i nødsamtalemodus i %s minutter. Vil du avslutte nå?</item>
-        <item quantity="one">Den valgte handlingen er ikke tilgjengelig i nødsamtalemodus. Telefonen er i denne modusen i %s minutt. Vil du avslutte nå?</item>
-    </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="other">forsinkelse: %d sekunder</item>
         <item quantity="one">forsinkelse: %d sekund</item>
@@ -102,10 +88,6 @@ Vil du avslutte nå?"</item>
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d nye varsler</item>
-        <item quantity="one">%d nytt varsel</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
@@ -115,9 +97,5 @@ Vil du avslutte nå?"</item>
 %d gjenstående forsøk."</item>
         <item quantity="one">"
 %d gjenstående forsøk."</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheter er tilkoblet</item>
-        <item quantity="one">%1$d enhet er tilkoblet</item>
     </plurals>
 </resources>

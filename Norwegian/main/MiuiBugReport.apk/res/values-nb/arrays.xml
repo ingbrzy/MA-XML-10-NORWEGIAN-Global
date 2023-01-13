@@ -4,4 +4,69 @@
         <item>Mann</item>
         <item>Kvinne</item>
     </string-array>
+    <string-array name="customer_service">
+        <item>@string/customer_service_apply</item>
+        <item>@string/customer_service_complain</item>
+        <item>@string/customer_service_station</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality">
+        <item>Dårlig wifi-forbindelse. Bytt trådløst bånd eller start ruteren på nytt.</item>
+        <item>Får ikke tilgang til nettverket. Koble til wifi eller start ruteren på nytt.</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality_china">
+        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity">
+        <item>Autentisering kreves for nettverkstilgang</item>
+        <item>Nettverksadgang er begrenset. Juster klokkeslettet på denne enheten og se sjekk ruternes nettverksinnstillinger.</item>
+        <item>Nettverksfeil. Sjekk HTTP-proxyinnstillinger.</item>
+        <item>Nettverksfeil. Sjekk om ruteren har tilgang til Internett.</item>
+        <item>Kan ikke koble til nettverket. Koble til wifi eller start ruteren på nytt.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity_china">
+        <item>Autentisering kreves for nettverkstilgang</item>
+        <item>Nettverksadgang er begrenset. Juster klokkeslettet på denne enheten og se sjekk ruternes nettverksinnstillinger.</item>
+        <item>Nettverksfeil. Sjekk HTTP-proxyinnstillinger.</item>
+        <item>Nettverksfeil. Sjekk om ruteren har tilgang til Internett.</item>
+        <item>"Can't connect to the network. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns">
+        <item>DNS-serverfeil. Sjekk ruterens DNS-konfigurasjon.</item>
+        <item>Store forsinkelser fra DNS-server. Sjekk ruterens DNS-konfigurasjon.</item>
+        <item>Får ikke tilgang til gateway. Koble til wifi eller start ruteren på nytt.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns_china">
+        <item>DNS-serverfeil. Sjekk ruterens DNS-konfigurasjon.</item>
+        <item>Store forsinkelser fra DNS-server. Sjekk ruterens DNS-konfigurasjon.</item>
+        <item>"Can't access gateway. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_latency">
+        <item>Store forsinkelser fra det lokale nettverket. Start ruteren på nytt eller koble til et annet nettverk.</item>
+        <item>Store forsinkelser fra Internett. Sjekk operatørens nettverksinnstillinger eller koble til et annet nettverk.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_parameters">
+        <item>Bytt fra statisk IP til DHCP</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol">
+        <item>Feil i nettverksprotokoll. Koble til wifi på nytt eller start enheten på nytt.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol_china">
+        <item>Network protocol error. Reconnect to WLAN or reboot the device.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi">
+        <item>Gå til et område med bedre wifi-dekning</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi_china">
+        <item>Move to an area with better WLAN coverage</item>
+    </string-array>
+    <string-array name="net_diag_err_network_topology">
+        <item>Sjekk ruterens DHCP-innstillinger og kablede tilkobling</item>
+    </string-array>
+    <string-array name="reproductivity">
+        <item>@string/feedback_reproductivity_everytime</item>
+        <item>@string/feedback_reproductivity_often</item>
+        <item>@string/feedback_reproductivity_occasionally</item>
+        <item>@string/feedback_reproductivity_once</item>
+    </string-array>
 </resources>

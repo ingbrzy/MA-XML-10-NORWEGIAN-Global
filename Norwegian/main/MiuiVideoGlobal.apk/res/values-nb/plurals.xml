@@ -44,6 +44,18 @@
         <item quantity="other">%s stjerner valgt</item>
         <item quantity="one">%s stjerne valgt</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder fremover</item>
+        <item quantity="one">Spol %d sekund fremover</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder bakover</item>
+        <item quantity="one">Spol %d sekund bakover</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">Se %s flere sekunder av en video for å få poeng og innløse belønninger</item>
+        <item quantity="one">Se %s sekund til av en video for å få poeng og innløse belønninger</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Går tilbake til startside om %1$d sekunder…</item>
         <item quantity="one">Går tilbake til startside om %1$d sekund…</item>
@@ -51,6 +63,10 @@
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s visninger</item>
+        <item quantity="one">%s visning</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 time</item>
@@ -194,6 +210,10 @@ Bare tilgjengelig i dag"</item>
         <item quantity="other">%d nye varsler</item>
         <item quantity="one">%d nytt varsel</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d sanger</item>
+        <item quantity="one">%d sang</item>
+    </plurals>
     <plurals name="new_incentive_toast_share_success">
         <item quantity="other">Delt. Du har fått %d poeng. Hent dem i poengsenteret.</item>
         <item quantity="one">Delt. Du har fått %d poeng. Hent det i poengsenteret.</item>
@@ -277,6 +297,10 @@ Bare tilgjengelig i dag"</item>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Legg til opptil %d bokmerker</item>
         <item quantity="one">Legg til opptil %d bokmerke</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">Skjule %d valgte filer?</item>
+        <item quantity="one">Skjule %d valgt fil?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s liker</item>

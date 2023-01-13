@@ -36,6 +36,10 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
+    <plurals name="backup_action_long_time_not_backup_content">
+        <item quantity="other">Det ser ut til at du ikke har sikkerhetskopiert elementer i %s uker. Opprett sikkerhetskopieringer for å unngå at du mister noe viktig.</item>
+        <item quantity="one">Det ser ut til at du ikke har sikkerhetskopiert elementer i %s uke. Opprett sikkerhetskopieringer for å unngå at du mister noe viktig.</item>
+    </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="other">%1$s sikkerhetskopier (%2$s)</item>
         <item quantity="one">%1$s sikkerhetskopi (%2$s)</item>
@@ -72,16 +76,16 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
-    <plurals name="restore_app_order_installed">
-        <item quantity="other">%d apper på denne enheten</item>
-        <item quantity="one">%d app på denne enheten</item>
+    <plurals name="session_starting_app_count_backup_text">
+        <item quantity="other">Sikkerhetskopierte %d apper</item>
+        <item quantity="one">Sikkerhetskopierte %d app</item>
     </plurals>
-    <plurals name="restore_app_order_normal">
-        <item quantity="other">Normal prioritet: %d apper</item>
-        <item quantity="one">Normal prioritet: %d app</item>
+    <plurals name="session_starting_app_count_restore_text">
+        <item quantity="other">Gjenopprettet %d apper</item>
+        <item quantity="one">Gjenopprettet %d app</item>
     </plurals>
-    <plurals name="restore_app_order_prior">
-        <item quantity="other">Høy prioritet: %d apper</item>
-        <item quantity="one">Høy prioritet: %d app</item>
+    <plurals name="session_time_remain">
+        <item quantity="other">Omtrent %s min igjen</item>
+        <item quantity="one">Omtrent %s min igjen</item>
     </plurals>
 </resources>

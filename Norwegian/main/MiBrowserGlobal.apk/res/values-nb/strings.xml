@@ -146,13 +146,21 @@
     <string name="am">AM</string>
     <string name="app_cache">Buffer</string>
     <string name="app_library_category_entertainment">Underholdning</string>
+    <string name="app_library_category_financial_management">Finans</string>
     <string name="app_library_category_games">Spill</string>
+    <string name="app_library_category_health_and_exercise">Helse</string>
+    <string name="app_library_category_individualization">Persontilpasning</string>
     <string name="app_library_category_information">Medier</string>
     <string name="app_library_category_lifestyle">Livsstil</string>
+    <string name="app_library_category_originality">Kreativitet</string>
     <string name="app_library_category_others">Annet</string>
     <string name="app_library_category_productivity">Produktivitet</string>
+    <string name="app_library_category_reading_and_information">Nyheter</string>
+    <string name="app_library_category_shopping_and_food">Shopping</string>
     <string name="app_library_category_social">Sosialt</string>
+    <string name="app_library_category_travel">Reise</string>
     <string name="app_library_category_utility">Verktøy</string>
+    <string name="app_library_category_work_and_efficiency">Produktivitet</string>
     <string name="app_library_title">Apper</string>
     <string name="app_name_bluetooth">Bluetooth</string>
     <string name="app_name_camera">Kamera</string>
@@ -171,6 +179,7 @@
     <string name="app_update_install">Klar til å installere oppdatering</string>
     <string name="application">Apper</string>
     <string name="application_name">Nettleser</string>
+    <string name="application_upgrade">Oppdateringer</string>
     <string name="aqi_quality_index_break">Livsfarlig</string>
     <string name="aqi_quality_index_dangerous">Farlig</string>
     <string name="aqi_quality_index_good">God</string>
@@ -202,6 +211,7 @@
     <string name="bookmark_btn_select_all">Velg alle</string>
     <string name="bookmark_btn_select_none">Fjern alle valg</string>
     <string name="bookmark_cannot_save_url">Denne nettadressen kan ikke lagres som bokmerke.</string>
+    <string name="bookmark_file_privacy_nightmode_moved_here">Funksjonssnarveier og nettlesermodi finnes her</string>
     <string name="bookmark_folder_needs_title">Skriv inn et gruppenavn</string>
     <string name="bookmark_group_lable">Gruppe</string>
     <string name="bookmark_needs_title">Bokmerke må ha et navn</string>
@@ -296,9 +306,12 @@ Slå av for å stoppe synkronisering."</string>
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nei, jeg vil opprette en</string>
     <string name="choosertitle_sharevia">Del via</string>
+    <string name="clean_cache">Tøm hurtigminne</string>
     <string name="clear">Fjern</string>
     <string name="clear_history">Tøm historikk</string>
     <string name="clear_most_visited">Nylig historikk</string>
+    <string name="clear_result_page_more_content">Oppdag mer</string>
+    <string name="clear_result_page_show_more">Vis mer</string>
     <string name="clear_search_history">Tøm historikk</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="cleared_garbage">Tømte %d MB med søppel</string>
@@ -317,6 +330,7 @@ Slå av for å stoppe synkronisering."</string>
     <string name="close_all_tab_alert_title">Lukk alle faner</string>
     <string name="close_cant_recommand">Du vil ikke motta tilpassede innholdstjenester hvis du deaktiverer denne funksjonen.</string>
     <string name="close_cloud_tab_tip">Lukke sky-faner på %s?</string>
+    <string name="close_desktop">Deaktiver skrivebordsversjonen</string>
     <string name="cloud_loading_tips">Trekk ned for å synkronisere</string>
     <string name="cloud_no_new_data_toast">Alt er oppdatert</string>
     <string name="cloud_sync_closed_toast">Kan ikke oppdatere fordi synkronisering er av</string>
@@ -414,6 +428,7 @@ Slå av for å stoppe synkronisering."</string>
     <string name="contextmenu_webpage_snapshot">Lagre side</string>
     <string name="continue_reading">Les videre</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_toast_msg">Linken er kopiert til utklippstavlen</string>
     <string name="copy_url">Kopier lenke</string>
     <string name="core_functions_of_browser">De viktigste funksjonene enkelt tilgjengelig</string>
     <string name="could_not_load_data">Kunne ikke laste inn data. Oppdater og prøv igjen</string>
@@ -472,6 +487,7 @@ Send denne koden til den overordnede."</string>
     <string name="display__quick_entry_of_search">Vis funksjonssnarveier i meldingsskyggen</string>
     <string name="doc_viewer_label">Leser (Mi Nettleser)</string>
     <string name="doc_viewer_open_out_file_prompt">For å åpne og vise en fil som er mottatt fra eksterne kilde, må denne appen først opprette en kopi av filen. Vil du fortsette?</string>
+    <string name="doc_viewer_user_guide_profile">Se elementet du viste, her</string>
     <string name="document_download_background_btn">Last ned i bakgrunnen</string>
     <string name="document_download_cancel_btn">Avbryt</string>
     <string name="document_download_failed">Kunne ikke laste ned</string>
@@ -645,17 +661,16 @@ Send denne koden til den overordnede."</string>
     <string name="exo_controls_pause_description">Sett på pause</string>
     <string name="exo_controls_play_description">Spill av</string>
     <string name="exo_controls_playback_speed">Hastighet</string>
-    <string name="exo_controls_playback_speed_normal">Normal</string>
     <string name="exo_controls_previous_description">Forrige</string>
-    <string name="exo_controls_repeat_all_description">Gjenta alle</string>
-    <string name="exo_controls_repeat_off_description">Ikke gjenta noen</string>
-    <string name="exo_controls_repeat_one_description">Gjenta én</string>
+    <string name="exo_controls_repeat_all_description">Modus: gjenta alle. Endre gjentakelsesmodus.</string>
+    <string name="exo_controls_repeat_off_description">Modus: gjenta ingen. Endre gjentakelsesmodus.</string>
+    <string name="exo_controls_repeat_one_description">Modus: gjenta én. Endre gjentakelsesmodus.</string>
     <string name="exo_controls_rewind_description">Spol tilbake</string>
     <string name="exo_controls_seek_bar_description">Avspillingsfremdrift</string>
     <string name="exo_controls_settings_description">Innstillinger</string>
     <string name="exo_controls_show">Vis avspillingskontrollene</string>
-    <string name="exo_controls_shuffle_off_description">Tilfeldig rekkefølge er av</string>
-    <string name="exo_controls_shuffle_on_description">Tilfeldig rekkefølge er på</string>
+    <string name="exo_controls_shuffle_off_description">Slå på modus for tilfeldig rekkefølge</string>
+    <string name="exo_controls_shuffle_on_description">Slå av modus for tilfeldig rekkefølge</string>
     <string name="exo_controls_stop_description">Stopp</string>
     <string name="exo_controls_vr_description">VR-modus</string>
     <string name="exo_download_completed">Nedlastingen er fullført</string>
@@ -663,6 +678,9 @@ Send denne koden til den overordnede."</string>
     <string name="exo_download_downloading">Laster ned</string>
     <string name="exo_download_failed">Nedlastingen mislyktes</string>
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
+    <string name="exo_download_paused">Nedlastinger er satt på pause</string>
+    <string name="exo_download_paused_for_network">Nedlastinger venter på nettverket</string>
+    <string name="exo_download_paused_for_wifi">Nedlastinger venter på Wi-FI-tilkobling</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -686,11 +704,13 @@ Send denne koden til den overordnede."</string>
     <string name="experience_improve">Brukeropplevelsesprogram</string>
     <string name="external_app_restricted_access_error">Mi Nettleser får ikke tilgang til dette elementet.</string>
     <string name="failed_dup_secure_phone_number">Dette telefonnummeret er allerede knyttet til en annen Mi-konto</string>
+    <string name="fallback_menu_item_copy_link">Kopiér linken</string>
+    <string name="fallback_menu_item_open_in_browser">Åpne i nettleseren</string>
+    <string name="fallback_menu_item_share_link">Del link</string>
     <string name="fast_search_title">Hurtigsøk</string>
     <string name="fast_than">Foran %1$s %% av brukere</string>
     <string name="fb_login_tips">Logg inn for å laste ned videoer fra Facebook</string>
     <string name="fb_register_btn">Opprett konto</string>
-    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="featured_this_week">Utvalgt denne uken</string>
     <string name="feedback_bad">Nei</string>
     <string name="feedback_general">Noe</string>
@@ -723,6 +743,7 @@ Send denne koden til den overordnede."</string>
     <string name="file_picker">Velg søkesti</string>
     <string name="filename_empty_alert_message">Skriv inn filnavn</string>
     <string name="filename_illegal_alert_message">Et ugyldig tegn ble fjernet fra filnavnet</string>
+    <string name="files_stored_in_the_phone">Filer lagret på denne enheten</string>
     <string name="find_garbage">Fant %d MB med søppel</string>
     <string name="find_new_version">NY OPPDATERING TILGJENGELIG</string>
     <string name="find_on_page_cancel">Avbryt</string>
@@ -800,6 +821,7 @@ Send denne koden til den overordnede."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="game_center">Spill</string>
     <string name="game_center_recommend_play">Spill</string>
     <string name="game_center_recommend_title">Anbefalt for deg</string>
     <string name="game_play">Spill</string>
@@ -857,7 +879,7 @@ Send denne koden til den overordnede."</string>
     <string name="home_feed_channel">Vis «Nyheter» i navigasjonsfeltet</string>
     <string name="home_game_channel">Vis «Spill» i navigasjonsfeltet</string>
     <string name="home_nf">Innholdsstrøm</string>
-    <string name="home_nf_recommend_on">Anbefalt for deg</string>
+    <string name="home_nf_recommend_on">Recommended for you</string>
     <string name="home_page_simple">Enkel</string>
     <string name="homepage_default">Standard</string>
     <string name="homepage_delete_card_menu">Slett</string>
@@ -869,6 +891,10 @@ Send denne koden til den overordnede."</string>
     <string name="homepage_setting">Startside-innstillinger</string>
     <string name="homepage_top_card_menu">Topp</string>
     <string name="hot_games">Populære</string>
+    <string name="hot_news_notify_summary">Pushvarsler for de viktigste nyhetssakene</string>
+    <string name="hot_news_notify_tips_light">Du kan slå av nyhetsvarsler i &lt;font color=\"#0D84FF\">Innstillinger&lt;/font></string>
+    <string name="hot_news_notify_title">Nyhetsvarsler</string>
+    <string name="hour_minute">%1$s %2$s</string>
     <string name="i_know">Stopp</string>
     <string name="identity">Identifisering</string>
     <string name="if_cancel">Avbryte denne operasjonen?</string>
@@ -951,6 +977,8 @@ Send denne koden til den overordnede."</string>
     <string name="loading_tips">Trekk ned for å oppdatere</string>
     <string name="local_apps">Lokale apper</string>
     <string name="local_bookmarks">Mi</string>
+    <string name="local_file">Lokale filer</string>
+    <string name="local_video_player_label">Videospiller (Mi Browser)</string>
     <string name="location_permission_name">Tilgang til plassering</string>
     <string name="lockpattern_continue_button_text">Neste</string>
     <string name="lockpattern_need_to_confirm">Bekreft opplåsingsmønster</string>
@@ -979,6 +1007,7 @@ Send denne koden til den overordnede."</string>
     <string name="media_error_video_not_exist">Videoen finnes ikke</string>
     <string name="memory_clear_nothing_result">Ingenting å tømme i hurtigbufferen</string>
     <string name="memory_clear_result">%1$s er fjernet</string>
+    <string name="memory_management">Administrer lagring</string>
     <string name="memory_usage">Minne</string>
     <string name="menu_addtodesk">Legg til startskjerm</string>
     <string name="menu_exit_nightmode">Avslutt</string>
@@ -1078,6 +1107,7 @@ Send denne koden til den overordnede."</string>
     <string name="month_september_short">Sep</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
+    <string name="more_convenient_features_and_content">Se hvilke nye verktøy og nytt innhold nettleseren har å tilby!</string>
     <string name="more_description">Meny</string>
     <string name="more_info">Finn ut mer</string>
     <string name="more_option">Flere valg</string>
@@ -1264,6 +1294,7 @@ Forlat denne siden nå?"</string>
     <string name="my_account">Min konto</string>
     <string name="my_cahnnel">Mine kanaler</string>
     <string name="my_channel">Mine kanaler</string>
+    <string name="my_prize_entry">Mine belønninger</string>
     <string name="name_empty">Du må skrive inn et navn</string>
     <string name="nav_bottom_bar_back">Tilbake</string>
     <string name="nav_bottom_bar_close_all">Lukk alle</string>
@@ -1317,6 +1348,7 @@ Forlat denne siden nå?"</string>
     <string name="no_network">Sjekk nettverksforbindelsen din og prøv igjen.</string>
     <string name="no_phone">Telefonnummer mangler</string>
     <string name="no_recent_files">Ingen nylige filer</string>
+    <string name="no_scalable_applications">Alle apper er oppdaterte</string>
     <string name="no_space_alert_cancel">Senere</string>
     <string name="no_space_alert_clean">Frigjør lagringsplass</string>
     <string name="no_space_alert_text">Ikke nok lagringsplass</string>
@@ -1348,6 +1380,7 @@ Forlat denne siden nå?"</string>
     <string name="novel_continue_read_popup">Les</string>
     <string name="novel_tab_popup">Vis de nyeste bøkene dine her</string>
     <string name="novel_tab_popup_ok">OK</string>
+    <string name="occupy">%s opptatt</string>
     <string name="offline_notification_text">Trykk for å åpne annonsen</string>
     <string name="offline_notification_title">Se annonsen du lagret mens du var uten nett</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -1358,6 +1391,7 @@ Forlat denne siden nå?"</string>
     <string name="ok">OK</string>
     <string name="one_prefect_author">Laget av</string>
     <string name="open_app_confirm_message">Tillate å åpne denne siden %s?</string>
+    <string name="open_desktop">Byttet til skrivebordsversjonen</string>
     <string name="open_google_gaid">For å kunne bruke denne funksjonen må du kontrollere at du ikke har valgt bort persontilpasning av annonser i Innstillinger > Google > Ads.</string>
     <string name="open_personalized_services">Aktiver persontilpassede tjenester for å kunne bruke denne funksjonen.</string>
     <string name="open_private_folder">Frigi til skjulte mapper</string>
@@ -1370,6 +1404,7 @@ Forlat denne siden nå?"</string>
     <string name="operation_rename">Gi nytt navn</string>
     <string name="operation_rename_message">Skriv inn nytt navn</string>
     <string name="operation_send">Send</string>
+    <string name="opr_activity_title">Følg sesongen og få belønninger</string>
     <string name="other_channel">Trykk for å legge til flere kanaler.</string>
     <string name="page_info">Sideinformasjon</string>
     <string name="page_info_address">Adresse:</string>
@@ -1536,6 +1571,7 @@ Forlat denne siden nå?"</string>
     <string name="popular_game_video">Popular Game Video</string>
     <string name="popup_window_attempt">Tillat dette nettstedet å åpne pop-up vindu?</string>
     <string name="positive_confirm_message">Skru av uansett</string>
+    <string name="power_saving_settings">Batterisparer</string>
     <string name="pref_accessibility">Tilgjengelighet</string>
     <string name="pref_accessibility_title">Tilgjengelighet</string>
     <string name="pref_adblock_summary">Sider kan lastes inn tregere når denne funksjonen er aktivert</string>
@@ -1749,6 +1785,7 @@ Forlat denne siden nå?"</string>
     <string name="pwa_hint_added_success">Lagt til</string>
     <string name="qr_code_title">QR-kode</string>
     <string name="qr_description">Skann QR-kode</string>
+    <string name="quick_access_to_common_functions">Rask tilgang til favorittfunksjonene dine</string>
     <string name="quick_search_and_access_to_functions">Med hurtigsøk får du enkelt tilgang til funksjonene du bruker mest.</string>
     <string name="quicklink_bookmark_save">Lagret til</string>
     <string name="quicklink_cannot_save_url">Denne nettadressen kan ikke legges til.</string>
@@ -1766,6 +1803,9 @@ Forlat denne siden nå?"</string>
     <string name="quicklinks_most_visited">Legg til startside</string>
     <string name="quicklinks_most_visited_subtitle">Vis nylig besøkte nettsteder i ny fane</string>
     <string name="quicklinks_most_visited_title">Legg til startside</string>
+    <string name="reading__business_recommend_at_end_more">Vis mer</string>
+    <string name="reading__business_recommend_at_end_other_docs">Videre lesning</string>
+    <string name="reading__business_recommend_at_end_title">Anbefalt innhold</string>
     <string name="reading__cancel">Avbryt</string>
     <string name="reading__menu_open_with_another_app">Åpne med en annen app</string>
     <string name="reading__menu_play">Lysbildeserie</string>
@@ -1773,6 +1813,7 @@ Forlat denne siden nå?"</string>
     <string name="reading__menu_search">Søk</string>
     <string name="reading__menu_share">Del</string>
     <string name="reading__menu_thumbnail">Sideminiatyrbilder</string>
+    <string name="reading__reading_end">Avslutt</string>
     <string name="reading__reading_first_page">Dette er den første siden</string>
     <string name="reading__reading_last_page">Dette er den siste siden</string>
     <string name="reading__search_cancel">Avbrutt</string>
@@ -1891,6 +1932,9 @@ Forlat denne siden nå?"</string>
     <string name="search_bar_hint_content">Søk etter apper og innhold</string>
     <string name="search_bing">Bing</string>
     <string name="search_button_text">Gå</string>
+    <string name="search_card_online_rec_app">App-markeder</string>
+    <string name="search_card_online_rec_app_install">Installer</string>
+    <string name="search_card_online_rec_app_open">Åpne</string>
     <string name="search_dianping">Cate</string>
     <string name="search_easou">Easou</string>
     <string name="search_empty_view_hint">Fant ikke noe</string>
@@ -1965,6 +2009,8 @@ Forlat denne siden nå?"</string>
     <string name="setting_searchable_content">Søkbare enheter</string>
     <string name="setting_sms_content">SMS-innhold</string>
     <string name="setting_swipe_up">Sveip opp på startskjermen</string>
+    <string name="settings_search_online_apps">App-markeder</string>
+    <string name="settings_search_online_apps_desc">Innhold fra app-markeder</string>
     <string name="share_image_text">Se hva jeg delte! @MIUI</string>
     <string name="share_page_text">Se hva jeg delte: %1$s @MIUI| %2$s</string>
     <string name="share_slide_video_text">Se hva jeg delte: %1$s</string>
@@ -2001,6 +2047,11 @@ Forlat denne siden nå?"</string>
     <string name="speed_test_no_network">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="speed_test_ping">Forsinkelse</string>
     <string name="speed_test_upload">Last opp</string>
+    <string name="sport_card_match_week">Uke %d</string>
+    <string name="sports_card_match_season">Sesong</string>
+    <string name="sports_card_match_status_1">Kommende</string>
+    <string name="sports_card_match_status_2">Pågår</string>
+    <string name="sports_card_match_status_3">Ferdig</string>
     <string name="ssl_bad_clock_date_settings">Angi dato</string>
     <string name="ssl_bad_clock_warning" formatted="false">En privat tilkobling til %s1 kan ikke opprettes fordi din enhets dato og tid (%s2) er feil.</string>
     <string name="ssl_bad_expired_warning">Denne kanalen leveres av %1$s. Datoen og tiden angitt på enheten din (%2$s) tillater imidlertid ikke å etablere en sikker tilkobling med %1$s. Du kan angi riktig dato og tid eller trykke på «Fortsett» hvis du fortsatt vil bruke denne kanalen.</string>
@@ -2117,6 +2168,7 @@ Forlat denne siden nå?"</string>
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Valentinsdagen</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
+    <string name="third_image_viewer_label">Bildeviser (Mi Nettleser)</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
@@ -2149,6 +2201,11 @@ Forlat denne siden nå?"</string>
     <string name="translation_query_error_network">Kunne ikke oversette. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="translation_result_empty">Kunne ikke oversette. Prøv igjen.</string>
     <string name="translation_to">Oversett til</string>
+    <string name="trash_cleaner_unit_b">B</string>
+    <string name="trash_cleaner_unit_gb">GB</string>
+    <string name="trash_cleaner_unit_kb">KB</string>
+    <string name="trash_cleaner_unit_mb">MB</string>
+    <string name="trash_cleaner_unit_tb">TB</string>
     <string name="trending_apps_more">Mer</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
@@ -2167,6 +2224,7 @@ Forlat denne siden nå?"</string>
     <string name="update_no_network_toast">Kan ikke koble til nettverket</string>
     <string name="update_now">OPPDATER NÅ</string>
     <string name="update_phone_notice">Endre sikkerhetsinnstillinger</string>
+    <string name="upgrade">Oppdater</string>
     <string name="upload_error_log">Last opp logg</string>
     <string name="upload_usage_statistics">Aktiver for å dele bruksstatistikk med oss når inkognitomodus er aktivert</string>
     <string name="uploads_disabled">Filopplastninger er begrenset</string>
@@ -2355,10 +2413,13 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_tag_desc">Vis miniatyrbilder for tidligere besøkte sider</string>
     <string name="web_tag_tips">Trykk her for å gå til en side på nytt</string>
     <string name="web_tag_title">Nettsideminiatyrbilder</string>
+    <string name="web_tools_moved_here">Verktøy ble flyttet hit</string>
     <string name="web_video_accelerate">Hastighet</string>
+    <string name="web_video_default_time">%1$s :%2$s</string>
     <string name="web_video_download">Last ned</string>
     <string name="web_video_download_no_access">Tillatelser er nødvendig for å laste ned elementer</string>
     <string name="web_video_enable_long_click_toast">Spiller av i %dX hastighet</string>
+    <string name="web_video_float_drag_msg">Dra for å justere størrelsen</string>
     <string name="web_video_list_more">Mer</string>
     <string name="web_video_list_playing">Spiller av</string>
     <string name="web_video_list_replay">Spill av på nytt</string>

@@ -27,22 +27,28 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
-    <string name="actionbar_button_up_description">Tilbake</string>
     <string name="afternoon">Ettermiddag</string>
-    <string name="already_newest_version">Gjeldende versjon er oppdatert</string>
     <string name="am">AM</string>
-    <string name="cancel_download">Nedlasting avbrutt</string>
-    <string name="clearable_edittext_clear_description">Fjern</string>
-    <string name="close">Lukk</string>
-    <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
-    <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
-    <string name="date_time_picker_dialog_title">Angi dato og tid</string>
-    <string name="download_button">Nedlastingsknapp</string>
-    <string name="download_failed">Kunne ikke laste ned</string>
     <string name="early_morning">Morgen</string>
+    <string name="earth_position_content_0">Cape Kamenjak naturpark i Kroatia har noe av den mest fantastiske utsikten langs middelhavskysten. De imponerende geologiske formasjonene her gjør stedet til et paradis for dykkere. Den blendende solen og det varme Middelhavet tiltrekker seg utallige utendørsentusiaster hver sommer.</string>
+    <string name="earth_position_content_1">"Terrassejordene er et resultat av menneskelig aktivitet, men de gjør seg også som enestående naturskjønne omgivelser.
+I Kina finnes risterrasser hovedsakelig sør for elven Chang Jiang, der det regner mye og er flere fjellkjeder. Longji-terrasser har eksistert i over 700 år, og det finnes flere historiske monumenter i landsbyene i nærheten."</string>
+    <string name="earth_position_content_2">Ilulissat er lokalisert vest på Grønland, 200 kilometer nord for polarsirkelen. Den nydelige 56 kilometer lange Ilulissatfjorden ligger rett ved siden av Jakobshavn isbre. Som den største isbreen på den nordlige halvkule, produserer den to milliarder tonn isfjell hvert år. Etter en kort vei nordover svinger den sørover og strømmer inn i Atlanterhavet.</string>
+    <string name="earth_position_content_3">Navagio er én av de vakreste strendene langs kysten av Zakynthos på De joniske øyer i Hellas. Det sies at den er hjemmet til et berømt skipsvrak, og derfor kalles stranden også «Smugglers Cove».</string>
+    <string name="earth_position_content_4">Dolomittene er en fjellkjede lokalisert nordøst i Italia. Fjellet Seceda er virkelig ett av de mest pittoreske stedene der.</string>
+    <string name="earth_position_title_0">"Kroatia
+Cape Kamenjak"</string>
+    <string name="earth_position_title_1">"Guangxi i Kina
+Longji risterrasse"</string>
+    <string name="earth_position_title_2">"Grønland
+Ilulissat"</string>
+    <string name="earth_position_title_3">"Hellas
+Navagio-stranden"</string>
+    <string name="earth_position_title_4">"Italia
+Dolomittene"</string>
     <string name="earth_summary">Jorden er den menneskelige sivilisasjons vugge</string>
     <string name="earth_super_wallpaper_label">earth</string>
     <string name="earth_title">Hjem</string>
@@ -50,7 +56,6 @@
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
-    <string name="expand_button_title">Avansert</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -109,47 +114,32 @@
     <string name="geometry_summary">Former, lys og farger</string>
     <string name="geometry_super_wallpaper_label">Geometri</string>
     <string name="geometry_title">Geometri</string>
-    <string name="install_failed">Kunne ikke installere</string>
-    <string name="mars_position_content_0">"This region contains cliffs, mesas, and wide flat valleys, which are believed to have been caused by debris-covered glaciers. Clay minerals have also been detected here, which are of great interest in the search for evidence of life on ancient Mars.
+    <string name="mars_position_content_0">"Denne regionen inneholder klipper, platåer og brede, flate daler, som antas å ha blitt forårsaket av brerester. Her er det også påvist leirmineraler som er av stor interesse i jakten på liv på eldgamle Mars.
 
-NASA/JPL/University of Arizona"</string>
-    <string name="mars_position_content_1">"Taken when the Mars rover Curiosity is exploring the Pahrump Hills in Gale Crater. The region contains sedimentary rocks that scientists believe formed in the presence of water, and the dark areas are sand.
+NASA / JPL / University of Arizona"</string>
+    <string name="mars_position_content_1">"Tatt da Mars-roveren Curiosity utforsket Pahrump Hills i Gale-krateret. Regionen inneholder sedimentære bergarter som forskere mener ble dannet i nærvær av vann, og de mørke områdene er sand.
 
-NASA/JPL/University of Arizona"</string>
-    <string name="mars_position_content_2">"Mawrth Vallis is an ancient water outflow channel with light-colored clay-rich rocks. Clay minerals easily preserve microscopic life on Earth, so perhaps traces of ancient life may be found at Mawrth.
+NASA / JPL / University of Arizona"</string>
+    <string name="mars_position_content_2">"Mawrth Vallis er en gammel vannutløpskanal med leirerike bergarter i lyse farger. Leirmineraler kan lett bevare mikroskopisk liv på jorden, så kanskje spor av eldgammelt liv kan bli funnet på Mawrth.
 
-NASA/JPL/University of Arizona"</string>
+NASA / JPL / University of Arizona"</string>
+    <string name="mars_position_content_3">"Disse bildene ble tatt da Mars-roveren Curiosity utforsket Pahrump Hills i Gale-krateret. Regionen inneholder sedimentære bergarter som forskere mener ble dannet i nærvær av vann. De mørkere områdene er sand.
+
+NASA / JPL / University of Arizona"</string>
+    <string name="mars_position_content_4">"Bahram Vallis er en enkelgrenet elvedal med takkete vegger noen steder. Tilstedeværelsen av strømlinjeformede erosjoner på bakken viser at væske var involvert da formasjonen ble dannet.
+
+NASA / JPL / University of Arizona"</string>
     <string name="mars_position_title_0">"Nilosyrtis
 Mensae-området"</string>
-    <string name="mars_position_title_1">Gale Crater</string>
-    <string name="mars_position_title_2">"Crater in
+    <string name="mars_position_title_1">Gale-krateret</string>
+    <string name="mars_position_title_2">"Krater i
 Mawrth Vallis"</string>
+    <string name="mars_position_title_3">Pahrump Hills</string>
+    <string name="mars_position_title_4">Bahram Vallis</string>
     <string name="mars_summary">De enorme ørkenene på Mars har alltid forbløffet menneskeheten</string>
     <string name="mars_super_wallpaper_label">mars</string>
     <string name="mars_title">Den røde planeten</string>
     <string name="midnight">Natt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
-    <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
-    <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
-    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
-    <string name="miuix_appcompat_cancel_description">Avbryt</string>
-    <string name="miuix_appcompat_confirm_description">Bekreft</string>
-    <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
-    <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
-    <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
-    <string name="miuix_appcompat_search_input_description">Søk</string>
-    <string name="miuix_appcompat_select_all">Velg alle</string>
-    <string name="miuix_appcompat_select_all_description">Velg alle</string>
-    <string name="miuix_appcompat_select_item">Velg elementer</string>
-    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshing">Oppdaterer…</string>
-    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slipp for å oppdatere</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det var alt for nå</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_none">Det var alt for nå</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Et øyeblikk…</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke laste inn elementer</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
@@ -189,15 +179,10 @@ Mawrth Vallis"</string>
     <string name="month_september">September</string>
     <string name="month_september_short">Sep</string>
     <string name="month_september_shortest">Sep</string>
-    <string name="more">Mer</string>
     <string name="morning">Morgen</string>
     <string name="night">Kveld</string>
-    <string name="no_cta_agreed">GetApps har ikke CTA-tillatelser</string>
-    <string name="no_install_permission">Du har ikke tillatelse til å installere dette elementet</string>
     <string name="noon">Midt på dagen</string>
-    <string name="not_set">Ikke angitt</string>
     <string name="pm">PM</string>
-    <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
@@ -205,90 +190,23 @@ Mawrth Vallis"</string>
     <string name="saturn_super_wallpaper_label">saturn</string>
     <string name="saturn_title">Ringer langt borte</string>
     <string name="search_menu_title">Søk</string>
-    <string name="send">Send</string>
     <string name="snowmountain_summary">Siguniang-fjellets solfylte fjellskråninger</string>
     <string name="snowmountain_super_wallpaper_label">Snødekte topper</string>
     <string name="snowmountain_title">Snødekte topper</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
     <string name="super_wallpaper_list_label">Superbakgrunner</string>
-    <string name="super_wallpaper_setting_apply_success_toast">Brukt</string>
-    <string name="super_wallpaper_setting_apply_super_wallpaper_button_text">Bruk</string>
-    <string name="super_wallpaper_setting_choose_position_btn_text">Velg plassering</string>
-    <string name="super_wallpaper_setting_coordinate_title">Koordinater</string>
-    <string name="super_wallpaper_setting_view_height_title">Høyde</string>
-    <string name="task_already_exist">Denne oppgaven finnes allerede</string>
-    <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
-    <string name="the_anti_aggression_day">Antivoldsdagen</string>
-    <string name="the_arbor_day">Arbor Day</string>
-    <string name="the_armed_forces_day">De væpnede styrkers dag</string>
-    <string name="the_armys_day">PLA-dagen</string>
-    <string name="the_childrens_day">Barnas dag</string>
-    <string name="the_chinese_youth_day">Ungdomsdagen</string>
-    <string name="the_christmas_day">Jul</string>
-    <string name="the_double_ninth_festival">Den doble niende festen</string>
-    <string name="the_dragon_boat_festival">Dragebåtfesten</string>
-    <string name="the_easter_day">Påske</string>
-    <string name="the_eve_of_the_spring_festival">Kinesisk nyttårsaften</string>
-    <string name="the_fifth_day">Femte dagen av kinesisk nyttår</string>
-    <string name="the_fools_day">1. april</string>
-    <string name="the_forth_day">Fjerde dagen av kinesisk nyttår</string>
-    <string name="the_hksar_establishment_day">Etableringsdag for Hong Kong SAR</string>
-    <string name="the_international_womens_day">Kvinnedagen</string>
-    <string name="the_laba_festival">Laba-festen</string>
-    <string name="the_labour_day">Arbeidernes dag</string>
-    <string name="the_lantern_festival">Lanternefesten</string>
-    <string name="the_mid_autumn_festival">Midthøstfesten</string>
-    <string name="the_national_day">Nasjonaldagen</string>
-    <string name="the_national_father_day">Sun Yat-sens fødselsdag</string>
-    <string name="the_new_years_day">Nyttår</string>
-    <string name="the_night_of_sevens">Qixi-festen</string>
-    <string name="the_partys_day">CPC-dagen</string>
-    <string name="the_peace_day">Minnedagen</string>
-    <string name="the_retrocession_day">Retrocesjonsdagen</string>
-    <string name="the_second_day">Andre dagen av kinesisk nyttår</string>
-    <string name="the_seventh_day">Syvende dagen av kinesisk nyttår</string>
-    <string name="the_sixth_day">Sjette dagen av kinesisk nyttår</string>
-    <string name="the_spirit_festival">Spøkelsesfesten</string>
-    <string name="the_spring_festival">Kinesisk nyttår</string>
-    <string name="the_teachers_day">Lærernes dag</string>
-    <string name="the_third_day">Tredje dagen av kinesisk nyttår</string>
-    <string name="the_tw_childrens_day">Barnas dag</string>
-    <string name="the_tw_youth_day">Ungdomsdagen</string>
-    <string name="the_united_nations_day">FN-dagen</string>
-    <string name="the_valentines_day">Valentinsdagen</string>
-    <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
-    <string name="time_picker_dialog_title">Angi tid</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
-    <string name="title_system_wallpaper_resource">System-wallpapers</string>
-    <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
-    <string name="update">Oppdater</string>
-    <string name="v7_preference_off">AV</string>
-    <string name="v7_preference_on">PÅ</string>
-    <string name="wallpaper_setting_aod_wallpaper_banner_button_text">Alltid på-skjerm</string>
-    <string name="wallpaper_setting_find_more_text">Flere bakgrunner på nett</string>
-    <string name="wallpaper_setting_home_wallpaper_banner_button_text">Startskjerm</string>
-    <string name="wallpaper_setting_lock_screen_wallpaper_banner_button_text">Låseskjerm</string>
-    <string name="wallpaper_setting_online_wallpaper_actionbar_title">Bakgrunnsbilder på nett</string>
-    <string name="wallpaper_setting_online_wallpaper_none_title">Oppdag bakgrunner</string>
-    <string name="wallpaper_setting_online_wallpaper_title">Bakgrunnsbilder på nett</string>
-    <string name="wallpaper_setting_super_wallpaper_banner_title">Superbakgrunner</string>
-    <string name="wallpaper_setting_super_wallpaper_more_button_text">Mer</string>
-    <string name="wallpaper_setting_title">Bakgrunn</string>
-    <string name="weather_summary">Info om lokalt vær</string>
-    <string name="weather_super_wallpaper_label">Vær</string>
-    <string name="weather_title">Vær</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>

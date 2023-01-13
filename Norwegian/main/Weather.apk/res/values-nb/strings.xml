@@ -70,8 +70,8 @@
     <string name="aqi_alert_channel_name">AQI-varsler</string>
     <string name="aqi_data_source">Drevet av Colorful Clouds</string>
     <string name="aqi_desc">Luftkvalitetsindeks</string>
-    <string name="aqi_detail_24_hours">24-timersvarsel</string>
-    <string name="aqi_detail_5_days">5-dagers værvarsel</string>
+    <string name="aqi_detail_24_hours">%d-timersvarsel</string>
+    <string name="aqi_detail_5_days">%d-dagers værvarsel</string>
     <string name="aqi_detail_co_unit">Enhet: mg/m³</string>
     <string name="aqi_detail_title">Luftkvalitetsindeks</string>
     <string name="aqi_detail_unit">Enhet: µg/m³</string>
@@ -104,7 +104,7 @@
     <string name="city_exceeded_warning">Kan ikke legge til flere byer. For å legge til en ny må du første slette en by som allerede er på listen.</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
-    <string name="common_google_play_services_enable_button">Slå på</string>
+    <string name="common_google_play_services_enable_button">Aktivér</string>
     <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
     <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
     <string name="common_google_play_services_install_button">Installer</string>
@@ -163,6 +163,7 @@
     <string name="dynamic_weather">Vær</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Oppdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke koble til nettverket</string>
     <string name="empty_view_refresh">Prøv igjen</string>
@@ -272,6 +273,7 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nå</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">dd.MM</string>
     <string name="index_item_experience_now">Installer nå</string>
     <string name="indices_title_chance_of_rain">Muligheter for regn</string>
@@ -283,15 +285,16 @@
     <string name="indices_wind_direction_north">N</string>
     <string name="indices_wind_direction_south">S</string>
     <string name="indices_wind_direction_west">V</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-indeks</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Skru på stedtjenester</string>
     <string name="location_tag">Lokaliser</string>
     <string name="manager_city_option_add_home">Legg til startside</string>
     <string name="manager_city_option_view_on_home">Vis på startside</string>
     <string name="midnight">Natt</string>
     <string name="minute_rain">Nedbørs-prognose</string>
-    <string name="minute_rain_after_an_hour">Om 1 time</string>
-    <string name="minute_rain_after_two_hour">Om 2 timer</string>
     <string name="minute_rain_feedback_subtitle">Fortell oss hvordan været er.</string>
     <string name="minute_rain_feedback_title">Vær-informasjonen virker feil.</string>
     <string name="minute_rain_now">Nå</string>
@@ -364,7 +367,6 @@
     <string name="morning">Morgen</string>
     <string name="network_unavailable">Kan ikke koble til nettverket.</string>
     <string name="night">Kveld</string>
-    <string name="night_not_disturb_settings_summary">Blokker varsler mellom kl. 23:00 og kl. 7:00</string>
     <string name="night_not_disturb_settings_title">Ikke forstyrr om natten</string>
     <string name="no_data">Ingen data</string>
     <string name="no_internet_message">Enheten din må koble til nettverket for at du skal kunne trekke tilbake samtykket. Kontroller nettverksinnstillingene og prøv igjen.</string>
@@ -445,9 +447,10 @@
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI-værr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke ta skjermbilde</string>
-    <string name="shortcut_short_label_24_hour_forecast">24-timersvarsel</string>
+    <string name="shortcut_short_label_24_hour_forecast">%d-timersvarsel</string>
     <string name="shortcut_short_label_recent_forecast">Sjekk været</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -564,7 +567,7 @@
     <string name="unit">Enheter</string>
     <string name="unit_temperature">Temperaturenheter</string>
     <string name="unit_wind">Vindhastighetenheter</string>
-    <string name="update_night_setting_summary_text">Oppdater værmelding mellom 23:00 og 07:00</string>
+    <string name="update_night_setting_summary_text">Oppdater værinfo mellom %1$s og %2$s</string>
     <string name="update_night_setting_title_text">Oppdater automatisk om natten</string>
     <string name="update_notification_info">Oppdaterer data i bakgrunnen…</string>
     <string name="updated_a_moment_ago">Oppdatert for et øyeblikk siden</string>
@@ -575,10 +578,8 @@
     <string name="video_banner_weather_forecast">Værvarsel</string>
     <string name="video_banner_weather_update">Siste oppdateringer om været</string>
     <string name="view_forecast_item_yesterday">I går</string>
-    <string name="view_indexes_item_day_after_tommorrow">Om 2 dager</string>
     <string name="view_indexes_item_today">I dag</string>
     <string name="view_indexes_item_tommorrow">I morgen</string>
-    <string name="warning_weather_day_and_night_settings_summary">Motta daglige sammendrag som inneholder værinformasjon kl. 7:00 og kl. 19:00.</string>
     <string name="warning_weather_day_and_night_settings_title">Daglige sammendrag</string>
     <string name="weather_alert_channel_name">Varsler</string>
     <string name="weather_aqi_full_air_quality_forcast">Fullstendig prognose om luftkvalitet</string>
@@ -593,6 +594,7 @@
     <string name="wednesday_shortest">Ons</string>
     <string name="welcome_app_title">Velkommen til Vær!</string>
     <string name="wind_direction_no_data">Vind</string>
+    <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/t</string>
     <string name="xiaomi_weather_description_content">Vær er en systemapp. Du kan ikke se værinformasjon eller bruke relaterte widgets etter at du har avinstallert appen.</string>
     <string name="xiaomi_weather_description_content_remove">Vær er en systemapp. Du kan ikke se værinformasjon eller bruker relaterte widgets etter at du har fjernet snarveien på startskjermen.</string>

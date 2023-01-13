@@ -193,7 +193,7 @@
     <string name="close">Lukk</string>
     <string name="columbus_ad_flag_text">ANNONSE</string>
     <string name="columbus_skip_ad">Hopp over</string>
-    <string name="common_google_play_services_enable_button">Slå på</string>
+    <string name="common_google_play_services_enable_button">Aktivér</string>
     <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
     <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
     <string name="common_google_play_services_install_button">Installer</string>
@@ -215,6 +215,7 @@
     <string name="conn_of_function_safe">Nettverkstilkobling for sikkerhet</string>
     <string name="connecting">Kobler til…</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_toast_msg">Linken er kopiert til utklippstavlen</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -301,6 +302,7 @@
     <string name="download">Last ned</string>
     <string name="downloading">Laster ned</string>
     <string name="early_morning">Morgen</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tøm</string>
     <string name="empty_content_no_privacy">Tøm</string>
     <string name="empty_content_no_similar_image">Ingen bilder</string>
@@ -318,6 +320,15 @@
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
+    <string name="exo_download_completed">Nedlastingen er fullført</string>
+    <string name="exo_download_description">Last ned</string>
+    <string name="exo_download_downloading">Laster ned</string>
+    <string name="exo_download_failed">Nedlastingen mislyktes</string>
+    <string name="exo_download_notification_channel_name">Nedlastinger</string>
+    <string name="exo_download_paused">Nedlastinger er satt på pause</string>
+    <string name="exo_download_paused_for_network">Nedlastinger venter på nettverket</string>
+    <string name="exo_download_paused_for_wifi">Nedlastinger venter på Wi-FI-tilkobling</string>
+    <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="expand_button_title">Avansert</string>
     <string name="facebook_clean_exit_confirm_cancel">Fortsett skanningen</string>
     <string name="facebook_clean_exit_confirm_msg">Facebook er ikke ferdig skannet enda. Stoppe skanning nå?</string>
@@ -328,6 +339,9 @@
     <string name="facebook_group_gif">GIF-er</string>
     <string name="facebook_group_image">Bilder</string>
     <string name="facebook_group_video">Videoer</string>
+    <string name="fallback_menu_item_copy_link">Kopiér linken</string>
+    <string name="fallback_menu_item_open_in_browser">Åpne i nettleseren</string>
+    <string name="fallback_menu_item_share_link">Del link</string>
     <string name="file">Filer</string>
     <string name="file_not_found">Fil ikke funnet</string>
     <string name="flow_rank_title">Databruk</string>
@@ -477,6 +491,7 @@
     <string name="hints_garbage_cleanup_result_safe">Alt ser bra ut</string>
     <string name="hints_garbage_handle_item_content">%1$d elementer, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tøm</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Sjelden brukt</string>
     <string name="hints_installed_app_near">Brukt nylig</string>
     <string name="hints_installed_app_never">Aldri brukt</string>

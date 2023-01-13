@@ -82,13 +82,32 @@
     <string name="backup_hint_pad">Hold enheten din skrudd på</string>
     <string name="backup_is_running">Sikkerhetskopierer enhet</string>
     <string name="backup_new">Ny:</string>
-    <string name="backup_notification_title">«Sikkerhetskopiering» fungerer…</string>
     <string name="backup_progress">Sikkerhetskopierer…</string>
     <string name="backup_report">Se detaljer</string>
     <string name="backup_security_tips_message">Enkelte apper vil muligens ikke kunne sikkerhetskopieres eller gjenopprettes.</string>
     <string name="backup_security_tips_title">Sikkerhetskopier fungerer kanskje ikke</string>
     <string name="backup_update">Oppdater</string>
     <string name="batch_delete_backup_confirm">Slette valgte sikkerhetskopier?</string>
+    <string name="broken_screen_rescue_service">Sikkerhetskopiering med skadet skjerm</string>
+    <string name="broken_screen_rescue_service_content">Denne funksjonen gjør at du kan sikkerhetskopiere elementer ved hjelp av en USB-kabel når enhetens skjerm er skadet og ikke responderer. Du bør aktivere denne funksjonen mens skjermen fungerer for å kunne sikkerhetskopiere elementer når skjermen ikke responderer.</string>
+    <string name="broken_screen_rescue_service_disable">Deaktiver sikkerhetskopiering med skadet skjerm</string>
+    <string name="broken_screen_rescue_service_enable">Aktiver sikkerhetskopiering med skadet skjerm</string>
+    <string name="broken_screen_rescue_service_learn_subcontent1">Be en person i kontaktlisten din om å sende deg en SMS-melding i følgende format ved å erstatte bokstavene med skjermlåsen din: *#*#SKJERMLÅS#*#*.</string>
+    <string name="broken_screen_rescue_service_learn_subcontent2">Når meldingen er sendt, kan du koble enheten til en datamaskin via USB for å sikkerhetskopiere elementer.</string>
+    <string name="broken_screen_rescue_service_learn_subtitle1">Aktiver funksjonen</string>
+    <string name="broken_screen_rescue_service_learn_subtitle2">Sikkerhetskopier elementer</string>
+    <string name="broken_screen_rescue_service_learn_title">Slik bruker du funksjonen</string>
+    <string name="broken_screen_rescue_service_tips_1">%1$d. Hvis skjermklåsen din er %2$d, skal meldingen se slik ut: *#*#%3$d#*#*. Hvis du bruker et passord som inneholder både bokstaver og tall, kan du be den andre personen om å inkludere dem i meldingen uten utelatelser.</string>
+    <string name="broken_screen_rescue_service_tips_2">%1$d. Hvis du bruker et mønster, kan det representeres av tall i meldingen. Prikken øverst til venstre er %2$d. Tallrekkefølgen går fra venstre mot høyre, linje etter linje, og ender med %3$d nederst til høyre.</string>
+    <string name="broken_screen_rescue_service_tips_3">%1$d. Hvis du ikke bruker en skjermlås, kan du bruke «nopassword» i stedet for bokstavene som representerer den i meldingen.</string>
+    <string name="broken_screen_rescue_service_tips_4">%1$d. Du har bare %2$d forsøk på å aktivere denne funksjonen. For at det skal fungere må du sørge for at SMS-meldingen den andre personen sender, er riktig, og at personen er i kontaktlisten din.</string>
+    <string name="broken_screen_rescue_service_tips_5">%1$d. Vi anbefaler at du bruker denne funksjonen ved hjelp av kundestøtte.</string>
+    <string name="broken_screen_rescue_service_tips_6">%1$d. Hvis du ikke kan sikkerhetskopiere elementer til datamaskinen, kan du finne ut hvordan du løser dette problemet i hjelpedokumentasjonen vår.</string>
+    <string name="broken_screen_rescue_service_tips_title">Tips</string>
+    <string name="broken_screen_rescue_service_turn_off">Deaktiver</string>
+    <string name="broken_screen_rescue_service_turn_off_confirm">Deaktivere sikkerhetskopiering med skadet skjerm nå?</string>
+    <string name="broken_screen_rescue_service_turn_on">Aktiver</string>
+    <string name="broken_screen_rescue_service_turn_on_confirm">Aktivere sikkerhetskopiering med skadet skjerm nå?</string>
     <string name="btn_got_it">Skjønner</string>
     <string name="button_backup">Sikkerhetskopi</string>
     <string name="button_cancel">Avbryt</string>
@@ -177,6 +196,7 @@ https://appleid.apple.com/#!&amp;page=signin å lukke"</string>
     <string name="dialog_backup_password_change_machine_tips">Du vil ikke kunne overføre passordbeskyttede sikkerhetskopier. Deaktiver sikkerhetskopipassordet før du bruker Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Kan ikke gjenopprette elementer når sikkerhetskopipassord er aktivert. Deaktiver sikkerhetskopipassordet først.</string>
     <string name="dialog_backup_password_to_settings">Innstillinger</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Ikke krypter</string>
     <string name="disable_encrypt_title">Skru av kryptering</string>
@@ -333,12 +353,9 @@ bør du først opprette en sikkerhetskopi av iCloud."</string>
     <string name="icloud_need_wifi_title">Koble til Wi-Fi</string>
     <string name="import_again">Importer på nytt</string>
     <string name="import_data_from_icloud">Importer data fra iCloud</string>
-    <string name="import_from_xiaomi_account_hint1">"1.\u0009Last ned Mi Talk-appen og logg inn.
-\u0009http://www.miliao.com
-
-2.\u0009Gå til Mi Talk-innstillingene og velg ”Sikkerhetskopier kontakter til Mi Account”"</string>
     <string name="import_from_xiaomi_account_hint2">Trykk på Neste dersom du allerede har en sikkerhetskopi.</string>
     <string name="import_from_xiaomi_account_hint_title">Bruk Mi Talk for å sikkerhetskopiere kontaktene dine på tvers av enheter.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Grunnet kompatibilitetsproblemer, kan du kun overføre delvise data fra iOS-enheter. Sørg for at du lager en sikkerhetskopiering av iCloud før du overfører.</string>
     <string name="lack_perm_msg">Mi Mover trenger de følgende tillatelsene: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Tillatelser er nødvendig</string>
@@ -1028,8 +1045,11 @@ Ikke lukk siden før tilkoblingen er etablert."</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="wifi_title">Wi-Fi-innstillinger</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke starte nedlastingen. Sørg for at Nedlastingsadministratoren fungerer som normalt.</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet ditt.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_router">Mi-ruter</string>
     <string name="xiaomi_router_location">Mi-ruter %s</string>
     <string name="xiaomi_update_dialog_message">"Introduserer versjon %1$s

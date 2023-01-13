@@ -44,6 +44,8 @@
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="default_list_type">Sorter etter tidspunkt mottatt</string>
+    <string name="disable_description_content">Varsler er en systemapp. Hvis du deaktiverer den, vil du ikke kunne administrere appvarsler. Deaktivere likevel?</string>
+    <string name="disable_description_title">Deaktivere systemapp?</string>
     <string name="disable_float_notification">Flytende varsler er ikke tillatt</string>
     <string name="disable_lockscreen_notification">Varsler på låseskjermen er ikke tillatt</string>
     <string name="disable_show_badge_notification">Varselmerker er ikke tillatt</string>
@@ -231,8 +233,9 @@
     <string name="search_menu_title">Søk</string>
     <string name="send">Send</string>
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>
-    <string name="show_badge_notifications">Varselmerker</string>
+    <string name="show_badge_notifications">Varselsskilt</string>
     <string name="show_badge_notifications_short">Merker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>

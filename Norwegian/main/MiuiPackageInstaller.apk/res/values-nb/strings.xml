@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="access_denied_info">For mange forsøk. Vent et minutt eller to, og prøv igjen.</string>
     <string name="actionbar_button_up_description">Tilbake</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
@@ -190,6 +191,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -216,12 +218,15 @@
     <string name="mtrl_picker_toggle_to_day_selection">Trykk for å bytte til å velge dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Bytt til tekstinndatamodus</string>
     <string name="mtrl_picker_toggle_to_year_selection">Trykk for å bytte til å velge år</string>
+    <string name="network_error_info">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
+    <string name="network_timeout_info">Kunne ikke koble til nettverket. Prøv igjen.</string>
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
     <string name="not_set">Ikke angitt</string>
     <string name="password_toggle_content_description">Vis passordet</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
+    <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
@@ -239,6 +244,7 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="system_error_info">Systemet er opptatt. Vent et minutt eller to, og prøv igjen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
     <string name="the_anti_aggression_day">Antivoldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -290,6 +296,7 @@
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
+    <string name="unknown_error_info">Ukjent feil</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="wednesday">Onsdag</string>

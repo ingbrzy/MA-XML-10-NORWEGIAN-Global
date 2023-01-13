@@ -19,6 +19,16 @@
         <item>Endre passord for Mi-konto</item>
         <item>Endre passord;Oppdater passord;Mi-konto;Konto</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>Familielagringsplass</item>
+        <item>Vis / Skru på familielagringsplass</item>
+        <item>Familielagringsplass;Lagringsdeling</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>Familietjenester</item>
+        <item>Se / slå på familietjenester</item>
+        <item>Familie;Familietjenester;Familiedeling</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjelp</item>
         <item>Få hjelp og støtte til Mi-kontoen din</item>
@@ -39,11 +49,6 @@
         <item>Administrer enheter knyttet til Mi-kontoen din</item>
         <item>Administrer enheter;Mine enheter;Enheter;Enhetsliste;Mi-konto;Konto</item>
     </string-array>
-    <string-array name="settings_search_payment_information">
-        <item>Betalingsinformasjon</item>
-        <item>Vis og administrer betalingsinformasjon</item>
-        <item>Betal;Betaling;Betalingsmetode;Mi-konto;Konto</item>
-    </string-array>
     <string-array name="settings_search_privacy_policy">
         <item>Personvernerklæring</item>
         <item>Vis personvernerklæring for Mi-konto</item>
@@ -62,7 +67,7 @@
     <string-array name="settings_search_system_ad">
         <item>Annonser</item>
         <item>Administrer systemannonser</item>
-        <item>Annonser;Mi-konto;Konto</item>
+        <item>Annonser;Mi-konto;Konto;Mi-konto</item>
     </string-array>
     <string-array name="settings_search_user_information">
         <item>Kontoinformasjon</item>

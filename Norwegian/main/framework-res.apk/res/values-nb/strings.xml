@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Merk</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne videoen er ikke gyldig for direkteavspilling på enheten.</string>
     <string name="selectTextMode">Marker tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeravtrykk</string>
     <string name="paste_as_plain_text">Lim inn som ren tekst</string>
     <string name="autofill">Autofyll</string>
@@ -175,7 +176,6 @@
     <string name="accessibility_dialog_button_deny">Avvis</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Velg funksjonene du vil bruke med Tilgjengelighet-knappen</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Velg funksjonene du vil bruke med volumtastsnarveien</string>
-    <string name="accessibility_enable_service_encryption_warning">Hvis du slår på %1$s, bruker ikke enheten skjermlåsen til å forbedre datakryptering.</string>
     <string name="accessibility_enable_service_title">Vil du gi %1$s full kontroll over enheten din?</string>
     <string name="accessibility_freeform_caption">Tekstingsfelt i %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">For å bytte mellom funksjoner, sveip opp med tre fingre og hold.</string>
@@ -193,7 +193,7 @@
     <string name="accessibility_shortcut_enabling_service">Volumtastene holdes inne. %1$s er slått på.</string>
     <string name="accessibility_shortcut_menu_item_status_off">AV</string>
     <string name="accessibility_shortcut_menu_item_status_on">PÅ</string>
-    <string name="accessibility_shortcut_multiple_service_list">"\u0009• %1$s
+    <string name="accessibility_shortcut_multiple_service_list">" • %1$s
 "</string>
     <string name="accessibility_shortcut_multiple_service_warning">"Hvis du holder inne volumtastene i noen sekunder, slås tilgjengelighetsfunksjoner på. Dette kan endre hvordan enheten din fungerer.
 
@@ -212,7 +212,13 @@ Du kan endre denne snarveien til en annen funksjon i Innstillinger > Tilgjengeli
     <string name="accessibility_shortcut_warning_dialog_title">Vil du bruke tilgjengelighetssnarveien?</string>
     <string name="accessibility_system_action_back_label">Tilbake</string>
     <string name="accessibility_system_action_dismiss_notification_shade">Lukk varselpanelet</string>
+    <string name="accessibility_system_action_dpad_center_label">Midt på styrepilene</string>
+    <string name="accessibility_system_action_dpad_down_label">Ned på styrepilene</string>
+    <string name="accessibility_system_action_dpad_left_label">Venstre på styrepilene</string>
+    <string name="accessibility_system_action_dpad_right_label">Høyre på styrepilene</string>
+    <string name="accessibility_system_action_dpad_up_label">Opp på styrepilene</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Tilgjengelighetssnarvei</string>
+    <string name="accessibility_system_action_headset_hook_label">Hook for hodetelefoner</string>
     <string name="accessibility_system_action_home_label">Start</string>
     <string name="accessibility_system_action_lock_screen_label">Låseskjerm</string>
     <string name="accessibility_system_action_notifications_label">Varsler</string>
@@ -291,6 +297,15 @@ Du kan endre denne snarveien til en annen funksjon i Innstillinger > Tilgjengeli
     <string name="app_not_found">Finner ingen apper som kan utføre denne handlingen</string>
     <string name="app_running_notification_text">Trykk for å få mer informasjon eller for å stoppe appen.</string>
     <string name="app_running_notification_title">%1$s kjører</string>
+    <string name="app_streaming_blocked_message">Dette er ikke tilgjengelig på %1$s. Prøv på telefonen din i stedet.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Denne appen ber om ekstra sikkerhet. Prøv på telefonen din i stedet.</string>
+    <string name="app_streaming_blocked_message_for_permission_dialog">Dette er ikke tilgjengelig på %1$s for øyeblikket. Prøv på telefonen din i stedet.</string>
+    <string name="app_streaming_blocked_title">%1$s er utilgjengelig</string>
+    <string name="app_streaming_blocked_title_for_camera_dialog">Kameraet er utilgjengelig</string>
+    <string name="app_streaming_blocked_title_for_fingerprint_dialog">Fortsett på telefonen</string>
+    <string name="app_streaming_blocked_title_for_microphone_dialog">Mikrofonen er utilgjengelig</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Du må gi tillatelse</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Telefoninnstillingene er utilgjengelige</string>
     <string name="app_suspended_default_message">%1$s er ikke tilgjengelig akkurat nå. Dette administreres av %2$s.</string>
     <string name="app_suspended_more_details">Finn ut mer</string>
     <string name="app_suspended_title">Appen er ikke tilgjengelig</string>
@@ -312,6 +327,7 @@ Du kan endre denne snarveien til en annen funksjon i Innstillinger > Tilgjengeli
     <string name="autofill_parish">Sogn</string>
     <string name="autofill_picker_accessibility_title">Alternativer for autofyll</string>
     <string name="autofill_picker_no_suggestions">Ingen forslag til autofyll</string>
+    <string name="autofill_picker_some_suggestions">{count,plural, =1{Ett forslag til autofyll}other{# forslag til autofyll}}</string>
     <string name="autofill_postal_code">Postnummer</string>
     <string name="autofill_prefecture">Prefektur</string>
     <string name="autofill_province">Provins</string>
@@ -363,6 +379,7 @@ Du kan endre denne snarveien til en annen funksjon i Innstillinger > Tilgjengeli
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Bruk biometri eller skjermlåsen for å fortsette</string>
     <string name="bluetooth_a2dp_audio_route_name">Bluetooth-lyd</string>
     <string name="bluetooth_airplane_mode_toast">Bluetooth holdes på i flymodus</string>
+    <string name="bugreport_countdown">{count,plural, =1{Tar skjermdump for feilrapporten om # sekund.}other{Tar skjermdump for feilrapporten om # sekunder.}}</string>
     <string name="bugreport_message">Informasjon om tilstanden til enheten din samles inn og sendes som en e-post. Det tar litt tid fra du starter feilrapporten til e-posten er klar, så vær tålmodig.</string>
     <string name="bugreport_option_full_summary">Bruk dette alternativet for minst mulig forstyrrelse på systemet når enheten din er treg eller ikke svarer, eller når du trenger alle rapportdelene. Det tas ikke noen skjermdump, og du kan ikke legge til flere detaljer.</string>
     <string name="bugreport_option_full_title">Fullstendig rapport</string>
@@ -434,7 +451,6 @@ Du kan endre denne snarveien til en annen funksjon i Innstillinger > Tilgjengeli
     <string name="conversation_single_line_name_display">%1$s:</string>
     <string name="conversation_title_fallback_group_chat">Gruppesamtale</string>
     <string name="conversation_title_fallback_one_to_one">Samtale</string>
-    <string name="copied">Kopiert</string>
     <string name="country_detector">Landsoppdagelse</string>
     <string name="country_selection_title">Regionsinnstilling</string>
     <string name="create_contact_using">"Lag kontakt
@@ -490,6 +506,7 @@ med nummeret %s"</string>
     <string name="deprecated_target_sdk_message">Denne appen er utviklet for en eldre versjon av Android og fungerer kanskje ikke som den skal. Prøv å se etter oppdateringer, eller kontakt utvikleren.</string>
     <string name="description_target_unlock_tablet">Sveip for å låse opp.</string>
     <string name="device_ownership_relinquished">Administratoren overførte enheten til personlig bruk</string>
+    <string name="device_policy_manager_service">Administreringstjeneste for Device Policy</string>
     <string name="device_storage_monitor_notification_channel">Lagring på enheten</string>
     <string name="dial_number_using">"Ring nummeret
 %s"</string>
@@ -511,6 +528,22 @@ med nummeret %s"</string>
     <string name="dump_heap_system_text">%1$s-prosessen er over minnegrensen sin på %2$s. En minnedump er tilgjengelig for deling. Vær forsiktig – denne minnedumpen kan inneholde alle de sensitive personopplysningene dine som appen har tilgang til, som kan inkludere ting du har skrevet inn.</string>
     <string name="dump_heap_text">%1$s-prosessen er %2$s over minnegrensen. En minnedump er tilgjengelig for deling med utvikleren. Vær forsiktig – denne minnedumpen kan inneholde noen av personopplysningene dine som appen har tilgang til.</string>
     <string name="dump_heap_title">Vil du dele minnedumpen («heap dump»)?</string>
+    <string name="duration_days_relative">{count,plural, =1{For # dag siden}other{For # dager siden}}</string>
+    <string name="duration_days_relative_future">{count,plural, =1{# dag}other{# dager}}</string>
+    <string name="duration_days_shortest">%d d</string>
+    <string name="duration_days_shortest_future">om %d d</string>
+    <string name="duration_hours_relative">{count,plural, =1{For # time siden}other{For # timer siden}}</string>
+    <string name="duration_hours_relative_future">{count,plural, =1{# time}other{# timer}}</string>
+    <string name="duration_hours_shortest">%d t</string>
+    <string name="duration_hours_shortest_future">om %d t</string>
+    <string name="duration_minutes_relative">{count,plural, =1{for # minutt siden}other{For # minutter siden}}</string>
+    <string name="duration_minutes_relative_future">{count,plural, =1{# minutt}other{# minutter}}</string>
+    <string name="duration_minutes_shortest">%d m</string>
+    <string name="duration_minutes_shortest_future">om %d m</string>
+    <string name="duration_years_relative">{count,plural, =1{For # år siden}other{For # år siden}}</string>
+    <string name="duration_years_relative_future">{count,plural, =1{# år}other{# år}}</string>
+    <string name="duration_years_shortest">%d år</string>
+    <string name="duration_years_shortest_future">om %d år</string>
     <string name="dynamic_mode_notification_channel_name">Varsel med informasjon om rutinemodus</string>
     <string name="dynamic_mode_notification_summary">Batterisparing er aktivert for å forlenge batterilevetiden</string>
     <string name="dynamic_mode_notification_title">Batteriet kan gå tomt før den vanlige ladingen</string>
@@ -582,7 +615,7 @@ med nummeret %s"</string>
     <string name="ext_media_unsupported_notification_message">Denne enheten støtter ikke %s. Trykk for å konfigurere i et støttet format.</string>
     <string name="ext_media_unsupported_notification_title">%s som ikke støttes</string>
     <string name="extract_edit_menu_button">Endre</string>
-    <string name="face_acquired_insufficient">Kunne ikke ta opp nøyaktige ansiktsdata Prøv igjen</string>
+    <string name="face_acquired_insufficient">Kunne ikke ta opp nøyaktige ansiktsdata Prøv på nytt</string>
     <string name="face_acquired_not_detected">Hold ansiktet ditt rett foran telefonen.</string>
     <string name="face_acquired_obscured">Fjern alt som skjuler ansiktet ditt.</string>
     <string name="face_acquired_pan_too_extreme">Vri hodet ditt litt mindre.</string>
@@ -594,7 +627,7 @@ med nummeret %s"</string>
     <string name="face_acquired_too_bright">For lyst. Prøv svakere belysning.</string>
     <string name="face_acquired_too_close">Flytt telefonen lengre unna</string>
     <string name="face_acquired_too_dark">For mørkt. Prøv sterkere belysning.</string>
-    <string name="face_acquired_too_different">Kan ikke gjenkjenne ansiktet lenger. Prøv igjen.</string>
+    <string name="face_acquired_too_different">Kan ikke gjenkjenne ansiktet lenger. Prøv på nytt.</string>
     <string name="face_acquired_too_far">Flytt telefonen nærmere.</string>
     <string name="face_acquired_too_high">Flytt telefonen høyere.</string>
     <string name="face_acquired_too_left">Flytt telefonen til høyre.</string>
@@ -609,15 +642,16 @@ med nummeret %s"</string>
     <string name="face_error_canceled">Ansikt-operasjonen ble avbrutt.</string>
     <string name="face_error_hw_not_available">Kan ikke bekrefte ansikt. Utilgjengelig maskinvare.</string>
     <string name="face_error_hw_not_present">Ansiktslås støttes ikke på denne enheten</string>
-    <string name="face_error_lockout">For mange forsøk. Prøv igjen senere.</string>
+    <string name="face_error_lockout">For mange forsøk. Prøv på nytt senere.</string>
     <string name="face_error_lockout_permanent">For mange forsøk. Ansiktslås er slått av.</string>
     <string name="face_error_lockout_screen_lock">For mange forsøk. Skriv inn skjermlås i stedet.</string>
     <string name="face_error_no_space">Kan ikke lagre nye ansiktsdata. Slett gamle data først.</string>
     <string name="face_error_not_enrolled">Du har ikke konfigurert ansiktslås</string>
     <string name="face_error_security_update_required">Sensoren er midlertidig slått av.</string>
     <string name="face_error_timeout">Prøv ansiktslås igjen</string>
-    <string name="face_error_unable_to_process">Kan ikke bekrefte ansiktet. Prøv igjen.</string>
+    <string name="face_error_unable_to_process">Kan ikke bekrefte ansiktet. Prøv på nytt.</string>
     <string name="face_error_user_canceled">Ansiktslås ble avbrutt av brukeren</string>
+    <string name="face_error_vendor_unknown">Noe gikk galt. Prøv på nytt.</string>
     <string name="face_icon_content_description">Ansiktikon</string>
     <string name="face_name_template">Ansikt %d</string>
     <string name="face_or_screen_lock_app_setting_name">Bruk ansikts- eller skjermlås</string>
@@ -625,6 +659,7 @@ med nummeret %s"</string>
     <string name="face_recalibrate_notification_content">Trykk for å slette ansiktsmodellen din, og legg deretter til ansiktet på nytt</string>
     <string name="face_recalibrate_notification_name">Ansiktslås</string>
     <string name="face_recalibrate_notification_title">Problem med ansiktslås</string>
+    <string name="face_sensor_privacy_enabled">For å bruke ansiktslås, slå på <b>Kameratilgang</b> i Innstillinger > Personvern</string>
     <string name="face_setup_notification_content">Lås opp telefonen ved å se på den</string>
     <string name="face_setup_notification_title">Konfigurer ansiktslås</string>
     <string name="faceunlock_multiple_failures">Du har overskredet grensen for opplåsingsforsøk med Ansiktslås</string>
@@ -641,17 +676,20 @@ Ta kontakt med administratoren for organisasjonen din hvis du har spørsmål."</
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"</string>
     <string name="fcComplete">Funksjonskode utført.</string>
     <string name="fcError">Tilkoblingsproblem eller ugyldig funksjonskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
+    <string name="file_count">{count,plural, =1{{file_name} + # fil}other{{file_name} + # filer}}</string>
     <string name="find">Finn</string>
     <string name="find_next">Finn neste</string>
     <string name="find_on_page">Finn på side</string>
     <string name="find_previous">Finn forrige</string>
     <string name="fingerprint_acquired_already_enrolled">Prøv et annet fingeravtrykk</string>
-    <string name="fingerprint_acquired_imager_dirty">Rengjør sensoren</string>
+    <string name="fingerprint_acquired_imager_dirty">Rengjør fingeravtrykkssensoren og prøv igjen</string>
+    <string name="fingerprint_acquired_imager_dirty_alt">Rengjør sensoren og prøv igjen</string>
     <string name="fingerprint_acquired_immobile">Endre posisjonen til fingeren litt hver gang</string>
     <string name="fingerprint_acquired_insufficient">Kunne ikke registrere fingeravtrykket. Prøv på nytt.</string>
-    <string name="fingerprint_acquired_partial">Et delvis fingeravtrykk er registrert</string>
+    <string name="fingerprint_acquired_partial">Trykk godt på sensoren</string>
     <string name="fingerprint_acquired_too_bright">For lyst</string>
-    <string name="fingerprint_acquired_too_fast">Hold litt lenger</string>
+    <string name="fingerprint_acquired_too_fast">Trykk godt på sensoren</string>
     <string name="fingerprint_acquired_too_slow">Du flyttet fingeren for sakte. Prøv på nytt.</string>
     <string name="fingerprint_acquired_try_adjusting">Prøv å justere</string>
     <string name="fingerprint_app_setting_name">Bruk fingeravtrykk</string>
@@ -665,10 +703,12 @@ Ta kontakt med administratoren for organisasjonen din hvis du har spørsmål."</
     <string name="fingerprint_error_lockout_permanent">For mange forsøk. Fingeravtrykkssensoren er slått av.</string>
     <string name="fingerprint_error_no_fingerprints">Ingen fingeravtrykk er registrert.</string>
     <string name="fingerprint_error_no_space">Kan ikke konfigurere fingeravtrykk</string>
+    <string name="fingerprint_error_not_match">Gjenkjenner ikke fingeravtrykket</string>
     <string name="fingerprint_error_security_update_required">Sensoren er midlertidig slått av.</string>
     <string name="fingerprint_error_timeout">Tidsavbrudd for fingeravtrykk er nådd. Prøv på nytt.</string>
-    <string name="fingerprint_error_unable_to_process">Prøv igjen.</string>
+    <string name="fingerprint_error_unable_to_process">Prøv på nytt.</string>
     <string name="fingerprint_error_user_canceled">Fingeravtrykk-operasjonen ble avbrutt av brukeren.</string>
+    <string name="fingerprint_error_vendor_unknown">Noe gikk galt. Prøv på nytt.</string>
     <string name="fingerprint_name_template">Finger %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Bruk fingeravtrykk eller skjermlås</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Bruk fingeravtrykket eller skjermlåsen for å fortsette</string>
@@ -677,6 +717,7 @@ Ta kontakt med administratoren for organisasjonen din hvis du har spørsmål."</
     <string name="fingerprint_recalibrate_notification_title">Kan ikke bruke fingeravtrykkssensoren</string>
     <string name="fingerprint_setup_notification_content">Trykk for å legge til et fingeravtrykk</string>
     <string name="fingerprint_setup_notification_title">Konfigurer flere måter å låse opp på</string>
+    <string name="fingerprint_udfps_error_not_match">Gjenkjenner ikke fingeravtrykket</string>
     <string name="fingerprints">Fingeravtrykk</string>
     <string name="floating_toolbar_close_overflow_description">Lukk overflytsmenyen</string>
     <string name="floating_toolbar_open_overflow_description">Flere alternativer</string>
@@ -687,12 +728,18 @@ Ta kontakt med administratoren for organisasjonen din hvis du har spørsmål."</
     <string name="foreground_service_tap_for_details">Trykk for detaljer om batteri- og databruk</string>
     <string name="forward_intent_to_owner">Du bruker denne appen utenfor jobbprofilen</string>
     <string name="forward_intent_to_work">Du bruker denne appen i jobbprofilen din</string>
-    <string name="fp_enrollment_powerbutton_intent_message">"Da du konfigurerte fingeravtrykket, trykket du på av/på-knappen.
+    <string name="fp_power_button_bp_message">"Du har trykket på av/på-knappen – dette slår vanligvis av skjermen.
 
-Dette slår vanligvis av skjermen."</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Avbryt</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Slå av</string>
-    <string name="fp_enrollment_powerbutton_intent_title">Vil du slå av skjermen?</string>
+Prøv å trykke lett for å bekrefte fingeravtrykket ditt."</string>
+    <string name="fp_power_button_bp_negative_button">Fortsett</string>
+    <string name="fp_power_button_bp_positive_button">Slå av skjermen</string>
+    <string name="fp_power_button_bp_title">Fortsett bekreftelse av fingeravtrykket?</string>
+    <string name="fp_power_button_enrollment_message">"Du har trykket på av/på-knappen – dette slår vanligvis av skjermen.
+
+Prøv å trykke lett mens du konfigurerer fingeravtrykket ditt."</string>
+    <string name="fp_power_button_enrollment_negative_button">Fortsett konfig.</string>
+    <string name="fp_power_button_enrollment_positive_button">Slå av skjermen</string>
+    <string name="fp_power_button_enrollment_title">Vil du fortsette konfigureringen?</string>
     <string name="gadget_host_error_inflating">Kunne ikke legge til modulen.</string>
     <string name="geofencing_service">Geogjerdetjeneste</string>
     <string name="gigabyteShort">GB</string>
@@ -729,6 +776,7 @@ Dette slår vanligvis av skjermen."</string>
     <string name="granularity_label_line">linje</string>
     <string name="granularity_label_link">link</string>
     <string name="granularity_label_word">ord</string>
+    <string name="guest_name">Gjest</string>
     <string name="hardware">Vis det virtuelle tastaturet</string>
     <string name="harmful_app_warning_open_anyway">ÅPNE LIKEVEL</string>
     <string name="harmful_app_warning_title">En skadelig app ble oppdaget</string>
@@ -752,7 +800,7 @@ Dette slår vanligvis av skjermen."</string>
     <string name="httpErrorProxyAuth">Autentisering via mellomtjeneren feilet.</string>
     <string name="httpErrorRedirectLoop">Siden inneholder for mange videresendinger.</string>
     <string name="httpErrorTimeout">Det oppsto et tidsavbrudd under tilkobling til tjeneren.</string>
-    <string name="httpErrorTooManyRequests">For mange forespørsler blir behandlet. Prøv igjen senere.</string>
+    <string name="httpErrorTooManyRequests">For mange forespørsler blir behandlet. Prøv på nytt senere.</string>
     <string name="httpErrorUnsupportedAuthScheme">Autentiseringsprogrammet for nettstedet støttes ikke.</string>
     <string name="imProtocolAim">AIM</string>
     <string name="imProtocolCustom">Egendefinert</string>
@@ -781,8 +829,11 @@ Dette slår vanligvis av skjermen."</string>
     <string name="immersive_cling_title">Visning i fullskjerm</string>
     <string name="importance_from_person">Dette er viktig på grunn av folkene som er involvert.</string>
     <string name="importance_from_user">Du angir viktigheten for disse varslene.</string>
+    <string name="in_progress">pågår</string>
     <string name="inputMethod">Inndatametode</string>
     <string name="input_method_binding_label">Inndatametode</string>
+    <string name="input_method_ime_switch_button_desc">Bytt inndatametode</string>
+    <string name="input_method_nav_back_button_desc">Tilbake</string>
     <string name="install_carrier_app_notification_button">Last ned appen</string>
     <string name="install_carrier_app_notification_text">Last ned operatørappen for å aktivere det nye SIM-kortet ditt</string>
     <string name="install_carrier_app_notification_text_app_name">Last ned %1$s-appen for å aktivere det nye SIM-kortet ditt</string>
@@ -868,6 +919,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Skriv inn PIN-koden for SIM-kortet</string>
     <string name="kg_sim_unlock_progress_dialog_message">Låser opp SIM-kortet ...</string>
+    <string name="kg_text_message_separator">" — "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har tastet inn passordet ditt feil %1$d ganger. 
 
 Prøv på nytt om %2$d sekunder."</string>
@@ -885,6 +937,7 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="language_picker_section_suggested">Foreslått</string>
     <string name="language_selection_title">Legg til et språk</string>
     <string name="last_month">Forrige måned</string>
+    <string name="last_num_days">{count,plural, =1{Siste # dag}other{De siste # dagene}}</string>
     <string name="launchBrowserDefault">Vil du starte nettleseren?</string>
     <string name="launch_warning_original">%1$s ble opprinnelig startet.</string>
     <string name="launch_warning_replace">%1$s kjører nå.</string>
@@ -913,7 +966,7 @@ For å løsne skjermen må du holde hjem- og av/på-knappen nede samtidig."</str
     <string name="lockscreen_access_pattern_detected">Mønsteret er fullført</string>
     <string name="lockscreen_access_pattern_start">Mønsteret er påbegynt</string>
     <string name="lockscreen_carrier_default">Ingen dekning</string>
-    <string name="lockscreen_emergency_call">Nødanrop</string>
+    <string name="lockscreen_emergency_call">Nødssituasjon</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Du har foretatt %1$d mislykkede opplåsinger av telefonen. Etter %2$d flere mislykkede forsøk, blir telefonen tilbakestilt til fabrikkinnstillingene, og alle brukerdata går tapt.</string>
     <string name="lockscreen_failed_attempts_almost_glogin">"Du har tegnet inn feil opplåsingsmønster %1$d ganger. Etter ytterligere %2$d mislykkede forsøk, blir du bedt om å låse opp telefonen ved hjelp av Google-påloggingsinformasjonen din.
 
@@ -953,7 +1006,7 @@ Kontakt operatøren av det trådløse nettverket for å få et nytt SIM-kort."</
     <string name="lockscreen_sound_off_label">Lyd av</string>
     <string name="lockscreen_sound_on_label">Lyd på</string>
     <string name="lockscreen_storage_locked">Lås opp for å få alle funksjoner og data</string>
-    <string name="lockscreen_too_many_failed_attempts_countdown">Prøv igjen om %d sekunder.</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown">Prøv på nytt om %d sekunder.</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message">"Du har oppgitt feil opplåsingsmønster %1$d ganger.
 
 Prøv på nytt om %2$d sekunder."</string>
@@ -971,6 +1024,15 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="lockscreen_transport_rew_description">Tilbakespoling</string>
     <string name="lockscreen_transport_stop_description">Stopp</string>
     <string name="lockscreen_unlock_label">Lås opp</string>
+    <string name="log_access_confirmation_allow">Gi éngangstilgang</string>
+    <string name="log_access_confirmation_body">"Enhetslogger registrerer det som skjer på enheten din. Apper kan bruke disse loggene til å finne og løse problemer.
+
+Noen logger kan inneholde sensitiv informasjon, så du bør bare gi tilgang til alle enhetslogger til apper du stoler på. 
+
+Hvis du ikke gir denne appen tilgang til alle enhetslogger, har den fremdeles tilgang til sine egne logger. Enhetsprodusenten kan fremdeles ha tilgang til noen logger eller noe informasjon på enheten din. Finn ut mer"</string>
+    <string name="log_access_confirmation_deny">Ikke tillat</string>
+    <string name="log_access_confirmation_title">Vil du gi %s tilgang til alle enhetslogger?</string>
+    <string name="log_access_do_not_show_again">Ikke vis igjen</string>
     <string name="low_internal_storage_view_text">Enkelte systemfunksjoner fungerer muligens ikke slik de skal</string>
     <string name="low_internal_storage_view_text_no_boot">Det er ikke nok lagringsplass for systemet. Kontrollér at du har 250 MB ledig plass, og start på nytt.</string>
     <string name="low_internal_storage_view_title">Lite ledig lagringsplass</string>
@@ -979,6 +1041,7 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="managed_profile_label_badge">Jobb-%1$s</string>
     <string name="managed_profile_label_badge_2">Andre %1$s for jobben</string>
     <string name="managed_profile_label_badge_3">Tredje %1$s for jobben</string>
+    <string name="matches_found">{count,plural, =1{# treff}other{# av {total}}}</string>
     <string name="maximize_button_text">Maksimer</string>
     <string name="me">Meg</string>
     <string name="media_route_button_content_description">Cast</string>
@@ -1117,8 +1180,8 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="mime_type_spreadsheet_ext">%1$s-regneark</string>
     <string name="mime_type_video">Video</string>
     <string name="mime_type_video_ext">%1$s-video</string>
-    <string name="miniresolver_open_in_personal">Vil du åpne i %s i den personlige profilen?</string>
-    <string name="miniresolver_open_in_work">Vil du åpne i %s i jobbprofilen?</string>
+    <string name="miniresolver_open_in_personal">Vil du åpne %s i den personlige profilen din?</string>
+    <string name="miniresolver_open_in_work">Vil du åpne %s i jobbprofilen din?</string>
     <string name="miniresolver_use_personal_browser">Bruk den personlige nettleseren</string>
     <string name="miniresolver_use_work_browser">Bruk jobbnettleseren</string>
     <string name="minute">min</string>
@@ -1140,6 +1203,8 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="mobile_no_internet">Mobilnettverket har ingen internettilgang</string>
     <string name="month_day_year" formatted="false">%-e. %B %Y</string>
     <string name="more_item_label">Mer</string>
+    <string name="mte_override_notification_message">Ytelse og stabilitet kan påvirkes. Start på nytt for å deaktivere. Hvis det er aktivert med arm64.memtag.bootctl, må du sette det til ingen først.</string>
+    <string name="mte_override_notification_title">MTE på forsøksstadiet er aktivert</string>
     <string name="music_recognition_manager_service">Administreringstjeneste for musikkgjenkjenning</string>
     <string name="muted_by">%1$s slår av noen lyder</string>
     <string name="nas_upgrade_notification_content">Foreslåtte handlinger og svar leveres nå i forbedrede varsler. Tilpassede Android-varsler støttes ikke lenger.</string>
@@ -1175,12 +1240,14 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="noon">middag</string>
     <string name="not_checked">ikke avmerket</string>
     <string name="not_selected">ikke valgt</string>
+    <string name="notification_action_check_bg_apps">Sjekk aktive apper</string>
     <string name="notification_alerted_content_description">Varslet</string>
     <string name="notification_app_name_settings">Innstillinger</string>
     <string name="notification_app_name_system">System</string>
     <string name="notification_appops_camera_active">Kamera</string>
     <string name="notification_appops_microphone_active">Mikrofon</string>
     <string name="notification_appops_overlay_active">vises over andre apper på skjermen</string>
+    <string name="notification_channel_abusive_bg_apps">Aktivitet i bakgrunnen</string>
     <string name="notification_channel_accessibility_magnification">Forstørring</string>
     <string name="notification_channel_accessibility_security_policy">Bruk av Tilgjengelighet</string>
     <string name="notification_channel_account">Kontostatus</string>
@@ -1212,6 +1279,8 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="notification_channel_voice_mail">Talepostmeldinger</string>
     <string name="notification_channel_vpn">VPN-status</string>
     <string name="notification_channel_wfc">Wi-Fi-anrop</string>
+    <string name="notification_content_abusive_bg_apps">%1$s kjører i bakgrunnen. Trykk for å administrere batteribruken.</string>
+    <string name="notification_content_long_running_fgs">%1$s kan påvirke batterilevetiden. Trykk for å gjennomgå aktive apper.</string>
     <string name="notification_feedback_indicator">Gi tilbakemelding</string>
     <string name="notification_feedback_indicator_alerted">Dette varselet ble oppgradert til standard. Trykk for å gi tilbakemelding.</string>
     <string name="notification_feedback_indicator_demoted">Dette varselet ble rangert lavere. Trykk for å gi tilbakemelding.</string>
@@ -1220,12 +1289,15 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="notification_hidden_text">Nytt varsel</string>
     <string name="notification_history_title_placeholder">Tilpasset appvarsel</string>
     <string name="notification_listener_binding_label">Varsellytteren</string>
+    <string name="notification_messaging_title_template">%1$s%2$s</string>
     <string name="notification_phishing_alert_content_description">Varsel om nettfisking</string>
     <string name="notification_ranker_binding_label">Tjeneste for rangering av varsler</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Påloggingsfeil for %1$s</string>
+    <string name="notification_title_abusive_bg_apps">En app bruker batteri</string>
+    <string name="notification_title_long_running_fgs">En app er fremdeles aktiv</string>
     <string name="notification_verified_content_description">Bekreftet</string>
-    <string name="notification_work_profile_content_description">Arbeidsprofil</string>
+    <string name="notification_work_profile_content_description">Jobbprofil</string>
     <string name="now_string_shortest">nå</string>
     <string name="number_picker_decrement_button">Reduser</string>
     <string name="number_picker_increment_button">Øk</string>
@@ -1291,7 +1363,8 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="permdesc_bluetooth_advertise">Lar appen vise annonser til Bluetooth-enheter i nærheten</string>
     <string name="permdesc_bluetooth_connect">Lar appen koble til tilkoblede Bluetooth-enheter</string>
     <string name="permdesc_bluetooth_scan">Lar appen oppdage og koble til Bluetooth-enheter i nærheten</string>
-    <string name="permdesc_bodySensors">Gir appen tilgang til data fra sensorer som overvåker den fysiske tilstanden din, for eksempel hjertefrekvensen din.</string>
+    <string name="permdesc_bodySensors">Gir appen tilgang til data fra kroppssensorer, for eksempel puls, temperatur og oksygenmetning i blodet, når den er i bruk.</string>
+    <string name="permdesc_bodySensors_background">Gir appen tilgang til data fra kroppssensorer, for eksempel puls, temperatur og oksygenmetning i blodet, når den er i bakgrunnen.</string>
     <string name="permdesc_broadcastSticky">Lar appen sende faste kringkastinger («sticky broadcasts») som blir værende etter at kringkastingen er over. Overdreven bruk kan gjøre telefonen treg eller ustabil ved å bruke for mye minne.</string>
     <string name="permdesc_callCompanionApp">Lar appen se og kontrollere anrop som pågår på enheten. Dette inkluderer informasjon som anropsnumre og tilstanden til anropene.</string>
     <string name="permdesc_callPhone">Lar appen ringe telefonnumre uten at du gjør noe. Dette kan resultere i uventede oppringninger og kostnader. Appen kan imidlertid ikke ringe nødnumre. Merk at skadelige apper kan påføre deg kostnader ved å ringe uten bekreftelse fra deg.</string>
@@ -1328,17 +1401,23 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="permdesc_mediaLocation">Lar appen lese posisjoner fra mediesamlingen din.</string>
     <string name="permdesc_modifyAudioSettings">Lar appen endre globale lydinnstillinger slik som volum og hvilken høyttaler som brukes for lydavspilling.</string>
     <string name="permdesc_modifyNetworkAccounting">Lar appen endre hvordan nettverksbruk regnes ut for apper. Ikke beregnet på vanlige apper.</string>
+    <string name="permdesc_nearby_wifi_devices">Lar appen annonsere, koble til og fastslå den relative posisjonen til Wi-Fi-enheter i nærheten</string>
     <string name="permdesc_nfc">Lar appen kommunisere med etiketter, kort og lesere som benytter NFC-teknologi.</string>
     <string name="permdesc_persistentActivity">Lar appen gjøre deler av seg selv vedvarende i minnet. Dette kan begrense minnet for andre apper og gjøre telefonen treg.</string>
+    <string name="permdesc_postNotification">Lar appen vise varsler</string>
     <string name="permdesc_preferredPaymentInfo">Gir appen tilgang til informasjon om prioritert NFC-betalingstjeneste, for eksempel registrerte hjelpemidler og destinasjon.</string>
     <string name="permdesc_processOutgoingCalls">Lar appen se nummeret det ringes til under en utgående samtale, med mulighet for å omdirigere anropet til et annet nummer eller avbryte samtalen fullstendig.</string>
     <string name="permdesc_queryAllPackages">Lar en app se alle installerte pakker.</string>
+    <string name="permdesc_readBasicPhoneState">Gir appen tilgang til de grunnleggende telefonfunksjonene på enheten.</string>
     <string name="permdesc_readCalendar">Denne appen kan lese all kalenderaktivitet som er lagret på telefonen din, og dele eller lagre kalenderdataene.</string>
     <string name="permdesc_readCallLog">Denne appen kan lese anropsloggen din.</string>
     <string name="permdesc_readCellBroadcasts">Tillater at appen kan lese kringkastede meldinger enheten din mottar. Kringkastede varsler leveres noen steder for å advare deg om nødssituasjoner. Skadelige apper kan forstyrre ytelsen eller funksjonen til enheten din når en kringkastet nødmelding mottas.</string>
     <string name="permdesc_readContacts">Lar appen lese data om kontaktene dine som er lagret på telefonen din. Apper får også tilgang til kontoene på telefonen din som har opprettet kontakter. Dette kan inkludere kontoer som er opprettet av apper du har installert. Denne tillatelsen lar apper lagre kontaktdataene dine. Vær oppmerksom på at skadelige apper kan dele disse dataene uten at du vet om det.</string>
     <string name="permdesc_readHistoryBookmarks">Lar appen lese loggen for alle nettadressene nettleseren har besøkt, og alle bokmerkene i nettleseren. Vær oppmerksom på at denne tillatelsen kanskje ikke benyttes av tredjepartsnettlesere eller andre apper med mulighet for nettsurfing.</string>
     <string name="permdesc_readInstallSessions">Tillater en app å lese installeringsøkter. Dette gjør det mulig for den å se detaljer om aktive pakkeinstallasjoner.</string>
+    <string name="permdesc_readMediaAudio">Lar appen lese lydfiler fra den delte lagringsplassen din.</string>
+    <string name="permdesc_readMediaImages">Lar appen lese bildefiler fra den delte lagringsplassen din.</string>
+    <string name="permdesc_readMediaVideo">Lar appen lese videofiler fra den delte lagringsplassen din.</string>
     <string name="permdesc_readNetworkUsageHistory">Lar appen lese tidligere nettverksbruk for bestemte nettverk og apper.</string>
     <string name="permdesc_readPhoneNumbers">Gir appen tilgang til telefonnumrene til enheten.</string>
     <string name="permdesc_readPhoneState">Lar appen bruke enhetens telefonfunksjoner. Med denne tillatelsen kan appen finne telefonnummer og enhets-ID-er, registrere om en samtale pågår, og se det eksterne nummeret det opprettes en forbindelse med via oppringing.</string>
@@ -1370,6 +1449,8 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="permdesc_setWallpaper">Lar appen angi systembakgrunnen.</string>
     <string name="permdesc_setWallpaperHints">Lar appen angi størrelsestips for systembakgrunnen.</string>
     <string name="permdesc_sim_communication">Lar appen sende kommandoer til SIM-kortet. Dette er veldig farlig.</string>
+    <string name="permdesc_startReviewPermissionDecisions">Lar innehaveren starte skjermen for å gjennomgå avgjørelser om tillatelser. Dette skal aldri være nødvendig for vanlige apper.</string>
+    <string name="permdesc_startViewAppFeatures">Lar innehaveren se informasjon om funksjonene for en app.</string>
     <string name="permdesc_startViewPermissionUsage">Lar innehaveren starte bruk av tillatelser for en app. Dette skal aldri være nødvendig for vanlige apper.</string>
     <string name="permdesc_statusBar">Lar appen deaktivere statusfeltet eller legge til og fjerne systemikoner.</string>
     <string name="permdesc_statusBarService">Gir appen tillatelse til å vises i statusfeltet.</string>
@@ -1391,7 +1472,7 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="permdesc_writeCallLog">Lar appen endre telefonens samtalelogg, inkludert data om innkommende og utgående anrop. Skadelige apper kan utnytte denne tillatelsen til å slette eller endre samtaleloggen din.</string>
     <string name="permdesc_writeContacts">Lar appen endre informasjon om kontaktene som er lagret på telefonen din. Denne tillatelsen lar apper slette kontaktdata.</string>
     <string name="permdesc_writeGeolocationPermissions">Lar appen endre nettleserens tillatelser for geoposisjonering. Ondsinnede apper kan bruke dette for å tillate sending av posisjonsinformasjon til vilkårlige nettsteder.</string>
-    <string name="permdesc_writeHistoryBookmarks">Lar appen endre nettleserens logg eller bokmerker lagret på telefonen din. Dette kan føre til at appen sletter eller endrer nettleserdata. Vær oppmerksom på at denne tillatelsen kanskje ikke benyttes av tredjepartsnettlesere eller andre apper med mulighet for nettsurfing.</string>
+    <string name="permdesc_writeHistoryBookmarks">Lar appen endre nettleserens logg eller bokmerker lagret på telefonen din. Dette kan føre til at appen sletter eller endrer nettlesingsdata. Vær oppmerksom på at denne tillatelsen kanskje ikke benyttes av tredjepartsnettlesere eller andre apper med mulighet for nettsurfing.</string>
     <string name="permdesc_writeSettings">Lar appen endre dataene i systeminnstillingene. Ondsinnede apper kan bruke dette til å skade systemkonfigurasjonen.</string>
     <string name="permdesc_writeSyncSettings">Lar appen endre synkroniseringsinnstillingene for en konto. For eksempel kan dette brukes til å synkronisere Personer-appen med en konto.</string>
     <string name="permgroupdesc_activityRecognition">tilgang til den fysiske aktiviteten din</string>
@@ -1402,10 +1483,13 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="permgroupdesc_location">få tilgang til enhetens plassering</string>
     <string name="permgroupdesc_microphone">ta opp lyd</string>
     <string name="permgroupdesc_nearby_devices">oppdage og koble til enheter i nærheten</string>
+    <string name="permgroupdesc_notifications">vise varsler</string>
     <string name="permgroupdesc_phone">ring og administrer anrop</string>
+    <string name="permgroupdesc_readMediaAural">bruke musikk og lyd på enheten</string>
+    <string name="permgroupdesc_readMediaVisual">bruke bilder og videoer på enheten</string>
     <string name="permgroupdesc_sensors">få tilgang til sensordata om de vitale tegnene dine</string>
     <string name="permgroupdesc_sms">sende og lese SMS-meldinger</string>
-    <string name="permgroupdesc_storage">åpne bilder, medieinnhold og filer på enheten din</string>
+    <string name="permgroupdesc_storage">bruke filer på enheten</string>
     <string name="permgrouplab_activityRecognition">Fysisk aktivitet</string>
     <string name="permgrouplab_calendar">Kalender</string>
     <string name="permgrouplab_calllog">Samtalelogger</string>
@@ -1414,10 +1498,13 @@ Forbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger s
     <string name="permgrouplab_location">Posisjon</string>
     <string name="permgrouplab_microphone">Mikrofon</string>
     <string name="permgrouplab_nearby_devices">Enheter i nærheten</string>
+    <string name="permgrouplab_notifications">Varsler</string>
     <string name="permgrouplab_phone">Telefon</string>
+    <string name="permgrouplab_readMediaAural">Musikk og lyd</string>
+    <string name="permgrouplab_readMediaVisual">Bilder og videoer</string>
     <string name="permgrouplab_sensors">Kroppssensorer</string>
     <string name="permgrouplab_sms">SMS</string>
-    <string name="permgrouplab_storage">Filer og medier</string>
+    <string name="permgrouplab_storage">Filer</string>
     <string name="permission_request_notification_for_app_with_subtitle">"Tillatelse forespurt av %1$s
 for kontoen %2$s."</string>
     <string name="permission_request_notification_title">Tillatelse forespurt</string>
@@ -1454,7 +1541,8 @@ for kontoen %s."</string>
     <string name="permlab_bluetooth_advertise">vise til Bluetooth-enheter i nærheten</string>
     <string name="permlab_bluetooth_connect">koble til tilkoblede Bluetooth-enheter</string>
     <string name="permlab_bluetooth_scan">oppdage og koble til Bluetooth-enheter i nærheten</string>
-    <string name="permlab_bodySensors">få tilgang til kroppssensorer (f.eks. pulsmålere)</string>
+    <string name="permlab_bodySensors">Tilgang til data fra kroppssensorer, for eksempel puls, når den er i bruk</string>
+    <string name="permlab_bodySensors_background">Tilgang til data fra kroppssensorer, for eksempel puls, når den er i bakgrunnen</string>
     <string name="permlab_broadcastSticky">sende varige kringkastinger</string>
     <string name="permlab_callCompanionApp">se og kontrollere anrop i systemet.</string>
     <string name="permlab_callPhone">ringe telefonnummer direkte</string>
@@ -1491,17 +1579,23 @@ for kontoen %s."</string>
     <string name="permlab_mediaLocation">lese posisjoner fra mediesamlingen din</string>
     <string name="permlab_modifyAudioSettings">endre lydinnstillinger</string>
     <string name="permlab_modifyNetworkAccounting">Modifisering av regnskapsføring av nettverksbruk</string>
+    <string name="permlab_nearby_wifi_devices">samhandle med Wi-Fi-enheter i nærheten</string>
     <string name="permlab_nfc">kontroller overføring av data med NFC-teknologi</string>
     <string name="permlab_persistentActivity">angi at appen alltid skal kjøre</string>
+    <string name="permlab_postNotification">vise varsler</string>
     <string name="permlab_preferredPaymentInfo">Informasjon om prioritert NFC-betalingstjeneste</string>
     <string name="permlab_processOutgoingCalls">omdirigere utgående anrop</string>
     <string name="permlab_queryAllPackages">søk i alle pakker</string>
+    <string name="permlab_readBasicPhoneState">lese grunnleggende telefonstatus og identitet</string>
     <string name="permlab_readCalendar">Les kalenderaktivitet og detaljer</string>
     <string name="permlab_readCallLog">lese anropsloggen</string>
     <string name="permlab_readCellBroadcasts">lese kringkastede meldinger</string>
     <string name="permlab_readContacts">lese kontaktene dine</string>
     <string name="permlab_readHistoryBookmarks">lese nettbokmerkene og nettloggen din</string>
     <string name="permlab_readInstallSessions">lese installeringsøkter</string>
+    <string name="permlab_readMediaAudio">lese lydfiler fra delt lagringsplass</string>
+    <string name="permlab_readMediaImages">lese bildefiler fra delt lagringsplass</string>
+    <string name="permlab_readMediaVideo">lese videofiler fra delt lagringsplass</string>
     <string name="permlab_readNetworkUsageHistory">lese tidligere nettverksbruk</string>
     <string name="permlab_readPhoneNumbers">les telefonnumre</string>
     <string name="permlab_readPhoneState">lese telefonstatus og -identitet</string>
@@ -1533,6 +1627,8 @@ for kontoen %s."</string>
     <string name="permlab_setWallpaper">endre bakgrunnsbilde</string>
     <string name="permlab_setWallpaperHints">endre størrelsen på bakgrunnsbildet</string>
     <string name="permlab_sim_communication">sende kommandoer til SIM-kortet</string>
+    <string name="permlab_startReviewPermissionDecisions">starte visning av avgjørelser om tillatelser</string>
+    <string name="permlab_startViewAppFeatures">starte visning av appfunksjoner</string>
     <string name="permlab_startViewPermissionUsage">start visning av bruk av tillatelser</string>
     <string name="permlab_statusBar">deaktivere eller endre statusfeltet</string>
     <string name="permlab_statusBarService">vise appen i statusfeltet</string>
@@ -1685,6 +1781,10 @@ for kontoen %s."</string>
     <string name="restr_pin_error_too_short">PIN-koden er for kort. Den må bestå av minst fire sifre.</string>
     <string name="restr_pin_incorrect">Feil</string>
     <string name="restr_pin_try_later">Prøv på nytt senere</string>
+    <string name="review_notification_settings_dismiss">Lukk</string>
+    <string name="review_notification_settings_remind_me_action">Påminn meg senere</string>
+    <string name="review_notification_settings_text">Fra og med Android 13 må apper du installerer, få tillatelse til å sende varsler. Trykk for å endre denne tillatelsen for eksisterende apper.</string>
+    <string name="review_notification_settings_title">Gjennomgå varslingsinnstillingene</string>
     <string name="revoke">Opphev</string>
     <string name="ringtone_default">Standard ringetone</string>
     <string name="ringtone_default_with_actual">Standard (%1$s)</string>
@@ -1821,6 +1921,7 @@ Hvis du hører på et høyt volum over lengre perioder, kan det skade hørselen 
     <string name="ssl_ca_cert_noti_by_administrator">Av administratoren for jobbprofilen din</string>
     <string name="ssl_ca_cert_noti_by_unknown">Av en ukjent tredjepart</string>
     <string name="ssl_ca_cert_noti_managed">Av %s</string>
+    <string name="ssl_ca_cert_warning">{count,plural, =1{En sertifiseringsinstans er installert}other{Sertifiseringsinstanser er installert}}</string>
     <string name="ssl_certificate">Sikkerhetssertifikat</string>
     <string name="ssl_certificate_is_valid">Sertifikatet er gyldig.</string>
     <string name="stk_cc_ss_to_dial">SS-forespørsel endret til vanlig anrop</string>
@@ -1838,6 +1939,7 @@ Hvis du hører på et høyt volum over lengre perioder, kan det skade hørselen 
     <string name="storage_usb_drive">USB-stasjon</string>
     <string name="storage_usb_drive_label">%s USB-stasjon</string>
     <string name="submit">Send inn</string>
+    <string name="supervised_user_creation_label">Legg til administrert bruker</string>
     <string name="suspended_widget_accessibility">%1$s er slått av</string>
     <string name="sync_binding_label">Synkronisering</string>
     <string name="sync_do_nothing">Ikke gjør noe nå</string>
@@ -1847,6 +1949,7 @@ Hvis du hører på et høyt volum over lengre perioder, kan det skade hørselen 
     <string name="sync_undo_deletes">Opphev slettingene</string>
     <string name="system_error_manufacturer">Det har oppstått et internt problem på enheten din. Ta kontakt med produsenten for mer informasjon.</string>
     <string name="system_error_wipe_data">Det har oppstått et internt problem på enheten din, og den kan være ustabil til du tilbakestiller den til fabrikkdata.</string>
+    <string name="system_locale_title">Systemstandard</string>
     <string name="taking_remote_bugreport_notification_title">Kjører feilrapport …</string>
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Tilbakestill enheten til fabrikkstandard for å slå av Testrammeverk-modus.</string>
@@ -1921,6 +2024,7 @@ Hvis du hører på et høyt volum over lengre perioder, kan det skade hørselen 
     <string name="user_switched">Gjeldende bruker: %1$s.</string>
     <string name="user_switching_message">Bytter til %1$s …</string>
     <string name="validity_period">Gyldighet:</string>
+    <string name="vdm_camera_access_denied">Det er ikke mulig å få tilgang til telefonkameraet fra %1$s</string>
     <string name="view_and_control_notification_content">%s kan se og kontrollere skjermen. Trykk for å gjennomgå.</string>
     <string name="view_and_control_notification_title">Sjekk tilgangsinnstillingene</string>
     <string name="volume_alarm">Alarmvolum</string>
@@ -2022,9 +2126,18 @@ Vil du lukke den?"</string>
     <string name="zen_mode_default_weekends_name">Helg</string>
     <string name="zen_mode_default_weeknights_name">Hverdagskveld</string>
     <string name="zen_mode_downtime_feature_name">Pause</string>
+    <string name="zen_mode_duration_hours">{count,plural, =1{I 1 time}other{I # timer}}</string>
+    <string name="zen_mode_duration_hours_short">{count,plural, =1{I 1 t}other{I # t}}</string>
+    <string name="zen_mode_duration_hours_summary">{count,plural, =1{I 1 time (til {formattedTime})}other{I # timer (til {formattedTime})}}</string>
+    <string name="zen_mode_duration_hours_summary_short">{count,plural, =1{I 1 t (frem til {formattedTime})}other{I # t (frem til {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes">{count,plural, =1{I ett minutt}other{I # minutter}}</string>
+    <string name="zen_mode_duration_minutes_short">{count,plural, =1{I 1 min}other{I # min}}</string>
+    <string name="zen_mode_duration_minutes_summary">{count,plural, =1{I ett minutt (til {formattedTime})}other{I # minutter (til {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes_summary_short">{count,plural, =1{I 1 min (til {formattedTime})}other{I # min (til {formattedTime})}}</string>
     <string name="zen_mode_feature_name">«Ikke forstyrr»</string>
     <string name="zen_mode_forever">Til du slår av</string>
     <string name="zen_mode_forever_dnd">Inntil du slår av Ikke forstyrr</string>
+    <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
     <string name="zen_mode_until">Til %1$s</string>
     <string name="zen_mode_until_next_day">Til %1$s</string>
     <string name="zen_upgrade_notification_content">Trykk for å sjekke hva som er blokkert.</string>
