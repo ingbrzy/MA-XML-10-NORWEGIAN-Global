@@ -139,7 +139,6 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol 10 sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
-    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">DIREKTE</string>
     <string name="cast_mute">Slå av lyden</string>
     <string name="cast_notification_connected_message">Koblet til %1$s</string>
@@ -1066,7 +1065,6 @@ for videoer"</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>

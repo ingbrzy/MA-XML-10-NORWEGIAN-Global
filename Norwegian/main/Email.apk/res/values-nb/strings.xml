@@ -195,7 +195,6 @@
     <string name="b_contacts_remove_tips">Fjerne denne adressen fra blokkeringslisten?</string>
     <string name="back">Tilbake</string>
     <string name="bcc">Blindkopi</string>
-    <string name="bcc_heading">"Blindkopi: "</string>
     <string name="blank_feedback_toast">Du må skrive en tilbakemelding</string>
     <string name="body_forward_email_text">[Forward]</string>
     <string name="body_hint">Skriv e-post</string>
@@ -206,7 +205,6 @@
     <string name="cancel">Avbryt</string>
     <string name="cancel_action">Avbryt</string>
     <string name="cc">Kopi</string>
-    <string name="cc_attribution">Kopi: %1$s&lt;br></string>
     <string name="cc_bcc">Kopi/Blindkopi</string>
     <string name="cc_heading">"Kopi: "</string>
     <string name="certificate_add_failed">Kunne ikke legge til «%s»-sertifikatet</string>
@@ -230,7 +228,6 @@
     <string name="click_to_reload">Trykk på skjermen og prøv igjen</string>
     <string name="close">Lukk</string>
     <string name="collapse_recipient_details">Kollaps mottakerdetaljer</string>
-    <string name="colon">:</string>
     <string name="compose">Skriv ny</string>
     <string name="compose_event">Invitasjon</string>
     <string name="compose_paste_address_oob">For mange tegn</string>
@@ -471,7 +468,6 @@
     <string name="installation_failed">Installasjonen mislyktes.</string>
     <string name="installing_module">Installerer modul:</string>
     <string name="kilobytes">%s  KB</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="load_from_remote">Søk etter postkasse på serveren</string>
     <string name="load_more">Last inn mer</string>
     <string name="loading_conversation">Laster…</string>
@@ -873,7 +869,6 @@ Vent til den er fullstendig synkronisert, eller se meldingen på datamaskinen di
     <string name="size_tera_byte">TB</string>
     <string name="smtp_password_error">Passordet for den utgående e-postserveren er feil</string>
     <string name="sort_attachment">Sorter etter</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Velg alle</string>
     <string name="str_select_none">Fjern alle valg</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>
