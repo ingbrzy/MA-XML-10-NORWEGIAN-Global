@@ -40,10 +40,6 @@
         <item quantity="other">Funnet %d resultater</item>
         <item quantity="one">Funnet %d resultat</item>
     </plurals>
-    <plurals name="family_service_member_count">
-        <item quantity="other">%d people</item>
-        <item quantity="one">%d personer</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>

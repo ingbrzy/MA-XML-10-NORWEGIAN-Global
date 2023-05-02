@@ -396,7 +396,6 @@ Før du bruker Mi Share, må du gi følgende tillatelser, i tillegg til å la de
     <string name="somepc_send_muchfile_files">%1$s sender mer enn %2$d filer til deg…</string>
     <string name="start_receive_much_files_from_pc">Mottar mer enn %2$d filer fra %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="sub_title_mishare_switch">Denne funksjonen deaktiveres automatisk etter %d minutter</string>
     <string name="success_receive_much_file_from_pc">Mottok mer enn %2$d filer fra %1$s. Trykk for å vise.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
@@ -458,8 +457,6 @@ Før du bruker Mi Share, må du gi følgende tillatelser, i tillegg til å la de
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Rapporter</string>
-    <string name="toast_auto_close_in_minutes">Mi Share deaktiveres etter %d minutter</string>
-    <string name="toast_transfering">Overfører elementer. Prøv igjen senere.</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
     <string name="transfer_intercept_to_remote">Kunne ikke sende: %1$s</string>
@@ -467,10 +464,8 @@ Før du bruker Mi Share, må du gi følgende tillatelser, i tillegg til å la de
     <string name="transfer_to_pc_summary_new">&lt;Data>Den nyeste versjonen av MIUI+ installert på Mi Notebooks, er kompatibel med Mi Share. Du kan sjekke listen over støttede laptopmodeller på MIUI+-nettstedet (&lt;a href=%1$s>%2$s&lt;/a>). Hvis laptopen din er på listen, men MIUI+ ikke er installert på den, kan du oppdatere laptopens BIOS og driveren til nettverkskortet og laste ned MIUI+.&lt;/Data></string>
     <string name="transfer_to_pc_title">Send filer til datamaskiner</string>
     <string name="transfer_to_phone_summary">Aktiver Mi Share ved å bruke veksleren i varslingsskyggen. Etter at du har gjort det, kan du se alle enheter i nærheten når du begynner å dele et bilde eller en fil. Trykk på mottakerens enhet for å sende elementet du deler.</string>
-    <string name="transfer_to_phone_summary_new">Aktiver Mi Share i Kontrollsenter for å enkelt kunne sende og motta elementer. Når den er aktivert, kan du dele elementer med enheter i nærheten i %d minutter før den deaktiveres automatisk.</string>
     <string name="transfer_to_phone_title">Send filer til telefoner</string>
     <string name="transfer_to_summary">Aktiver Mi Share ved å bruke veksleren i varslingsskyggen. Etter at du har gjort det, kan du se alle enheter i nærheten når du begynner å dele et bilde eller en fil. Trykk på mottakerens enhet for å sende elementet du deler.</string>
-    <string name="transfer_to_summary_new">Aktiver Mi Share i Kontrollsenter for å enkelt kunne sende og motta elementer. Når den er aktivert, kan du dele elementer med enheter i nærheten i %d minutter før den deaktiveres automatisk.</string>
     <string name="transfer_to_title">Send filer til mobilenheter</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>

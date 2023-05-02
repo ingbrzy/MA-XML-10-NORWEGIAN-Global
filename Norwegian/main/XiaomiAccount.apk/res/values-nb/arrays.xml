@@ -19,16 +19,6 @@
         <item>Endre passord for Mi-konto</item>
         <item>Endre passord;Oppdater passord;Mi-konto;Konto</item>
     </string-array>
-    <string-array name="settings_search_cloud_space_share">
-        <item>Familielagringsplass</item>
-        <item>Vis / Skru på familielagringsplass</item>
-        <item>Familielagringsplass;Lagringsdeling</item>
-    </string-array>
-    <string-array name="settings_search_family_service">
-        <item>Familietjenester</item>
-        <item>Se / slå på familietjenester</item>
-        <item>Familie;Familietjenester;Familiedeling</item>
-    </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjelp</item>
         <item>Få hjelp og støtte til Mi-kontoen din</item>
