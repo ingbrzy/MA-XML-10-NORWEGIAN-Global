@@ -499,7 +499,6 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -566,7 +565,6 @@
     <string name="note_write_hint">Start skriving</string>
     <string name="notealert_enter">Åpne notat</string>
     <string name="notealert_ok">Avvis</string>
-    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Notater er en systemapp. Du kan ikke bruke denne appen etter at du har avinstallert den.</string>
     <string name="notes_description_title">Avinstallere Notater?</string>
     <string name="notification_content_add_todo_from_other_app">Du la til en ny oppgave. Trykk for å se.</string>
