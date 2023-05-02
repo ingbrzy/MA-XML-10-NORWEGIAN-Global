@@ -152,8 +152,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_state_summary_china">Enheten må være koblet til WLAN, lade og være låst</string>
     <string name="cloud_backup_detail_time">Siste sikkerhetskopiering: %1$s</string>
     <string name="cloud_backup_detail_title">Sikkerhetskopier elementer</string>
-    <string name="cloud_backup_get_installed_apps_summary">For backing up and restoring Home screen apps</string>
-    <string name="cloud_backup_get_installed_apps_title">Access the list of apps installed on this device</string>
     <string name="cloud_backup_have_data">Fant en sikkerhetskopi i Xiaomi Cloud</string>
     <string name="cloud_backup_in_cancel">Avbryt</string>
     <string name="cloud_backup_in_process">Sikkerhetskopierer</string>
@@ -172,9 +170,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_restore_summary">Hjem-skjermen din vil bli restartet. Sikkerhetskopierte apper vil bli lastet ned automatisk.</string>
     <string name="confirm_restore_title">Gjenopprett</string>
     <string name="copy">Kopiér</string>
-    <string name="cta_dialog_all_purpose">Velkommen til Sikkerhetskopier i Cloud! Du kan bruke denne appen til å sikkerhetskopiere oppsettet på startskjermen, apper, systeminnstillinger og WeChat-data til skyen. Sørg for at du bruker den nyeste versjonen for å kunne dra full nytte av alle funksjonene.</string>
-    <string name="cta_dialog_permission_description_get_installed_apps">For backing up and restoring apps</string>
-    <string name="cta_dialog_permission_description_storage">For sikkerhetskopiering og gjenoppretting av elementer</string>
     <string name="customization"><u>Tilpass</u></string>
     <string name="date_format">HH:mm:ss dd-MM-yyyy</string>
     <string name="date_picker_label_day" />
@@ -306,7 +301,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="get_device_id_error">Kunne ikke hente enhetens ID</string>
     <string name="help_and_feedback">Hjelp og tilbakemelding</string>
     <string name="hint_restore_wechat_data">Merk: WeChat-data kan i noen tilfeller ikke gjenopprettes på grunn av kompatibilitetsproblemer.</string>
-    <string name="home_hint_global_launcher">POCO Launcher</string>
+    <string name="home_hint_global_launcher">POCO-programstarter</string>
     <string name="home_hint_other_launcher">Annen starter</string>
     <string name="home_restore_error">Kunne ikke gjenopprette startskjermen</string>
     <string name="lack_of_storage">Ikke nok lagringsplass</string>
@@ -402,6 +397,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Bruk vekselbryteren for sikkerhetskopiering</string>
     <string name="other_device_main_space">Første område</string>
     <string name="other_device_second_space">Andre område</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Kan ikke gjenopprette elementer i PC-modus. Deaktiver PC-modus og prøv igjen.</string>
     <string name="permission_to_use">Detaljer for tillatelser</string>
     <string name="pm">PM</string>

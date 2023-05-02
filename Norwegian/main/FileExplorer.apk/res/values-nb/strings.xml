@@ -129,6 +129,8 @@
     <string name="cloud_drive_settings">Mi Drive-innstillinger</string>
     <string name="cloud_empty_hint_text">"Ingenting her anda.
 Prøv å flytte filer fra enheten din til Mi Drive."</string>
+    <string name="cloud_empty_hint_text_pad">"Ingenting her enda.
+Prøv å flytte filer fra enheten din til Mi Drive."</string>
     <string name="cloud_guide_summary_text">Synkroniser elementene dine automatisk til alle enhetene dine</string>
     <string name="cloud_guide_title_text">Synkroniser med Mi Drive</string>
     <string name="cloud_permission_storage_desc">For å lagre bilder og dokumenter på enheten</string>
@@ -153,7 +155,7 @@ Prøv å flytte filer fra enheten din til Mi Drive."</string>
     <string name="connection_error">Kunne ikke koble til</string>
     <string name="connection_lost">Frakoblet</string>
     <string name="copy">Kopiér</string>
-    <string name="copy_failed">Kunne ikke kopierer</string>
+    <string name="copy_failed">Kunne ikke kopiere</string>
     <string name="copy_to">Kopier til…</string>
     <string name="create_folder">Opprett</string>
     <string name="create_shortcut_success">Snarvei er lagt til</string>
@@ -246,6 +248,9 @@ Prøv å flytte filer fra enheten din til Mi Drive."</string>
     <string name="exception_net_not_available">Sjekk nettverksinnstillingene dine og prøv igjen</string>
     <string name="exit">Avslutt</string>
     <string name="expand_button_title">Avansert</string>
+    <string name="extend_service_setting">Tilleggstjenester</string>
+    <string name="extend_service_summary">Hvis du deaktiverer denne tjenesten, kan du ikke bruke Mi Drive-relaterte funksjoner</string>
+    <string name="extend_service_title">Administrer Mi Drive-filer</string>
     <string name="extended_storage_file_can_not_open">Kan ikke åpne filen. Kopier den til intern lagringsplass.</string>
     <string name="extract">Pakk ut</string>
     <string name="fab_menu_ball">Hurtighandlinger</string>
@@ -256,6 +261,7 @@ Prøv å flytte filer fra enheten din til Mi Drive."</string>
     <string name="favorite_photo">Bilder</string>
     <string name="favorite_ringtone">Ringetoner</string>
     <string name="favorite_screen_cap">Skjermbilder</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Lesbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
     <string name="file_info_ishidden">Skjult: </string>
@@ -629,6 +635,9 @@ Prøv å flytte filer fra enheten din til Mi Drive."</string>
     <string name="otg_data_transferring">Overfører filer… Ikke koble fra ekstern lagring.</string>
     <string name="otg_file_security_note">OGTSecurity</string>
     <string name="overwrite_msg">\"%s\" eksisterer allerede. Trykk for å erstatte den med en ny fil.</string>
+    <string name="pad">Nettbrett</string>
+    <string name="pad_homepage_tab_file_view_phone">Nettbrett</string>
+    <string name="pad_start_phone">Lagring</string>
     <string name="partial_cancel_successful">Noen filer kunne ikke fjernes. Flyttet resten av filene til %s.</string>
     <string name="partial_delete_failure">Enkelte filer kunne ikke slettes. Prøv igjen.</string>
     <string name="partial_encrypt_success">Enkelte filer kunne ikke gjøres private. Prøv igjen.</string>
@@ -754,6 +763,7 @@ Prøv å flytte filer fra enheten din til Mi Drive."</string>
     <string name="set_pattern">Oppdater passordet ditt</string>
     <string name="set_pattern_btn">Skriv inn</string>
     <string name="set_pattern_msg">Angi passord igjen. Passord for personvern fungerer også for bilder, meldinger og notater.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mindre enn %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB – %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
@@ -775,6 +785,9 @@ Prøv å flytte filer fra enheten din til Mi Drive."</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stay_awake_summary">Ikke la skjermen være i dvale mens FTP brukes</string>
     <string name="stay_awake_title">Hold skjermen våken</string>
+    <string name="stop_extend_service_dialog_confirm">Deaktiver</string>
+    <string name="stop_extend_service_dialog_summary">Hvis du deaktiverer denne funksjonen, kan du ikke administrere filene dine i Mi Drive. Deaktiver likevel?</string>
+    <string name="stop_extend_service_dialog_tilte">Tilleggstjenester</string>
     <string name="stop_server">Stopp</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_info_detail">Tilgjengelig: %1$s Total: %2$s</string>

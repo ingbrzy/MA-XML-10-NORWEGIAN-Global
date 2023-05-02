@@ -36,14 +36,6 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
-    <plurals name="circulate_audio_group_subtitle_format">
-        <item quantity="other">%1$d enheter</item>
-        <item quantity="one">%1$d enhet</item>
-    </plurals>
-    <plurals name="circulate_audio_group_title_format">
-        <item quantity="other">%1$d enheter</item>
-        <item quantity="one">%1$d enhet</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>

@@ -36,14 +36,6 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
-    <plurals name="announce_for_drag">
-        <item quantity="other">Drar %1$d elementer</item>
-        <item quantity="one">Drar %1$d element</item>
-    </plurals>
-    <plurals name="announce_for_unread">
-        <item quantity="other">%2$s uleste fra %1$s</item>
-        <item quantity="one">%2$s ulest fra %1$s</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
@@ -72,32 +64,8 @@
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d nye varsler</item>
-        <item quantity="one">%d nytt varsel</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
-    </plurals>
-    <plurals name="remove_dialog_title_multi_format">
-        <item quantity="other">Fjern %1$d elementer fra startskjermen?</item>
-        <item quantity="one">Fjern %1$d element fra startskjermen?</item>
-    </plurals>
-    <plurals name="scroll_tip_format_when_announce_accessibility">
-        <item quantity="other">Side %1$d, %2$d apper.</item>
-        <item quantity="one">Side %1$d, %2$d app.</item>
-    </plurals>
-    <plurals name="uninstall_dialog_title_multi_format">
-        <item quantity="other">Avinstaller %1$d apper?</item>
-        <item quantity="one">Avinstaller %1$d app?</item>
-    </plurals>
-    <plurals name="uninstall_result_multi_failed">
-        <item quantity="other">Kunne ikke avinstallere %1$d apper</item>
-        <item quantity="one">Kunne ikke avinstallere %1$d app</item>
-    </plurals>
-    <plurals name="uninstall_result_multi_succeeded">
-        <item quantity="other">Avinstallerte %1$d apper</item>
-        <item quantity="one">Avinstallerte %1$d app</item>
     </plurals>
 </resources>
