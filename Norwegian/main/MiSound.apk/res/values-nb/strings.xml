@@ -31,6 +31,7 @@
     <string name="add_sound">Legg til tilpasset forhåndsinnstilling</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
+    <string name="app_disable_description_title">Deaktivere denne appen?</string>
     <string name="app_name">Hodetelefoner</string>
     <string name="apply_sound">Bruk</string>
     <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
@@ -64,8 +65,14 @@
     <string name="effect_3dsurround">Fordypende lyd</string>
     <string name="effect_3dsurround_summary">Forbedre dybden i lydgjengivelsen for øretelefoner og høyttalere</string>
     <string name="effect_3dsurround_summary_headphone">Forbedre dybden i lydgjengivelsen for øretelefoner</string>
+    <string name="effect_dolby">Dolby Atmos</string>
+    <string name="effect_misound">Xiaomi Sound</string>
+    <string name="effect_none">Original</string>
+    <string name="effect_selection">Lydeffekter</string>
+    <string name="effect_selection_headset">Hodetelefoneffekter</string>
     <string name="effect_virtual_surround">Virtuell fordypende lyd</string>
     <string name="effect_virtual_surround_summary">Berike lyddybden for avspilling av lyd og video på hodetelefoner (denne funksjonen virker ikke når %.1f-lyd)-lyd avspilles)</string>
+    <string name="effect_virtual_surround_summary_spk">Få rikere lyddybde for lyd- og videoavspilling</string>
     <string name="empty" />
     <string name="end_wireless_transmission">Stopp</string>
     <string name="eq_auto">Tilpasset</string>
@@ -201,14 +208,14 @@
     <string name="midnight">Natt</string>
     <string name="misound_effect_setting">Mi Lyd</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -270,6 +277,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -417,6 +425,9 @@
     <string name="now_here">Og nå?</string>
     <string name="original_sound">Spill orinigal lyd</string>
     <string name="password_toggle_content_description">Vis passordet</string>
+    <string name="permission_go_to_settings">Innstillinger</string>
+    <string name="permission_requesr_content">Tillat denne appen å koble til enheter i nærheten i Innstillinger.</string>
+    <string name="permission_requesr_title">Tillatelser kreves</string>
     <string name="personal_sound">Spill med brukte forhåndsinnstilling</string>
     <string name="pm">PM</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
@@ -457,18 +468,13 @@
     <string name="sound_id_function_description">Persontilpass EQ-kurven utfra dine preferanser</string>
     <string name="sound_id_function_name">Persontilpasset lyd</string>
     <string name="sound_id_headset_status">Aktuelle øretelefoner</string>
-    <string name="sound_id_hz_high">"Diskant
-%d Hz"</string>
-    <string name="sound_id_hz_low">"Bass
-%d Hz"</string>
-    <string name="sound_id_hz_media">"Mellomtoneområde
-%d Hz"</string>
+    <string name="sound_id_hz"> %d Hz</string>
+    <string name="sound_id_hz_high">Diskant %d Hz</string>
+    <string name="sound_id_hz_low">Bass %d Hz</string>
+    <string name="sound_id_hz_media">Mellomtoneområde %d Hz</string>
     <string name="sound_id_music_one_description">Lett | %ds</string>
-    <string name="sound_id_music_one_title">Rainy city</string>
     <string name="sound_id_music_three_description">Melodisk | %ds</string>
-    <string name="sound_id_music_three_title">Trace</string>
     <string name="sound_id_music_two_description">Rytmisk | %ds</string>
-    <string name="sound_id_music_two_title">Night fever</string>
     <string name="sound_id_no_effect_msg">Ikke bruk persontilpasset lyd</string>
     <string name="sound_id_notice_headset_change_msg">Det ser ut til at du bruker et annerledes par øretelefoner. Testen ble stoppet.</string>
     <string name="sound_id_notice_headset_change_msg2">Det ser ut til at du bruker et annerledes par øretelefoner. Kontroller at denne persontilpassede lyden samsvarer med øretelefonene.</string>
@@ -514,6 +520,7 @@
     <string name="sound_transmission_title">Trådløs mikrofon</string>
     <string name="spatial_audio">Fordypende lyd</string>
     <string name="spatial_audio_summary">Opplev fordypende lyd og en romlig følelse når lyd spilles av gjennom hodetelefonene</string>
+    <string name="spatial_audio_summary_spk">Opplev fordypende lyd og en romlig følelse når lyd spilles av</string>
     <string name="speaker_scenario_resume">Gjenopprett opprinnelige effekter</string>
     <string name="start_test_sound">Start test</string>
     <string name="status_bar_notification_info_overflow">999+</string>

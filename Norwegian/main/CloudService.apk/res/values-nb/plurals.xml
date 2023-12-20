@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 time</item>
-        <item quantity="one">Om 1 time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtime</item>
@@ -25,16 +25,20 @@
         <item quantity="one">Umiddelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minutter siden</item>
-        <item quantity="one">1 minutt siden</item>
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
+    </plurals>
+    <plurals name="cloud_storage_full_upgrade_text">
+        <item quantity="other">Utilstrekkelig lagringsplass. Kunne ikke synkronisere %d-bilder.</item>
+        <item quantity="one">Utilstrekkelig lagringsplass. Kunne ikke synkronisere %d-bilde.</item>
     </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d blokkeringsliste-oppføringer</item>
@@ -108,6 +112,10 @@
         <item quantity="other">Prøv igjen om %d sekunder</item>
         <item quantity="one">Prøv igjen om %d sekund</item>
     </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_red_title">
+        <item quantity="other">Kunne ikke synkronisere &lt;font color=#F22424>%s elementer&lt;/font></item>
+        <item quantity="one">Kunne ikke synkronisere &lt;font color=#F22424>%s element&lt;/font></item>
+    </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">Kunne ikke synkronisere %s elementer</item>
         <item quantity="one">Kunne ikke synkronisere %s element</item>
@@ -155,6 +163,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
+    </plurals>
+    <plurals name="noti_quota_full_title_with_icon_text">
+        <item quantity="other">Lagringsplassen er full. Kunne ikke synkronisere &lt;font color=#F22424>%d apper&lt;/font>.</item>
+        <item quantity="one">Lagringsplassen er full. Kunne ikke synkronisere &lt;font color=#F22424>%d app&lt;/font>.</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>

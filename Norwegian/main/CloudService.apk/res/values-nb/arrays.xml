@@ -53,7 +53,7 @@
         <item>Finn enhet</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
-        <item>For å lokalisere enheten og bytte til mistet-modus</item>
+        <item>For å lokalisere enheten og bytte til Mistet-modus</item>
         <item>For å finne denne enheten når den ikke er koblet til Internett</item>
         <item>For å få tilgang til telefonnummeret for å finne denne enheten når den ikke er koblet til Internett</item>
     </string-array>

@@ -49,15 +49,15 @@
     </string-array>
     <string-array name="network_switch_type_name">
         <item>mobildata</item>
-        <item>Wi-Fi</item>
+        <item>Wifi</item>
         <item>Bluetooth</item>
         <item>Ethernet</item>
         <item>VPN</item>
     </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
-        <item>For å ringe og sende meldinger over Wi-Fi, må du først be operatøren om å konfigurere denne tjenesten. Deretter slår du på Wi-Fi-anrop igjen fra Innstillinger. (Feilkode: %1$s)</item>
+        <item>For å ringe og sende meldinger over Wifi, må du først be operatøren om å konfigurere denne tjenesten. Deretter slår du på wifi-anrop igjen fra Innstillinger. (Feilkode: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Problem med å registrere Wi-Fi-anrop med operatøren din: %1$s</item>
+        <item>Problem med å registrere wifi-anrop med operatøren din: %1$s</item>
     </string-array>
 </resources>

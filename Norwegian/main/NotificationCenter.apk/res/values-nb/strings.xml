@@ -31,7 +31,6 @@
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
     <string name="app_name">Varsler</string>
-    <string name="back">Tilbake</string>
     <string name="channel_keyguard_hide_content">Vis alle varsler, men skjul innhold</string>
     <string name="channel_keyguard_show_content">Vis alle varsler og deres innhold</string>
     <string name="channel_keyguard_show_nothing">Ikke vis varsel i det hele tatt</string>
@@ -61,6 +60,9 @@
     <string name="feedback">Tilbakemelding</string>
     <string name="float_notification_snooze_strategy">Skjul midlertidig</string>
     <string name="float_notification_snooze_summary">Sveip opp på et flytende varsel for å midlertidig skjule de som kommer opp</string>
+    <string name="float_notification_snooze_summary_1_min">Swipe up on a floating notification to hide upcoming ones for %d minute</string>
+    <string name="float_notification_snooze_summary_always_float">Vis alltid flytende varsler</string>
+    <string name="float_notification_snooze_summary_until_unlock">Sveip opp i et flytende varsel for å skjule kommende varsler til enheten er låst</string>
     <string name="float_notifications">Flytende varsler</string>
     <string name="float_notifications_short">Flytende</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -135,18 +137,17 @@
     <string name="lockscreen_notifications_short">Låseskjerm</string>
     <string name="midnight">Natt</string>
     <string name="miui_snooze_always_float">Ikke skjul</string>
-    <string name="miui_snooze_cancel">Avbryt</string>
     <string name="miui_snooze_default_time">I %d minutt</string>
     <string name="miui_snooze_until_unlock_screen">Til låst</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -209,7 +210,7 @@
     <string name="notch_and_status_bar_setting">Kontrollsenter og statuslinje</string>
     <string name="notification_display_setting">Varslingsskygge</string>
     <string name="notification_display_style">Varselsstil</string>
-    <string name="notification_fold_description1">Varslingsmappen ble introdusert i MIUI 9. Denne funksjonen filtrerer ut uviktige varsler og plasserer dem i en separat mappe.</string>
+    <string name="notification_fold_description1">Varslingsmappen lar deg filtrere uviktige varsler og legge dem i en separat mappe.</string>
     <string name="notification_fold_description2">MIUI vil huske hvilke varsler du trykker på, og bruker så flere kriterier for å fastslå om de er viktige.</string>
     <string name="notification_fold_description3">Hvis varslene du ser på som viktige fortsatt blir plassert i varslingsmappen, må du rapportere problemet til oss. Vi setter pris på tilbakemeldingen din.</string>
     <string name="notification_fold_footer_icon_summary">Vis app-ikoner når ubetydelige varsler er gruppert</string>
@@ -219,9 +220,8 @@
     <string name="notification_keyguard_hide_content">Vis varsler, men skjul innhold</string>
     <string name="notification_keyguard_show_content">Vis varsel og innhold</string>
     <string name="notification_keyguard_show_nothing">Ikke vis varsler på låseskjerm</string>
-    <string name="notification_manager">Appvarsler</string>
     <string name="notification_style_android">Android</string>
-    <string name="notification_style_miui">MIUI</string>
+    <string name="notification_style_miui">Klassisk</string>
     <string name="off">Av</string>
     <string name="on">På</string>
     <string name="pm">PM</string>
@@ -235,6 +235,7 @@
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>
     <string name="show_badge_notifications">Varselsskilt</string>
     <string name="show_badge_notifications_short">Merker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>

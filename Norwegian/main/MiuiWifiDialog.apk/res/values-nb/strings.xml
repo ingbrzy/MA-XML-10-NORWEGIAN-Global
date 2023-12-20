@@ -31,6 +31,13 @@
     <string name="actionbar_button_up_description">Tilbake</string>
     <string name="afternoon">Ettermiddag</string>
     <string name="am">AM</string>
+    <string name="call_notification_answer_action">Svar</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Avvis</string>
+    <string name="call_notification_hang_up_action">Legg på</string>
+    <string name="call_notification_incoming_text">Innkommende anrop</string>
+    <string name="call_notification_ongoing_text">Pågående samtale</string>
+    <string name="call_notification_screening_text">Filtrerer et innkommende anrop</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
     <string name="date_picker_label_day" />
@@ -39,7 +46,6 @@
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="decline">Avslå</string>
-    <string name="dlg_ok">OK</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
@@ -102,14 +108,14 @@
     <string name="friday_shortest">Fre</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -167,9 +173,6 @@
     <string name="morning">Morgen</string>
     <string name="night">Kveld</string>
     <string name="noon">Midt på dagen</string>
-    <string name="notification_channel_network_alerts">Nettverksvarsler</string>
-    <string name="notification_channel_network_available">Nettverk er tilgjengelig</string>
-    <string name="notification_channel_network_status">Nettverksstatus</string>
     <string name="ok">OK</string>
     <string name="pm">PM</string>
     <string name="saturday">Lørdag</string>
@@ -235,115 +238,12 @@
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="wifiResourcesAppLabel">Systemets Wi-Fi-ressurser</string>
-    <string name="wifi_available_action_all_networks">Alle nettverk</string>
-    <string name="wifi_available_action_connect">Koble til</string>
-    <string name="wifi_available_content_failed_to_connect">Trykk for å se alle nettverkene</string>
-    <string name="wifi_available_title">Koble til et åpent Wi‑Fi-nettverk</string>
-    <string name="wifi_available_title_connected">Koblet til Wi-Fi-nettverk</string>
-    <string name="wifi_available_title_connecting">Kobler til Wi-Fi-nettverket</string>
-    <string name="wifi_available_title_failed_to_connect">Kunne ikke koble til Wi-Fi-nettverket</string>
-    <string name="wifi_ca_cert_dialog_abort_text">Nei, ikke koble til</string>
-    <string name="wifi_ca_cert_dialog_continue_text">Ja, koble til</string>
-    <string name="wifi_ca_cert_dialog_message_contact_text">"Kontakt:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_hint">"Bare gi dette nettverket tillatelse til å koble til hvis informasjonen nedenfor ser riktig ut.
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_issuer_name_text">"Utstedernavn:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_organization_text">"Organisasjon:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_server_name_text">"Tjenernavn:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Signatur:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Ikke koble til</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Koble til likevel</string>
-    <string name="wifi_ca_cert_dialog_preT_message_hint">Nettverket %1$s mangler et sertifikat.</string>
-    <string name="wifi_ca_cert_dialog_preT_message_link">Finn ut hvordan du legger til sertifikater</string>
-    <string name="wifi_ca_cert_dialog_preT_title">Kan ikke bekrefte dette nettverket</string>
-    <string name="wifi_ca_cert_dialog_title">Stoler du på dette nettverket?</string>
-    <string name="wifi_ca_cert_failed_to_install_ca_cert">Installeringen av sertifikatet mislyktes.</string>
-    <string name="wifi_ca_cert_notification_message">Gjennomgå nettverksdetaljene for %1$s før du kobler til. Trykk for å fortsette.</string>
-    <string name="wifi_ca_cert_notification_preT_abort_text">Ikke koble til</string>
-    <string name="wifi_ca_cert_notification_preT_continue_text">Koble til likevel</string>
-    <string name="wifi_ca_cert_notification_preT_message">Nettverket %1$s mangler et sertifikat. Trykk for å finne ut hvordan du legger til sertifikater.</string>
-    <string name="wifi_ca_cert_notification_preT_title">Kan ikke bekrefte dette nettverket</string>
-    <string name="wifi_ca_cert_notification_title">Nettverket må bekreftes</string>
-    <string name="wifi_cannot_connect_with_randomized_mac_message">Trykk for å endre personverninnstillingene og prøve på nytt</string>
-    <string name="wifi_cannot_connect_with_randomized_mac_title">Kan ikke koble til %1$s</string>
-    <string name="wifi_connect_alert_message">Appen %1$s vil koble til Wi-Fi-nettverket %2$s</string>
-    <string name="wifi_connect_alert_title">Vil du tillat tilkoblingen?</string>
-    <string name="wifi_connect_default_application">En app</string>
-    <string name="wifi_disable_mac_randomization_dialog_confirm_text">Endre innstillingen</string>
-    <string name="wifi_disable_mac_randomization_dialog_failure">Kan ikke endre personverninnstillingen</string>
-    <string name="wifi_disable_mac_randomization_dialog_message">"For å koble til må %1$s bruke enhetens MAC-adresse, en unik identifikator. For øyeblikket bruker personverninnstillingene dine for dette nettverket en tilfeldig valgt identifikator. 
-
-Denne endringen gjør at enhetens posisjon kan spores av enheter i nærheten."</string>
-    <string name="wifi_disable_mac_randomization_dialog_network_not_found">Fant ikke nettverket</string>
-    <string name="wifi_disable_mac_randomization_dialog_success">Innstillingen er oppdatert. Prøv å koble til igjen.</string>
-    <string name="wifi_disable_mac_randomization_dialog_title">Vil du endre personverninnstillingen?</string>
-    <string name="wifi_eap_error_message_code_16384">%1$s : EAP-autentiseringsfeil 16384</string>
-    <string name="wifi_eap_error_message_code_16385">%1$s : EAP-autentiseringsfeil 16385</string>
-    <string name="wifi_eap_error_message_code_32756">%1$s : EAP-autentiseringsfeil 32756</string>
-    <string name="wifi_eap_error_message_code_32760">%1$s : EAP-autentiseringsfeil 32760</string>
-    <string name="wifi_eap_error_message_code_32761">%1$s : EAP-autentiseringsfeil 32761</string>
-    <string name="wifi_eap_error_message_code_32762">%1$s : EAP-autentiseringsfeil 32762</string>
-    <string name="wifi_eap_error_message_code_32763">%1$s : EAP-autentiseringsfeil 32763</string>
-    <string name="wifi_eap_error_message_code_32764">%1$s : EAP-autentiseringsfeil 32764</string>
-    <string name="wifi_eap_error_message_code_32765">%1$s : EAP-autentiseringsfeil 32765</string>
-    <string name="wifi_eap_error_message_code_32766">%1$s : EAP-autentiseringsfeil 32766</string>
-    <string name="wifi_eap_error_message_code_32767">%1$s : EAP-autentiseringsfeil 32767</string>
-    <string name="wifi_eap_error_message_unknown_error_code">%1$s : EAP-autentiseringsfeil, ukjent feilkode</string>
-    <string name="wifi_enable_request_dialog_message">Du kan slå av Wi‑Fi i hurtiginnstillingene</string>
-    <string name="wifi_enable_request_dialog_negative_button">Ikke tillat</string>
-    <string name="wifi_enable_request_dialog_positive_button">Tillat</string>
-    <string name="wifi_enable_request_dialog_title">Vil du gi %1$s tillatelse til å slå på Wi‑Fi?</string>
-    <string name="wifi_interface_priority_approve">Tillat</string>
-    <string name="wifi_interface_priority_message">Dette kan forårsake problemer for %3$s.</string>
-    <string name="wifi_interface_priority_message_plural">Dette kan forårsake problemer for disse appene: %3$s.</string>
-    <string name="wifi_interface_priority_reject">Ikke tillat</string>
-    <string name="wifi_interface_priority_title">%1$s vil bruke en nettverksressurs</string>
     <string name="wifi_p2p_enter_pin_message">Skriv inn påkrevd PIN-kode:</string>
-    <string name="wifi_p2p_frequency_conflict_message">Telefonen frakobles Wi-Fi midlertidig mens den er tilkoblet %1$s</string>
     <string name="wifi_p2p_from_message">Fra:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Godta om # sekund.}other{Godta om # sekunder.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Invitasjonen er sendt</string>
     <string name="wifi_p2p_invitation_to_connect_title">Invitasjon for tilkobling</string>
     <string name="wifi_p2p_show_pin_message">PIN:</string>
     <string name="wifi_p2p_to_message">Til:</string>
-    <string name="wifi_sim_required_message">For å koble til %1$s, sett inn et %2$s-SIM-kort</string>
-    <string name="wifi_sim_required_title">Wi-Fi er frakoblet</string>
-    <string name="wifi_softap_auto_shutdown_timeout_expired_summary">Ingen enheter er koblet til. Trykk for å endre.</string>
-    <string name="wifi_softap_auto_shutdown_timeout_expired_title">Wi-Fi-sonen er slått av</string>
-    <string name="wifi_suggestion_action_allow_app">Tillat</string>
-    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_carrier">Koble til</string>
-    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_confirmation">Koble til</string>
-    <string name="wifi_suggestion_action_disallow_app">Nei takk</string>
-    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_carrier">Ikke koble til</string>
-    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_confirmation">Ikke koble til</string>
-    <string name="wifi_suggestion_content">%s-foreslåtte nettverk. Enheten kan koble til automatisk.</string>
-    <string name="wifi_suggestion_imsi_privacy_content">Disse nettverkene mottar en SIM-ID som kan brukes til å spore enhetsposisjonen</string>
-    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_content">Hvis du kobler til, kan %s-Wi‑Fi-nettverk få tilgang til eller dele en unik ID som er knyttet til SIM-kortet ditt. Dette gjør at enhetens posisjon kan spores.</string>
-    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_title">Vil du bekrefte tilkoblingen?</string>
-    <string name="wifi_suggestion_imsi_privacy_title">Vil du koble til %s-Wi-Fi?</string>
-    <string name="wifi_suggestion_title">Vil du tillate foreslåtte Wi-Fi nettverk?</string>
-    <string name="wifi_wakeup_enabled_content">Du er i nærheten av et lagret nettverk: %1$s</string>
-    <string name="wifi_wakeup_enabled_title">Wi‑Fi er slått på automatisk</string>
-    <string name="wifi_wakeup_onboarding_action_disable">Ikke slå på igjen</string>
-    <string name="wifi_wakeup_onboarding_subtext">Når du er i nærheten av et lagret nettverk av høy kvalitet</string>
-    <string name="wifi_wakeup_onboarding_title">Wi‑Fi slås på automatisk</string>
-    <string name="wifi_watchdog_network_disabled">Kan ikke koble til Wi-Fi</string>
-    <string name="wifi_watchdog_network_disabled_detailed">" har en dårlig internettilkobling."</string>
     <string name="yesterday">I går</string>
 </resources>

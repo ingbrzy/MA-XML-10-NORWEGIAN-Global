@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 time</item>
-        <item quantity="one">Om 1 time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtime</item>
@@ -25,16 +25,16 @@
         <item quantity="one">Umiddelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minutter siden</item>
-        <item quantity="one">1 minutt siden</item>
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="backup_message_wechat_video">
         <item quantity="other">%1$d video i WeChat-samtaler er nesten utløpt. Sikkerhetskopiere den til enhetens interne lagringsplass?</item>
@@ -165,16 +165,16 @@
         <item quantity="one">%1$s kommentar</item>
     </plurals>
     <plurals name="original_user_days">
-        <item quantity="other">• &lt;font color=#fc7050>%1$d&lt;/font> dager</item>
-        <item quantity="one">• &lt;font color=#fc7050>%1$d&lt;/font> dag</item>
+        <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font> dager"</item>
+        <item quantity="one">" • &lt;font color=#fc7050>%1$d&lt;/font> dag"</item>
     </plurals>
     <plurals name="original_user_fans">
-        <item quantity="other">• Du fikk &lt;font color=#fc7050>%1$s&lt;/font> følgere!</item>
-        <item quantity="one">• Du fikk &lt;font color=#fc7050>%1$s&lt;/font> følger!</item>
+        <item quantity="other">" • Du fikk &lt;font color=#fc7050>%1$s&lt;/font> følgere!"</item>
+        <item quantity="one">" • Du fikk &lt;font color=#fc7050>%1$s&lt;/font> følger!"</item>
     </plurals>
     <plurals name="original_user_play_1">
-        <item quantity="other">• Du lastet opp &lt;font color=#fc7050>%1$s&lt;/font> videoer.</item>
-        <item quantity="one">• Du lastet opp &lt;font color=#fc7050>%1$s&lt;/font> video.</item>
+        <item quantity="other">" • Du lastet opp &lt;font color=#fc7050>%1$s&lt;/font> videoer. "</item>
+        <item quantity="one">" • Du lastet opp &lt;font color=#fc7050>%1$s&lt;/font> video. "</item>
     </plurals>
     <plurals name="original_user_play_2">
         <item quantity="other">Du gjorde &lt;font color=#fc7050>%1$s&lt;/font> personer glade!</item>

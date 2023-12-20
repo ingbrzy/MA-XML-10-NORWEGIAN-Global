@@ -49,16 +49,16 @@ total %2$d sang"</item>
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 time</item>
-        <item quantity="one">Om 1 time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtime</item>
@@ -69,16 +69,16 @@ total %2$d sang"</item>
         <item quantity="one">Umiddelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minutter siden</item>
-        <item quantity="one">1 minutt siden</item>
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d kommentarer</item>
@@ -142,6 +142,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
+    <plurals name="hide_reason_duration">
+        <item quantity="other">Under %1$d s</item>
+        <item quantity="one">Under %1$d s</item>
+    </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 time</item>
         <item quantity="one">Om 1 time</item>
@@ -170,6 +174,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
         <item quantity="other">Følger %d personer</item>
         <item quantity="one">Følger %d person</item>
     </plurals>
+    <plurals name="media_store_new_songs_add">
+        <item quantity="other">%d nye sanger</item>
+        <item quantity="one">%d ny sang</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
@@ -197,6 +205,10 @@ Merk: Filen vil også slettes fra denne enheten."</item>
     <plurals name="reader_count">
         <item quantity="other">%d følgere</item>
         <item quantity="one">%d følger</item>
+    </plurals>
+    <plurals name="reward_seconds_remaining">
+        <item quantity="other">VIP-medlemskap på %d sekunder</item>
+        <item quantity="one">VIP-medlemskap på %d sekund</item>
     </plurals>
     <plurals name="send_songs_toast">
         <item quantity="other">%d sanger vil bli sendt</item>
@@ -233,5 +245,17 @@ Merk: Filen vil også slettes fra denne enheten."</item>
     <plurals name="vip_remain_days_hint">
         <item quantity="other">%d dager gjenstår</item>
         <item quantity="one">%d dag gjenstår</item>
+    </plurals>
+    <plurals name="web_reward_dialog_title">
+        <item quantity="other">Hvis du ser på i %d sekunder, får du et VIP-medlemskap som belønning. Vil du avslutte likevel?</item>
+        <item quantity="one">Hvis du ser på i %d sekund, får du et VIP-medlemskap som belønning. Vil du avslutte likevel?</item>
+    </plurals>
+    <plurals name="whitelist_multi_added">
+        <item quantity="other">La til %d fil</item>
+        <item quantity="one">La til %d fil</item>
+    </plurals>
+    <plurals name="whitelist_multi_added_before">
+        <item quantity="other">%d filer var lagt til fra før</item>
+        <item quantity="one">%d fil var lagt til fra før</item>
     </plurals>
 </resources>

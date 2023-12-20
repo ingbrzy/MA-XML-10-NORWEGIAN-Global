@@ -44,14 +44,6 @@
         <item quantity="other">%2$s uleste fra %1$s</item>
         <item quantity="one">%2$s ulest fra %1$s</item>
     </plurals>
-    <plurals name="delete_wallpapers_message">
-        <item quantity="other">Slette %1$d bakgrunner?</item>
-        <item quantity="one">Slette %1$d bakgrunn?</item>
-    </plurals>
-    <plurals name="editing_mode_title">
-        <item quantity="other">%1$d elementer er valgt</item>
-        <item quantity="one">%1$d element er valgt</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
@@ -89,8 +81,8 @@
         <item quantity="one">1 minutt siden</item>
     </plurals>
     <plurals name="remove_dialog_title_multi_format">
-        <item quantity="other">Fjerne %1$d apper fra startskjermen?</item>
-        <item quantity="one">Fjerne %1$d app fra startskjermen?</item>
+        <item quantity="other">Fjern %1$d elementer fra startskjermen?</item>
+        <item quantity="one">Fjern %1$d element fra startskjermen?</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">Side %1$d, %2$d apper.</item>
