@@ -235,7 +235,6 @@
     <string name="settings_guide_title">Trenger du andre innstillinger?</string>
     <string name="show_badge_notifications">Varselsskilt</string>
     <string name="show_badge_notifications_short">Merker</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Flytende varsler er ikke tillatt</string>
