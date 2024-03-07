@@ -847,7 +847,6 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="facebook_login_btn_content_description">Logg inn med Facebook</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_reason_migrate">Behandler elementer… Vent et minutt eller to og prøv igjen.</string>
@@ -863,7 +862,6 @@ er tilgjengelig"</string>
     <string name="feedback_my_reports">Tilbakemelding</string>
     <string name="feedback_problem">Rapporter et problem</string>
     <string name="feedback_suggest">Send et forslag</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_cannot_print">Kan ikke skrive ut dette elementet.</string>
     <string name="file_cannot_screen_throw">Kan ikke strømme dette elementet.</string>
     <string name="file_sending">Overfører filer…</string>
@@ -960,7 +958,6 @@ er tilgjengelig"</string>
     <string name="grant_permission_go_and_set">Angi</string>
     <string name="grant_permission_go_and_set_2">Innstillinger</string>
     <string name="grant_permission_go_and_set_3">Innstillinger</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_manage_storage">Tillatelser er nødvendig</string>
     <string name="grant_permission_manage_storage_unlock">Lås opp enheten din og la denne appen få tilgang til alle filer for å kunne vise elementer.</string>
     <string name="grant_permission_shortcut">Gi appen tillatelse til å opprette snarveier på startskjermen først.</string>
@@ -1618,7 +1615,6 @@ Omkoding kan ta litt tid når du bruker denne funksjonen for første gang."</str
     <string name="people_page_label">Personer</string>
     <string name="people_page_photo">Miniatyrbilde av en person</string>
     <string name="people_page_unname">Uten navn</string>
-    <string name="percent_sign">%</string>
     <string name="permission_account_desc">For innlogging og administrasjon av systemkonto</string>
     <string name="permission_account_name">Få tilgang til kontoer</string>
     <string name="permission_clipboard_desc">For tilgang til og lagring av elementer på utklippstavlen</string>
@@ -2085,7 +2081,6 @@ Omkoding kan ta litt tid når du bruker denne funksjonen for første gang."</str
     <string name="share_album_cancel_share">Stopp deling</string>
     <string name="share_album_change_background">Endre bakgrunnsbilde</string>
     <string name="share_album_create_failed">Kunne ikke opprette delt album</string>
-    <string name="share_album_create_processing">@string/cloud_bacup_disable_processing</string>
     <string name="share_album_exit_button_text">Stopp deling</string>
     <string name="share_album_exit_confirm">Du vil ikke lenger ha tilgang til alle elementene i dette albumet hvis du fortsetter. Lagre alle viktige elementer før du avslutter.</string>
     <string name="share_album_exit_confirm_title">Gå ut av denne gruppen?</string>
@@ -2172,7 +2167,6 @@ Omkoding kan ta litt tid når du bruker denne funksjonen for første gang."</str
     <string name="share_with_family">Del med familie</string>
     <string name="sharer_quota_fulfiled">Du har allerede delt dette albumet med maksimalt antall mennesker.</string>
     <string name="show_cloud_albumlist_summary">Nye elementer fra valgte album blir ikke lastet opp til skyen etter at du har deaktivert synkronisering.</string>
-    <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">Vis og administrer skjulte album</string>
     <string name="show_hidden_album_title">Vis skjulte album</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Fjernet. Du kan vise dette elementet blant \"Album\" nå.</string>

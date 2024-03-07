@@ -519,7 +519,6 @@ Bedre sikkerhet."</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -732,7 +731,6 @@ Bedre sikkerhet."</string>
     <string name="small_window">Flytende vindu</string>
     <string name="start_activity_failed">Kan ikke starte launcher</string>
     <string name="start_new_window">Nytt vindu</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s av %2$s tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />

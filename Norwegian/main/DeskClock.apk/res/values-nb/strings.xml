@@ -361,7 +361,6 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -469,7 +468,6 @@
     <string name="shutdown_alarm_alert_title">Alarm som slås av</string>
     <string name="shutdown_alarm_disable_summary">Alarmen vil ikke gå av etter at enheten er skrudd av</string>
     <string name="silent_alarm_summary">Stille</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Skru av én gang på %s</string>
     <string name="sleep_analysis">Statistikk</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -506,7 +504,6 @@
     <string name="snooze_duration_value_twenty_new">%d</string>
     <string name="star_wy_alarm_speech">Møt Roy Wang</string>
     <string name="start">Start</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_running_notification">Stoppeklokke</string>
     <string name="stopwatch_title">Stoppeklokke</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>

@@ -58,7 +58,6 @@
     <string name="dual_app_title">Doble apper</string>
     <string name="dual_app_words">Hver konto fortjener sin egen app</string>
     <string name="early_morning">Morgen</string>
-    <string name="empty">" "</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="evening">Ettermiddag</string>
@@ -376,7 +375,6 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
