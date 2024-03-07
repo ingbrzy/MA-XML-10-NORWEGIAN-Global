@@ -46,6 +46,13 @@
     <string name="blocked_notification_title_template">Skriveren blokkerte %1$s</string>
     <string name="button_delete">Slett</string>
     <string name="button_ok">OK</string>
+    <string name="call_notification_answer_action">Svar</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Avvis</string>
+    <string name="call_notification_hang_up_action">Legg på</string>
+    <string name="call_notification_incoming_text">Innkommende anrop</string>
+    <string name="call_notification_ongoing_text">Pågående samtale</string>
+    <string name="call_notification_screening_text">Filtrerer et innkommende anrop</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_print">Avbryt oppgave</string>
     <string name="cancelling_notification_title_template">Avbryter %1$s</string>
@@ -59,6 +66,7 @@
     <string name="copies_increase">Pluss én kopi</string>
     <string name="copy">Kopiér</string>
     <string name="could_not_create_file">Kunne ikke opprette filen</string>
+    <string name="current_page_template">%1$d/%2$d</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -146,14 +154,15 @@
     <string name="label_paper_size">Papir</string>
     <string name="label_paper_size_summary">Papirstørrelse:</string>
     <string name="midnight">Natt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_access_state_desc">Valgt</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -262,6 +271,7 @@
     <string name="printer_busy">Skriver er opptatt</string>
     <string name="printer_error">Skriverfeil</string>
     <string name="printer_error_msg">Skriverfeil: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Mer informasjon om denne printeren</string>
     <string name="printer_notification_error_title">Kunne ikke skrive ut %1$s</string>
     <string name="printer_unavailable">Skriver er ikke tilgjengelig</string>

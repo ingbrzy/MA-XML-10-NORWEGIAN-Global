@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 time</item>
-        <item quantity="one">Om 1 time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtime</item>
@@ -25,16 +25,16 @@
         <item quantity="one">Umiddelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minutter siden</item>
-        <item quantity="one">1 minutt siden</item>
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">Slette %1$d kontakter?</item>
@@ -47,14 +47,6 @@
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">Ringte %1$d ganger</item>
         <item quantity="one">Ringte %1$d gang</item>
-    </plurals>
-    <plurals name="call_record_auto_whitelist_summary">
-        <item quantity="other">%d telefonnumre</item>
-        <item quantity="one">%d telefonnummer</item>
-    </plurals>
-    <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">Slette %d telefonnumre?</item>
-        <item quantity="one">Slette %d telefonnummer?</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d kontakter eller bilder har ikke blitt synkronisert</item>
@@ -112,13 +104,13 @@
         <item quantity="other">%1$d numre</item>
         <item quantity="one">%1$d nummer</item>
     </plurals>
+    <plurals name="group_sms_error_message">
+        <item quantity="other">SMS kan ikke ha mer enn %d mottakere.</item>
+        <item quantity="one">SMS kan ikke ha mer enn %d mottaker.</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
-    </plurals>
-    <plurals name="hint_account_contacts">
-        <item quantity="other">%1$d elementer</item>
-        <item quantity="one">%1$d element</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d kontakter</item>
@@ -207,10 +199,6 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d funnet</item>
         <item quantity="one">%d funnet</item>
-    </plurals>
-    <plurals name="search_group_contacts_result">
-        <item quantity="other">%s resultater</item>
-        <item quantity="one">%s resultat</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Ikke velg mer enn %1$d. Alle kan ikke velges</item>

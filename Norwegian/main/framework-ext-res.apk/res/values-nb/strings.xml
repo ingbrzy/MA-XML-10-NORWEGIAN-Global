@@ -519,6 +519,8 @@
     <string name="vigor">Livskraft</string>
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
+    <string name="wallpaper_floral_arrangement_title">Blomsteroppsats</string>
+    <string name="wallpaper_gradient_title">Glidende overgang</string>
     <string name="wallpaper_group_black_white_title">Svart og hvitt</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
     <string name="wallpaper_group_dynamic_nebula_title">Dynamisk stjernetåke</string>
@@ -530,6 +532,8 @@
     <string name="wallpaper_group_natural_texture_title">Naturmønstre</string>
     <string name="wallpaper_group_red_mars_subtitle">NASA, JPL, Universitetet i Arizona</string>
     <string name="wallpaper_group_red_mars_title">Mars</string>
+    <string name="wallpaper_neon_title">Neon</string>
+    <string name="wallpaper_overlapping_space_title">Form og skygge</string>
     <string name="waterdrop_preview">Dråper</string>
     <string name="wifi_assistant_wifi_no_internet">Wi-Fi-nettverk har ikke tilgang til internettet</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Trykk for å se detaljer</string>

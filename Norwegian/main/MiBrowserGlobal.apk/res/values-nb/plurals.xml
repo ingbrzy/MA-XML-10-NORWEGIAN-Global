@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 time</item>
-        <item quantity="one">Om 1 time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtime</item>
@@ -25,16 +25,16 @@
         <item quantity="one">Umiddelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minutter siden</item>
-        <item quantity="one">1 minutt siden</item>
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="adblock_notification">
         <item quantity="other">Blokkerte %d annonser</item>
@@ -48,6 +48,10 @@
         <item quantity="other">Blokkert %d annonser så langt</item>
         <item quantity="one">Blokkert %d annonse så langt</item>
     </plurals>
+    <plurals name="antivirus_desc_not_scanned_virus_in_days">
+        <item quantity="other">Ikke skannet på %d dager</item>
+        <item quantity="one">Ikke skannet på %d dag</item>
+    </plurals>
     <plurals name="articles_updated_amount">
         <item quantity="other">Sjekk ut %1$d nye artikler</item>
         <item quantity="one">Sjekk ut %1$d ny artikkel</item>
@@ -55,6 +59,22 @@
     <plurals name="auto_play_next_tips">
         <item quantity="other">Spiller av neste video om %d sekunder</item>
         <item quantity="one">Spiller av neste video om %d sekund</item>
+    </plurals>
+    <plurals name="back_dialog_antivirus_content_des">
+        <item quantity="other">Du har ikke skannet enheten din på %d dager. Skanne nå?</item>
+        <item quantity="one">Du har ikke skannet enheten din på %d dag. Skanne nå?</item>
+    </plurals>
+    <plurals name="back_dialog_day">
+        <item quantity="other">dager</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="back_dialog_health_check_content_des">
+        <item quantity="other">Du har ikke optimalisert enheten din på %d dager. Optimalisere nå?</item>
+        <item quantity="one">Du har ikke optimalisert enheten din på %d dag. Optimalisere nå?</item>
+    </plurals>
+    <plurals name="count_likes">
+        <item quantity="other">%s liker</item>
+        <item quantity="one">%s like</item>
     </plurals>
     <plurals name="days_ago">
         <item quantity="other">%1$d dager siden</item>
@@ -148,6 +168,10 @@
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
     <plurals name="mw_last_num_days">
         <item quantity="other">Siste %d dager</item>
         <item quantity="one">Siste %d dag</item>
@@ -192,9 +216,9 @@
         <item quantity="other">Blokkerte %d annonser</item>
         <item quantity="one">Blokkerte %d annonse</item>
     </plurals>
-    <plurals name="reading__search_resultful">
-        <item quantity="other">Fant %1$d resultater</item>
-        <item quantity="one">Fant %1$d resultat</item>
+    <plurals name="recommend_top_guide">
+        <item quantity="other">%d nye anbefalte videoer</item>
+        <item quantity="one">%d ny anbefalt video</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s søkeforespørsler</item>
@@ -291,5 +315,9 @@
     <plurals name="web_permission_protect_subtitle_time">
         <item quantity="other">%s ganger</item>
         <item quantity="one">%s gang</item>
+    </plurals>
+    <plurals name="web_preload_hint_dialog_title">
+        <item quantity="other">Forrige uke økte Mi Nettleser innlastingshastigheten for deg %d ganger!</item>
+        <item quantity="one">Forrige uke økte Mi Nettleser innlastingshastigheten for deg %d gang!</item>
     </plurals>
 </resources>

@@ -18,7 +18,7 @@
     <string name="credential_usage_label">Bruk av legitimasjon:</string>
     <string name="done_label">FERDIG</string>
     <string name="extracting_pkcs12">Henter …</string>
-    <string name="install_done">%1$s-legitimasjonen er lagt til i lagrede Wi-Fi-nettverk.</string>
+    <string name="install_done">%1$s-legitimasjonen er lagt til i lagrede Wifi-nettverk.</string>
     <string name="install_done_title">Legitimasjonen er installert</string>
     <string name="invalid_cert">Sertifikatet er ugyldig.</string>
     <string name="invalid_certificate_close_button">Lukk</string>
@@ -49,7 +49,7 @@
     <string name="userkey_type">Algoritme:</string>
     <string name="wifi_cancel_label">Avbryt</string>
     <string name="wifi_cert_is_added">Wi‑Fi-sertifikatet er installert</string>
-    <string name="wifi_certificate">Wi‑Fi-sertifikat</string>
+    <string name="wifi_certificate">Wifi-sertifikat</string>
     <string name="wifi_config_text">"Navn: %1$s
 FQDN: %2$s
 Roamegrupper: %3$s
@@ -60,17 +60,17 @@ Autoriseringstype: EAP-%5$s
     <string name="wifi_detail_title">Detaljer for %s</string>
     <string name="wifi_dismiss_label">Avvis</string>
     <string name="wifi_install_label">Installer</string>
-    <string name="wifi_installer_detail">Installer Wi-Fi-legitimasjon for å koble til nettverk via %1$s.</string>
+    <string name="wifi_installer_detail">Installer Wifi-legitimasjon for å koble til nettverk via %1$s.</string>
     <string name="wifi_installer_download_error">Den nedlastede filen har problemer og kan ikke installeres. Sørg for at du laster ned filen fra den riktige kilden.</string>
-    <string name="wifi_installer_fail">Kan ikke installere Wi-Fi-legitimasjonen. Prøv å laste ned filen på nytt.</string>
-    <string name="wifi_installer_fail_no_wifi">Slå på Wi-Fi og prøv på nytt.</string>
+    <string name="wifi_installer_fail">Kan ikke installere Wifi-legitimasjonen. Prøv å laste ned filen på nytt.</string>
+    <string name="wifi_installer_fail_no_wifi">Slå på wifi og prøv på nytt.</string>
     <string name="wifi_installer_fail_no_wifi_title">Installasjonen er avbrutt</string>
     <string name="wifi_installer_fail_title">Kan ikke installere</string>
     <string name="wifi_installing_label">Installerer …</string>
     <string name="wifi_no_config">Ingen</string>
     <string name="wifi_sim_config_text">"SIM-kort: %s
 "</string>
-    <string name="wifi_title">Wi-Fi-profil</string>
+    <string name="wifi_title">Wifi-profil</string>
     <string name="wifi_tls_config_text">"Klientsertifikat:
 %1$s
 Nøkkel: %2$s

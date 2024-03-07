@@ -940,6 +940,8 @@ Trykk for å se mer informasjon"</string>
     <string name="keyguard_indication_charging_time_wireless">%2$s • Lader trådløst • Fulladet om %1$s</string>
     <string name="keyguard_indication_trust_unlocked">Holdes opplåst med TrustAgent</string>
     <string name="keyguard_left_mi_wallet">Mi Wallet</string>
+    <string name="keyguard_left_remotecentral">Mi Remote</string>
+    <string name="keyguard_left_smarthome">Xiaomi Home</string>
     <string name="keyguard_left_torch">Lommelykt</string>
     <string name="keyguard_left_view_lock_wallpaper">Bakgrunnskarusell</string>
     <string name="keyguard_loading_to_editor_tips">Åpner Låseskjerm-redigeringsprogrammet…</string>
@@ -1221,6 +1223,7 @@ Kontakt IT-administratoren for å få mer informasjon."</string>
     <string name="monitoring_description_personal_profile_named_vpn">De personlige appene dine er koblet til internett via %1$s. Nettverksaktiviteten din, inkludert e-poster og nettlesingsdata, er synlig for VPN-leverandøren din.</string>
     <string name="monitoring_description_two_named_vpns">Denne enheten er koblet til internett via %1$s og %2$s. Nettverksaktiviteten din, inkludert e-poster og nettlesingsdata, er synlig for IT-administratoren din.</string>
     <string name="monitoring_description_vpn_settings">Åpne VPN-innstillingene</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s kan ha tilgang til data som er knyttet til denne enheten, kan administrere apper og kan endre enhetsinnstillingene.
 
 Hvis du har spørsmål, kan du kontakte %2$s."</string>
@@ -1420,8 +1423,6 @@ Hvis du har spørsmål, kan du kontakte %2$s."</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Velg &lt;font color=#a5220e>\"Wipe og Reset\"&lt;/font> og vent til enheten startes på ny.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Hvordan slette data?</string>
     <string name="phone_locked_string">Denne enheten er låst</string>
-    <string name="phone_locked_string_owner_user">For mange mislykkede forsøk på å angi passord for Første område. Enheten er låst nå.</string>
-    <string name="phone_locked_string_second_user">For mange mislykkede forsøk på å angi passord for Andre område. Enheten er låst nå.</string>
     <string name="pip_close">Lukk</string>
     <string name="pip_collapse">Skjul</string>
     <string name="pip_edu_text">Dobbelttrykk på <annotation icon="home_icon">HJEM</annotation> for å åpne kontrollene</string>
@@ -1823,6 +1824,8 @@ Hvis du har spørsmål, kan du kontakte %2$s."</string>
     <string name="status_bar_clock_date_format_12">E d. MMM</string>
     <string name="status_bar_clock_date_time_format">H:mm, E d. MMM</string>
     <string name="status_bar_clock_date_time_format_12">t:mm a, E, MMM d</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_settings_auto_rotation">Rotér skjermen automatisk</string>
     <string name="status_bar_work">Work-profil</string>

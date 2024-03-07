@@ -52,6 +52,7 @@
     <string name="activity_title_uninstall_apps">Apper</string>
     <string name="activity_title_video">Slette videoer</string>
     <string name="activity_title_white_list">Unntak</string>
+    <string name="ad_flag_text">ANNONSE</string>
     <string name="ad_install_success_dialog_lunch">Åpen</string>
     <string name="ad_install_success_dialog_title">Installerte %1$s. Åpne nå?</string>
     <string name="afternoon">Ettermiddag</string>
@@ -239,6 +240,7 @@
     <string name="dc_item_title_wechat_chat">Slett WeChat-historikk</string>
     <string name="dc_storage_cleaned">Frigjort %s</string>
     <string name="dc_storage_info">Tilgjengelig %1$s | Totalt %2$s</string>
+    <string name="dc_storage_info_new">%1$s tilgjengelig</string>
     <string name="deep_clean_completed_tips">Rens OK</string>
     <string name="deep_clean_data_path_clean_title">Tøm hurtigbuffer</string>
     <string name="deep_clean_uninstall_completed_tips">Avinstalleringen var vellykket</string>
@@ -302,6 +304,7 @@
     <string name="download">Last ned</string>
     <string name="downloading">Laster ned</string>
     <string name="early_morning">Morgen</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tøm</string>
     <string name="empty_content_no_privacy">Tøm</string>
     <string name="empty_content_no_similar_image">Ingen bilder</string>
@@ -462,7 +465,6 @@
     <string name="guide_dc_dialog_negative">Avbryt</string>
     <string name="guide_dc_dialog_positive">OK</string>
     <string name="guide_dc_dialog_title">Lite lagringsplass igjen</string>
-    <string name="guide_secure_dialog_message">Optimaliseringspoengsummen til enheten din er lavere enn 80 poeng. Optimalisere nå?</string>
     <string name="guide_secure_dialog_message_new">Optimaliseringspoengsummen til enheten din er lavere enn %d poeng. Optimalisere nå?</string>
     <string name="guide_secure_dialog_negative">Avbryt</string>
     <string name="guide_secure_dialog_positive">Optimaliser</string>
@@ -490,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Alt ser bra ut</string>
     <string name="hints_garbage_handle_item_content">%1$d elementer, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tøm</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Sjelden brukt</string>
     <string name="hints_installed_app_near">Brukt nylig</string>
     <string name="hints_installed_app_never">Aldri brukt</string>
@@ -539,6 +542,7 @@
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="load_only_under_wlan">Last kun med Wi-Fi</string>
     <string name="location_not_found">Kunne ikke finne filen</string>
+    <string name="lock_device_toast">Denne enheten er låst. Lås den opp for å bruke Renser.</string>
     <string name="login_immediately">Logg inn</string>
     <string name="long_click_dialog_summary">Hold inne for å lagge til som unntak.</string>
     <string name="long_click_dialog_title">Melding</string>
@@ -566,14 +570,14 @@
     <string name="menu_view">Se i mappe</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -638,6 +642,9 @@
     <string name="msg_update_error_code_success">Ferdig</string>
     <string name="msg_update_error_code_unknown_error">Serverene er opptattt. Vent et minutt eller to og prøv igjen.</string>
     <string name="name_debuglog_dir">BSP feilsøkingslogg</string>
+    <string name="native_body">Tekst</string>
+    <string name="native_headline">Overskrift</string>
+    <string name="native_media_view">Medieinnhold</string>
     <string name="nb_clear_set">Tøm hurtigminne, vis informasjon om batteri og blokkeringsliste i meldingspanelet</string>
     <string name="network_not_available">Kan ikke koble til nettverket</string>
     <string name="news_change">Endre</string>
@@ -744,12 +751,7 @@
     <string name="pref_title_open_optimizer_cloud_scan">Last opp filnavn</string>
     <string name="pref_title_open_optimizer_memory_scan">Skann app-minne</string>
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
-    <string name="privacy_app_desc">Konto og passord</string>
-    <string name="privacy_app_desc_message">Konto, passord og meldinger</string>
-    <string name="privacy_app_desc_search">Konto, passord og søkehistorikk</string>
-    <string name="privacy_app_desc_setting">Konto, passord og meldinger</string>
     <string name="privacy_browser_desc">Søkte elementer</string>
-    <string name="privacy_cache_desc">Konto, passord, historikk, innstillinger m.m.</string>
     <string name="privacy_cache_empty">Ingen private data</string>
     <string name="privacy_cache_scaning">Sjekker…</string>
     <string name="privacy_cache_title">Personlig informasjon</string>
@@ -807,6 +809,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_ad">Hopp over</string>
     <string name="sponsored">Sponset</string>
     <string name="start_downloading_app">Starter nedlasting: %1$s</string>
     <string name="start_install">Installer nå</string>
@@ -868,9 +871,7 @@
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tips_low_storage_dialog_cancel">Avbryt</string>
-    <string name="tips_low_storage_dialog_msg_qq">QQ-hurtigbuffer størrelse har nådd 3GB. Dette kan føre til at enheten din blir treigere. Fjerne QQs hurtigbuffer nå?</string>
     <string name="tips_low_storage_dialog_msg_qq_new">QQ-bufferstørrelsen har nådd %d GB. Dette kan føre til at enheten blir tregere. Tømme QQ-bufferen nå?</string>
-    <string name="tips_low_storage_dialog_msg_storage">Du bruker 90 % av din lagringsplass. Avinstaller apper som ikke brukes.</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Du bruker %s av lagringsplassen. Avinstaller apper som ikke brukes.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">WeChat-bufferstørrelsen har nådd %d GB. Dette kan føre til at enheten blir tregere. Tømme WeChat-bufferen nå?</string>
     <string name="tips_low_storage_dialog_ok">Tøm</string>
@@ -938,6 +939,7 @@
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="virus_scan">Virusskann</string>
+    <string name="watermark_label_prefix">AdMob –</string>
     <string name="wechat_chat_data_type_cache">WeChat-buffer</string>
     <string name="wechat_chat_data_type_cache_desc">Du vil kunne gjenopprette filene etter at du er koblet til Internett.</string>
     <string name="wechat_chat_data_type_chat">Chat-historikk</string>

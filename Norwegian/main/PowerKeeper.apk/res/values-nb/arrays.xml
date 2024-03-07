@@ -2,7 +2,7 @@
 <resources>
     <string-array name="hmode_app_classify1">
         <item>Tilpasset</item>
-        <item>MIUI batterisparer</item>
+        <item>Batterisparer</item>
     </string-array>
     <string-array name="hmode_app_classify2">
         <item>Aktive apper</item>

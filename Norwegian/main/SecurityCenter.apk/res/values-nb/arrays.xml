@@ -40,14 +40,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>Tilpasset</item>
-        <item>Mi Fan-kort</item>
+        <item>Xiaomi Fan-kort</item>
         <item>Xiao Tiansheng-kort</item>
         <item>Tencent King-kort</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>Tilpasset</item>
         <item>Mi Mobile</item>
-        <item>Mi Fan-kort</item>
+        <item>Xiaomi Fant-kort</item>
         <item>Tianshen-kort</item>
         <item>Tencent-kort</item>
     </string-array>
@@ -89,6 +89,15 @@
         <item>Du kan overvåke og spille inn skjerminnholdet eksternt.</item>
         <item>Det blir mulig å få tilgang til detaljert informasjon om enheten.</item>
     </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
     <string-array name="gb_adv_touch_custom_level">
         <item>Lavest</item>
         <item>Lav</item>
@@ -96,10 +105,20 @@
         <item>Høy</item>
         <item>Høyest</item>
     </string-array>
+    <string-array name="gb_voice_change_gender">
+        <item>@string/gb_voice_changer_gender_man</item>
+        <item>@string/gb_voice_changer_gender_female</item>
+    </string-array>
     <string-array name="input_package_names">
         <item>com.baidu.input_mi</item>
         <item>com.iflytek.inputmethod.miui</item>
         <item>com.sohu.inputmethod.sogou.xiaomi</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
     </string-array>
     <string-array name="lock_mode">
         <item>Når enheten låses</item>
@@ -114,10 +133,20 @@
         <item>Viktig: Flere systemapper kan slutte å fungere som normalt.</item>
         <item>Tekstoppsett, kontoer og innhold vises kanskje ikke som det skal.</item>
     </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -127,6 +156,20 @@
     <string-array name="over_limit_traffic_waring_style">
         <item>Vis advarsel</item>
         <item>Advar og slå av mobildata</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_fast_charge_entry">
         <item>10%</item>
@@ -178,14 +221,14 @@
         <item>Telefonsaldo</item>
     </string-array>
     <string-array name="sort_title_new">
-        <item>Sorter etter app-navn</item>
-        <item>Sorter etter brukshyppighet</item>
-        <item>Sorter etter lagringsplass brukt</item>
-        <item>Sorter etter installasjonstid</item>
+        <item>Sorterer etter appnavn</item>
+        <item>Sorterer etter sist brukte</item>
+        <item>Sorterer etter lagringsplass brukt</item>
+        <item>Sortering etter installasjonstid</item>
     </string-array>
     <string-array name="sort_type_new">
         <item>App-navn</item>
-        <item>Bruksfrekvens</item>
+        <item>Brukt nylig</item>
         <item>Lagringsplass brukt</item>
         <item>Installasjonstid</item>
     </string-array>

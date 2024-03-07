@@ -9,7 +9,7 @@
         <item>Får ikke tilgang til nettverket. Koble til wifi eller start ruteren på nytt.</item>
     </string-array>
     <string-array name="net_diag_err_link_quality_china">
-        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>Dårlig Wi-Fi-forbindelse. Bytt trådløst bånd eller start ruteren på nytt.</item>
         <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity">
@@ -17,7 +17,7 @@
         <item>Nettverksadgang er begrenset. Juster klokkeslettet på denne enheten og se sjekk ruternes nettverksinnstillinger.</item>
         <item>Nettverksfeil. Sjekk HTTP-proxyinnstillinger.</item>
         <item>Nettverksfeil. Sjekk om ruteren har tilgang til Internett.</item>
-        <item>Kan ikke koble til nettverket. Koble til wifi eller start ruteren på nytt.</item>
+        <item>Får ikke tilgang til nettverket. Koble til WiFi eller start ruteren på nytt.</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity_china">
         <item>Autentisering kreves for nettverkstilgang</item>
@@ -29,7 +29,7 @@
     <string-array name="net_diag_err_network_dns">
         <item>DNS-serverfeil. Sjekk ruterens DNS-konfigurasjon.</item>
         <item>Store forsinkelser fra DNS-server. Sjekk ruterens DNS-konfigurasjon.</item>
-        <item>Får ikke tilgang til gateway. Koble til wifi eller start ruteren på nytt.</item>
+        <item>Får ikke tilgang til nettverket. Koble til Wi-Fi eller start ruteren på nytt.</item>
     </string-array>
     <string-array name="net_diag_err_network_dns_china">
         <item>DNS-serverfeil. Sjekk ruterens DNS-konfigurasjon.</item>

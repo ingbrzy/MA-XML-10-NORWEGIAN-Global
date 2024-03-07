@@ -36,6 +36,8 @@
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
     <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
+    <string name="cast_auth_count_down">Angi kode fra \"%1$s\" for å begynne å strømme (%2$ds)</string>
+    <string name="cast_auth_title">Angi kode</string>
     <string name="cast_image_des">Strømmer opplæring</string>
     <string name="casting_tips">Strømmer…</string>
     <string name="character_counter_content_description">%1$d av %2$d tegn er skrevet inn</string>
@@ -43,10 +45,11 @@
     <string name="clear_text_end_icon_content_description">Fjern teksten</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
+    <string name="close_auxiliary_wifi_hint">Deaktiver «Øk hastighet for wifi med dobbeltbånd» for å kunne strømme</string>
+    <string name="close_auxiliary_wifi_hint_china">Turn off \"Dual band WLAN speed boost\" to be able to cast</string>
+    <string name="close_dp_casting_hint">Koble fra kabelen og prøv igjen.</string>
     <string name="close_hotspot_hint">Deaktiver flyttbar hotspot før casting</string>
     <string name="close_hotspot_hint_DFS">For å overføre elementer til en TV, må du først deaktivere hotspot.</string>
-    <string name="close_slave_wifi_hint">Koble fra sekundære Wi-Fi-nettverk før casting</string>
-    <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
     <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
@@ -65,6 +68,7 @@
     <string name="device_desc_trust">Klarerte enheter</string>
     <string name="dialog_can_not_find_device">Kunne ikke finne enheter i nærheten</string>
     <string name="dialog_cancle">Avbryt</string>
+    <string name="dialog_close">Deaktiver</string>
     <string name="dialog_connect_fail">Kunne ikke koble til</string>
     <string name="dialog_connect_retry">Trykk for å prøve igjen</string>
     <string name="dialog_connect_verify_perssion">Godkjenn strømming på TV-en først</string>
@@ -79,8 +83,8 @@
     <string name="dialog_nearbydevice_permission_message">Gi enheten tilgang til enheter i nærheten for å kunne bruke strømmefunksjonene.</string>
     <string name="dialog_nearbydevice_permission_title">Tillatelser kreves</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Koble både mobilenheten og TV-en til det samme Wi-Fi-nettverket.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g> På noen TV-modeller er denne funksjonen bare tilgjengelig når skjermspeiling er aktivert. Se &lt;a href=milink://com.milink.service/specification>«Hjelp»&lt;/a> for å finne ut mer.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Koble både mobilenheten og TV-en til det samme Wi-Fi-nettverket.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g> På noen TV-modeller er denne funksjonen bare tilgjengelig når skjermspeiling er aktivert. Se &lt;a href=milink://com.milink.service/specification>«Hjelp»&lt;/a> for å finne ut mer.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Strøm bilder, videoer eller musikk</string>
     <string name="dialog_open_wifi_bt">Aktiver</string>
@@ -94,6 +98,9 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same WLAN network.
 
 %2$d. View \"Help\" to learn more."</string>
+    <string name="dialog_scanning_close_dual_wifi_china">Turn off \"Dual band WLAN speed boost\" to be able to cast. Turn this feature off now?</string>
+    <string name="dialog_scanning_close_dual_wifi_global">Deaktiver «Øk hastighet for wifi med dobbeltbånd» for å kunne strømme. Deaktivere denne funksjonen nå?</string>
+    <string name="dialog_scanning_close_tethering">Deaktiver hotspot for å kunne strømme. Deaktivere hotspot nå?</string>
     <string name="dialog_scanning_device">Søker etter enheter i nærheten…</string>
     <string name="dialog_scanning_precondition">Aktiver Wi-Fi og Bluetooth på telefonen for å bruke trådløs skjerm.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
@@ -101,11 +108,13 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="dialog_select_tv">Velg enhet (%1$d)</string>
     <string name="dialog_show_help">Hjelp</string>
     <string name="disconnect">Stopp strømming</string>
+    <string name="dp_casting_start_hint">Tilkoblet via kabel. Strømmingen er avsluttet.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Slå av dobbelt Wi-Fi og prøv igjen</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Strøm skjerminnhold til en ekstern skjerm</string>
+    <string name="enable_screen_projection_summary_new">Strøm mobilskjermer til TV-er i nærheten og andre eksterne skjermer</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="error_icon_content_description">Feil</string>
@@ -168,24 +177,32 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="global_privacy">Vilkår og betingelser</string>
-    <string name="global_privacy_detail">&lt;Data>Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår før du bruker denne appen.&lt;br> Hvis du ikke samtykker i å bruke de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår før du bruker denne appen.&lt;br> Hvis du ikke samtykker i å bruke de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.</Data></string>
     <string name="global_privacy_explain">Velkommen til Casting! Denne appen tilbyr følgende tjenester:</string>
     <string name="global_privacy_feature">Bruk av minimerte vinduer, casting med skjermen av og skjuling av private elementer.</string>
     <string name="global_privacy_main">Projisering av elementer fra telefonens skjerm til en større ekstern skjerm.</string>
     <string name="global_privacy_negative">Ikke godta</string>
     <string name="global_privacy_positive">Godta</string>
     <string name="global_privacy_screencast">Under opptak eller casting kan tjenesten som tilbyr denne funksjonen, fange opp sensitiv informasjon som vises på skjermen eller spilles av fra enheten, inkludert sensitiv informasjon som lyd, passord, betalingsinformasjon, bilder og meldinger.</string>
-    <string name="global_privacy_tip">&lt;Data>Vi må innhente nødvendig personlig informasjon for å tilby deg grunnleggende tjenester og optimere castingprosessen. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i &lt;a href=%1$s>personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen, under Innstillinger.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>Vi må innhente nødvendig personlig informasjon for å tilby deg grunnleggende tjenester og optimere castingprosessen. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i &lt;a href=%1$s>personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen, under Innstillinger.</Data></string>
     <string name="hang_up">Strøm med skjermen av</string>
     <string name="hang_up_alert_dialog_content">Fortsett å strømme når enhetens skjerm er avslått. Denne funksjonen reduserer strømforbruket. Trykk på Av/på-knappen for å slå skjermen på igjen.</string>
     <string name="hang_up_alert_dialog_neg">Avbryt</string>
     <string name="hang_up_alert_dialog_pos">OK</string>
     <string name="hang_up_alert_dialog_title">I ferd med å strømme med skjermen avslått…</string>
+    <string name="head_toast_connecting">Kobler til…</string>
+    <string name="head_toast_fail">Kunne ikke koble til</string>
+    <string name="head_toast_success">Tilkoblet</string>
+    <string name="help_page_question_1st_01_international">"%1$d. Når enheten du strømmer fra er en Xiaomi-TV, må du slå av Miracast på enheten.
+%2$d. Når enheten du strømmer fra er fra en annen produsent enn Xiaomi, må du sjekke at TV-en støtter Miracast og at denne funksjonen er aktivert. Denne funksjonen kan ha et annet navn på enkelte modeller, f.eks. trådløs skjerm, skjermspeiling eller flere skjermer."</string>
+    <string name="help_page_setp_1st_02_international">%1$d. Enkelte TV-modeller kan ha Miracast slått på automatisk.</string>
+    <string name="help_page_step_1st_01_international">%1$d. Slå på Miracast på Xiaomi TV-en din.</string>
     <string name="help_page_text_01">Hjelp</string>
     <string name="help_page_text_02">Hva er strømming?</string>
     <string name="help_page_text_03">Strømming er å projisere elementer fra telefonens skjerm til en større ekstern monitor. Det gjør at du kan dele bilder og videoer med venner og familie uten å bruke mobildata.</string>
     <string name="help_page_text_04">Hvordan strømmer jeg elementer på en større skjerm?</string>
     <string name="help_page_text_05">Steg %1$d: Sjekk enhetene dine og nettverksmiljøet ditt</string>
+    <string name="help_page_text_05_new">Steg %1$d: Sjekk enhetene dine og nettverksmiljøet ditt</string>
     <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
 Connect both your mobile device and external monitor to the same WLAN network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
 Note: Older TV models might not support casting across different networks.
@@ -196,13 +213,33 @@ Koble både mobilenheten og den eksterne skjermen til det samme Wi-Fi-nettverket
 Merk: Eldre TV -modeller støtter kanskje ikke casting på tvers av forskjellige nettverk.
 %2$d. Hvis du bruker TV-er, set-top-bokser eller projektorer av andre merker, kobler du både mobilenheten og den eksterne skjermen til det samme Wi-Fi-nettverket.
 Hvis de to enhetene ikke kan kobles til det samme nettverket, slår du på Miracast på den eksterne skjermen. Navnet på Miracast-funksjonen kan variere."</string>
-    <string name="help_page_text_08">Steg %1$d: Aktiver casting</string>
+    <string name="help_page_text_06_new_1">Xiaomi TV-er, set-top-bokser og projektorer:</string>
+    <string name="help_page_text_06_new_2">"%1$d. Sørg for at mobilenheten og eksterne monitorer er koblet til samme wifi-nettverk.
+%2$d. På enkelte Xiaomi-TV-er kan du konfigurere strømming fra TV-en og tilpasse enhetssøk og bekreftelsesmåter."</string>
+    <string name="help_page_text_06_new_3">*Du kan angi strømmeinnstillinger for TV-en i strømmeinnstillingene.</string>
+    <string name="help_page_text_06_new_4">TV-er, set-top-bokser og projektorer fra andre leverandører enn Xiaomi:</string>
+    <string name="help_page_text_06_new_5">"%1$d. Sørg for at mobilenheten og den eksterne monitoren er koble til det samme wifi-nettverket.
+%2$d. På enkelte TV-modeller må du slå på Miracast for å kunne strømme."</string>
+    <string name="help_page_text_06_new_6">Les mer</string>
+    <string name="help_page_text_08">Trinn %1$d : Slå på strømming</string>
+    <string name="help_page_text_08_new">Trinn %1$d : Slå på strømming</string>
     <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
     <string name="help_page_text_09_global">Trykk på «Strøm»-vekslerbryteren i enhetens varslingsskygge. Aktiver både Wi-Fi og Bluetooth for en mer stabil tilkobling.</string>
-    <string name="help_page_text_10">Hvis du vil caste bilder, videoer, spill eller presentasjoner, kan du bruke innebygde castingsfunksjoner i de tilsvarende appene.</string>
+    <string name="help_page_text_09_new_1">Slå på strømming fra enhetens kontrollsenter, og søk deretter etter en ekstern skjerm.</string>
+    <string name="help_page_text_10">Hvis du vil strømme bilder, videoer, spill eller presentasjoner, kan du bruke innebygde castingsfunksjoner i de tilsvarende appene.</string>
     <string name="help_page_text_11">Steg %1$d: Velg enhet</string>
+    <string name="help_page_text_11_new">Trinn %1$d : Velg enhet</string>
     <string name="help_page_text_12">Velg en ekstern enhet fra listen over tilgjengelige enheter for å begynne å strømme.</string>
+    <string name="help_page_text_12_new_1">Velg en ekstern enhet fra listen over tilgjengelige enheter for å begynne å strømme.</string>
     <string name="help_page_text_13">Kan du ikke koble til en ekstern enhet?</string>
+    <string name="help_page_text_13_act_label_1">Ofte stilte spørsmål</string>
+    <string name="help_page_text_13_desc_1">"%1$d. Sørg for at mobilenheten og den eksterne monitoren er koblet til det samme wifi-nettverket eller samme hotspot.
+%2$d. Kontroller at nettverksmiljøet er stabilt. Hvis ikke, kan du prøve å tarte ruteren på nytt eller bytte til et %3$d GHz-nettverksbånd.
+%4$d. Når du strømmer til en Xiaomi-TV, må du aktivere funksjonen for trådløs strømming på TV-en. Hold deg på strømmesiden mens tilkoblingen pågår.
+%5$d. Enkelte store offentlige LAN-nettverk, f.eks. i bedrifter og på skoler, støtter ikke oppdaging av enheter på samme LAN."</string>
+    <string name="help_page_text_13_desc_2">Enkelte TV-er bruker tilkoblinger annet enn LAN under strømming. Det er vanlig at slike enheter frakobles fra nettverket. De tilkobles som regel på nytt innen %1$d-%2$d sekunder etter at strømmingen er avsluttet.</string>
+    <string name="help_page_text_13_summary_1">Kan ikke koble til en ekstern enhet</string>
+    <string name="help_page_text_13_summary_2">Nettverksavbrudd under strømming</string>
     <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
 Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
 %2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
@@ -218,6 +255,7 @@ Koble både mobilenheten og den eksterne skjermen (f.eks. TV-en) til det samme n
     <string name="help_page_text_17">"Du kan projisere elementer fra Mi-telefonen på de fleste Mi TV-modeller med Bluetooth-funksjonalitet uten å aktivere Miracast manuelt.
 Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine apper > Strømming > Miracast."</string>
     <string name="help_page_text_17_1">Kundestøtte for Xiaomi: 400-100-5678</string>
+    <string name="help_page_text_17_content">You can project items from your Xiaomi phone on most Xiaomi TV models with Bluetooth capabilities without turning on Miracast manually. If you need to turn on Miracast, press the [MENU] button and start casting by using the option for other Android phones.</string>
     <string name="help_page_text_18">Samsung TV</string>
     <string name="help_page_text_19">Kontroller først at Miracast-funksjonalitet er støttet på enheten. På noen modeller kan du trykke på [SOURCE]-knappen på fjernkontrollen og velge «Skjermspeiling». Denne funksjonen er aktivert som standard på diverse modeller.</string>
     <string name="help_page_text_20">Kundestøtte for Samsung: 400-810-5858</string>
@@ -280,14 +318,14 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="material_timepicker_text_input_mode_description">Bytt til tekstinndatamodus for tidsinndata.</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -350,6 +388,7 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -398,13 +437,13 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="paipai_error_dialog_msg">Sjekk nettverksinnstillingene dine og prøv igjen.</string>
     <string name="paipai_error_dialog_negative">Skjønner</string>
     <string name="password_toggle_content_description">Vis passordet</string>
-    <string name="path_setting_cast">Tilkobling og deling/Cast</string>
-    <string name="path_setting_cast_demo">Tilkobling og deling/Cast/Demoer</string>
-    <string name="path_setting_cast_demo_document">Tilkobling og deling/Cast/Demoer/Dokumenter</string>
-    <string name="path_setting_cast_demo_gallery">Tilkobling og deling/Cast/Demoer/Bilder og videoer</string>
-    <string name="path_setting_cast_demo_game">Tilkobling og deling/Cast/Demoer/Spill</string>
-    <string name="path_setting_cast_feature">Tilkobling og deling/Cast/Spesialfunksjoner</string>
-    <string name="path_setting_cast_help">Tilkobling og deling/Cast/Hjelp</string>
+    <string name="path_setting_cast">Flere tilkoblingsvalg/Strøm</string>
+    <string name="path_setting_cast_demo">Flere tilkoblingsvalg/Strøm/Demoer</string>
+    <string name="path_setting_cast_demo_document">Flere tilkoblingsvalg/Strøm/Demoer/Dokumenter</string>
+    <string name="path_setting_cast_demo_gallery">Flere tilkoblingsvalg/Strøm/Demoer/Bilder og videoer</string>
+    <string name="path_setting_cast_demo_game">Flere tilkoblingsvalg/Strøm/Demoer/Spill</string>
+    <string name="path_setting_cast_feature">Flere tilkoblingsvalg/Strøm/Spesialfunksjoner</string>
+    <string name="path_setting_cast_help">Flere tilkoblingsvalg/Strøm/Hjelp</string>
     <string name="permission_allowed">Gitt</string>
     <string name="permission_uballowed">Ikke gitt</string>
     <string name="pm">PM</string>
@@ -412,7 +451,7 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="preference_copied">«%1$s» er kopiert til utklippstavlen.</string>
     <string name="privacy_agree">Godta</string>
     <string name="privacy_detail">Gi denne appen tillatelse til å koble til internett og gi de nødvendige tillatelsene før du fortsetter.</string>
-    <string name="privacy_detail_extra">&lt;Data>Noen funksjoner er levert av tredjeparts tjenesteleverandøren HappyCast. Før du bruker denne funksjonen, må du lese og samtykke i &lt;a href=%1$s>HappyCasts personvernerklæring&lt;/a> og &lt;a href=%2$s>HappyCasts juridiske erklæring&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Noen funksjoner er levert av tredjeparts tjenesteleverandøren HappyCast. Før du bruker denne funksjonen, må du lese og samtykke i &lt;a href=%1$s>HappyCasts personvernerklæring&lt;/a> og &lt;a href=%2$s>HappyCasts juridiske erklæring&lt;/a>.</Data></string>
     <string name="privacy_explain">Velkommen til Casting! Casting gjør at du kan projisere elementer fra telefonskjermen på en større, ekstern skjerm. Denne appen må koble til internett og krever følgende tillatelser for å fungere som den skal:</string>
     <string name="privacy_negative">Avslutt</string>
     <string name="privacy_permission_ble">Aktivere og deaktivere Bluetooth</string>
@@ -454,11 +493,11 @@ Hvis du må aktivere Miracast, kan du trykke på [MENU]-knappen og velge Mine ap
     <string name="privacy_setting_show_lelink_policy">Vis HappyCasts personvernerklæring</string>
     <string name="privacy_setting_show_policy">Vis personvernerklæring</string>
     <string name="privacy_setting_show_user_agreement">Vis brukeravtale</string>
-    <string name="privacy_text_1">"&lt;Data>Velkommen til strømming! Strømming gjør at du kan projisere elementer fra telefonens skjerm til en større ekstern skjerm.
+    <string name="privacy_text_1"><Data>"Velkommen til strømming! Strømming gjør at du kan projisere elementer fra telefonens skjerm til en større ekstern skjerm.
 Vi beskytter den personlige informasjonen din i henhold til relevante lover, forskrifter og personvernerklæringer. Noen funksjoner tilbys av en tredjeparts tjenestetilbyder, HappyCast. Før du bruker denne funksjonen må du lese og godta &lt;a href=%2$s>HappyCasts juridiske erklæring&lt;/a> og &lt;a href=%1$s>HappyCasts personvernerklæring&lt;/a>.
-Appen må koble til internett for å fungere som den skal, og trenger følgende tillatelser for å innhente personopplysningene dine:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Hvis du ikke vil gi slike tillatelser eller dele og laste opp personlig informasjon, kan du ikke bruke denne appen. I så fall kan du velge å avinstallere appen, logge ut eller begrense tillatelser under Innstillinger.
-Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> før du bruker denne funksjonen&lt;/Data>"</string>
+Appen må koble til internett for å fungere som den skal, og trenger følgende tillatelser for å innhente personopplysningene dine:"</Data></string>
+    <string name="privacy_text_2"><Data>"Hvis du ikke vil gi slike tillatelser eller dele og laste opp personlig informasjon, kan du ikke bruke denne appen. I så fall kan du velge å avinstallere appen, logge ut eller begrense tillatelser under Innstillinger.
+Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> før du bruker denne funksjonen"</Data></string>
     <string name="privacy_text_pemission">"　　•Få tilgang til og lagre bilder på enheten din for å kunne projisere disse elementene på eksterne skjermer
 　　•Ta opp anrop og lyd for å kunne strømme lyd på eksterne enheter
 　　•Få tilgang til telefonnummer, IMEI og IMSI for å kunne identifisere enheten
@@ -480,22 +519,38 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="scan_wifi_label_global">Koble til Wi-Fi</string>
     <string name="screen_projection">Strøm</string>
     <string name="screen_projection_characteristics">Spesialfunksjoner</string>
+    <string name="screen_projection_characteristics_cast_summary">Strøm skjermens innhold til en TV i nærheten</string>
+    <string name="screen_projection_characteristics_hang_up_summary_new">Slå av skjermen på mobilenheten under strømming for å spare batteri og unngå overoppheting</string>
     <string name="screen_projection_characteristics_off_screen_summary">Du kan fortsette å strømme når skjermen på enheten din er skrudd av. Denne funksjonen reduserer strømforbruket.</string>
     <string name="screen_projection_characteristics_off_screen_title">Strøm med skjermen av</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">Ikke vis flytende varsler, innkommende anrop og andre private elementer på eksterne skjermer.</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Skjul private elementer</string>
+    <string name="screen_projection_characteristics_private_summary_new">Beskytt personvernet ditt: Under strømming vil ikke enheten vise flytende varsler, innkommende anrop eller andre private opplysninger</string>
     <string name="screen_projection_characteristics_small_window_summary">Minimer vinduet som strømmes for å kunne bruke andre funksjoner på telefonen din.</string>
+    <string name="screen_projection_characteristics_small_window_summary_new">Strøm skjermen og vis innholdet i et flytende vindu mens du bruker andre programmer</string>
     <string name="screen_projection_characteristics_small_window_title">Minimer vindu</string>
+    <string name="screen_projection_entrance_list">Vis tilgjengelige enheter</string>
+    <string name="screen_projection_entrance_list_new">Se listen over tilgjengelige enheter for strømming</string>
+    <string name="screen_projection_example_document_hint_miui15">*Elementene vises på en TV i nærheten</string>
+    <string name="screen_projection_example_document_hint_new"><Data>*For å bruke denne funksjonen går du til Filer > Dokumenter og trykker på &lt;img src=../drawable/ic_cast_icon_photo.png/>-ikonet.</Data></string>
     <string name="screen_projection_example_document_summary">Vis presentasjoner på en ekstern skjerm mens du bruker telefonen til å bytte mellom lysbilder og se notater. Gå til Filbehandler > Dokumenter for å prøve denne funksjonen.</string>
+    <string name="screen_projection_example_document_summary_miui15">Vis lysbilder fra presentasjon på en TV mens denne enheten brukes som fjernkontroll</string>
     <string name="screen_projection_example_document_title">Dokumenter</string>
+    <string name="screen_projection_example_gallery_hint_miui15">*For å kunne strømme bilder og videoer må du velge et element i Galleri, trykke på \"Del\" og deretter trykke på strømmeikonet.</string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*For å bruke denne funksjonen går du til Galleri, velger et bilde, trykker på \"Send\" på linjen nederst og trykker på &lt;img src=../drawable/ic_cast_icon_photo.png/>-ikonet.</Data></string>
     <string name="screen_projection_example_gallery_summary">Trykk på Del-knappen under et element i Galleri-appen for å vise det på en ekstern skjerm.</string>
+    <string name="screen_projection_example_gallery_summary_miui15">Se bildene og videoene dine på TV-skjermen</string>
     <string name="screen_projection_example_gallery_title">Bilder og videoer</string>
+    <string name="screen_projection_example_game_hint_miui15">"*For å kunne strømme spill må du trykke på Strøm i Game Turbo mens du spiller.
+Påse at du har aktivert Game Turbo før du strømmer spill."</string>
     <string name="screen_projection_example_game_summary">Spillturbo gjør at du kan strømme spill på en ekstern skjerm. Bruk snarveien i Spillturbo-verktøykassen for å aktivere denne funksjonen.</string>
+    <string name="screen_projection_example_game_summary_miui15">Vis spilløktene dine på TV</string>
     <string name="screen_projection_example_game_title">Spill</string>
     <string name="screen_projection_help">Hjelp</string>
     <string name="screen_projection_sample_summary">Strømmer dokumenter, spill, bilder og videoer</string>
     <string name="screen_projection_sample_title">Demoer</string>
     <string name="screen_projection_title">Strøm</string>
+    <string name="screen_projection_title_miui15">Strøm</string>
     <string name="search_menu_title">Søk</string>
     <string name="send">Send</string>
     <string name="show_result_on_tv">Vis resultatene på TV-en</string>
@@ -553,6 +608,7 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
     <string name="tile_label">Strøm</string>
+    <string name="tile_label_v2">Sammenkoblingstjenester</string>
     <string name="time_picker_dialog_title">Angi tid</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
@@ -570,7 +626,7 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
     <string name="trust_device_desc">Disse enhetene vil vises her først når de er i nærheten</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s vil vises blant tilgjengelige enheter først når den er i nærheten hvis du merker den som klarert.&lt;br>&lt;br>Du kan &lt;a href=milink://com.milink.service/trust>administrere klarerte enheter&lt;/a> i Innstillingene.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s vil vises blant tilgjengelige enheter først når den er i nærheten hvis du merker den som klarert.&lt;br>&lt;br>Du kan &lt;a href=milink://com.milink.service/trust>administrere klarerte enheter&lt;/a> i Innstillingene.</Data></string>
     <string name="trust_device_dialog_pos">Klarer</string>
     <string name="trust_device_dialog_title">Klarere denne enheten?</string>
     <string name="trust_device_manager">Administrer klarerte enheter</string>

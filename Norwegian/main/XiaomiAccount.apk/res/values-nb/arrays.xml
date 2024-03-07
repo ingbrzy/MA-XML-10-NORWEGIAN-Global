@@ -4,6 +4,10 @@
         <item>Mann</item>
         <item>Kvinne</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Mann</item>
+        <item>Kvinne</item>
+    </string-array>
     <string-array name="settings_search_account_and_authority_global">
         <item>Kontoer</item>
         <item>Legg til og administrer tredjepartskontoer</item>
@@ -11,23 +15,28 @@
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>Kontoer</item>
-        <item>Legg til og administrer tredjepartskontoer</item>
-        <item>Kontoer;SNS;WeChat;QQ;Mi-konto;Konto</item>
+        <item>Vis din tilkoblede WeChat og andre SNS-konti</item>
+        <item>tillatelser;SNS;WeChat;Mi-konto;konto</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>Endre passord</item>
         <item>Endre passord for Mi-konto</item>
         <item>Endre passord;Oppdater passord;Mi-konto;Konto</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>Familielagringsplass</item>
+        <item>Vis / Skru på familielagringsplass</item>
+        <item>Familielagringsplass;Lagringsdeling</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>Familietjenester</item>
+        <item>Se / slå på familietjenester</item>
+        <item>Familie;Familietjenester;Familiedeling</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjelp</item>
         <item>Få hjelp og støtte til Mi-kontoen din</item>
         <item>Mi-konto;Konto;Kontohjelp;Hjelpesenter</item>
-    </string-array>
-    <string-array name="settings_search_login_2_step_verify">
-        <item>Totrinnsverifisering</item>
-        <item>Angi totrinnsverifisering for Mi-kontoen din</item>
-        <item>Logg inn;Logg på;Totrinns;verifikasjon;Xiaomi;Konto;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
         <item>Kontosikkerhet</item>

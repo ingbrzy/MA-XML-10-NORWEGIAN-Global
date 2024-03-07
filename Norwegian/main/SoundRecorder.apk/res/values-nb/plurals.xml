@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 time</item>
-        <item quantity="one">Om 1 time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtime</item>
@@ -25,16 +25,16 @@
         <item quantity="one">Umiddelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minutter siden</item>
-        <item quantity="one">1 minutt siden</item>
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="btn_clear_records">
         <item quantity="other">Slett %d opptak</item>
@@ -104,10 +104,6 @@
         <item quantity="other">Kunne ikke gjenopprette %d elementer på grunn av en ukjent feil.</item>
         <item quantity="one">Kunne ikke gjenopprette %d element på grunn av en ukjent feil.</item>
     </plurals>
-    <plurals name="search_alll_records_hint">
-        <item quantity="other">%d opptak</item>
-        <item quantity="one">%d opptak</item>
-    </plurals>
     <plurals name="search_app_records_hint">
         <item quantity="other">%d opptak</item>
         <item quantity="one">%d opptak</item>
@@ -127,10 +123,6 @@
     <plurals name="search_result">
         <item quantity="other">Fant %d opptak</item>
         <item quantity="one">Fant %d opptak</item>
-    </plurals>
-    <plurals name="text_btn_list_with_message">
-        <item quantity="other">%d nye opptak</item>
-        <item quantity="one">%d nytt opptak</item>
     </plurals>
     <plurals name="time_left_for_clear_file">
         <item quantity="other">%d dager igjen</item>

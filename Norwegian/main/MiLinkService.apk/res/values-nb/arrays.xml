@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_connect_car">
+        <item>Kombiner apper</item>
+        <item>Sammenkobling/Kombiner apper</item>
+        <item>Bilfunksjoner</item>
+    </string-array>
+    <string-array name="settings_search_connection_home">
+        <item>Sammenkobling</item>
+        <item>Sammenkobling/Sammenkobling</item>
+        <item>Sammenkobling mellom enheter, Tjenester for sammenkobling mellom enheter, Xiaomi, Xiaomi AIoT, AIoT, Screen Combo, smarttilkobling, Mi Smart Hub, Sammenkobling, Duo, Xiaomi-telefon, bærbar Xiaomi-PC, Multiskjerm, Duet, strømming, kombiner apper, avhending, App-avhending, Speiling, Xiaomis økosystem, enhetsforbindelse</item>
+    </string-array>
+    <string-array name="settings_search_connection_privacy">
+        <item>Personvern</item>
+        <item>Sammenkobling/Personvern</item>
+        <item>Personvern og sammenkobling, Personvern</item>
+    </string-array>
+    <string-array name="settings_search_connection_service">
+        <item>Xiaomi Sammenkobling</item>
+        <item>Sammenkobling/Xiaomi Sammenkobling</item>
+        <item>Xiaomi Sammenkobling-tjenester, Xiaomi Sammenkobling</item>
+    </string-array>
+    <string-array name="settings_search_relay_app">
+        <item>App-avhending</item>
+        <item>Sammenkobling/app-avhending</item>
+        <item>Overfør apper, avhending, overfør</item>
+    </string-array>
+    <string-array name="settings_search_relay_call">
+        <item>Anrop</item>
+        <item>Sammenkobling/Anrop</item>
+        <item>Anrop</item>
+    </string-array>
+    <string-array name="settings_search_relay_network">
+        <item>Nettverksassistanse</item>
+        <item>Sammenkobling/Nettverksassistanse</item>
+        <item>Nettverksassistanse, sammenbinging, hotspot-deling</item>
+    </string-array>
+    <string-array name="settings_search_share_Launcher">
+        <item>Startskjerm+</item>
+        <item>Sammenkobling/startskjerm+</item>
+        <item>Startskjerm+, Mi Smart Hub, skjermdeling</item>
+    </string-array>
+    <string-array name="settings_search_share_clipboard">
+        <item>Utklippstavle</item>
+        <item>Sammenkobling/Utklippstavle</item>
+        <item>Utklippstavle</item>
+    </string-array>
+    <string-array name="settings_search_share_notify">
+        <item>Varsler på tvers av enheter</item>
+        <item>Sammenkobling/Varslinger</item>
+        <item>Varslinger på tvers av enheter</item>
+    </string-array>
+</resources>

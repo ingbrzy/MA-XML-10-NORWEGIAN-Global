@@ -79,6 +79,7 @@
     <string name="bugreport_dump_start_notification_title">Oppretter feilrapport…</string>
     <string name="bugreport_tool_log_dumping_desc">Det tar omtrent et minutt</string>
     <string name="bugreport_tool_log_dumping_title">Oppretter feilrapport</string>
+    <string name="can_not_add_more_image">Kan ikke legge til flere bilder eller videoer</string>
     <string name="catch_full_log_action_cancel">Avbryt</string>
     <string name="catch_full_log_action_complete">Fullfør og last opp</string>
     <string name="catch_full_log_action_start">Start</string>
@@ -156,6 +157,15 @@ Send denne koden til den overordnede."</string>
     <string name="discard_draft_dialog_content">Alle endringer du har gjort på denne rapporten vil gå tapt.</string>
     <string name="discard_draft_dialog_title">Forkast utkast?</string>
     <string name="doing_query_account">Kontrollerer kontoinformasjon…</string>
+    <string name="dynamic_dialog_content">Du skal til å begynne å generere dynamiske logger. Disse inneholder dokumentasjon av programvaredrift (f. eks. systemanrop). Mens dynamiske logger genereres, kan det hende at enheten din frosser eller varmes opp. Dette er normalt. Når loggene er ferdig generert, vil denne funksjonen deaktiveres. Husk å sende tilbakemelding i tide hvis problemet vedvarer. Ved å trykke på \"Godta\" nedenfor samtykker du til at vi vil innhente de ovennevnte dataene mens logger genereres og deretter laste loggene opp til serverne våre, for å bidra til å diagnostisere og løse problemene du har meldt fra om.</string>
+    <string name="dynamic_dialog_negative_text">Ikke godta</string>
+    <string name="dynamic_dialog_notification_text">Når loggene er ferdig generert, vil denne funksjonen bli deaktivert</string>
+    <string name="dynamic_dialog_notification_title">Genererer dynamiske logger…</string>
+    <string name="dynamic_dialog_positive_text">Godta</string>
+    <string name="dynamic_dialog_title">Personvernerklæring</string>
+    <string name="dynamic_log_load_text">Et øyeblikk…</string>
+    <string name="dynamic_log_restore_toast_text">Gjenoppretter dynamiske logger…</string>
+    <string name="dynamic_log_title">Dynamiske logger</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.Kr.</string>
@@ -187,7 +197,7 @@ Send denne koden til den overordnede."</string>
     <string name="facebook_login_btn_content_description">Logg inn med Facebook</string>
     <string name="failed_to_fetch_fql">Kunne ikke hente OSS-informasjon. Kontroller nettverkstilkoblingen</string>
     <string name="feedback_account_inconsistent_login_hint">Det ser ut til at du har byttet konto. Logg på din tidligere Mi-konto.</string>
-    <string name="feedback_account_login_hint">Logg inn på Mi-kontoen din først</string>
+    <string name="feedback_account_login_hint">Logg på Mi-konto!</string>
     <string name="feedback_answer_detail_feedback_resolved">Ja</string>
     <string name="feedback_answer_detail_feedback_result">Takk for tilbakemeldingen!</string>
     <string name="feedback_answer_detail_feedback_title">Var dette til hjelp?</string>
@@ -212,7 +222,7 @@ Send denne koden til den overordnede."</string>
 %1$d. I hvilken app eller på hvilken siden har du møtt på problemet?
 %2$d. Etter hvilke handlinger du utførte oppsto problemet?
 %3$d. Gi oss ytterligere informasjon som kan hjelpe oss å fikse problemet."</string>
-    <string name="feedback_description_hint_suggestion">Fortell oss hvordan du ønsker å forbedre MIUI.</string>
+    <string name="feedback_description_hint_suggestion">Fortell oss hvordan vi kan gjøre det bedre.</string>
     <string name="feedback_description_suggest_hint">Jeg ville likt om du legger til en ny funksjon () fordi jeg trenger ().</string>
     <string name="feedback_detail_copy_toast">Kopiert til utklippstavle</string>
     <string name="feedback_detail_feedback_attach">Vedlegg</string>
@@ -366,6 +376,10 @@ Send denne koden til den overordnede."</string>
     <string name="hint_feedback_main">Forklar problemet</string>
     <string name="i_get_it">Skjønner</string>
     <string name="i_know">Skjønner</string>
+    <string name="icon_add_description">Legg til en snarvei på startskjermen</string>
+    <string name="icon_remove_confirm">Fjern</string>
+    <string name="icon_remove_description_content">«Tjenester og tilbakemelding» er en systemapp. Du kan fortsatt bruke den via Innstillinger etter at du har fjernet snarveien på startskjermen.</string>
+    <string name="icon_remove_description_title">Fjerne «Tjenester og tilbakemelding» fra startskjermen?</string>
     <string name="input_email_address_notice">Vi bruker denne e-posten til å bekrefte kontoen din</string>
     <string name="issue_search">Søk</string>
     <string name="jump_full_log_dialog_cancel">Avbryt</string>
@@ -373,7 +387,7 @@ Send denne koden til den overordnede."</string>
     <string name="jump_full_log_dialog_content">Logger hjelper oss med å lokalisere og fikse problemet du skal rapportere mye raskere. Generer logger og legg dem ved i tilbakemeldingen din.</string>
     <string name="jump_full_log_dialog_title">Generer logger</string>
     <string name="kr_authorization_agree">Godta</string>
-    <string name="kr_authorization_contact">Kontoer</string>
+    <string name="kr_authorization_contact">Konto</string>
     <string name="kr_authorization_contact_desc">For tilgang til Mi-kontoinformasjon for å kunne identifisere enheten</string>
     <string name="kr_authorization_exit">Avslutt</string>
     <string name="kr_authorization_function">Sende tilbakemelding, generere logger, se ofte stilte spørsmål</string>
@@ -400,20 +414,115 @@ Send denne koden til den overordnede."</string>
     <string name="logout_account">Logg ut</string>
     <string name="menu_copy">Kopier</string>
     <string name="message_label">Melding</string>
+    <string name="mi_service_app_name">Tjenester og tilbakemelding</string>
+    <string name="mi_service_back">Tilbake</string>
     <string name="mi_service_dialog_cancel">Avslutt</string>
     <string name="mi_service_dialog_confirm">Åpne</string>
     <string name="mi_service_dialog_content">Alle tilbakemeldingsfunksjoner er flyttet til den nye «Tjenester og tilbakemelding»-appen. Tilbakemelding-appen vil fjernes fra startskjermen.</string>
     <string name="mi_service_dialog_title">Vi presenterer «Tjenester og tilbakemelding»</string>
     <string name="midnight">Natt</string>
+    <string name="miui_feedback_answer_detail_community">Du finner svar på det du lurer på i Xiaomi Community</string>
+    <string name="miui_feedback_answer_detail_feedback_resolved">Ja</string>
+    <string name="miui_feedback_answer_detail_feedback_result">Takk for tilbakemeldingen!</string>
+    <string name="miui_feedback_answer_detail_feedback_title">Var denne informasjonen til hjelp?</string>
+    <string name="miui_feedback_answer_detail_feedback_unresolved">Nei</string>
+    <string name="miui_feedback_answer_detail_menu_online_service">Få hjelp på nett</string>
+    <string name="miui_feedback_answer_detail_menu_phone_service">Ring kundestøtte</string>
+    <string name="miui_feedback_answer_detail_relative_tip">Relatert info</string>
+    <string name="miui_feedback_answer_detail_title">Detaljer</string>
+    <string name="miui_feedback_edit_action_submit">Send</string>
+    <string name="miui_feedback_edit_add_original_images">Legg til bilde</string>
+    <string name="miui_feedback_edit_add_original_images_dialog_content">Hvis problemet du rapporterer om er knyttet til kameraets bildekvalitet, kan du legge til et opprinnelig prøvebilde (ubeskåret) for å hjelpe oss med å lokalisere problemet. Legge til et bilde nå?</string>
+    <string name="miui_feedback_edit_choose_module">Velg element</string>
+    <string name="miui_feedback_edit_choose_module_hint">Påkrevd</string>
+    <string name="miui_feedback_edit_choose_occurrence_time">Tid</string>
+    <string name="miui_feedback_edit_choose_reproductivity">Reproduktivitet</string>
+    <string name="miui_feedback_edit_choose_third_app_name">Velg navn på app</string>
+    <string name="miui_feedback_edit_contact_info_hint">Telefonnummer/e-post</string>
+    <string name="miui_feedback_edit_delete_images">Slett bilder</string>
+    <string name="miui_feedback_edit_desc_hint">Beskriv problemet du har støtt på</string>
+    <string name="miui_feedback_edit_desc_hint_suggestion">Fortell oss hvordan du ønsker å forbedre MIUI</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_button_cancel">Bli</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_button_discard">Forkast</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_content">Alle endringer du har gjort i denne rapporten vil gå tapt.</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_title">Forkast utkast?</string>
+    <string name="miui_feedback_edit_hint">Rapporter feil hver gang du støter på problemer for å hjelpe oss med å løse dem raskere</string>
+    <string name="miui_feedback_edit_hint_gone">Lukket melding</string>
+    <string name="miui_feedback_edit_hint_optional">Velg</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Vent på Wi-Fi</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Last opp</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_content">Det ser ut som du er koblet til et betalt nettverk. Opplasting av logger kan generere ytterligere kostnader.</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_title">Advarsel om databruk</string>
+    <string name="miui_feedback_edit_need_phone_state_permission">Gi appen tillatelse til å få tilgang til enhetsinfo for å lese IMEI, noe som vil bidra til å lokalisere problemer. Trykk på «OK» for å åpne Innstillinger.</string>
+    <string name="miui_feedback_edit_need_storage_permission">Gi appen tillatelse til å få tilgang til enhetslagring for å kunne legge ved bilder og video i tilbakemeldingen. Trykk på «OK» for å åpne Innstillinger.</string>
+    <string name="miui_feedback_edit_permission_denied_title">Begrensede tillatelser: %1$s</string>
+    <string name="miui_feedback_edit_phone_state_permission_name">Tilgang til enhetsinfo</string>
+    <string name="miui_feedback_edit_reproductivity_everytime">Hver gang</string>
+    <string name="miui_feedback_edit_reproductivity_occasionally">Av og til</string>
+    <string name="miui_feedback_edit_reproductivity_often">Ofte</string>
+    <string name="miui_feedback_edit_reproductivity_once">Én gang</string>
+    <string name="miui_feedback_edit_select_images">Legg til et bilde eller en kort video</string>
+    <string name="miui_feedback_edit_select_modem_log">Legg til modemlogger</string>
+    <string name="miui_feedback_edit_select_modem_log_not_select_desc">Har ikke valgt «Legg til modemlogger»</string>
+    <string name="miui_feedback_edit_select_modem_log_select_desc">Valgte «Legg til modemlogger»</string>
+    <string name="miui_feedback_edit_select_original_images">Legg til opprinnelig bilde eller kort video</string>
+    <string name="miui_feedback_edit_select_problem">Problemer</string>
+    <string name="miui_feedback_edit_select_problem_not_select_desc">Har ikke valgt «Problemer»</string>
+    <string name="miui_feedback_edit_select_problem_select_desc">Valgte «Problemer»</string>
+    <string name="miui_feedback_edit_select_suggestion">Forslag</string>
+    <string name="miui_feedback_edit_select_suggestion_not_select_desc">Har ikke valgt «Forslag»</string>
+    <string name="miui_feedback_edit_select_suggestion_select_desc">Valgte «Forslag»</string>
+    <string name="miui_feedback_edit_select_upload_log">Legg til logger</string>
+    <string name="miui_feedback_edit_select_upload_log_not_select_desc">Har ikke valgt «Legg til logger»</string>
+    <string name="miui_feedback_edit_select_upload_log_select_desc">Valgte «Legg til logger»</string>
+    <string name="miui_feedback_edit_storage_permission_name">Tilgang til enhetslagring</string>
+    <string name="miui_feedback_edit_submit_dialog_cancel">Ikke godta</string>
+    <string name="miui_feedback_edit_submit_dialog_confirm">Godta</string>
+    <string name="miui_feedback_edit_submit_dialog_content">"&lt;Data>You must agree to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a> to be able to use Feedback. The issues you report along with the items you attach (might contain personal information, as well as the information about your device and network) will be uploaded to MIUI's servers. This will help us locate and solve the problems you report.&lt;/Data>"</string>
+    <string name="miui_feedback_edit_submit_dialog_content_global">"&lt;Data>Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a>.&lt;/Data>"</string>
+    <string name="miui_feedback_edit_submit_dialog_not_show_again">Ikke vis igjen</string>
+    <string name="miui_feedback_edit_submit_dialog_title">Send rapport</string>
+    <string name="miui_feedback_edit_submit_directly">Send inn</string>
+    <string name="miui_feedback_edit_title_occurrence_time">Velg tid</string>
+    <string name="miui_feedback_edit_title_reproductivity">Velg reproduktivitet</string>
+    <string name="miui_feedback_edit_toast_description_required">Forklar problemet først</string>
+    <string name="miui_feedback_edit_toast_module_required">Velg element</string>
+    <string name="miui_feedback_edit_toast_more_desc_required">Beskrivelsen bør være lengre</string>
+    <string name="miui_feedback_edit_toast_problem_class_required">Velg kategori</string>
+    <string name="miui_feedback_edit_toast_third_packagename_required">Fyll inn navn på app</string>
+    <string name="miui_feedback_main_answer_title">Det finnes et svar på dette spørsmålet</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicetelefon: 0120-300-521
+Kontortid: 9:00 - 18:00 (unntatt offentlige og planlagte helligdager)
+E-post: service.jp@xiaomi.com"</string>
+    <string name="miui_feedback_main_frequent_question_title">Ofte stilte spørsmål</string>
+    <string name="miui_feedback_main_item_catch_full_log">Logger</string>
+    <string name="miui_feedback_main_item_customer_service">Tjenester etter salg</string>
+    <string name="miui_feedback_main_item_feedback_list">Min tilbakemelding</string>
+    <string name="miui_feedback_main_item_official_progress">Repair progress</string>
+    <string name="miui_feedback_main_item_official_progress_hint">Update repair progress regularly in Xiaomi Community</string>
+    <string name="miui_feedback_main_menu_view_privacy">Personvernerklæring</string>
+    <string name="miui_feedback_main_menu_view_withdraw_consent">Tilbakekalling av samtykke</string>
+    <string name="miui_feedback_main_search_footer">Dette er ikke spørsmålene du ønsker å stille?</string>
+    <string name="miui_feedback_main_search_footer_submit">Send inn tilbakemelding</string>
+    <string name="miui_feedback_main_search_issue">Skriv inn søkeord for å søke</string>
+    <string name="miui_feedback_main_search_no_answer">Fant ikke resultater</string>
+    <string name="miui_feedback_main_start_submit">Send inn tilbakemelding</string>
+    <string name="miui_feedback_main_submit_dialog_confirm">Send inn</string>
+    <string name="miui_feedback_main_submit_dialog_content">Det ser ut til at vi ikke finner en løsning på problemet ditt. Du kan sende inn tilbakemeldingen din til oss.</string>
+    <string name="miui_feedback_main_submit_dialog_title">Send inn tilbakemelding</string>
+    <string name="miui_feedback_main_title">Tilbakemelding</string>
+    <string name="miui_feedback_main_withdraw">Tilbakekall</string>
+    <string name="miui_feedback_main_withdraw_consent_hint">Hvis du fortsetter, trekker du tilbake samtykket til personvernerklæringen for %1$s. Personopplysninger som allerede er innhentet og lagret, vil bli slettet innen den spesifikke tidsperioden i samsvar med gjeldende lover og forskrifter, med mindre annet kreves. Siden %2$s leverer tjenestene sine basert på innhenting av nødvendige personopplysninger, vil slik tilbaketrekking tolkes som at du nekter å godta %3$s tjenester. Vil du trekke tilbake samtykket nå?</string>
+    <string name="miui_feedback_note_install_xiaomi_community">Install Xiaomi Community to be able to use this feature.</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -495,6 +604,7 @@ Send denne koden til den overordnede."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgen</string>
+    <string name="net_daig_network_repair">Nettverksreparasjon</string>
     <string name="net_diag_cancel">Avbryt</string>
     <string name="net_diag_continue">Fortsett</string>
     <string name="net_diag_dialog_msg">Ved å teste nettverket kan du oppdage problemer og forbedre forbindelsen.</string>
@@ -509,9 +619,15 @@ Send denne koden til den overordnede."</string>
     <string name="net_diag_entry_network_protocol">Nettverksprotokoll</string>
     <string name="net_diag_entry_network_rssi">Signalkvalitet</string>
     <string name="net_diag_entry_router_topology">Nettverksruting</string>
+    <string name="net_diag_fix_guide_window_msg">Det oppstod en nettverksfeil. Trykk for å feilsøke.</string>
+    <string name="net_diag_fixing">Reparerer nettverk. Dette kan ta litt tid.</string>
     <string name="net_diag_header_internet">Internett</string>
     <string name="net_diag_header_router">Ruter</string>
     <string name="net_diag_header_this_device">Denne enheten</string>
+    <string name="net_diag_repair_msg">Mens denne prosessen pågår, frakobles wifi og kobles deretter til igjen. Reparere nå?</string>
+    <string name="net_diag_repair_msg_china">Mens denne prosessen pågår, frakobles WLAN og kobles deretter til igjen. Reparere nå?</string>
+    <string name="net_diag_repair_static_ip_msg">Nettverkskonfigurasjoner kan bli tilbakestilt under denne prosessen. Reparere nå?</string>
+    <string name="net_diag_repair_title">Reparere nettverket?</string>
     <string name="net_diag_title">Test nettverk</string>
     <string name="net_diag_toast_cellular_data">For å teste nettverket må du først deaktivere mobildata.</string>
     <string name="net_diag_toast_other_networks">For å teste nettverket må du først koble til wifi og koble fra andre nettverk.</string>
@@ -530,6 +646,7 @@ Send denne koden til den overordnede."</string>
     <string name="non_system_app_select">Nedlastede apper</string>
     <string name="noon">Midt på dagen</string>
     <string name="not_set">Ikke angitt</string>
+    <string name="not_support_service_in_maintenance_mode">Denne tjenesten er ikke tilgjengelig i vedlikeholdsmodus</string>
     <string name="nothing">--</string>
     <string name="open_feedback_main">Mer</string>
     <string name="open_settings">Innstillinger</string>
@@ -626,6 +743,26 @@ Send denne koden til den overordnede."</string>
     <string name="passport_wrong_phone_number_format">Telefonnummeret du tastet inn er i et ugyldig format</string>
     <string name="passport_wrong_vcode">Koden du har tastet inn er feil</string>
     <string name="passport_wrong_voice">Koden du har skrevet inn er feil</string>
+    <string name="permission_agree">Godta</string>
+    <string name="permission_china_version_msg">&lt;Data>Før du bruker \"Tjenester og tilbakemelding\", må du lese og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår. Denne appen må også koble til internett for å fungere som den skal.&lt;/Data></string>
+    <string name="permission_complete">Ferdig</string>
+    <string name="permission_contacts_info">Tilgang til kontoinfo</string>
+    <string name="permission_contacts_introduce">For innlogging med Mi-konto</string>
+    <string name="permission_device_info">Tilgang til enhetsinfo</string>
+    <string name="permission_device_introduce">For å fastslå begrenset garantiperiode</string>
+    <string name="permission_exit">Avslutt</string>
+    <string name="permission_external_storage_introduce">For lagring og opplasting av tilbakemeldinger</string>
+    <string name="permission_first_start_network_title">Vilkår og betingelser</string>
+    <string name="permission_imei_disable_desc">Gi denne appen tillatelse til å koble til internett.</string>
+    <string name="permission_imei_enable_desc">Gi denne appen tillatelse til å koble til internett og gi de obligatoriske tillatelsene nevnt ovenfor.</string>
+    <string name="permission_location_introduce">For visning av tjenestesteder i nærheten</string>
+    <string name="permission_main_purpose">Visning av funksjonsdemoer, sende tilbakemeldinger og søke etter ettersalgstjenester.</string>
+    <string name="permission_privacy">Personvernerklæring (obligatorisk)</string>
+    <string name="permission_region_version_msg">&lt;Data>Før du bruker \"Tjenester og tilbakemelding\", må du lese og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår.&lt;/Data></string>
+    <string name="permission_select_all">Velg alle</string>
+    <string name="permission_storage">Lagring</string>
+    <string name="permission_storage_introduce">For lagring av elementer på enheten</string>
+    <string name="permission_user_protocol">Brukeravtale (obligatorisk)</string>
     <string name="phone_auto_login_register_with_local_number">Opprett konto</string>
     <string name="photoPickerNotFoundText">Ingen bilder tilgjengelig.</string>
     <string name="please_download_gallery">Installer Galleri for å vise</string>
@@ -641,6 +778,14 @@ Les og godta den nye versjonen av %3$s før du fortsetter."</string>
     <string name="progressbar_title">Ser etter sikkerhetsproblemer…</string>
     <string name="protocal_dialog_confirm">Enig</string>
     <string name="protocal_dialog_title">Oppmerksomhet</string>
+    <string name="public_authorize_now">Innstillinger</string>
+    <string name="public_loading_text">Et øyeblikk…</string>
+    <string name="public_net_error_retry">Prøv igjen</string>
+    <string name="public_net_error_sub_title">Sjekk nettverksinnstillingene dine og prøv igjen</string>
+    <string name="public_net_error_title">Kunne ikke koble til nettverket</string>
+    <string name="public_open_feedback_service">Start</string>
+    <string name="public_please_authorize">Tillatelser er nødvendig for å fortsette</string>
+    <string name="public_welcome_use_feedback_service">Velkommen til tjenester og tilbakemelding! Du kan bruke denne appen til å sende inn tilbakemeldinger, se vanlige spørsmål, søke om retur og bytte av produkter og mer.</string>
     <string name="qq_login_btn_content_description">Logg inn med QQ</string>
     <string name="refresh">Oppdater</string>
     <string name="register_by_local_phone_long_text">Opprett konto</string>
@@ -650,7 +795,7 @@ Les og godta den nye versjonen av %3$s før du fortsetter."</string>
     <string name="reply_option_log_hint">Valgfritt</string>
     <string name="reply_select_log_hint">Velg logg</string>
     <string name="reply_successful">Svaret er sendt inn</string>
-    <string name="report_miui">Rapporter feil</string>
+    <string name="report_miui">Send tilbakemelding</string>
     <string name="request_agree">Gi tilgang</string>
     <string name="request_camera_permission_message">Vi beskytter personopplysningene dine i henhold til relevante lover og forskrifter. Denne appen trenger følgende tillatelser for å fungere som normalt:&lt;br>&lt;br>&lt;b>Bruk av kamera (for å angi profilbilde)&lt;/b>&lt;br>&lt;br>Hvis du ikke samtykker i å gi slike tillatelser, kan du ikke bruke enkelte funksjoner i appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig for deg. Du kan alltids begrense tillatelser eller tilbakekalle autorisasjonen din under Innstillinger.</string>
     <string name="request_cancel">Avbryt</string>
@@ -685,9 +830,9 @@ Les og godta den nye versjonen av %3$s før du fortsetter."</string>
     <string name="stop_full_log_dialog_title">Genererer logger…</string>
     <string name="submit_dialog_cancel">Ikke godta</string>
     <string name="submit_dialog_confirm">Enig</string>
-    <string name="submit_dialog_content">&lt;Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a> vår før du sender inn tilbakemelding. Problemene du rapporterer om med elementene du vedlegger (inkludert loggene som kan inneholde personopplysninger samt opplysninger om enheten og nettverket ditt) lastes opp til MIUIs servere. Dette hjelper oss med å lokalisere og løse problemene du rapporterer om. Hvis du rapporterer om problemer knyttet til flere enheter, vil loggene fra andre enheter der du bruker Mi-kontoen din også lastes opp.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), vil bli sendt til MIUIs servere. Logger kan inneholde personlig informasjon og dine stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Din tilbakemelding, sammen med (eventuelle) vedlegg, logger (du kan velge bort de tilhørende boksene for elementer du ikke ønsker å laste opp), telefonnummer eller e-post (hvis aktuelt) sendes til MIUIs servere. Logger kan inneholde personopplysninger og stedsdataene dine. Ved å velge \"Godta\" bekrefter du at du har lest og godtatt vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content">&lt;Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a> vår før du sender inn tilbakemelding. Problemene du rapporterer om med elementene du vedlegger (inkludert loggene som kan inneholde personopplysninger samt opplysninger om enheten og nettverket ditt) lastes opp til våre servere. Dette hjelper oss med å finne og løse problemene du rapporterer om. Hvis du rapporterer om problemer knyttet til flere enheter, blir loggene fra andre enheter der du bruker Mi-kontoen din også lastet opp.&lt;/Data></string>
+    <string name="submit_dialog_content_global">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), blir sendt til serverne våre. Logger kan inneholde personopplysninger og stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), blir sendt til serverne våre. Logger kan inneholde personopplysninger og stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_not_show_again">Ikke vis igjen</string>
     <string name="submit_dialog_title">Send rapport</string>
     <string name="submit_feedback_info_failed">Kunne ikke sende rapport</string>

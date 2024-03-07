@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 time</item>
-        <item quantity="one">Om 1 time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halvtime</item>
@@ -25,16 +25,16 @@
         <item quantity="one">Umiddelbart</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Akkurat nå</item>
         <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minutter siden</item>
-        <item quantity="one">1 minutt siden</item>
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
         <item quantity="other">Legge til disse elementene i privat album?</item>
@@ -172,9 +172,9 @@
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Slette %d burst shots fra Xiaomi Cloud og alle synkroniserte enheter?</item>
-        <item quantity="one">Slette %d burst shot fra Xiaomi Cloud og alle synkroniserte enheter?</item>
+    <plurals name="delete_brust_title">
+        <item quantity="other">Slette %d burst shots?</item>
+        <item quantity="one">Slette %d burst shot?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Slette %d burst shots?</item>
@@ -192,17 +192,13 @@
         <item quantity="other">Slette %d elementer?</item>
         <item quantity="one">Slette %d element?</item>
     </plurals>
-    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Slette %d bilder fra alle enheter og Xiaomi Cloud?</item>
-        <item quantity="one">Slette %d bilde fra alle enheter og Xiaomi Cloud?</item>
+    <plurals name="delete_media_title">
+        <item quantity="other">Slette %d elementer?</item>
+        <item quantity="one">Slette %d element?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Slette %d burst shots fra denne enheten?</item>
         <item quantity="one">Slette %d burst shot fra denne enheten?</item>
-    </plurals>
-    <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Slette %d videoer fra alle enheter og Xiaomi Cloud?</item>
-        <item quantity="one">Slette %d video fra alle enheter og Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Kunne ikke laste ned %1$d filer</item>
@@ -311,10 +307,6 @@
     <plurals name="photo_count_format">
         <item quantity="other">Totalt %1$d elementer</item>
         <item quantity="one">Totalt %1$d element</item>
-    </plurals>
-    <plurals name="photo_editor_talkback_crop_scale_value">
-        <item quantity="other">Roter %d grader</item>
-        <item quantity="one">Roter %d grad</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d dager</item>
@@ -480,6 +472,10 @@
         <item quantity="other">Kunne ikke dele. Behandler fortsatt %d bilder…</item>
         <item quantity="one">Kunne ikke dele. Behandler fortsatt %d bilde…</item>
     </plurals>
+    <plurals name="send_too_many_files_error">
+        <item quantity="other">Velg opptil %d elementer som skal sendes</item>
+        <item quantity="one">Velg opptil %d element som skal sendes</item>
+    </plurals>
     <plurals name="send_video_dialog_desc">
         <item quantity="other">%2$d videoer fra %1$s</item>
         <item quantity="one">%2$d video fra %1$s</item>
@@ -577,8 +573,8 @@
         <item quantity="one">%d video</item>
     </plurals>
     <plurals name="sync_error_title">
-        <item quantity="other">Har ikke sikkerhetskopiert %d bilder og videoer</item>
-        <item quantity="one">Har ikke sikkerhetskopiert %d bilde og video</item>
+        <item quantity="other">%d elementer er ikke synkronisert</item>
+        <item quantity="one">%d element er ikke synkronisert</item>
     </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d elementer er for store til å sikkerhetskopieres</item>
@@ -628,6 +624,14 @@
         <item quantity="other"></item>
         <item quantity="one"></item>
     </plurals>
+    <plurals name="tran_notification_complete_msg">
+        <item quantity="other">Kunne ikke overføre %1$d elementer</item>
+        <item quantity="one">Kunne ikke overføre %1$d element</item>
+    </plurals>
+    <plurals name="transfer_status_banner_msg_file_failed">
+        <item quantity="other">Kunne ikke overføre %1$d elementer. Gå til i.mi.com for å laste dem ned.</item>
+        <item quantity="one">Kunne ikke overføre %1$d element. Gå til i.mi.com for å laste det ned.</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d valgte elementer blir slettet permanent fra skyen og alle synkroniserte enheter. Slette likevel?</item>
         <item quantity="one">%d valgt element blir slettet permanent fra skyen og alle synkroniserte enheter. Slette likevel?</item>
@@ -651,6 +655,14 @@
     <plurals name="trash_vip_info_text_login">
         <item quantity="other">Elementer kan lagres her i opptil %1$d dager (%2$s)</item>
         <item quantity="one">Elementer kan lagres her i %1$d dag (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login_medium_or_low_level">
+        <item quantity="other">Elementer kan lagres her i %1$s dager. Trykk for å utvide denne perioden.</item>
+        <item quantity="one">Elementer kan lagres her i %1$s dag. Trykk for å utvide denne perioden.</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_no_sync_server">
+        <item quantity="other">Slettede elementer lagres i skyen i %1$d dager</item>
+        <item quantity="one">Slettede elementer lagres i skyen i %1$d dag</item>
     </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Elementer kan lagres her i opptil %1$d dager. Oppgrader abonnementet ditt for å forlenge denne perioden.</item>

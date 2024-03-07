@@ -1,16 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 time siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">%d-timer siden</item>
+        <item quantity="one">%d-time siden</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
+    </plurals>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">%1$d video i WeChat-samtaler er nesten utløpt. Sikkerhetskopiere den til enhetens interne lagringsplass?</item>
+        <item quantity="one">%1$d video i WeChat-samtaler er nesten utløpt. Sikkerhetskopiere den på enhetens interne lagringsplass?</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">Sjekket inn %1$s dager på rad, fortsett!</item>
+        <item quantity="one">Sjekket inn %1$s dag på rad, fortsett!</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">Sjekket inn %1$s dager på rad</item>
+        <item quantity="one">Sjekket inn %1$s dag på rad</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">Du fikk &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> poeng</item>
+        <item quantity="one">Du fikk &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> poeng</item>
+    </plurals>
     <plurals name="days_ago">
         <item quantity="other">%1$d dager siden</item>
         <item quantity="one">%1$d dag siden</item>
     </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">Slette %1$d filer fra elle enhetene og nettskyen? Mi Drive-filer kan gjenopprettes fra nylig slettede elementer.</item>
+        <item quantity="one">Slette %1$d fil fra elle enhetene og nettskyen? Mi Drive-filer kan gjenopprettes fra nylig slettede elementer.</item>
+    </plurals>
     <plurals name="delete_files">
         <item quantity="other">Slette %1$d filer?</item>
-        <item quantity="one">Delete %1$d file?</item>
+        <item quantity="one">Slette %1$d fil?</item>
+    </plurals>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">Slett %1$d filer</item>
+        <item quantity="one">Slett %1$d filer</item>
     </plurals>
     <plurals name="delete_folders">
         <item quantity="other">Slette %1$d mapper?</item>
         <item quantity="one">Slette %1$d mappe?</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" og %1$d mapper?"</item>
+        <item quantity="one">" og %1$d mapper?"</item>
     </plurals>
     <plurals name="directory_item_count">
         <item quantity="other">%d element</item>
@@ -20,28 +84,156 @@
         <item quantity="other">%1$d elementer</item>
         <item quantity="one">%1$d element</item>
     </plurals>
-    <plurals name="files">
-        <item quantity="other">%1$d filer</item>
-        <item quantity="one">%1$d file</item>
-    </plurals>
-    <plurals name="folders">
-        <item quantity="other">%1$d mapper</item>
-        <item quantity="one">%1$d mappe</item>
+    <plurals name="follow_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> følgere</item>
+        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> følger</item>
     </plurals>
     <plurals name="found_new_files">
         <item quantity="other">Fant %1$d nye filer</item>
         <item quantity="one">Fant %1$d ny file</item>
     </plurals>
+    <plurals name="gems">
+        <item quantity="other">%1$s edelstener</item>
+        <item quantity="one">%1$s edelsten</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">En halvtime siden</item>
+        <item quantity="one">En halvtime siden</item>
+    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">%1$d timer siden</item>
         <item quantity="one">%1$d time siden</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Om 1 time</item>
+        <item quantity="one">Om 1 time</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Om en halvtime</item>
+        <item quantity="one">Om en halvtime</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Umiddelbart</item>
+        <item quantity="one">Umiddelbart</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om 1 minutt</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d elementer)</item>
+        <item quantity="one"> (%1$d element)</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Akkurat nå</item>
+        <item quantity="one">Akkurat nå</item>
     </plurals>
     <plurals name="mins_ago">
         <item quantity="other">%1$d minutter siden</item>
         <item quantity="one">%1$d minutt siden</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
+    </plurals>
+    <plurals name="more_gems">
+        <item quantity="other">Samle &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> flere edelstener for å delta i trekningen.</item>
+        <item quantity="one">Samle &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> flere edenstener for å delta i trekningen.</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">Kunne ikke synkronisere %1$s filer</item>
+        <item quantity="one">Kunne ikke synkronisere %1$s fil</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"Synkroniserte %1$s filer | "</item>
+        <item quantity="one">"Synkroniserte %1$s fil | "</item>
+    </plurals>
+    <plurals name="notification_title_syncing_with_count_no_network">
+        <item quantity="other">Venter på nettverkstilkobling. %1$s fil gjenstår.</item>
+        <item quantity="one">Venter på nettverkstilkobling. %1$s filer gjenstår.</item>
+    </plurals>
     <plurals name="numSelectedFile">
         <item quantity="other">Valgte %1$d elementer</item>
-        <item quantity="one">Valgt %1$d element</item>
+        <item quantity="one">Valgte %1$d element</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s kommentarer</item>
+        <item quantity="one">%1$s kommentar</item>
+    </plurals>
+    <plurals name="original_user_days">
+        <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font> dager"</item>
+        <item quantity="one">" • &lt;font color=#fc7050>%1$d&lt;/font> dag"</item>
+    </plurals>
+    <plurals name="original_user_fans">
+        <item quantity="other">" • Du fikk &lt;font color=#fc7050>%1$s&lt;/font> følgere!"</item>
+        <item quantity="one">" • Du fikk &lt;font color=#fc7050>%1$s&lt;/font> følger!"</item>
+    </plurals>
+    <plurals name="original_user_play_1">
+        <item quantity="other">" • Du lastet opp &lt;font color=#fc7050>%1$s&lt;/font> videoer. "</item>
+        <item quantity="one">" • Du lastet opp &lt;font color=#fc7050>%1$s&lt;/font> video. "</item>
+    </plurals>
+    <plurals name="original_user_play_2">
+        <item quantity="other">Du gjorde &lt;font color=#fc7050>%1$s&lt;/font> personer glade!</item>
+        <item quantity="one">Du gjorde &lt;font color=#fc7050>%1$s&lt;/font> person glad!</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">Fant %1$s nye videoer</item>
+        <item quantity="one">Fant %1$s ny video</item>
+    </plurals>
+    <plurals name="search_head_hint_all">
+        <item quantity="other">Resultater (%1$d sider)</item>
+        <item quantity="one">Resultater (%1$d side)</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">Filer tilknyttet appen \"%1$s\" (%2$d elementer)</item>
+        <item quantity="one">Filer tilknyttet appen \"%1$s\" (%2$d element)</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">Filer tilknyttet \"%1$s\" (%2$d elementer)</item>
+        <item quantity="one">Filer tilknyttet \"%1$s\" (%2$d element)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">Merk \"%1$s\" tilknyttede filer (%2$d elementer)</item>
+        <item quantity="one">Merk \"%1$s\" tilknyttede filer (%2$d element)</item>
+    </plurals>
+    <plurals name="text_group_count">
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s emner</item>
+        <item quantity="one">%1$s emne</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s personer</item>
+        <item quantity="one">%1$s person</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">Du kan skrive inn %d tegn</item>
+        <item quantity="one">Du kan skrive inn %d tegn</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> Nedlastinger</item>
+        <item quantity="one"> Nedlasting</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> videoer</item>
+        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> video</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other"> %1$d elementer</item>
+        <item quantity="one"> %1$d element</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s visninger</item>
+        <item quantity="one">%1$s visning</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">Få %1$d følgere til for å oppgradere statusen din</item>
+        <item quantity="one">Få %1$d følger til for å oppgradere statusen din</item>
     </plurals>
 </resources>

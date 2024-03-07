@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">Antiflimmer</string>
     <string name="anti_flicker_mode_categroy">Moduser</string>
     <string name="anti_flicker_mode_summary">Forhindre utstrakt flimring og redusere belastning på øynene i lite lys</string>
+    <string name="anti_flicker_mode_summary_new">Bruk DC-dimming i lavt lys for å redusere belastningen på øynene</string>
     <string name="anti_flicker_title">Antiflimmer-modus</string>
     <string name="app_name">Innstillinger</string>
+    <string name="app_use">Appskjermtid</string>
     <string name="application_sound">Appvarsler</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">Turdidae</string>
     <string name="brown_pelican">Brown pelican</string>
     <string name="calendar_sound">Påminnelser om hendelser</string>
-    <string name="calendar_tip">Lyder for påminnelser om hendelser fungerer for kalenderpåminnelser, notater og oppgaver</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
@@ -307,6 +308,10 @@ genereres ikke i Andre område"</string>
     <string name="focus_time_exception_tip">Det ser ut til at systemtiden har endret seg. Deaktiverte fokusmodus.</string>
     <string name="follow_apps_settings">Basert på appinnstillinger</string>
     <string name="follow_sim1">Bruk SIM 1-innstillinger</string>
+    <string name="footer_global_fps">"
+%1$d. Når du aktiverer ytelsesmodus, vil oppdateringhastigheten settes til systemets makshastighet på %2$d Hz. Appinnstillinger for høy oppdateringshastighet blir midlertidig utilgjengelige."</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. Oppdateringsfrekvensen kan justeres opptil %s  Hz for støttede spill og apper."</string>
     <string name="force_rest">Bruk øktpauser</string>
     <string name="force_rest_summary">Ta obligatoriske pauser når økter når en fastsatt grense</string>
     <string name="force_rest_time">Pausevarighet</string>
@@ -419,17 +424,20 @@ genereres ikke i Andre område"</string>
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">The marabou stork is a massive bird, a frequent scavenger.</string>
     <string name="masked_palm_civet">Masked palm civet</string>
+    <string name="max_fps_string">Opptil %s Hz</string>
     <string name="medium_tree_finch">Medium tree finch</string>
+    <string name="mi_transfer_banner_summary">Flere enhetsmerker støttes</string>
+    <string name="mi_transfer_banner_title">Overfør elementer fra den gamle enheten din</string>
     <string name="midnight">Natt</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_action_mode_select_all">Velg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
-    <string name="miuix_appcompat_deselect_all">Avmarker</string>
+    <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
@@ -582,6 +590,7 @@ genereres ikke i Andre område"</string>
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (Sparer batteri)</string>
     <string name="screen_fps_unit_smooth">%dHz (Bedre kvalitet)</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">Forbedret</string>
     <string name="screen_original_gamut_summary">Vis alt skjerminnhold i bredest mulig fargeskala</string>
     <string name="screen_paper_mode_apps_loading">Et øyeblikk…</string>
@@ -640,6 +649,7 @@ genereres ikke i Andre område"</string>
     <string name="stop_summary">All skjermtidsstatistikk og -data slettes når du deaktiverer denne funksjonen</string>
     <string name="suggestion">Tilbakemelding</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_max_fps_for_intelligent">Juster oppdateringsfrekvensen dynamisk opptil %s Hz, basert på scenarioer som balanserer ytelse mot strømforbruk</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
@@ -794,7 +804,7 @@ For å kunne fungere normalt, må denne appen samle inn informasjon om skjermtid
 Denne appen må også koble til internett og krever følgende tillatelser for å innhente personopplysningene dine:"</string>
     <string name="usage_home_premission_second_summary">For at den skal fungere som normalt må denne appen innhente personopplysningene dine. Vi beskytter personopplysningene dine i henhold til relevante lover, forskrifter og personvernerklæringer.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Vi beskytter personopplysningene dine i samsvar med relevante lover, forskrifter og personvernerklæringer. Hvis du ikke samtykker i å gi slike tillatelser eller dele og laste opp personopplysningene dine, kan du ikke bruke denne appen. Du kan tilbakekalle autorisasjonen din under Skjermtid > Innstillinger > Deaktiver Skjermtid.</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Før du bruker denne appen må du lese og godta &lt;a href='%1s'>brukeravtalen&lt;/a> og &lt;a href='%2s'>personvernerklæringen&lt;/a> vår.&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"Før du bruker denne appen må du lese og godta &lt;a href='%1s'>brukeravtalen&lt;/a> og &lt;a href='%2s'>personvernerklæringen&lt;/a> vår."</Data></string>
     <string name="usage_home_premission_second_summary_new">Vi beskytter personopplysningene dine i samsvar med relevante lover, forskrifter og personvernerklæringer. Hvis du ikke samtykker i å gi slike tillatelser eller dele og laste opp personopplysningene dine, kan du ikke bruke denne appen. Du kan tilbakekalle autorisasjonen din under Skjermtid > Innstillinger > Deaktiver Skjermtid. Hvis du har flere spørsmål om personvern, kan du kontakte oss på privacy@xiaomi.com.</string>
     <string name="usage_new_category_limit_summary">Angi daglige brukstrenser for alle apper i denne kategorien</string>
     <string name="usage_new_category_limit_title">Begrens bruk for appkategori</string>
@@ -842,7 +852,7 @@ Denne appen må også koble til internett og krever følgende tillatelser for å
     <string name="usage_optional_title">Valgfrie tillatelser</string>
     <string name="usage_permisison_agree_desc_o">For å kunne gi deg statistikk om Skjermtid, må denne appen samle inn følgende data: antall ganger du låser opp enheten, listen over appene dine sammen med tilsvarende bruksvarighet.</string>
     <string name="usage_permisison_agree_desc_p">For å kunne gi deg statistikk om Skjermtid og Fokusmodus, må denne appen samle inn følgende data: antall ganger du låser opp enheten, listen over appene dine sammen med tilsvarende bruksvarighet, antall ganger skjermen lyser , og innstillinger for Fokusmodus.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Denne appen må koble seg til internett og samle de nødvendige personopplysningene for å kunne fungere normalt. For å forstå dine rettigheter som bruker så vel som måtene vi bruker dataene dine på, les og samtykker til vår &lt;a href='%1s'> Brukeravtale &lt;/a> og &lt;a href='%2s'>Personvernerklæring&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"Denne appen må koble seg til internett og samle de nødvendige personopplysningene for å kunne fungere normalt. For å forstå dine rettigheter som bruker så vel som måtene vi bruker dataene dine på, les og samtykker til vår &lt;a href='%1s'> Brukeravtale &lt;/a> og &lt;a href='%2s'>Personvernerklæring&lt;/a>."</Data></string>
     <string name="usage_permission_main_desc">"Velkommen til Skjermtid
  Denne appen må koble til internett og krever følgende tillatelser for å fungere normalt:"</string>
     <string name="usage_permission_title">Merk</string>

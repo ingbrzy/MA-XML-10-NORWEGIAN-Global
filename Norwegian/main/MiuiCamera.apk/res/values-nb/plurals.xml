@@ -36,6 +36,10 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
     </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">%d-second timer for Night mode</item>
+        <item quantity="one">%d-second timer for Night mode</item>
+    </plurals>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">Fokusert. %d av ansiktene er gjenkjent</item>
         <item quantity="one">Fokusert. %d av ansiktet er gjenkjent</item>
@@ -52,6 +56,14 @@
         <item quantity="other">Varighet: %d sekunder</item>
         <item quantity="one">Varighet: %d sekund</item>
     </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">Du kan koble opptil %d kameraer til samme nettverk.</item>
+        <item quantity="one">Du kan koble opptil %d kamera til samme nettverk.</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">Du kan koble opptil %d monitorer til samme nettverk.</item>
+        <item quantity="one">Du kan koble opptil %d monitor til samme nettverk.</item>
+    </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">Du kan lage opptil %d kloner om gangen.</item>
         <item quantity="one">Du kan lage opptil %d klone om gangen.</item>
@@ -64,6 +76,10 @@
         <item quantity="other">&lt;Data>Enheten er for varm nå.&lt;br>Denne appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nåværende fremdrift ble lagret automatisk.&lt;/Data></item>
         <item quantity="one">&lt;Data>Enheten er for varm nå.&lt;br>Denne appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Nåværende fremdrift ble lagret automatisk.&lt;/Data></item>
     </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">&lt;Data>Kameraversjonen du bruker, er ikke kompatibel med enhetsmodellen.&lt;br>Appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Avinstaller kameraoppdateringer og prøv igjen.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kameraversjonen du bruker, er ikke kompatibel med enhetsmodellen.&lt;br>Appen lukkes om &lt;font color=#FFCE16>&lt;b>%1$d sek&lt;/b>&lt;/font>. Avinstaller kameraoppdateringer og prøv igjen.&lt;/Data></item>
+    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d min</item>
         <item quantity="one">%1$d min</item>
@@ -71,6 +87,10 @@
     <plurals name="fastmotion_pro_sec_unit">
         <item quantity="other">%1$d sek</item>
         <item quantity="one">%1$d sek</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">Aktiverte tidtaker (%1$d sek). Bilder overføres til denne enheten.</item>
+        <item quantity="one">Aktiverte tidtaker (%1$d sek). Bilder overføres til denne enheten.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
@@ -107,6 +127,10 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">Enheten er overopphetet. Kameraet lukkes om %d sekunder. Bildene eller videoene dine lagres automatisk.</item>

@@ -76,7 +76,7 @@
     <string name="currency_update_time_format">Valutakurser er gitt av Webull (%s)</string>
     <string name="currency_update_updating">Oppdaterer kurser…</string>
     <string name="data_analysis">Analyse</string>
-    <string name="date_format">dd.MM.yyyy</string>
+    <string name="date_format">d. MMM yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -185,7 +185,7 @@
     <string name="friday_shortest">Fre</string>
     <string name="fund_loan">Fondslån</string>
     <string name="further_education">Videreutdanning</string>
-    <string name="get_loaction_permission_title">Lokaliser</string>
+    <string name="get_loaction_permission_title">Tilgang til plassering</string>
     <string name="get_location_fail_prompt">Fant ikke plassering</string>
     <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
@@ -232,11 +232,12 @@
     <string name="label_days">Dager</string>
     <string name="label_emi">Likestilles månedlige avdrag</string>
     <string name="label_from_date">Fra</string>
-    <string name="label_interest">Rente (%)</string>
+    <string name="label_interest">Rente (prosent)</string>
     <string name="label_investment_duration">Varighet</string>
     <string name="label_months">Måneder</string>
     <string name="label_powered_by">Drevet av Mi Kalkulator</string>
     <string name="label_principal">Avdrag</string>
+    <string name="label_share">Del</string>
     <string name="label_statistics">Statistikk</string>
     <string name="label_to_date">Til</string>
     <string name="label_total_interest">Total renter</string>
@@ -356,13 +357,13 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="mt_max">Beløpet du la inn er for stort</string>
     <string name="mulDesc">gange</string>
     <string name="n_a">N/A</string>
-    <string name="name_cgst" formatted="false">CGST/SGST: %s %</string>
+    <string name="name_cgst">CGST/SGST: 2.5</string>
     <string name="name_discount">Avslag (-%)</string>
     <string name="name_original">Opprinnelig pris</string>
     <string name="name_price">Endelig pris</string>
     <string name="name_save">"Du sparer "</string>
     <string name="negDesc">Bytt mellom minusgrader og plussgrader</string>
-    <string name="new_privacy_string">&lt;Data>Velkommen til Kalkulator!&lt;br/>Denne appen inneholder følgende funksjoner:&lt;br/>• Enkel kalkulator&lt;br/>• Vitenskapelig kalkulator&lt;br/>• Universell konverterer (f.eks. valuta, måleenheter osv.)&lt;br/>• Regnemaler for lån, investeringer, EMI m.m.&lt;br/>Les om hvordan vi behandler opplysningene vi innhenter i vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a>. Les og godta vår &lt;a href=\"%2$s\">brukeravtale&lt;/a> og &lt;a href=\"%3$s\">personvernerklæring&lt;/a> før du bruker Kalkulator. Du kan trekke tilbake samtykket til personvernerklæringen i Kalkulator fra Innstillinger når som helst. Hvis du ikke godtar personvernerklæringen, vil du ikke kunne bruke enkelte av funksjonene i denne appen; men de grunnleggende funksjonene vil fortsatt være tilgjengelige for deg.&lt;/Data></string>
+    <string name="new_privacy_string"><Data>Velkommen til Kalkulator!&lt;br/>Denne appen inneholder følgende funksjoner:&lt;br/>• Enkel kalkulator&lt;br/>• Vitenskapelig kalkulator&lt;br/>• Universell konverterer (f.eks. valuta, måleenheter osv.)&lt;br/>• Regnemaler for lån, investeringer, EMI m.m.&lt;br/>Les om hvordan vi behandler opplysningene vi innhenter i vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a>. Les og godta vår &lt;a href=\"%2$s\">brukeravtale&lt;/a> og &lt;a href=\"%3$s\">personvernerklæring&lt;/a> før du bruker Kalkulator. Du kan trekke tilbake samtykket til personvernerklæringen i Kalkulator fra Innstillinger når som helst. Hvis du ikke godtar personvernerklæringen, vil du ikke kunne bruke enkelte av funksjonene i denne appen; men de grunnleggende funksjonene vil fortsatt være tilgjengelige for deg.</Data></string>
     <string name="night">Kveld</string>
     <string name="none">Ingen</string>
     <string name="noon">Midt på dagen</string>
@@ -376,7 +377,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="permission_location_miui12">Tilgang til plassering</string>
     <string name="permission_option_desc_miui12">Disse tillatelsene er nødvendige når du bruker tilleggsfunksjoner.</string>
     <string name="permission_option_miui12">Valgfrie tillatelser</string>
-    <string name="permission_privacy_link">&lt;Data>Før du bruker denne appen må du lese og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår.&lt;/Data></string>
+    <string name="permission_privacy_link"><Data>Før du bruker denne appen må du lese og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> vår.</Data></string>
     <string name="permission_purpose_miui12_system">Velkommen til Kalkulator! Denne appen kombinerer funksjoner i en vanlig kalkulator med flere konverterere og livsstilsfunksjoner.</string>
     <string name="permission_remove_desc_miui12">Gi denne appen tillatelse til å koble til internett og gi de valgfrie tillatelsene for å kunne bruke alle funksjonene.</string>
     <string name="permission_title_miui12">Merk</string>
@@ -408,7 +409,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="preference_use_voice_title">Taleutdata</string>
     <string name="preference_user_feedback_title">Tilbakemelding</string>
     <string name="preference_view_privacy_title">Vis personvernerklæring</string>
-    <string name="privacy_dialog_title">Merk</string>
+    <string name="privacy_dialog_title">Personvern</string>
     <string name="privacy_revoke_error">Kunne ikke tilbakekalle. Prøv igjen.</string>
     <string name="privacy_revoke_progress">Tilbakekaller…</string>
     <string name="privacy_switch">Tilbakekalling av samtykke</string>
@@ -428,7 +429,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="search_menu_title">Søk</string>
     <string name="secondFunctionDesc">Bytt til second-funksjonen</string>
     <string name="send">Send</string>
-    <string name="settingsDesc">innstillinger</string>
+    <string name="settingsDesc">Innstillinger</string>
     <string name="sinDesc">sinus</string>
     <string name="sqrtDesc">kvadratrot</string>
     <string name="statistic_label_balance">Saldo</string>
@@ -573,6 +574,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviterussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanadiske dollar</string>
     <string name="unit_data_display_currency_cdf">Kongolesisk franc</string>
     <string name="unit_data_display_currency_chf">Sveitsiske franc</string>
@@ -822,7 +824,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_short_velocity_c">c</string>
     <string name="unit_data_short_velocity_ftps">fps</string>
     <string name="unit_data_short_velocity_inps">ips</string>
-    <string name="unit_data_short_velocity_kmph">km/h</string>
+    <string name="unit_data_short_velocity_kmph">km/t</string>
     <string name="unit_data_short_velocity_kmps">km/s</string>
     <string name="unit_data_short_velocity_mach">Ma</string>
     <string name="unit_data_short_velocity_mileph">mph</string>
@@ -858,7 +860,7 @@ Ettårs- og femårs-LPR blir oppgitt den 20. i hver måned (forsinkelser kan for
     <string name="unit_data_short_weight_qian">qian</string>
     <string name="unit_data_short_weight_st">sh.t</string>
     <string name="unit_data_short_weight_t">t</string>
-    <string name="unit_data_short_weight_taijin">jin(tw)</string>
+    <string name="unit_data_short_weight_taijin">jin (Taiwan)</string>
     <string name="unit_data_short_weight_ug">μg</string>
     <string name="unit_data_short_weight_uk.cwt">cwt</string>
     <string name="unit_data_short_weight_uk.st">st</string>
