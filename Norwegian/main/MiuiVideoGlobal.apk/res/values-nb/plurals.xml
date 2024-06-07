@@ -52,10 +52,6 @@
         <item quantity="other">Spol %d sekunder bakover</item>
         <item quantity="one">Spol %d sekund bakover</item>
     </plurals>
-    <plurals name="feed_back_home">
-        <item quantity="other">Går tilbake til startside om %1$d sekunder…</item>
-        <item quantity="one">Går tilbake til startside om %1$d sekund…</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>

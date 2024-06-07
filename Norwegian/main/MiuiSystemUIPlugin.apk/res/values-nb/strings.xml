@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">Stillemodus er deaktivert nå. Anrop og varsler blir ikke dempet.</string>
     <string name="kddi_miui_toast_zen_to_standard">Byttet til stillemodus. Anrop og varsler blir dempet nå.</string>
     <string name="loading">Status ukjent</string>
-    <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">Natt</string>
     <string name="miplay_accessibility_cast">Velg enhet</string>
     <string name="miplay_accessibility_cover">Cover</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"Brukere av Xiaomi-hodetelefoner: Åpne ladetuiet og trykk på og hold inne etuiets knapp i %ds
 Brukere av øretelefoner fra andre produsenter enn Xiaomi: Tilbakestill øretelefonene i Bluetooth-innstillinger og koble til"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">Legg til hodetelefoner for å dele lyd</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">Lyddeling fullført</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">Legg til hodetelefoner for å dele lyd</string>
     <string name="miplay_bluetooth_share_subTitle_text">Del enhetens lyd med en annen person</string>
     <string name="miplay_bluetooth_share_title_text">Del lyd</string>
     <string name="miplay_detail_divider_title">Høyttalere</string>

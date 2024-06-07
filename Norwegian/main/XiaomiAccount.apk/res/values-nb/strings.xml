@@ -93,18 +93,14 @@
     <string name="binded">Tilkoblet</string>
     <string name="binded_description" formatted="false">"%s har blitt koblet til din Mi-konto.
 Du kan logge in på din Mi-konto gjennom %s nå."</string>
-    <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
     <string name="button_agree">Godta</string>
     <string name="button_close">Lukk</string>
     <string name="button_refuse">Ikke godta</string>
     <string name="button_unbind">Frakoble</string>
     <string name="cancel">Avbryt</string>
     <string name="change_password">Endre passord</string>
-    <string name="character_counter_content_description">%1$d av %2$d tegn er skrevet inn</string>
-    <string name="character_counter_overflowed_content_description">Tegngrensen er overskredet – %1$d av %2$d</string>
     <string name="check_apk_update">Se etter oppdateringer</string>
     <string name="child_account_system_ad_disable_hint">Denne funksjonen er ikke tilgjengelig for barnekontoer</string>
-    <string name="clear_text_end_icon_content_description">Fjern teksten</string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="close">Lukk</string>
     <string name="close_drawer">Lukk navigasjonsmenyen</string>
@@ -207,13 +203,11 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="eras_ad">e.Kr.</string>
     <string name="eras_bc">f.Kr.</string>
     <string name="error_dup_binded_email">Denne e-postadressen er allerede knyttet til en annen Mi-konto.</string>
-    <string name="error_icon_content_description">Feil</string>
     <string name="error_invalid_bind_address">E-postadressen du skrev inn er ikke gyldig.</string>
     <string name="evening">Ettermiddag</string>
     <string name="exceed_binded_phone_times_notice">Dette telefonnummeret er allerede knyttet til en annen Mi-konto.</string>
     <string name="exit">Avslutt</string>
     <string name="expand_button_title">Avansert</string>
-    <string name="exposed_dropdown_menu_content_description">Vis rullegardinmenyen</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_login">Logg inn med Facebook</string>
     <string name="failed_dup_secure_phone_number">Dette telefonnummeret er allerede knyttet til en annen Mi-konto</string>
@@ -340,7 +334,6 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="help_center">Hjelp</string>
     <string name="i_agree">OK</string>
     <string name="i_agree_continue">Godta</string>
-    <string name="icon_content_description">Dialogboksikon</string>
     <string name="identity">Identifisering</string>
     <string name="in_progress">Pågår</string>
     <string name="inconsistent_pwd">Passordene stemmer ikke overens</string>
@@ -349,7 +342,6 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="input_new_pwd">Tast inn nytt passord</string>
     <string name="input_ps">Angi passord</string>
     <string name="io_error_title">Bekreft nettverket ditt</string>
-    <string name="item_view_role_description">Fane</string>
     <string name="just_a_second">Et øyeblikk…</string>
     <string name="keep_phone_ticket_login">Dårlig forbindelse. Sørg for at knappen er ren og hold fingeren godt i kontakt med den.</string>
     <string name="kr_license_desc">Du må godta brukeravtalen og personvernerklæringen vår før du bruker Mi-konto- og Xiaomi Cloud-tjenester.</string>
@@ -369,18 +361,6 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="login_with_other">Flere valg</string>
     <string name="logout_account">Logg ut</string>
     <string name="logout_failed">Kan ikke logge av</string>
-    <string name="material_clock_toggle_content_description">Velg AM eller PM</string>
-    <string name="material_hour_selection">Velg time</string>
-    <string name="material_hour_suffix">%1$s null-null</string>
-    <string name="material_minute_selection">Angi minutter</string>
-    <string name="material_minute_suffix">%1$s minutter</string>
-    <string name="material_timepicker_am">AM</string>
-    <string name="material_timepicker_clock_mode_description">Bytt til klokkemodus for tidsinndata.</string>
-    <string name="material_timepicker_hour">Time</string>
-    <string name="material_timepicker_minute">Minutt</string>
-    <string name="material_timepicker_pm">PM</string>
-    <string name="material_timepicker_select_time">Velg tidspunkt</string>
-    <string name="material_timepicker_text_input_mode_description">Bytt til tekstinndatamodus for tidsinndata.</string>
     <string name="mi_account">Min konto</string>
     <string name="mi_health">Xiaomi Helse</string>
     <string name="midnight">Natt</string>
@@ -397,6 +377,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
     <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
+    <string name="miuix_appcompat_edit">Rediger</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
     <string name="miuix_appcompat_select_all">Velg alle</string>
@@ -451,38 +432,6 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgen</string>
-    <string name="mtrl_badge_numberless_content_description">Nytt varsel</string>
-    <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Flere enn %1$d nye varsler</string>
-    <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
-    <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
-    <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Velg dato</string>
-    <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolonne for dager: %1$s</string>
-    <string name="mtrl_picker_invalid_format">Ugyldig format.</string>
-    <string name="mtrl_picker_invalid_format_example">Eksempel: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Bruk: %1$s</string>
-    <string name="mtrl_picker_invalid_range">Ugyldig område.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Naviger til år %1$s</string>
-    <string name="mtrl_picker_out_of_range">Utenfor rekkevidde: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Startdato – %1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s – sluttdato</string>
-    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
-    <string name="mtrl_picker_range_header_title">Velg periode</string>
-    <string name="mtrl_picker_range_header_unselected">Startdato–sluttdato</string>
-    <string name="mtrl_picker_save">Lagre</string>
-    <string name="mtrl_picker_text_input_date_hint">Dato</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Sluttdato</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Startdato</string>
-    <string name="mtrl_picker_text_input_day_abbr">d</string>
-    <string name="mtrl_picker_text_input_month_abbr">m</string>
-    <string name="mtrl_picker_text_input_year_abbr">å</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Bytt til kalenderinndatamodus</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Trykk for å bytte til å velge dag</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Bytt til tekstinndatamodus</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Trykk for å bytte til å velge år</string>
     <string name="multi_user_not_show_sync_activity_message_1">Ser ut som du bruker Første område Mi-kontoen din.</string>
     <string name="multi_user_not_show_sync_activity_message_2">I så fall blir alle dataene synkronisert til ditt Andre område. For å unngå dette, må du ikke slå på synkronisering med skyen.</string>
     <string name="multi_user_not_show_sync_activity_title">Ikke slå på synkronisering med skyen</string>
@@ -819,7 +768,6 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="passport_wrong_phone_number_format">Telefonnummerets format er ugyldig</string>
     <string name="passport_wrong_vcode">Koden du har skrevet inn er feil</string>
     <string name="passport_wrong_voice">Koden du har skrevet inn er feil</string>
-    <string name="password_toggle_content_description">Vis passordet</string>
     <string name="password_view_hide_password">Skjul passord</string>
     <string name="password_view_show_password">Vis passord</string>
     <string name="permission_group_contacts">Kontakter</string>
@@ -981,7 +929,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
 %2$d. Hvis du ikke kan tilbakestille passordet ditt eller noen har låst enheten, kan du gå til i.mi.com for å låse den opp.
 %3$d. Nummeret for opplåsing: %4$s"</string>
     <string name="update_apk_version_later">Ikke nå</string>
-    <string name="update_apk_version_now">Oppdater</string>
+    <string name="update_apk_version_now">Installer</string>
     <string name="update_email_address_dialog_message">Du må bekrefte identiteten din før du kan oppdatere e-post.</string>
     <string name="update_email_address_dialog_title">Oppdater e-postl</string>
     <string name="update_phone_notice">Endre sikkerhetsinnstillinger</string>
@@ -993,7 +941,6 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="user_agreement_read_phone_permission_desc">For å logge på med telefonnummer</string>
     <string name="user_agreement_read_phone_permission_title">Les telefonumre</string>
     <string name="user_agreement_use_account_msg">Med Mi-konto får du tilgang til alle tjenestene som leveres av Xiaomi.</string>
-    <string name="user_agreement_wifi_permission_title">Aktiver og deaktiver Wi-Fi</string>
     <string name="user_agreement_wlan_permission_desc">For å kontrollere påloggingsmiljøet for sikkerhetsproblemer</string>
     <string name="user_agreement_wlan_permission_title_china">Aktiver og deaktiver WLAN</string>
     <string name="user_avatar_update_title">Endre profilbilde</string>

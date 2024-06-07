@@ -206,6 +206,7 @@ https://appleid.apple.com/#!&amp;page=signin å lukke"</string>
     <string name="dialog_backup_password_change_machine_tips">Du vil ikke kunne overføre passordbeskyttede sikkerhetskopier. Deaktiver sikkerhetskopipassordet før du bruker Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Kan ikke gjenopprette elementer når sikkerhetskopipassord er aktivert. Deaktiver sikkerhetskopipassordet først.</string>
     <string name="dialog_backup_password_to_settings">Innstillinger</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Ikke krypter</string>
     <string name="disable_encrypt_title">Skru av kryptering</string>
@@ -367,6 +368,7 @@ bør du først opprette en sikkerhetskopi av iCloud."</string>
     <string name="import_data_from_icloud">Importer data fra iCloud</string>
     <string name="import_from_xiaomi_account_hint2">Trykk på Neste dersom du allerede har en sikkerhetskopi.</string>
     <string name="import_from_xiaomi_account_hint_title">Bruk Mi Talk for å sikkerhetskopiere kontaktene dine på tvers av enheter.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Grunnet kompatibilitetsproblemer, kan du kun overføre delvise data fra iOS-enheter. Sørg for at du lager en sikkerhetskopiering av iCloud før du overfører.</string>
     <string name="item_view_role_description">Fane</string>
     <string name="lack_perm_msg">Mi Mover trenger de følgende tillatelsene: &lt;b>%s&lt;/b>.</string>
@@ -503,6 +505,7 @@ bør du først opprette en sikkerhetskopi av iCloud."</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>

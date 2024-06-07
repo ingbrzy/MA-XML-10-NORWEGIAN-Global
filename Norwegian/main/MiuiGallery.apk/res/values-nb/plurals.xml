@@ -64,6 +64,50 @@
         <item quantity="other">%d år</item>
         <item quantity="one">%d år</item>
     </plurals>
+    <plurals name="ai_create_image_queue">
+        <item quantity="other">%1d personer foran deg</item>
+        <item quantity="one">%1d person foran deg</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_hour">
+        <item quantity="other">Ventetid: %s t</item>
+        <item quantity="one">Ventetid: %s t</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_minute">
+        <item quantity="other">Ventetid: %s min</item>
+        <item quantity="one">Ventetid: %s min</item>
+    </plurals>
+    <plurals name="ai_creation_wait_message_time">
+        <item quantity="other">Oppretter… | Ventetid: %d sek</item>
+        <item quantity="one">Oppretter… | Ventetid: %d sek</item>
+    </plurals>
+    <plurals name="ai_creation_wait_queue">
+        <item quantity="other">Oppretter… | %d person foran deg</item>
+        <item quantity="one">Oppretter… | %d person foran deg</item>
+    </plurals>
+    <plurals name="ai_creation_wait_time_minute">
+        <item quantity="other">Ventetid: %d min</item>
+        <item quantity="one">Ventetid: %d min</item>
+    </plurals>
+    <plurals name="ai_enhance_bar_waiting">
+        <item quantity="other">Oppretter… | %d sek. gjenstår</item>
+        <item quantity="one">Oppretter… | %d sek. gjenstår</item>
+    </plurals>
+    <plurals name="ai_hour">
+        <item quantity="other">%s t</item>
+        <item quantity="one">%s t</item>
+    </plurals>
+    <plurals name="ai_image_over_limit_msg">
+        <item quantity="other">En person kan opprette opptil %d AI-bilder.</item>
+        <item quantity="one">En person kan opprette opptil %d AI-bilde.</item>
+    </plurals>
+    <plurals name="ai_minute">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="ai_select_photo_time_count">
+        <item quantity="other">Velger bilder (%d sek. gjenstår)…</item>
+        <item quantity="one">Velger bilder (%d sek. gjenstår)…</item>
+    </plurals>
     <plurals name="album_already_share_user_count">
         <item quantity="other">Delt til %d personer</item>
         <item quantity="one">Delt til %d person</item>
@@ -224,9 +268,21 @@
         <item quantity="other">Hoppet over %1$d bilder som ikke kunne gjengis.</item>
         <item quantity="one">Hoppet over %1$d bilde som ikke kunne gjengis.</item>
     </plurals>
-    <plurals name="file_type_detail_count">
-        <item quantity="other">%1$d filer</item>
-        <item quantity="one">%1$d fil</item>
+    <plurals name="global_cloud_storage_warn_title_link">
+        <item quantity="other">Kunne ikke sikkerhetskopiere %d elementer på grunn av utilstrekkelig lagringsplass i nettskyen</item>
+        <item quantity="one">Kunne ikke sikkerhetskopiere %d element på grunn av utilstrekkelig lagringsplass i nettskyen</item>
+    </plurals>
+    <plurals name="global_sync_error_title">
+        <item quantity="other">Har ikke sikkerhetskopiert %d elementer</item>
+        <item quantity="one">Har ikke sikkerhetskopiert %d element</item>
+    </plurals>
+    <plurals name="global_syncing_gprs_title_link">
+        <item quantity="other">Sikkerhetskopierer %d elementer ved bruk av mobildata…</item>
+        <item quantity="one">Sikkerhetskopierer %d element ved bruk av mobildata…</item>
+    </plurals>
+    <plurals name="global_syncing_title_link">
+        <item quantity="other">Sikkerhetskopierer %d elementer…</item>
+        <item quantity="one">Sikkerhetskopierer %d element…</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
@@ -345,8 +401,8 @@
         <item quantity="one">Laster ned %d gjenværende fil</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Kunne ikke laste ned %1$d bilder. Koble til nettverket og prøv igjen</item>
-        <item quantity="one">Kunne ikke laste ned %1$d bilde. Koble til nettverket og prøv igjen</item>
+        <item quantity="other">Kunne ikke laste ned %d filer. Koble til nettverket og prøv igjen.</item>
+        <item quantity="one">Kunne ikke laste ned %d fil. Koble til nettverket og prøv igjen.</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">Kunne ikke laste ned %1$d-filene (%2$d MB). Koble til nettverket og prøv igjen.</item>
@@ -357,12 +413,12 @@
         <item quantity="one">%1$d-filen (%2$d MB) er ikke lastet ned ennå. Laste ned ved hjelp av mobildata?</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
-        <item quantity="other">Kunne ikke laste ned %1$d bilder. Prøve igjen?</item>
-        <item quantity="one">Kunne ikke laste ned %1$d bilde. Prøve igjen?</item>
+        <item quantity="other">Kunne ikke laste ned %d filer. Prøve igjen?</item>
+        <item quantity="one">Kunne ikke laste ned %d fil. Prøv igjen?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Kunne ikke laste ned %1$d bilder (%2$d MB). Prøve igjen?</item>
-        <item quantity="one">Kunne ikke laste ned %1$d bilde (%2$d MB). Prøve igjen?</item>
+        <item quantity="other">Kunne ikke laste ned %1$d filer (%2$d MB). Prøve igjen?</item>
+        <item quantity="one">Kunne ikke laste ned %1$d fil (%2$d MB). Prøve igjen?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Hoppet over %d bilder som ikke er på enheten.</item>
@@ -396,77 +452,9 @@
         <item quantity="other">Fjernet %1$d bilder fra \"%2$s\".</item>
         <item quantity="one">Fjernet %1$d bilde fra \"%2$s\".</item>
     </plurals>
-    <plurals name="send_apk_dialog_desc">
-        <item quantity="other">%2$d installasjonspakker (%3$s) fra %1$s</item>
-        <item quantity="one">%2$d installasjonspakke (%3$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_received">
-        <item quantity="other">Mottok %2$d installasjonspakker (%3$s) fra %1$s</item>
-        <item quantity="one">Mottok %2$d installasjonspakke (%3$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d installasjonspakker (%3$s) fra %1$s…</item>
-        <item quantity="one">Mottar %2$d installasjonspakke (%3$s) fra %1$s…</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc">
-        <item quantity="other">%2$d lydfiler (%3$s) fra %1$s</item>
-        <item quantity="one">%2$d lydfil (%3$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_received">
-        <item quantity="other">Mottok %2$d lydfiler (%3$s) fra %1$s</item>
-        <item quantity="one">Mottok %2$d lydfil (%3$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d lydfiler (%3$s) fra %1$s…</item>
-        <item quantity="one">Mottar %2$d lydfil (%3$s) fra %1$s…</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc">
-        <item quantity="other">%2$d%3$s filer (%4$s) fra %1$s</item>
-        <item quantity="one">%2$d%3$s fil (%4$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_received">
-        <item quantity="other">Mottok %2$d%3$s filer (%4$s) fra %1$s</item>
-        <item quantity="one">Mottok %2$d%3$s fil (%4$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d%3$s filer (%4$s) fra %1$s…</item>
-        <item quantity="one">Mottar %2$d%3$s fil (%4$s) fra %1$s…</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc">
-        <item quantity="other">%2$d bilder fra %1$s</item>
-        <item quantity="one">%2$d bilde fra %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_received">
-        <item quantity="other">Mottok %2$d bilder fra %1$s</item>
-        <item quantity="one">Mottok %2$d bilde fra %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d bilder fra %1$s…</item>
-        <item quantity="one">Mottar %2$d bilde fra %1$s…</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc">
-        <item quantity="other">%2$d bilder og videoer fra %1$s</item>
-        <item quantity="one">%2$d bilde eller video fra %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_received">
-        <item quantity="other">Mottok %2$d bilder eller videoer fra %1$s</item>
-        <item quantity="one">Mottok %2$d bilde eller video fra %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d bilder eller videoer fra %1$s…</item>
-        <item quantity="one">Mottar %2$d bilde eller video fra %1$s…</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc">
-        <item quantity="other">%2$d filer fra %1$s</item>
-        <item quantity="one">%2$d fil fra %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_received">
-        <item quantity="other">Mottok %2$d filer fra %1$s</item>
-        <item quantity="one">Mottok %2$d fil fra %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d filer fra %1$s…</item>
-        <item quantity="one">Mottar %2$d fil fra %1$s…</item>
+    <plurals name="search_title_ai">
+        <item quantity="other">Fant %d elementer</item>
+        <item quantity="one">Fant %d element</item>
     </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Kunne ikke dele. Behandler fortsatt %d bilder…</item>
@@ -475,30 +463,6 @@
     <plurals name="send_too_many_files_error">
         <item quantity="other">Velg opptil %d elementer som skal sendes</item>
         <item quantity="one">Velg opptil %d element som skal sendes</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc">
-        <item quantity="other">%2$d videoer fra %1$s</item>
-        <item quantity="one">%2$d video fra %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_received">
-        <item quantity="other">Mottok %2$d videoer fra %1$s</item>
-        <item quantity="one">Mottok %2$d video fra %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d videoer fra %1$s…</item>
-        <item quantity="one">Mottar %2$d video fra %1$s…</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc">
-        <item quantity="other">%2$d arkiver (%3$s) fra %1$s</item>
-        <item quantity="one">%2$d arkiv (%3$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_received">
-        <item quantity="other">Mottok %2$d arkiver (%3$s) fra %1$s</item>
-        <item quantity="one">Mottok %2$d arkiv (%3$s) fra %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_receiving">
-        <item quantity="other">Mottar %2$d arkiver (%3$s) fra %1$s…</item>
-        <item quantity="one">Mottar %2$d arkiv (%3$s) fra %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">Lastet opp %d bilder</item>
@@ -671,6 +635,18 @@
     <plurals name="video_count_format">
         <item quantity="other">%1$d filer</item>
         <item quantity="one">%1$d fil</item>
+    </plurals>
+    <plurals name="video_editor_component_hint_text">
+        <item quantity="other">Velg %d videosegmenter</item>
+        <item quantity="one">Velg %d videosegment</item>
+    </plurals>
+    <plurals name="video_editor_component_imageview_content_description">
+        <item quantity="other">Videopor %1$d, venter på å legge til video på %2$s sekunder eller mer</item>
+        <item quantity="one">Videospor %1$d, venter på å legge til video på %2$s sekunder eller mer</item>
+    </plurals>
+    <plurals name="video_editor_component_next_step_disabled_content_description">
+        <item quantity="other">Legg til %d videoer til for å kunne fortsette</item>
+        <item quantity="one">Legg til %d video til for å kunne fortsette</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d videoer</item>

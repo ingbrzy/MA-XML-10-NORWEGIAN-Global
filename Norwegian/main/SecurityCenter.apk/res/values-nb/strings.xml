@@ -343,6 +343,9 @@
     <string name="app_manager_copy_pkg_to_clip">Kopiert til utklippstavle</string>
     <string name="app_manager_data_size">Brukerdata</string>
     <string name="app_manager_default_cleared">Tømt</string>
+    <string name="app_manager_default_close_summary">Ingen innstilte standarder</string>
+    <string name="app_manager_default_open_summary">Du har valgt å starte denne appen i standardmodus for enkelte handlinger.</string>
+    <string name="app_manager_default_open_title">Tøm standarder</string>
     <string name="app_manager_defaults_setting">Standardapp</string>
     <string name="app_manager_details_electric_title">Batteri</string>
     <string name="app_manager_details_storage_title">Lagring</string>
@@ -968,6 +971,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="card_main_private_space_summary">Å bruke Second space er som å ha 2 enheter</string>
     <string name="card_main_private_space_title">Andre område</string>
     <string name="card_main_sectool_title">Verktøy</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Adminstrer videoer</string>
     <string name="card_main_whatsappclean_title">WhatsApp-renser</string>
     <string name="card_main_xspace_action">Lag</string>
@@ -1337,6 +1341,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="dynamic_performance_optimization_title">Dynamisk ytelse</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_phone_num">Endre SIM-telefonnummer</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-post</string>
     <string name="empty" />
     <string name="empty_app">Ingen apper</string>
@@ -1414,7 +1419,9 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="exo_download_paused_for_wifi">Nedlastinger venter på Wi-FI-tilkobling</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -1601,6 +1608,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="fod_finger_notice_title">Plasser fingeren på skjermen</string>
     <string name="fod_finger_windows_tips">Verifiser fingeravtrykket ditt</string>
     <string name="fod_tips_split_screen_more_than_half">Tast inn passord</string>
+    <string name="fold_application_mode_name">App-layouter</string>
     <string name="forbid_autobright_summary">Automatisk lysstyrke vil slås av mens du spiller og vil gjenopprettes etter du er ferdig</string>
     <string name="forbid_autobright_title">Fiks skjermens lysstyrke</string>
     <string name="foreground_traffic">Forgrunn %s</string>
@@ -2122,7 +2130,7 @@ i spilløktene dine"</string>
     <string name="group_clipboard">Utklippstavle</string>
     <string name="group_connect_device">Sammenkobling</string>
     <string name="group_file">Filer og dokumenter</string>
-    <string name="group_file_less_t">Access files and media</string>
+    <string name="group_file_less_t">Få tilgang til filer og medier</string>
     <string name="group_head_data_ai_clipboard">Utklippstavlebeskyttelse</string>
     <string name="group_head_data_camera_desc">Deaktiver for å begrense kameratilgang for alle apper</string>
     <string name="group_head_data_clipboard_desc">Deaktiver for å begrense tilgang til utklippstavlen for alle apper</string>
@@ -2599,6 +2607,7 @@ Enheten din er %s raskere nå."</string>
     <string name="menu_text_license_manager">Tillatelser</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2607,6 +2616,7 @@ Enheten din er %s raskere nå."</string>
     <string name="menu_text_optimize_manage">Øk fart</string>
     <string name="menu_text_optimize_manage_1">Øk fart</string>
     <string name="menu_text_power_manager">Batteri</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Fjern fra unntak</string>
     <string name="menu_white">Legg til unntak</string>
     <string name="mi_ime_not_used">Bruk et tastatur autorisert av Xiaomi</string>
@@ -2715,6 +2725,7 @@ Enheten din er %s raskere nå."</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -3246,7 +3257,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_wireless_charging_special_stand_summary2">Monter enheten på stativet som fulgte med den trådløse laderen for best mulig laderesultat</string>
     <string name="pc_wireless_charging_special_stand_title">Bruk det medfølgende ladestativet</string>
     <string name="pc_wireless_handle_connected">Enhet tilkoblet</string>
-    <string name="pc_wireless_handle_title">Trådløst kamera-grep</string>
+    <string name="pc_wireless_handle_title">Kameragrep</string>
     <string name="pc_work_in_save_mode">Batterisparer</string>
     <string name="pc_work_in_super_save_mode">Ultrabatterisparer</string>
     <string name="pc_xiaoai_create_auto_task">Ny oppgave fra Mi AI</string>
@@ -3307,7 +3318,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="permission_group_camera">Denne tillatelsen lar apper bruke kameraet til å ta bilder og gjøre videoopptak.</string>
     <string name="permission_group_contact">Denne tillatelsen lar apper få tilgang til eller redigere kontakter, i tillegg til å vise appkontakter som er opprettet på denne enheten.</string>
     <string name="permission_group_file">Denne tillatelsen gir alle apper tilgang til alle filer som er lagret på denne enheten.</string>
-    <string name="permission_group_file_less_t">This permission allows apps to access photos, videos, audio, and other files stored on this device.</string>
+    <string name="permission_group_file_less_t">Denne tillatelsen gir alle apper tilgang til bilder, video, lyd og andre filer som er lagret på denne enheten.</string>
     <string name="permission_group_image_video">Denne tillatelsen gir alle apper tilgang til bilder og videoer som er lagret på denne enheten.</string>
     <string name="permission_group_location">Denne tillatelsen gir apper tilgang til posisjonsinformasjon via nettverk eller satellitt.</string>
     <string name="permission_group_microphone">Denne tillatelsen lar apper bruke mikrofonen til å gjøre lydopptak.</string>
@@ -3426,7 +3437,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pm_remember_choice">Husk valgene mine</string>
     <string name="pm_root_success_notification_infomation">Sørg for å kjenne farene forbundet med rottilgang</string>
     <string name="pm_root_success_notification_title">Tillatt rottilgang</string>
-    <string name="popular_action_anti_spam_title_global">Blokker anrop og meldinger</string>
+    <string name="popular_action_anti_spam_title_global">Blokker spamanrop</string>
     <string name="popular_action_app_lock_title_global">Beskytt apper med Applås</string>
     <string name="popular_action_card_title">Populære funksjoner</string>
     <string name="popular_action_first_aid_title_global">For nye brukere</string>
@@ -3482,6 +3493,11 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="power_center_dialog_msg_top">Når Batterisparer er aktivert, utføres følgende optimaliseringer:</string>
     <string name="power_center_hints_scan_danger_result">Du kan løse batteriproblemer nå</string>
     <string name="power_center_list_item_auto_brightness">Juster skjermens lysstyrke automatisk</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Slå av Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Avanserte innstillinger</string>
@@ -3794,6 +3810,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pref_normal_traffic_limit">Når dataplanen er brukt opp</string>
     <string name="pref_open_adjust_traffic">Oppdater databruk hver dag ved å bruke statistikk fra leverandøren din</string>
     <string name="pref_operator_not_set">Leverandøren er ikke valgt</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Når du overskrider dataplanen din</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_pkg_begin_date">Tilbakestillingsdato på bruk</string>
@@ -4094,6 +4111,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="privacy_using_record">Opptak av lyd</string>
     <string name="privacyapp_number_masked_text">Varselinnhold er skjult</string>
     <string name="privacyapp_number_unmasked_text">Varselinnhold kan ikke skjules</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_vpnsdkmanager_label">Spillturbo</string>
     <string name="promotion">Annonse</string>
@@ -5329,7 +5347,7 @@ Når du aktiverer én, deaktiveres den andre."</string>
     <string name="vb_video_effects_spatial_summary_new">Opplev en forbedret følelse av rom og retning for støttet lyd når du bruker hodetelefoner</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>
     <string name="vb_video_super_division">Oppskaler</string>
-    <string name="vb_video_super_division_desc">"Oppskaler oppløsningen automatisk når den er ≤ 720p.
+    <string name="vb_video_super_division_desc">"Oppskaler oppløsningen automatisk når den er ≤ 720P.
 
 Bruk av denne funksjonen øker strømforbruket.
 
@@ -5379,6 +5397,7 @@ Prøv å oppskalere oppløsningen!"</string>
     <string name="virus_update_tips_title">Advarsel</string>
     <string name="virus_wait_network_dialog_message">Telefonen din er ikke koblet til Wi-Fi nå. Bruke mobil dataforbindelse?</string>
     <string name="vtb_ai_subtitle">Undertekster</string>
+    <string name="vtb_ai_subtitle_intl">AI-undertekster</string>
     <string name="vtb_func_desc">Om denne funksjonen</string>
     <string name="vtb_func_display_style_desc0">KI kan gjenkjenne mennesker, dyr, planter, himmel, bygninger og andre gjenstander som er omtalt i videoer, og forbedre dem dynamisk.</string>
     <string name="vtb_func_display_style_desc1">Valgte effekter vil ikke brukes på HDR-videoer på valgte enheter.</string>

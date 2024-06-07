@@ -122,10 +122,14 @@ mm"</string>
     <string name="miuix_appcompat_action_mode_title_empty">Velg elementer</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mer</string>
     <string name="miuix_appcompat_cancel_description">Avbryt</string>
+    <string name="miuix_appcompat_cloud_state_disabled">Synkronisering med skyen er deaktivert</string>
+    <string name="miuix_appcompat_cloud_state_finished">Synkronisert med skyen</string>
+    <string name="miuix_appcompat_cloud_state_syncing">Synkroniserer med skyen…</string>
     <string name="miuix_appcompat_confirm_description">Bekreft</string>
     <string name="miuix_appcompat_delete_description">Slett</string>
     <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
+    <string name="miuix_appcompat_edit">Rediger</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
     <string name="miuix_appcompat_select_all">Velg alle</string>
@@ -139,6 +143,11 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det var alt for nå</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Et øyeblikk…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke laste inn elementer</string>
+    <string name="miuix_search_action_mode_cancel">Avbryt</string>
+    <string name="miuix_search_history_clear">Tøm søkehistorikk</string>
+    <string name="miuix_search_history_default_title">Søkehistorikk</string>
+    <string name="miuix_search_recommendation_default_title">Du er kanskje interessert i disse</string>
+    <string name="miuix_search_recommendation_item_del_des">Slett</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
@@ -361,6 +370,7 @@ mm"</string>
     <string name="saturday_shortest">Lør</string>
     <string name="search_menu_title">Søk</string>
     <string name="send">Send</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>

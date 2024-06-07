@@ -88,6 +88,7 @@ Se Innstillinger for mer informasjon."</string>
     <string name="fast_connect_device_battery">Batteri</string>
     <string name="fast_connect_device_box">Etui</string>
     <string name="fast_connect_device_box_name">%1$s Boks</string>
+    <string name="fast_connect_device_button_audio_share_fail">Skjønner</string>
     <string name="fast_connect_device_connect_cancel">Avbryt</string>
     <string name="fast_connect_device_connect_ok">Koble til</string>
     <string name="fast_connect_device_connect_retry">Prøv igjen</string>
@@ -96,6 +97,12 @@ Se Innstillinger for mer informasjon."</string>
     <string name="fast_connect_device_headset_l">Venstre</string>
     <string name="fast_connect_device_headset_r">Høyre</string>
     <string name="fast_connect_device_headset_reset">Trykk på og hold inne knappen på etuiet</string>
+    <string name="fast_connect_device_message_audio_share">Del lyden fra denne enheten med disse hodetelefonene</string>
+    <string name="fast_connect_device_replace_current_device">Bytt enhet</string>
+    <string name="fast_connect_device_start_audio_share">Del</string>
+    <string name="fast_connect_device_title_audio_share">Lytt sammen med %1$s</string>
+    <string name="fast_connect_device_title_audio_share_fail">Kunne ikke koble til %1$s. Prøv igjen.</string>
+    <string name="fast_connect_device_title_audio_share_success">Lytt sammen med %1$s</string>
     <string name="fast_connect_device_title_connect_fail">Kunne ikke koble til %1$s</string>
     <string name="fast_connect_device_title_connecting">Kobler til…</string>
     <string name="fast_connect_device_title_find_headset">Finn %1$s</string>

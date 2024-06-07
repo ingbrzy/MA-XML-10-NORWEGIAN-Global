@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="sleep_duration_hour_values">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="sleep_duration_minutes_values">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
     <plurals name="toast_channel_searched">
         <item quantity="other">%1$d stasjoner skannet</item>
         <item quantity="one">%1$d stasjon skannet</item>

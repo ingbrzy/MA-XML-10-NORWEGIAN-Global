@@ -87,6 +87,9 @@
     <string name="stations_list">Stasjonsliste</string>
     <string name="stations_list_empty">Ingen forhåndsinnstillinger</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="talkback_back">Gå tilbake</string>
+    <string name="talkback_close">Lukk</string>
+    <string name="talkback_speed">Hastighet</string>
     <string name="toast_added_to_list">Lagt til liste</string>
     <string name="toast_added_to_presets">Lagt til forhåndsinnstillinger</string>
     <string name="toast_fm_error_startfailed">Opptaksfeil. En annen app bruker muligens opptaksfunksjonen.</string>
@@ -99,7 +102,6 @@
     <string name="toast_sleep_mode">Radioen vil slutte å spille om %s</string>
     <string name="toast_sleep_mode_exit">Innsovningstimer er avbrutt</string>
     <string name="turn_off_fm">Skru av FM</string>
-    <string name="txt_divider">" | "</string>
     <string name="txt_sleep_mode">Dvalemodus</string>
     <string name="using_recorder_cancel">Avslå</string>
     <string name="using_recorder_confirm">Tillat</string>

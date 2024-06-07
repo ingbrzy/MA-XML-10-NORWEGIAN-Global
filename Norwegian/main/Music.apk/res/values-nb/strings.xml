@@ -79,6 +79,8 @@
     <string name="afternoon">Ettermiddag</string>
     <string name="agreement_desc">Brukeravtale (obligatorisk)</string>
     <string name="alaka_required">Du bør betale for å lytte til denne sangen</string>
+    <string name="alarm_clock_recommend_desc">Våkne til en ny sang hver dag</string>
+    <string name="alarm_clock_recommend_switch">Anbefalt sangalarm</string>
     <string name="alarm_clock_ringtones_successful">Alarmen er valgt</string>
     <string name="album_cover">Albumcover</string>
     <string name="album_is_empty">Albumnavn kan ikke være tomt.</string>
@@ -103,9 +105,9 @@
     <string name="app_disable_description_title">Deaktivere system-app?</string>
     <string name="app_notify_dialog_btn_desc">Innstillinger</string>
     <string name="app_notify_dialog_check_desc">Aktiver varslingsskyggewidgeten, men ikke tillat permanente varsler</string>
-    <string name="app_notify_dialog_path">Settings > Notifications &amp; status bar > App notifications > Music</string>
-    <string name="app_notify_dialog_path_10">Settings > Notifications &amp; status bar > App notifications > Music</string>
-    <string name="app_notify_dialog_path_8">Settings > Notifications &amp; status bar > App notifications > Music</string>
+    <string name="app_notify_dialog_path">Innstillinger > Varsel- og statuslinje > Appvarsler > Musikk</string>
+    <string name="app_notify_dialog_path_10">Innstillinger > Varsel- og statuslinje > Appvarsler > Musikk</string>
+    <string name="app_notify_dialog_path_8">Innstillinger > Varsel- og statuslinje > Appvarsler > Musikk</string>
     <string name="app_notify_dialog_subtitle">Aktiver varsler for Mi Music for å kunne kontrollere musikkavspilling i varslingsskyggen.</string>
     <string name="app_notify_dialog_title">Tillatelser kreves</string>
     <string name="app_permission_confirm">Skjønner</string>
@@ -123,7 +125,7 @@
     <string name="apply_for_the_following_permissions">Denne appen ber om følgende tillatelser:</string>
     <string name="apply_permissions_greater_than_pie">Du kan gi denne tillatelsen i Innstillinger > Apps > Tillatelser > Tillatelser > Filer og media > Musikk.</string>
     <string name="apply_permissions_greater_than_tiramisu">Du kan gi denne tillatelsen under Innstillinger > Apper > Tillatelser > Musikk og lyd / Bilder og videoer > Musikk.</string>
-    <string name="apply_permissions_less_than_pie">You can grant this permission in Settings > Apps > Permissions > Permissions > Access and change files on internal storage > Music.</string>
+    <string name="apply_permissions_less_than_pie">Denne tillatelsen kan du gi i Innstillinger > Apps > Tillatelser > Tillatelser > Tilgang til og endre filer på intern lagring > Musikk.</string>
     <string name="apply_permissions_tips_content">Gi denne appen tilgang til filer for å oppdage musikk på enheten din.</string>
     <string name="artist">Artister</string>
     <string name="artist_area_all">Alle</string>
@@ -138,15 +140,28 @@
     <string name="artist_home_search_hint">Søk etter artist</string>
     <string name="artist_is_empty">Artistnavn kan ikke være tom.</string>
     <string name="artist_name">Artist</string>
+    <string name="asm_account_exception">Det oppstod en kontofeil</string>
     <string name="asm_batch_download_failed">Kunne ikke laste ned</string>
     <string name="asm_buy_member_success">Kjøpte VIP-medlemskap</string>
+    <string name="asm_check_video_playing">Spiller av video. Kan ikke legge til elementer i spilleliste.</string>
+    <string name="asm_delete_all">Slett</string>
+    <string name="asm_delete_all_data">Slett alle data</string>
+    <string name="asm_delete_all_data_failed">Kan ikke slette data. Prøv igjen.</string>
+    <string name="asm_delete_all_data_loading">Et øyeblikk…</string>
+    <string name="asm_delete_all_data_no_net">Nettverkstilkobling kreves for å bekrefte identiteten din og slette data. Koble til nettverket og prøv igjen.</string>
+    <string name="asm_delete_all_data_success">Data slettet</string>
+    <string name="asm_delete_all_data_tips">"Hvis du fortsetter, slettes alle appdata, inkludert sanger, spillelister og leserlogg.
+Alle medlemsfordeler og betalte sanger slettes. Du blir ikke refundert for noe eksisterende medlemskap, men du blir ikke belastet igjen.
+Når du velger å slette alle data permanent, blir du logget av appen. Slett alle data nå?"</string>
+    <string name="asm_delete_data">Slett data</string>
+    <string name="asm_delete_data_local_and_online">Slett frakoblede data og data for strømmetjeneste</string>
     <string name="asm_dialog_title_tips">VIP-medlemskap</string>
     <string name="asm_dialog_vip_confirm_text">Registrer deg</string>
     <string name="asm_dialog_vip_message">Registrer deg for VIP-medlemskap for å kunne lytte til sanger i høy kvalitet og laste ned enda mer innhold.</string>
     <string name="asm_disable_song_click_tip">Denne sangen er ikke tilgjengelig på grunn av problemer med opphavsretten</string>
     <string name="asm_download_failed">Kunne ikke laste ned \"%1$s\"</string>
     <string name="asm_download_is_downloaded">Lastet ned sang</string>
-    <string name="asm_download_is_downloaded_hq">Downloaded in HQ</string>
+    <string name="asm_download_is_downloaded_hq">Lastet ned i høy kvalitet</string>
     <string name="asm_download_is_downloading">Laster ned…</string>
     <string name="asm_download_list_not_supported">Kan ikke laste ned enkelte av sangene på denne listen</string>
     <string name="asm_download_pending_status_msg">Forbereder nedlasting…</string>
@@ -155,7 +170,7 @@
     <string name="asm_fail_play_song">Kunne ikke laste ned sang</string>
     <string name="asm_google_connect_failed">Kunne ikke fullføre betaling. Sjekk at du er logget på Play Store.</string>
     <string name="asm_google_no_goods">Kunne ikke hente betalingsinformasjon</string>
-    <string name="asm_google_not_login">Sign in to Google Play and try again</string>
+    <string name="asm_google_not_login">Logg på Play Store og prøv igjen</string>
     <string name="asm_google_pay_success">Genererte Google Pay-ordre</string>
     <string name="asm_google_query_failed">Kunne ikke hente betalingsinformasjon</string>
     <string name="asm_google_service_failed">Kunne ikke starte Google-tjenester. Prøv igjen.</string>
@@ -165,9 +180,10 @@
     <string name="asm_network_error">Kontroller nettverksforbindelsen din</string>
     <string name="asm_new_song_title">Nye sanger</string>
     <string name="asm_no_need_download_songs">Sangen er i nedlastingskøen</string>
-    <string name="asm_no_network">"Couldn't connect to the network"</string>
+    <string name="asm_no_network">Kunne ikke koble til nettverket</string>
     <string name="asm_not_action_is_local_music">Kan ikke utføre denne handlingen på lokale filer</string>
     <string name="asm_notify_use_mobile_download">Last ned med mobildata</string>
+    <string name="asm_online_service_switch">Aktiver nettbaserte tjenester i appinnstillingene</string>
     <string name="asm_page_empty_search">Fant ikke resultater</string>
     <string name="asm_page_error_airplane">Skru av Flymodus for å kunne koble til</string>
     <string name="asm_page_error_data">Det oppstod en feil</string>
@@ -178,11 +194,11 @@
     <string name="asm_pay_order_generate">Genererer ordre…</string>
     <string name="asm_pay_order_generate_failed">Kunne ikke generere ordre</string>
     <string name="asm_pay_query_overtime">Forespørsel om betalingsstatus ble tidsavbrutt</string>
-    <string name="asm_privacy_desc">Personvernerklæring for Wansheng</string>
-    <string name="asm_privacy_tips_content">Godta <a href="/link/click">Wanshengs personvernerklæring</a> for å kunne bruke nettbaserte musikktjenester.</string>
-    <string name="asm_privacy_tips_title">Personvernerklæring for Wansheng</string>
+    <string name="asm_privacy_desc">Personvernerklæring for ASM</string>
+    <string name="asm_privacy_tips_content">Godta <a href="/link/click">ASMs personvernerklæring</a> for å kunne bruke nettbaserte musikktjenester.</string>
+    <string name="asm_privacy_tips_title">Personvernerklæring for ASM</string>
     <string name="asm_pro_center">Medlemskap</string>
-    <string name="asm_search_result_contain_music">Contains: \"%1$s\"</string>
+    <string name="asm_search_result_contain_music">Inneholder: \"%1$s\"</string>
     <string name="asm_song_err_connect">Kan ikke koble til serveren</string>
     <string name="asm_song_err_not_exist">Den forespurte lydkilden finnes ikke</string>
     <string name="asm_song_err_not_exist_clear">Sangen finnes ikke. Fjernet fra køen.</string>
@@ -196,7 +212,7 @@
     <string name="asm_toast_pay_failed">Kunne ikke fullføre betalingen</string>
     <string name="asm_unknow_album">Ukjent album</string>
     <string name="asm_unknow_artist">Ukjent artist</string>
-    <string name="audio_ad_countdown">Skip ad in %ss</string>
+    <string name="audio_ad_countdown">Hopp over annonse om %s s</string>
     <string name="audio_ad_pass">Hopp over annonse</string>
     <string name="audio_picker_title">Velg en sang</string>
     <string name="auto_play_switch">Automatisk avspilling av videoer</string>
@@ -207,12 +223,12 @@
     <string name="auto_update_tip">Du kan oppdatere systemapper ved å bruke mobildata. Dette kan generere ytterligere datakostnader.</string>
     <string name="autoplay_is_off">Automatisk avspilling er deaktivert</string>
     <string name="autoplay_is_on">Automatisk avspilling er aktivert</string>
-    <string name="available_playlist_name_format">New playlist %d</string>
-    <string name="avatar">Profile photo</string>
+    <string name="available_playlist_name_format">Ny spilleliste %d</string>
+    <string name="avatar">Profilbilde</string>
     <string name="avoid_to_use_traffic_summary">Ikke bruk mobilnettverk til å strømme musikk</string>
     <string name="avoid_to_use_traffic_title">Varsle når mobildata brukes til å spille sanger</string>
     <string name="back">Tilbake</string>
-    <string name="back_confirm">Tap again to exit</string>
+    <string name="back_confirm">Trykk igjen for å avslutte</string>
     <string name="best_experience">Beste opplevelse</string>
     <string name="billion_char">%s B</string>
     <string name="bluetooth_device">Bluetooth lydenhet</string>
@@ -368,6 +384,7 @@
     <string name="download_method">Last ned</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
     <string name="download_processing">Laster ned…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_song_quality_title">Kvalitet på nedlastede sanger</string>
@@ -384,13 +401,13 @@
     <string name="download_traffic_dialog_negative_button">Vent på Wi-Fi</string>
     <string name="download_traffic_dialog_position_button">Last ned</string>
     <string name="download_traffic_dialog_position_button_serious">Last fortsatt ned</string>
-    <string name="download_traffic_dialog_title">Data usage warning</string>
+    <string name="download_traffic_dialog_title">Advarsel om databruk</string>
     <string name="download_traffic_dialog_title_beyond">Databruken overskredet</string>
     <string name="download_traffic_dialog_title_serious">For lite mobildata igjen</string>
     <string name="download_while_playing_no_vip_summary">Laster automatisk ned sanger du strømmer på nett (bortsett fra betalt innhold)</string>
     <string name="download_while_playing_summary">Laster automatisk ned sanger du strømmer på nett</string>
     <string name="download_while_playing_title">Last ned under strømming</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Nedlastet</string>
     <string name="downloading_apk">Nedlasting… Se utviklingen i Meldingsskyggen.</string>
     <string name="downloading_pause_apk">Pauset. Nedlasting startes igjen i Meldingsskyggen.</string>
     <string name="due_date">Forfallsdato: %s</string>
@@ -463,7 +480,9 @@
     <string name="exo_media_action_repeat_all_description">Gjenta alle</string>
     <string name="exo_media_action_repeat_off_description">Ikke gjenta noen</string>
     <string name="exo_media_action_repeat_one_description">Gjenta én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -501,6 +520,19 @@
     <string name="favorite_tracks">Favoritter</string>
     <string name="favorites">Favoritter</string>
     <string name="feed_back">Tilbakemelding</string>
+    <string name="feed_back_ad_desc">Mi Musikk er en gratistjeneste som har annonser som hovedinntektskilde. Vi bruker annonseinntekter til å kontinuerlig forbedre funksjonene og tjenestene og utgi oppdateringer. Når det er mulig, vil vi redusere antall annonser for å gi deg en mer strømlinjeformet opplevelse.</string>
+    <string name="feed_back_ad_problem">Det er for mange annonser</string>
+    <string name="feed_back_button_text">Send tilbakemelding</string>
+    <string name="feed_back_button_toast">Tilbakemdling sendt</string>
+    <string name="feed_back_icon_problem">Jeg finner ikke Mi Music-ikonet</string>
+    <string name="feed_back_iconp_desc">Sørg for at du har gitt snarveien til Mi Musikk-startskjermen tillatelse til å vises i Innstillinger > Apper > Administrer startskjermsnarveier.</string>
+    <string name="feed_back_iconp_generate">Du kan også trykke nedenfor for å opprette en startskjermsnarvei for Mi Musikk.</string>
+    <string name="feed_back_iconp_text">Opprett snarvei</string>
+    <string name="feed_back_iconp_toast">Snarvei på startskjermen er opprettet</string>
+    <string name="feed_back_other">Send tilbakemelding</string>
+    <string name="feed_back_tab_disappear">\"Se\"-fanen har forsvunnet</string>
+    <string name="feed_back_tabd_desc">Hvis Se-fanen tidligere var synlig og nå er forsvunnet, må du koble til nettverket og starte appen på nytt.</string>
+    <string name="feed_back_title">Ofte stilte spørsmål og tilbakemeldinger</string>
     <string name="file_and_media_permissions_for_display">Adgang til filer: for skanning, visning og avspilling av lokale filer</string>
     <string name="file_not_found">Filen eksisterer ikke</string>
     <string name="filter_by_MP4">Vis mapper med MP4-filer</string>
@@ -579,7 +611,7 @@
     <string name="format_not_support">Dette formatet er ikke støttet.</string>
     <string name="format_unsupported_or_corrupted">Dette formatet er ikke støttet, eller filen er ødelagt</string>
     <string name="fragment_title_artist_album">Albumer</string>
-    <string name="free">Free</string>
+    <string name="free">Gratis</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -602,9 +634,9 @@
     <string name="hgm_failed_to_connect_hint">Sjekk nettverksinnstillingene og prøv igjen. Hvis problemet er en hungama-serverfeil, vil vi rette det opp så snart som mulig.</string>
     <string name="hgm_has_offline">Kan ikke spille av musikk levert av hungama</string>
     <string name="hgm_network_request_error_toast">Kunne ikke koble til Hungama-servere. Prøv igjen.</string>
-    <string name="hgm_vip_btn_desc">Start free trial</string>
-    <string name="hgm_vip_high_quality">High quality downloads</string>
-    <string name="hgm_vip_no_ads">No ads or limits</string>
+    <string name="hgm_vip_btn_desc">Start gratis prøveperiode</string>
+    <string name="hgm_vip_high_quality">Nedlastinger i høy kvalitet</string>
+    <string name="hgm_vip_no_ads">Uten reklame og begrensninger</string>
     <string name="hide_album">Skjul albumcover</string>
     <string name="hide_lyric">Skjul tekster</string>
     <string name="hide_or_add_songs_manually">Vis skjulte sanger</string>
@@ -617,7 +649,7 @@
     <string name="higher_quality_music">Høykvalitets lyd</string>
     <string name="higher_quality_music_summary">Strøm og last ned filer med høyere bitrate</string>
     <string name="hint_search_songs_playlists_artists">Søk etter sanger, spillelister og artister</string>
-    <string name="home_tab_home">Home</string>
+    <string name="home_tab_home">Start</string>
     <string name="home_tab_local">Min musikk</string>
     <string name="home_tab_more_music">Mer musikk</string>
     <string name="home_tab_online">Online musikk</string>
@@ -630,7 +662,7 @@
     <string name="hungama_batch_download_alert_summary_toast">Få et abonnement for å laste ned hele spillelisten.</string>
     <string name="hungama_download_subscription_toast">Abonner på hungama Music for å laste ned denne sangen</string>
     <string name="hungama_free_download_out_summary">Du kan ikke laste ned flere gratis sanger. Kjøpe Gold-medlemskap for å laste ned ubegrenset med sanger?</string>
-    <string name="hungama_free_download_out_summary_toast">"You've already downloaded %d songs. Get a subscription to download more."</string>
+    <string name="hungama_free_download_out_summary_toast">Du har allerede lastet ned %d sanger. Få et abonnement for å laste ned flere.</string>
     <string name="hungama_privacy_desc">Personvernerklæring for hungama (valgfritt)</string>
     <string name="hungama_privacy_tips_content">For å få tilgang til nettbasert innhold må du først godta <a href="/link/click">hungamas personvernerklæring</a>.</string>
     <string name="hungama_privacy_tips_title">Personvernerklæring for hungama</string>
@@ -640,7 +672,7 @@
     <string name="i_know">OK</string>
     <string name="icon_content_description">Dialogboksikon</string>
     <string name="imported">Importert</string>
-    <string name="impunity_declaration_content">You must read and agree with our &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=en\">User Agreement&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=en\">Privacy Policy&lt;/a> before using the product.</string>
+    <string name="impunity_declaration_content">Du må lese og godta &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=en\">brukeravtalen&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=en\">personvernerklæringen&lt;/a> før du bruker produktet.</string>
     <string name="impunity_declaration_ignore">Ikke vis igjen</string>
     <string name="impunity_declaration_negative_text">Avslutt</string>
     <string name="impunity_declaration_positive_text">Enig</string>
@@ -707,7 +739,7 @@
     <string name="jump_to_ytb_dialog_desc">Du skal til å avslutte Mi Musikk og åpne YouTube. Åpne YouTube nå?</string>
     <string name="jump_to_ytb_dialog_ok">Bekreft</string>
     <string name="jump_to_ytb_dialog_title">Avslutter Mi Musikk</string>
-    <string name="just_hit_next">Just hit next</string>
+    <string name="just_hit_next">Bare trykk på neste</string>
     <string name="ktv_playlist">KTV-spilliste</string>
     <string name="language_page_confirm">Bekreft</string>
     <string name="language_preference">Språkvalg</string>
@@ -740,15 +772,44 @@
     <string name="local_page_artist_more">Flere sanger av %s</string>
     <string name="local_page_playlist">Spillelister</string>
     <string name="local_page_song_download_history">Nedlastinger</string>
+    <string name="lock_screen_music_settings">Innstillinger for musikk på låseskjerm</string>
+    <string name="lock_screen_settings">Innstillinger for låseskjerm</string>
+    <string name="lock_screen_slide_up">Sveip opp for å låse opp</string>
+    <string name="lock_screen_switch">Muskk på låseskjerm</string>
     <string name="login_instantly">Logg inn</string>
     <string name="login_mi_account_and_gain_more_rights">Logg inn med Mi-kontoen din for å få tilgang til flere funksjoner.</string>
-    <string name="login_out_tip">"Can't sign out for now. You can clear all app data instead."</string>
+    <string name="login_out_tip">Kan ikke logge ut for øyeblikket. Du kan tømme alle appdata i stedet.</string>
     <string name="long_press_to_select_lyric">Press &amp; hold inne for å velge en lokal sangtekstfil</string>
     <string name="lots_of_songs_for_free">Lytt til millioner av sanger gratis</string>
     <string name="low_sound_quality">Lav</string>
     <string name="lrc_search_failed">Finner ikke tekst</string>
     <string name="lrc_searching">Søker…</string>
-    <string name="ludo_tab_guide">Check out our new Music rooms</string>
+    <string name="ludo_tab_guide">Sjekk våre nye musikkrom</string>
+    <string name="lyric_ai_apply_fail">Kunne ikke bruke. Prøv igjen.</string>
+    <string name="lyric_ai_button_text">AI-sangtekster</string>
+    <string name="lyric_ai_dialog_one">•Du kan trykke for å gjenkjenne sangteksten, så fyller vi den ut for deg ved hjelp av AI-stemmekjenkjenning.</string>
+    <string name="lyric_ai_dialog_three">•Du kan sjekke fremdriften i verktøyslinjen for sangtekster.</string>
+    <string name="lyric_ai_dialog_two">•Gjenkjenningen vil ta et par minutter. Når den er fullført, fylles sangteksten ut automatisk.</string>
+    <string name="lyric_ai_fail_toast">Filen er for stor til å kunne gjenkjennes</string>
+    <string name="lyric_ai_identify_success">Sangteksten ble gjenkjent</string>
+    <string name="lyric_ai_song">Aktuell sang</string>
+    <string name="lyric_ai_song_list">Sanger</string>
+    <string name="lyric_ai_state_apply">Bruker sangtekst</string>
+    <string name="lyric_ai_state_default">Sang ikke gjenkjent</string>
+    <string name="lyric_ai_state_fail">Kunne ikke gjenkjenne sangteksten</string>
+    <string name="lyric_ai_state_identify">Gjenkjenn</string>
+    <string name="lyric_ai_state_identifying">Et øyeblikk…</string>
+    <string name="lyric_ai_state_use">Bruk</string>
+    <string name="lyric_ai_title">AI-gjenkjenning av sangtekster</string>
+    <string name="lyric_feedback_inaccurate_timing">Sangteksten er ikke synkronisert</string>
+    <string name="lyric_feedback_lyrics_error">Hele sangens tekst er feil</string>
+    <string name="lyric_feedback_misspelling">Feilstavinger og trykkfeil</string>
+    <string name="lyric_feedback_other">Annet</string>
+    <string name="lyric_feedback_pure_music">Instrumental sang</string>
+    <string name="lyric_feedback_report_optimization">Send en rapport for å hjelpe oss med å optimalisere tjenestene</string>
+    <string name="lyric_feedback_submit">Send inn</string>
+    <string name="lyric_feedback_submit_success">Innsendt</string>
+    <string name="lyric_feedback_title">Fortell oss om problemet</string>
     <string name="lyric_is_empty">Ingen tekster tilgjengelig</string>
     <string name="lyric_label">Tekster</string>
     <string name="lyric_open_other_connect">Last ned tekst via mobilnettverkt</string>
@@ -773,7 +834,7 @@
     <string name="material_timepicker_select_time">Velg tidspunkt</string>
     <string name="material_timepicker_text_input_mode_description">Bytt til tekstinndatamodus for tidsinndata.</string>
     <string name="message_delete_playlist">Slett spilleliste %s?</string>
-    <string name="metered_alert">Data usage warning</string>
+    <string name="metered_alert">Advarsel om databruk</string>
     <string name="metered_alert_msg">Du bruker mobildata til å spille av sanger. Spille likevel?</string>
     <string name="metered_alert_msg_with_data">Du har %s mobildata igjen. Bruke mobildata til å spille sanger?</string>
     <string name="metered_allow">Spill</string>
@@ -809,6 +870,7 @@
     <string name="miuix_appcompat_delete_description">Slett</string>
     <string name="miuix_appcompat_deselect_all">Fjern alle valg</string>
     <string name="miuix_appcompat_deselect_all_description">Fjern alle valg</string>
+    <string name="miuix_appcompat_edit">Rediger</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Søk</string>
     <string name="miuix_appcompat_select_all">Velg alle</string>
@@ -881,6 +943,7 @@
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1009,7 +1072,6 @@
     <string name="online_apk_install_network_error">Kunne ikke koble til nettverket. Kontroller nettverksinnstillingene og prøv igjen.</string>
     <string name="online_apk_install_tips">Du må laste ned plug-in fra denne innholdstilbyderen én gang. Du kan få tilgang til sanger direkte neste gang.</string>
     <string name="online_list_delete_message">Alle nedlastede sanger i spillelisten vil bli slettet fra internminnet.</string>
-    <string name="online_playlist_category">Spillelister</string>
     <string name="online_recommend">Spilleliste</string>
     <string name="online_service_open_tip">Musikktjenester på nett er på</string>
     <string name="online_service_title">Internett-tjenester</string>
@@ -1018,18 +1080,19 @@
     <string name="online_switch_message">Å slå av internett-tjenester vil påvirke VIP-tjenester og anbefalinger. Slå av likevel?</string>
     <string name="online_switch_setting">Online innholdsinnstillinger</string>
     <string name="only_pro_can_choose_hd_sound_quality">HD-lyd er bare tilgjengelig for Gold-medlemmer</string>
+    <string name="open_alarm_clock_recommend_switch">Anbefalt sangalarm</string>
     <string name="open_online_service">Du må skru på internett-tjenester for å bruke denne funksjonen. Skru på nå?</string>
     <string name="open_service">Skru på</string>
     <string name="operation_done_close">Lukk</string>
     <string name="other_song_in_album">Andre sanger fra dette albumet</string>
-    <string name="party">Party</string>
+    <string name="party">Fest</string>
     <string name="passport_access_denied">Tilgang avslått</string>
     <string name="passport_account_crop_user_avatar">Beskjær bilde</string>
     <string name="passport_account_empty_user_name">Fyll inn navnet ditt</string>
     <string name="passport_account_error_all_space_user_name">Navn kan ikke inneholde bare mellomromstegn</string>
     <string name="passport_account_error_invalid_user_name">Navn kan ikke inneholde &lt;, > eller /</string>
-    <string name="passport_account_error_longer_user_name">"Name can't be longer than %d characters"</string>
-    <string name="passport_account_error_shorter_user_name">Name must be longer than %d characters</string>
+    <string name="passport_account_error_longer_user_name">Navnet kan ikke inneholde mer enn %d tegn</string>
+    <string name="passport_account_error_shorter_user_name">Navnet må inneholde mer enn %d tegn</string>
     <string name="passport_account_error_user_name">Dette kallenavnet er ugyldig. Prøv med et annet.</string>
     <string name="passport_account_invalid_user_avatar">Dette bildet er ugyldig. Prøv med et annet.</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -1053,9 +1116,8 @@
     <string name="passport_agree">Enig</string>
     <string name="passport_area_code_title">Retningsnummer</string>
     <string name="passport_attention">Merk</string>
-    <string name="passport_auth_fail_warning">Økt utløpt. Logg inn på nytt.</string>
     <string name="passport_back">Tilbake</string>
-    <string name="passport_bad_authentication">Ugyldig brukernavn og passord</string>
+    <string name="passport_bad_authentication">Ugyldig brukernavn eller passord</string>
     <string name="passport_can_not_recevie_verify_code">Fikk du ingen kode?</string>
     <string name="passport_change_password">Endre passord</string>
     <string name="passport_check_security">Ser etter sikkerhetsproblemer…</string>
@@ -1075,11 +1137,9 @@
     <string name="passport_doing_query_account">Kontrollerer kontoinformasjon…</string>
     <string name="passport_error_auth_fail">Økten er utløpt. Logg inn på nytt.</string>
     <string name="passport_error_device_id">Kan ikke hente enhetens ID</string>
-    <string name="passport_error_dup_binded_email">Denne e-postadressen er allerede knyttet til en annen Mi-konto.</string>
     <string name="passport_error_empty_password">Angi passord</string>
     <string name="passport_error_empty_pwd">Passordet kan ikke være tomt</string>
     <string name="passport_error_empty_user_id">Angi brukernavn</string>
-    <string name="passport_error_invalid_bind_address">E-postadressen du skrev inn er ikke gyldig.</string>
     <string name="passport_error_length_limit">Teksten du anga er for lang</string>
     <string name="passport_error_network">Kan ikke koble til nettverket</string>
     <string name="passport_error_no_password_user">Du har ikke valgt passord enda. Logg på med SMS.</string>
@@ -1095,17 +1155,14 @@
     <string name="passport_error_unknown">Ukjent feil</string>
     <string name="passport_error_user_name">Brukernavnet du har angitt er ugyldig</string>
     <string name="passport_error_user_password">Passordene samsvarer ikke</string>
-    <string name="passport_exceed_binded_phone_times_notice">Dette telefonnummeret er allerede knyttet til en annen Mi-konto.</string>
     <string name="passport_facebook_login_btn_content_description">Logg inn med Facebook</string>
     <string name="passport_frequency_try_later">For mange forsøk. Vent et minutt eller to og prøv igjen.</string>
     <string name="passport_get_login_type_next">Neste</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">For mange bekreftelseskoder har blitt sendt til dette nummeret. Vent 24 timer og prøv igjen.</string>
     <string name="passport_google_login_btn_content_description">Logg inn med Google</string>
     <string name="passport_help">Hjelp</string>
     <string name="passport_i_know">Skjønner</string>
     <string name="passport_identification_expired">Bekreftelseskoden er utløpt. Prøv igjen.</string>
     <string name="passport_input_captcha_hint">Angi kode</string>
-    <string name="passport_input_email_address_notice">Vi bruker denne e-posten til å bekrefte kontoen din</string>
     <string name="passport_input_password_hint">Tast inn passord</string>
     <string name="passport_input_phone_number_hint">Skriv inn telefonnummer</string>
     <string name="passport_input_verify_code">Tast inn bekreftelseskode</string>
@@ -1146,39 +1203,35 @@
     <string name="passport_request_error_network">En nettverksfeil oppstod. Sjekk dine nettverksinnstillinger og prøv igjen.</string>
     <string name="passport_request_error_unknown">Det oppstod en systemfeil. Gå tilbake og prøv igjen.</string>
     <string name="passport_request_gallery_permission_message">Gi tilgang til Galleri:&lt;br />For å angi profilbilder</string>
-    <string name="passport_resend_email_reach_limit_message">Du har bedt om for mange e-poster for bekreftelse. Kontroller at e-post for bekreftelse ikke har havnet i innboksens søppelpostmappe.</string>
-    <string name="passport_resend_email_reach_limit_title">For mange forsøk</string>
     <string name="passport_resend_ticket">Send koden på nytt</string>
     <string name="passport_retry">Prøv igjen</string>
-    <string name="passport_same_new_and_old_pwd">Kan ikke være det samme som det nåværende passordet</string>
     <string name="passport_send_sms_to">Kode sendt til %1$s</string>
     <string name="passport_send_too_many_code">For mange bekreftelseskoder har blitt sendt til dette nummeret. Vent 24 timer og prøv igjen.</string>
     <string name="passport_sending_vcode">Sender kode…</string>
-    <string name="passport_service_error">Serverfeil</string>
     <string name="passport_set_password_no_phone_msg">Legg til telefonnummer for å beskytte kontoen din.</string>
     <string name="passport_skip_query_account">Hopp over</string>
-    <string name="passport_sns_access_token_expired_warning">Økten er utløpt. Logg inn på nytt for å koble til kontoen på nytt.</string>
     <string name="passport_sns_bind_limit">For mange forsøk. Prøv andre måter å logge inn på.</string>
     <string name="passport_system_error">Systemet er opptatt. Vent et minutt eller to og prøv igjen.</string>
     <string name="passport_talkback_image_captcha">Bildebekreftelseskode</string>
     <string name="passport_talkback_switch_image_captcha">Bytt til bildebekreftelseskode</string>
     <string name="passport_talkback_switch_voice_captcha">Bytt til talebekreftelseskode</string>
     <string name="passport_talkback_voice_captcha">Spill av talebekreftelseskode</string>
+    <string name="passport_third_sns_service_unavailable">Tjenesten er utilgjengelig. Sjekk at appen er installert og ikke blokkert.</string>
     <string name="passport_ticket_send_by_second">Send om %d</string>
     <string name="passport_to_forget_password">Glemt passord?</string>
     <string name="passport_to_password_login">Logg på med passord</string>
     <string name="passport_to_verify_code_login">Logg på med SMS</string>
     <string name="passport_unknown_error">Ukjent feil</string>
     <string name="passport_unknown_host_network_error">Sjekk nettverksinnstillingene dine og prøv igjen</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> samt Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a> samt &lt;a href=%5$s>vilkår for verifiseringstjenester fra China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a> samt &lt;a href=%5$s>vilkår for kontoverifiseringstjenester fra eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a> samt &lt;a href=%5$s>vilkår for verifiseringstjenester fra China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a> samt Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a> samt &lt;a href=%5$s>vilkår for verifiseringstjenester fra China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a> samt &lt;a href=%5$s>vilkår for kontoverifiseringstjenester fra eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Jeg har lest og godtar &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personvernerklæringen&lt;/a>, Mi-konto sin &lt;a href=%3$s>brukeravtale&lt;/a> og &lt;a href=%4$s>personvernerklæring&lt;/a> samt &lt;a href=%5$s>vilkår for verifiseringstjenester fra China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a>.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Vi oppretter en konto automatisk hvis du bruker telefonnummeret ditt for første gang.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a> samt &lt;a href=%3$s>vilkår for verifiseringstjenester fra China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a> samt &lt;a href=%3$s>vilkår for kontoverifiseringstjenester fra eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a> samt &lt;a href=%3$s>vilkår for verifiseringstjenester fra China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a> samt &lt;a href=%3$s>vilkår for verifiseringstjenester fra China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a> samt &lt;a href=%3$s>vilkår for kontoverifiseringstjenester fra eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Jeg har lest og godtar Mi-konto sin &lt;a href=%1$s>brukeravtale&lt;/a> og &lt;a href=%2$s>personvernerklæring&lt;/a> samt &lt;a href=%3$s>vilkår for verifiseringstjenester fra China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Endre profilbilde</string>
     <string name="passport_user_avatar_uploading">Et øyeblikk…</string>
     <string name="passport_user_id_hint">E-post/telefonnummer/Mi-kontoidentifikasjon</string>
@@ -1217,6 +1270,21 @@
     <string name="play_setting">Avspilling</string>
     <string name="play_video_with_traffic">FORTSETT</string>
     <string name="play_video_with_traffic_toast">Du bruker mobildata nå.</string>
+    <string name="playerui_lyric_dialog_cancel">Nei</string>
+    <string name="playerui_lyric_dialog_hint">Jeg gir Mi Musikk tillatelse til å få tilgang til lydfiler for optimaliseringsformål</string>
+    <string name="playerui_lyric_dialog_ok">Ja</string>
+    <string name="playerui_lyric_dialog_title">Stemmer denne teksten?</string>
+    <string name="playerui_lyric_edit_hint">Trykk her for å redigere tekst</string>
+    <string name="playerui_lyric_fun_edit">Rediger tekst</string>
+    <string name="playerui_lyric_fun_font">Tekststørrelse</string>
+    <string name="playerui_lyric_fun_history">Teksthistorikk</string>
+    <string name="playerui_lyric_fun_research">Søk igjen</string>
+    <string name="playerui_lyric_searching">Søker…</string>
+    <string name="playerui_lyric_selected">Bruk denne teksten</string>
+    <string name="playerui_song_dialog_cancel">Ikke tillat</string>
+    <string name="playerui_song_dialog_hint">Mer nøyaktig tekst er ikke tilgjengelig for øyeblikket. Du kan hjelpe oss ved å gi Mi Musikk tilgang til denne lydfilen for optimaliseringsformål. Gi tilgang nå?</string>
+    <string name="playerui_song_dialog_ok">Tillat</string>
+    <string name="playerui_song_dialog_title">Gi tilgang til lydfil</string>
     <string name="playlist_empty">Ingen spillelister funnet</string>
     <string name="playlist_title">Navn på spillelisten</string>
     <string name="playlist_title_is_empty">Navnet på spillelisten kan ikke stå tomt</string>
@@ -1241,9 +1309,11 @@
     <string name="privacy_authorize_revoking">Tilbakekaller autorisasjonen…</string>
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernerklæring</string>
-    <string name="privacy_request_desc">"&lt;Data>Mi Music needs to collect necessary personal information to provide you with online streaming services. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy of Mi Music in the Settings at any time.
-Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using Mi Music.
-If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you.&lt;/Data>"</string>
+    <string name="privacy_policy_title_asm">All verdens musikk for dine føtter</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
+    <string name="privacy_request_desc"><Data>"Mi Music må innhente de nødvendige personopplysningene for å kunne levere elektroniske strømmetjenester til deg. Du kan lese om hvordan vi behandler opplysningene vi innhenter i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Mi Music under Innstillinger.
+Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> før du bruker Mi Music.
+Hvis du ikke samtykker til å bruke de ovennevnte tjenestene, kan du ikke bruke enkelte av funksjonene i denne appen. De grunnleggende funksjonene vil fortsatt være tilgjengelige."</Data></string>
     <string name="privacy_request_subtitle">"Velkommen til Mi Music! Denne appen gir deg følgende tjenester:
 – En lokal lydavspiller
 – Strømmetjenester på nett"</string>
@@ -1256,10 +1326,10 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="pulluprefreshrecyclerview_loading_finished">Vellykket lastet</string>
     <string name="pulluprefreshrecyclerview_loading_running">Laster…</string>
     <string name="queue_is_empty">Avspillingskøen er tom.</string>
-    <string name="read_and_agree_asm_protocol">&lt;Data>Read and agree to the &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Wansheng Privacy Policy&lt;/a>&lt;/font> to be able to use online music services.&lt;/Data></string>
-    <string name="read_and_agree_hungama_protocol">"&lt;Data>I've read and agreed to the &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">hungama Privacy Policy&lt;/a>&lt;/font>&lt;/Data>"</string>
-    <string name="read_and_agree_joox_protocol">"&lt;Data>I've read and agreed to the &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">JOOX Privacy Policy&lt;/a>&lt;/font>&lt;/Data>"</string>
-    <string name="read_and_agree_mi_protocol">"&lt;Data>I've read and agreed to the Xiaomi &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">User Agreement&lt;/a>&lt;/font> and &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">Privacy Policy&lt;/a>&lt;/font>&lt;/Data>"</string>
+    <string name="read_and_agree_asm_protocol"><Data>Les og godta &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">ASMs personvernerklæring&lt;/a>&lt;/font> for å kunne bruke nettbaserte musikktjenester.</Data></string>
+    <string name="read_and_agree_hungama_protocol"><Data>Jeg har lest og godtar &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">hungamas personvernerklæring&lt;/a>&lt;/font></Data></string>
+    <string name="read_and_agree_joox_protocol"><Data>"Jeg har lest og godtar &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">JOOX' personvernerklæring&lt;/a>&lt;/font>"</Data></string>
+    <string name="read_and_agree_mi_protocol"><Data>Jeg har lest og godtar Xiaomis &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">brukeravtale&lt;/a>&lt;/font> og &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">personvernerklæring&lt;/a>&lt;/font></Data></string>
     <string name="read_and_agree_protocol">Les og godta brukeravtalen og personvernerklæringen før du fortsetter.</string>
     <string name="ready_to_play">Neste</string>
     <string name="recently_played">Nylig spilt</string>
@@ -1320,7 +1390,7 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="see_more_videos">Flere videoer</string>
     <string name="select">Velg</string>
     <string name="select_all">Velg alle</string>
-    <string name="select_clip_desc">Select a clip from the song</string>
+    <string name="select_clip_desc">Velg et klipp fra sangen</string>
     <string name="select_desc_sub">Du kan velge opptil %d språk</string>
     <string name="select_device">Velg enhet</string>
     <string name="select_displayed_folders">Velg mapper å vise</string>
@@ -1336,7 +1406,7 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="send_to_title">Send til (%1$s)</string>
     <string name="service_and_settings">Service og innstillinger</string>
     <string name="set_as_alarm_clock_ringtone">Alarm</string>
-    <string name="set_as_ring">Establir com a to de trucada</string>
+    <string name="set_as_ring">Satt som ringetone</string>
     <string name="set_online_home_subtitle">Åpne anbefalinger på nett når appen starter</string>
     <string name="set_online_home_title">Vis anbefalinger på nett ved oppstart</string>
     <string name="set_ringtones_failed">Kunne ikke sette ringetone</string>
@@ -1417,9 +1487,10 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Forbereder avspilling…</string>
     <string name="start_update">Installerer ny versjon…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_space_permissions_for_display">Adgang til enhetens lagringsplass: for skanning, visning og avspilling av lokale filer</string>
-    <string name="streamloadingtext">Connecting to %s</string>
+    <string name="streamloadingtext">Kobler til %s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
@@ -1432,7 +1503,7 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="tab_artist">Artister</string>
     <string name="tab_artist_list">Artister</string>
     <string name="tab_chart">Lister</string>
-    <string name="tab_flow">Watch</string>
+    <string name="tab_flow">Klokke</string>
     <string name="tab_folder">Mapper</string>
     <string name="tab_playlist">Spillelister</string>
     <string name="tab_top_results">Toppresultat</string>
@@ -1460,9 +1531,9 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="talkback_pre">Forrige sang</string>
     <string name="talkback_search">Søk</string>
     <string name="talkback_show_navigation_draw">Vis skuffen</string>
-    <string name="task_card_button_exchange">Redeem</string>
-    <string name="task_card_message_received_successfully">"You've completed today's tasks. Redeem your coins now!"</string>
-    <string name="task_card_title_received_successfully">Claimed successfully</string>
+    <string name="task_card_button_exchange">Løs inn</string>
+    <string name="task_card_message_received_successfully">Du har fullført dagens oppgaver. Løs inn myntene dine nå!</string>
+    <string name="task_card_title_received_successfully">Innløst</string>
     <string name="telephone_permissions_for_push">Anropstillatelser: for å kunne levere pushvarsler fra Google</string>
     <string name="terms_of_service">Vilkår for bruk</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen for heving av unntakstilstand</string>
@@ -1553,6 +1624,7 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="today">I dag</string>
     <string name="today_hot_playlist">Dagens mest populære spilleliste</string>
     <string name="tomorrow">I morgen</string>
+    <string name="tools_settings">Verktøyinnstillinger</string>
     <string name="top_chart_title">Lister</string>
     <string name="track_play_history_after_login">Logg inn for å se avspillingshistorikk</string>
     <string name="tuesday">Tirsdag</string>
@@ -1563,7 +1635,7 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="unknown_artist_name">Ukjent artist</string>
     <string name="unlimited_downloads">Ubegrensede nedlastinger</string>
     <string name="unlimited_offline_songs">Ubegrensede frakoblede sanger</string>
-    <string name="unlimited_skips">Unlimited skips</string>
+    <string name="unlimited_skips">Hopp over låter når du vil</string>
     <string name="update_now">OPPDATER NÅ</string>
     <string name="upgrade_music">Oppdater Music</string>
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
@@ -1576,10 +1648,11 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="upload_playlist_to_hungama_title">Synkroniser sanger på nett til hungama for å få tilgang til dem på andre enheter der du bruker Mi-kontoen din.</string>
     <string name="upload_playlist_to_hungama_toast">Sanger på nett synkroniseres til hungama</string>
     <string name="user_agreement">Brukeravtale</string>
-    <string name="user_experience_program_open">Due to copyright restrictions, you need to enroll in the User Experience Program to be able to play downloaded songs. You can do this in Settings > Passwords &amp; security > Privacy > Enroll in User Experience Program.</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
+    <string name="user_experience_program_open">På grunn av opphavsrettsbegrensninger må du registrere deg i Brukeropplevelsesprogrammet for å kunne spille av nedlastede sanger. Det kan du gjøre i Innstillinger > Passord og sikkerhet > Personvern > Registrer deg i Brukeropplevelsesprogrammet.</string>
     <string name="user_playlist_plaza">Spillelister</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>
-    <string name="user_privacy_dialog_positive_count_down_text">Withdraw (%ss)</string>
+    <string name="user_privacy_dialog_positive_count_down_text">Trekk tilbake (%ss)</string>
     <string name="user_privacy_dialog_positive_text">Tilbakekall</string>
     <string name="user_privacy_setting_group_title">Tilbakekalling av samtykke</string>
     <string name="user_privacy_setting_title">Ved å skru bryteren av trekker du tilbake samtykket ditt til personvernerklæringen for Mi Music.</string>
@@ -1644,10 +1717,11 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="youtube_store_dialog_desc">Her finner du nettbaserte videoer du har lagt til som favoritter. Hvis en video har blitt lastet inn før, trenger du ikke å bruke mobildata for å se den igjen neste gang.</string>
     <string name="youtube_store_dialog_ok">Skjønner</string>
     <string name="youtube_tab_explore">Oppdag</string>
-    <string name="youtube_tab_playlist">Playlists</string>
+    <string name="youtube_tab_playlist">Spillelister</string>
     <string name="youtube_tab_popular">Populært</string>
     <string name="youtube_tab_radar">Radar</string>
     <string name="youtube_tab_shorts">Snutter</string>
     <string name="youtube_tab_tiktok">TikTok</string>
     <string name="youtube_tab_trend">Trender</string>
+    <string name="ytb_turn_on_sound">Trykk for å slå på lyd</string>
 </resources>

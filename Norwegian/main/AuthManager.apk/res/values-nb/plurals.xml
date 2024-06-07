@@ -36,10 +36,6 @@
         <item quantity="other">%d min siden</item>
         <item quantity="one">%d min siden</item>
     </plurals>
-    <plurals name="clipboard_read_ai_deny_more">
-        <item quantity="other">Blokkerte %2$d forsøk på å få tilgang til utklippstavlen for %1$s</item>
-        <item quantity="one">Blokkerte %2$d forsøk på å få tilgang til utklippstavlen for %1$s</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>

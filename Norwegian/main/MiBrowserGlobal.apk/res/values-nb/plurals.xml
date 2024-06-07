@@ -48,10 +48,6 @@
         <item quantity="other">Blokkert %d annonser så langt</item>
         <item quantity="one">Blokkert %d annonse så langt</item>
     </plurals>
-    <plurals name="antivirus_desc_not_scanned_virus_in_days">
-        <item quantity="other">Ikke skannet på %d dager</item>
-        <item quantity="one">Ikke skannet på %d dag</item>
-    </plurals>
     <plurals name="articles_updated_amount">
         <item quantity="other">Sjekk ut %1$d nye artikler</item>
         <item quantity="one">Sjekk ut %1$d ny artikkel</item>
@@ -59,18 +55,6 @@
     <plurals name="auto_play_next_tips">
         <item quantity="other">Spiller av neste video om %d sekunder</item>
         <item quantity="one">Spiller av neste video om %d sekund</item>
-    </plurals>
-    <plurals name="back_dialog_antivirus_content_des">
-        <item quantity="other">Du har ikke skannet enheten din på %d dager. Skanne nå?</item>
-        <item quantity="one">Du har ikke skannet enheten din på %d dag. Skanne nå?</item>
-    </plurals>
-    <plurals name="back_dialog_day">
-        <item quantity="other">dager</item>
-        <item quantity="one">dag</item>
-    </plurals>
-    <plurals name="back_dialog_health_check_content_des">
-        <item quantity="other">Du har ikke optimalisert enheten din på %d dager. Optimalisere nå?</item>
-        <item quantity="one">Du har ikke optimalisert enheten din på %d dag. Optimalisere nå?</item>
     </plurals>
     <plurals name="count_likes">
         <item quantity="other">%s liker</item>
@@ -116,10 +100,6 @@
         <item quantity="other">%d følgere</item>
         <item quantity="one">%d følger</item>
     </plurals>
-    <plurals name="hour">
-        <item quantity="other">%d t</item>
-        <item quantity="one">%d t</item>
-    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">%1$d timer siden</item>
         <item quantity="one">%1$d time siden</item>
@@ -148,6 +128,10 @@
         <item quantity="other">Beskyttet %d ganger</item>
         <item quantity="one">Beskyttet %d gang</item>
     </plurals>
+    <plurals name="kindred_coupons_hint">
+        <item quantity="other">Du har %d kuponger</item>
+        <item quantity="one">Du har %d kupong</item>
+    </plurals>
     <plurals name="le_notification_download_completed">
         <item quantity="other">Lastet ned %1$s elementer</item>
         <item quantity="one">Lastet ned %1$s element</item>
@@ -159,10 +143,6 @@
     <plurals name="mins_ago">
         <item quantity="other">%1$d minutter siden</item>
         <item quantity="one">%1$d minutt siden</item>
-    </plurals>
-    <plurals name="minute">
-        <item quantity="other">%d min</item>
-        <item quantity="one">%d min</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d elementer valgt</item>
