@@ -384,7 +384,6 @@ Når du velger å slette alle data permanent, blir du logget av appen. Slett all
     <string name="download_method">Last ned</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
     <string name="download_processing">Laster ned…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
     <string name="download_song_quality_title">Kvalitet på nedlastede sanger</string>
@@ -480,9 +479,7 @@ Når du velger å slette alle data permanent, blir du logget av appen. Slett all
     <string name="exo_media_action_repeat_all_description">Gjenta alle</string>
     <string name="exo_media_action_repeat_off_description">Ikke gjenta noen</string>
     <string name="exo_media_action_repeat_one_description">Gjenta én</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -943,7 +940,6 @@ Når du velger å slette alle data permanent, blir du logget av appen. Slett all
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1310,7 +1306,6 @@ Når du velger å slette alle data permanent, blir du logget av appen. Slett all
     <string name="privacy_desc">Personvernerklæring (obligatorisk)</string>
     <string name="privacy_policy">Personvernerklæring</string>
     <string name="privacy_policy_title_asm">All verdens musikk for dine føtter</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=nb_NO</string>
     <string name="privacy_request_desc"><Data>"Mi Music må innhente de nødvendige personopplysningene for å kunne levere elektroniske strømmetjenester til deg. Du kan lese om hvordan vi behandler opplysningene vi innhenter i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen for Mi Music under Innstillinger.
 Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> før du bruker Mi Music.
 Hvis du ikke samtykker til å bruke de ovennevnte tjenestene, kan du ikke bruke enkelte av funksjonene i denne appen. De grunnleggende funksjonene vil fortsatt være tilgjengelige."</Data></string>
@@ -1487,7 +1482,6 @@ Hvis du ikke samtykker til å bruke de ovennevnte tjenestene, kan du ikke bruke 
     <string name="start_to_download">Laster ned…</string>
     <string name="start_to_play">Forbereder avspilling…</string>
     <string name="start_update">Installerer ny versjon…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lagring for doble apper</string>
     <string name="storage_space_permissions_for_display">Adgang til enhetens lagringsplass: for skanning, visning og avspilling av lokale filer</string>
     <string name="streamloadingtext">Kobler til %s</string>
@@ -1648,7 +1642,6 @@ Hvis du ikke samtykker til å bruke de ovennevnte tjenestene, kan du ikke bruke 
     <string name="upload_playlist_to_hungama_title">Synkroniser sanger på nett til hungama for å få tilgang til dem på andre enheter der du bruker Mi-kontoen din.</string>
     <string name="upload_playlist_to_hungama_toast">Sanger på nett synkroniseres til hungama</string>
     <string name="user_agreement">Brukeravtale</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=nb_NO</string>
     <string name="user_experience_program_open">På grunn av opphavsrettsbegrensninger må du registrere deg i Brukeropplevelsesprogrammet for å kunne spille av nedlastede sanger. Det kan du gjøre i Innstillinger > Passord og sikkerhet > Personvern > Registrer deg i Brukeropplevelsesprogrammet.</string>
     <string name="user_playlist_plaza">Spillelister</string>
     <string name="user_privacy_dialog_negative_text">Avbryt</string>

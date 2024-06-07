@@ -253,9 +253,7 @@
     <string name="exo_download_paused_for_wifi">Nedlastinger venter på Wi-FI-tilkobling</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Teksting</string>
     <string name="exo_track_role_commentary">Kommentarer</string>
@@ -397,7 +395,6 @@
     <string name="incompatible_dialog_ok">Skjønner</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Setter bakgrunn…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbakeringstone</string>
     <string name="item_resource_audio_optional_notification_ring">Varsler</string>
@@ -568,7 +565,6 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Velg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -840,7 +836,6 @@ mm"</string>
     <string name="resource_pack_price_info">Opprinnelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerde kjøpt %1$d-komponenter i dette temaet. Det er billigere hvis du kjøper de resterende komponentene hver for seg.</string>
     <string name="resource_present">Gave</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi-kreditter</string>
     <string name="resource_purchase_common_error">Det oppsto en feil. Prøv igjen</string>
@@ -978,7 +973,6 @@ mm"</string>
     <string name="somatosensory_temperature_format">Føles som %s°</string>
     <string name="special_topic">Kategorier</string>
     <string name="start_all">Gjenoppta alle</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_apply">Bruk</string>
     <string name="storage_file">For å lagre nedlastede elementer</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -1111,7 +1105,6 @@ mm"</string>
     <string name="theme_is_external_priority_storage">Lagre til SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Themes-appen omstarter umiddelbart etter denne innstillingen godkjennes.</string>
     <string name="theme_multiple_button_title_customize">Tilpass</string>
-    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nei</string>
     <string name="theme_on_the_phone_alert">Kan ikke spille under anrop</string>
     <string name="theme_recommend">Lignende temaer</string>
